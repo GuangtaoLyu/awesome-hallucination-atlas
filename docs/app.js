@@ -1,4 +1,4 @@
-/* Awesome Hallucination in MLLM — interactive app (bilingual: zh / en) */
+/* Awesome Hallucination Atlas — interactive app (bilingual: zh / en) */
 (function () {
   "use strict";
 
@@ -12,13 +12,13 @@
     view: "card",
     page: 1,
     pageSize: 100,
-    lang: (function () { try { return localStorage.getItem("hal-lang") || "zh"; } catch (e) { return "zh"; } })(),
+    lang: (function () { try { return localStorage.getItem("hal-lang") || "en"; } catch (e) { return "en"; } })(),
   };
 
   /* ---------- i18n ---------- */
   const I18N = {
     zh: {
-      tagline: "多模态大模型幻觉研究 · 结构化可交互资源库",
+      tagline: "多模态大模型幻觉研究图谱 · 结构化可交互资源库",
       github: "⭐ GitHub",
       searchPlaceholder: "搜索标题、作者、摘要全文…（支持中英文）",
       sortLabel: "排序", sortNew: "最新优先", sortOld: "最早优先", sortTitle: "标题 A→Z",
@@ -34,7 +34,7 @@
       empty: "没有匹配的论文，试试放宽筛选条件。",
       dimModel: "模型", dimMethod: "方法", dimYear: "年份", dimCcf: "CCF", dimTag: "标签", dimVenue: "会议",
       tableHeaders: ["#", "标题", "作者", "时间", "模型", "方法", "会议/期刊", "代码"],
-      footerDesc: '数据基于 <a href="https://github.com/GuangtaoLyu/awesome-hallucination-mllm" target="_blank" rel="noopener">awesome-hallucination-mllm</a> 改造增强 · 分类由启发式引擎自动标注，欢迎通过 <a href="../CONTRIBUTING.md" target="_blank">CONTRIBUTING</a> 修正。',
+      footerDesc: '数据基于 <a href="https://github.com/GuangtaoLyu/awesome-hallucination-atlas" target="_blank" rel="noopener">awesome-hallucination-atlas</a> 改造增强 · 分类由启发式引擎自动标注，欢迎通过 <a href="../CONTRIBUTING.md" target="_blank">CONTRIBUTING</a> 修正。',
       footerTotal: (n, yr) => `共 ${n} 篇论文 · 覆盖 ${yr}`,
       expandAbs: "📖 展开摘要", paperOfficial: "📄 官方版本", arxivLink: "arXiv",
       paperOnly: "📄 Paper", codeLink: "💻 Code", benchmarkTag: "📋 Benchmark", surveyTag: "📚 综述",
@@ -43,7 +43,7 @@
       pageInfo: (cur, pg, total) => `第 ${cur}/${pg} 页 · 共 ${total} 篇`,
     },
     en: {
-      tagline: "Hallucination in Multimodal LLMs · Structured Interactive Library",
+      tagline: "Awesome Hallucination Atlas · Structured Interactive Library",
       github: "⭐ GitHub",
       searchPlaceholder: "Search title, authors, abstract… (CN/EN supported)",
       sortLabel: "Sort", sortNew: "Newest first", sortOld: "Oldest first", sortTitle: "Title A→Z",
@@ -59,7 +59,7 @@
       empty: "No matching papers. Try relaxing the filters.",
       dimModel: "Model", dimMethod: "Method", dimYear: "Year", dimCcf: "CCF", dimTag: "Tag", dimVenue: "Venue",
       tableHeaders: ["#", "Title", "Authors", "Date", "Model", "Method", "Venue", "Code"],
-      footerDesc: 'Enhanced from <a href="https://github.com/GuangtaoLyu/awesome-hallucination-mllm" target="_blank" rel="noopener">awesome-hallucination-mllm</a> · Categories auto-labeled by a heuristic engine; corrections welcome via <a href="../CONTRIBUTING.md" target="_blank">CONTRIBUTING</a>.',
+      footerDesc: 'Enhanced from <a href="https://github.com/GuangtaoLyu/awesome-hallucination-atlas" target="_blank" rel="noopener">awesome-hallucination-atlas</a> · Categories auto-labeled by a heuristic engine; corrections welcome via <a href="../CONTRIBUTING.md" target="_blank">CONTRIBUTING</a>.',
       footerTotal: (n, yr) => `${n} papers · ${yr}`,
       expandAbs: "📖 Abstract", paperOfficial: "📄 Official", arxivLink: "arXiv",
       paperOnly: "📄 Paper", codeLink: "💻 Code", benchmarkTag: "📋 Benchmark", surveyTag: "📚 Survey",
@@ -174,8 +174,8 @@
     });
     document.documentElement.setAttribute("lang", state.lang === "zh" ? "zh-CN" : "en");
     document.title = state.lang === "zh"
-      ? "Awesome Hallucination in MLLM · 交互式论文库"
-      : "Awesome Hallucination in MLLM · Interactive Library";
+      ? "Awesome Hallucination Atlas · 交互式论文库"
+      : "Awesome Hallucination Atlas · Interactive Library";
     const search = $("#search");
     if (search) search.placeholder = T("searchPlaceholder");
     const so = $("#sort");

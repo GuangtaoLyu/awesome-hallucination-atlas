@@ -1,0 +1,47 @@
+name: "➕ Add a Paper"
+description: Suggest a paper to add to the atlas
+title: "Add paper: "
+labels: ["paper"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Paper title
+      description: Full English title, keep original capitalization and colons.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link
+      description: arXiv abstract page / ACL / IEEE / Springer / DOI. Leave blank if unknown.
+    validations:
+      required: false
+  - type: input
+    id: authors
+    attributes:
+      label: First author et al.
+      description: Usually "Firstauthor et al."; use "Anonymous et al." if unknown.
+    validations:
+      required: true
+  - type: input
+    id: year
+    attributes:
+      label: Year
+      description: Publication year (for arXiv, the script corrects from the ID).
+    validations:
+      required: true
+  - type: input
+    id: code
+    attributes:
+      label: Code link (optional)
+      description: Official GitHub repository URL, if available.
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)
+      description: Model type / method type / scenario if you already know them.
+    validations:
+      required: false

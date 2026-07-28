@@ -679,7 +679,8 @@ def main():
     with open(os.path.join(ROOT, "data", "stats_history.jsonl"), "a", encoding="utf-8") as f:
         f.write(json.dumps(snap, ensure_ascii=False) + "\n")
 
-    write_readme(papers, stats)
+    write_readme(papers, stats, "en")
+    write_readme(papers, stats, "zh")
     print("Generated", len(papers), "papers")
     print("Stats:", json.dumps(stats, ensure_ascii=False))
 
@@ -707,18 +708,33 @@ def bullet(p, mark=False):
     return " · ".join(parts)
 
 
-def write_readme(papers, stats):
+def write_readme(papers, stats, lang):
+    """Render the full README in one language (`en` / `zh`).
+
+    Emits README.md (en) and README.zh-CN.md (zh); each carries a small
+    language-switch banner at the top pointing at the other file. Section ids
+    (`<a id="sec-...">`) are language-neutral so anchors work in both.
+    """
     total = stats["total"]
     years = sorted(stats["by_year"].keys(), reverse=True)
     last_update = datetime.now().strftime("%Y-%m")
 
+    def _(en, zh):
+        return en if lang == "en" else zh
+
     L = []
-    L.append("# Awesome Hallucination in MLLM/LVLM/LLM [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)")
+    L.append("> " + ("🌐 **English** · [中文](README.zh-CN.md)" if lang == "en" else "[English](README.md) · **中文**"))
     L.append("")
-    L.append("> 一个**结构化、可交互**的多模态大模型（MLLM / LVLM / LLM）幻觉研究资源库。")
-    L.append("> 涵盖幻觉的**检测、评测与缓解**方法，支持按模型类型、方法类型、年份多维交叉筛选，并以标签补充模态与场景。")
-    L.append("> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 "
-             f"{stats['with_abstract']}/{total} 篇），非仅标题关键词。")
+    L.append("# Awesome Hallucination Atlas [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)")
+    L.append("")
+    L.append("> " + _("**Awesome Hallucination Atlas** — A structured, interactive atlas of hallucination research across multimodal LLMs (MLLM / VLM / LLM).",
+                       "**Awesome Hallucination Atlas** —— 一个**结构化、可交互**的多模态大模型（MLLM / LVLM / LLM）幻觉研究资源库。"))
+    L.append(">")
+    L.append("> " + _("Covers **detection, evaluation, and mitigation** of hallucinations, with multi-dimensional faceted filtering by model type, method type, and year, plus tags for modality and scenario.",
+                       "涵盖幻觉的**检测、评测与缓解**方法，支持按模型类型、方法类型、年份多维交叉筛选，并以标签补充模态与场景。"))
+    L.append(">")
+    L.append("> " + _(f"Taxonomy is auto-labeled from the **full arXiv abstract text** ({stats['with_abstract']}/{total} papers), not just title keywords.",
+                      f"分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 {stats['with_abstract']}/{total} 篇），非仅标题关键词。"))
     L.append("")
     L.append("<p align='center'>")
     L.append(f"  <img src='https://img.shields.io/badge/Papers-{total}-blue' />")
@@ -727,59 +743,85 @@ def write_readme(papers, stats):
     L.append(f"  <img src='https://img.shields.io/badge/Last%20Update-{last_update}-orange' />")
     L.append("</p>")
     L.append("")
-    L.append("**🔗 交互式网站**：打开 [`docs/index.html`](docs/index.html)（或部署到 GitHub Pages）即可按维度筛选、关键词/摘要全文搜索、年份排序。")
+    L.append("**🌐 " + _("Website", "网站") + "**: "
+             + _("[awesome-hallucination-atlas on GitHub Pages](https://guangtaolyu.github.io/awesome-hallucination-atlas/) — interactive filtering, full-text abstract search, and year sorting. "
+                "Or open [`docs/index.html`](docs/index.html) locally.",
+                "[awesome-hallucination-atlas（GitHub Pages）](https://guangtaolyu.github.io/awesome-hallucination-atlas/) —— 交互式筛选、摘要全文搜索与年份排序。也可本地打开 [`docs/index.html`](docs/index.html)。"))
+    L.append("")
+    L.append("## 📑 " + _("Table of Contents", "目录"))
+    L.append("")
+    L.append("- [" + _("Data Overview", "数据概览") + "](#sec-overview)")
+    L.append("- [" + _("Taxonomy", "分类体系") + "](#sec-taxonomy)")
+    L.append("- [" + _("Benchmarks & Evaluation", "评测与 Benchmark") + "](#sec-benchmark)")
+    L.append("- [" + _("Surveys", "综述 Survey") + "](#sec-survey)")
+    L.append("- [" + _("Paper List", "论文列表") + "](#sec-paperlist)")
+    L.append("- [" + _("Citation", "推荐引用") + "](#sec-cite)")
+    L.append("- [" + _("Contributing", "贡献") + "](#sec-contrib)")
+    L.append("- [" + _("License", "许可") + "](#sec-license)")
     L.append("")
     L.append("---")
     L.append("")
-    L.append("## 📊 数据概览")
+    L.append('<a id="sec-overview"></a>')
+    L.append("## 📊 " + _("Data Overview", "数据概览"))
     L.append("")
-    L.append(f"- **论文总数**：`{total}` 篇（已去重）")
-    L.append(f"- **含论文链接**：`{stats['with_link']}` 篇 · **含全文摘要**：`{stats['with_abstract']}` 篇 · "
-             f"**含代码链接**：`{stats['with_code']}` 篇 · **顶会正式发表**：`{stats.get('with_venue', 0)}` 篇")
-    L.append("- 顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息")
-    L.append(f"- **覆盖年份**：{years[-1]} – {years[0]}")
+    L.append(f"- **{_('Total papers', '论文总数')}**：`{total}` {_('(deduplicated)', '（已去重）')}")
+    L.append(f"- **{_('With paper link', '含论文链接')}**：`{stats['with_link']}` · "
+             f"**{_('With abstract', '含全文摘要')}**：`{stats['with_abstract']}` · "
+             f"**{_('With code', '含代码链接')}**：`{stats['with_code']}` · "
+             f"**{_('Published at venue', '顶会正式发表')}**：`{stats.get('with_venue', 0)}`")
+    L.append("- " + _("For papers published at a venue: **time and link prioritize the official conference/journal info** (DBLP), otherwise arXiv info is used.",
+                      "顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息。"))
+    L.append(f"- **{_('Year range', '覆盖年份')}**：{years[-1]} – {years[0]}")
     L.append("")
-    L.append("### 按年份分布")
+    L.append("### " + _("Year Distribution", "按年份分布"))
     L.append("")
-    L.append("| 年份 | 数量 | 占比 |")
+    L.append("| " + _("Year", "年份") + " | " + _("Count", "数量") + " | " + _("Share", "占比") + " |")
     L.append("|------|------|------|")
     for y in years:
         c = stats["by_year"][y]
         L.append(f"| {y} | {c} | `{bar(c, total)}` {c / total * 100:.1f}% |")
     L.append("")
-    L.append("### 按模型类型分布")
+    L.append("### " + _("Model Type", "按模型类型分布"))
     L.append("")
-    L.append("| 模型类型 | 说明 | 数量 |")
+    L.append("| " + _("Model Type", "模型类型") + " | " + _("Description", "说明") + " | " + _("Count", "数量") + " |")
     L.append("|----------|------|------|")
     model_desc = {
-        "VLM": "视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作）",
-        "MLLM": "全模态模型（Omni：音频 / 语音 / any-to-any）",
-        "LLM": "纯语言大模型",
+        "VLM": _("Vision-Language Model (LVLM; also covers works that call themselves MLLM but handle only image/video + text)",
+                 "视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作）"),
+        "MLLM": _("Omni / full-modal model (audio / speech / any-to-any)",
+                  "全模态模型（Omni：音频 / 语音 / any-to-any）"),
+        "LLM": _("Pure text-based LLM", "纯语言大模型"),
     }
     model_label = {"VLM": "VLM", "MLLM": "MLLM (Omni)", "LLM": "LLM"}
     for m in ["VLM", "MLLM", "LLM"]:
         L.append(f"| **{model_label[m]}** | {model_desc[m]} | {stats['by_model'].get(m, 0)} |")
     L.append("")
-    L.append("### 按方法类型分布")
+    L.append("### " + _("Method Type", "按方法类型分布"))
     L.append("")
-    L.append("| 方法类型 | 说明 | 数量 |")
+    L.append("| " + _("Method Type", "方法类型") + " | " + _("Description", "说明") + " | " + _("Count", "数量") + " |")
     L.append("|----------|------|------|")
     method_desc = {
-        "Training-free": "免训练（解码干预 / 注意力校准 / 表征引导等）",
-        "Training-based": "基于训练（偏好优化 / 微调 / 强化学习等）",
+        "Training-free": _("Training-free (decoding intervention / attention calibration / representation guidance, etc.)",
+                           "免训练（解码干预 / 注意力校准 / 表征引导等）"),
+        "Training-based": _("Training-based (preference optimization / fine-tuning / RL, etc.)",
+                            "基于训练（偏好优化 / 微调 / 强化学习等）"),
     }
     for m in ["Training-free", "Training-based"]:
         L.append(f"| **{m}** | {method_desc[m]} | {stats['by_method'].get(m, 0)} |")
     L.append("")
 
     # ---- venue distribution ----
-    L.append("### 按会议 / 期刊分布")
+    L.append("### " + _("Venue Distribution", "按会议 / 期刊分布"))
     L.append("")
-    L.append("> 已正式发表在会议 / 期刊的论文按 venue 统计（顶会官方信息优先）；"
-             "`arXiv（预印本）` 为尚未正式录用的预印本。小众期刊 / 小会、研讨会 / 卫星会 / 边会等次级 venue "
-             "以及各仅 1 篇的 venue 统一归入「其他」行，明细见表下折叠区；`其他` 中仍含少量 DOI 无法解析出处的条目，`未标注` 为无任何链接、暂无法判定的条目。")
+    L.append("> " + _("Papers published at a conference / journal are counted by venue (official info prioritized); "
+                       "`arXiv（预印本）` means a preprint not yet officially accepted. Niche journals / small venues, "
+                       "workshops / satellite / co-located events, and venues with only 1 paper are grouped into the “Other” row "
+                       "(details in the collapsible section below). `未标注` marks entries with no resolvable link.",
+                      "已正式发表在会议 / 期刊的论文按 venue 统计（顶会官方信息优先）；`arXiv（预印本）` 为尚未正式录用的预印本。"
+                      "小众期刊 / 小会、研讨会 / 卫星会 / 边会等次级 venue 以及各仅 1 篇的 venue 统一归入「其他」行，明细见表下折叠区；"
+                      "`其他` 中仍含少量 DOI 无法解析出处的条目，`未标注` 为无任何链接、暂无法判定的条目。"))
     L.append("")
-    L.append("| 会议 / 期刊 | 数量 | 占比 |")
+    L.append("| " + _("Venue / Journal", "会议 / 期刊") + " | " + _("Count", "数量") + " | " + _("Share", "占比") + " |")
     L.append("|-------------|------|------|")
     vcounts = sorted(stats["by_venue"].items(), key=lambda kv: (-kv[1], kv[0]))
     SINGLES = ("arXiv（预印本）", "其他", "未标注")
@@ -806,7 +848,7 @@ def write_readme(papers, stats):
     if folded:
         unres = stats["by_venue"].get("其他", 0)
         L.append("<details>")
-        L.append(f"<summary>「其他」明细（{len(folded)} 个 venue，共 {other_total} 篇，点击展开）</summary>")
+        L.append(f"<summary>" + _("“Other” details", "「其他」明细") + f" ({len(folded)} venues, {other_total} papers — click to expand)</summary>")
         L.append("")
         L.append("| venue | 数量 |")
         L.append("|-------|------|")
@@ -819,12 +861,14 @@ def write_readme(papers, stats):
         L.append("")
 
     # ---- CCF rating distribution ----
-    L.append("### 按 CCF 评级分布")
+    L.append("### " + _("CCF Rating", "按 CCF 评级分布"))
     L.append("")
-    L.append("> 依据 **CCF 推荐国际学术会议 / 期刊目录（2022）** 对正式发表的论文标注评级；"
-             "`未收录` 含 arXiv 预印本、暂未解析出 venue 的条目，以及 CCF 目录之外的会议 / 期刊。")
+    L.append("> " + _("CCF ratings follow the **CCF Recommended International Conference / Journal Directory (2022)** for officially published papers; "
+                       "`未收录` covers arXiv preprints, unresolved venues, and venues outside the CCF list.",
+                      "依据 **CCF 推荐国际学术会议 / 期刊目录（2022）** 对正式发表的论文标注评级；"
+                      "`未收录` 含 arXiv 预印本、暂未解析出 venue 的条目，以及 CCF 目录之外的会议 / 期刊。"))
     L.append("")
-    L.append("| CCF 评级 | 数量 | 占比 |")
+    L.append("| " + _("CCF Rating", "CCF 评级") + " | " + _("Count", "数量") + " | " + _("Share", "占比") + " |")
     L.append("|----------|------|------|")
     for r in ["A", "B", "C", "未收录"]:
         c = stats["by_ccf"].get(r, 0)
@@ -832,35 +876,43 @@ def write_readme(papers, stats):
         L.append(f"| {label} | {c} | `{bar(c, total)}` {c / total * 100:.1f}% |")
     L.append("")
 
-    L.append(f"> 📋 另有 `{stats.get('benchmarks', 0)}` 篇 **评测 / Benchmark** 论文、"
-             f"📚 `{stats.get('surveys', 0)}` 篇 **综述 Survey** 论文，"
-             "作为独立标记单独列出（见下方对应小节），不占用方法分类。")
+    L.append("> " + _(f"📋 `{stats.get('benchmarks', 0)}` **Benchmark** papers and 📚 `{stats.get('surveys', 0)}` **Survey** papers "
+                       "are listed separately (see sections below) and do not affect the method taxonomy.",
+                      f"📋 另有 `{stats.get('benchmarks', 0)}` 篇 **评测 / Benchmark** 论文、📚 `{stats.get('surveys', 0)}` 篇 **综述 Survey** 论文，"
+                      "作为独立标记单独列出（见下方对应小节），不占用方法分类。"))
     L.append("")
     L.append("---")
     L.append("")
-    L.append("## 🧭 分类体系")
+    L.append('<a id="sec-taxonomy"></a>')
+    L.append("## 🧭 " + _("Taxonomy", "分类体系"))
     L.append("")
-    L.append("每篇论文标注 **3 个维度**（模型类型 / 方法类型 / 年份，基于摘要全文自动分析），并以标签补充模态与场景：")
+    L.append(_("Each paper is labeled along **3 dimensions** (model type / method type / year, auto-analyzed from the full abstract), with tags for modality and scenario.",
+              "每篇论文标注 **3 个维度**（模型类型 / 方法类型 / 年份，基于摘要全文自动分析），并以标签补充模态与场景："))
     L.append("")
-    L.append("| 维度 | 取值 |")
+    L.append("| " + _("Dimension", "维度") + " | " + _("Values", "取值") + " |")
     L.append("|------|------|")
-    L.append("| **模型类型** | `VLM/LVLM`（视觉-语言） · `MLLM (Omni)`（含音频/语音的全模态） · `LLM`（纯文本） |")
-    L.append("| **方法类型** | `Training-free` · `Training-based`（二分类） |")
-    L.append(f"| **年份** | {min(years)} – {max(years)} |")
+    L.append("| **" + _("Model type", "模型类型") + "** | `VLM/LVLM` (vision-language) · `MLLM (Omni)` (omni with audio/speech) · `LLM` (text-only) |")
+    L.append("| **" + _("Method type", "方法类型") + "** | `Training-free` · `Training-based` (binary) |")
+    L.append(f"| **" + _("Year", "年份") + f"** | {min(years)} – {max(years)} |")
     L.append("")
-    L.append("> 幻觉场景不再单独分维度：对 VLM 而言物体幻觉即通用幻觉，二者无实质区别。仅将真正特殊的 `Relation` / `Attribute` 幻觉作为可选标签保留。")
-    L.append("> 附加标签：`Benchmark`（评测/基准，独立标记不影响方法分类） `Survey`（综述） `Relation` `Attribute` `CV`（图像/视觉模态） `Video` `Audio` `Multilingual` `Medical` `3D` `Agent`。")
-    L.append("> 完整摘要收录于 `data/papers.json`，可在交互网站中展开阅读与全文搜索。")
+    L.append("> " + _("Hallucination scenario is no longer a separate dimension: for VLMs, object hallucination *is* the general case. Only genuinely special `Relation` / `Attribute` hallucinations are kept as optional tags.",
+                      "幻觉场景不再单独分维度：对 VLM 而言物体幻觉即通用幻觉，二者无实质区别。仅将真正特殊的 `Relation` / `Attribute` 幻觉作为可选标签保留。"))
+    L.append("> " + _("Extra tags: `Benchmark` (evaluation; does not affect method taxonomy) · `Survey` · `Relation` · `Attribute` · `CV` (vision) · `Video` · `Audio` · `Multilingual` · `Medical` · `3D` · `Agent`.",
+                      "附加标签：`Benchmark`（评测/基准，独立标记不影响方法分类） `Survey`（综述） `Relation` `Attribute` `CV`（图像/视觉模态） `Video` `Audio` `Multilingual` `Medical` `3D` `Agent`。"))
+    L.append("> " + _("Full abstracts are stored in `data/papers.json` and can be expanded / full-text searched in the interactive website.",
+                      "完整摘要收录于 `data/papers.json`，可在交互网站中展开阅读与全文搜索。"))
     L.append("")
     L.append("---")
     L.append("")
-    L.append("## 📋 评测与 Benchmark")
+    L.append('<a id="sec-benchmark"></a>')
+    L.append("## 📋 " + _("Benchmarks & Evaluation", "评测与 Benchmark"))
     L.append("")
     benchs = [p for p in papers if p.get("benchmark")]
-    L.append(f"> 独立收录 `{len(benchs)}` 篇评测 / Benchmark / 数据集论文（同时保留在下方主列表中，标有 📋）。")
+    L.append("> " + _(f"{len(benchs)} evaluation / benchmark / dataset papers are listed separately (also kept in the main list below, marked 📋).",
+                      f"独立收录 `{len(benchs)}` 篇评测 / Benchmark / 数据集论文（同时保留在下方主列表中，标有 📋）。"))
     L.append("")
     L.append(f'<details open>')
-    L.append(f"<summary>📋 评测与 Benchmark 列表（{len(benchs)} 篇，点击折叠 / 展开）</summary>")
+    L.append(f"<summary>📋 " + _("Benchmark List", "评测与 Benchmark 列表") + f" ({len(benchs)} papers — click to collapse / expand)</summary>")
     L.append("")
     for p in benchs:
         L.append("- " + bullet(p, mark="📋"))
@@ -869,13 +921,15 @@ def write_readme(papers, stats):
     L.append("")
     L.append("---")
     L.append("")
-    L.append("## 📚 综述 Survey")
+    L.append('<a id="sec-survey"></a>')
+    L.append("## 📚 " + _("Surveys", "综述 Survey"))
     L.append("")
     surveys = [p for p in papers if p.get("survey")]
-    L.append(f"> 独立收录 `{len(surveys)}` 篇综述 / 调查 / 分类法论文（同时保留在下方主列表中，标有 📚）。")
+    L.append("> " + _(f"{len(surveys)} survey / review / taxonomy papers are listed separately (also kept in the main list below, marked 📚).",
+                      f"独立收录 `{len(surveys)}` 篇综述 / 调查 / 分类法论文（同时保留在下方主列表中，标有 📚）。"))
     L.append("")
     L.append(f'<details open>')
-    L.append(f"<summary>📚 综述 Survey 列表（{len(surveys)} 篇，点击折叠 / 展开）</summary>")
+    L.append(f"<summary>📚 " + _("Survey List", "综述 Survey 列表") + f" ({len(surveys)} papers — click to collapse / expand)</summary>")
     L.append("")
     for p in surveys:
         L.append("- " + bullet(p, mark="📚"))
@@ -884,16 +938,20 @@ def write_readme(papers, stats):
     L.append("")
     L.append("---")
     L.append("")
-    L.append("## 📚 论文列表")
+    L.append('<a id="sec-paperlist"></a>')
+    L.append("## 📚 " + _("Paper List", "论文列表"))
     L.append("")
-    L.append("> 按年份分组，点击年份标题可展开 / 收起。每条格式：**标题** · 会议/年份 · 模型 · 方法 · 💻代码。"
-             "标题链接优先顶会官方版本。📋 = 评测/Benchmark 论文，📚 = 综述 Survey 论文。"
-             "完整摘要与多维交叉筛选见交互式网站 [`docs/index.html`](docs/index.html)。欢迎 PR 补充。")
+    L.append("> " + _("Grouped by year; click a year header to expand / collapse. Format per entry: **Title** · venue/year · model · method · 💻code. "
+                       "Title links prefer the official venue version. 📋 = Benchmark paper, 📚 = Survey paper. "
+                       "Full abstracts and multi-dimensional filtering are available in the interactive website [`docs/index.html`](docs/index.html). PRs welcome.",
+                      "按年份分组，点击年份标题可展开 / 收起。每条格式：**标题** · 会议/年份 · 模型 · 方法 · 💻代码。"
+                      "标题链接优先顶会官方版本。📋 = 评测/Benchmark 论文，📚 = 综述 Survey 论文。"
+                      "完整摘要与多维交叉筛选见交互式网站 [`docs/index.html`](docs/index.html)。欢迎 PR 补充。"))
     L.append("")
     for y in years:
         yp = [p for p in papers if p["year"] == y]
         L.append(f'<details{" open" if y == years[0] else ""}>')
-        L.append(f"<summary>📅 {y} · {len(yp)} 篇</summary>")
+        L.append(f"<summary>📅 {y} · {len(yp)} " + _("papers", "篇") + "</summary>")
         L.append("")
         for p in yp:
             mark = "📋" if p.get("benchmark") else ("📚" if p.get("survey") else False)
@@ -903,9 +961,11 @@ def write_readme(papers, stats):
         L.append("")
     L.append("---")
     L.append("")
-    L.append("## 📖 推荐引用")
+    L.append('<a id="sec-cite"></a>')
+    L.append("## 📖 " + _("Citation", "推荐引用"))
     L.append("")
-    L.append("如果本资源库对你的研究有帮助，欢迎引用我们的相关论文（也欢迎交流与建议）：")
+    L.append(_("If this atlas helps your research, please consider citing our related papers (feedback and suggestions are also welcome):",
+              "如果本资源库对你的研究有帮助，欢迎引用我们的相关论文（也欢迎交流与建议）："))
     L.append("")
     L.append("```bibtex")
     L.append("""@article{lyu2026hallu_sae,
@@ -930,16 +990,21 @@ def write_readme(papers, stats):
 }""")
     L.append("```")
     L.append("")
-    L.append("## 🤝 贡献")
+    L.append('<a id="sec-contrib"></a>')
+    L.append("## 🤝 " + _("Contributing", "贡献"))
     L.append("")
-    L.append("欢迎补充论文、代码链接、顶会录取信息、修正分类！请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。")
+    L.append(_("We welcome new papers, code links, venue info, and taxonomy corrections! Please read [CONTRIBUTING.md](CONTRIBUTING.md).",
+              "欢迎补充论文、代码链接、顶会录取信息、修正分类！请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。"))
     L.append("")
-    L.append("## 📄 许可")
+    L.append('<a id="sec-license"></a>')
+    L.append("## 📄 " + _("License", "许可"))
     L.append("")
-    L.append("[CC0-1.0](LICENSE)，遵循 [awesome](https://github.com/sindresorhus/awesome) 规范。")
+    L.append(_("Released under [CC0-1.0](LICENSE), following the [awesome](https://github.com/sindresorhus/awesome) manifesto.",
+              "基于 [CC0-1.0](LICENSE) 协议发布，遵循 [awesome](https://github.com/sindresorhus/awesome) 规范。"))
     L.append("")
 
-    with open(os.path.join(ROOT, "README.md"), "w", encoding="utf-8") as f:
+    out_name = "README.md" if lang == "en" else "README.zh-CN.md"
+    with open(os.path.join(ROOT, out_name), "w", encoding="utf-8") as f:
         f.write("\n".join(L))
 
 

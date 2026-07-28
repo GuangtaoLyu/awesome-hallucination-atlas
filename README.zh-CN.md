@@ -1,12 +1,12 @@
-> 🌐 **English** · [中文](README.zh-CN.md)
+> [English](README.md) · **中文**
 
 # Awesome Hallucination Atlas [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> **Awesome Hallucination Atlas** — A structured, interactive atlas of hallucination research across multimodal LLMs (MLLM / VLM / LLM).
+> **Awesome Hallucination Atlas** —— 一个**结构化、可交互**的多模态大模型（MLLM / LVLM / LLM）幻觉研究资源库。
 >
-> Covers **detection, evaluation, and mitigation** of hallucinations, with multi-dimensional faceted filtering by model type, method type, and year, plus tags for modality and scenario.
+> 涵盖幻觉的**检测、评测与缓解**方法，支持按模型类型、方法类型、年份多维交叉筛选，并以标签补充模态与场景。
 >
-> Taxonomy is auto-labeled from the **full arXiv abstract text** (1391/1893 papers), not just title keywords.
+> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1391/1893 篇），非仅标题关键词。
 
 <p align='center'>
   <img src='https://img.shields.io/badge/Papers-1893-blue' />
@@ -15,31 +15,31 @@
   <img src='https://img.shields.io/badge/Last%20Update-2026-07-orange' />
 </p>
 
-**🌐 Website**: [awesome-hallucination-atlas on GitHub Pages](https://guangtaolyu.github.io/awesome-hallucination-atlas/) — interactive filtering, full-text abstract search, and year sorting. Or open [`docs/index.html`](docs/index.html) locally.
+**🌐 网站**: [awesome-hallucination-atlas（GitHub Pages）](https://guangtaolyu.github.io/awesome-hallucination-atlas/) —— 交互式筛选、摘要全文搜索与年份排序。也可本地打开 [`docs/index.html`](docs/index.html)。
 
-## 📑 Table of Contents
+## 📑 目录
 
-- [Data Overview](#sec-overview)
-- [Taxonomy](#sec-taxonomy)
-- [Benchmarks & Evaluation](#sec-benchmark)
-- [Surveys](#sec-survey)
-- [Paper List](#sec-paperlist)
-- [Citation](#sec-cite)
-- [Contributing](#sec-contrib)
-- [License](#sec-license)
+- [数据概览](#sec-overview)
+- [分类体系](#sec-taxonomy)
+- [评测与 Benchmark](#sec-benchmark)
+- [综述 Survey](#sec-survey)
+- [论文列表](#sec-paperlist)
+- [推荐引用](#sec-cite)
+- [贡献](#sec-contrib)
+- [许可](#sec-license)
 
 ---
 
 <a id="sec-overview"></a>
-## 📊 Data Overview
-- **Total papers**：`1893` (deduplicated)
-- **With paper link**：`1890` · **With abstract**：`1391` · **With code**：`408` · **Published at venue**：`935`
-- For papers published at a venue: time and link prioritize the official conference/journal info (DBLP), otherwise arXiv info is used.
-- **Year range**：2018 – 2027
+## 📊 数据概览
+- **论文总数**：`1893` （已去重）
+- **含论文链接**：`1890` · **含全文摘要**：`1391` · **含代码链接**：`408` · **顶会正式发表**：`935`
+- 顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息
+- **覆盖年份**：2018 – 2027
 
-### Year Distribution
+### 按年份分布
 
-| Year | Count | Share |
+| 年份 | 数量 | 占比 |
 |------|------|------|
 | 2027 | 5 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
 | 2026 | 724 | `████████░░░░░░░░░░░░` 38.2%
@@ -53,31 +53,31 @@
 | 2018 | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 
 
-### Model Type
+### 按模型类型分布
 
-| Model Type | Description | Count |
+| 模型类型 | 说明 | 数量 |
 |----------|------|------|
-| **VLM** | Vision-Language Model (LVLM; also covers works that call themselves MLLM but handle only image/video + text) | 719 |
-| **MLLM(Omni)** | Omni / full-modal model (audio / speech / any-to-any) | 47 |
-| **LLM** | Pure text-based LLM | 1127 |
+| **VLM** | 视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作） | 719 |
+| **MLLM(Omni)** | 全模态模型（Omni：音频 / 语音 / any-to-any） | 47 |
+| **LLM** | 纯语言大模型 | 1127 |
 
 
-### Method Type
+### 按方法类型分布
 
-| Method Type | Description | Count |
+| 方法类型 | 说明 | 数量 |
 |----------|------|------|
-| **Training-free** | Training-free (decoding intervention / attention calibration / representation guidance, etc.) | 1646 |
-| **Training-based** | Training-based (preference optimization / fine-tuning / RL, etc.) | 247 |
+| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1646 |
+| **Training-based** | 基于训练（偏好优化 / 微调 / 强化学习等） | 247 |
 
 
 <details>
-<summary>📊 Venue Distribution</summary>
+<summary>📊 按会议 / 期刊分布</summary>
 
-### Venue Distribution
+### 按会议 / 期刊分布
 
-> Papers published at a conference / journal are counted by venue (official info prioritized); `arXiv（预印本）` means a preprint not yet officially accepted. Niche journals / small venues, workshops / satellite / co-located events, and venues with only 1 paper are grouped into the “Other” row (details in the collapsible section below). `未标注` marks entries with no resolvable link.
+> 已正式发表在会议 / 期刊的论文按 venue 统计（顶会官方信息优先）；`arXiv（预印本）` 为尚未正式录用的预印本。小众期刊 / 小会、研讨会 / 卫星会 / 边会等次级 venue 以及各仅 1 篇的 venue 统一归入「其他」行，明细见表下折叠区；`其他` 中仍含少量 DOI 无法解析出处的条目，`未标注` 为无任何链接、暂无法判定的条目。
 
-| Venue / Journal | Count | Share |
+| 会议 / 期刊 | 数量 | 占比 |
 |-------------|------|------|
 | ACL | 152 | `██░░░░░░░░░░░░░░░░░░` 8.0%
 | EMNLP | 108 | `█░░░░░░░░░░░░░░░░░░░` 5.7%
@@ -130,7 +130,7 @@
 | 未标注 | 22 | `░░░░░░░░░░░░░░░░░░░░` 1.2%
 
 <details>
-<summary>“Other” details (161 venues, 221 papers — click to expand)</summary>
+<summary>「其他」明细 (161 venues, 221 papers — click to expand)</summary>
 
 | venue | 数量 |
 |-------|------|
@@ -300,42 +300,42 @@
 
 </details>
 
-### CCF Rating
+### 按 CCF 评级分布
 
-> CCF ratings follow the **CCF Recommended International Conference / Journal Directory (2022)** for officially published papers; `未收录` covers arXiv preprints, unresolved venues, and venues outside the CCF list.
+> 依据 **CCF 推荐国际学术会议 / 期刊目录（2022）** 对正式发表的论文标注评级；`未收录` 含 arXiv 预印本、暂未解析出 venue 的条目，以及 CCF 目录之外的会议 / 期刊。
 
-| CCF Rating | Count | Share |
+| CCF 评级 | 数量 | 占比 |
 |----------|------|------|
 | CCF-A | 433 | `█████░░░░░░░░░░░░░░░` 22.9%
 | CCF-B | 223 | `██░░░░░░░░░░░░░░░░░░` 11.8%
 | CCF-C | 68 | `█░░░░░░░░░░░░░░░░░░░` 3.6%
 | 未收录 | 1169 | `████████████░░░░░░░░` 61.8%
-> 📋 `114` **Benchmark** papers and 📚 `32` **Survey** papers are listed separately (see sections below) and do not affect the method taxonomy.
+> 📋 另有 `114` 篇 **评测 / Benchmark** 论文、📚 `32` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。
 
 ---
 
-## 🧭 Taxonomy
+## 🧭 分类体系
 
-Each paper is labeled along **3 dimensions** (model type / method type / year, auto-analyzed from the full abstract), with tags for modality and scenario.
+每篇论文标注 **3 个维度**（模型类型 / 方法类型 / 年份，基于摘要全文自动分析），并以标签补充模态与场景：
 
-| Dimension | Values |
+| 维度 | 取值 |
 |------|------|
-| **Model type** | `VLM/LVLM` (vision-language) · `MLLM (Omni)` (omni with audio/speech) · `LLM` (text-only) |
-| **Method type** | `Training-free` · `Training-based` (binary) |
-| **Year** | 2018 – 2027 |
+| **模型类型** | `VLM/LVLM` (vision-language) · `MLLM (Omni)` (omni with audio/speech) · `LLM` (text-only) |
+| **方法类型** | `Training-free` · `Training-based` (binary) |
+| **年份** | 2018 – 2027 |
 
-> Hallucination scenario is no longer a separate dimension: for VLMs, object hallucination *is* the general case. Only genuinely special `Relation` / `Attribute` hallucinations are kept as optional tags.
-> Extra tags: `Benchmark` (evaluation; does not affect method taxonomy) · `Survey` · `Relation` · `Attribute` · `CV` (vision) · `Video` · `Audio` · `Multilingual` · `Medical` · `3D` · `Agent`.
-> Full abstracts are stored in `data/papers.json` and can be expanded / full-text searched in the interactive website.
+> 幻觉场景不再单独分维度：对 VLM 而言物体幻觉即通用幻觉，二者无实质区别。仅将真正特殊的 `Relation` / `Attribute` 幻觉作为可选标签保留。
+> 附加标签：`Benchmark`（评测/基准，独立标记不影响方法分类） `Survey`（综述） `Relation` `Attribute` `CV`（图像/视觉模态） `Video` `Audio` `Multilingual` `Medical` `3D` `Agent`。
+> 完整摘要收录于 `data/papers.json`，可在交互网站中展开阅读与全文搜索。
 
 ---
 
 <a id="sec-benchmark"></a>
-## 📋 Benchmarks & Evaluation
-> 114 evaluation / benchmark / dataset papers are listed separately (also kept in the main list below, marked 📋).
+## 📋 评测与 Benchmark
+> 独立收录 `114` 篇评测 / Benchmark / 数据集论文（同时保留在下方主列表中，标有 📋）。
 
 <details open>
-<summary>📋 Benchmark List (114 papers — click to collapse / expand)</summary>
+<summary>📋 评测与 Benchmark 列表 (114 papers — click to collapse / expand)</summary>
 
 - **📋 [HalluTruthQA: A Fine-Grained Benchmark for Hallucination Detection, Localization, and Explanation in Arabic Question Answering](https://arxiv.org/abs/2607.20219)** · arXiv · LLM · Training-free · 💻[code](https://gitlab.com/nlpresearcher/HalluTruthQA)
 - **📋 [MissingBench-Verified: Probing Vision-Language Models' Inability to Detect Missing Object Parts](https://arxiv.org/abs/2607.18673)** · arXiv · VLM · Training-free
@@ -454,11 +454,11 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 
 </details>
 
-## 📚 Surveys
-> 32 survey / review / taxonomy papers are listed separately (also kept in the main list below, marked 📚).
+## 📚 综述 Survey
+> 独立收录 `32` 篇综述 / 调查 / 分类法论文（同时保留在下方主列表中，标有 📚）。
 
 <details open>
-<summary>📚 Survey List (32 papers — click to collapse / expand)</summary>
+<summary>📚 综述 Survey 列表 (32 papers — click to collapse / expand)</summary>
 
 - **📚 [Distorted or Fabricated? A Survey on Hallucination in Video LLMs](https://aclanthology.org/2026.findings-acl.1325/)** · ACL 2026 · VLM · Training-free · 💻[code](https://github.com/hukcc/Awesome-Video-Hallucination)
 - **📚 [DECK: A Consistency x Confidence Taxonomy of LLM Hallucinations](https://arxiv.org/abs/2606.02289)** · arXiv · LLM · Training-free
@@ -495,14 +495,14 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 
 </details>
 
-## 📚 Paper List
-> Grouped by **model type** (LLM / VLM / MLLM), then expanded by year inside each group; click a header to expand / collapse. Format per entry: **Title** · venue/year · model · method · 💻code. Title links prefer the official venue version. 📋 = Benchmark paper, 📚 = Survey paper. Full abstracts and multi-dimensional filtering are available in the interactive website [`docs/index.html`](docs/index.html). PRs welcome.
+## 📚 论文列表
+> 按**模型类型**分组（LLM / VLM / MLLM），每组内再按年份展开；点击标题可展开 / 收起。每条格式：**标题** · 会议/年份 · 模型 · 方法 · 💻代码。标题链接优先顶会官方版本。📋 = 评测/Benchmark 论文，📚 = 综述 Survey 论文。完整摘要与多维交叉筛选见交互式网站 [`docs/index.html`](docs/index.html)。欢迎 PR 补充。
 
 <details>
 <summary>🤖 LLM · 1127 篇</summary>
 
 <details>
-<summary>📅 2027 · 5 papers</summary>
+<summary>📅 2027 · 5 篇</summary>
 
 - **[Uncovering Reasoning Failures: Hallucination Detection via Semantic Probing and Attention Tracking](https://doi.org/10.1007/978-981-92-2480-7_23)** · Lecture Notes in Computer Science · LLM · Training-free
 - **[Quantum Entropy–Driven Temperature Scaling for Hallucination Mitigation in Generative Models](https://doi.org/10.1007/978-3-032-28379-5_48)** · Lecture Notes in Networks and Systems · LLM · Training-free
@@ -513,7 +513,7 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 </details>
 
 <details>
-<summary>📅 2026 · 411 papers</summary>
+<summary>📅 2026 · 411 篇</summary>
 
 - **[Heaven-Sent or Hell-Bent? Benchmarking the Intelligence and Defectiveness of LLM Hallucinations](https://doi.org/10.1145/3770854.3785704)** · KDD 2026 · LLM · Training-free · 💻[code](https://github.com/chujiguangniao/HIC-bench)
 - **[Reasoning Denoiser: Denoising Reasoning Traces for Hallucination Detection in Large Reasoning Models](https://arxiv.org/abs/2607.22098)** · arXiv · LLM · Training-free
@@ -930,7 +930,7 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 </details>
 
 <details>
-<summary>📅 2025 · 438 papers</summary>
+<summary>📅 2025 · 438 篇</summary>
 
 - **[HaluNet: Learning Hallucination Risk from Internal Signals in LLM Question Answering](https://arxiv.org/abs/2512.24562)** · arXiv · LLM · Training-based
 - **[Beyond Hallucinations: A Composite Score for Measuring Reliability in Open-Source Large Language Models](https://arxiv.org/abs/2512.24058)** · arXiv · LLM · Training-free
@@ -1374,7 +1374,7 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 </details>
 
 <details>
-<summary>📅 2024 · 243 papers</summary>
+<summary>📅 2024 · 243 篇</summary>
 
 - **[On Characterizations for Language Generation: Interplay of Hallucinations, Breadth, and Stability](https://arxiv.org/abs/2412.18530)** · arXiv · LLM · Training-free
 - **[From Hallucinations to Facts: Enhancing Language Models with Curated Knowledge Graphs](https://arxiv.org/abs/2412.18672)** · arXiv · LLM · Training-free
@@ -1623,7 +1623,7 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 </details>
 
 <details>
-<summary>📅 2023 · 20 papers</summary>
+<summary>📅 2023 · 20 篇</summary>
 
 - **[Towards Mitigating LLM Hallucination via Self Reflection](https://doi.org/10.18653/v1/2023.findings-emnlp.123)** · EMNLP 2023 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Sources of Hallucination by Large Language Models on Inference Tasks](https://doi.org/10.18653/v1/2023.findings-emnlp.182)** · EMNLP 2023 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
@@ -1649,7 +1649,7 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 </details>
 
 <details>
-<summary>📅 2022 · 2 papers</summary>
+<summary>📅 2022 · 2 篇</summary>
 
 - **[Hallucinated but Factual! Inspecting the Factuality of Hallucinations in Abstractive Summarization](https://doi.org/10.18653/v1/2022.acl-long.236)** · ACL 2022 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[On the Origin of Hallucinations in Conversational Models: Is it the Datasets or the Models?](https://doi.org/10.18653/v1/2022.naacl-main.387)** · NAACL 2022 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
@@ -1657,7 +1657,7 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 </details>
 
 <details>
-<summary>📅 2021 · 3 papers</summary>
+<summary>📅 2021 · 3 篇</summary>
 
 - **[Retrieval Augmentation Reduces Hallucination in Conversation](https://doi.org/10.18653/v1/2021.findings-emnlp.320)** · EMNLP 2021 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[On Hallucination and Predictive Uncertainty in Conditional Language Generation](https://doi.org/10.18653/v1/2021.eacl-main.236)** · EACL 2021 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
@@ -1666,14 +1666,14 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 </details>
 
 <details>
-<summary>📅 2020 · 1 papers</summary>
+<summary>📅 2020 · 1 篇</summary>
 
 - **[Structural Hallucination in LLMs: A Formal Characterization and Mitigation Method](https://doi.org/10.36948/ijfmr.2020.v02i05.61072)** · International Journal For Multidisciplinary Research · LLM · Training-based
 
 </details>
 
 <details>
-<summary>📅 2019 · 4 papers</summary>
+<summary>📅 2019 · 4 篇</summary>
 
 - **[Sticking to the Facts: Confident Decoding for Faithful Data-to-Text Generation](https://arxiv.org/abs/1910.08684)** · arXiv · LLM · Training-based
 - **[Assessing The Factual Accuracy of Generated Text](https://doi.org/10.1145/3292500.3330955)** · KDD 2019 · LLM · Training-free
@@ -1688,7 +1688,7 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 <summary>👁️ VLM · 719 篇</summary>
 
 <details>
-<summary>📅 2026 · 290 papers</summary>
+<summary>📅 2026 · 290 篇</summary>
 
 - **[See Only When Needed: Context-Aware Attention Intervention for Mitigating Hallucinations in LVLMs](https://arxiv.org/abs/2606.29847)** · ECCV 2026 · VLM · Training-free · 💻[code](https://github.com/Iris1946/CAI)
 - **[ProCap: Prominence-guided Object Rectification for Faithful and Comprehensive Video Captioning](https://arxiv.org/abs/2607.21022)** · arXiv · VLM · Training-free
@@ -1984,7 +1984,7 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 </details>
 
 <details>
-<summary>📅 2025 · 308 papers</summary>
+<summary>📅 2025 · 308 篇</summary>
 
 - **[Taming Hallucinations: Boosting MLLMs' Video Understanding via Counterfactual Video Generation](https://arxiv.org/abs/2512.24271)** · arXiv · VLM · Training-based
 - **[Watch Closely: Mitigating Object Hallucinations in Large Vision-Language Models with Disentangled Decoding](https://arxiv.org/abs/2512.19070)** · arXiv · VLM · Training-free · 💻[code](https://github.com/rickeyhhh/Hallucination-Disentangled-Decoding)
@@ -2298,7 +2298,7 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 </details>
 
 <details>
-<summary>📅 2024 · 115 papers</summary>
+<summary>📅 2024 · 115 篇</summary>
 
 - **[Towards a Systematic Evaluation of Hallucinations in Large-Vision Language Models](https://arxiv.org/abs/2412.20622)** · arXiv · VLM · Training-free
 - **[VORD: Visual Ordinal Calibration for Mitigating Object Hallucinations in Large Vision-Language Models](https://arxiv.org/abs/2412.15739)** · arXiv · VLM · Training-free
@@ -2419,7 +2419,7 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 </details>
 
 <details>
-<summary>📅 2023 · 4 papers</summary>
+<summary>📅 2023 · 4 篇</summary>
 
 - **[Evaluating Object Hallucination in Large Vision-Language Models](https://doi.org/10.18653/v1/2023.emnlp-main.20)** · EMNLP 2023 · VLM · Training-free · 💻[code](https://github.com/RUCAIBox/POPE)
 - **📋 [Negative Object Presence Evaluation (NOPE) to Measure Object Hallucination in Vision-Language Models](https://arxiv.org/abs/2310.05338)** · arXiv · VLM · Training-free
@@ -2429,14 +2429,14 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 </details>
 
 <details>
-<summary>📅 2022 · 1 papers</summary>
+<summary>📅 2022 · 1 篇</summary>
 
 - **[Let there be a clock on the beach: Reducing Object Hallucination in Image Captioning](https://doi.org/10.1109/WACV51458.2022.00253)** · WACV 2022 · VLM · Training-free
 
 </details>
 
 <details>
-<summary>📅 2018 · 1 papers</summary>
+<summary>📅 2018 · 1 篇</summary>
 
 - **[Object Hallucination in Image Captioning](https://doi.org/10.18653/v1/D18-1437)** · EMNLP 2018 · VLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 
@@ -2448,7 +2448,7 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 <summary>🌐 MLLM(Omni) · 47 篇</summary>
 
 <details>
-<summary>📅 2026 · 23 papers</summary>
+<summary>📅 2026 · 23 篇</summary>
 
 - **[TPA: Next Token Probability Attribution for Detecting Hallucinations in RAG](https://aclanthology.org/2026.acl-long.1159/)** · ACL 2026 · MLLM(Omni) · Training-free
 - **📋 [HalluAudio: A Comprehensive Benchmark for Hallucination Detection in Large Audio-Language Models](https://aclanthology.org/2026.acl-long.1797/)** · ACL 2026 · MLLM(Omni) · Training-free
@@ -2477,7 +2477,7 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 </details>
 
 <details>
-<summary>📅 2025 · 17 papers</summary>
+<summary>📅 2025 · 17 篇</summary>
 
 - **[The Curse of Multi-Modalities: Evaluating Hallucinations of Large Multimodal Models across Language, Visual, and Audio](http://papers.nips.cc/paper_files/paper/2025/hash/9b0b18a77421d45d26c3df5612caefe7-Abstract-Datasets_and_Benchmarks_Track.html)** · NeurIPS 2025 · MLLM(Omni) · Training-free
 - **[Mitigating Attention Sinks and Massive Activations in Audio-Visual Speech Recognition with LLMs](https://arxiv.org/abs/2510.22603)** · arXiv · MLLM(Omni) · Training-free
@@ -2500,7 +2500,7 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 </details>
 
 <details>
-<summary>📅 2024 · 6 papers</summary>
+<summary>📅 2024 · 6 篇</summary>
 
 - **[Understanding Sounds, Missing the Questions: The Challenge of Object Hallucination in Large Audio-Language Models](https://doi.org/10.21437/Interspeech.2024-1076)** · INTERSPEECH 2024 · MLLM(Omni) · Training-free
 - **[CrossCheckGPT: Universal Hallucination Ranking for Multimodal Foundation Models](https://arxiv.org/abs/2405.13684)** · arXiv · MLLM(Omni) · Training-based
@@ -2512,7 +2512,7 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 </details>
 
 <details>
-<summary>📅 2022 · 1 papers</summary>
+<summary>📅 2022 · 1 篇</summary>
 
 - **[Hallucination of Speech Recognition Errors With Sequence to Sequence Learning](https://doi.org/10.1109/TASLP.2022.3145313)** · TASLP 2022 · MLLM(Omni) · Training-free
 
@@ -2520,9 +2520,9 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 
 </details>
 
-## 📖 Citation
+## 📖 推荐引用
 
-If this atlas helps your research, please consider citing our related papers (feedback and suggestions are also welcome):
+如果本资源库对你的研究有帮助，欢迎引用我们的相关论文（也欢迎交流与建议）：
 
 ```bibtex
 @article{lyu2026hallu_sae,
@@ -2548,11 +2548,11 @@ If this atlas helps your research, please consider citing our related papers (fe
 ```
 
 <a id="sec-contrib"></a>
-## 🤝 Contributing
+## 🤝 贡献
 
-We welcome new papers, code links, venue info, and taxonomy corrections! Please read [CONTRIBUTING.md](CONTRIBUTING.md).
+欢迎补充论文、代码链接、顶会录取信息、修正分类！请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 <a id="sec-license"></a>
-## 📄 License
+## 📄 许可
 
-Released under [CC0-1.0](LICENSE), following the [awesome](https://github.com/sindresorhus/awesome) manifesto.
+基于 [CC0-1.0](LICENSE) 协议发布，遵循 [awesome](https://github.com/sindresorhus/awesome) 规范。

@@ -1,14 +1,20 @@
-"""Regenerate the drift-prone parts of README.md from data/papers.json.
+"""Regenerate the drift-prone parts of README.md / README.zh-CN.md from data/papers.json.
 
-The README is hand-maintained prose PLUS several data-driven blocks that must
+The README ships in two single-language files:
+  * README.md       — English (default)
+  * README.zh-CN.md  — 中文
+
+Each file is hand-maintained prose PLUS several data-driven blocks that must
 stay in lock-step with papers.json (otherwise numbers / the 2000-line paper
-list silently rot). This script rewrites exactly those blocks and nothing else:
+list silently rot). This script rewrites exactly those blocks and nothing else,
+for BOTH language files:
 
   * the shields.io badges at the top (Papers / Abstract / Last Update)
-  * `## 📊 数据概览`          -> stats tables + venue breakdown + CCF
-  * `## 📋 评测与 Benchmark`  -> the Benchmark list (inside <details>)
-  * `## 📚 综述 Survey`        -> the Survey list (inside <details>)
-  * `## 📚 论文列表`           -> the year-grouped full list
+  * `## 📊 Data Overview`      -> stats tables + venue breakdown + CCF   (EN)
+    `## 📊 数据概览`            -> 同上（中文）
+  * `## 📋 Benchmarks & Evaluation` / `## 📋 评测与 Benchmark`  -> Benchmark list
+  * `## 📚 Surveys`            / `## 📚 综述 Survey`            -> Survey list
+  * `## 📚 Paper List`        / `## 📚 论文列表`               -> year-grouped list
 
 Everything else (分类体系, 推荐引用, 贡献, 许可, the prose blurbs) is preserved
 verbatim. Each block is located by its `## ` heading; the heading line itself is
@@ -27,11 +33,32 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 PAPERS = os.path.join(ROOT, "data", "papers.json")
-README = os.path.join(ROOT, "README.md")
+README_EN = os.path.join(ROOT, "README.md")
+README_ZH = os.path.join(ROOT, "README.zh-CN.md")
 
 MODEL_LABEL = {"VLM": "VLM", "MLLM": "MLLM(Omni)", "LLM": "LLM"}
 ALWAYS_LIST_DEFAULT = ["TNNLS", "TASLP", "TAI", "PRCV"]
 BAR_W = 20
+
+# Per-language section anchors used by replace_block.
+ANCHOR = {
+    "en": {
+        "overview": "## 📊 Data Overview",
+        "benchmark": "## 📋 Benchmarks & Evaluation",
+        "survey": "## 📚 Surveys",
+        "paperlist": "## 📚 Paper List",
+    },
+    "zh": {
+        "overview": "## 📊 数据概览",
+        "benchmark": "## 📋 评测与 Benchmark",
+        "survey": "## 📚 综述 Survey",
+        "paperlist": "## 📚 论文列表",
+    },
+}
+
+
+def pick(en_s, zh_s, lang):
+    return en_s if lang == "en" else zh_s
 
 
 def bar(pct, width=BAR_W):
@@ -72,10 +99,10 @@ def date_key(p):
 
 
 # ----------------------------------------------------------------------------
-# block generators
+# block generators (language-parameterized)
 # ----------------------------------------------------------------------------
 
-def gen_stats(papers, stats):
+def gen_stats(papers, stats, lang):
     total = len(papers)
     with_link = sum(1 for p in papers if p.get("url"))
     with_abs = sum(1 for p in papers if p.get("abstract"))
@@ -99,9 +126,11 @@ def gen_stats(papers, stats):
     for p in papers:
         by_model[p["model_type"]] = by_model.get(p["model_type"], 0) + 1
     model_desc = {
-        "VLM": "视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作）",
-        "MLLM": "全模态模型（Omni：音频 / 语音 / any-to-any）",
-        "LLM": "纯语言大模型",
+        "VLM": pick("Vision-Language Model (LVLM; also covers works that call themselves MLLM but handle only image/video + text)",
+                    "视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作）", lang),
+        "MLLM": pick("Omni / full-modal model (audio / speech / any-to-any)",
+                     "全模态模型（Omni：音频 / 语音 / any-to-any）", lang),
+        "LLM": pick("Pure text-based LLM", "纯语言大模型", lang),
     }
     model_rows = ""
     for k in ["VLM", "MLLM", "LLM"]:
@@ -112,12 +141,12 @@ def gen_stats(papers, stats):
     for p in papers:
         by_method[p["method_type"]] = by_method.get(p["method_type"], 0) + 1
     method_rows = (
-        f"| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | {by_method.get('Training-free', 0)} |\n"
-        f"| **Training-based** | 基于训练（偏好优化 / 微调 / 强化学习等） | {by_method.get('Training-based', 0)} |\n"
+        f"| **Training-free** | {pick('Training-free (decoding intervention / attention calibration / representation guidance, etc.)', '免训练（解码干预 / 注意力校准 / 表征引导等）', lang)} | {by_method.get('Training-free', 0)} |\n"
+        f"| **Training-based** | {pick('Training-based (preference optimization / fine-tuning / RL, etc.)', '基于训练（偏好优化 / 微调 / 强化学习等）', lang)} | {by_method.get('Training-based', 0)} |\n"
     )
 
     # venue distribution + "其他" detail
-    venue_table, other_detail = gen_venue(papers, total, stats)
+    venue_table, other_detail = gen_venue(papers, total, stats, lang)
 
     # CCF distribution
     by_ccf = {}
@@ -134,22 +163,23 @@ def gen_stats(papers, stats):
     n_surv = sum(1 for p in papers if p.get("survey"))
 
     intro = (
-        f"- **论文总数**：`{total}` 篇（已去重）\n"
-        f"- **含论文链接**：`{with_link}` 篇 · **含全文摘要**：`{with_abs}` 篇 · **含代码链接**：`{with_code}` 篇 · **顶会正式发表**：`{top_pub}` 篇\n"
-        "- 顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息\n"
-        f"- **覆盖年份**：{ymin} – {ymax}\n"
+        f"- **{pick('Total papers', '论文总数', lang)}**：`{total}` {pick('(deduplicated)', '（已去重）', lang)}\n"
+        f"- **{pick('With paper link', '含论文链接', lang)}**：`{with_link}` · "
+        f"**{pick('With abstract', '含全文摘要', lang)}**：`{with_abs}` · "
+        f"**{pick('With code', '含代码链接', lang)}**：`{with_code}` · "
+        f"**{pick('Published at venue', '顶会正式发表', lang)}**：`{top_pub}`\n"
+        "- " + pick("For papers published at a venue: time and link prioritize the official conference/journal info (DBLP), otherwise arXiv info is used.",
+                    "顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息", lang) + "\n"
+        f"- **{pick('Year range', '覆盖年份', lang)}**：{ymin} – {ymax}\n"
     )
 
-    # Venue distribution is wrapped in <details> (the table + the nested
-    # "其他" detail can get long). Blank lines separate every <details>
-    # boundary so GitHub/CommonMark does not merge adjacent HTML blocks,
-    # which would silently break the collapse and the nested detail.
     venue_block = (
         "<details>\n"
-        "<summary>📊 按会议 / 期刊分布（点击折叠 / 展开）</summary>\n\n"
-        "### 按会议 / 期刊分布\n\n"
-        "> 已正式发表在会议 / 期刊的论文按 venue 统计（顶会官方信息优先）；`arXiv（预印本）` 为尚未正式录用的预印本。小众期刊 / 小会、研讨会 / 卫星会 / 边会等次级 venue 以及各仅 1 篇的 venue 统一归入「其他」行，明细见表下折叠区；`其他` 中仍含少量 DOI 无法解析出处的条目，`未标注` 为无任何链接、暂无法判定的条目。\n\n"
-        "| 会议 / 期刊 | 数量 | 占比 |\n"
+        f"<summary>📊 {pick('Venue Distribution', '按会议 / 期刊分布', lang)}</summary>\n\n"
+        f"### {pick('Venue Distribution', '按会议 / 期刊分布', lang)}\n\n"
+        "> " + pick("Papers published at a conference / journal are counted by venue (official info prioritized); `arXiv（预印本）` means a preprint not yet officially accepted. Niche journals / small venues, workshops / satellite / co-located events, and venues with only 1 paper are grouped into the “Other” row (details in the collapsible section below). `未标注` marks entries with no resolvable link.",
+                    "已正式发表在会议 / 期刊的论文按 venue 统计（顶会官方信息优先）；`arXiv（预印本）` 为尚未正式录用的预印本。小众期刊 / 小会、研讨会 / 卫星会 / 边会等次级 venue 以及各仅 1 篇的 venue 统一归入「其他」行，明细见表下折叠区；`其他` 中仍含少量 DOI 无法解析出处的条目，`未标注` 为无任何链接、暂无法判定的条目。", lang) + "\n\n"
+        f"| {pick('Venue / Journal', '会议 / 期刊', lang)} | {pick('Count', '数量', lang)} | {pick('Share', '占比', lang)} |\n"
         "|-------------|------|------|\n"
         f"{venue_table}"
         "\n"
@@ -158,27 +188,29 @@ def gen_stats(papers, stats):
     )
 
     ccf_block = (
-        "### 按 CCF 评级分布\n\n"
-        "> 依据 **CCF 推荐国际学术会议 / 期刊目录（2022）** 对正式发表的论文标注评级；`未收录` 含 arXiv 预印本、暂未解析出 venue 的条目，以及 CCF 目录之外的会议 / 期刊。\n\n"
-        "| CCF 评级 | 数量 | 占比 |\n"
+        f"### {pick('CCF Rating', '按 CCF 评级分布', lang)}\n\n"
+        "> " + pick("CCF ratings follow the **CCF Recommended International Conference / Journal Directory (2022)** for officially published papers; `未收录` covers arXiv preprints, unresolved venues, and venues outside the CCF list.",
+                    "依据 **CCF 推荐国际学术会议 / 期刊目录（2022）** 对正式发表的论文标注评级；`未收录` 含 arXiv 预印本、暂未解析出 venue 的条目，以及 CCF 目录之外的会议 / 期刊。", lang) + "\n\n"
+        f"| {pick('CCF Rating', 'CCF 评级', lang)} | {pick('Count', '数量', lang)} | {pick('Share', '占比', lang)} |\n"
         "|----------|------|------|\n"
         f"{ccf_rows}"
-        f"> 📋 另有 `{n_bench}` 篇 **评测 / Benchmark** 论文、📚 `{n_surv}` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。\n\n"
+        "> " + pick(f"📋 `{n_bench}` **Benchmark** papers and 📚 `{n_surv}` **Survey** papers are listed separately (see sections below) and do not affect the method taxonomy.",
+                    f"📋 另有 `{n_bench}` 篇 **评测 / Benchmark** 论文、📚 `{n_surv}` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。", lang) + "\n\n"
         "---\n"
     )
 
     blocks = [
         intro.rstrip("\n"),
-        "### 按年份分布\n\n| 年份 | 数量 | 占比 |\n|------|------|------|\n" + year_rows,
-        "### 按模型类型分布\n\n| 模型类型 | 说明 | 数量 |\n|----------|------|------|\n" + model_rows,
-        "### 按方法类型分布\n\n| 方法类型 | 说明 | 数量 |\n|----------|------|------|\n" + method_rows,
+        f"### {pick('Year Distribution', '按年份分布', lang)}\n\n| {pick('Year', '年份', lang)} | {pick('Count', '数量', lang)} | {pick('Share', '占比', lang)} |\n|------|------|------|\n" + year_rows,
+        f"### {pick('Model Type', '按模型类型分布', lang)}\n\n| {pick('Model Type', '模型类型', lang)} | {pick('Description', '说明', lang)} | {pick('Count', '数量', lang)} |\n|----------|------|------|\n" + model_rows,
+        f"### {pick('Method Type', '按方法类型分布', lang)}\n\n| {pick('Method Type', '方法类型', lang)} | {pick('Description', '说明', lang)} | {pick('Count', '数量', lang)} |\n|----------|------|------|\n" + method_rows,
         venue_block,
         ccf_block.rstrip("\n"),
     ]
     return "\n\n".join(blocks) + "\n"
 
 
-def gen_venue(papers, total, stats):
+def gen_venue(papers, total, stats, lang):
     named = {}
     arx = 0
     unlabeled = 0
@@ -220,7 +252,7 @@ def gen_venue(papers, total, stats):
     if others:
         detail = (
             "<details>\n"
-            f"<summary>「其他」明细（{len(others)} 个 venue，共 {other_total} 篇，点击展开）</summary>\n\n"
+            f"<summary>{pick('“Other” details', '「其他」明细', lang)} ({len(others)} venues, {other_total} papers — click to expand)</summary>\n\n"
             "| venue | 数量 |\n|-------|------|\n"
         )
         for v in others:
@@ -244,28 +276,30 @@ def entry_line(p):
     return f"- **{prefix}[{title}]({link})** · {venue} · {model} · {method}{code}"
 
 
-def gen_benchmark(papers):
+def gen_benchmark(papers, lang):
     items = [p for p in papers if p.get("benchmark") or "Benchmark" in (p.get("tags") or [])]
     items.sort(key=lambda p: (date_key(p), p.get("title") or ""), reverse=True)
     n = len(items)
     body = (
-        f"> 独立收录 `{n}` 篇评测 / Benchmark / 数据集论文（同时保留在下方主列表中，标有 📋）。\n\n"
+        "> " + pick(f"{n} evaluation / benchmark / dataset papers are listed separately (also kept in the main list below, marked 📋).",
+                    f"独立收录 `{n}` 篇评测 / Benchmark / 数据集论文（同时保留在下方主列表中，标有 📋）。", lang) + "\n\n"
         "<details open>\n"
-        f"<summary>📋 评测与 Benchmark 列表（{n} 篇，点击折叠 / 展开）</summary>\n\n"
+        f"<summary>📋 {pick('Benchmark List', '评测与 Benchmark 列表', lang)} ({n} papers — click to collapse / expand)</summary>\n\n"
         + "\n".join(entry_line(p) for p in items)
         + "\n\n</details>\n"
     )
     return body
 
 
-def gen_survey(papers):
+def gen_survey(papers, lang):
     items = [p for p in papers if p.get("survey")]
     items.sort(key=lambda p: (date_key(p), p.get("title") or ""), reverse=True)
     n = len(items)
     body = (
-        f"> 独立收录 `{n}` 篇综述 / 调查 / 分类法论文（同时保留在下方主列表中，标有 📚）。\n\n"
+        "> " + pick(f"{n} survey / review / taxonomy papers are listed separately (also kept in the main list below, marked 📚).",
+                    f"独立收录 `{n}` 篇综述 / 调查 / 分类法论文（同时保留在下方主列表中，标有 📚）。", lang) + "\n\n"
         "<details open>\n"
-        f"<summary>📚 综述 Survey 列表（{n} 篇，点击折叠 / 展开）</summary>\n\n"
+        f"<summary>📚 {pick('Survey List', '综述 Survey 列表', lang)} ({n} papers — click to collapse / expand)</summary>\n\n"
         + "\n".join(entry_line(p) for p in items)
         + "\n\n</details>\n"
     )
@@ -275,26 +309,26 @@ def gen_survey(papers):
 MODEL_ORDER = [("LLM", "🤖 LLM"), ("VLM", "👁️ VLM"), ("MLLM", "🌐 MLLM(Omni)")]
 
 
-def gen_list(papers):
+def gen_list(papers, lang):
     by_model = {}
     for p in papers:
         by_model.setdefault(p.get("model_type") or "LLM", []).append(p)
     known = {k for k, _ in MODEL_ORDER}
     intro = (
-        "> 按**模型类型**分组（LLM / VLM / MLLM），每组内再按年份展开；点击标题可展开 / 收起。"
-        "每条格式：**标题** · 会议/年份 · 模型 · 方法 · 💻代码。"
-        "标题链接优先顶会官方版本。📋 = 评测/Benchmark 论文，📚 = 综述 Survey 论文。"
-        "完整摘要与多维交叉筛选见交互式网站 [`docs/index.html`](docs/index.html)。欢迎 PR 补充。\n"
+        "> " + pick("Grouped by **model type** (LLM / VLM / MLLM), then expanded by year inside each group; click a header to expand / collapse. "
+                    "Format per entry: **Title** · venue/year · model · method · 💻code. "
+                    "Title links prefer the official venue version. 📋 = Benchmark paper, 📚 = Survey paper. "
+                    "Full abstracts and multi-dimensional filtering are available in the interactive website [`docs/index.html`](docs/index.html). PRs welcome.",
+                    "按**模型类型**分组（LLM / VLM / MLLM），每组内再按年份展开；点击标题可展开 / 收起。"
+                    "每条格式：**标题** · 会议/年份 · 模型 · 方法 · 💻代码。"
+                    "标题链接优先顶会官方版本。📋 = 评测/Benchmark 论文，📚 = 综述 Survey 论文。"
+                    "完整摘要与多维交叉筛选见交互式网站 [`docs/index.html`](docs/index.html)。欢迎 PR 补充。", lang) + "\n"
     )
     order = list(MODEL_ORDER)
     for k in by_model:
         if k not in known:
             order.append((k, k))
 
-    # Each model group is a "block"; blocks are joined by a BLANK LINE so the
-    # closing </details> of one group is never adjacent to the next <details>.
-    # GitHub/CommonMark merges adjacent HTML-block lines into one block, which
-    # silently breaks nested <details> and renders them permanently expanded.
     blocks = [intro.rstrip("\n")]
     for key, label in order:
         ps = by_model.get(key, [])
@@ -307,7 +341,7 @@ def gen_list(papers):
         for y in sorted(groups, reverse=True):
             yps = sorted(groups[y], key=lambda p: (date_key(p), p.get("title") or ""), reverse=True)
             mb.append("<details>")
-            mb.append(f"<summary>📅 {y} · {len(yps)} 篇</summary>")
+            mb.append(f"<summary>📅 {y} · {len(yps)} {pick('papers', '篇', lang)}</summary>")
             mb.append("")
             mb.extend(entry_line(p) for p in yps)
             mb.append("")          # blank line before the group's own </details>
@@ -345,25 +379,29 @@ def update_badges(text, total, with_abs):
 def main():
     papers = load_papers()
     stats = load_stats()
-    text = open(README, encoding="utf-8").read()
-
     total = len(papers)
     with_abs = sum(1 for p in papers if p.get("abstract"))
 
-    text = update_badges(text, total, with_abs)
-    text = replace_block(text, "## 📊 数据概览", gen_stats(papers, stats))
-    text = replace_block(text, "## 📋 评测与 Benchmark", gen_benchmark(papers))
-    text = replace_block(text, "## 📚 综述 Survey", gen_survey(papers))
-    text = replace_block(text, "## 📚 论文列表", gen_list(papers))
+    targets = [("en", README_EN), ("zh", README_ZH)]
+    for lang, path in targets:
+        if not os.path.exists(path):
+            print(f"[gen_readme] WARN: {path} missing, skip", file=sys.stderr)
+            continue
+        text = open(path, encoding="utf-8").read()
+        text = update_badges(text, total, with_abs)
+        text = replace_block(text, ANCHOR[lang]["overview"], gen_stats(papers, stats, lang))
+        text = replace_block(text, ANCHOR[lang]["benchmark"], gen_benchmark(papers, lang))
+        text = replace_block(text, ANCHOR[lang]["survey"], gen_survey(papers, lang))
+        text = replace_block(text, ANCHOR[lang]["paperlist"], gen_list(papers, lang))
 
-    tmp = README + ".tmp"
-    with open(tmp, "w", encoding="utf-8") as f:
-        f.write(text)
-    os.replace(tmp, README)
+        tmp = path + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as f:
+            f.write(text)
+        os.replace(tmp, path)
 
     n_bench = sum(1 for p in papers if p.get("benchmark") or "Benchmark" in (p.get("tags") or []))
     n_surv = sum(1 for p in papers if p.get("survey"))
-    print(f"[gen_readme] OK -> README.md regenerated from {total} papers "
+    print(f"[gen_readme] OK -> README.md + README.zh-CN.md regenerated from {total} papers "
           f"(bench={n_bench}, survey={n_surv}, code={sum(1 for p in papers if p.get('code'))})")
 
 

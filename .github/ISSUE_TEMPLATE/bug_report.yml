@@ -1,0 +1,31 @@
+name: "🐛 Bug Report"
+description: Report a broken link, wrong classification, or website issue
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Affected paper / page URL
+      description: Link to the paper entry or the website page where the issue appears.
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - "Broken / wrong link"
+        - "Wrong classification (model / method / scenario)"
+        - "Interactive website (docs/)"
+        - "README rendering"
+        - "Other"
+    validations:
+      required: true

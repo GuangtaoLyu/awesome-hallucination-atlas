@@ -1,6 +1,6 @@
 # 贡献指南 · Contributing Guide
 
-感谢你为 **Awesome Hallucination in MLLM** 做出贡献！本库通过一份**单一数据源**（`scripts/raw_data.py`）自动生成 README 表格与交互式网站，因此你**只需添加一条数据**，其余（分类、统计、网页）都会自动更新。
+感谢你为 **Awesome Hallucination Atlas** 做出贡献！本库通过一份**单一数据源**（`data/seed.json`）自动生成 README 表格与交互式网站，因此你**只需添加一条数据**，其余（分类、统计、网页）都会自动更新。
 
 ---
 

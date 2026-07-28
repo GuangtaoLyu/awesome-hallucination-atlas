@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use Awesome Hallucination Atlas in your research, please cite it as below."
+title: "Awesome Hallucination Atlas"
+abstract: >-
+  A structured, interactive atlas of hallucination research across multimodal
+  LLMs (MLLM / VLM / LLM). It aggregates ~1900 papers with multi-dimensional
+  faceted filtering (model type, method type, year, venue, CCF ranking, tags)
+  and full-text abstract search, auto-labeled from arXiv abstract text.
+authors:
+  - family-names: Lyu
+    given-names: Guangtao
+  - name: "Awesome Hallucination Atlas contributors"
+license: CC0-1.0
+repository-code: "https://github.com/GuangtaoLyu/awesome-hallucination-atlas"
+url: "https://guangtaolyu.github.io/awesome-hallucination-atlas/"
+keywords:
+  - hallucination
+  - LLM
+  - MLLM
+  - VLM
+  - survey
+  - benchmark
+  - evaluation
+  - mitigation
+preferred-citation:
+  type: article
+  title: >-
+    Towards Interpretable Hallucination Analysis and Mitigation in LVLMs via
+    Contrastive Neuron Steering
+  authors:
+    - family-names: Lyu
+      given-names: Guangtao
+    - family-names: Cheng
+      given-names: Xinyi
+    - family-names: Liu
+      given-names: Qi
+    - family-names: Xu
+      given-names: Chenghao
+    - family-names: Yan
+      given-names: Jiexi
+    - family-names: Yang
+      given-names: Muli
+    - family-names: Fang
+      given-names: Fen
+    - family-names: Deng
+      given-names: Cheng
+  year: 2026
+  journal: "arXiv preprint arXiv:2602.00621"
+  url: "https://arxiv.org/abs/2602.00621"

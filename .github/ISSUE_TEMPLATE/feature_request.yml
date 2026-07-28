@@ -1,0 +1,18 @@
+name: "💡 Feature Request"
+description: Suggest an improvement to the atlas or the interactive website
+title: "Feature: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What should we add or change? (new filter dimension, UI improvement, data source, etc.)
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it useful?
+    validations:
+      required: false
