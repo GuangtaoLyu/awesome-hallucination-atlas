@@ -28,8 +28,10 @@ Usage:
 """
 import os
 import sys
+import json
 import argparse
 import subprocess
+import datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -45,6 +47,50 @@ def run(script, *args):
         print(f"[pipeline] ERROR: {script} exited with code {rc}", file=sys.stderr)
         sys.exit(rc)
     return rc
+
+
+def git_commit(ran):
+    """Commit the pipeline result so every run is revertible.
+
+    Called only AFTER audit passes, so committed states are always verified
+    good builds. gitignore excludes regenerable caches/buffers, so only the
+    source of truth (seed.json / manual_entries.yaml / configs) and generated
+    deliverables (papers.json / docs/ / README.md) are tracked.
+
+    No-op (with a warning) if git is unavailable or there is nothing to stage;
+    never fails the pipeline.
+    """
+    try:
+        subprocess.check_output(["git", "rev-parse", "--is-inside-work-tree"],
+                                cwd=ROOT, stderr=subprocess.DEVNULL)
+    except Exception:
+        print("[pipeline] git: not a git repo, skipping auto-commit")
+        return
+    subprocess.call(["git", "add", "-A"], cwd=ROOT)
+    st = subprocess.run(["git", "status", "--porcelain"], cwd=ROOT,
+                        capture_output=True, text=True)
+    if not st.stdout.strip():
+        print("[pipeline] git: nothing changed, no commit needed")
+        return
+    n_changed = len([l for l in st.stdout.splitlines() if l.strip()])
+    try:
+        with open(os.path.join(ROOT, "data", "papers.json"), encoding="utf-8") as f:
+            d = json.load(f)
+        n_papers = len(d["papers"]) if isinstance(d, dict) and "papers" in d else len(d)
+    except Exception:
+        n_papers = None
+    stamp = datetime.date.today().strftime("%Y-%m-%d")
+    steps = " -> ".join(ran)
+    msg = (f"update({stamp}): pipeline run, {n_changed} file(s) changed"
+           + (f", {n_papers} papers" if n_papers is not None else "")
+           + f"\n\nsteps: {steps}")
+    rc = subprocess.call(["git", "commit", "-q", "-m", msg], cwd=ROOT)
+    if rc == 0:
+        print(f"[pipeline] git: committed {n_changed} file(s) "
+              f"({n_papers} papers) — revert with 'git revert HEAD'")
+    else:
+        print("[pipeline] git: commit returned non-zero; changes left staged",
+              file=sys.stderr)
 
 
 def main():
@@ -71,6 +117,8 @@ def main():
                     help="one-shot full update: --collect + --collect-2026 + --enrich (then fetch + venues + generate + audit)")
     ap.add_argument("--no-audit", action="store_true",
                     help="skip the final audit step")
+    ap.add_argument("--no-commit", action="store_true",
+                    help="do not auto-commit the result with git (commit is on by default)")
     ap.add_argument("--check", action="store_true",
                     help="offline integrity check only (run audit.py, make no changes) and exit")
     ap.add_argument("--serve", action="store_true",
@@ -187,6 +235,11 @@ def main():
 
     print("\n[pipeline] DONE. steps run: " + " -> ".join(ran))
     print("[pipeline] papers.json regenerated with venues + CCF + enrichment applied.")
+
+    # 7. version the result: audit has passed, so this commit is a verified
+    #    good build and any future run can be reverted with `git revert`.
+    if not args.no_commit:
+        git_commit(ran)
 
     # Optional: preview the generated site locally. Blocks until Ctrl-C.
     if args.serve:
