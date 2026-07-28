@@ -1,0 +1,29 @@
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+
+# ── Regenerable data caches (rebuilt by the pipeline) ──
+data/abstracts.json
+data/abstracts_extra.json
+data/crossref_cache.json
+data/incremental.json
+data/venue_links.json
+data/code_links.json
+data/found_links.json
+data/stats.json
+data/stats_history.jsonl
+
+# ── Backups / temp / one-off artifacts (never meant to be tracked) ──
+*.bak
+data/incremental.json.bak
+data/papers.json.pre_incremental
+data/_surveys_tmp.json
+data/_code_anthology.json
+data/cvpr2026_hall.json
+data/candidates_new.json
+
+# NOTE: docs/papers.json is a GENERATED duplicate of data/papers.json (needed
+# by GitHub Pages). It is intentionally tracked. If you prefer a single source
+# of truth, uncomment the next line and have CI run `generate.py` on deploy:
+# docs/papers.json

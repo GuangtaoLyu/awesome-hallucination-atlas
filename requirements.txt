@@ -1,0 +1,5 @@
+# No third-party dependencies are required.
+# All pipeline scripts use the Python standard library only
+# (urllib, ssl, xml.etree, json, re, ...). YAML curation entries are parsed by
+# a built-in minimal parser in scripts/generate.py (no PyYAML needed).
+# Tested on Python 3.12+.

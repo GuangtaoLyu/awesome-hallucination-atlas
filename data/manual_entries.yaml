@@ -1,0 +1,66 @@
+# Manual curation entries for the hallucination research library.
+#
+# This is the human-edited source of truth for papers that are NOT auto-fetched
+# from arXiv (e.g. recovered papers, venue-only entries, or anything a curator
+# wants to pin). `scripts/generate.py` loads this file and merges it with
+# `scripts/raw_data.py` (legacy bulk list) and `data/incremental.json`
+# (auto-harvested arXiv candidates).
+#
+# Schema (one entry per `-` block; all fields are plain scalars):
+#   title:   REQUIRED  (exact paper title; used as the dedup key)
+#   authors: OPTIONAL (free text, e.g. "Zheng et al." or full names)
+#   url:     OPTIONAL  (arXiv abs link, DOI, or publisher page)
+#   year:    OPTIONAL  (defaults to 2026)
+#   venue:   OPTIONAL  (venue override; if present it wins over auto-derivation)
+#
+# To add a paper, append a new `-` block. Keep titles exact to avoid duplicates.
+
+- title: "HALLMARK: Diagnosing Three Failure Modes in LLM Citation Verifiers"
+  authors: "Reizinger et al."
+  url: "https://arxiv.org/abs/2607.18360"
+  year: 2026
+
+- title: "Groc-PO: Grounded Context Preference Optimization for Truthful Multimodal LLMs"
+  authors: "Zheng et al."
+  url: "https://arxiv.org/abs/2607.13712"
+  year: 2026
+
+- title: "MissingBench-Verified: Probing Vision-Language Models' Inability to Detect Missing Object Parts"
+  authors: "Guo et al."
+  url: "https://arxiv.org/abs/2607.18673"
+  year: 2026
+
+- title: "Faithful by Design: Evaluating and Improving LLM-Generated Clinical Trial Summaries for Multi-Stakeholder Audiences"
+  authors: "Williams et al."
+  url: "https://arxiv.org/abs/2607.09932"
+  year: 2026
+
+- title: "ArtChart: A Benchmark for Faithful Artistic Chart Generation with Integrated Text Rendering"
+  authors: "Huang et al."
+  url: "https://arxiv.org/abs/2607.16060"
+  year: 2026
+
+- title: "Do Medical Vision Language Models Actually See? A Counterfactual Grounding Framework and Hard-Negative Contrastive Training for Visually-Reliant Medical VLMs"
+  authors: "Zafar et al."
+  url: "https://arxiv.org/abs/2607.03647"
+  year: 2026
+
+- title: "Deceptive Grounding: Entity Attribution Failure in Clinical Retrieval-Augmented Generation"
+  authors: "Caruzzo et al."
+  url: "https://arxiv.org/abs/2607.09349"
+  year: 2026
+
+- title: "ProCap: Prominence-guided Object Rectification for Faithful and Comprehensive Video Captioning"
+  authors: "Adhikary et al."
+  url: "https://arxiv.org/abs/2607.21022"
+  year: 2026
+
+- title: "HoloCount: A Holistic Visual Counting Benchmark for MLLMs"
+  authors: "Deng et al."
+  url: "https://arxiv.org/abs/2607.06420"
+  year: 2026
+
+- title: "WeedExpert-R1: Incentivizing Botanical Reasoning in MLLMs with Reinforcement Learning for Precision Weed Grounding"
+  authors: "Yang et al."
+  url: "https://arxiv.org/abs/2607.16492"
+  year: 2026
