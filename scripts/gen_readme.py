@@ -133,45 +133,49 @@ def gen_stats(papers, stats):
     n_bench = sum(1 for p in papers if p.get("benchmark") or "Benchmark" in (p.get("tags") or []))
     n_surv = sum(1 for p in papers if p.get("survey"))
 
-    return f"""- **论文总数**：`{total}` 篇（已去重）
-- **含论文链接**：`{with_link}` 篇 · **含全文摘要**：`{with_abs}` 篇 · **含代码链接**：`{with_code}` 篇 · **顶会正式发表**：`{top_pub}` 篇
-- 顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息
-- **覆盖年份**：{ymin} – {ymax}
+    intro = (
+        f"- **论文总数**：`{total}` 篇（已去重）\n"
+        f"- **含论文链接**：`{with_link}` 篇 · **含全文摘要**：`{with_abs}` 篇 · **含代码链接**：`{with_code}` 篇 · **顶会正式发表**：`{top_pub}` 篇\n"
+        "- 顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息\n"
+        f"- **覆盖年份**：{ymin} – {ymax}\n"
+    )
 
-### 按年份分布
+    # Venue distribution is wrapped in <details> (the table + the nested
+    # "其他" detail can get long). Blank lines separate every <details>
+    # boundary so GitHub/CommonMark does not merge adjacent HTML blocks,
+    # which would silently break the collapse and the nested detail.
+    venue_block = (
+        "<details>\n"
+        "<summary>📊 按会议 / 期刊分布（点击折叠 / 展开）</summary>\n\n"
+        "### 按会议 / 期刊分布\n\n"
+        "> 已正式发表在会议 / 期刊的论文按 venue 统计（顶会官方信息优先）；`arXiv（预印本）` 为尚未正式录用的预印本。小众期刊 / 小会、研讨会 / 卫星会 / 边会等次级 venue 以及各仅 1 篇的 venue 统一归入「其他」行，明细见表下折叠区；`其他` 中仍含少量 DOI 无法解析出处的条目，`未标注` 为无任何链接、暂无法判定的条目。\n\n"
+        "| 会议 / 期刊 | 数量 | 占比 |\n"
+        "|-------------|------|------|\n"
+        f"{venue_table}"
+        "\n"
+        f"{other_detail}"
+        "\n</details>"
+    )
 
-| 年份 | 数量 | 占比 |
-|------|------|------|
-{year_rows}
-### 按模型类型分布
+    ccf_block = (
+        "### 按 CCF 评级分布\n\n"
+        "> 依据 **CCF 推荐国际学术会议 / 期刊目录（2022）** 对正式发表的论文标注评级；`未收录` 含 arXiv 预印本、暂未解析出 venue 的条目，以及 CCF 目录之外的会议 / 期刊。\n\n"
+        "| CCF 评级 | 数量 | 占比 |\n"
+        "|----------|------|------|\n"
+        f"{ccf_rows}"
+        f"> 📋 另有 `{n_bench}` 篇 **评测 / Benchmark** 论文、📚 `{n_surv}` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。\n\n"
+        "---\n"
+    )
 
-| 模型类型 | 说明 | 数量 |
-|----------|------|------|
-{model_rows}
-### 按方法类型分布
-
-| 方法类型 | 说明 | 数量 |
-|----------|------|------|
-{method_rows}
-### 按会议 / 期刊分布
-
-> 已正式发表在会议 / 期刊的论文按 venue 统计（顶会官方信息优先）；`arXiv（预印本）` 为尚未正式录用的预印本。小众期刊 / 小会、研讨会 / 卫星会 / 边会等次级 venue 以及各仅 1 篇的 venue 统一归入「其他」行，明细见表下折叠区；`其他` 中仍含少量 DOI 无法解析出处的条目，`未标注` 为无任何链接、暂无法判定的条目。
-
-| 会议 / 期刊 | 数量 | 占比 |
-|-------------|------|------|
-{venue_table}
-{other_detail}
-### 按 CCF 评级分布
-
-> 依据 **CCF 推荐国际学术会议 / 期刊目录（2022）** 对正式发表的论文标注评级；`未收录` 含 arXiv 预印本、暂未解析出 venue 的条目，以及 CCF 目录之外的会议 / 期刊。
-
-| CCF 评级 | 数量 | 占比 |
-|----------|------|------|
-{ccf_rows}
-> 📋 另有 `{n_bench}` 篇 **评测 / Benchmark** 论文、📚 `{n_surv}` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。
-
----
-"""
+    blocks = [
+        intro.rstrip("\n"),
+        "### 按年份分布\n\n| 年份 | 数量 | 占比 |\n|------|------|------|\n" + year_rows,
+        "### 按模型类型分布\n\n| 模型类型 | 说明 | 数量 |\n|----------|------|------|\n" + model_rows,
+        "### 按方法类型分布\n\n| 方法类型 | 说明 | 数量 |\n|----------|------|------|\n" + method_rows,
+        venue_block,
+        ccf_block.rstrip("\n"),
+    ]
+    return "\n\n".join(blocks) + "\n"
 
 
 def gen_venue(papers, total, stats):
