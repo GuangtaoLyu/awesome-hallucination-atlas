@@ -1,15 +1,22 @@
-# Awesome Hallucination in MLLM/LVLM/LLM [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Hallucination in MLLM/LVLM/LLM [[Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > 一个**结构化、可交互**的多模态大模型（MLLM / LVLM / LLM）幻觉研究资源库。
+>   
 > 涵盖幻觉的**检测、评测与缓解**方法，支持按模型类型、方法类型、年份多维交叉筛选，并以标签补充模态与场景。
+>   
 > 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1391/1893 篇），非仅标题关键词。
 
-<p align='center'>
-  <img src='https://img.shields.io/badge/Papers-1893-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1391-9cf' />
-  <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
-  <img src='https://img.shields.io/badge/Last%20Update-2026-07-orange' />
-</p>
+\<p align='center'>
+  
+  \<img src='https://img.shields.io/badge/Papers-1893-blue' />
+  
+  \<img src='https://img.shields.io/badge/Abstract--based-1391-9cf' />
+  
+  \<img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
+  
+  \<img src='https://img.shields.io/badge/Last%20Update-2026-07-orange' />
+  
+\</p>
 
 **🔗 交互式网站**：打开 [`docs/index.html`](docs/index.html)（或部署到 GitHub Pages）即可按维度筛选、关键词/摘要全文搜索、年份排序。
 
@@ -295,14 +302,16 @@
 
 每篇论文标注 **3 个维度**（模型类型 / 方法类型 / 年份，基于摘要全文自动分析），并以标签补充模态与场景：
 
-| 维度 | 取值 |
-|------|------|
+| 维度       | 取值                                                         |
+| -------- | ---------------------------------------------------------- |
 | **模型类型** | `VLM/LVLM`（视觉-语言） · `MLLM (Omni)`（含音频/语音的全模态） · `LLM`（纯文本） |
-| **方法类型** | `Training-free` · `Training-based`（二分类） |
-| **年份** | 2018 – 2027 |
+| **方法类型** | `Training-free` · `Training-based`（二分类）                    |
+| **年份**   | 2018 – 2027                                                |
 
 > 幻觉场景不再单独分维度：对 VLM 而言物体幻觉即通用幻觉，二者无实质区别。仅将真正特殊的 `Relation` / `Attribute` 幻觉作为可选标签保留。
+>   
 > 附加标签：`Benchmark`（评测/基准，独立标记不影响方法分类） `Survey`（综述） `Relation` `Attribute` `CV`（图像/视觉模态） `Video` `Audio` `Multilingual` `Medical` `3D` `Agent`。
+>   
 > 完整摘要收录于 `data/papers.json`，可在交互网站中展开阅读与全文搜索。
 
 ---
