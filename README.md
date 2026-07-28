@@ -1,21 +1,21 @@
-# Awesome Hallucination in MLLM/LVLM/LLM [[Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Hallucination in MLLM/LVLM/LLM [[Awesome](https://awesome.re/badge.svg)\](<https://awesome.re>)
 
 > 一个**结构化、可交互**的多模态大模型（MLLM / LVLM / LLM）幻觉研究资源库。
->   
+>
 > 涵盖幻觉的**检测、评测与缓解**方法，支持按模型类型、方法类型、年份多维交叉筛选，并以标签补充模态与场景。
->   
+>
 > 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1391/1893 篇），非仅标题关键词。
 
 \<p align='center'>
-  
-  \<img src='https://img.shields.io/badge/Papers-1893-blue' />
-  
-  \<img src='https://img.shields.io/badge/Abstract--based-1391-9cf' />
-  
-  \<img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
-  
-  \<img src='https://img.shields.io/badge/Last%20Update-2026-07-orange' />
-  
+
+\<img src='<https://img.shields.io/badge/Papers-1893-blue>' />
+
+\<img src='<https://img.shields.io/badge/Abstract--based-1391-9cf>' />
+
+\<img src='<https://img.shields.io/badge/PRs-Welcome-brightgreen>' />
+
+\<img src='<https://img.shields.io/badge/Last%20Update-2026-07-orange>' />
+
 \</p>
 
 **🔗 交互式网站**：打开 [`docs/index.html`](docs/index.html)（或部署到 GitHub Pages）即可按维度筛选、关键词/摘要全文搜索、年份排序。
@@ -309,9 +309,9 @@
 | **年份**   | 2018 – 2027                                                |
 
 > 幻觉场景不再单独分维度：对 VLM 而言物体幻觉即通用幻觉，二者无实质区别。仅将真正特殊的 `Relation` / `Attribute` 幻觉作为可选标签保留。
->   
+>
 > 附加标签：`Benchmark`（评测/基准，独立标记不影响方法分类） `Survey`（综述） `Relation` `Attribute` `CV`（图像/视觉模态） `Video` `Audio` `Multilingual` `Medical` `3D` `Agent`。
->   
+>
 > 完整摘要收录于 `data/papers.json`，可在交互网站中展开阅读与全文搜索。
 
 ---
@@ -482,6 +482,7 @@
 
 ## 📚 论文列表
 > 按**模型类型**分组（LLM / VLM / MLLM），每组内再按年份展开；点击标题可展开 / 收起。每条格式：**标题** · 会议/年份 · 模型 · 方法 · 💻代码。标题链接优先顶会官方版本。📋 = 评测/Benchmark 论文，📚 = 综述 Survey 论文。完整摘要与多维交叉筛选见交互式网站 [`docs/index.html`](docs/index.html)。欢迎 PR 补充。
+
 <details>
 <summary>🤖 LLM · 1127 篇</summary>
 
@@ -495,6 +496,7 @@
 - **[A Multi-agent Framework for Factuality Hallucination Detection Using Complex Knowledge Graph](https://doi.org/10.1007/978-981-92-2480-7_10)** · Lecture Notes in Computer Science · LLM · Training-free
 
 </details>
+
 <details>
 <summary>📅 2026 · 411 篇</summary>
 
@@ -911,6 +913,7 @@
 - **[A Non-intrusive Plug-and-play Method for Hallucination Mitigation via LID-guided Input Preprocessing](https://doi.org/10.1007/s11633-025-1596-7)** · Mach. Intell. Res. 2026 · LLM · Training-free
 
 </details>
+
 <details>
 <summary>📅 2025 · 438 篇</summary>
 
@@ -1354,6 +1357,7 @@
 - **📚 [A Review of Faithfulness Metrics for Hallucination Assessment in Large Language Models](https://doi.org/10.1109/JSTSP.2025.3579203)** · IEEE J. Sel. Top. Signal Process. 2025 · LLM · Training-free
 
 </details>
+
 <details>
 <summary>📅 2024 · 243 篇</summary>
 
@@ -1602,6 +1606,7 @@
 - **[A Cause-Effect Look at Alleviating Hallucination of Knowledge-grounded Dialogue Generation](https://aclanthology.org/2024.lrec-main.9)** · LREC/COLING 2024 · LLM · Training-free
 
 </details>
+
 <details>
 <summary>📅 2023 · 20 篇</summary>
 
@@ -1627,6 +1632,7 @@
 - **[Detecting Dialogue Hallucination Using Graph Neural Networks](https://doi.org/10.1109/ICMLA58977.2023.00128)** · ICMLA 2023 · LLM · Training-free
 
 </details>
+
 <details>
 <summary>📅 2022 · 2 篇</summary>
 
@@ -1634,6 +1640,7 @@
 - **[On the Origin of Hallucinations in Conversational Models: Is it the Datasets or the Models?](https://doi.org/10.18653/v1/2022.naacl-main.387)** · NAACL 2022 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 
 </details>
+
 <details>
 <summary>📅 2021 · 3 篇</summary>
 
@@ -1642,12 +1649,14 @@
 - **[The Curious Case of Hallucinations in Neural Machine Translation](https://doi.org/10.18653/v1/2021.naacl-main.92)** · NAACL 2021 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 
 </details>
+
 <details>
 <summary>📅 2020 · 1 篇</summary>
 
 - **[Structural Hallucination in LLMs: A Formal Characterization and Mitigation Method](https://doi.org/10.36948/ijfmr.2020.v02i05.61072)** · International Journal For Multidisciplinary Research · LLM · Training-based
 
 </details>
+
 <details>
 <summary>📅 2019 · 4 篇</summary>
 
@@ -1657,7 +1666,9 @@
 - **[A Simple Recipe towards Reducing Hallucination in Neural Surface Realisation](https://doi.org/10.18653/v1/p19-1256)** · ACL 2019 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 
 </details>
+
 </details>
+
 <details>
 <summary>👁️ VLM · 719 篇</summary>
 
@@ -1956,6 +1967,7 @@
 - **📚 [A Survey of Multimodal Hallucination Evaluation and Detection](https://doi.org/10.1007/s11263-026-02756-9)** · IJCV 2026 · VLM · Training-free
 
 </details>
+
 <details>
 <summary>📅 2025 · 308 篇</summary>
 
@@ -2269,6 +2281,7 @@
 - **[AI in conjunctivitis research: assessing ChatGPT and DeepSeek for etiology, intervention, and citation integrity via hallucination rate analysis](https://doi.org/10.3389/frai.2025.1579375)** · Frontiers Artif. Intell. 2025 · VLM · Training-free
 
 </details>
+
 <details>
 <summary>📅 2024 · 115 篇</summary>
 
@@ -2389,6 +2402,7 @@
 - **[A Unified Hallucination Mitigation Framework for Large Vision-Language Models](https://openreview.net/forum?id=ZVDWzgk6L6)** · TMLR 2024 · VLM · Training-free
 
 </details>
+
 <details>
 <summary>📅 2023 · 4 篇</summary>
 
@@ -2398,19 +2412,23 @@
 - **[Plausible May Not Be Faithful: Probing Object Hallucination in Vision-Language Pre-training](https://doi.org/10.18653/v1/2023.eacl-main.156)** · EACL 2023 · VLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 
 </details>
+
 <details>
 <summary>📅 2022 · 1 篇</summary>
 
 - **[Let there be a clock on the beach: Reducing Object Hallucination in Image Captioning](https://doi.org/10.1109/WACV51458.2022.00253)** · WACV 2022 · VLM · Training-free
 
 </details>
+
 <details>
 <summary>📅 2018 · 1 篇</summary>
 
 - **[Object Hallucination in Image Captioning](https://doi.org/10.18653/v1/D18-1437)** · EMNLP 2018 · VLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 
 </details>
+
 </details>
+
 <details>
 <summary>🌐 MLLM(Omni) · 47 篇</summary>
 
@@ -2442,6 +2460,7 @@
 - **[Exploring Audio Hallucination in Egocentric Video Understanding](https://doi.org/10.1109/icassp55912.2026.11460380)** · ICASSP 2026 · MLLM(Omni) · Training-free
 
 </details>
+
 <details>
 <summary>📅 2025 · 17 篇</summary>
 
@@ -2464,6 +2483,7 @@
 - **[Fewer Hallucinations, More Verification: A Three-Stage LLM-Based Framework for ASR Error Correction](https://doi.org/10.1109/ASRU65441.2025.11434775)** · ASRU 2025 · MLLM(Omni) · Training-based
 
 </details>
+
 <details>
 <summary>📅 2024 · 6 篇</summary>
 
@@ -2475,12 +2495,14 @@
 - **[Careless Whisper: Speech-to-Text Hallucination Harms](https://doi.org/10.1145/3630106.3658996)** · FAccT 2024 · MLLM(Omni) · Training-free
 
 </details>
+
 <details>
 <summary>📅 2022 · 1 篇</summary>
 
 - **[Hallucination of Speech Recognition Errors With Sequence to Sequence Learning](https://doi.org/10.1109/TASLP.2022.3145313)** · TASLP 2022 · MLLM(Omni) · Training-free
 
 </details>
+
 </details>
 
 ## 📖 推荐引用

@@ -276,7 +276,7 @@ def gen_list(papers):
     for p in papers:
         by_model.setdefault(p.get("model_type") or "LLM", []).append(p)
     known = {k for k, _ in MODEL_ORDER}
-    lines = (
+    intro = (
         "> 按**模型类型**分组（LLM / VLM / MLLM），每组内再按年份展开；点击标题可展开 / 收起。"
         "每条格式：**标题** · 会议/年份 · 模型 · 方法 · 💻代码。"
         "标题链接优先顶会官方版本。📋 = 评测/Benchmark 论文，📚 = 综述 Survey 论文。"
@@ -286,20 +286,32 @@ def gen_list(papers):
     for k in by_model:
         if k not in known:
             order.append((k, k))
+
+    # Each model group is a "block"; blocks are joined by a BLANK LINE so the
+    # closing </details> of one group is never adjacent to the next <details>.
+    # GitHub/CommonMark merges adjacent HTML-block lines into one block, which
+    # silently breaks nested <details> and renders them permanently expanded.
+    blocks = [intro.rstrip("\n")]
     for key, label in order:
         ps = by_model.get(key, [])
         if not ps:
             continue
-        lines += f"<details>\n<summary>{label} · {len(ps)} 篇</summary>\n\n"
+        mb = ["<details>", f"<summary>{label} · {len(ps)} 篇</summary>", ""]
         groups = {}
         for p in ps:
             groups.setdefault(p["year"], []).append(p)
         for y in sorted(groups, reverse=True):
             yps = sorted(groups[y], key=lambda p: (date_key(p), p.get("title") or ""), reverse=True)
-            lines += f"<details>\n<summary>📅 {y} · {len(yps)} 篇</summary>\n\n"
-            lines += "\n".join(entry_line(p) for p in yps) + "\n\n</details>\n"
-        lines += "</details>\n"
-    return lines
+            mb.append("<details>")
+            mb.append(f"<summary>📅 {y} · {len(yps)} 篇</summary>")
+            mb.append("")
+            mb.extend(entry_line(p) for p in yps)
+            mb.append("")          # blank line before the group's own </details>
+            mb.append("</details>")
+            mb.append("")          # blank line between consecutive year groups
+        mb.append("</details>")
+        blocks.append("\n".join(mb))
+    return "\n\n".join(blocks) + "\n"
 
 
 # ----------------------------------------------------------------------------
