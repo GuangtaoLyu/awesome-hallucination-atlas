@@ -1,4 +1,4 @@
-# Awesome Hallucination in MLLM/LVLM/LLM [[Awesome](https://awesome.re/badge.svg)\](<https://awesome.re>)
+# Awesome Hallucination in MLLM/LVLM/LLM [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > 一个**结构化、可交互**的多模态大模型（MLLM / LVLM / LLM）幻觉研究资源库。
 >
@@ -6,17 +6,14 @@
 >
 > 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1391/1893 篇），非仅标题关键词。
 
-\<p align='center'>
+<p align="center">
 
-\<img src='<https://img.shields.io/badge/Papers-1893-blue>' />
+![Papers](https://img.shields.io/badge/Papers-1893-blue)
+![Abstract--based-1391](https://img.shields.io/badge/Abstract--based-1391-9cf)
+![PRs-Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen)
+![Last%20Update-2026-07](https://img.shields.io/badge/Last%20Update-2026-07-orange)
 
-\<img src='<https://img.shields.io/badge/Abstract--based-1391-9cf>' />
-
-\<img src='<https://img.shields.io/badge/PRs-Welcome-brightgreen>' />
-
-\<img src='<https://img.shields.io/badge/Last%20Update-2026-07-orange>' />
-
-\</p>
+</p>
 
 **🔗 交互式网站**：打开 [`docs/index.html`](docs/index.html)（或部署到 GitHub Pages）即可按维度筛选、关键词/摘要全文搜索、年份排序。
 
