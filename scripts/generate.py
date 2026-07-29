@@ -780,6 +780,7 @@ def write_readme(papers, stats, lang):
     L.append("- [" + _("Citation", "推荐引用") + "](#sec-cite)")
     L.append("- [" + _("Contributing", "贡献") + "](#sec-contrib)")
     L.append("- [" + _("License", "许可") + "](#sec-license)")
+    L.append("- [" + _("Star History", "Star 增长趋势") + "](#sec-stars)")
     L.append("")
     L.append("---")
     L.append("")
@@ -1040,6 +1041,20 @@ def write_readme(papers, stats, lang):
     L.append("")
     L.append(_("Released under [CC0-1.0](LICENSE), following the [awesome](https://github.com/sindresorhus/awesome) manifesto.",
               "基于 [CC0-1.0](LICENSE) 协议发布，遵循 [awesome](https://github.com/sindresorhus/awesome) 规范。"))
+    L.append("")
+    L.append('<a id="sec-stars"></a>')
+    L.append("## ⭐ " + _("Star History", "Star 增长趋势"))
+    L.append("")
+    L.append(_("A record of how this atlas has grown in the community:",
+               "本图谱在社区中的增长记录："))
+    L.append("")
+    L.append('<a href="https://www.star-history.com/#GuangtaoLyu/awesome-hallucination-atlas&Date">')
+    L.append('  <picture>')
+    L.append('    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=GuangtaoLyu/awesome-hallucination-atlas&type=Date&theme=dark" />')
+    L.append('    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=GuangtaoLyu/awesome-hallucination-atlas&type=Date" />')
+    L.append('    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=GuangtaoLyu/awesome-hallucination-atlas&type=Date" />')
+    L.append('  </picture>')
+    L.append('</a>')
     L.append("")
 
     out_name = "README.md" if lang == "en" else "README.zh-CN.md"

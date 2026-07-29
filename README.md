@@ -28,6 +28,7 @@
 - [Citation](#sec-cite)
 - [Contributing](#sec-contrib)
 - [License](#sec-license)
+- [Star History](#sec-stars)
 
 ---
 
@@ -2574,3 +2575,16 @@ We welcome new papers, code links, venue info, and taxonomy corrections! Please 
 ## 📄 License
 
 Released under [CC0-1.0](LICENSE), following the [awesome](https://github.com/sindresorhus/awesome) manifesto.
+
+<a id="sec-stars"></a>
+## ⭐ Star History
+
+A record of how this atlas has grown in the community:
+
+<a href="https://www.star-history.com/#GuangtaoLyu/awesome-hallucination-atlas&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=GuangtaoLyu/awesome-hallucination-atlas&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=GuangtaoLyu/awesome-hallucination-atlas&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=GuangtaoLyu/awesome-hallucination-atlas&type=Date" />
+  </picture>
+</a>

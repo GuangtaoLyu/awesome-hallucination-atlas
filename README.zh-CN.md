@@ -28,6 +28,7 @@
 - [推荐引用](#sec-cite)
 - [贡献](#sec-contrib)
 - [许可](#sec-license)
+- [Star 增长趋势](#sec-stars)
 
 ---
 
@@ -2574,3 +2575,16 @@
 ## 📄 许可
 
 基于 [CC0-1.0](LICENSE) 协议发布，遵循 [awesome](https://github.com/sindresorhus/awesome) 规范。
+
+<a id="sec-stars"></a>
+## ⭐ Star 增长趋势
+
+本图谱在社区中的增长记录：
+
+<a href="https://www.star-history.com/#GuangtaoLyu/awesome-hallucination-atlas&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=GuangtaoLyu/awesome-hallucination-atlas&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=GuangtaoLyu/awesome-hallucination-atlas&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=GuangtaoLyu/awesome-hallucination-atlas&type=Date" />
+  </picture>
+</a>
