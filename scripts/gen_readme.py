@@ -372,7 +372,7 @@ def update_badges(text, total, with_abs):
     stamp = now.strftime("%Y-%m")
     text = re.sub(r"Papers-\d+", f"Papers-{total}", text)
     text = re.sub(r"Abstract--based-\d+", f"Abstract--based-{with_abs}", text)
-    text = re.sub(r"Last%20Update-\d{4}-\d{2}", f"Last%20Update-{stamp}", text)
+    text = re.sub(r"static/v1\?label=Last%20Update&message=\d{4}-\d{2}&color=orange", f"static/v1?label=Last%20Update&message={stamp}&color=orange", text)
     return text
 
 

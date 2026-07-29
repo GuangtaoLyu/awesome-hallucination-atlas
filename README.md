@@ -12,7 +12,7 @@
   <img src='https://img.shields.io/badge/Papers-1898-blue' />
   <img src='https://img.shields.io/badge/Abstract--based-1396-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
-  <img src='https://img.shields.io/badge/Last%20Update-2026-07-orange' />
+  <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-07&color=orange' />
 </p>
 
 **🌐 Website**: [awesome-hallucination-atlas on GitHub Pages](https://guangtaolyu.github.io/awesome-hallucination-atlas/) — interactive filtering, full-text abstract search, and year sorting. Or open [`docs/index.html`](docs/index.html) locally.

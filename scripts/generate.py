@@ -761,7 +761,7 @@ def write_readme(papers, stats, lang):
     L.append(f"  <img src='https://img.shields.io/badge/Papers-{total}-blue' />")
     L.append(f"  <img src='https://img.shields.io/badge/Abstract--based-{stats['with_abstract']}-9cf' />")
     L.append("  <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />")
-    L.append(f"  <img src='https://img.shields.io/badge/Last%20Update-{last_update}-orange' />")
+    L.append(f"  <img src='https://img.shields.io/static/v1?label=Last%20Update&message={last_update}&color=orange' />")
     L.append("</p>")
     L.append("")
     L.append("**🌐 " + _("Website", "网站") + "**: "
