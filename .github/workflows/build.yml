@@ -20,13 +20,19 @@ jobs:
           python-version: "3.12"
       - name: Fetch new abstracts (incremental)
         run: python scripts/fetch_abstracts.py
-      - name: Regenerate outputs
-        run: python scripts/generate.py
+      # IMPORTANT: use gen_readme.py (not generate.py). generate.py rebuilds
+      # data/papers.json from seed.json + data/incremental.json, but the latter
+      # is gitignored and ABSENT in CI — so generate.py would silently drop to
+      # ~1070 papers and overwrite the real 1897-paper dataset. gen_readme.py
+      # only refreshes the data-driven README blocks from the EXISTING
+      # data/papers.json, never touching the dataset.
+      - name: Regenerate README (dataset-safe)
+        run: python scripts/gen_readme.py
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md README.zh-CN.md data/papers.json docs/papers.json
+          git add README.md README.zh-CN.md
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
