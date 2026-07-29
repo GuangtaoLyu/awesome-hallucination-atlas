@@ -310,8 +310,8 @@
 |----------|------|------|
 | CCF-A | 429 | `█████░░░░░░░░░░░░░░░░░` 22.6% |
 | CCF-B | 231 | `███░░░░░░░░░░░░░░░░░░░` 12.2% |
-| CCF-C | 33 | `░░░░░░░░░░░░░░░░░░░░░░` 1.7% |
-| Not in CCF | 1204 | `██████████████░░░░░░░░` 63.5% |
+| CCF-C | 28 | `░░░░░░░░░░░░░░░░░░░░░░` 1.5% |
+| Not in CCF | 1209 | `██████████████░░░░░░░░` 63.7% |
 
 > 📋 `114` **Benchmark** papers and 📚 `32` **Survey** papers are listed separately (see sections below) and do not affect the method taxonomy.
 
