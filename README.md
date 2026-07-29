@@ -2518,10 +2518,10 @@ Released under [CC0-1.0](LICENSE), following the [awesome](https://github.com/si
 
 A record of how this atlas has grown in the community:
 
-<a href="https://www.star-history.com/?type=date&repos=GuangtaoLyu%2Fawesome-hallucination-atlas">
+<a href="https://www.star-history.com/?repos=GuangtaoLyu%2Fawesome-hallucination-atlas&type=date&legend=top-left">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=GuangtaoLyu/awesome-hallucination-atlas&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=GuangtaoLyu/awesome-hallucination-atlas&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=GuangtaoLyu/awesome-hallucination-atlas&type=Date" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=GuangtaoLyu/awesome-hallucination-atlas&type=date&theme=dark&legend=top-left&sealed_token=Cxc2tN4j-TffWTvvskFHeDxSzltvKS2K7jVuyNB_xU6FFhrPCiumyPJbleoqmiUTnG7papzi6-B8ZWOTRpT7GCkvxakjlSnOcopWkF3vag9mnL_vDh8G8aWDOPhzF8P8c1cV7CsH6clKE41tAzJOnybPhxtxd3VFOuSRSR7xCm_e1_I7E7PHDjR-Fysx" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=GuangtaoLyu/awesome-hallucination-atlas&type=date&legend=top-left&sealed_token=Cxc2tN4j-TffWTvvskFHeDxSzltvKS2K7jVuyNB_xU6FFhrPCiumyPJbleoqmiUTnG7papzi6-B8ZWOTRpT7GCkvxakjlSnOcopWkF3vag9mnL_vDh8G8aWDOPhzF8P8c1cV7CsH6clKE41tAzJOnybPhxtxd3VFOuSRSR7xCm_e1_I7E7PHDjR-Fysx" />
+    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=GuangtaoLyu/awesome-hallucination-atlas&type=date&legend=top-left&sealed_token=Cxc2tN4j-TffWTvvskFHeDxSzltvKS2K7jVuyNB_xU6FFhrPCiumyPJbleoqmiUTnG7papzi6-B8ZWOTRpT7GCkvxakjlSnOcopWkF3vag9mnL_vDh8G8aWDOPhzF8P8c1cV7CsH6clKE41tAzJOnybPhxtxd3VFOuSRSR7xCm_e1_I7E7PHDjR-Fysx" />
   </picture>
 </a>
