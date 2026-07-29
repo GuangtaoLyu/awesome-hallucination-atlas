@@ -451,7 +451,7 @@ def venue_label(v):
 
 
 def ccf_of(venue):
-    """Resolve the CCF 2022 rating (A/B/C) for a venue string; '' if unrated."""
+    """Resolve the CCF 2026 rating (A/B/C) for a venue string; '' if unrated."""
     base = re.sub(r"\s+\d{4}$", "", (venue or "").strip())
     if not base:
         return ""
@@ -894,9 +894,9 @@ def write_readme(papers, stats, lang):
     # ---- CCF rating distribution ----
     L.append("### " + _("CCF Rating", "按 CCF 评级分布"))
     L.append("")
-    L.append("> " + _("CCF ratings follow the **CCF Recommended International Conference / Journal Directory (2022)** for officially published papers; "
+    L.append("> " + _("CCF ratings follow the **CCF Recommended International Conference / Journal Directory (2026)** for officially published papers; "
                        "`Not in CCF` covers arXiv preprints, unresolved venues, and venues outside the CCF list.",
-                      "依据 **CCF 推荐国际学术会议 / 期刊目录（2022）** 对正式发表的论文标注评级；"
+                      "依据 **CCF 推荐国际学术会议 / 期刊目录（2026）** 对正式发表的论文标注评级；"
                       "`未收录` 含 arXiv 预印本、暂未解析出 venue 的条目，以及 CCF 目录之外的会议 / 期刊。"))
     L.append("")
     L.append("| " + _("CCF Rating", "CCF 评级") + " | " + _("Count", "数量") + " | " + _("Share", "占比") + " |")

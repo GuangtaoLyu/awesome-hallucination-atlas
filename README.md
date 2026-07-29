@@ -304,7 +304,7 @@
 
 ### CCF Rating
 
-> CCF ratings follow the **CCF Recommended International Conference / Journal Directory (2022)** for officially published papers; `Not in CCF` covers arXiv preprints, unresolved venues, and venues outside the CCF list.
+> CCF ratings follow the **CCF Recommended International Conference / Journal Directory (2026)** for officially published papers; `Not in CCF` covers arXiv preprints, unresolved venues, and venues outside the CCF list.
 
 | CCF Rating | Count | Share |
 |----------|------|------|
