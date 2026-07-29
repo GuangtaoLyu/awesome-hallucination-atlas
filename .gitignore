@@ -27,3 +27,10 @@ data/candidates_new.json
 # by GitHub Pages). It is intentionally tracked. If you prefer a single source
 # of truth, uncomment the next line and have CI run `generate.py` on deploy:
 # docs/papers.json
+
+# ── Internal assistant memory / local-only scratch (never publish) ──
+.workbuddy/
+
+# ── Generated social-preview background (intermediate, regenerable) ──
+# The final social-preview.png (repo root) is the tracked artifact.
+generated-images/
