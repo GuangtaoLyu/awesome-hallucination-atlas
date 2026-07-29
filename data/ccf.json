@@ -119,5 +119,15 @@
   "ESWA": "C",
   "NEUCOM": "C",
   "PRL": "C",
-  "IVC": "C"
+  "IVC": "C",
+  "ICIC": "C",
+  "IEEE Trans. Vis. Comput. Graph.": "A",
+  "IEEE Transactions on Information Forensics and Security": "A",
+  "STOC": "A",
+  "ACM Transactions on Software Engineering and Methodology": "A",
+  "CogSci": "B",
+  "SMC": "C",
+  "Bioinform.": "A",
+  "ACM Transactions on Asian and Low-Resource Language Information Processing": "C",
+  "IEEE Transactions on Computational Social Systems": "C"
 }
