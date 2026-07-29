@@ -22,6 +22,7 @@ data/_surveys_tmp.json
 data/_code_anthology.json
 data/cvpr2026_hall.json
 data/candidates_new.json
+no_keyword_review.md
 
 # NOTE: docs/papers.json is a GENERATED duplicate of data/papers.json (needed
 # by GitHub Pages). It is intentionally tracked. If you prefer a single source

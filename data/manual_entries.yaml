@@ -59,8 +59,3 @@
   authors: "Deng et al."
   url: "https://arxiv.org/abs/2607.06420"
   year: 2026
-
-- title: "WeedExpert-R1: Incentivizing Botanical Reasoning in MLLMs with Reinforcement Learning for Precision Weed Grounding"
-  authors: "Yang et al."
-  url: "https://arxiv.org/abs/2607.16492"
-  year: 2026
