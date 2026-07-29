@@ -2506,7 +2506,7 @@
 <a id="sec-contrib"></a>
 ## 🤝 贡献
 
-欢迎补充论文、代码链接、顶会录取信息、修正分类！请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
+欢迎补充论文、代码链接、顶会录取信息、修正分类！请阅读 [CONTRIBUTING.zh-CN.md](.github/CONTRIBUTING.zh-CN.md)。
 
 <a id="sec-license"></a>
 ## 📄 许可

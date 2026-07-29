@@ -12,7 +12,7 @@ Add one line to `data/seed.json`:
 ```json
 ["Paper Full Title", "Firstauthor et al.", "https://arxiv.org/abs/XXXX.XXXXX", 2026]
 ```
-Then run `python scripts/generate.py` to regenerate README + `docs/`. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Then run `python scripts/generate.py` to regenerate README + `docs/`. See [CONTRIBUTING.md](.github/CONTRIBUTING.md).
 
 ## Checklist
 - [ ] `python scripts/generate.py` ran without error; README + `docs/` updated

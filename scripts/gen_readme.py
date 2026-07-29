@@ -30,6 +30,8 @@ import os
 import re
 import sys
 
+from lib_common import vlabel
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 PAPERS = os.path.join(ROOT, "data", "papers.json")
@@ -156,7 +158,7 @@ def gen_stats(papers, stats, lang):
     for k in ["A", "B", "C", "未收录"]:
         n = by_ccf.get(k, 0)
         pct = n / total * 100
-        label = f"CCF-{k}" if k != "未收录" else "未收录"
+        label = "CCF-" + k if k != "未收录" else vlabel("未收录", lang)
         ccf_rows += f"| {label} | {n} | `{bar(pct)}` {pct:.1f}%\n"
 
     n_bench = sum(1 for p in papers if p.get("benchmark") or "Benchmark" in (p.get("tags") or []))
@@ -177,7 +179,7 @@ def gen_stats(papers, stats, lang):
         "<details>\n"
         f"<summary>📊 {pick('Venue Distribution', '按会议 / 期刊分布', lang)}</summary>\n\n"
         f"### {pick('Venue Distribution', '按会议 / 期刊分布', lang)}\n\n"
-        "> " + pick("Papers published at a conference / journal are counted by venue (official info prioritized); `arXiv（预印本）` means a preprint not yet officially accepted. Niche journals / small venues, workshops / satellite / co-located events, and venues with only 1 paper are grouped into the “Other” row (details in the collapsible section below). `未标注` marks entries with no resolvable link.",
+        "> " + pick("Papers published at a conference / journal are counted by venue (official info prioritized); `arXiv (preprint)` means a preprint not yet officially accepted. Niche journals / small venues, workshops / satellite / co-located events, and venues with only 1 paper are grouped into the “Other” row (details in the collapsible section below). `Unlabeled` marks entries with no resolvable link.",
                     "已正式发表在会议 / 期刊的论文按 venue 统计（顶会官方信息优先）；`arXiv（预印本）` 为尚未正式录用的预印本。小众期刊 / 小会、研讨会 / 卫星会 / 边会等次级 venue 以及各仅 1 篇的 venue 统一归入「其他」行，明细见表下折叠区；`其他` 中仍含少量 DOI 无法解析出处的条目，`未标注` 为无任何链接、暂无法判定的条目。", lang) + "\n\n"
         f"| {pick('Venue / Journal', '会议 / 期刊', lang)} | {pick('Count', '数量', lang)} | {pick('Share', '占比', lang)} |\n"
         "|-------------|------|------|\n"
@@ -189,7 +191,7 @@ def gen_stats(papers, stats, lang):
 
     ccf_block = (
         f"### {pick('CCF Rating', '按 CCF 评级分布', lang)}\n\n"
-        "> " + pick("CCF ratings follow the **CCF Recommended International Conference / Journal Directory (2022)** for officially published papers; `未收录` covers arXiv preprints, unresolved venues, and venues outside the CCF list.",
+        "> " + pick("CCF ratings follow the **CCF Recommended International Conference / Journal Directory (2022)** for officially published papers; `Not in CCF` covers arXiv preprints, unresolved venues, and venues outside the CCF list.",
                     "依据 **CCF 推荐国际学术会议 / 期刊目录（2022）** 对正式发表的论文标注评级；`未收录` 含 arXiv 预印本、暂未解析出 venue 的条目，以及 CCF 目录之外的会议 / 期刊。", lang) + "\n\n"
         f"| {pick('CCF Rating', 'CCF 评级', lang)} | {pick('Count', '数量', lang)} | {pick('Share', '占比', lang)} |\n"
         "|----------|------|------|\n"
@@ -240,20 +242,20 @@ def gen_venue(papers, total, stats, lang):
         rows += f"| {v} | {n} | `{bar(pct)}` {pct:.1f}%\n"
     if other_total:
         pct = other_total / total * 100
-        rows += f"| 其他 | {other_total} | `{bar(pct)}` {pct:.1f}%\n"
+        rows += f"| {vlabel('其他', lang)} | {other_total} | `{bar(pct)}` {pct:.1f}%\n"
     if arx:
         pct = arx / total * 100
-        rows += f"| arXiv（预印本） | {arx} | `{bar(pct)}` {pct:.1f}%\n"
+        rows += f"| {vlabel('arXiv（预印本）', lang)} | {arx} | `{bar(pct)}` {pct:.1f}%\n"
     if unlabeled:
         pct = unlabeled / total * 100
-        rows += f"| 未标注 | {unlabeled} | `{bar(pct)}` {pct:.1f}%\n"
+        rows += f"| {vlabel('未标注', lang)} | {unlabeled} | `{bar(pct)}` {pct:.1f}%\n"
 
     detail = ""
     if others:
         detail = (
             "<details>\n"
             f"<summary>{pick('“Other” details', '「其他」明细', lang)} ({len(others)} venues, {other_total} papers — click to expand)</summary>\n\n"
-            "| venue | 数量 |\n|-------|------|\n"
+            "| venue | " + pick('Count', '数量', lang) + " |\n|-------|------|\n"
         )
         for v in others:
             detail += f"| {v} | {named[v]} |\n"
@@ -261,10 +263,10 @@ def gen_venue(papers, total, stats, lang):
     return rows, detail
 
 
-def entry_line(p):
+def entry_line(p, lang="en"):
     link = p.get("venue_url") or p.get("url") or ""
     title = (p.get("title") or "").replace("]", "\\]").replace("[", "\\[")
-    venue = p.get("venue") or "未标注"
+    venue = vlabel(p.get("venue") or "未标注", lang)
     model = MODEL_LABEL.get(p.get("model_type"), p.get("model_type"))
     method = p.get("method_type") or ""
     prefix = ""
@@ -285,7 +287,7 @@ def gen_benchmark(papers, lang):
                     f"独立收录 `{n}` 篇评测 / Benchmark / 数据集论文（同时保留在下方主列表中，标有 📋）。", lang) + "\n\n"
         "<details open>\n"
         f"<summary>📋 {pick('Benchmark List', '评测与 Benchmark 列表', lang)} ({n} papers — click to collapse / expand)</summary>\n\n"
-        + "\n".join(entry_line(p) for p in items)
+        + "\n".join(entry_line(p, lang) for p in items)
         + "\n\n</details>\n"
     )
     return body
@@ -300,7 +302,7 @@ def gen_survey(papers, lang):
                     f"独立收录 `{n}` 篇综述 / 调查 / 分类法论文（同时保留在下方主列表中，标有 📚）。", lang) + "\n\n"
         "<details open>\n"
         f"<summary>📚 {pick('Survey List', '综述 Survey 列表', lang)} ({n} papers — click to collapse / expand)</summary>\n\n"
-        + "\n".join(entry_line(p) for p in items)
+        + "\n".join(entry_line(p, lang) for p in items)
         + "\n\n</details>\n"
     )
     return body
@@ -343,7 +345,7 @@ def gen_list(papers, lang):
             mb.append("<details>")
             mb.append(f"<summary>📅 {y} · {len(yps)} {pick('papers', '篇', lang)}</summary>")
             mb.append("")
-            mb.extend(entry_line(p) for p in yps)
+            mb.extend(entry_line(p, lang) for p in yps)
             mb.append("")          # blank line before the group's own </details>
             mb.append("</details>")
             mb.append("")          # blank line between consecutive year groups

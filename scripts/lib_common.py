@@ -126,3 +126,28 @@ def atomic_dump(path, obj, indent=None):
         except OSError:
             pass
         raise
+
+
+# ---------------------------------------------------------------------------
+# Single source of truth for localized venue labels.
+#
+# The data layer (data/papers.json, docs/papers.json, app.js) keeps the canonical
+# Chinese keys below so the on-disk data is stable and language-neutral. The two
+# README generators (generate.py and gen_readme.py) call vlabel() so the English
+# README renders English labels and the Chinese README keeps Chinese — no language
+# ever mixes inside one file.
+# ---------------------------------------------------------------------------
+VENUE_DISPLAY = {
+    "未标注": ("Unlabeled", "未标注"),
+    "arXiv（预印本）": ("arXiv (preprint)", "arXiv（预印本）"),
+    "其他": ("Other", "其他"),
+    "未收录": ("Not in CCF", "未收录"),
+}
+
+
+def vlabel(key, lang="en"):
+    """Return the display label for a canonical venue key in `lang` (en / zh)."""
+    pair = VENUE_DISPLAY.get(key)
+    if not pair:
+        return key
+    return pair[0] if lang == "en" else pair[1]

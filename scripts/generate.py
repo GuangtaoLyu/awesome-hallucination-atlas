@@ -127,7 +127,7 @@ def load_manual_yaml():
 
 
 # ---------------------------------------------------------------- helpers
-from lib_common import norm_title, arxiv_id, VENUE_PATTERNS, atomic_dump
+from lib_common import norm_title, arxiv_id, VENUE_PATTERNS, atomic_dump, vlabel
 
 
 def year_from_url(url, fallback):
@@ -712,16 +712,17 @@ def bar(count, total, width=22):
     return "█" * n + "░" * (width - n)
 
 
-def bullet(p, mark=False):
+def bullet(p, mark=False, lang="en"):
     """Compact one-line entry for the README paper / benchmark list.
 
-    `mark` may be a string (e.g. "📋" / "📚") used as a prefix, or False."""
+    `mark` may be a string (e.g. "📋" / "📚") used as a prefix, or False.
+    `lang` selects the venue label language (en / zh)."""
     title = p["title"].replace("|", "\\|")
     link = p["venue_url"] or p["url"]
     tc = f"[{title}]({link})" if link else title
     if mark:
         tc = mark + " " + tc
-    meta = p["venue"] or str(p["year"])
+    meta = vlabel(p["venue"], lang) if p["venue"] else str(p["year"])
     mlbl = "MLLM(Omni)" if p["model_type"] == "MLLM" else p["model_type"]
     parts = [f"**{tc}**", meta, mlbl, p["method_type"]]
     if p["code"]:
@@ -837,9 +838,9 @@ def write_readme(papers, stats, lang):
     L.append("### " + _("Venue Distribution", "按会议 / 期刊分布"))
     L.append("")
     L.append("> " + _("Papers published at a conference / journal are counted by venue (official info prioritized); "
-                       "`arXiv（预印本）` means a preprint not yet officially accepted. Niche journals / small venues, "
+                       "`arXiv (preprint)` means a preprint not yet officially accepted. Niche journals / small venues, "
                        "workshops / satellite / co-located events, and venues with only 1 paper are grouped into the “Other” row "
-                       "(details in the collapsible section below). `未标注` marks entries with no resolvable link.",
+                       "(details in the collapsible section below). `Unlabeled` marks entries with no resolvable link.",
                       "已正式发表在会议 / 期刊的论文按 venue 统计（顶会官方信息优先）；`arXiv（预印本）` 为尚未正式录用的预印本。"
                       "小众期刊 / 小会、研讨会 / 卫星会 / 边会等次级 venue 以及各仅 1 篇的 venue 统一归入「其他」行，明细见表下折叠区；"
                       "`其他` 中仍含少量 DOI 无法解析出处的条目，`未标注` 为无任何链接、暂无法判定的条目。"))
@@ -859,13 +860,13 @@ def write_readme(papers, stats, lang):
                             and (v in minor_set or c == 1)):
             continue
         L.append(f"| {v} | {c} | `{bar(c, total)}` {c / total * 100:.1f}% |")
-    L.append(f"| 其他 | {other_total} | `{bar(other_total, total)}` {other_total / total * 100:.1f}% |")
+    L.append(f"| {vlabel('其他', lang)} | {other_total} | `{bar(other_total, total)}` {other_total / total * 100:.1f}% |")
     if "arXiv（预印本）" in stats["by_venue"]:
         a = stats["by_venue"]["arXiv（预印本）"]
-        L.append(f"| arXiv（预印本） | {a} | `{bar(a, total)}` {a / total * 100:.1f}% |")
+        L.append(f"| {vlabel('arXiv（预印本）', lang)} | {a} | `{bar(a, total)}` {a / total * 100:.1f}% |")
     if "未标注" in stats["by_venue"]:
         u = stats["by_venue"]["未标注"]
-        L.append(f"| 未标注 | {u} | `{bar(u, total)}` {u / total * 100:.1f}% |")
+        L.append(f"| {vlabel('未标注', lang)} | {u} | `{bar(u, total)}` {u / total * 100:.1f}% |")
     L.append("")
     # ---- folded breakdown of the "其他" bucket ----
     if folded:
@@ -873,7 +874,7 @@ def write_readme(papers, stats, lang):
         L.append("<details>")
         L.append(f"<summary>" + _("“Other” details", "「其他」明细") + f" ({len(folded)} venues, {other_total} papers — click to expand)</summary>")
         L.append("")
-        L.append("| venue | 数量 |")
+        L.append(f"| venue | {_('Count', '数量')} |")
         L.append("|-------|------|")
         for v, c in sorted(folded, key=lambda kv: (-kv[1], kv[0])):
             L.append(f"| {v} | {c} |")
@@ -887,7 +888,7 @@ def write_readme(papers, stats, lang):
     L.append("### " + _("CCF Rating", "按 CCF 评级分布"))
     L.append("")
     L.append("> " + _("CCF ratings follow the **CCF Recommended International Conference / Journal Directory (2022)** for officially published papers; "
-                       "`未收录` covers arXiv preprints, unresolved venues, and venues outside the CCF list.",
+                       "`Not in CCF` covers arXiv preprints, unresolved venues, and venues outside the CCF list.",
                       "依据 **CCF 推荐国际学术会议 / 期刊目录（2022）** 对正式发表的论文标注评级；"
                       "`未收录` 含 arXiv 预印本、暂未解析出 venue 的条目，以及 CCF 目录之外的会议 / 期刊。"))
     L.append("")
@@ -895,7 +896,7 @@ def write_readme(papers, stats, lang):
     L.append("|----------|------|------|")
     for r in ["A", "B", "C", "未收录"]:
         c = stats["by_ccf"].get(r, 0)
-        label = "CCF-" + r if r != "未收录" else "未收录"
+        label = "CCF-" + r if r != "未收录" else vlabel("未收录", lang)
         L.append(f"| {label} | {c} | `{bar(c, total)}` {c / total * 100:.1f}% |")
     L.append("")
 
@@ -955,7 +956,7 @@ def write_readme(papers, stats, lang):
     L.append(f"<summary>📋 " + _("Benchmark List", "评测与 Benchmark 列表") + f" ({len(benchs)} papers — click to collapse / expand)</summary>")
     L.append("")
     for p in benchs:
-        L.append("- " + bullet(p, mark="📋"))
+        L.append("- " + bullet(p, mark="📋", lang=lang))
     L.append("")
     L.append("</details>")
     L.append("")
@@ -972,7 +973,7 @@ def write_readme(papers, stats, lang):
     L.append(f"<summary>📚 " + _("Survey List", "综述 Survey 列表") + f" ({len(surveys)} papers — click to collapse / expand)</summary>")
     L.append("")
     for p in surveys:
-        L.append("- " + bullet(p, mark="📚"))
+        L.append("- " + bullet(p, mark="📚", lang=lang))
     L.append("")
     L.append("</details>")
     L.append("")
@@ -995,7 +996,7 @@ def write_readme(papers, stats, lang):
         L.append("")
         for p in yp:
             mark = "📋" if p.get("benchmark") else ("📚" if p.get("survey") else False)
-            L.append("- " + bullet(p, mark=mark))
+            L.append("- " + bullet(p, mark=mark, lang=lang))
         L.append("")
         L.append("</details>")
         L.append("")
@@ -1033,8 +1034,9 @@ def write_readme(papers, stats, lang):
     L.append('<a id="sec-contrib"></a>')
     L.append("## 🤝 " + _("Contributing", "贡献"))
     L.append("")
-    L.append(_("We welcome new papers, code links, venue info, and taxonomy corrections! Please read [CONTRIBUTING.md](CONTRIBUTING.md).",
-              "欢迎补充论文、代码链接、顶会录取信息、修正分类！请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。"))
+    contrib_link = "[CONTRIBUTING.md](.github/CONTRIBUTING.md)" if lang == "en" else "[CONTRIBUTING.zh-CN.md](.github/CONTRIBUTING.zh-CN.md)"
+    L.append(_("We welcome new papers, code links, venue info, and taxonomy corrections! Please read " + contrib_link + ".",
+              "欢迎补充论文、代码链接、顶会录取信息、修正分类！请阅读 " + contrib_link + "。"))
     L.append("")
     L.append('<a id="sec-license"></a>')
     L.append("## 📄 " + _("License", "许可"))
