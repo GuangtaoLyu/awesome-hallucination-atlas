@@ -772,8 +772,8 @@ def write_readme(papers, stats, lang):
     L.append("  </a>")
     L.append("</p>")
     L.append("")
-    L.append(_("> **🌐 Explore the Interactive Website** — [awesome-hallucination-atlas on GitHub Pages](https://guangtaolyu.github.io/awesome-hallucination-atlas/). Faceted filtering, full-text abstract search, and year sorting.",
-              "> **🌐 交互式网站** — [awesome-hallucination-atlas（GitHub Pages）](https://guangtaolyu.github.io/awesome-hallucination-atlas/)。支持多维交叉筛选、摘要全文搜索与年份排序。"))
+    L.append(_("> **🌐 Explore the Interactive Website** — [awesome-hallucination-atlas — Live Site](https://guangtaolyu.github.io/awesome-hallucination-atlas/). Faceted filtering, full-text abstract search, and year sorting.",
+              "> **🌐 交互式网站** — [awesome-hallucination-atlas（在线版）](https://guangtaolyu.github.io/awesome-hallucination-atlas/)。支持多维交叉筛选、摘要全文搜索与年份排序。"))
     L.append(_("> Prefer offline? Just open [`docs/index.html`](docs/index.html) in any browser — no server needed.",
               "> 想离线查看？直接用浏览器打开 [`docs/index.html`](docs/index.html)，无需服务器。"))
     L.append("")
