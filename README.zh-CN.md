@@ -2520,8 +2520,8 @@
 
 <a href="https://www.star-history.com/?repos=GuangtaoLyu%2Fawesome-hallucination-atlas&type=date&legend=top-left">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=GuangtaoLyu/awesome-hallucination-atlas&type=date&theme=dark&legend=top-left&sealed_token=Cxc2tN4j-TffWTvvskFHeDxSzltvKS2K7jVuyNB_xU6FFhrPCiumyPJbleoqmiUTnG7papzi6-B8ZWOTRpT7GCkvxakjlSnOcopWkF3vag9mnL_vDh8G8aWDOPhzF8P8c1cV7CsH6clKE41tAzJOnybPhxtxd3VFOuSRSR7xCm_e1_I7E7PHDjR-Fysx" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=GuangtaoLyu/awesome-hallucination-atlas&type=date&legend=top-left&sealed_token=Cxc2tN4j-TffWTvvskFHeDxSzltvKS2K7jVuyNB_xU6FFhrPCiumyPJbleoqmiUTnG7papzi6-B8ZWOTRpT7GCkvxakjlSnOcopWkF3vag9mnL_vDh8G8aWDOPhzF8P8c1cV7CsH6clKE41tAzJOnybPhxtxd3VFOuSRSR7xCm_e1_I7E7PHDjR-Fysx" />
-    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=GuangtaoLyu/awesome-hallucination-atlas&type=date&legend=top-left&sealed_token=Cxc2tN4j-TffWTvvskFHeDxSzltvKS2K7jVuyNB_xU6FFhrPCiumyPJbleoqmiUTnG7papzi6-B8ZWOTRpT7GCkvxakjlSnOcopWkF3vag9mnL_vDh8G8aWDOPhzF8P8c1cV7CsH6clKE41tAzJOnybPhxtxd3VFOuSRSR7xCm_e1_I7E7PHDjR-Fysx" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=GuangtaoLyu/awesome-hallucination-atlas&type=date&theme=dark&legend=top-left&sealed_token=es4O-8rwqglOmnZDjxaqaRD-Ucj7DRdPVwK8M-Q3DFyjCaJd_lqSECa1wcEFD6xTtJsuU_wc8vS4IOM8cc10PMTV8r_I5CX3j1zoaifBJhbYcwconoGqMT8wSFdOhwLGQIejqcG7fAUtXusYAEmAxTBQgdMFqU1CchsMrhaPgcwbPq4vSpaaDMALHIKg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=GuangtaoLyu/awesome-hallucination-atlas&type=date&legend=top-left&sealed_token=es4O-8rwqglOmnZDjxaqaRD-Ucj7DRdPVwK8M-Q3DFyjCaJd_lqSECa1wcEFD6xTtJsuU_wc8vS4IOM8cc10PMTV8r_I5CX3j1zoaifBJhbYcwconoGqMT8wSFdOhwLGQIejqcG7fAUtXusYAEmAxTBQgdMFqU1CchsMrhaPgcwbPq4vSpaaDMALHIKg" />
+    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=GuangtaoLyu/awesome-hallucination-atlas&type=date&legend=top-left&sealed_token=es4O-8rwqglOmnZDjxaqaRD-Ucj7DRdPVwK8M-Q3DFyjCaJd_lqSECa1wcEFD6xTtJsuU_wc8vS4IOM8cc10PMTV8r_I5CX3j1zoaifBJhbYcwconoGqMT8wSFdOhwLGQIejqcG7fAUtXusYAEmAxTBQgdMFqU1CchsMrhaPgcwbPq4vSpaaDMALHIKg" />
   </picture>
 </a>
