@@ -15,7 +15,14 @@
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-07&color=orange' />
 </p>
 
-**🌐 Website**: [awesome-hallucination-atlas on GitHub Pages](https://guangtaolyu.github.io/awesome-hallucination-atlas/) — interactive filtering, full-text abstract search, and year sorting. Or open [`docs/index.html`](docs/index.html) locally.
+<p align='center'>
+  <a href='https://guangtaolyu.github.io/awesome-hallucination-atlas/'>
+    <img alt='Live Website' src='https://img.shields.io/static/v1?label=Live%20Website&message=Visit%20Now&color=8b7cf6&style=for-the-badge' />
+  </a>
+</p>
+
+> **🌐 Explore the Interactive Website** — [awesome-hallucination-atlas on GitHub Pages](https://guangtaolyu.github.io/awesome-hallucination-atlas/). Faceted filtering, full-text abstract search, and year sorting.
+> Prefer offline? Just open [`docs/index.html`](docs/index.html) in any browser — no server needed.
 
 ## 📑 Table of Contents
 

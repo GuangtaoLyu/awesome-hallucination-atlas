@@ -15,7 +15,14 @@
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-07&color=orange' />
 </p>
 
-**🌐 网站**: [awesome-hallucination-atlas（GitHub Pages）](https://guangtaolyu.github.io/awesome-hallucination-atlas/) —— 交互式筛选、摘要全文搜索与年份排序。也可本地打开 [`docs/index.html`](docs/index.html)。
+<p align='center'>
+  <a href='https://guangtaolyu.github.io/awesome-hallucination-atlas/'>
+    <img alt='Live Website' src='https://img.shields.io/static/v1?label=Live%20Website&message=Visit%20Now&color=8b7cf6&style=for-the-badge' />
+  </a>
+</p>
+
+> **🌐 交互式网站** — [awesome-hallucination-atlas（GitHub Pages）](https://guangtaolyu.github.io/awesome-hallucination-atlas/)。支持多维交叉筛选、摘要全文搜索与年份排序。
+> 想离线查看？直接用浏览器打开 [`docs/index.html`](docs/index.html)，无需服务器。
 
 ## 📑 目录
 
