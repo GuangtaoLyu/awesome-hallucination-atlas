@@ -1,3 +1,4 @@
 {
-  "always_list_venues": ["TNNLS", "TASLP", "TAI", "PRCV"]
+  "always_list_venues": ["TNNLS", "TASLP", "TAI", "PRCV"],
+  "trending_tags": ["Agent", "RAG", "Reasoning", "Embodied"]
 }

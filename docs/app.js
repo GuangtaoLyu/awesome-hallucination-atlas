@@ -2,6 +2,7 @@
 (function () {
   "use strict";
 
+  let TRENDING = new Set(["Agent", "RAG", "Reasoning", "Embodied"]);
   const state = {
     papers: [],
     stats: null,
@@ -297,6 +298,7 @@
   function renderFacets() {
     const wrap = $("#facets");
     wrap.innerHTML = "";
+    TRENDING = new Set((state.stats && state.stats.facets && state.stats.facets.trending_tags) || ["Agent", "RAG", "Reasoning", "Embodied"]);
     const { counts: FC, minorSet } = computeFacetCounts();
     const years = Object.keys(FC.year).map(Number).sort((a, b) => b - a).map(String);
     wrap.appendChild(facetGroup(T("modelType"), "model_type", MODEL_ORDER, FC.model_type, MDL));
@@ -345,7 +347,9 @@
       chip.dataset.val = key;
       const color = dotColor[key];
       const label = labelFn ? labelFn(k) : key;
-      chip.innerHTML = `${color ? `<span class="dot" style="background:${color}"></span>` : ""}${label}<span class="cnt">${cnts[k] || 0}</span>`;
+      const isHot = (dim === "tags" && TRENDING.has(key));
+      chip.innerHTML = `${color ? `<span class="dot" style="background:${color}"></span>` : ""}${isHot ? "🔥 " : ""}${label}<span class="cnt">${cnts[k] || 0}</span>`;
+      if (isHot) { chip.style.borderColor = "#8b7cf6"; chip.style.background = "rgba(139,124,246,0.18)"; chip.style.fontWeight = "600"; }
       chip.addEventListener("click", () => toggleFilter(dim, key, chip));
       chips.appendChild(chip);
     });

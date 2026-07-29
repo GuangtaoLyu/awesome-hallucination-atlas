@@ -21,6 +21,7 @@
 
 - [Data Overview](#sec-overview)
 - [Taxonomy](#sec-taxonomy)
+- [Trending Directions](#sec-trending)
 - [Benchmarks & Evaluation](#sec-benchmark)
 - [Surveys](#sec-survey)
 - [Paper List](#sec-paperlist)
@@ -325,8 +326,20 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 | **Year** | 2018 – 2027 |
 
 > Hallucination scenario is no longer a separate dimension: for VLMs, object hallucination *is* the general case. Only genuinely special `Relation` / `Attribute` hallucinations are kept as optional tags.
-> Extra tags: `Benchmark` (evaluation; does not affect method taxonomy) · `Survey` · `Relation` · `Attribute` · `CV` (vision) · `Video` · `Audio` · `Multilingual` · `Medical` · `3D` · `Agent`.
+> Extra tags: `Benchmark` (evaluation; does not affect method taxonomy) · `Survey` · `Relation` · `Attribute` · `CV` (vision) · `Video` · `Audio` · `Multilingual` · `Medical` · `3D` · `Agent` · `RAG` · `Reasoning` · `Embodied`.
 > Full abstracts are stored in `data/papers.json` and can be expanded / full-text searched in the interactive website.
+
+---
+
+<a id="sec-trending"></a>
+## 🔥 Trending Directions
+
+Hallucination research is moving fast. These directions are especially hot in 2025–2026 and well-covered by this atlas (paper counts are auto-computed from real tags):
+
+- **Agentic AI / Multi-Agent** — 116 papers tagged `Agent`.
+- **RAG / Faithfulness** — 158 papers tagged `RAG`.
+- **Reasoning Models** — 371 papers tagged `Reasoning`.
+- **Embodied / World Model** — 19 papers tagged `Embodied`.
 
 ---
 

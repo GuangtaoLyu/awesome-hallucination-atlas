@@ -1,39 +1,28 @@
-# 项目长期记忆：hallucination 资源库
+# 项目长期记忆：hallucination 资源库（awesome-hallucination-atlas）
 
-## 架构约定（重要，改代码前先读）
-- **`norm_title` / `arxiv_id` 单一来源 = `scripts/lib_common.py`**。任何脚本需要这两个函数，必须 `from lib_common import norm_title[, arxiv_id]`，**不要重新定义**（历史上 9 处复制粘贴导致"keep in sync"漂移 bug）。`fetch_new_arxiv.py` 的 `fnorm` 是重音折叠扩展，内部复用 lib_common。
-- **数据层**：`data/seed.json`（JSON 数组 [title,authors,url,year]）是唯一基础数据源；`scripts/raw_data.py` 只是兼容 shim（读 seed.json 暴露 RAW）。`merge_candidates.py` 写入目标是 `seed.json`（不再是 raw_data.py）。
-- **生成/审计不变量**（每次改动后须验证）：`data/papers.json` 与 `docs/papers.json` md5 一致；CCF 与 ccf.json 一致；`venue_links` 孤儿=0。已知稳定 md5 基线：`ef88fe2ee7cc44e61e318db45200ef75`（1892 篇；因 stats 新增 facets 字段，较旧基线 `64716fdf...` 变动）。
-- **`ALWAYS_LIST_VENUES` 单一来源 = `data/facets.json`**（`always_list_venues` 数组）。`generate.py` 从 facets.json 加载并注入 `stats.facets.always_list_venues`；`app.js` 的 `ALWAYS_LIST` 读该字段并回退硬编码。前/后端不再各自维护（消除"keep in sync"漂移）。
-- **前端拆包**：`generate.py` 输出 `docs/papers.lite.json`（不含摘要，首屏）+ `docs/abstracts.byid.json`（id→摘要，懒加载）；`app.js` 优先加载 lite。
-- **`.gitignore` + git 版本控制**：仓库已 `git init`（repo-local 身份 `hallucination-lib <local@hallucination.lib>`），基线 `4e4d3d6`。`.gitignore` 忽略可再生缓存/备份/临时文件（`__pycache__`、`*.bak`、`abstracts.json`、`abstracts_extra.json`、`crossref_cache.json`、`incremental.json`、`venue_links.json`、`code_links.json`、`found_links.json`、`stats.json`、`stats_history.jsonl`、`papers.json.pre_incremental`、`_surveys_tmp.json` 等），但真源 `data/seed.json`/`manual_entries.yaml`/`ccf.json`/`facets.json` 与产物 `data/papers.json`/`docs/*`/`README.md`/`scripts/*` 需提交。**`update_pipeline.py` 在 audit 通过后自动 `git commit`**（helper `git_commit`，提交信息含日期/文件数/论文数/步骤；`--no-commit` 可跳过），所以每次流水线运行都是可 `git revert` 的已验证构建。撤销某次更新 = `git revert <commit>` 或 `git checkout <commit> -- <file>`。
-- **venue 解析单一来源 = `scripts/lib_common.py` 的 `VENUE_PATTERNS` + `parse_venue`**。`update_arxiv_venues.py` 的 `VENUE_MATCH` 与 `generate.py` 的 `_XREF_VENUE` 已删除，统一 import `lib_common`（消除 CCF 评级"keep in sync"漂移：旧 VENUE_MATCH 缺 TASLP/TNNLS/TAI，旧 _XREF_VENUE 缺 WACV/TMLR）。`parse_venue` 年份上限动态化为 `当年+1`（原硬编码 2028 会丢 2029+ 论文年份）。
-- **原子写 helper = `lib_common.atomic_dump`**：`indent=None` 出紧凑 JSON（generate 的 web 产物），非 None 出缩进（`save_json` 用 indent=1）。覆盖：所有累积缓存（`incremental.json`/`venue_links.json`/`crossref_cache.json`/`abstracts.json`/`candidates_new.json`），**以及 `generate.py` 的最终产物**（`data/papers.json`/`docs/papers.json`/`docs/papers.lite.json`/`docs/abstracts.byid.json`/`stats.json`）——防进程中断把已发布站点写成截断 JSON 导致前端崩溃。`code_common.save_json` 已委托 `atomic_dump`，`fetch_abstracts.py` 也改用它。禁止再用 `json.dump(open(...))` 直接覆盖。
-- **TLS 默认校验 + https**：`code_common._SSL` 改为 `ssl.create_default_context()`（不再全局 `CERT_NONE`）；所有 arXiv API 请求改为 `https://`。抓取脚本不得进程级禁用证书校验。
-- **标题门槛用词干 `hallucinat`**（非精确子串 `hallucination`）：`collect_candidates.py` 的 dblp/arxiv/journal/cvf 四通道与 `relevant()` 一致，否则动词形式（"X Hallucinating Y"）论文会被 journal/cvf 通道误丢。
-- **`extra_tags` 接收已算出的 `model_type`**，避免 `generate.py` 每篇重复调用 `classify_model`（约 2× 冗余计算）。
-- **字段契约（防止误判覆盖率）**：代码链接 → `paper["code"]`（generate.py:610 从 `code_links.json` 读，key=norm_title）；摘要 → `paper["abstract"]`（来自 `abstracts.json` arXiv 缓存 + `abstracts_extra.json` Crossref 富集，两者 key 均为 norm_title）。统计**代码链接覆盖率必须查 `paper["code"]` 而非 `paper["links"]`**——曾误查 `links` 字段误报 0%。`enrich_abstracts.py` 写入 `abstracts_extra.json` 的 key 是 `norm_title(title)`（非 DOI），与 `generate.py:534` 的 `abstracts_title.get(norm_title(title))` 一致，已验证 166 条 Crossref 摘要正确进入产物。
-- **GitHub 代码链接限制**：`fetch_code.py` 写 `code_links.json`（norm_title key），无 `GITHUB_TOKEN` 时匿名限流 60/hr、每篇 sleep 1.2s，全量 1893 篇不现实；当前代理环境 `api.github.com` 可能不通（fetch_code 会逐篇超时重试极慢，应后台跑或被中断）。`code_links.json` 已有 ~148 条历史有效链接，但仅 ~100 条能匹配到 papers（约 48 条因标题归一化差异未命中）——如需可统一 key 策略补回。
+## 架构约定（改代码前先读）
+- **单一来源函数**：`norm_title`/`arxiv_id` → `scripts/lib_common.py`；`http_get`/`load_json`/`TransientError` → `scripts/code_common.py`；`atomic_dump`（原子写防截断）→ `lib_common`；`parse_venue`/`VENUE_PATTERNS` → `lib_common`；`ALWAYS_LIST_VENUES` → `data/facets.json`（`generate.py` 注入 `stats.facets.always_list_venues`，`app.js` 读该字段）。禁止在别处重定义/各自维护（历史上多次"keep in sync"漂移 bug）。
+- **数据层**：`data/seed.json`（[title,authors,url,year]）是唯一真源；`scripts/raw_data.py` 仅兼容 shim；`merge_candidates.py` 写回 seed.json。`data/ccf.json`/`facets.json`/`manual_entries.yaml` 也是真源需提交。
+- **字段契约**：代码链接→`paper["code"]`（generate.py:610 读 code_links.json，key=norm_title）；摘要→`paper["abstract"]`（abstracts.json + abstracts_extra.json，key 均为 norm_title）。统计代码覆盖率必须查 `paper["code"]` 而非 `paper["links"]`。
+- **前端拆包**：`generate.py` 输出 `docs/papers.lite.json`（首屏，无摘要）+ `docs/abstracts.byid.json`（懒加载）；`app.js` 优先 lite。
+- **TLS/门槛**：所有 arXiv 请求用 https + `ssl.create_default_context()`；候选标题门槛用词干 `hallucinat`（非精确 `hallucination`），四通道与 `relevant()` 一致。
+- **git 版本控制**：仓库已 `git init`（基线 4e4d3d6）。`.gitignore` 忽略可再生缓存（`__pycache__`/`*.bak`/`abstracts*.json`/`crossref_cache.json`/`incremental.json`/`venue_links.json`/`code_links.json`/`found_links.json`/`stats*.json`/`papers.json.pre_incremental` 等）；真源与产物（`data/papers.json`/`docs/*`/`README.md`/`README.zh-CN.md`/`scripts/*`）需提交。`update_pipeline.py` 在 audit 通过后自动 `git commit`（提交信息含日期/文件数/论文数/步骤；`--no-commit` 跳过）。
+- **审计不变量**（每次改动后须验证）：`data/papers.json` 与 `docs/papers.json` md5 一致；CCF 与 ccf.json 一致；`venue_links` 孤儿=0；`audit.py` 恒以 `--strict` 运行（任一硬不变量破裂则非零退出，流水线中止）。已知稳定 md5 基线 `ef88fe2ee7cc44e61e318db45200ef75`。
 
-## 真实 bug 记录（已修）
-- `update_pipeline.py` 向 `update_arxiv_venues.py` 传 `"force"`（应为 `"--force"`），backfill 模式 `int("force")` 崩溃 → 改为 `"--force"`。
-- `collect_candidates.py` 的 journal(:345) 与 cvf(:407) 通道用精确 `"hallucination" not in` 门槛，与 dblp/arxiv 通道的词干 `"hallucinat"` 不一致，动词形式论文被误丢 → 两处统一为 `"hallucinat"`；并给 arXiv 条目 `title/published` 加 `.text or ""` 守卫防 `AttributeError`。
-- `audit.py` 曾用错字段名 `p.get("evaluation")` 统计 Benchmark（恒为 0）→ 改为 `benchmark`。
-- `generate.py` 曾缺 `import sys`（`incremental.json` 损坏时会崩溃）。
-- `update_arxiv_venues.py` 的 `crossref_lookup` 未处理 Crossref `event/book-title` 返回 dict → `TypeError` 崩溃，已加 dict 类型处理。
-- `generate.py` 的 `venue_from_doi()` 曾把 Crossref 期刊名在 60 字符处截断成 `s[:57]+"…"`（:486），致 28 篇论文 venue 成残名（如 `SemEv…`、`E-Business,…`）落入 README「其他」折叠明细后展开即见残名，且截断可能把同一会议截成两条"不同的"venue 造成重复计数 → 已**删除截断**（完整名在 markdown 表格内可正确渲染，仅列变宽）。改后 `含 '…' 的 venue 数` 归零。
+## 流水线编排
+- **`update_pipeline.py` 是唯一编排入口**（automations 只调它）：fetch_new_arxiv → generate#1 → update_arxiv_venues → [富集] → generate#2 → audit。开关：`--enrich`（fetch_abstracts+abstracts+with-abstracts+code+links）、`--full`（collect+collect-2026+enrich）、`--check`（离线 audit）、`--serve`（本地预览）、`--no-commit`。富集顺序：fetch_abstracts 在 generate#1 前；enrich_abstracts/fetch_abstracts_web/fetch_code/enrich_links 在 generate#1 后、generate#2 前。
+- **`collect_candidates.py` 的 resume 守卫**：candidates_new.json 已有该类 source 候选即跳过该通道（全跳或全不跳），merge 清空前不重抓。
+- **GitHub 限制**：`fetch_code.py` 无 token 时匿名 60/hr、每篇 sleep 1.2s，全量不现实；`api.github.com` 在当前代理可能不通。
 
-## 本轮回合优化（2026-07-27 续）— 收敛重复实现 + 流程
-- **`http_get` 单一来源 = `scripts/code_common.py`**：`enrich_abstracts.py`、`update_arxiv_venues.py`、`enrich_links.py`、`collect_candidates.py` 此前各有一份 http_get/http_json（重试逻辑各异）。已统一 import `code_common.http_get`（带 429/503 指数退避）。`code_common` 新增 `TransientError` 异常，持久失败（含退避耗尽）统一抛出，调用方据此跳过单条而非中断整轮。`enrich_links` 的 `resolve_missing_urls/github_search/dblp_venues` 原本无重试，现经 `http_get` 获得重试+退避（CVF 12MB 页不再因瞬时失败丢整场会议）。
-- **`load_json` 单一来源 = `code_common.load_json`**（缺失返回 `{}`）；`save` 统一改 `lib_common.atomic_dump`（原子写，防中断截断）。`enrich_links`/`update_arxiv_venues` 的本地 `load`/`save`/`http_json` 已删。
-- **`collect_candidates.py` 加 resume 守卫**：journal(Crossref)/cvf(CVF) 通道此前每次全量重查（CVF 单页 12MB+）。现与 dblp/arxiv 同款：当 `candidates_new.json` 已存在同类 source 候选（待人工 review）即跳过该通道，避免重复网络请求。注意语义：该守卫是 all-or-nothing（有任意该 source 候选即跳过），所以在 merge 清空 candidates_new 前不会重抓——与 dblp/arxiv 既有行为一致。
-- **前端 `docs/app.js`**：`minorSet`（venue_minor 集合）原是 `renderFacets` 里的第二趟 `state.papers.forEach`，已并入 `computeFacetCounts` 单遍（返回 `{counts, minorSet}`）。摘要懒加载 `loadAbstracts` 到达后，若当前有 query 或激活 filter，触发一次 `render()`，使摘要全文搜索在摘要 map 到达后即时生效。
-- **`update_pipeline.py` 是唯一编排入口（automations 只调它）**：完整顺序 = fetch_new_arxiv → generate#1 → update_arxiv_venues → [富集] → generate#2 → audit。新增开关：`--enrich`（umbrella = `--fetch-abstracts`+`--abstracts`+`--with-abstracts`+`--code`+`--links`，把 `fetch_abstracts.py`/`enrich_abstracts.py`/`fetch_abstracts_web.py`/`fetch_code.py`/`enrich_links.py` 纳入流水线，补上"full pipeline 实际不富集"的缺口）；`--full`=`--collect`+`--collect-2026`+`--enrich`；`--check`（离线只读跑 `audit.py --strict`）；`--serve`（更新后本地起静态服务器预览 docs/）。**关键**：`audit.py` 恒以 `--strict` 运行——任一硬不变量（md5/CCF/字段/重复）破裂则非零退出，流水线中止、不再报 DONE。**富集顺序约定**：`fetch_abstracts`（arXiv 摘要缓存）放 generate#1 前；`enrich_abstracts`/`fetch_abstracts_web`/`fetch_code`/`enrich_links` 放 generate#1 后、generate#2 前（它们读 `data/papers.json` 且写 generate#2 消费的缓存，保证新论文当轮即带摘要+代码链接）。
-- **仍保留本地 `load`/`load_json` 的地方（刻意）**：`audit.py` 的 `load` 在文件缺失时直接抛错（审计器要求 papers.json 必须存在，缺失即失败可接受）；`generate.py` 的本地 `load_json` 用于读 `facets.json` 的 always_list_venues（只读、与 code_common 行为一致，未强制收敛以控制大文件改动风险）。
-- 仍 **未** 自动创建「定时跑 pipeline + audit」自动化：需联网且会改文件，且当前环境存在代理 502 风险，留作可选后续；如需我可加一个 recurring automation（建议仅跑 `audit.py --strict` 这种只读校验，或带 `--skip-fetch` 的离线增量）。
-- **`scripts/gen_readme.py` = README 自动生成单一来源（消双源漂移）**：README.md 原与 `data/papers.json` 是双数据源（手写统计数字+2000行论文清单，数据更新后 `generate.py` 不会动 README，导致数字与列表过期不一致）。`gen_readme.py` 按 `##` 标题定位 5 个漂移区块——顶部 badges（Papers/Abstract/Last-Update 数字）、`## 📊 数据概览`（全统计表+venue 分布+「其他」折叠明细+CCF）、`## 📋 评测与 Benchmark`、`## 📚 综述 Survey`、`## 📚 论文列表`——整体重写为从 papers.json 生成，保留所有人工段落（分类体系/推荐引用/贡献/许可）与标题行。venue 分组复现 app.js：`main = ALWAYS_LIST 或 (count>=2 且非 minor)`，其余归「其他」行+明细。**主论文列表自 2026-07-28 起按 `model_type`（🤖LLM/👁️VLM/🌐MLLM(Omni)）分组、组内再按年份嵌套 `<details>`**（对应"把 llm/vlm/mllm 分开展示"），年份退为次级轴；不增加总行数。已接入 `update_pipeline.py`（generate#2 后 `run("gen_readme.py")`），流水线更新数据后 README 自动同步。论文列表按 `(year desc, date desc, title)` 稳定排序，首次重排后幂等。
+## README 生成（双文件单语，防回退）
+- **`generate.py:write_readme(papers,stats,lang)` 与 `gen_readme.py` 两处都按 `lang`（en/zh）参数化**，分别写 `README.md`（英文默认）+ `README.zh-CN.md`（中文），顶部互相放语言切换链接。标题 `Awesome Hallucination Atlas`（Title Case）。改文案必须同时改两生成器，否则流水线重跑回退成旧版。
+- `gen_readme.py` 按 `##` 锚点重写 4 个数据区块（数据概览/Benchmark/Survey/论文列表）；人工段落（分类体系/引用/贡献/许可）由 generate.py 写、不被覆盖。论文列表按 `model_type`（🤖LLM/👁️VLM/🌐MLLM(Omni)）分组、组内按年份嵌套 `<details>`，按 `(year desc, date desc, title)` 稳定排序。
+- **无「网站与部署」小节**：README 顶部仅留一条网站链接（指向 GitHub Pages URL）。
 
 ## 仓库品牌/命名（GitHub 对外）
-- **正式仓库名 = `awesome-hallucination-atlas`**（2026-07-28 定名）。GitHub URL 沿用原 owner `GuangtaoLyu`：`https://github.com/GuangtaoLyu/awesome-hallucination-atlas`；网站 `https://guangtaolyu.github.io/awesome-hallucination-atlas/`。若 owner 不同，需全局替换该 URL。
-- **README 为「双文件单语切换式」**（非中英混排）：`README.md`（英文，默认）+ `README.zh-CN.md`（中文），顶部互相放语言切换链接。`generate.py:write_readme(papers,stats,lang)` 与 `gen_readme.py` 两处生成器都按 `lang` 参数化（EN/ZH 用 `_()`/`pick()` 选文本）；标题 `Awesome Hallucination Atlas`（Title Case）。网站 `app.js` 默认英文（`localStorage hal-lang` fallback `"en"`）。改文案必须同时改两生成器，否则流水线重跑回退。
-- **GitHub 元信息已就绪**：`.github/ISSUE_TEMPLATE/*`、`PULL_REQUEST_TEMPLATE.md`、`.github/workflows/{ci,deploy-pages,scheduled-update}.yml`、`CITATION.cff`、`docs/.nojekyll`。部署需在仓库 Settings→Pages→Source 选 GitHub Actions。
+- **正式仓库名 = `awesome-hallucination-atlas`**（2026-07-28 定名）。URL 沿用 owner `GuangtaoLyu`：`https://github.com/GuangtaoLyu/awesome-hallucination-atlas`；网站 `https://guangtaolyu.github.io/awesome-hallucination-atlas/`。若 owner 不同需全局替换。
+- **网站 `app.js` 默认英文**（`localStorage hal-lang` fallback `"en"`），EN/中文 toggle。
+- **GitHub 元信息已就绪**：`.github/ISSUE_TEMPLATE/*`、`PULL_REQUEST_TEMPLATE.md`、`.github/workflows/{ci,deploy-pages,scheduled-update}.yml`、`CITATION.cff`、`docs/.nojekyll`、`social-preview.png`（1280×640 社交预览图，cover 裁切 + 左侧暗化 + 靛蓝玻璃 pill）。部署需 Settings→Pages→Source 选 GitHub Actions。
+
+## 真实 bug 速查（均已修）
+- `update_pipeline.py` 传 `"force"`→`"--force"`；`collect_candidates.py` journal/cvf 通道门槛统一为 `hallucinat` 并加 `.text or ""` 守卫；`audit.py` 字段名 `evaluation`→`benchmark`；`generate.py` 缺 `import sys`、venue_from_doi 截断 `s[:57]+"…"` 已删除；`update_arxiv_venues.crossref_lookup` 未处理 dict 返回已加类型处理。

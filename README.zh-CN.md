@@ -21,6 +21,7 @@
 
 - [数据概览](#sec-overview)
 - [分类体系](#sec-taxonomy)
+- [热点方向](#sec-trending)
 - [评测与 Benchmark](#sec-benchmark)
 - [综述 Survey](#sec-survey)
 - [论文列表](#sec-paperlist)
@@ -325,8 +326,20 @@
 | **年份** | 2018 – 2027 |
 
 > 幻觉场景不再单独分维度：对 VLM 而言物体幻觉即通用幻觉，二者无实质区别。仅将真正特殊的 `Relation` / `Attribute` 幻觉作为可选标签保留。
-> 附加标签：`Benchmark`（评测/基准，独立标记不影响方法分类） `Survey`（综述） `Relation` `Attribute` `CV`（图像/视觉模态） `Video` `Audio` `Multilingual` `Medical` `3D` `Agent`。
+> 附加标签：`Benchmark`（评测/基准，独立标记不影响方法分类） `Survey`（综述） `Relation` `Attribute` `CV`（图像/视觉模态） `Video` `Audio` `Multilingual` `Medical` `3D` `Agent` `RAG` `Reasoning` `Embodied`（具身/机器人）。
 > 完整摘要收录于 `data/papers.json`，可在交互网站中展开阅读与全文搜索。
+
+---
+
+<a id="sec-trending"></a>
+## 🔥 热点方向
+
+幻觉研究正在快速演进。以下方向在 2025–2026 尤为火热，本图谱均有真实论文覆盖（数量为按真实标签自动统计）：
+
+- **智能体（Agentic AI / Multi-Agent）** — 共 116 篇带 `Agent` 标签。
+- **检索增强生成（RAG / 忠实性）** — 共 158 篇带 `RAG` 标签。
+- **推理模型** — 共 371 篇带 `Reasoning` 标签。
+- **具身 / 世界模型** — 共 19 篇带 `Embodied` 标签。
 
 ---
 

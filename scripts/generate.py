@@ -50,6 +50,18 @@ SECONDARY_VENUES = {
 # Single source of truth for the always-listed venues now lives in
 # data/facets.json (consumed by the frontend too), eliminating the py/js
 # "keep in sync" drift. Falls back to the hard-coded set if the file is missing.
+def _load_trending_tags():
+    """Single source of truth for the 'trending' highlight tags (data/facets.json)."""
+    fp = os.path.join(ROOT, "data", "facets.json")
+    if os.path.exists(fp):
+        try:
+            with open(fp, encoding="utf-8") as f:
+                return list(json.load(f).get("trending_tags", []))
+        except Exception:
+            pass
+    return ["Agent", "RAG", "Reasoning", "Embodied"]
+
+
 def _load_always_list():
     fp = os.path.join(ROOT, "data", "facets.json")
     if os.path.exists(fp):
@@ -317,6 +329,12 @@ def extra_tags(title, abstract, model_type=None):
         tags.append("3D")
     if re.search(r"\bagents?\b|embodied", t):
         tags.append("Agent")
+    if re.search(r"\brag\b|retrieval[- ]augmented|retrieval[- ]based", t):
+        tags.append("RAG")
+    if re.search(r"reasoning|chain[- ]of[- ]thought|\bcot\b|deliberat|slow[- ]thinking|\bo1\b|deepseek[- ]r1", t):
+        tags.append("Reasoning")
+    if re.search(r"\bembodied\b|\brobot", t) or ("manipulation" in t and re.search(r"robot|embodied|grasp|physical|act", t)):
+        tags.append("Embodied")
     # CV (image / 2D visual) modality — the base visual modality. Kept distinct
     # from Video / 3D so the modality facets form clean, non-overlapping buckets.
     # Gated on non-LLM model_type: pure-text LLM papers (text captioning /
@@ -647,7 +665,10 @@ def main():
         "with_link": sum(1 for p in papers if p["url"]),
         "with_abstract": sum(1 for p in papers if p["abstract"]),
         "with_venue": sum(1 for p in papers if p["venue_url"]),
-        "facets": {"always_list_venues": sorted(ALWAYS_LIST_VENUES)},
+        "facets": {
+            "always_list_venues": sorted(ALWAYS_LIST_VENUES),
+            "trending_tags": _load_trending_tags(),
+        },
     }
 
     payload = {"generated": True, "stats": stats, "papers": papers}
@@ -752,6 +773,7 @@ def write_readme(papers, stats, lang):
     L.append("")
     L.append("- [" + _("Data Overview", "数据概览") + "](#sec-overview)")
     L.append("- [" + _("Taxonomy", "分类体系") + "](#sec-taxonomy)")
+    L.append("- [" + _("Trending Directions", "热点方向") + "](#sec-trending)")
     L.append("- [" + _("Benchmarks & Evaluation", "评测与 Benchmark") + "](#sec-benchmark)")
     L.append("- [" + _("Surveys", "综述 Survey") + "](#sec-survey)")
     L.append("- [" + _("Paper List", "论文列表") + "](#sec-paperlist)")
@@ -897,10 +919,27 @@ def write_readme(papers, stats, lang):
     L.append("")
     L.append("> " + _("Hallucination scenario is no longer a separate dimension: for VLMs, object hallucination *is* the general case. Only genuinely special `Relation` / `Attribute` hallucinations are kept as optional tags.",
                       "幻觉场景不再单独分维度：对 VLM 而言物体幻觉即通用幻觉，二者无实质区别。仅将真正特殊的 `Relation` / `Attribute` 幻觉作为可选标签保留。"))
-    L.append("> " + _("Extra tags: `Benchmark` (evaluation; does not affect method taxonomy) · `Survey` · `Relation` · `Attribute` · `CV` (vision) · `Video` · `Audio` · `Multilingual` · `Medical` · `3D` · `Agent`.",
-                      "附加标签：`Benchmark`（评测/基准，独立标记不影响方法分类） `Survey`（综述） `Relation` `Attribute` `CV`（图像/视觉模态） `Video` `Audio` `Multilingual` `Medical` `3D` `Agent`。"))
+    L.append("> " + _("Extra tags: `Benchmark` (evaluation; does not affect method taxonomy) · `Survey` · `Relation` · `Attribute` · `CV` (vision) · `Video` · `Audio` · `Multilingual` · `Medical` · `3D` · `Agent` · `RAG` · `Reasoning` · `Embodied`.",
+                      "附加标签：`Benchmark`（评测/基准，独立标记不影响方法分类） `Survey`（综述） `Relation` `Attribute` `CV`（图像/视觉模态） `Video` `Audio` `Multilingual` `Medical` `3D` `Agent` `RAG` `Reasoning` `Embodied`（具身/机器人）。"))
     L.append("> " + _("Full abstracts are stored in `data/papers.json` and can be expanded / full-text searched in the interactive website.",
                       "完整摘要收录于 `data/papers.json`，可在交互网站中展开阅读与全文搜索。"))
+    L.append("")
+    L.append("---")
+    L.append("")
+    L.append('<a id="sec-trending"></a>')
+    L.append("## 🔥 " + _("Trending Directions", "热点方向"))
+    L.append("")
+    L.append(_("Hallucination research is moving fast. These directions are especially hot in 2025–2026 and well-covered by this atlas (paper counts are auto-computed from real tags):",
+               "幻觉研究正在快速演进。以下方向在 2025–2026 尤为火热，本图谱均有真实论文覆盖（数量为按真实标签自动统计）："))
+    L.append("")
+    L.append("- **" + _("Agentic AI / Multi-Agent", "智能体（Agentic AI / Multi-Agent）") + "** — " + _(f"{stats['by_tag'].get('Agent',0)} papers tagged `Agent`.",
+               f"共 {stats['by_tag'].get('Agent',0)} 篇带 `Agent` 标签。"))
+    L.append("- **" + _("RAG / Faithfulness", "检索增强生成（RAG / 忠实性）") + "** — " + _(f"{stats['by_tag'].get('RAG',0)} papers tagged `RAG`.",
+               f"共 {stats['by_tag'].get('RAG',0)} 篇带 `RAG` 标签。"))
+    L.append("- **" + _("Reasoning Models", "推理模型") + "** — " + _(f"{stats['by_tag'].get('Reasoning',0)} papers tagged `Reasoning`.",
+               f"共 {stats['by_tag'].get('Reasoning',0)} 篇带 `Reasoning` 标签。"))
+    L.append("- **" + _("Embodied / World Model", "具身 / 世界模型") + "** — " + _(f"{stats['by_tag'].get('Embodied',0)} papers tagged `Embodied`.",
+               f"共 {stats['by_tag'].get('Embodied',0)} 篇带 `Embodied` 标签。"))
     L.append("")
     L.append("---")
     L.append("")
