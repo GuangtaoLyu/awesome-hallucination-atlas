@@ -1050,7 +1050,7 @@ def write_readme(papers, stats, lang):
     L.append(_("A record of how this atlas has grown in the community:",
                "本图谱在社区中的增长记录："))
     L.append("")
-    L.append('<a href="https://www.star-history.com/#GuangtaoLyu/awesome-hallucination-atlas&Date">')
+    L.append('<a href="https://www.star-history.com/?type=date&repos=GuangtaoLyu%2Fawesome-hallucination-atlas">')
     L.append('  <picture>')
     L.append('    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=GuangtaoLyu/awesome-hallucination-atlas&type=Date&theme=dark" />')
     L.append('    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=GuangtaoLyu/awesome-hallucination-atlas&type=Date" />')

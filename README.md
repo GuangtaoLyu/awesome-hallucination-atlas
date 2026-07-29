@@ -2518,7 +2518,7 @@ Released under [CC0-1.0](LICENSE), following the [awesome](https://github.com/si
 
 A record of how this atlas has grown in the community:
 
-<a href="https://www.star-history.com/#GuangtaoLyu/awesome-hallucination-atlas&Date">
+<a href="https://www.star-history.com/?type=date&repos=GuangtaoLyu%2Fawesome-hallucination-atlas">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=GuangtaoLyu/awesome-hallucination-atlas&type=Date&theme=dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=GuangtaoLyu/awesome-hallucination-atlas&type=Date" />
