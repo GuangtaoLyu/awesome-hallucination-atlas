@@ -7,7 +7,6 @@ __pycache__/
 data/abstracts.json
 data/abstracts_extra.json
 data/crossref_cache.json
-data/incremental.json
 data/venue_links.json
 data/code_links.json
 data/found_links.json
@@ -23,6 +22,13 @@ data/_code_anthology.json
 data/cvpr2026_hall.json
 data/candidates_new.json
 no_keyword_review.md
+
+# NOTE: data/incremental.json is TRACKED on purpose. It is not a cache — it
+# holds 827 harvested papers that exist in no other source file. While it was
+# ignored, any clean checkout (i.e. every CI run) made generate.py rebuild
+# papers.json from seed.json + manual_entries.yaml alone and silently shrink
+# the dataset from 1897 to 1070. Keep it committed so generate.py is
+# reproducible from a fresh clone.
 
 # NOTE: docs/papers.json is a GENERATED duplicate of data/papers.json (needed
 # by GitHub Pages). It is intentionally tracked. If you prefer a single source

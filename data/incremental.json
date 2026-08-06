@@ -1,0 +1,4964 @@
+[
+ [
+  "Addressing Hallucinations with RAG and NMISS in Italian Healthcare LLM Chatbots",
+  "Maria Paola Priola",
+  "https://arxiv.org/abs/2412.04235",
+  2026
+ ],
+ [
+  "Mitigating hallucinations in healthcare LLMs with granular fact-checking and domain-specific adaptation",
+  "Musarrat Zeba, Abdullah Al Mamun, Kishoar Jahan Tithee, Debopom Sutradhar, Mohaimenul Azam Khan Raiaan, Saddam Mukta, Reem E. Mohamed, Md Rafiqul Islam, Yakub Sebastian, Mukhtar Hussain, Sami Azam",
+  "https://arxiv.org/abs/2512.16189",
+  2026
+ ],
+ [
+  "Predicting LLM Correctness in Prosthodontics Using Metadata and Hallucination Signals",
+  "Lucky Susanto, Anasta Pranawijayana, Cortino Sukotjo, Soni Prasad, Derry Wijaya",
+  "https://arxiv.org/abs/2512.22508",
+  2026
+ ],
+ [
+  "Exploring and Mitigating Fawning Hallucinations in Large Language Models",
+  "Zixuan Shangguan, Yanjie Dong, Lanjun Wang, Xiaoyi Fan, Victor C. M. Leung, Xiping Hu",
+  "https://arxiv.org/abs/2509.00869",
+  2026
+ ],
+ [
+  "Learned Hallucination Detection in Black-Box LLMs using Token-level Entropy Production Rate",
+  "Charles Moslonka, Hicham Randrianarivo, Arthur Garnier, Emmanuel Malherbe",
+  "https://arxiv.org/abs/2509.04492",
+  2026
+ ],
+ [
+  "LLMs Prompted for Graphs: Hallucinations and Generative Capabilities",
+  "Gurvan Richardeau, Samy Chali, Erwan Le Merrer, Camilla Penzo, Gilles Tredan",
+  "https://arxiv.org/abs/2409.00159",
+  2026
+ ],
+ [
+  "Hallucination Detection and Mitigation with Diffusion in Multi-Variate Time-Series Foundation Models",
+  "Vijja Wichitwechkarn, Charles Fox, Ruchi Choudhary",
+  "https://arxiv.org/abs/2508.00881",
+  2026
+ ],
+ [
+  "Incident Response Planning Using a Lightweight Large Language Model with Reduced Hallucination",
+  "Kim Hammar, Tansu Alpcan, Emil C. Lupu",
+  "https://arxiv.org/abs/2508.05188",
+  2026
+ ],
+ [
+  "EH-Benchmark Ophthalmic Hallucination Benchmark and Agent-Driven Top-Down Traceable Reasoning Workflow",
+  "Xiaoyu Pan, Yang Bai, Ke Zou, Yang Zhou, Jun Zhou, Huazhu Fu, Yih-Chung Tham, Yong Liu",
+  "https://arxiv.org/abs/2507.22929",
+  2026
+ ],
+ [
+  "Directional Hallucinations: Ideological Drift in News-Grounded LLM Question Answering",
+  "Chendi Wang, Liam Cunningham, Tom Yishay, Jieying Chen",
+  "https://arxiv.org/abs/2607.20487",
+  2026
+ ],
+ [
+  "Efficient Hallucination Detection for LLMs Using Uncertainty-Aware Attention Heads",
+  "Artem Vazhentsev, Lyudmila Rvanova, Gleb Kuzmin, Ekaterina Fadeeva, Ivan Lazichny, Alexander Panchenko, Maxim Panov, Mrinmaya Sachan, Preslav Nakov, Timothy Baldwin, Artem Shelmanov",
+  "https://arxiv.org/abs/2505.20045",
+  2026
+ ],
+ [
+  "HalluCitation Matters: Revealing the Impact of Hallucinated References with 300 Hallucinated Papers in ACL Conferences",
+  "Yusuke Sakai, Hidetaka Kamigaito, Taro Watanabe",
+  "https://arxiv.org/abs/2601.18724",
+  2026
+ ],
+ [
+  "Why LLMs Hallucinate on Structured Knowledge: A Mechanistic Analysis of Reasoning over Linearized Representations",
+  "Shanghao Li, Jinda Han, Yibo Wang, Yuanjie Zhu, Zihe Song, Langzhou He, Kenan Kamel A Alghythee, Philip S. Yu",
+  "https://arxiv.org/abs/2605.26362",
+  2026
+ ],
+ [
+  "Phantom References: Hallucinated Citations That Survive Peer Review at Top-Tier Conferences",
+  "Mark Russinovich, Ram Shankar Siva Kumar, Ahmed Salem",
+  "https://arxiv.org/abs/2607.00738",
+  2026
+ ],
+ [
+  "Understanding Why Language Models Hallucinate: Testing Reasoning Against Priors",
+  "Yangfan Hu, Xuhan Tong, Haoyue Bai, Xi Ding, Shashank Muralidhar Bharadwaj, Siyang Cao, Robert Nowak, Jiawei Zhang",
+  "https://arxiv.org/abs/2607.00447",
+  2026
+ ],
+ [
+  "Detecting Hallucinations in Retrieval-Augmented Generation through Grounding-Aware Sensitivity by Perturbation (GASP)",
+  "Mohamed Aly Bouke",
+  "https://arxiv.org/abs/2607.04223",
+  2026
+ ],
+ [
+  "A Good Initialization is All You Need for Faithful Visual Attribution",
+  "Zihan Gu, Jiayu Wang, Hua Zhang, Yue Hu",
+  "https://arxiv.org/abs/2607.06726",
+  2026
+ ],
+ [
+  "Mitigating Factual Hallucination in Large Reasoning Models via Mixed-Mode Advantage Regularization",
+  "Kaishen Wang, Tong Zheng, Xuehao Cui, Ruibo Chen, Tianyi Xiong, Heng Huang",
+  "https://arxiv.org/abs/2607.05861",
+  2026
+ ],
+ [
+  "Naming the Concepts Classifiers Rely On: Language-Anchored Decomposition for Faithful Explanation",
+  "Ahsan Habib Akash, Dipkamal Bhusal, Stacey Jones, Donald A. Adjeroh, Binod Bhattarai, Prashnna Kumar Gyawali",
+  "https://arxiv.org/abs/2607.07264",
+  2026
+ ],
+ [
+  "Anatomically Faithful but Temporally Diffuse: Auditing Attribution for Left-Ventricular Ejection-Fraction Estimation from Echocardiography",
+  "Hyunkyung Han, Min Jung Kim",
+  "https://arxiv.org/abs/2607.13738",
+  2026
+ ],
+ [
+  "Diversity-Oriented Fine-Tuning for Uncertainty-Based Hallucination Detection",
+  "Qiuyuan Li, Hongliang Dai, Piji Li",
+  "https://arxiv.org/abs/2607.16643",
+  2026
+ ],
+ [
+  "SciForma: Structure-Faithful Generation of Scientific Diagrams",
+  "Yuxuan Luo, Peng Zhang, Xinjie Zhang, Xun Guo, Zhouhui Lian, Yan Lu",
+  "https://arxiv.org/abs/2607.18091",
+  2026
+ ],
+ [
+  "Axolotl3D: a Unified Framework for Faithful 3D Shape Completion",
+  "Anita Hu, Maria Shugrina",
+  "https://arxiv.org/abs/2607.20660",
+  2026
+ ],
+ [
+  "Vera: Identity-Faithful Human Subject-to-Video Generation",
+  "Yulong Xu, Xinyue Liu, Shujuan Li, huafeng shi, Yan Zhou, Jiwen Liu, Xintao Wang, Yu Shen Liu, Huaibo Huang",
+  "https://arxiv.org/abs/2607.20247",
+  2026
+ ],
+ [
+  "Chemical Chain-of-Thought Functions as a Hallucination-Prone Molecular Scratchpad",
+  "Jiatong Li, Yuxuan Ren, Weida Wang, Xiaoyong Wei, Yatao Bian",
+  "https://arxiv.org/abs/2607.20935",
+  2026
+ ],
+ [
+  "Geo3R: Mitigating Spatial Reasoning Hallucination in Multimodal Large Language Models",
+  "Mingyu Wang, Weilin Jin, Wenbo Li, Haoyang Huang, Tong Jia, Ying Li",
+  "https://arxiv.org/abs/2607.21085",
+  2026
+ ],
+ [
+  "HalluScope: Fine-grained Hallucination Diagnosis for Multimodal Large Language Models",
+  "Weilin Jin, Mingyu Wang, Wenbo Li, Haoyang Huang, Yifan Wu, Ying Li, Gang Huang, Zhonghai Wu",
+  "https://arxiv.org/abs/2607.21105",
+  2026
+ ],
+ [
+  "CHIME: Conditional Hallucination and Integrated Multi-scale Enhancement for Time Series Diffusion Model",
+  "Yuxuan Chen, Haipeng Xie",
+  "https://arxiv.org/abs/2506.03502",
+  2026
+ ],
+ [
+  "Evaluating Hallucinations in Domain-Adapted Large Language Models",
+  "Sanchita Porwal, Sai Prasath S, Xingjian Bi, Madelyn Scandlen",
+  "https://arxiv.org/abs/2606.07521",
+  2026
+ ],
+ [
+  "BEACON: Behavioral Entropy Aggregation for Cross-Model Hallucination Detection in Large Language Models",
+  "Naveen Bera, Pulijala Sai Nikhila, Kondaguduru Abhiram, Shaik Gayaz Ali, Shoaib Sadiq Salehmohamed, Shaik Mohammed Omar, Jinal Prashant Thakkar, Hansika Aredla, Shalmali Ayachit",
+  "https://arxiv.org/abs/2606.07528",
+  2026
+ ],
+ [
+  "Detecting Hallucinations for Large Language Model-based Knowledge Graph Reasoning",
+  "Xinyan Zhu, Yaoqi Liu, Yue Gao, Huadong Ma, Cheng Yang, Chuan Shi",
+  "https://arxiv.org/abs/2606.19351",
+  2026
+ ],
+ [
+  "From Architecture to Output: Structural Origins of Hallucination in Large Language Models and the Amplifying Role of Data",
+  "Md. Rejaul Korim Sadi, Toufiqur Rahman Tasin, Golam Mostofa Naeem",
+  "https://arxiv.org/abs/2606.07537",
+  2026
+ ],
+ [
+  "TIGER: Traceable Inference with Graph-Based Evidence Routing for Mitigating Hallucinations in Multimodal Generation",
+  "Kaixiang Zhao, Tianrun Yu, Shawn Huang, Porter Jenkins, Yushun Dong, Amanda Hughes",
+  "https://arxiv.org/abs/2606.00232",
+  2026
+ ],
+ [
+  "Citation Grounding: Detecting and Reducing LLM Citation Hallucinations via Legal Citation Graphs",
+  "Volodymyr Ovcharov",
+  "https://arxiv.org/abs/2606.00898",
+  2026
+ ],
+ [
+  "Hallucination Is Linearly Decodable from Mid-Layer Hidden States in Quantized LLMs",
+  "Aizierjiang Aiersilan",
+  "https://arxiv.org/abs/2606.02628",
+  2026
+ ],
+ [
+  "Mitigating Hallucinations in Large Language Models Via Decoder Layer Skipping",
+  "Hanze Li, Jinhao You, Yichen Guo, Kai Tang, Shuangyang Xie, Xiande Huang",
+  "https://arxiv.org/abs/2606.00819",
+  2026
+ ],
+ [
+  "Towards Lightweight Reliability: Using Soft Prompts for Hallucination Mitigation in Large Language Models",
+  "S M Tahmid Siddiqui, Akib Jawad Ononto, Anoop Singhal, Latifur Khan",
+  "https://arxiv.org/abs/2606.00919",
+  2026
+ ],
+ [
+  "Med-HEAL: Analyzing and Mitigating Hallucinations in Medical LLMs with Hallucination-Aware In-Context Learning",
+  "Yiming Liao, Zeno Franco, Jose Eduardo Lizarraga Mazaba, Keke Chen",
+  "https://arxiv.org/abs/2606.01301",
+  2026
+ ],
+ [
+  "TriLens: Per-Layer Logit-Lens Entropy for White-Box Hallucination Detection",
+  "Bohan Yang, Yijun Gong, Zhi Zhang, Ge Zhang, Wenpeng Xing, Meng Han",
+  "https://arxiv.org/abs/2606.01033",
+  2026
+ ],
+ [
+  "DECK: A Consistency x Confidence Taxonomy of LLM Hallucinations",
+  "Mohit Singh Chauhan",
+  "https://arxiv.org/abs/2606.02289",
+  2026
+ ],
+ [
+  "Building Reliable Long-Form Generation via Hallucination Rejection Sampling",
+  "Lin Li, Georgia Channing, Suhaas M Bhat, Gabriel Davis Jones, Yarin Gal",
+  "https://arxiv.org/abs/2606.03628",
+  2026
+ ],
+ [
+  "Cascading Hallucination in Agentic RAG: The CHARM Framework for Detection and Mitigation",
+  "Saroj Mishra",
+  "https://arxiv.org/abs/2606.04435",
+  2026
+ ],
+ [
+  "Evidence Graph Consistency in Retrieval-Augmented Generation: A Model-Dependent Analysis of Hallucination Detection",
+  "Jianru Shen",
+  "https://arxiv.org/abs/2606.06748",
+  2026
+ ],
+ [
+  "Reducing Hallucinations in Complex Question Answering using Simple Graph-based Retrieval-Augmented Generation (long version)",
+  "Christopher J. Wedge, Joshua Stutter, Danny Dixon, Jacek Cała",
+  "https://arxiv.org/abs/2606.05901",
+  2026
+ ],
+ [
+  "OpenHalDet: A Unified Benchmark for Hallucination Detection across Diverse Generation Scenarios",
+  "Xinyi Li, Zhen Fang, Yongxin Deng, Jinyuan Luo, Hongnan Ma, Changdae Oh, Zijing Shi, Shanshan Ye, Hanchen Wang, Shu-Lin Chen, Yadan Luo, Mengyue Yang, Sean Du, Sharon Li, Ling Chen",
+  "https://arxiv.org/abs/2606.06959",
+  2026
+ ],
+ [
+  "Whisper Hallucination Detection and Mitigation via Hidden Representation Steering and Sparse AutoEncoders",
+  "Georgii Aparin, Vadim Popov, Tasnima Sadekova, Assel Yermekova",
+  "https://arxiv.org/abs/2606.07473",
+  2026
+ ],
+ [
+  "Analyzing the Correlation Between Hallucinations and Knowledge Conflicts in Large Language Models",
+  "Lucrezia Laraspata, Giovanna Castellano, Gennaro Vessio",
+  "https://arxiv.org/abs/2606.08705",
+  2026
+ ],
+ [
+  "Generating in the Limit with Infinitely Many Hallucinations",
+  "Irene Strauss, Alexandra Butoi, Ryan Cotterell",
+  "https://arxiv.org/abs/2606.28354",
+  2026
+ ],
+ [
+  "Quickest Detection of Hallucination Onset: Delay Bounds and Learned CUSUM Statistics",
+  "Igor Itkin",
+  "https://arxiv.org/abs/2606.12476",
+  2026
+ ],
+ [
+  "Hallucination in Medical Imaging AI: A Cross-Modality Analytical Framework for Taxonomy, Detection, and Mitigation under Regulatory Constraints",
+  "Omar Alshahrani, Muzammil Behzad",
+  "https://arxiv.org/abs/2606.13211",
+  2026
+ ],
+ [
+  "Layer-Resolved Optimal Transport for Hallucination Detection in NMT and Abstractive Summarization",
+  "Mariia Onyshchuk, Maksym-Vasyl Tarnavskyi, Marta Sumyk",
+  "https://arxiv.org/abs/2606.13216",
+  2026
+ ],
+ [
+  "NTS-CoT: Mitigating Hallucinations in LLM-based News Timeline Summarization with Chain-of-Thought Reasoning",
+  "Feng Lyu, Huiqin Yan, Sijing Duan, Hao Wu, Shuang Gu, Xue Qiao, Weixu Zhang, Haolun Wu",
+  "https://arxiv.org/abs/2606.13171",
+  2026
+ ],
+ [
+  "SafeLLM: Extraction as a Hallucination-Resistant Alternative to Rewriting in Safety-Critical Settings",
+  "Julia Ive, Felix Jozsa, Evridiki Georgaki, Nabeel Sheikh, Emma Cattell, Nick Jackson, Paulina Bondaronek, Ciaran Scott Hill, Richard Dobson",
+  "https://arxiv.org/abs/2606.12897",
+  2026
+ ],
+ [
+  "Zero-source LLM Hallucination Detection with Human-like Criteria Probing",
+  "Jiahao Yang, Shuhai Zhang, Hailong Kang, Feng Liu, Qi Chen, Mingkui Tan",
+  "https://arxiv.org/abs/2606.12900",
+  2026
+ ],
+ [
+  "BALTO: Balanced Token-Level Policy Optimization for Hallucination Mitigation",
+  "Ning Li, Zixuan Guo, Yan Xu, Wenbo Fei, Yifan Niu, Chang Luo, Yasheng Wang, Weiwen Liu, Yong Yu, Weinan Zhang",
+  "https://arxiv.org/abs/2606.15893",
+  2026
+ ],
+ [
+  "Islamic Large Language Models: From Knowledge Acquisition to Trustworthy and Hallucination-Resistant AI",
+  "Mohammed Amine Mouhoub",
+  "https://arxiv.org/abs/2606.16629",
+  2026
+ ],
+ [
+  "Agentic AI-based Framework for Mitigating Premature Diagnostic Handoff and Silent Hallucination in Healthcare Applications",
+  "Divyansh Srivastava, Shreya Ghosh, Anshul Verma, Rajkumar Buyya",
+  "https://arxiv.org/abs/2606.18068",
+  2026
+ ],
+ [
+  "LegalHalluLens: Typed Hallucination Auditing and Calibrated Multi-Agent Debate for Trustworthy Legal AI",
+  "Lalit Yadav, Akshaj Gurugubelli",
+  "https://arxiv.org/abs/2606.18021",
+  2026
+ ],
+ [
+  "MedHal-Loc: Are \"Explainable-by-Architecture\" Medical Hallucination Detectors Faithful Localizers? A Localization Benchmark",
+  "Minmin Chen, Daojian Lu, Yining Dai, Jvyu Cai, Fengdan Chen",
+  "https://arxiv.org/abs/2606.21517",
+  2026
+ ],
+ [
+  "Who Checks the Citations? Benchmarking Legal Hallucination Detection",
+  "Patty Liu, Dominik Stammbach, Peter Henderson",
+  "https://arxiv.org/abs/2606.21155",
+  2026
+ ],
+ [
+  "HALAS: A Human-Annotated Dataset of Hallucinations of Modern ASR Systems",
+  "Mateusz Barański, Jan Jasiński, Julitta Bartolewska, Marcin Witkowski, Konrad Kowalczyk",
+  "https://arxiv.org/abs/2606.23048",
+  2026
+ ],
+ [
+  "MotionHalluc: Diagnosing Kinematic Hallucinations in Fine-Grained Motion Reasoning",
+  "Weile Guo, Shenghong He, Danying Mo, Chengdong Xu, Xuexun Liu, Chao Yu",
+  "https://arxiv.org/abs/2606.23061",
+  2026
+ ],
+ [
+  "Detecting Clinical Hallucinations in LVLMs via Counterfactual Visual Grounding Uncertainty",
+  "Xiao Song, Haonan Qin, Zhaoxu Zhang, Jiong Zhang, Yuqi Fang, Caifeng Shan",
+  "https://arxiv.org/abs/2606.28520",
+  2026
+ ],
+ [
+  "How Far Can You Get Without a GPU? A Systematic Benchmark of Lightweight Hallucination Detection Across Question Answering, Dialogue, and Summarisation",
+  "Kriti Faujdar, Smit Kadvani",
+  "https://arxiv.org/abs/2606.29809",
+  2026
+ ],
+ [
+  "The Case for Repeatable, Open, and Expert-Grounded Hallucination Benchmarks in Large Language Models",
+  "Justin D. Norman, Michael U. Rivera, D. Alex Hughes",
+  "https://arxiv.org/abs/2505.17345",
+  2026
+ ],
+ [
+  "Micro-Macro Retrieval: Reducing Long-Form Hallucination in Large Language Models",
+  "Yujie Feng, Jian Li, Zhihan Zhou, Pengfei Xu, Yujia Zhang, Xiaoyu Li, Xiaohui Zhou, Alan Zhao, Xi Chen, Xiao-Ming Wu",
+  "https://arxiv.org/abs/2605.28828",
+  2026
+ ],
+ [
+  "From Flat Facts to Sharp Hallucinations: Detecting Stubborn Errors via Gradient Sensitivity",
+  "Yee Zhing Liew, Andrew Huey Ping Tan, Anwar P. P. Abdul Majeed",
+  "https://arxiv.org/abs/2605.00939",
+  2026
+ ],
+ [
+  "LLM Ghostbusters: Surgical Hallucination Suppression via Adaptive Unlearning",
+  "Joseph Spracklen, Pedram Aghazadeh, Farinaz Koushanfar, Murtuza Jadliwala",
+  "https://arxiv.org/abs/2605.01047",
+  2026
+ ],
+ [
+  "Hallucinations Undermine Trust; Metacognition is a Way Forward",
+  "Gal Yona, Mor Geva, Yossi Matias",
+  "https://arxiv.org/abs/2605.01428",
+  2026
+ ],
+ [
+  "Neuro-Symbolic Agents for Hallucination-Free Requirements Reuse",
+  "Ahmed F. Ibrahim",
+  "https://arxiv.org/abs/2605.01562",
+  2026
+ ],
+ [
+  "A multilingual hallucination benchmark: MultiWikiQHalluA",
+  "Freja Thoresen, Dan Saattrup Smart",
+  "https://arxiv.org/abs/2605.02504",
+  2026
+ ],
+ [
+  "HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs",
+  "Ahmed Cherif",
+  "https://arxiv.org/abs/2605.02443",
+  2026
+ ],
+ [
+  "CuraView: A Multi-Agent Framework for Medical Hallucination Detection with GraphRAG-Enhanced Knowledge Verification",
+  "Severin Ye, Xiao Kong, Xiaopeng He, Guangsu Yan, Dongsuk Oh",
+  "https://arxiv.org/abs/2605.03476",
+  2026
+ ],
+ [
+  "Not All That Is Fluent Is Factual: Investigating Hallucinations of Large Language Models in Academic Writing",
+  "Humam Khan, Md Tabrez Nafis, Shahab Saquib Sohail, Aqeel Khalique, Rehan Hasan Khan",
+  "https://arxiv.org/abs/2605.04171",
+  2026
+ ],
+ [
+  "Detecting Hallucinations in Large Language Models via Internal Attention Divergence Signals",
+  "Gijs van Dijk",
+  "https://arxiv.org/abs/2605.05025",
+  2026
+ ],
+ [
+  "Local Intrinsic Dimension Unveils Hallucinations in Diffusion Models",
+  "Bartlomiej Sobieski, Matthew Tivnan, Dawid Płudowski, Michał Jan Włodarczyk, Pengfei Jin, Przemyslaw Biecek, Quanzheng Li",
+  "https://arxiv.org/abs/2605.05026",
+  2026
+ ],
+ [
+  "Text Corpora as Concept Fields: Black-Box Hallucination and Novelty Measurement",
+  "Nicholas S. Kersting, Vittorio Castelli, Chieh Ting Yeh, Xinzhu Wang, Saad Taame",
+  "https://arxiv.org/abs/2605.05103",
+  2026
+ ],
+ [
+  "The First Token Knows: Single-Decode Confidence for Hallucination Detection",
+  "Mina Gabriel",
+  "https://arxiv.org/abs/2605.05166",
+  2026
+ ],
+ [
+  "Attractor Geometry of Transformer Memory: From Conflict Arbitration to Confident Hallucination",
+  "Qiyao Liang, Risto Miikkulainen, Ila Fiete",
+  "https://arxiv.org/abs/2605.05686",
+  2026
+ ],
+ [
+  "Delulu: A Verified Multi-Lingual Benchmark for Code Hallucination Detection in Fill-in-the-Middle Tasks",
+  "Mahdi Erfanian, Nelson Daniel Troncoso, Aashna Garg, Amabel Gale, Xiaoyu Liu, Pareesa Ameneh Golnari, Shengyu Fu",
+  "https://arxiv.org/abs/2605.07024",
+  2026
+ ],
+ [
+  "Hallucination as an Anomaly: Dynamic Intervention via Probabilistic Circuits",
+  "Erik Nielsen, Elia Cunegatti, Marcus Vukojevic, Giovanni Iacca",
+  "https://arxiv.org/abs/2605.05953",
+  2026
+ ],
+ [
+  "Why DDIM Hallucinates More Than DDPM: A Theoretical Analysis of Reverse Dynamics",
+  "Muhammad H. Ashiq, Samanyu Arora, Abhinav N. Harish, Ishaan Kharbanda, Hung Yun Tseng, Grigorios G. Chrysos",
+  "https://arxiv.org/abs/2605.06831",
+  2026
+ ],
+ [
+  "Do Benchmarks Underestimate LLM Performance? Evaluating Hallucination Detection With LLM-First Human-Adjudicated Assessment",
+  "I. F. Atasoy, B. Mutlu, E. A. Sezer, A. Wahdan",
+  "https://arxiv.org/abs/2605.08462",
+  2026
+ ],
+ [
+  "Hallucination Detection via Activations of Open-Weight Proxy Analyzers",
+  "Akshita Singh, Prabesh Paudel, Siddhartha Roy",
+  "https://arxiv.org/abs/2605.07209",
+  2026
+ ],
+ [
+  "LLM hallucinations in the wild: Large-scale evidence from non-existent citations",
+  "Zhenyue Zhao, Yihe Wang, Toby Stuart, Mathijs De Vaan, Paul Ginsparg, Yian Yin",
+  "https://arxiv.org/abs/2605.07723",
+  2026
+ ],
+ [
+  "Sanity Checks for Long-Form Hallucination Detection",
+  "Geigh Zollicoffer, Minh Vu, Hongli Zhan, Raymond Li, Manish Bhattarai",
+  "https://arxiv.org/abs/2605.08346",
+  2026
+ ],
+ [
+  "Max-pooling Network Revisited: Analyzing the Role of Semantic Probability in Multiple Instance Learning for Hallucination Detection",
+  "Shota Fujikawa, Issei Sato",
+  "https://arxiv.org/abs/2605.08863",
+  2026
+ ],
+ [
+  "Source or It Didn't Happen: A Multi-Agent Framework for Citation Hallucination Detection",
+  "Mingzhe Li, Zhiqiang Lin, Shiqing Ma",
+  "https://arxiv.org/abs/2605.08583",
+  2026
+ ],
+ [
+  "A Theory of Time-Sensitive Language Generation: Sparse Hallucination Beats Mode Collapse",
+  "Atul Ganju, Travis McVoy, Shaddin Dughmi, Shang-Hua Teng",
+  "https://arxiv.org/abs/2605.11302",
+  2026
+ ],
+ [
+  "CAAFC: Chronological Actionable Automated Fact-Checker for misinformation / non-factual hallucination detection and correction",
+  "Islam Eldifrawi, Shengrui Wang, Amine Trabelsi",
+  "https://arxiv.org/abs/2605.12436",
+  2026
+ ],
+ [
+  "OptArgus: A Multi-Agent System to Detect Hallucinations in LLM-based Optimization Modeling",
+  "Zhong Li, Zihan Guo, Xiaohan Lu, Juntao Wang, Jie Song, Chao Shen, Jiageng Wu, Mingyang Sun",
+  "https://arxiv.org/abs/2605.11738",
+  2026
+ ],
+ [
+  "REALISTA: Realistic Latent Adversarial Attacks that Elicit LLM Hallucinations",
+  "Buyun Liang, Jinqi Luo, Liangzu Peng, Kwan Ho Ryan Chan, Darshan Thaker, Kaleab A. Kinfu, Fengrui Tian, Hamed Hassani, René Vidal",
+  "https://arxiv.org/abs/2605.12813",
+  2026
+ ],
+ [
+  "Scalable Token-Level Hallucination Detection in Large Language Models",
+  "Rui Min, Tianyu Pang, Chao Du, Minhao Cheng, Yi R. Fung",
+  "https://arxiv.org/abs/2605.12384",
+  2026
+ ],
+ [
+  "On Hallucinations in Inverse Problems: Fundamental Limits and Provable Assessment Methods",
+  "David Iagaru, Nina M. Gottschling, Anders C. Hansen, Josselin Garnier",
+  "https://arxiv.org/abs/2605.13146",
+  2026
+ ],
+ [
+  "Where Does Reasoning Break? Step-Level Hallucination Detection via Hidden-State Transport Geometry",
+  "Tyler Alvarez, Ali Baheri",
+  "https://arxiv.org/abs/2605.13772",
+  2026
+ ],
+ [
+  "When Answers Stray from Questions: Hallucination Detection via Question-Answer Orthogonal Decomposition",
+  "Siyang Yao, Erhu Feng, Yubin Xia",
+  "https://arxiv.org/abs/2605.14449",
+  2026
+ ],
+ [
+  "HalluScore: Large Language Model Hallucination Question Answering Benchmark",
+  "Aisha Alansari, Hamzah Luqman",
+  "https://arxiv.org/abs/2605.17007",
+  2026
+ ],
+ [
+  "PARALLAX: Separating Genuine Hallucination Detection from Benchmark Construction Artifacts",
+  "Khizar Hussain, Murat Kantarcioglu",
+  "https://arxiv.org/abs/2605.17028",
+  2026
+ ],
+ [
+  "Retrieval-Based Multi-Label Legal Annotation: Extensible, Data-Efficient and Hallucination-Free",
+  "Li Zhang, Jaromir Savelka, Kevin Ashley",
+  "https://arxiv.org/abs/2605.16767",
+  2026
+ ],
+ [
+  "Can These Views Be One Scene? Evaluating Multiview 3D Consistency when 3D Foundation Models Hallucinate",
+  "Soumava Paul, Prakhar Kaushik, Alan Yuille",
+  "https://arxiv.org/abs/2605.18754",
+  2026
+ ],
+ [
+  "Hallucination as Exploit: Evidence-Carrying Multimodal Agents",
+  "Guijia Zhang, Hao Zheng, Harry Yang",
+  "https://arxiv.org/abs/2605.19192",
+  2026
+ ],
+ [
+  "TRACE: Trajectory Correction from Cross-layer Evidence for Hallucination Reduction",
+  "Tej Sanibh Ranade",
+  "https://arxiv.org/abs/2605.18163",
+  2026
+ ],
+ [
+  "HalluWorld: A Controlled Benchmark for Hallucination via Reference World Models",
+  "Emmy Liu, Varun Gangal, Michael Yu, Zhuofu Tao, Karan Singh, Sachin Kumar, Steven Y. Feng",
+  "https://arxiv.org/abs/2605.19341",
+  2026
+ ],
+ [
+  "ACL-Verbatim: hallucination-free question answering for research",
+  "Gábor Recski, Szilveszter Tóth, Nadia Verdha, István Boros, Ádám Kovács",
+  "https://arxiv.org/abs/2605.21102",
+  2026
+ ],
+ [
+  "Do No Harm? Hallucination and Actor-Level Abuse in Web-Deployed Medical Large Language Models",
+  "Sunday Oyinlola Ogundoyin, Muhammad Ikram, Rahat Masood",
+  "https://arxiv.org/abs/2605.20591",
+  2026
+ ],
+ [
+  "Hallucination as Commitment Failure: Larger LLMs Misfire Despite Knowing the Answer",
+  "Jewon Yeom, Jaewon Sok, Heejun Kim, Seonghyeon Park, Jeongjae Park, Taesup Kim",
+  "https://arxiv.org/abs/2605.22007",
+  2026
+ ],
+ [
+  "Beyond Final Answers: Auditing Trajectory-Level Hallucinations in Multi-Agent Industrial Workflows",
+  "Harshada Badave, Santosh Borse, Andrea Gomez, Harshitha Narahari, Sara Carter, Vishwa Bhatt, Aishani Rachakonda, Shuxin Lin, Dhaval Patel",
+  "https://arxiv.org/abs/2605.24219",
+  2026
+ ],
+ [
+  "Empirical Analysis and Detection of Hallucinations in LLM-Generated Bug Report Summaries",
+  "Hinduja Nirujan, Shreyas Patil, Abdallah Ayoub, Ahmad Abdel Latif, Gouri Ginde",
+  "https://arxiv.org/abs/2605.24137",
+  2026
+ ],
+ [
+  "MultiHaluDet: Multilingual Hallucination Detection via LLM Hidden State Probing",
+  "Riasad Alvi, Nurul Labib Sayeedi, Md. Faiyaz Abdullah Sayeedi",
+  "https://arxiv.org/abs/2605.24919",
+  2026
+ ],
+ [
+  "Automatic Layer Selection for Hallucination Detection",
+  "Xinpeng Wang, William X. Cao, Andrew Gordon Wilson, Zhe Zeng",
+  "https://arxiv.org/abs/2605.26366",
+  2026
+ ],
+ [
+  "Can Hallucinations Be Useful? Solving Multi-Hop Questions With SLMs By Chaining System-I/II Reasoning",
+  "Saptarshi Sengupta, Suhang Wang",
+  "https://arxiv.org/abs/2605.27596",
+  2026
+ ],
+ [
+  "Chain-based Adaptive Reconfiguration Over Lattices for Hallucination Reduction",
+  "Joan Vendrell Gallart, Solmaz Kia, Russell Bent, Michael Grosskopf",
+  "https://arxiv.org/abs/2605.27706",
+  2026
+ ],
+ [
+  "CiteCheck: Retrieval-Grounded Detection of LLM Citation Hallucinations in Scientific Text",
+  "Khashayar Khajavi, Shaghayegh Sadeghi, Rise Adhikari, Alexander Tessier",
+  "https://arxiv.org/abs/2605.27700",
+  2026
+ ],
+ [
+  "Evaluating the Relevance of Uncertainty Estimators for LLM Hallucination",
+  "Yedidia Agnimo, Anna Korba, Annabelle Blangero, Nicolas Chesneau, Karteek Alahari",
+  "https://arxiv.org/abs/2605.27016",
+  2026
+ ],
+ [
+  "Innovation: An Almost Characterization of Hallucination",
+  "Nishant P. Das, Piyush Srivastava",
+  "https://arxiv.org/abs/2605.26808",
+  2026
+ ],
+ [
+  "Entropy Distribution as a Fingerprint for Hallucinations in Generative Models",
+  "Mattia J. Villani, Pranav Deshpande, Akshay Seshadri, Romina Yalovetzky, Niraj Kumar",
+  "https://arxiv.org/abs/2605.28264",
+  2026
+ ],
+ [
+  "Hallucination Detection-Guided Preference Optimization for Clinical Summarization",
+  "Shamanth Kuthpadi Seethakantha, Dung Ngoc Thai, Vara Prasad Gudi, Simran Tiwari, Rami Matar, Avijit Mitra, Wenlong Zhao, Andrew McCallum, Wael Salloum",
+  "https://arxiv.org/abs/2605.28910",
+  2026
+ ],
+ [
+  "Hallucination Mitigation with Agentic AI, Nested Learning, and AI Sustainability via Semantic Caching",
+  "Diego Gosmar, Deborah A. Dahl",
+  "https://arxiv.org/abs/2605.29055",
+  2026
+ ],
+ [
+  "BenHalluEval: A Multi-Task Hallucination Evaluation Framework for Large Language Models on Bengali",
+  "Shefayat E Shams Adib, Ahmed Alfey Sani, Ekramul Alam Esham, Ajwad Abrar, Ishmam Tashdeed, Md Taukir Azam Chowdhury",
+  "https://arxiv.org/abs/2605.31483",
+  2026
+ ],
+ [
+  "Fighting Numerical Hallucinations via Data-centric Compilation for Online Financial QA",
+  "Hao Chen, Xing Tang, Qirui Liu, Weijie Shi, Shiwei Li, Fuyuan Lyu, Weihong Luo, Xiku Du, Xiuqiang He",
+  "https://arxiv.org/abs/2605.31064",
+  2026
+ ],
+ [
+  "Beyond Functional Correctness: Exploring Hallucinations in LLM-Generated Code",
+  "Fang Liu, Yang Liu, Lin Shi, Zhen Yang, Li Zhang, Xiaoli Lian, Zhongqi Li, Yuchi Ma",
+  "https://arxiv.org/abs/2404.00971",
+  2026
+ ],
+ [
+  "Don't Let It Hallucinate: Premise Verification via Retrieval-Augmented Logical Reasoning",
+  "Yuehan Qin, Shawn Li, Yi Nian, Xinyan Velocity Yu, Yue Zhao, Xuezhe Ma",
+  "https://arxiv.org/abs/2504.06438",
+  2026
+ ],
+ [
+  "SUMMIR: A Hallucination-Aware Framework for Ranking Sports Insights from LLMs",
+  "Nitish Kumar, Sannu Kumar, S Akash, Manish Gupta, Ankith Karat, Sriparna Saha",
+  "https://arxiv.org/abs/2604.04947",
+  2026
+ ],
+ [
+  "Disentangling Prompt Element Level Risk Factors for Hallucinations and Omissions in Mental Health LLM Responses",
+  "Congning Ni, Sarvech Qadir, Bryan Steitz, Mihir Sachin Vaidya, Qingyuan Song, Lantian Xia, Shelagh Mulvaney, Siru Liu, Hyeyoung Ryu, Leah Hecht, Amy Bucher, Christopher Symons, Laurie Novak, Susannah L. Rose, Murat Kantarcioglu, Bradley Malin, Zhijun Yin",
+  "https://arxiv.org/abs/2604.00014",
+  2026
+ ],
+ [
+  "Hallucination as output-boundary misclassification: a composite abstention architecture for language models",
+  "Angelina Hintsanen",
+  "https://arxiv.org/abs/2604.06195",
+  2026
+ ],
+ [
+  "Blending Human and LLM Expertise to Detect Hallucinations and Omissions in Mental Health Chatbot Responses",
+  "Khizar Hussain, Bradley A. Malin, Zhijun Yin, Susannah Leigh Rose, Murat Kantarcioglu",
+  "https://arxiv.org/abs/2604.06216",
+  2026
+ ],
+ [
+  "Detection Without Correction: A Robust Asymmetry in Activation-Based Hallucination Probing",
+  "Dip Roy, Rajiv Misra, Sanjay Kumar Singh, Anisha Roy",
+  "https://arxiv.org/abs/2604.13068",
+  2026
+ ],
+ [
+  "Do Hallucination Neurons Generalize? Evidence from Cross-Domain Transfer in LLMs",
+  "Snehit Vaddi, Pujith Vaddi",
+  "https://arxiv.org/abs/2604.19765",
+  2026
+ ],
+ [
+  "From Dispersion to Attraction: Spectral Dynamics of Hallucination Across Whisper Model Scales",
+  "Ivan Viakhirev, Kirill Borodin, Grach Mkrtchian",
+  "https://arxiv.org/abs/2604.08591",
+  2026
+ ],
+ [
+  "How unique are hallucinated citations offered by generative Artificial Intelligence models?",
+  "Dirk HR Spennemann",
+  "https://arxiv.org/abs/2604.16407",
+  2026
+ ],
+ [
+  "An Industrial-Scale Insurance LLM Achieving Verifiable Domain Mastery and Hallucination Control without Competence Trade-offs",
+  "Qian Zhu, Xinnan Guo, Jingjing Huo, Jun Li, Pan Liu, Wenyan Yang, Wanqing Xu, Xuan Lin",
+  "https://arxiv.org/abs/2603.14463",
+  2026
+ ],
+ [
+  "HARP: Hallucination Detection via Reasoning Subspace Projection",
+  "Junjie Hu, Gang Tu, ShengYu Cheng, Jinxin Li, Jinting Wang, Rui Chen, Zhilong Zhou, Dongbo Shan",
+  "https://arxiv.org/abs/2509.11536",
+  2026
+ ],
+ [
+  "Semantic Uncertainty Quantification of Hallucinations in LLMs: A Quantum Tensor Network Based Method",
+  "Pragatheeswaran Vipulanandan, Kamal Premaratne, Dilip Sarkar",
+  "https://arxiv.org/abs/2601.20026",
+  2026
+ ],
+ [
+  "Paper Reconstruction Evaluation: Evaluating Presentation and Hallucination in AI-written Papers",
+  "Atsuyuki Miyai, Mashiro Toyooka, Zaiying Zhao, Kenta Watanabe, Toshihiko Yamasaki, Kiyoharu Aizawa",
+  "https://arxiv.org/abs/2604.01128",
+  2026
+ ],
+ [
+  "Reducing Hallucinations in LLM-based Scientific Literature Analysis Using Peer Context Outlier Detection",
+  "Daniel Xie, Maxwell J. Jacobson, Adil Wazeer, Haiyan Wang, Xinghang Zhang, Yexiang Xue",
+  "https://arxiv.org/abs/2604.01461",
+  2026
+ ],
+ [
+  "Anchored Confabulation: Partial Evidence Non-Monotonically Amplifies Confident Hallucination in LLMs",
+  "Ashish Balkishan Lathkar",
+  "https://arxiv.org/abs/2604.25931",
+  2026
+ ],
+ [
+  "Overconfidence and Calibration in Medical VQA: Empirical Findings and Hallucination-Aware Mitigation",
+  "Ji Young Byun, Young-Jin Park, Jean-Philippe Corbeil, Asma Ben Abacha",
+  "https://arxiv.org/abs/2604.02543",
+  2026
+ ],
+ [
+  "BibTeX Citation Hallucinations in Scientific Publishing Agents: Evaluation and Mitigation",
+  "Delip Rao, Chris Callison-Burch",
+  "https://arxiv.org/abs/2604.03159",
+  2026
+ ],
+ [
+  "Council Mode: A Heterogeneous Multi-Agent Consensus Framework for Reducing LLM Hallucination and Bias",
+  "Shuai Wu, Xue Li, Yanna Feng, Yufang Li, Zhijun Wang, Ran Wang",
+  "https://arxiv.org/abs/2604.02923",
+  2026
+ ],
+ [
+  "Detecting and Correcting Reference Hallucinations in Commercial LLMs and Deep Research Agents",
+  "Delip Rao, Eric Wong, Chris Callison-Burch",
+  "https://arxiv.org/abs/2604.03173",
+  2026
+ ],
+ [
+  "EnsemHalDet: Robust VLM Hallucination Detection via Ensemble of Internal State Detectors",
+  "Ryuhei Miyazato, Shunsuke Kitada, Kei Harada",
+  "https://arxiv.org/abs/2604.02784",
+  2026
+ ],
+ [
+  "KARL: Mitigating Hallucinations in LLMs via Knowledge-Boundary-Aware Reinforcement Learning",
+  "Cheng Gao, Cheng Huang, Kangyang Luo, Ziqing Qiao, Shuzheng Si, Huimin Chen, Chaojun Xiao, Maosong Sun",
+  "https://arxiv.org/abs/2604.22779",
+  2026
+ ],
+ [
+  "When Do Hallucinations Arise? A Graph Perspective on the Evolution of Path Reuse and Path Compression",
+  "Xinnan Dai, Kai Yang, Cheng Luo, Shenglai Zeng, Kai Guo, Jiliang Tang",
+  "https://arxiv.org/abs/2604.03557",
+  2026
+ ],
+ [
+  "I-CALM: Incentivizing Confidence-Aware Abstention for LLM Hallucination Mitigation",
+  "Haotian Zong, Binze Li, Yufei Long, Sinyin Chang, Jialong Wu, Gillian K. Hadfield",
+  "https://arxiv.org/abs/2604.03904",
+  2026
+ ],
+ [
+  "Unmasking Hallucinations: A Causal Graph-Attention Perspective on Factual Reliability in Large Language Models",
+  "Sailesh kiran kurra, Shiek Ruksana, Vishal Borusu",
+  "https://arxiv.org/abs/2604.04020",
+  2026
+ ],
+ [
+  "Hallucination Basins: A Dynamic Framework for Understanding and Controlling LLM Hallucinations",
+  "Kalyan Cherukuri, Lav R. Varshney",
+  "https://arxiv.org/abs/2604.04743",
+  2026
+ ],
+ [
+  "HalluSAE: Detecting Hallucinations in Large Language Models via Sparse Auto-Encoders",
+  "Boshui Chen, Zhaoxin Fan, Ke Wang, Zhiying Leng, Faguo Wu, Hongwei Zheng, Yifan Sun, Wenjun Wu",
+  "https://arxiv.org/abs/2604.16430",
+  2026
+ ],
+ [
+  "CareGuardAI: Context-Aware Multi-Agent Guardrails for Clinical Safety & Hallucination Mitigation in Patient-Facing LLMs",
+  "Elham Nasarian, Abhilash Neog, Kwok-Leung Tsui, Niyousha HosseiniChimeh",
+  "https://arxiv.org/abs/2604.26959",
+  2026
+ ],
+ [
+  "From Hallucination to Structure Snowballing: The Alignment Tax of Constrained Decoding in LLM Reflection",
+  "Hongxu Zhou",
+  "https://arxiv.org/abs/2604.06066",
+  2026
+ ],
+ [
+  "From Retinal Evidence to Safe Decisions: RETINA-SAFE and ECRT for Hallucination Risk Triage in Medical LLMs",
+  "Zhe Yu, Wenpeng Xing, Meng Han",
+  "https://arxiv.org/abs/2604.05348",
+  2026
+ ],
+ [
+  "Hackers or Hallucinators? A Comprehensive Analysis of LLM-Based Automated Penetration Testing",
+  "Jiaren Peng, Zeqin Li, Chang You, Yan Wang, Hanlin Sun, Xuan Tian, Shuqiao Zhang, Junyi Liu, Jianguo Zhao, Renyang Liu, Haoran Ou, Yuqiang Sun, Jiancheng Zhang, Yutong Jiao, Kunshu Song, Chao Zhang, Fan Shi, Hongda Sun, Rui Yan, Cheng Huang",
+  "https://arxiv.org/abs/2604.05719",
+  2026
+ ],
+ [
+  "Weakly Supervised Distillation of Hallucination Signals into Transformer Representations",
+  "Shoaib Sadiq Salehmohamed, Jinal Prashant Thakkar, Hansika Aredla, Shaik Mohammed Omar, Shalmali Ayachit",
+  "https://arxiv.org/abs/2604.06277",
+  2026
+ ],
+ [
+  "GIRL: Generative Imagination Reinforcement Learning via Information-Theoretic Hallucination Control",
+  "Prakul Sunil Hiremath",
+  "https://arxiv.org/abs/2604.07426",
+  2026
+ ],
+ [
+  "An Empirical Analysis of Static Analysis Methods for Detection and Mitigation of Code Library Hallucinations",
+  "Clarissa Miranda-Pena, Andrew Reeson, Cécile Paris, Josiah Poon, Jonathan K. Kummerfeld",
+  "https://arxiv.org/abs/2604.07755",
+  2026
+ ],
+ [
+  "Facet-Level Tracing of Evidence Uncertainty and Hallucination in RAG",
+  "Passant Elchafei, Monorama Swain, Shahed Masoudian, Markus Schedl",
+  "https://arxiv.org/abs/2604.09174",
+  2026
+ ],
+ [
+  "Noise-Aware In-Context Learning for Hallucination Mitigation in ALLMs",
+  "Qixuan Huang, Khalid Zaman, Masashi Unoki",
+  "https://arxiv.org/abs/2604.09021",
+  2026
+ ],
+ [
+  "Cognitive Pivot Points and Visual Anchoring: Unveiling and Rectifying Hallucinations in Multimodal Reasoning Models",
+  "Zhe Qian, Yanbiao Ma, Zhuohan Ouyang, Zhonghua Wang, Zhongxing Xu, Fei Luo, Xinyu Liu, Zongyuan Ge, Yike Guo, Jungong Han",
+  "https://arxiv.org/abs/2604.10219",
+  2026
+ ],
+ [
+  "Attention Sinks as Internal Signals for Hallucination Detection in Large Language Models",
+  "Jakub Binkowski, Kamil Adamczewski, Tomasz Kajdanowicz",
+  "https://arxiv.org/abs/2604.10697",
+  2026
+ ],
+ [
+  "Synthius-Mem: Brain-Inspired Hallucination-Resistant Persona Memory Achieving 94.4% Memory Accuracy and 99.6% Adversarial Robustness on LoCoMo",
+  "Artem Gadzhiev, Andrew Kislov",
+  "https://arxiv.org/abs/2604.11563",
+  2026
+ ],
+ [
+  "Relaxing Anchor-Frame Dominance for Mitigating Hallucinations in Video Large Language Models",
+  "Zijian Liu, Sihan Cao, Pengcheng Zheng, Kuien Liu, Caiyan Qin, Xiaolin Qin, Jiwei Wei, Chaoning Zhang",
+  "https://arxiv.org/abs/2604.12582",
+  2026
+ ],
+ [
+  "Beyond Literal Summarization: Redefining Hallucination for Medical SOAP Note Evaluation",
+  "Bhavik Vachhani, Kush Shrisvastava, Pranshu Nema, Sai Chiranthan",
+  "https://arxiv.org/abs/2604.14829",
+  2026
+ ],
+ [
+  "Hallucination as Trajectory Commitment: Causal Evidence for Asymmetric Attractor Dynamics in Transformer Generation",
+  "G. Aytug Akarlar",
+  "https://arxiv.org/abs/2604.15400",
+  2026
+ ],
+ [
+  "Why Fine-Tuning Encourages Hallucinations and How to Fix It",
+  "Guy Kaplan, Zorik Gekhman, Zhen Zhu, Lotem Rozner, Yuval Reif, Swabha Swayamdipta, Derek Hoiem, Roy Schwartz",
+  "https://arxiv.org/abs/2604.15574",
+  2026
+ ],
+ [
+  "RAGognizer: Hallucination-Aware Fine-Tuning via Detection Head Integration",
+  "Fabian Ridder, Laurin Lessel, Malte Schilling",
+  "https://arxiv.org/abs/2604.15945",
+  2026
+ ],
+ [
+  "Where Fake Citations Are Made: Tracing Field-Level Hallucination to Specific Neurons in LLMs",
+  "Yuefei Chen, Yihao Quan, Xiaodong Lin, Ruixiang Tang",
+  "https://arxiv.org/abs/2604.18880",
+  2026
+ ],
+ [
+  "Mind the Unseen Mass: Unmasking LLM Hallucinations via Soft-Hybrid Alphabet Estimation",
+  "Hongxing Pan, Yingying Guo, Wenqing Kuang, Jiashi Lu",
+  "https://arxiv.org/abs/2604.19162",
+  2026
+ ],
+ [
+  "AI models of unstable flow exhibit hallucination",
+  "Ramdhan Wibawa, Birendra Jha",
+  "https://arxiv.org/abs/2604.20372",
+  2026
+ ],
+ [
+  "GSAR: Typed Grounding for Hallucination Detection and Recovery in Multi-Agent LLMs",
+  "Federico A. Kamelhar",
+  "https://arxiv.org/abs/2604.23366",
+  2026
+ ],
+ [
+  "FinGround: Detecting and Grounding Financial Hallucinations via Atomic Claim Verification",
+  "Dongxin Guo, Jikun Wu, Siu Ming Yiu",
+  "https://arxiv.org/abs/2604.23588",
+  2026
+ ],
+ [
+  "HIVE: Hidden-Evidence Verification for Hallucination Detection in Diffusion Large Language Models",
+  "Guoshenghui Zhao, Tan Yu, Weijie Zhao",
+  "https://arxiv.org/abs/2604.26139",
+  2026
+ ],
+ [
+  "Semantic Layers for Reliable LLM-Powered Data Analytics: A Paired Benchmark of Accuracy and Hallucination Across Three Frontier Models",
+  "Michael Rumiantsau, Ivan Fokeev",
+  "https://arxiv.org/abs/2604.25149",
+  2026
+ ],
+ [
+  "HalluCiteChecker: A Lightweight Toolkit for Hallucinated Citation Detection and Verification in the Era of AI Scientists",
+  "Yusuke Sakai, Hidetaka Kamigaito, Taro Watanabe",
+  "https://arxiv.org/abs/2604.26835",
+  2026
+ ],
+ [
+  "CDH-Bench: A Commonsense-Driven Hallucination Benchmark for Evaluating Visual Fidelity in Vision-Language Models",
+  "Kesheng Chen, Yamin Hu, Qi Zhou, Zhenqian Zhu, Wenjian Luo",
+  "https://arxiv.org/abs/2603.27982",
+  2026
+ ],
+ [
+  "SINdex: Semantic INconsistency Index for Hallucination Detection in LLMs",
+  "Samir Abdaljalil, Hasan Kurban, Parichit Sharma, Erchin Serpedin, Rachad Atat",
+  "https://arxiv.org/abs/2503.05980",
+  2026
+ ],
+ [
+  "Quantifying Hallucinations in Language Language Models on Medical Textbooks",
+  "Brandon C. Colelough, Davis Bartels, Dina Demner-Fushman",
+  "https://arxiv.org/abs/2603.09986",
+  2026
+ ],
+ [
+  "The System Hallucination Scale (SHS): A Minimal yet Effective Human-Centered Instrument for Evaluating Hallucination-Related Behavior in Large Language Models",
+  "Heimo Müller, Dominik Steiger, Markus Plass, Andreas Holzinger",
+  "https://arxiv.org/abs/2603.09989",
+  2026
+ ],
+ [
+  "ManiBench: A Benchmark for Testing Visual-Logic Drift and Syntactic Hallucinations in Manim Code Generation",
+  "Nabin Oli",
+  "https://arxiv.org/abs/2603.13251",
+  2026
+ ],
+ [
+  "From Prerequisites to Predictions: Validating a Geometric Hallucination Taxonomy Through Controlled Induction",
+  "Matic Korun",
+  "https://arxiv.org/abs/2603.00307",
+  2026
+ ],
+ [
+  "Being Kind Isn't Always Being Safe: Diagnosing Affective Hallucination in LLMs",
+  "Sewon Kim, Jiwon Kim, Seungwoo Shin, Hyejin Chung, Daeun Moon, Yejin Kwon, Hyunsoo Yoon",
+  "https://arxiv.org/abs/2508.16921",
+  2026
+ ],
+ [
+  "Dehallu3D: Hallucination-Mitigated 3D Generation from Single Image via Cyclic View Consistency Refinement",
+  "Xiwen Wang, Shichao Zhang, Hailun Zhang, Ruowei Wang, Mao Li, Chenyu Zhou, Qijun Zhao, Ji-Zhe Zhou",
+  "https://arxiv.org/abs/2603.01601",
+  2026
+ ],
+ [
+  "Neuro-Symbolic Financial Reasoning via Deterministic Fact Ledgers and Adversarial Low-Latency Hallucination Detector",
+  "Pedram Agand",
+  "https://arxiv.org/abs/2603.04663",
+  2026
+ ],
+ [
+  "HART: Data-Driven Hallucination Attribution and Evidence-Based Tracing for Large Language Models",
+  "Shize Liang, Hongzhi Wang",
+  "https://arxiv.org/abs/2603.05828",
+  2026
+ ],
+ [
+  "Do Deployment Constraints Make LLMs Hallucinate Citations? An Empirical Study across Four Models and Five Prompting Regimes",
+  "Chen Zhao, Yuan Tang, Yitian Qian",
+  "https://arxiv.org/abs/2603.07287",
+  2026
+ ],
+ [
+  "A Novel Multi-Agent Architecture to Reduce Hallucinations of Large Language Models in Multi-Step Structural Modeling",
+  "Ziheng Geng, Jiachen Liu, Ran Cao, Lu Cheng, Dan M. Frangopol, Minghui Cheng",
+  "https://arxiv.org/abs/2603.07728",
+  2026
+ ],
+ [
+  "Toward Epistemic Stability: Engineering Consistent Procedures for Industrial LLM Hallucination Reduction",
+  "Brian Freeman, Adam Kicklighter, Matt Erdman, Zach Gordon",
+  "https://arxiv.org/abs/2603.10047",
+  2026
+ ],
+ [
+  "Whitening Reveals Cluster Commitment as the Geometric Separator of Hallucination Types",
+  "Matic Korun",
+  "https://arxiv.org/abs/2603.07755",
+  2026
+ ],
+ [
+  "How Much Do LLMs Hallucinate in Document Q&A Scenarios? A 172-Billion-Token Study Across Temperatures, Context Lengths, and Hardware Platforms",
+  "JV Roig",
+  "https://arxiv.org/abs/2603.08274",
+  2026
+ ],
+ [
+  "Tool Receipts, Not Zero-Knowledge Proofs: Practical Hallucination Detection for AI Agents",
+  "Abhinaba Basu",
+  "https://arxiv.org/abs/2603.10060",
+  2026
+ ],
+ [
+  "Adaptive Activation Cancellation for Hallucination Mitigation in Large Language Models",
+  "Eric Yocam, Varghese Vaidyan, Gurcan Comert, Paris Kalathas, Yong Wang, Judith L. Mwakalonge",
+  "https://arxiv.org/abs/2603.10195",
+  2026
+ ],
+ [
+  "FinReflectKG -- HalluBench: GraphRAG Hallucination Benchmark for Financial Question Answering Systems",
+  "Mahesh Kumar, Bhaskarjit Sarmah, Stefano Pasquali",
+  "https://arxiv.org/abs/2603.20252",
+  2026
+ ],
+ [
+  "The Phenomenology of Hallucinations",
+  "Valeria Ruscio, Keiran Thompson",
+  "https://arxiv.org/abs/2603.13911",
+  2026
+ ],
+ [
+  "Anatomy of a Lie: A Multi-Stage Diagnostic Framework for Tracing Hallucinations in Vision-Language Models",
+  "Lexiang Xiong, Qi Li, Jingwen Ye, Xinchao Wang",
+  "https://arxiv.org/abs/2603.15557",
+  2026
+ ],
+ [
+  "Do Not Leave a Gap: Hallucination-Free Object Concealment in Vision-Language Models",
+  "Amira Guesmi, Muhammad Shafique",
+  "https://arxiv.org/abs/2603.15940",
+  2026
+ ],
+ [
+  "DynHD: Hallucination Detection for Diffusion Large Language Models via Denoising Dynamics Deviation Learning",
+  "Yanyu Qian, Yue Tan, Yixin Liu, Wang Yu, Shirui Pan",
+  "https://arxiv.org/abs/2603.16459",
+  2026
+ ],
+ [
+  "POaaS: Minimal-Edit Prompt Optimization as a Service to Lift Accuracy and Cut Hallucinations on On-Device sLLMs",
+  "Jungwoo Shim, Dae Won Kim, Sun Wook Kim, Soo Young Kim, Myungcheol Lee, Jae-geun Cha, Hyunhwa Choi",
+  "https://arxiv.org/abs/2603.16045",
+  2026
+ ],
+ [
+  "Sample Transform Cost-Based Training-Free Hallucination Detector for Large Language Models",
+  "Zeyang Ding, Xinglin Hu, Jicong Fan",
+  "https://arxiv.org/abs/2603.22303",
+  2026
+ ],
+ [
+  "Inducing Epistemological Humility in Large Language Models: A Targeted SFT Approach to Reducing Hallucination",
+  "Cem Uluoglakci, Tugba Taskaya Temizel",
+  "https://arxiv.org/abs/2603.17504",
+  2026
+ ],
+ [
+  "Mitigating LLM Hallucinations through Domain-Grounded Tiered Retrieval",
+  "Md. Asraful Haque, Aasar Mehdi, Maaz Mahboob, Tamkeen Fatima",
+  "https://arxiv.org/abs/2603.17872",
+  2026
+ ],
+ [
+  "Progressive Training for Explainable Citation-Grounded Dialogue: Reducing Hallucination to Zero in English-Hindi LLMs",
+  "Vedant Pandya",
+  "https://arxiv.org/abs/2603.18911",
+  2026
+ ],
+ [
+  "VGS-Decoding: Visual Grounding Score Guided Decoding for Hallucination Mitigation in Medical VLMs",
+  "Govinda Kolli, Adinath Madhavrao Dukre, Behzad Bozorgtabar, Dwarikanath Mahapatra, Imran Razzak",
+  "https://arxiv.org/abs/2603.20314",
+  2026
+ ],
+ [
+  "Large Language Models for Missing Data Imputation: Understanding Behavior, Hallucination Effects, and Control Mechanisms",
+  "Arthur Dantas Mangussi, Ricardo Cardoso Pereira, Ana Carolina Lorena, Pedro Henriques Abreu",
+  "https://arxiv.org/abs/2603.22332",
+  2026
+ ],
+ [
+  "MARCH: Multi-Agent Reinforced Self-Check for LLM Hallucination",
+  "Zhuo Li, Yupeng Zhang, Pengyu Cheng, Jiajun Song, Mengyu Zhou, Hao Li, Shujie Hu, Yu Qin, Erchao Zhao, Xiaoxi Jiang, Guanjun Jiang",
+  "https://arxiv.org/abs/2603.24579",
+  2026
+ ],
+ [
+  "Squish and Release: Exposing Hidden Hallucinations by Making Them Surface as Safety Signals",
+  "Nathaniel Oh, Paul Attie",
+  "https://arxiv.org/abs/2603.26829",
+  2026
+ ],
+ [
+  "Retromorphic Testing with Hierarchical Verification for Hallucination Detection in RAG",
+  "Boxi Yu, Yuzhong Zhang, Liting Lin, Lionel Briand, Emir Muñoz",
+  "https://arxiv.org/abs/2603.27752",
+  2026
+ ],
+ [
+  "Hallucination or Creativity: How to Evaluate AI-Generated Scientific Stories?",
+  "Alex Argese, Pasquale Lisena, Raphaël Troncy",
+  "https://arxiv.org/abs/2602.02290",
+  2026
+ ],
+ [
+  "SelfCheck-Eval: A Multi-Module Framework for Zero-Resource Hallucination Detection in Large Language Models",
+  "Diyana Muhammed, Giusy Giulia Tuccari, Gollam Rabby, Sören Auer, Sahar Vahdati",
+  "https://arxiv.org/abs/2502.01812",
+  2026
+ ],
+ [
+  "Verify when Uncertain: Beyond Self-Consistency in Black Box Hallucination Detection",
+  "Yihao Xue, Kristjan Greenewald, Youssef Mroueh, Baharan Mirzasoleiman",
+  "https://arxiv.org/abs/2502.15845",
+  2026
+ ],
+ [
+  "AI Hallucination from Students' Perspective: A Thematic Analysis",
+  "Abdulhadi Shoufan, Ahmad-Azmi-Abdelhamid Esmaeil",
+  "https://arxiv.org/abs/2602.17671",
+  2026
+ ],
+ [
+  "Small Updates, Big Doubts: Does Parameter-Efficient Fine-tuning Enhance Hallucination Detection ?",
+  "Xu Hu, Yifan Zhang, Songtao Wei, Chen Zhao, Qiannan Li, Bingzhe Li, Feng Chen",
+  "https://arxiv.org/abs/2602.11166",
+  2026
+ ],
+ [
+  "Visualizing and Benchmarking LLM Factual Hallucination Tendencies via Internal State Analysis and Clustering",
+  "Nathan Mao, Varun Kaushik, Shreya Shivkumar, Parham Sharafoleslami, Kevin Zhu, Sunishchal Dev",
+  "https://arxiv.org/abs/2602.11167",
+  2026
+ ],
+ [
+  "A Geometric Taxonomy of Hallucinations in LLMs",
+  "Javier Marín",
+  "https://arxiv.org/abs/2602.13224",
+  2026
+ ],
+ [
+  "CheckIfExist: Detecting Citation Hallucinations in the Era of AI-Generated Content",
+  "Diletta Abbonato",
+  "https://arxiv.org/abs/2602.15871",
+  2026
+ ],
+ [
+  "Hallucination is a Consequence of Space-Optimality: A Rate-Distortion Theorem for Membership Testing",
+  "Anxin Guo, Jingwei Li",
+  "https://arxiv.org/abs/2602.00906",
+  2026
+ ],
+ [
+  "Hallucinate Less by Thinking More: Aspect-Based Causal Abstention for Large Language Models",
+  "Vy Nguyen, Ziqi Xu, Jeffrey Chan, Estrid He, Feng Xia, Xiuzhen Zhang",
+  "https://arxiv.org/abs/2511.17170",
+  2026
+ ],
+ [
+  "HalluHard: A Hard Multi-Turn Hallucination Benchmark",
+  "Dongyang Fan, Sebastien Delsad, Nicolas Flammarion, Maksym Andriushchenko",
+  "https://arxiv.org/abs/2602.01031",
+  2026
+ ],
+ [
+  "ClueTracer: Question-to-Vision Clue Tracing for Training-Free Hallucination Suppression in Multimodal Reasoning",
+  "Gongli Xi, Kun Wang, Zeming Gao, Huahui Yi, Haolang Lu, Ye Tian, Wendong Wang",
+  "https://arxiv.org/abs/2602.02004",
+  2026
+ ],
+ [
+  "HALT: Hallucination Assessment via Log-probs as Time series",
+  "Ahmad Shapiro, Karan Taneja, Ashok Goel",
+  "https://arxiv.org/abs/2602.02888",
+  2026
+ ],
+ [
+  "ConsistentRFT: Reducing Visual Hallucinations in Flow-based Reinforcement Fine-Tuning",
+  "Xiaofeng Tan, Jun Liu, Yuanting Fan, Bin-Bin Gao, Xi Jiang, Xiaochen Chen, Jinlong Peng, Chengjie Wang, Hongsong Wang, Feng Zheng",
+  "https://arxiv.org/abs/2602.03425",
+  2026
+ ],
+ [
+  "Seeing Through the Chain: Mitigate Hallucination in Multimodal Reasoning Models via CoT Compression and Contrastive Preference Optimization",
+  "Hao Fang, Jinyu Li, Jiawei Kong, Tianqu Zhuang, Kuofeng Gao, Bin Chen, Shu-Tao Xia",
+  "https://arxiv.org/abs/2602.03380",
+  2026
+ ],
+ [
+  "Hallucination-Resistant Security Planning with a Large Language Model",
+  "Kim Hammar, Tansu Alpcan, Emil Lupu",
+  "https://arxiv.org/abs/2602.05279",
+  2026
+ ],
+ [
+  "Stop Rewarding Hallucinated Steps: Faithfulness-Aware Step-Level Reinforcement Learning for Small Reasoning Models",
+  "Shuo Nie, Hexuan Deng, Chao Wang, Ruiyu Fang, Xuebo Liu, Shuangyong Song, Yu Li, Min Zhang, Xuelong Li",
+  "https://arxiv.org/abs/2602.05897",
+  2026
+ ],
+ [
+  "Action Hallucination in Generative Vision-Language-Action Models",
+  "Harold Soh, Eugene Lim",
+  "https://arxiv.org/abs/2602.06339",
+  2026
+ ],
+ [
+  "From Out-of-Distribution Detection to Hallucination Detection: A Geometric View",
+  "Litian Liu, Reza Pourreza, Yubing Jian, Yao Qin, Roland Memisevic",
+  "https://arxiv.org/abs/2602.07253",
+  2026
+ ],
+ [
+  "Halluverse-M^3: A multitask multilingual benchmark for hallucination in LLMs",
+  "Samir Abdaljalil, Parichit Sharma, Erchin Serpedin, Hasan Kurban",
+  "https://arxiv.org/abs/2602.06920",
+  2026
+ ],
+ [
+  "Halt the Hallucination: Decoupling Signal and Semantic OOD Detection Based on Cascaded Early Rejection",
+  "Ningkang Peng, Chuanjie Cheng, Jingyang Mao, Xiaoqian Peng, Feng Xing, Bo Zhang, Chao Tan, Zhichao Zheng, Peiheng Li, Yanhui Gu",
+  "https://arxiv.org/abs/2602.06330",
+  2026
+ ],
+ [
+  "Tethered Reasoning: Decoupling Entropy from Hallucination in Quantized LLMs via Manifold Steering",
+  "Craig Atkinson",
+  "https://arxiv.org/abs/2602.17691",
+  2026
+ ],
+ [
+  "Beyond Accuracy: Risk-Sensitive Evaluation of Hallucinated Medical Advice",
+  "Savan Doshi",
+  "https://arxiv.org/abs/2602.07319",
+  2026
+ ],
+ [
+  "Spectral Guardrails for Agents in the Wild: Detecting Tool Use Hallucinations via Attention Topology",
+  "Valentin Noël",
+  "https://arxiv.org/abs/2602.08082",
+  2026
+ ],
+ [
+  "TDGNet: Hallucination Detection in Diffusion Language Models via Temporal Dynamic Graphs",
+  "Arshia Hemmat, Philip Torr, Yongqiang Chen, Junchi Yu",
+  "https://arxiv.org/abs/2602.08048",
+  2026
+ ],
+ [
+  "What do Geometric Hallucination Detection Metrics Actually Measure?",
+  "Eric Yeats, John Buckheit, Sarah Scullen, Brendan Kennedy, Loc Truong, Davis Brown, Bill Kay, Cliff Joslyn, Tegan Emerson, Michael J. Henry, John Emanuello, Henry Kvinge",
+  "https://arxiv.org/abs/2602.09158",
+  2026
+ ],
+ [
+  "Listen to the Layers: Mitigating Hallucinations with Inter-Layer Disagreement",
+  "Koduvayur Subbalakshmi, Sabbir Hossain Ujjal, Venkata Krishna Teja Mangichetty, Nastaran Jamalipour Soofi",
+  "https://arxiv.org/abs/2602.09486",
+  2026
+ ],
+ [
+  "The Energy of Falsehood: Detecting Hallucinations via Diffusion Model Likelihoods",
+  "Arpit Singh Gautam, Kailash Talreja, Saurabh Jha",
+  "https://arxiv.org/abs/2602.11364",
+  2026
+ ],
+ [
+  "Detecting LLM Hallucinations via Embedding Cluster Geometry: A Three-Type Taxonomy with Measurable Signatures",
+  "Matic Korun",
+  "https://arxiv.org/abs/2602.14259",
+  2026
+ ],
+ [
+  "A Geometric Analysis of Small-sized Language Model Hallucinations",
+  "Emanuele Ricco, Elia Onofri, Lorenzo Cima, Stefano Cresci, Roberto Di Pietro",
+  "https://arxiv.org/abs/2602.14778",
+  2026
+ ],
+ [
+  "Disentangling Deception and Hallucination Failures in LLMs",
+  "Haolang Lu, Hongrui Peng, WeiYe Fu, Guoshun Nan, Xinye Cao, Xingrui Li, Hongcan Guo, Kun Wang",
+  "https://arxiv.org/abs/2602.14529",
+  2026
+ ],
+ [
+  "Fine-Refine: Iterative Fine-grained Refinement for Mitigating Dialogue Hallucination",
+  "Xiangyan Chen, Yujian Gan, Matthew Purver",
+  "https://arxiv.org/abs/2602.15509",
+  2026
+ ],
+ [
+  "Triggering hallucinations in model-based MRI reconstruction via adversarial perturbations",
+  "Suna Buğday, Yvan Saeys, Jonathan Peck",
+  "https://arxiv.org/abs/2602.18536",
+  2026
+ ],
+ [
+  "No One Size Fits All: QueryBandits for Hallucination Mitigation",
+  "Nicole Cho, William Watson, Alec Koppel, Sumitra Ganesh, Manuela Veloso",
+  "https://arxiv.org/abs/2602.20332",
+  2026
+ ],
+ [
+  "Epistemic Filtering and Collective Hallucination: A Jury Theorem for Confidence-Calibrated Agents",
+  "Jonas Karge",
+  "https://arxiv.org/abs/2602.22413",
+  2026
+ ],
+ [
+  "Suppressing Prior-Comparison Hallucinations in Radiology Report Generation via Semantically Decoupled Latent Steering",
+  "Ao Li, Rui Liu, Mingjie Li, Sheng Liu, Lei Wang, Xiaodan Liang, Lina Yao, Xiaojun Chang, Lei Xing",
+  "https://arxiv.org/abs/2602.23676",
+  2026
+ ],
+ [
+  "Attribution Techniques for Mitigating Hallucinated Information in RAG Systems: A Survey",
+  "Yuqing Zhao, Ziyao Liu, Yongsen Zheng, Kwok-Yan Lam",
+  "https://arxiv.org/abs/2601.19927",
+  2026
+ ],
+ [
+  "Detecting and Correcting Hallucinations in LLM-Generated Code via Deterministic AST Analysis",
+  "Dipin Khati, Daniel Rodriguez-Cardenas, Paul Pantzer, Denys Poshyvanyk",
+  "https://arxiv.org/abs/2601.19106",
+  2026
+ ],
+ [
+  "FACTUM: Mechanistic Detection of Citation Hallucination in Long-Form RAG",
+  "Maxime Dassen, Rebecca Kotula, Kenton Murray, Andrew Yates, Dawn Lawrie, Efsun Kayi, James Mayfield, Kevin Duh",
+  "https://arxiv.org/abs/2601.05866",
+  2026
+ ],
+ [
+  "HalluJudge: A Reference-Free Hallucination Detection for Context Misalignment in Code Review Automation",
+  "Kla Tantithamthavorn, Hong Yi Lin, Patanamon Thongtanunam, Wachiraphan Charoenwet, Minwoo Jeong, Ming Wu",
+  "https://arxiv.org/abs/2601.19072",
+  2026
+ ],
+ [
+  "FaithSCAN: Model-Driven Single-Pass Hallucination Detection for Faithful Visual Question Answering",
+  "Chaodong Tong, Qi Zhang, Chen Li, Lei Jiang, Yanbing Liu",
+  "https://arxiv.org/abs/2601.00269",
+  2026
+ ],
+ [
+  "Physio-DPO: Aligning Large Language Models with the Protein Energy Landscape to Eliminate Structural Hallucinations",
+  "QiWei Meng",
+  "https://arxiv.org/abs/2601.00647",
+  2026
+ ],
+ [
+  "Probabilistic Guarantees for Reducing Contextual Hallucinations in LLMs",
+  "Nils Rautenberg, Sven Schippkus",
+  "https://arxiv.org/abs/2601.00641",
+  2026
+ ],
+ [
+  "Distortion Instead of Hallucination: The Effect of Reasoning Under Strict Constraints",
+  "Junichiro Niimi",
+  "https://arxiv.org/abs/2601.01490",
+  2026
+ ],
+ [
+  "Empowering Small Language Models with Factual Hallucination-Aware Reasoning for Financial Classification",
+  "Han Yuan, Yilin Wu, Li Zhang, Zheng Ma",
+  "https://arxiv.org/abs/2601.01378",
+  2026
+ ],
+ [
+  "LANCET: Neural Intervention via Structural Entropy for Mitigating Faithfulness Hallucinations in LLMs",
+  "Chenxu Wang, Chaozhuo Li, Pengbo Wang, Litian Zhang, Songyang Liu, Ji Qi, Jiahui Hu, Yushan Cai, Hao Zhao, Rui Pu",
+  "https://arxiv.org/abs/2601.01401",
+  2026
+ ],
+ [
+  "Not All Needles Are Found: How Fact Distribution and Don't Make It Up Prompts Shape Retrieval, Reasoning, and Hallucination in Long-Context LLMs",
+  "Amirali Ebrahimzadeh, Seyyed M. Salili",
+  "https://arxiv.org/abs/2601.02023",
+  2026
+ ],
+ [
+  "Mitigating Prompt-Induced Hallucinations in Large Language Models via Structured Reasoning",
+  "Jinbo Hao, Kai Yang, Qingzhen Su, Yang Chen, Yifan Li, Chao Jiang",
+  "https://arxiv.org/abs/2601.02739",
+  2026
+ ],
+ [
+  "RAL2M: Retrieval Augmented Learning-To-Match Against Hallucination in Compliance-Guaranteed Service Systems",
+  "Mengze Hong, Di Jiang, Jiangtao Wen, Zhiyang Su, Yawen Li, Yanjie Sun, Guan Wang, Chen Jason Zhang",
+  "https://arxiv.org/abs/2601.02917",
+  2026
+ ],
+ [
+  "Temporal Graph Network: Hallucination Detection in Multi-Turn Conversation",
+  "Vidhi Rathore, Sambu Aneesh, Himanshu Singh",
+  "https://arxiv.org/abs/2601.03051",
+  2026
+ ],
+ [
+  "KDCM: Reducing Hallucination in LLMs through Explicit Reasoning Structures",
+  "Jinbo Hao, Kai Yang, Qingzhen Su, Yifan Li, Chao Jiang",
+  "https://arxiv.org/abs/2601.04086",
+  2026
+ ],
+ [
+  "Lowest Span Confidence: A Zero-Shot Metric for Efficient and Black-Box Hallucination Detection in LLMs",
+  "Yitong Qiao, Licheng Pan, Yu Mi, Lei Liu, Yue Shen, Fei Sun, Zhixuan Chu",
+  "https://arxiv.org/abs/2601.19918",
+  2026
+ ],
+ [
+  "CounterVid: Counterfactual Video Generation for Mitigating Action and Temporal Hallucinations in Video-Language Models",
+  "Tobia Poppi, Burak Uzkent, Amanmeet Garg, Lucas Porto, Garin Kessler, Yezhou Yang, Marcella Cornia, Lorenzo Baraldi, Rita Cucchiara, Florian Schiffers",
+  "https://arxiv.org/abs/2601.04778",
+  2026
+ ],
+ [
+  "DSC2025 -- ViHallu Challenge: Detecting Hallucination in Vietnamese LLMs",
+  "Anh Thi-Hoang Nguyen, Khanh Quoc Tran, Tin Van Huynh, Phuoc Tan-Hoang Nguyen, Cam Tan Nguyen, Kiet Van Nguyen",
+  "https://arxiv.org/abs/2601.04711",
+  2026
+ ],
+ [
+  "Geometry-Aware Hallucination Detection in Large Language Models",
+  "Bodla Krishna Vamshi, Rohan Bhatnagar, Haizhao Yang",
+  "https://arxiv.org/abs/2601.06196",
+  2026
+ ],
+ [
+  "Internal Representations as Indicators of Hallucinations in Agent Tool Selection",
+  "Kait Healy, Bharathi Srinivasan, Visakh Madathil, Jing Wu",
+  "https://arxiv.org/abs/2601.05214",
+  2026
+ ],
+ [
+  "Tone Matters: The Impact of Linguistic Tone on Hallucination in VLMs",
+  "Weihao Hong, Zhiyuan Jiang, Bingyu Shen, Xinlei Guan, Yangyi Feng, Meng Xu, Boyang Li",
+  "https://arxiv.org/abs/2601.06460",
+  2026
+ ],
+ [
+  "AgentHallu: Benchmarking Automated Hallucination Attribution of LLM-based Agents",
+  "Xuannan Liu, Xiao Yang, Zekun Li, Peipei Li, Ran He",
+  "https://arxiv.org/abs/2601.06818",
+  2026
+ ],
+ [
+  "Engineering of Hallucination in Generative AI: It's not a Bug, it's a Feature",
+  "Tim Fingscheidt, Patrick Blumenberg, Björn Möller",
+  "https://arxiv.org/abs/2601.07046",
+  2026
+ ],
+ [
+  "Hallucinations Live in Variance",
+  "Aaron R. Flouro, Shawn P. Chadwick",
+  "https://arxiv.org/abs/2601.07058",
+  2026
+ ],
+ [
+  "VideoHEDGE: Entropy-Based Hallucination Detection for Video-VLMs via Semantic Clustering and Spatiotemporal Perturbations",
+  "Sushant Gautam, Cise Midoglu, Vajira Thambawita, Michael A. Riegler, Pål Halvorsen",
+  "https://arxiv.org/abs/2601.08557",
+  2026
+ ],
+ [
+  "VERHallu: Evaluating and Mitigating Event Relation Hallucination in Video Large Language Models",
+  "Zefan Zhang, Kehua Zhu, Shijie Jiang, Hongyuan Lu, Shengkai Sun, Tian Bai",
+  "https://arxiv.org/abs/2601.10010",
+  2026
+ ],
+ [
+  "Relational Linearity is a Predictor of Hallucinations",
+  "Yuetian Lu, Yihong Liu, Sebastian Gerstner, Lea Hirlimann, Jonas Rohweder, Hinrich Schütze",
+  "https://arxiv.org/abs/2601.11429",
+  2026
+ ],
+ [
+  "CORVUS: Red-Teaming Hallucination Detectors via Internal Signal Camouflage in Large Language Models",
+  "Nay Myat Min, Long H. Pham, Hongyu Zhang, Jun Sun",
+  "https://arxiv.org/abs/2601.14310",
+  2026
+ ],
+ [
+  "Supervision-by-Hallucination-and-Transfer: A Weakly-Supervised Approach for Robust and Precise Facial Landmark Detection",
+  "Jun Wan, Yuanzhi Yao, Zhihui Lai, Jie Zhou, Xianxu Hou, Wenwen Min",
+  "https://arxiv.org/abs/2601.12919",
+  2026
+ ],
+ [
+  "Predictive Coding and Information Bottleneck for Hallucination Detection in Large Language Models",
+  "Manish Bhatt",
+  "https://arxiv.org/abs/2601.15652",
+  2026
+ ],
+ [
+  "Spectral Geometry for Deep Learning: Compression and Hallucination Detection via Random Matrix Theory",
+  "Davide Ettori",
+  "https://arxiv.org/abs/2601.17357",
+  2026
+ ],
+ [
+  "HalluGuard: Demystifying Data-Driven and Reasoning-Driven Hallucinations in LLMs",
+  "Xinyue Zeng, Junhong Lin, Yujun Yan, Feng Guo, Liang Shi, Jun Wu, Dawei Zhou",
+  "https://arxiv.org/abs/2601.18753",
+  2026
+ ],
+ [
+  "Can We Improve Educational Diagram Generation with In-Context Examples? Not if a Hallucination Spoils the Bunch",
+  "Evanfiya Logacheva, Arto Hellas, Tsvetomila Mihaylova, Juha Sorva, Ava Heinonen, Juho Leinonen",
+  "https://arxiv.org/abs/2601.20476",
+  2026
+ ],
+ [
+  "From Particles to Agents: Hallucination as a Metric for Cognitive Friction in Spatial Simulation",
+  "Javier Argota Sánchez-Vaquerizo, Luis Borunda Monsivais",
+  "https://arxiv.org/abs/2601.21977",
+  2026
+ ],
+ [
+  "Enhancing Video Representations with Spatiotemporal-Semantic Residual to Mitigate Hallucinations in Video Large Multimodal Models",
+  "Yuansheng Gao, Jinman Zhao, Tong Zhang, Xingguo Xu, Wenbin Xing, Han Bao, Zonghui Wang, Wenzhi Chen",
+  "https://arxiv.org/abs/2601.22574",
+  2026
+ ],
+ [
+  "One-shot Optimized Steering Vector for Hallucination Mitigation for VLMs",
+  "Youxu Shi, Suorong Yang, Dong Liu",
+  "https://arxiv.org/abs/2601.23041",
+  2026
+ ],
+ [
+  "Why Your Deep Research Agent Fails? On Hallucination Evaluation in Full Research Trajectory",
+  "Yuhao Zhan, Tianyu Fan, Linxuan Huang, Zirui Guo, Chao Huang",
+  "https://arxiv.org/abs/2601.22984",
+  2026
+ ],
+ [
+  "Calibrated Trust in Dealing with LLM Hallucinations: A Qualitative Study",
+  "Adrian Ryser, Florian Allwein, Tim Schlippe",
+  "https://arxiv.org/abs/2512.09088",
+  2025
+ ],
+ [
+  "Fine-Tuned Large Language Models for Logical Translation: Reducing Hallucinations with Lang2Logic",
+  "Muyu Pan, Dheeraj Kodakandla, Mahfuza Farooque",
+  "https://arxiv.org/abs/2512.02987",
+  2025
+ ],
+ [
+  "CONFIDE: Hallucination Assessment for Reliable Biomolecular Structure Prediction and Design",
+  "Zijun Gao, Mutian He, Shijia Sun, Hanqun Cao, Jingjie Zhang, Zihao Luo, Xiaorui Wang, Xiaojun Yao, Chang-Yu Hsieh, Chunbin Gu, Pheng Ann Heng",
+  "https://arxiv.org/abs/2512.02033",
+  2025
+ ],
+ [
+  "Mitigating hallucinations and omissions in LLMs for invertible problems: An application to hardware logic design automation",
+  "Andrew S. Cassidy, Guillaume Garreau, Jay Sivagnaname, Mike Grassi, Bernard Brezzo, John V. Arthur, Dharmendra S. Modha",
+  "https://arxiv.org/abs/2512.03053",
+  2025
+ ],
+ [
+  "Graphing the Truth: Structured Visualizations for Automated Hallucination Detection in LLMs",
+  "Tanmay Agrawal",
+  "https://arxiv.org/abs/2512.00663",
+  2025
+ ],
+ [
+  "Mitigating Hallucinations in Zero-Shot Scientific Summarisation: A Pilot Study",
+  "Imane Jaaouine, Ross D. King",
+  "https://arxiv.org/abs/2512.00931",
+  2025
+ ],
+ [
+  "Benford's Curse: Tracing Digit Bias to Numerical Hallucination in LLMs",
+  "Jiandong Shao, Yao Lu, Jianfei Yang",
+  "https://arxiv.org/abs/2506.01734",
+  2025
+ ],
+ [
+  "Reasoning Models Hallucinate More: Factuality-Aware Reinforcement Learning for Large Reasoning Models",
+  "Junyi Li, Hwee Tou Ng",
+  "https://arxiv.org/abs/2505.24630",
+  2025
+ ],
+ [
+  "BHRAM-IL: A Benchmark for Hallucination Recognition and Assessment in Multiple Indian Languages",
+  "Hrishikesh Terdalkar, Kirtan Bhojani, Aryan Dongare, Omm Aditya Behera",
+  "https://arxiv.org/abs/2512.01852",
+  2025
+ ],
+ [
+  "H-Neurons: On the Existence, Impact, and Origin of Hallucination-Associated Neurons in LLMs",
+  "Cheng Gao, Huimin Chen, Chaojun Xiao, Zhiyi Chen, Zhiyuan Liu, Maosong Sun",
+  "https://arxiv.org/abs/2512.01797",
+  2025
+ ],
+ [
+  "HalluGraph: Auditable Hallucination Detection for Legal RAG Systems via Knowledge Graph Alignment",
+  "Valentin Noël, Elimane Yassine Seidou, Charly Ken Capo-Chichi, Ghanem Amari",
+  "https://arxiv.org/abs/2512.01659",
+  2025
+ ],
+ [
+  "A Concise Review of Hallucinations in LLMs and their Mitigation",
+  "Parth Pulkundwar, Vivek Dhanawade, Rohit Yadav, Minal Sonkar, Medha Asurlekar, Sarita Rathod",
+  "https://arxiv.org/abs/2512.02527",
+  2025
+ ],
+ [
+  "Detecting AI Hallucinations in Finance: An Information-Theoretic Method Cuts Hallucination Rate by 92%",
+  "Mainak Singha",
+  "https://arxiv.org/abs/2512.03107",
+  2025
+ ],
+ [
+  "Towards Unification of Hallucination Detection and Fact Verification for Large Language Models",
+  "Weihang Su, Jianming Long, Changyue Wang, Shiyu Lin, Jingyan Xu, Ziyi Ye, Qingyao Ai, Yiqun Liu",
+  "https://arxiv.org/abs/2512.02772",
+  2025
+ ],
+ [
+  "Semantic Faithfulness and Entropy Production Measures to Tame Your LLM Demons and Manage Hallucinations",
+  "Igor Halperin",
+  "https://arxiv.org/abs/2512.05156",
+  2025
+ ],
+ [
+  "FVA-RAG: Falsification-Verification Alignment for Mitigating Sycophantic Hallucinations",
+  "Mayank Ravishankara",
+  "https://arxiv.org/abs/2512.07015",
+  2025
+ ],
+ [
+  "Toward More Reliable Artificial Intelligence: Reducing Hallucinations in Vision-Language Models",
+  "Kassoum Sanogo, Renzo Ardiccioni",
+  "https://arxiv.org/abs/2512.07564",
+  2025
+ ],
+ [
+  "When normalization hallucinates: unseen risks in AI-powered whole slide image processing",
+  "Karel Moens, Matthew B. Blaschko, Tinne Tuytelaars, Bart Diricx, Jonas De Vylder, Mustafa Yousif",
+  "https://arxiv.org/abs/2512.07426",
+  2025
+ ],
+ [
+  "Detecting Hallucinations in Graph Retrieval-Augmented Generation via Attention Patterns and Semantic Alignment",
+  "Shanghao Li, Jinda Han, Yibo Wang, Yuanjie Zhu, Zihe Song, Langzhou He, Kenan Kamel A Alghythee, Philip S. Yu",
+  "https://arxiv.org/abs/2512.09148",
+  2025
+ ],
+ [
+  "CHEM: Estimating and Understanding Hallucinations in Deep Learning for Image Processing",
+  "Jianfei Li, Ines Rosellon-Inclan, Gitta Kutyniok, Jean-Luc Starck",
+  "https://arxiv.org/abs/2512.09806",
+  2025
+ ],
+ [
+  "Bounding Hallucinations: Information-Theoretic Guarantees for RAG Systems via Merlin-Arthur Protocols",
+  "Björn Deiseroth, Max Henning Höth, Kristian Kersting, Letitia Parcalabescu",
+  "https://arxiv.org/abs/2512.11614",
+  2025
+ ],
+ [
+  "CIP: A Plug-and-Play Causal Prompting Framework for Mitigating Hallucinations under Long-Context Noise",
+  "Qingsen Ma, Dianyun Wang, Ran Jing, Yujun Sun, Zhenbo Xu",
+  "https://arxiv.org/abs/2512.11282",
+  2025
+ ],
+ [
+  "Does Less Hallucination Mean Less Creativity? An Empirical Investigation in LLMs",
+  "Mohor Banerjee, Nadya Yuki Wangsajaya, Syed Ali Redha Alsagoff, Min Sen Tan, Zachary Choy Kit Chun, Alvin Chan Guo Wei",
+  "https://arxiv.org/abs/2512.11509",
+  2025
+ ],
+ [
+  "Incentives or Ontology? A Structural Rebuttal to OpenAI's Hallucination Thesis",
+  "Richard Ackermann, Simeon Emanuilov",
+  "https://arxiv.org/abs/2512.14801",
+  2025
+ ],
+ [
+  "InpaintDPO: Mitigating Spatial Relationship Hallucinations in Foreground-conditioned Inpainting via Diverse Preference Optimization",
+  "Qirui Li, Yizhe Tang, Ran Yi, Guangben Lu, Fangyuan Zou, Peng Shu, Huan Yu, Jie Jiang",
+  "https://arxiv.org/abs/2512.15644",
+  2025
+ ],
+ [
+  "Model-First Reasoning LLM Agents: Reducing Hallucinations through Explicit Problem Modeling",
+  "Annu Rana, Gaurav Kumar",
+  "https://arxiv.org/abs/2512.14474",
+  2025
+ ],
+ [
+  "Photorealistic Phantom Roads in Real Scenes: Disentangling 3D Hallucinations from Physical Geometry",
+  "Hoang Nguyen, Xiaohao Xu, Xiaonan Huang",
+  "https://arxiv.org/abs/2512.15423",
+  2025
+ ],
+ [
+  "The Semantic Illusion: Certified Limits of Embedding-Based Hallucination Detection in RAG Systems",
+  "Debu Sinha",
+  "https://arxiv.org/abs/2512.15068",
+  2025
+ ],
+ [
+  "Mitigating LLM Hallucination via Behaviorally Calibrated Reinforcement Learning",
+  "Jiayun Wu, Jiashuo Liu, Zhiyuan Zeng, Tianyang Zhan, Tianle Cai, Wenhao Huang",
+  "https://arxiv.org/abs/2512.19920",
+  2025
+ ],
+ [
+  "Neural Probe-Based Hallucination Detection for Large Language Models",
+  "Shize Liang, Hongzhi Wang",
+  "https://arxiv.org/abs/2512.20949",
+  2025
+ ],
+ [
+  "A Unified Definition of Hallucination: It's The World Model, Stupid!",
+  "Emmy Liu, Varun Gangal, Chelsea Zou, Michael Yu, Xiaoqi Huang, Alex Chang, Zhuofu Tao, Karan Singh, Sachin Kumar, Steven Y. Feng",
+  "https://arxiv.org/abs/2512.21577",
+  2025
+ ],
+ [
+  "HalluMat: Detecting Hallucinations in LLM-Generated Materials Science Content Through Multi-Stage Verification",
+  "Bhanu Prakash Vangala, Sajid Mahmud, Pawan Neupane, Joel Selvaraj, Jianlin Cheng",
+  "https://arxiv.org/abs/2512.22396",
+  2025
+ ],
+ [
+  "Hybrid-Code v2: Zero-Hallucination Clinical ICD-10 Coding via Neuro-Symbolic Verification and Automated Knowledge Base Expansion",
+  "Yunguo Yu",
+  "https://arxiv.org/abs/2512.23743",
+  2025
+ ],
+ [
+  "Hallucination Detection and Evaluation of Large Language Model",
+  "Chenggong Zhang, Haopeng Wang, Hexi Meng",
+  "https://arxiv.org/abs/2512.22416",
+  2025
+ ],
+ [
+  "Beyond Hallucinations: A Composite Score for Measuring Reliability in Open-Source Large Language Models",
+  "Rohit Kumar Salla, Manoj Saravanan, Shrikar Reddy Kota",
+  "https://arxiv.org/abs/2512.24058",
+  2025
+ ],
+ [
+  "HaluNet: Learning Hallucination Risk from Internal Signals in LLM Question Answering",
+  "Chaodong Tong, Qi Zhang, Zhuojun Jiang, Lei Jiang, Yanbing Liu",
+  "https://arxiv.org/abs/2512.24562",
+  2025
+ ],
+ [
+  "Consistency Is the Key: Detecting Hallucinations in LLM Generated Text By Checking Inconsistencies About Key Facts",
+  "Raavi Gupta, Pranav Hari Panicker, Sumit Bhatia, Ganesh Ramakrishnan",
+  "https://arxiv.org/abs/2511.12236",
+  2025
+ ],
+ [
+  "Knowledge Graphs, Large Language Models, and Hallucinations: An NLP Perspective",
+  "Ernests Lavrinovics, Russa Biswas, Johannes Bjerva, Katja Hose",
+  "https://arxiv.org/abs/2411.14258",
+  2025
+ ],
+ [
+  "On the Limits of Language Generation: Trade-Offs Between Hallucination and Mode Collapse",
+  "Alkis Kalavasis, Anay Mehrotra, Grigoris Velegkas",
+  "https://arxiv.org/abs/2411.09642",
+  2025
+ ],
+ [
+  "SymLoc: Symbolic Localization of Hallucination across HaluEval and TruthfulQA",
+  "Naveen Lamba, Sanju Tiwari, Manas Gaur",
+  "https://arxiv.org/abs/2511.14172",
+  2025
+ ],
+ [
+  "Humans Hallucinate Too: Language Models Identify and Correct Subjective Annotation Errors With Label-in-a-Haystack Prompts",
+  "Georgios Chochlakis, Peter Wu, Arjun Bedi, Marcus Ma, Kristina Lerman, Shrikanth Narayanan",
+  "https://arxiv.org/abs/2505.17222",
+  2025
+ ],
+ [
+  "ReLoop: \"Seeing Twice and Thinking Backwards\" via Closed-loop Training to Mitigate Hallucinations in Multimodal understanding",
+  "Jianjiang Yang, Yanshu li, Ziyan Huang",
+  "https://arxiv.org/abs/2507.04943",
+  2025
+ ],
+ [
+  "Trust Me, I'm Wrong: LLMs Hallucinate with Certainty Despite Knowing the Answer",
+  "Adi Simhi, Itay Itzhak, Fazl Barez, Gabriel Stanovsky, Yonatan Belinkov",
+  "https://arxiv.org/abs/2502.12964",
+  2025
+ ],
+ [
+  "Diagnosing Hallucination Risk in AI Surgical Decision-Support: A Sequential Framework for Sequential Validation",
+  "Dong Chen, Yanzhe Wei, Zonglin He, Guan-Ming Kuang, Canhua Ye, Meiru An, Huili Peng, Yong Hu, Huiren Tao, Kenneth MC Cheung",
+  "https://arxiv.org/abs/2511.00588",
+  2025
+ ],
+ [
+  "COMPASS: Context-Modulated PID Attention Steering System for Hallucination Mitigation",
+  "Kenji Sahay, Snigdha Pandya, Rohan Nagale, Anna Lin, Shikhar Shiromani, Kevin Zhu, Dev Sunishchal",
+  "https://arxiv.org/abs/2511.14776",
+  2025
+ ],
+ [
+  "GRAD: Graph-Retrieved Adaptive Decoding for Hallucination Mitigation",
+  "Manh Nguyen, Sunil Gupta, Dai Do, Hung Le",
+  "https://arxiv.org/abs/2511.03900",
+  2025
+ ],
+ [
+  "HaluMem: Evaluating Hallucinations in Memory Systems of Agents",
+  "Ding Chen, Simin Niu, Kehang Li, Peng Liu, Xiangping Zheng, Bo Tang, Xinchi Li, Feiyu Xiong, Zhiyu Li",
+  "https://arxiv.org/abs/2511.03506",
+  2025
+ ],
+ [
+  "Learning Under Laws: A Constraint-Projected Neural PDE Solver that Eliminates Hallucinations",
+  "Mainak Singha",
+  "https://arxiv.org/abs/2511.03578",
+  2025
+ ],
+ [
+  "What's in Common? Multimodal Models Hallucinate When Reasoning Across Scenes",
+  "Candace Ross, Florian Bordes, Adina Williams, Polina Kirichenko, Mark Ibrahim",
+  "https://arxiv.org/abs/2511.03768",
+  2025
+ ],
+ [
+  "Can a Small Model Learn to Look Before It Leaps? Dynamic Learning and Proactive Correction for Hallucination Detection",
+  "Zepeng Bao, Shen Zhou, Qiankun Pi, Jianhao Chen, Mayi Xu, Ming Zhong, Yuanyuan Zhu, Tieyun Qian",
+  "https://arxiv.org/abs/2511.05854",
+  2025
+ ],
+ [
+  "Stemming Hallucination in Language Models Using a Licensing Oracle",
+  "Simeon Emanuilov, Richard Ackermann",
+  "https://arxiv.org/abs/2511.06073",
+  2025
+ ],
+ [
+  "A Low-Rank Method for Vision Language Model Hallucination Mitigation in Autonomous Driving",
+  "Keke Long, Jiacheng Guo, Tianyun Zhang, Hongkai Yu, Xiaopeng Li",
+  "https://arxiv.org/abs/2511.06496",
+  2025
+ ],
+ [
+  "NOAH: Benchmarking Narrative Prior driven Hallucination and Omission in Video Large Language Models",
+  "Kyuho Lee, Euntae Kim, Jinwoo Choi, Buru Chang",
+  "https://arxiv.org/abs/2511.06475",
+  2025
+ ],
+ [
+  "Laplacian Score Sharpening for Mitigating Hallucination in Diffusion Models",
+  "Barath Chandran. C, Srinivas Anumasa, Dianbo Liu",
+  "https://arxiv.org/abs/2511.07496",
+  2025
+ ],
+ [
+  "Place Matters: Comparing LLM Hallucination Rates for Place-Based Legal Queries",
+  "Damian Curran, Vanessa Sporne, Lea Frermann, Jeannie Paterson",
+  "https://arxiv.org/abs/2511.06700",
+  2025
+ ],
+ [
+  "When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in LLMs",
+  "Shaowen Wang, Yiqi Dong, Ruinian Chang, Tansheng Zhu, Yuebo Sun, Kaifeng Lyu, Jian Li",
+  "https://arxiv.org/abs/2511.07318",
+  2025
+ ],
+ [
+  "Critical Confabulation: Can LLMs Hallucinate for Social Good?",
+  "Peiqi Sui, Eamon Duede, Hoyt Long, Richard Jean So",
+  "https://arxiv.org/abs/2511.07722",
+  2025
+ ],
+ [
+  "The Map of Misbelief: Tracing Intrinsic and Extrinsic Hallucinations Through Attention Patterns",
+  "Elyes Hajji, Aymen Bouguerra, Fabio Arnez",
+  "https://arxiv.org/abs/2511.10837",
+  2025
+ ],
+ [
+  "Can LLMs Detect Their Own Hallucinations?",
+  "Sora Kadotani, Kosuke Nishida, Kyosuke Nishida",
+  "https://arxiv.org/abs/2511.11087",
+  2025
+ ],
+ [
+  "Multi-agent Undercover Gaming: Hallucination Removal via Counterfactual Test for Multimodal Reasoning",
+  "Dayong Liang, Xiao-Yong Wei, Changmeng Zheng",
+  "https://arxiv.org/abs/2511.11182",
+  2025
+ ],
+ [
+  "HEDGE: Hallucination Estimation via Dense Geometric Entropy for VQA with Vision-Language Models",
+  "Sushant Gautam, Michael A. Riegler, Pål Halvorsen",
+  "https://arxiv.org/abs/2511.12693",
+  2025
+ ],
+ [
+  "What Color Is It? A Text-Interference Multimodal Hallucination Benchmark",
+  "Jinkun Zhao, Lei Huang, Haixin Ge, Wenjun Wu",
+  "https://arxiv.org/abs/2511.13400",
+  2025
+ ],
+ [
+  "Mathematical Analysis of Hallucination Dynamics in Large Language Models: Uncertainty Quantification, Advanced Decoding, and Principled Mitigation",
+  "Moses Kiprono",
+  "https://arxiv.org/abs/2511.15005",
+  2025
+ ],
+ [
+  "Thinking, Faithful and Stable: Mitigating Hallucinations in LLMs",
+  "Chelsea Zou, Yiheng Yao, Basant Khalil",
+  "https://arxiv.org/abs/2511.15921",
+  2025
+ ],
+ [
+  "MUCH: A Multilingual Claim Hallucination Benchmark",
+  "Jérémie Dentan, Alexi Canesse, Davide Buscaldi, Aymen Shabou, Sonia Vanier",
+  "https://arxiv.org/abs/2511.17081",
+  2025
+ ],
+ [
+  "Measuring the Impact of Lexical Training Data Coverage on Hallucination Detection in Large Language Models",
+  "Shuo Zhang, Fabrizio Gotti, Fengran Mo, Jian-Yun Nie",
+  "https://arxiv.org/abs/2511.17946",
+  2025
+ ],
+ [
+  "\"AGI\" team at SHROOM-CAP: Data-Centric Approach to Multilingual Hallucination Detection using XLM-RoBERTa",
+  "Harsh Rathva, Pruthwik Mishra, Shrikant Malviya",
+  "https://arxiv.org/abs/2511.18301",
+  2025
+ ],
+ [
+  "Decoupling Perception from Reasoning for Hallucination-Resistant Video Understanding",
+  "Bowei Pu, Chuanbin Liu, Yifan Ge, Peicheng Zhou, Yiwei Sun, Zhiying Lu, Zhangchi Hu, Hongtao Xie",
+  "https://arxiv.org/abs/2511.18463",
+  2025
+ ],
+ [
+  "Conditional Hallucinations for Image Compression",
+  "Till Aczel, Roger Wattenhofer",
+  "https://arxiv.org/abs/2410.19493",
+  2025
+ ],
+ [
+  "Privacy-hardened and hallucination-resistant synthetic data generation with logic-solvers",
+  "Mark A. Burgess, Brendan Hosking, Roc Reguant, Anubhav Kaphle, Mitchell J. O'Brien, Letitia M. F. Sng, Yatish Jain, Denis C. Bauer",
+  "https://arxiv.org/abs/2410.16705",
+  2025
+ ],
+ [
+  "Evaluating Hallucinations in Audio-Visual Multimodal LLMs with Spoken Queries under Diverse Acoustic Conditions",
+  "Hansol Park, Hoseong Ahn, Junwon Moon, Yejin Lee, Kyuhong Shim",
+  "https://arxiv.org/abs/2510.08581",
+  2025
+ ],
+ [
+  "Confidence-Aware Routing for Large Language Model Reliability Enhancement: A Multi-Signal Approach to Pre-Generation Hallucination Mitigation",
+  "Nandakishor M",
+  "https://arxiv.org/abs/2510.01237",
+  2025
+ ],
+ [
+  "Hallucination reduction with CASAL: Contrastive Activation Steering For Amortized Learning",
+  " Wannan,  Yang, Xinchi Qiu, Lei Yu, Yuchen Zhang, Aobo Yang, Narine Kokhlikyan, Nicola Cancedda, Diego Garcia-Olano",
+  "https://arxiv.org/abs/2510.02324",
+  2025
+ ],
+ [
+  "Hallucination-Resistant, Domain-Specific Research Assistant with Self-Evaluation and Vector-Grounded Retrieval",
+  "Vivek Bhavsar, Joseph Ereifej, Aravanan Gurusami",
+  "https://arxiv.org/abs/2510.02326",
+  2025
+ ],
+ [
+  "Review of Hallucination Understanding in Large Language and Vision Models",
+  "Zhengyi Ho, Siyuan Liang, Dacheng Tao",
+  "https://arxiv.org/abs/2510.00034",
+  2025
+ ],
+ [
+  "Hallucination is Inevitable for LLMs with the Open World Assumption",
+  "Bowen Xu",
+  "https://arxiv.org/abs/2510.05116",
+  2025
+ ],
+ [
+  "TraceDet: Hallucination Detection from the Decoding Trace of Diffusion Large Language Models",
+  "Shenxu Chang, Junchi Yu, Weixing Wang, Yongqiang Chen, Jialin Yu, Philip Torr, Jindong Gu",
+  "https://arxiv.org/abs/2510.01274",
+  2025
+ ],
+ [
+  "When Hallucination Costs Millions: Benchmarking AI Agents in High-Stakes Adversarial Financial Markets",
+  "Zeshi Dai, Zimo Peng, Zerui Cheng, Ryan Yihe Li",
+  "https://arxiv.org/abs/2510.00332",
+  2025
+ ],
+ [
+  "Towards Mitigation of Hallucination for LLM-empowered Agents: Progressive Generalization Bound Exploration and Watchdog Monitor",
+  "Siyuan Liu, Wenjing Liu, Zhiwei Xu, Xin Wang, Bo Chen, Tao Li",
+  "https://arxiv.org/abs/2507.15903",
+  2025
+ ],
+ [
+  "VisHall3D: Monocular Semantic Scene Completion from Reconstructing the Visible Regions to Hallucinating the Invisible Regions",
+  "Haoang Lu, Yuanqi Su, Xiaoning Zhang, Longjun Gao, Yu Xue, Le Wang",
+  "https://arxiv.org/abs/2507.19188",
+  2025
+ ],
+ [
+  "Learning to Reason for Hallucination Span Detection",
+  "Hsuan Su, Ting-Yao Hu, Hema Swetha Koppula, Kundan Krishna, Hadi Pouransari, Cheng-Yu Hsieh, Cem Koc, Joseph Yitan Cheng, Oncel Tuzel, Raviteja Vemulapalli",
+  "https://arxiv.org/abs/2510.02173",
+  2025
+ ],
+ [
+  "Measuring Language Model Hallucinations Through Distributional Correctness",
+  "Thomas F Burns",
+  "https://arxiv.org/abs/2510.04302",
+  2025
+ ],
+ [
+  "A novel hallucination classification framework",
+  "Maksym Zavhorodnii, Dmytro Dehtiarov, Anna Konovalenko",
+  "https://arxiv.org/abs/2510.05189",
+  2025
+ ],
+ [
+  "Mitigating Diffusion Model Hallucinations with Dynamic Guidance",
+  "Kostas Triaridis, Alexandros Graikos, Aggelina Chatziagapi, Grigorios G. Chrysos, Dimitris Samaras",
+  "https://arxiv.org/abs/2510.05356",
+  2025
+ ],
+ [
+  "TAG: Tangential Amplifying Guidance for Hallucination-Resistant Sampling",
+  "Hyunmin Cho, Donghoon Ahn, Susung Hong, Jee Eun Kim, Seungryong Kim, Kyong Hwan Jin",
+  "https://arxiv.org/abs/2510.04533",
+  2025
+ ],
+ [
+  "The Geometry of Truth: Layer-wise Semantic Dynamics for Hallucination Detection in Large Language Models",
+  "Amir Hameed Mir",
+  "https://arxiv.org/abs/2510.04933",
+  2025
+ ],
+ [
+  "Distributional Semantics Tracing: A Framework for Explaining Hallucinations in Large Language Models",
+  "Gagan Bhatia, Somayajulu G Sripada, Kevin Allan, Jacobo Azcona",
+  "https://arxiv.org/abs/2510.06107",
+  2025
+ ],
+ [
+  "Efficient High-Resolution Image Editing with Hallucination-Aware Loss and Adaptive Tiling",
+  "Young D. Kwon, Abhinav Mehrotra, Malcolm Chadwick, Alberto Gil Ramos, Sourav Bhattacharya",
+  "https://arxiv.org/abs/2510.06295",
+  2025
+ ],
+ [
+  "Revisiting Hallucination Detection with Effective Rank-based Uncertainty",
+  "Rui Wang, Zeming Wei, Guanzhang Yue, Meng Sun",
+  "https://arxiv.org/abs/2510.08389",
+  2025
+ ],
+ [
+  "Hallucination Filtering in Radiology Vision-Language Models Using Discrete Semantic Entropy",
+  "Patrick Wienholt, Sophie Caselitz, Robert Siepmann, Philipp Bruners, Keno Bressem, Christiane Kuhl, Jakob Nikolas Kather, Sven Nebelung, Daniel Truhn",
+  "https://arxiv.org/abs/2510.09256",
+  2025
+ ],
+ [
+  "Detecting Hallucinations in Authentic LLM-Human Interactions",
+  "Yujie Ren, Niklas Gruhlke, Anne Lauscher",
+  "https://arxiv.org/abs/2510.10539",
+  2025
+ ],
+ [
+  "Trustworthy Retrosynthesis: Eliminating Hallucinations with a Diverse Ensemble of Reaction Scorers",
+  "Michal Sadowski, Tadija Radusinović, Maria Wyrzykowska, Lukasz Sztukiewicz, Jan Rzymkowski, Paweł Włodarczyk-Pruszyński, Mikołaj Sacha, Piotr Kozakowski, Ruard van Workum, Stanislaw Kamil Jastrzebski",
+  "https://arxiv.org/abs/2510.10645",
+  2025
+ ],
+ [
+  "Credal Transformer: A Principled Approach for Quantifying and Mitigating Hallucinations in Large Language Models",
+  "Shihao Ji, Zihui Song, Jiajie Huang",
+  "https://arxiv.org/abs/2510.12137",
+  2025
+ ],
+ [
+  "Multi-stage Prompt Refinement for Mitigating Hallucinations in Large Language Models",
+  "Jung-Woo Shim, Yeong-Joon Ju, Ji-Hoon Park, Seong-Whan Lee",
+  "https://arxiv.org/abs/2510.12032",
+  2025
+ ],
+ [
+  "Uncertainty Quantification for Hallucination Detection in Large Language Models: Foundations, Methodology, and Future Directions",
+  "Sungmin Kang, Yavuz Faruk Bakman, Duygu Nur Yaldiz, Baturalp Buyukates, Salman Avestimehr",
+  "https://arxiv.org/abs/2510.12040",
+  2025
+ ],
+ [
+  "Counting Hallucinations in Diffusion Models",
+  "Shuai Fu, Jian Zhou, Qi Chen, Huang Jing, Huy Anh Nguyen, Xiaohan Liu, Zhixiong Zeng, Lin Ma, Quanshi Zhang, Qi Wu",
+  "https://arxiv.org/abs/2510.13080",
+  2025
+ ],
+ [
+  "Beyond \"Hallucinations\": A Framework for Stable Human-AI Reasoning",
+  "Rikard Rosenbacke, Carl Rosenbacke, Victor Rosenbacke, Martin McKee",
+  "https://arxiv.org/abs/2510.14665",
+  2025
+ ],
+ [
+  "Hallucination Benchmark for Speech Foundation Models",
+  "Alkis Koudounas, Moreno La Quatra, Manuel Giollo, Sabato Marco Siniscalchi, Elena Baralis",
+  "https://arxiv.org/abs/2510.16567",
+  2025
+ ],
+ [
+  "Train for Truth, Keep the Skills: Binary Retrieval-Augmented Reward Mitigates Hallucinations",
+  "Tong Chen, Akari Asai, Luke Zettlemoyer, Hannaneh Hajishirzi, Faeze Brahman",
+  "https://arxiv.org/abs/2510.17733",
+  2025
+ ],
+ [
+  "A Graph Signal Processing Framework for Hallucination Detection in Large Language Models",
+  "Valentin Noël",
+  "https://arxiv.org/abs/2510.19117",
+  2025
+ ],
+ [
+  "Grounding or Guessing? Visual Signals for Detecting Hallucinations in Sign Language Translation",
+  "Yasser Hamidullah, Koel Dutta Chowdhury, Yusser Al Ghussin, Shakib Yazdani, Cennet Oguz, Josef van Genabith, Cristina España-Bonet",
+  "https://arxiv.org/abs/2510.18439",
+  2025
+ ],
+ [
+  "HAD: HAllucination Detection Language Models Based on a Comprehensive Hallucination Taxonomy",
+  "Fan Xu, Xinyu Hu, Zhenghan Yu, Li Lin, Xu Zhang, Yang Zhang, Wei Zhou, Jinjie Gu, Xiaojun Wan",
+  "https://arxiv.org/abs/2510.19318",
+  2025
+ ],
+ [
+  "PruneHal: Reducing Hallucinations in Multi-modal Large Language Models through Adaptive KV Cache Pruning",
+  "Fengyuan Sun, Hui Chen, Xinhao Xu, Dandan Zheng, Jingdong Chen, Jun Zhou, Jungong Han, Guiguang Ding",
+  "https://arxiv.org/abs/2510.19183",
+  2025
+ ],
+ [
+  "Neural Diversity Regularizes Hallucinations in Language Models",
+  "Kushal Chakrabarti, Nirmal Balachundhar",
+  "https://arxiv.org/abs/2510.20690",
+  2025
+ ],
+ [
+  "Reasoning's Razor: Reasoning Improves Accuracy but Can Hurt Recall at Critical Operating Points in Safety and Hallucination Detection",
+  "Atoosa Chegini, Hamid Kazemi, Garrett Souza, Maria Safi, Yang Song, Samy Bengio, Sinead Williamson, Mehrdad Farajtabar",
+  "https://arxiv.org/abs/2510.21049",
+  2025
+ ],
+ [
+  "InterpDetect: Interpretable Signals for Detecting Hallucinations in Retrieval-Augmented Generation",
+  "Likun Tan, Kuan-Wei Huang, Joy Shi, Kevin Wu",
+  "https://arxiv.org/abs/2510.21538",
+  2025
+ ],
+ [
+  "Confabulations from ACL Publications (CAP): A Dataset for Scientific Hallucination Detection",
+  "Federica Gamba, Aman Sinha, Timothee Mickus, Raul Vazquez, Patanjali Bhamidipati, Claudio Savelli, Ahana Chattopadhyay, Laura A. Zanella, Yash Kankanampati, Binesh Arakkal Remesh, Aryan Ashok Chandramania, Rohit Agarwal, Chuyuan Li, Ioana Buhnila, Radhika Mamidi",
+  "https://arxiv.org/abs/2510.22395",
+  2025
+ ],
+ [
+  "Multi-Modal Fact-Verification Framework for Reducing Hallucinations in Large Language Models",
+  "Piyushkumar Patel",
+  "https://arxiv.org/abs/2510.22751",
+  2025
+ ],
+ [
+  "Challenging Multilingual LLMs: A New Taxonomy and Benchmark for Unraveling Hallucination in Translation",
+  "Xinwei Wu, Heng Liu, Jiang Zhou, Xiaohu Zhao, Linlong Xu, Longyue Wang, Weihua Luo, Kaifu Zhang",
+  "https://arxiv.org/abs/2510.24073",
+  2025
+ ],
+ [
+  "HACK: Hallucinations Along Certainty and Knowledge Axes",
+  "Adi Simhi, Jonathan Herzig, Itay Itzhak, Dana Arad, Zorik Gekhman, Roi Reichart, Fazl Barez, Gabriel Stanovsky, Idan Szpektor, Yonatan Belinkov",
+  "https://arxiv.org/abs/2510.24222",
+  2025
+ ],
+ [
+  "Mitigating Hallucination in Large Language Models (LLMs): An Application-Oriented Survey on RAG, Reasoning, and Agentic Systems",
+  "Yihan Li, Xiyuan Fu, Ghanshyam Verma, Paul Buitelaar, Mingming Liu",
+  "https://arxiv.org/abs/2510.24476",
+  2025
+ ],
+ [
+  "Hallucination Localization in Video Captioning",
+  "Shota Nakada, Kazuhiro Saito, Yuchi Ishikawa, Hokuto Munakata, Tatsuya Komatsu, Masayoshi Kondo",
+  "https://arxiv.org/abs/2510.25225",
+  2025
+ ],
+ [
+  "Hallucinations in Bibliographic Recommendation: Citation Frequency as a Proxy for Training Data Redundancy",
+  "Junichiro Niimi",
+  "https://arxiv.org/abs/2510.25378",
+  2025
+ ],
+ [
+  "Cross-Layer Attention Probing for Fine-Grained Hallucination Detection",
+  "Malavika Suresh, Rahaf Aljundi, Ikechukwu Nkisi-Orji, Nirmalie Wiratunga",
+  "https://arxiv.org/abs/2509.09700",
+  2025
+ ],
+ [
+  "HALO: Hallucination Analysis and Learning Optimization to Empower LLMs with Retrieval-Augmented Context for Guided Clinical Decision Making",
+  "Sumera Anjum, Hanzhi Zhang, Wenjun Zhou, Eun Jin Paek, Xiaopeng Zhao, Yunhe Feng",
+  "https://arxiv.org/abs/2409.10011",
+  2025
+ ],
+ [
+  "HFuzzer: Testing Large Language Models for Package Hallucinations via Phrase-based Fuzzing",
+  "Yukai Zhao, Menghan Wu, Xing Hu, Xin Xia",
+  "https://arxiv.org/abs/2509.23835",
+  2025
+ ],
+ [
+  "Investigating Symbolic Triggers of Hallucination in Gemma Models Across HaluEval and TruthfulQA",
+  "Naveen Lamba, Sanju Tiwari, Manas Gaur",
+  "https://arxiv.org/abs/2509.09715",
+  2025
+ ],
+ [
+  "LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation",
+  "Ziyao Zhang, Yanlin Wang, Chong Wang, Jiachi Chen, Zibin Zheng",
+  "https://arxiv.org/abs/2409.20550",
+  2025
+ ],
+ [
+  "MetaRAG: Metamorphic Testing for Hallucination Detection in RAG Systems",
+  "Channdeth Sok, David Luz, Yacine Haddam",
+  "https://arxiv.org/abs/2509.09360",
+  2025
+ ],
+ [
+  "Real-Time Detection of Hallucinated Entities in Long-Form Generation",
+  "Oscar Obeso, Andy Arditi, Javier Ferrando, Joshua Freeman, Cameron Holmes, Neel Nanda",
+  "https://arxiv.org/abs/2509.03531",
+  2025
+ ],
+ [
+  "Beyond ROUGE: N-Gram Subspace Features for LLM Hallucination Detection",
+  "Jerry Li, Evangelos Papalexakis",
+  "https://arxiv.org/abs/2509.05360",
+  2025
+ ],
+ [
+  "Why Language Models Hallucinate",
+  "Adam Tauman Kalai, Ofir Nachum, Santosh S. Vempala, Edwin Zhang",
+  "https://arxiv.org/abs/2509.04664",
+  2025
+ ],
+ [
+  "From Noise to Narrative: Tracing the Origins of Hallucinations in Transformers",
+  "Praneet Suresh, Jack Stanley, Sonia Joseph, Luca Scimeca, Danilo Bzdok",
+  "https://arxiv.org/abs/2509.06938",
+  2025
+ ],
+ [
+  "HAVE: Head-Adaptive Gating and ValuE Calibration for Hallucination Mitigation in Large Language Models",
+  "Xin Tong, Zhi Lin, Jingya Wang, Bo Jin",
+  "https://arxiv.org/abs/2509.06596",
+  2025
+ ],
+ [
+  "HALT-RAG: A Task-Adaptable Framework for Hallucination Detection with Calibrated NLI Ensembles and Abstention",
+  "Saumya Goswami, Siddharth Kurra",
+  "https://arxiv.org/abs/2509.07475",
+  2025
+ ],
+ [
+  "Hallucination Detection with the Internal Layers of LLMs",
+  "Martin Preiß",
+  "https://arxiv.org/abs/2509.14254",
+  2025
+ ],
+ [
+  "Beyond Accuracy: Rethinking Hallucination and Regulatory Response in Generative AI",
+  "Zihao Li, Weiwei Yi, Jiahong Chen",
+  "https://arxiv.org/abs/2509.13345",
+  2025
+ ],
+ [
+  "HalluField: Detecting LLM Hallucinations via Field-Theoretic Modeling",
+  "Minh Vu, Brian K. Tran, Syed A. Shah, Geigh Zollicoffer, Nhat Hoang-Xuan, Manish Bhattarai",
+  "https://arxiv.org/abs/2509.10753",
+  2025
+ ],
+ [
+  "LLM Enhancement with Domain Expert Mental Model to Reduce LLM Hallucination with Causal Prompt Engineering",
+  "Boris Kovalerchuk, Brent D. Fegley",
+  "https://arxiv.org/abs/2509.10818",
+  2025
+ ],
+ [
+  "D$^2$HScore: Reasoning-Aware Hallucination Detection via Semantic Breadth and Depth Analysis in LLMs",
+  "Yue Ding, Xiaofang Zhu, Tianze Xia, Junfei Wu, Xinlong Chen, Qiang Liu, Liang Wang",
+  "https://arxiv.org/abs/2509.11569",
+  2025
+ ],
+ [
+  "LLM Hallucination Detection: A Fast Fourier Transform Method Based on Hidden Layer Temporal Signals",
+  "Jinxin Li, Gang Tu, ShengYu Cheng, Junjie Hu, Jinting Wang, Rui Chen, Zhilong Zhou, Dongbo Shan",
+  "https://arxiv.org/abs/2509.13154",
+  2025
+ ],
+ [
+  "DSCC-HS: A Dynamic Self-Reinforcing Framework for Hallucination Suppression in Large Language Models",
+  "Xiao Zheng",
+  "https://arxiv.org/abs/2509.13702",
+  2025
+ ],
+ [
+  "Geometric Uncertainty for Detecting and Correcting Hallucinations in LLMs",
+  "Edward Phillips, Sean Wu, Soheila Molaei, Danielle Belgrave, Anshul Thakur, David Clifton",
+  "https://arxiv.org/abs/2509.13813",
+  2025
+ ],
+ [
+  "Knowledge-Driven Hallucination in Large Language Models: An Empirical Study on Process Modeling",
+  "Humam Kourani, Anton Antonov, Alessandro Berti, Wil M. P. van der Aalst",
+  "https://arxiv.org/abs/2509.15336",
+  2025
+ ],
+ [
+  "Quantifying Genuine Awareness in Hallucination Prediction Beyond Question-Side Shortcuts",
+  "Yeongbin Seo, Dongha Lee, Jinyoung Yeo",
+  "https://arxiv.org/abs/2509.15339",
+  2025
+ ],
+ [
+  "Enhancing Financial RAG with Agentic AI and Multi-HyDE: A Novel Approach to Knowledge Retrieval and Hallucination Reduction",
+  "Akshay Govind Srinivasan, Ryan Jacob George, Jayden Koshy Joe, Hrushikesh Kant, Harshith M R, Sachin Sundar, Sudharshan Suresh, Rahul Vimalkanth,  Vijayavallabh",
+  "https://arxiv.org/abs/2509.16369",
+  2025
+ ],
+ [
+  "How Large Language Models are Designed to Hallucinate",
+  "Richard Ackermann, Simeon Emanuilov",
+  "https://arxiv.org/abs/2509.16297",
+  2025
+ ],
+ [
+  "A Novel Differential Feature Learning for Effective Hallucination Detection and Classification",
+  "Wenkai Wang, Vincent Lee, Yizhen Zheng",
+  "https://arxiv.org/abs/2509.21357",
+  2025
+ ],
+ [
+  "Leveraging NTPs for Efficient Hallucination Detection in VLMs",
+  "Ofir Azachi, Kfir Eliyahu, Eyal El Ani, Rom Himelstein, Roi Reichart, Yuval Pinter, Nitay Calderon",
+  "https://arxiv.org/abs/2509.20379",
+  2025
+ ],
+ [
+  "Turk-LettuceDetect: A Hallucination Detection Models for Turkish RAG Applications",
+  "Selva Taş, Mahmut El Huseyni, Özay Ezerceli, Reyhan Bayraktar, Fatma Betül Terzioğlu",
+  "https://arxiv.org/abs/2509.17671",
+  2025
+ ],
+ [
+  "LLM-based Agents Suffer from Hallucinations: A Survey of Taxonomy, Methods, and Directions",
+  "Xixun Lin, Yucheng Ning, Jingwen Zhang, Yan Dong, Yilong Liu, Yongxuan Wu, Xiaohua Qi, Nan Sun, Yanmin Shang, Kun Wang, Pengfei Cao, Qingyue Wang, Lixin Zou, Xu Chen, Chuan Zhou, Jia Wu, Peng Zhang, Qingsong Wen, Shirui Pan, Bin Wang, Yanan Cao, Kai Chen, Songlin Hu, Li Guo",
+  "https://arxiv.org/abs/2509.18970",
+  2025
+ ],
+ [
+  "Eliminating stability hallucinations in llm-based tts models via attention guidance",
+  "ShiMing Wang, ZhiHao Du, Yang Xiang, TianYu Zhao, Han Zhao, Qian Chen, XianGang Li, HanJie Guo, ZhenHua Ling",
+  "https://arxiv.org/abs/2509.19852",
+  2025
+ ],
+ [
+  "Are Hallucinations Bad Estimations?",
+  "Hude Liu, Jerry Yao-Chieh Hu, Jennifer Yuntong Zhang, Zhao Song, Han Liu",
+  "https://arxiv.org/abs/2509.21473",
+  2025
+ ],
+ [
+  "PerHalluEval: Persian Hallucination Evaluation Benchmark for Large Language Models",
+  "Mohammad Hosseini, Kimia Hosseini, Shayan Bali, Zahra Zanjani, Saeedeh Momtazi",
+  "https://arxiv.org/abs/2509.21104",
+  2025
+ ],
+ [
+  "Beyond Textual Context: Structural Graph Encoding with Adaptive Space Alignment to alleviate the hallucination of LLMs",
+  "Yifang Zhang, Pengfei Duan, Yiwen Yang, Shengwu Xiong",
+  "https://arxiv.org/abs/2509.22251",
+  2025
+ ],
+ [
+  "Black-Box Hallucination Detection via Consistency Under the Uncertain Expression",
+  "Seongho Joo, Kyungmin Min, Jahyun Koo, Kyomin Jung",
+  "https://arxiv.org/abs/2509.21999",
+  2025
+ ],
+ [
+  "Exposing Hallucinations To Suppress Them: VLMs Representation Editing With Generative Anchors",
+  "Youxu Shi, Suorong Yang, Dong Liu",
+  "https://arxiv.org/abs/2509.21997",
+  2025
+ ],
+ [
+  "Library Hallucinations in LLM-Generated Code: A Risk Analysis Grounded in Developer Queries",
+  "Lukas Twist, Jie M. Zhang, Mark Harman, Helen Yannakoudakis",
+  "https://arxiv.org/abs/2509.22202",
+  2025
+ ],
+ [
+  "LUMINA: Detecting Hallucinations in RAG System with Context-Knowledge Signals",
+  "Samuel Yeh, Sharon Li, Tanwi Mallick",
+  "https://arxiv.org/abs/2509.21875",
+  2025
+ ],
+ [
+  "Fact Grounded Attention: Eliminating Hallucination in Large Language Models Through Attention Level Knowledge Integration",
+  "Aayush Gupta",
+  "https://arxiv.org/abs/2509.25252",
+  2025
+ ],
+ [
+  "LLM Hallucination Detection: HSAD",
+  "JinXin Li, Gang Tu, JunJie Hu",
+  "https://arxiv.org/abs/2509.23580",
+  2025
+ ],
+ [
+  "GroundSight: Augmenting Vision-Language Models with Grounding Information and De-hallucination",
+  "Xinxi Chen, Tianyang Chen, Lijia Hong",
+  "https://arxiv.org/abs/2509.25669",
+  2025
+ ],
+ [
+  "ATLANTIS at SemEval-2025 Task 3: Detecting Hallucinated Text Spans in Question Answering",
+  "Catherine Kobus, François Lancelot, Marion-Cécile Martin, Nawal Ould Amer",
+  "https://arxiv.org/abs/2508.05179",
+  2025
+ ],
+ [
+  "Can LLM be a Good Path Planner based on Prompt Engineering? Mitigating the Hallucination for Path Planning",
+  "Hourui Deng, Hongjie Zhang, Jie Ou, Chaosheng Feng",
+  "https://arxiv.org/abs/2408.13184",
+  2025
+ ],
+ [
+  "Evidence-Enhanced Triplet Generation Framework for Hallucination Alleviation in Generative Question Answering",
+  "Haowei Du, Huishuai Zhang, Dongyan Zhao",
+  "https://arxiv.org/abs/2408.15037",
+  2025
+ ],
+ [
+  "Exploring Causal Effect of Social Bias on Faithfulness Hallucinations in Large Language Models",
+  "Zhenliang Zhang, Junzhe Zhang, Xinyu Hu, HuiXuan Zhang, Xiaojun Wan",
+  "https://arxiv.org/abs/2508.07753",
+  2025
+ ],
+ [
+  "FAITH: A Framework for Assessing Intrinsic Tabular Hallucinations in Finance",
+  "Mengao Zhang, Jiayu Fu, Tanya Warrier, Yuwen Wang, Tianhui Tan, Ke-wei Huang",
+  "https://arxiv.org/abs/2508.05201",
+  2025
+ ],
+ [
+  "Hallucination Detection and Mitigation in Scientific Text Simplification using Ensemble Approaches: DS@GT at CLEF 2025 SimpleText",
+  "Krishna Chaitanya Marturi, Heba H. Elwazzan",
+  "https://arxiv.org/abs/2508.11823",
+  2025
+ ],
+ [
+  "Hallucination in LLM-Based Code Generation: An Automotive Case Study",
+  "Marc Pavel, Nenad Petrovic, Lukasz Mazur, Vahid Zolfaghari, Fengjunjie Pan, Alois Knoll",
+  "https://arxiv.org/abs/2508.11257",
+  2025
+ ],
+ [
+  "Hallucinations in Code Change to Natural Language Generation: Prevalence and Evaluation of Detection Metrics",
+  "Chunhua Liu, Hong Yi Lin, Patanamon Thongtanunam",
+  "https://arxiv.org/abs/2508.08661",
+  2025
+ ],
+ [
+  "MultiRAG: A Knowledge-guided Framework for Mitigating Hallucination in Multi-source Retrieval Augmented Generation",
+  "Wenlong Wu, Haofen Wang, Bohan Li, Peixuan Huang, Xinzhe Zhao, Lei Liang",
+  "https://arxiv.org/abs/2508.03553",
+  2025
+ ],
+ [
+  "Multispin Physics of AI Tipping Points and Hallucinations",
+  "Neil F. Johnson, Frank Yingjie Huo",
+  "https://arxiv.org/abs/2508.01097",
+  2025
+ ],
+ [
+  "A comprehensive taxonomy of hallucinations in Large Language Models",
+  "Manuel Cossio",
+  "https://arxiv.org/abs/2508.01781",
+  2025
+ ],
+ [
+  "Counterfactual Probing for Hallucination Detection and Mitigation in Large Language Models",
+  "Yijun Feng",
+  "https://arxiv.org/abs/2508.01862",
+  2025
+ ],
+ [
+  "Cure or Poison? Embedding Instructions Visually Alters Hallucination in Vision-Language Models",
+  "Zhaochen Wang, Yiwei Wang, Yujun Cai",
+  "https://arxiv.org/abs/2508.01678",
+  2025
+ ],
+ [
+  "Towards Hallucination-Free Music: A Reinforcement Learning Preference Optimization Framework for Reliable Song Generation",
+  "Huaicheng Zhang, Wei Tan, Guangzheng Li, Yixuan Zhang, Hangting Chen, Shun Lei, Chenyu Yang, Zhiyong Wu, Shuai Wang, Qijun Huang, Dong Yu",
+  "https://arxiv.org/abs/2508.05011",
+  2025
+ ],
+ [
+  "SEVADE: Self-Evolving Multi-Agent Analysis with Decoupled Evaluation for Hallucination-Resistant Irony Detection",
+  "Ziqi Liu, Ziyang Zhou, Yilin Li, Mingxuan Hu, Yushan Pan, Zhijie Xu, Yangbin Chen",
+  "https://arxiv.org/abs/2508.06803",
+  2025
+ ],
+ [
+  "Hallucination vs interpretation: rethinking accuracy and precision in AI-assisted data extraction for knowledge synthesis",
+  "Xi Long, Christy Boscardin, Lauren A. Maggio, Joseph A. Costello, Ralph Gonzales, Rasmyah Hammoudeh, Ki Lai, Yoon Soo Park, Brian C. Gin",
+  "https://arxiv.org/abs/2508.09458",
+  2025
+ ],
+ [
+  "Prompt-Response Semantic Divergence Metrics for Faithfulness Hallucination and Misalignment Detection in Large Language Models",
+  "Igor Halperin",
+  "https://arxiv.org/abs/2508.10192",
+  2025
+ ],
+ [
+  "Hallucinations in medical devices",
+  "Jason Granstedt, Prabhat Kc, Rucha Deshpande, Victor Garcia, Aldo Badano",
+  "https://arxiv.org/abs/2508.14118",
+  2025
+ ],
+ [
+  "Hallucination-Resistant Relation Extraction via Dependency-Aware Sentence Simplification and Two-tiered Hierarchical Refinement",
+  "Yupei Yang, Fan Feng, Lin Yang, Wanxi Deng, Lin Qu, Biwei Huang, Shikui Tu, Lei Xu",
+  "https://arxiv.org/abs/2508.14391",
+  2025
+ ],
+ [
+  "QueryBandits for Hallucination Mitigation: Exploiting Semantic Features for No-Regret Rewriting",
+  "Nicole Cho, William Watson, Alec Koppel, Sumitra Ganesh, Manuela Veloso",
+  "https://arxiv.org/abs/2508.16697",
+  2025
+ ],
+ [
+  "An Investigation on Group Query Hallucination Attacks",
+  "Kehao Miao, Xiaolong Jin",
+  "https://arxiv.org/abs/2508.19321",
+  2025
+ ],
+ [
+  "Grounding the Ungrounded: A Spectral-Graph Framework for Quantifying Hallucinations in Multimodal LLMs",
+  "Supratik Sarkar, Swagatam Das",
+  "https://arxiv.org/abs/2508.19366",
+  2025
+ ],
+ [
+  "Addressing accuracy and hallucination of LLMs in Alzheimer's disease research through knowledge graphs",
+  "Tingxuan Xu, Jiarui Feng, Justin Melendez, Kaleigh Roberts, Donghong Cai, Mingfang Zhu, Donald Elbert, Yixin Chen, Randall J. Bateman",
+  "https://arxiv.org/abs/2508.21238",
+  2025
+ ],
+ [
+  "Decoding Memories: An Efficient Pipeline for Self-Consistency Hallucination Detection",
+  "Weizhi Gao, Xiaorui Liu, Feiyi Wang, Dan Lu, Junqi Yin",
+  "https://arxiv.org/abs/2508.21228",
+  2025
+ ],
+ [
+  "ELV-Halluc: Benchmarking Semantic Aggregation Hallucinations in Long Video Understanding",
+  "Hao Lu, Jiahao Wang, Yaolun Zhang, Ruohui Wang, Xuanyu Zheng, Yepeng Tang, Dahua Lin, Lewei Lu",
+  "https://arxiv.org/abs/2508.21496",
+  2025
+ ],
+ [
+  "KEA Explain: Explanations of Hallucinations using Graph Kernel Analysis",
+  "Reilly Haskins, Benjamin Adams",
+  "https://arxiv.org/abs/2507.03847",
+  2025
+ ],
+ [
+  "On Mitigating Code LLM Hallucinations with API Documentation",
+  "Nihal Jain, Robert Kwiatkowski, Baishakhi Ray, Murali Krishna Ramanathan, Varun Kumar",
+  "https://arxiv.org/abs/2407.09726",
+  2025
+ ],
+ [
+  "Shared Imagination: LLMs Hallucinate Alike",
+  "Yilun Zhou, Caiming Xiong, Silvio Savarese, Chien-Sheng Wu",
+  "https://arxiv.org/abs/2407.16604",
+  2025
+ ],
+ [
+  "TUM-MiKaNi at SemEval-2025 Task 3: Towards Multilingual and Knowledge-Aware Non-factual Hallucination Identification",
+  "Miriam Anschütz, Ekaterina Gikalo, Niklas Herbster, Georg Groh",
+  "https://arxiv.org/abs/2507.00579",
+  2025
+ ],
+ [
+  "Aligning Large Language Models to Follow Instructions and Hallucinate Less via Effective Data Filtering",
+  "Shuzheng Si, Haozhe Zhao, Gang Chen, Cheng Gao, Yuzhuo Bai, Zhitong Wang, Kaikai An, Kangyang Luo, Chen Qian, Fanchao Qi, Baobao Chang, Maosong Sun",
+  "https://arxiv.org/abs/2502.07340",
+  2025
+ ],
+ [
+  "Dynamic Attention-Guided Context Decoding for Mitigating Context Faithfulness Hallucinations in Large Language Models",
+  "Yanwen Huang, Yong Zhang, Ning Cheng, Zhitao Li, Shaojun Wang, Jing Xiao",
+  "https://arxiv.org/abs/2501.01059",
+  2025
+ ],
+ [
+  "ETF: An Entity Tracing Framework for Hallucination Detection in Code Summaries",
+  "Kishan Maharaj, Vitobha Munigala, Srikanth G. Tamilselvam, Prince Kumar, Sayandeep Sen, Palani Kodeswaran, Abhijit Mishra, Pushpak Bhattacharyya",
+  "https://arxiv.org/abs/2410.14748",
+  2025
+ ],
+ [
+  "Hallucination Detox: Sensitivity Dropout (SenD) for Large Language Model Training",
+  "Shahrad Mohammadzadeh, Juan David Guerra, Marco Bonizzato, Reihaneh Rabbany, Golnoosh Farnadi",
+  "https://arxiv.org/abs/2410.15460",
+  2025
+ ],
+ [
+  "HALoGEN: Fantastic LLM Hallucinations and Where to Find Them",
+  "Abhilasha Ravichander, Shrusti Ghela, David Wadden, Yejin Choi",
+  "https://arxiv.org/abs/2501.08292",
+  2025
+ ],
+ [
+  "ICR Probe: Tracking Hidden State Dynamics for Reliable Hallucination Detection in LLMs",
+  "Zhenliang Zhang, Xinyu Hu, Huixuan Zhang, Junzhe Zhang, Xiaojun Wan",
+  "https://arxiv.org/abs/2507.16488",
+  2025
+ ],
+ [
+  "Learning Auxiliary Tasks Improves Reference-Free Hallucination Detection in Open-Domain Long-Form Generation",
+  "Chengwei Qin, Wenxuan Zhou, Karthik Abinav Sankararaman, Nanshu Wang, Tengyu Xu, Alexander Radovic, Eryk Helenowski, Arya Talebzadeh, Aditya Tayade, Sinong Wang, Shafiq Joty, Han Fang, Hao Ma",
+  "https://arxiv.org/abs/2505.12265",
+  2025
+ ],
+ [
+  "On-Policy Self-Alignment with Fine-grained Knowledge Feedback for Hallucination Mitigation",
+  "Xueru Wen, Jie Lou, Xinyu Lu, Ji Yuqiu, Xinyan Guan, Yaojie Lu, Hongyu Lin, Ben He, Xianpei Han, Debing Zhang, Le Sun",
+  "https://arxiv.org/abs/2406.12221",
+  2025
+ ],
+ [
+  "Prompt-Guided Internal States for Hallucination Detection of Large Language Models",
+  "Fujie Zhang, Peiqi Yu, Biao Yi, Baolei Zhang, Tong Li, Zheli Liu",
+  "https://arxiv.org/abs/2411.04847",
+  2025
+ ],
+ [
+  "Reefknot: A Comprehensive Benchmark for Relation Hallucination Evaluation, Analysis and Mitigation in Multimodal Large Language Models",
+  "Kening Zheng, Junkai Chen, Yibo Yan, Xin Zou, Xuming Hu",
+  "https://arxiv.org/abs/2408.09429",
+  2025
+ ],
+ [
+  "Rejecting Hallucinated State Targets during Planning",
+  "Mingde Zhao, Tristan Sylvain, Romain Laroche, Doina Precup, Yoshua Bengio",
+  "https://arxiv.org/abs/2410.07096",
+  2025
+ ],
+ [
+  "SHARP: Unlocking Interactive Hallucination via Stance Transfer in Role-Playing LLMs",
+  "Chuyi Kong, Ziyang Luo, Hongzhan Lin, Zhiyuan Fan, Yaxin Fan, Yuxi Sun, Jing Ma",
+  "https://arxiv.org/abs/2411.07965",
+  2025
+ ],
+ [
+  "TreeCut: A Synthetic Unanswerable Math Word Problem Dataset for LLM Hallucination Evaluation",
+  "Jialin Ouyang",
+  "https://arxiv.org/abs/2502.13442",
+  2025
+ ],
+ [
+  "Using multi-agent architecture to mitigate the risk of LLM hallucinations",
+  "Abd Elrahman Amer, Magdi Amer",
+  "https://arxiv.org/abs/2507.01446",
+  2025
+ ],
+ [
+  "Investigating VLM Hallucination from a Cognitive Psychology Perspective: A First Step Toward Interpretation with Intriguing Observations",
+  "Xiangrui Liu, Man Luo, Agneet Chatterjee, Hua Wei, Chitta Baral, Yezhou Yang",
+  "https://arxiv.org/abs/2507.03123",
+  2025
+ ],
+ [
+  "Detecting Token-Level Hallucinations Using Variance Signals: A Reference-Free Approach",
+  "Keshav Kumar",
+  "https://arxiv.org/abs/2507.04137",
+  2025
+ ],
+ [
+  "Taming the Tri-Space Tension: ARC-Guided Hallucination Modeling and Control for Text-to-Image Generation",
+  "Jianjiang Yang, Ziyan Huang, Yanshu li, Da Peng, Huaiyuan Yao",
+  "https://arxiv.org/abs/2507.04946",
+  2025
+ ],
+ [
+  "Hallucinating 360°: Panoramic Street-View Generation via Local Scenes Diffusion and Probabilistic Prompting",
+  "Fei Teng, Kai Luo, Sheng Wu, Siyu Li, Pujun Guo, Jiale Wei, Jiaming Zhang, Kunyu Peng, Kailun Yang",
+  "https://arxiv.org/abs/2507.06971",
+  2025
+ ],
+ [
+  "Hallucination Stations: On Some Basic Limitations of Transformer-Based Language Models",
+  "Varin Sikka, Vishal Sikka",
+  "https://arxiv.org/abs/2507.07505",
+  2025
+ ],
+ [
+  "AutoRAG-LoRA: Hallucination-Triggered Knowledge Retuning via Lightweight Adapters",
+  "Kaushik Dwivedi, Padmanabh Patanjali Mishra",
+  "https://arxiv.org/abs/2507.10586",
+  2025
+ ],
+ [
+  "From dots to faces: Individual differences in visual imagery capacity predict the content of Ganzflicker-induced hallucinations",
+  "Ana Chkhaidze, Reshanne R. Reeder, Connor Gag, Anastasia Kiyonaga, Seana Coulson",
+  "https://arxiv.org/abs/2507.09011",
+  2025
+ ],
+ [
+  "RODS: Robust Optimization Inspired Diffusion Sampling for Detecting and Reducing Hallucination in Generative Models",
+  "Yiqi Tian, Pengfei Jin, Mingze Yuan, Na Li, Bo Zeng, Quanzheng Li",
+  "https://arxiv.org/abs/2507.12201",
+  2025
+ ],
+ [
+  "Theoretical Foundations and Mitigation of Hallucination in Large Language Models",
+  "Esmail Gumaan",
+  "https://arxiv.org/abs/2507.22915",
+  2025
+ ],
+ [
+  "Multi-Stage Verification-Centric Framework for Mitigating Hallucination in Multi-Modal RAG",
+  "Baiyu Chen, Wilson Wongso, Xiaoqian Hu, Yue Tan, Flora Salim",
+  "https://arxiv.org/abs/2507.20136",
+  2025
+ ],
+ [
+  "First Hallucination Tokens Are Different from Conditional Ones",
+  "Jakob Snel, Seong Joon Oh",
+  "https://arxiv.org/abs/2507.20836",
+  2025
+ ],
+ [
+  "FRED: Financial Retrieval-Enhanced Detection and Editing of Hallucinations in Language Models",
+  "Likun Tan, Kuan-Wei Huang, Kevin Wu",
+  "https://arxiv.org/abs/2507.20930",
+  2025
+ ],
+ [
+  "MIRAGE-Bench: LLM Agent is Hallucinating and Where to Find Them",
+  "Weichen Zhang, Yiyou Sun, Pohao Huang, Jiayue Pu, Heyue Lin, Dawn Song",
+  "https://arxiv.org/abs/2507.21017",
+  2025
+ ],
+ [
+  "Investigating Hallucination in Conversations for Low Resource Languages",
+  "Amit Das, Md. Najib Hasan, Souvika Sarkar, Zheng Zhang, Fatemeh Jamshidi, Tathagata Bhattacharya, Nilanjana Raychawdhury, Dongji Feng, Vinija Jain, Aman Chadha",
+  "https://arxiv.org/abs/2507.22720",
+  2025
+ ],
+ [
+  "Reducing Hallucinations in Summarization via Reinforcement Learning with Entity Hallucination Index",
+  "Praveenkumar Katwe, Rakesh Chandra, Balabantaray Kali, Prasad Vittala",
+  "https://arxiv.org/abs/2507.22744",
+  2025
+ ],
+ [
+  "AggTruth: Contextual Hallucination Detection using Aggregated Attention Scores in LLMs",
+  "Piotr Matys, Jan Eliasz, Konrad Kiełczyński, Mikołaj Langner, Teddy Ferdinan, Jan Kocoń, Przemysław Kazienko",
+  "https://arxiv.org/abs/2506.18628",
+  2025
+ ],
+ [
+  "Hallucination Detection with Small Language Models",
+  "Ming Cheung",
+  "https://arxiv.org/abs/2506.22486",
+  2025
+ ],
+ [
+  "We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs",
+  "Joseph Spracklen, Raveen Wijewickrama, A H M Nazmus Sakib, Anindya Maiti, Bimal Viswanath, Murtuza Jadliwala",
+  "https://arxiv.org/abs/2406.10279",
+  2025
+ ],
+ [
+  "Eliminating Hallucination-Induced Errors in LLM Code Generation with Functional Clustering",
+  "Chaitanya Ravuri, Saman Amarasinghe",
+  "https://arxiv.org/abs/2506.11021",
+  2025
+ ],
+ [
+  "Beyond Logit Lens: Contextual Embeddings for Robust Hallucination Detection & Grounding in VLMs",
+  "Anirudh Phukan,  Divyansh, Harshit Kumar Morj,  Vaishnavi, Apoorv Saxena, Koustava Goswami",
+  "https://arxiv.org/abs/2411.19187",
+  2025
+ ],
+ [
+  "From Single to Multi: How LLMs Hallucinate in Multi-Document Summarization",
+  "Catarina G. Belem, Pouya Pezeshkpour, Hayate Iso, Seiji Maekawa, Nikita Bhutani, Estevam Hruschka",
+  "https://arxiv.org/abs/2410.13961",
+  2025
+ ],
+ [
+  "Unfamiliar Finetuning Examples Control How Language Models Hallucinate",
+  "Katie Kang, Eric Wallace, Claire Tomlin, Aviral Kumar, Sergey Levine",
+  "https://arxiv.org/abs/2403.05612",
+  2025
+ ],
+ [
+  "MMD-Flagger: Leveraging Maximum Mean Discrepancy to Detect Hallucinations",
+  "Kensuke Mitsuzawa, Damien Garreau",
+  "https://arxiv.org/abs/2506.01367",
+  2025
+ ],
+ [
+  "Ask a Local: Detecting Hallucinations With Specialized Model Divergence",
+  "Aldan Creo, Héctor Cerezo-Costas, Pedro Alonso-Doval, Maximiliano Hormazábal-Lagos",
+  "https://arxiv.org/abs/2506.03357",
+  2025
+ ],
+ [
+  "Shaking to Reveal: Perturbation-Based Detection of LLM Hallucinations",
+  "Jinyuan Luo, Zhen Fang, Yixuan Li, Seongheon Park, Ling Chen",
+  "https://arxiv.org/abs/2506.02696",
+  2025
+ ],
+ [
+  "On the Fundamental Impossibility of Hallucination Control in Large Language Models",
+  "Michał P. Karpowicz",
+  "https://arxiv.org/abs/2506.06382",
+  2025
+ ],
+ [
+  "CLATTER: Comprehensive Entailment Reasoning for Hallucination Detection",
+  "Ron Eliav, Arie Cattan, Eran Hirsch, Shahaf Bassan, Elias Stengel-Eskin, Mohit Bansal, Ido Dagan",
+  "https://arxiv.org/abs/2506.05243",
+  2025
+ ],
+ [
+  "GOLFer: Smaller LM-Generated Documents Hallucination Filter & Combiner for Query Expansion in Information Retrieval",
+  "Lingyuan Liu, Mengxiang Zhang",
+  "https://arxiv.org/abs/2506.04762",
+  2025
+ ],
+ [
+  "Hallucinate, Ground, Repeat: A Framework for Generalized Visual Relationship Detection",
+  "Shanmukha Vellamcheti, Sanjoy Kundu, Sathyanarayanan N. Aakur",
+  "https://arxiv.org/abs/2506.05651",
+  2025
+ ],
+ [
+  "The impact of fine tuning in LLaMA on hallucinations for named entity extraction in legal documentation",
+  "Francisco Vargas, Alejandro González Coene, Gaston Escalante, Exequiel Lobón, Manuel Pulido",
+  "https://arxiv.org/abs/2506.08827",
+  2025
+ ],
+ [
+  "Trustworthy AI for Medicine: Continuous Hallucination Detection and Elimination with CHECK",
+  "Carlos Garcia-Fernandez, Luis Felipe, Monique Shotande, Muntasir Zitu, Aakash Tripathi, Ghulam Rasool, Issam El Naqa, Vivek Rudrapatna, Gilmer Valdes",
+  "https://arxiv.org/abs/2506.11129",
+  2025
+ ],
+ [
+  "Probabilistic distances-based hallucination detection in LLMs with RAG",
+  "Rodion Oblovatny, Alexandra Kuleshova, Konstantin Polev, Alexey Zaytsev",
+  "https://arxiv.org/abs/2506.09886",
+  2025
+ ],
+ [
+  "MALM: A Multi-Information Adapter for Large Language Models to Mitigate Hallucination",
+  "Ao Jia, Haiming Wu, Guohui Yao, Dawei Song, Songkun Ji, Yazhou Zhang",
+  "https://arxiv.org/abs/2506.12483",
+  2025
+ ],
+ [
+  "HIDE and Seek: Detecting Hallucinations in Language Models via Decoupled Representations",
+  "Anwoy Chatterjee, Yash Goel, Tanmoy Chakraborty",
+  "https://arxiv.org/abs/2506.17748",
+  2025
+ ],
+ [
+  "Correcting Hallucinations in News Summaries: Exploration of Self-Correcting LLM Methods with External Knowledge",
+  "Juraj Vladika, Ihsan Soydemir, Florian Matthes",
+  "https://arxiv.org/abs/2506.19607",
+  2025
+ ],
+ [
+  "Seeing is Believing? Mitigating OCR Hallucinations in Multimodal Large Language Models",
+  "Zhentao He, Can Zhang, Ziheng Wu, Zhenghao Chen, Yufei Zhan, Yifan Li, Zhao Zhang, Xian Wang, Minghui Qiu",
+  "https://arxiv.org/abs/2506.20168",
+  2025
+ ],
+ [
+  "ReCo: Reminder Composition Mitigates Hallucinations in Vision-Language Models",
+  "Sotirios Panagiotis Chytas, Miso Choi, Hyunwoo J. Kim, Vikas Singh",
+  "https://arxiv.org/abs/2506.22636",
+  2025
+ ],
+ [
+  "A Scoping Review of Natural Language Processing in Addressing Medically Inaccurate Information: Errors, Misinformation, and Hallucination",
+  "Zhaoyi Sun, Wen-Wai Yim, Ozlem Uzuner, Fei Xia, Meliha Yetisgen",
+  "https://arxiv.org/abs/2505.00008",
+  2025
+ ],
+ [
+  "CCNU at SemEval-2025 Task 3: Leveraging Internal and External Knowledge of Large Language Models for Multilingual Hallucination Annotation",
+  "Xu Liu, Guanyi Chen",
+  "https://arxiv.org/abs/2505.11965",
+  2025
+ ],
+ [
+  "Fewer Hallucinations, More Verification: A Three-Stage LLM-Based Framework for ASR Error Correction",
+  "Yangui Fang, Baixu Chen, Jing Peng, Xu Li, Yu Xi, Chengwei Zhang, Guohui Zhong",
+  "https://arxiv.org/abs/2505.24347",
+  2025
+ ],
+ [
+  "Hallucination-Aware Multimodal Benchmark for Gastrointestinal Image Analysis with Large Vision-Language Models",
+  "Bidur Khanal, Sandesh Pokhrel, Sanjay Bhandari, Ramesh Rana, Nikesh Shrestha, Ram Bahadur Gurung, Cristian Linte, Angus Watson, Yash Raj Shrestha, Binod Bhattarai",
+  "https://arxiv.org/abs/2505.07001",
+  2025
+ ],
+ [
+  "keepitsimple at SemEval-2025 Task 3: LLM-Uncertainty based Approach for Multilingual Hallucination Span Detection",
+  "Saketh Reddy Vemula, Parameswari Krishnamurthy",
+  "https://arxiv.org/abs/2505.17485",
+  2025
+ ],
+ [
+  "MSA at SemEval-2025 Task 3: High Quality Weak Labeling and LLM Ensemble Verification for Multilingual Hallucination Detection",
+  "Baraa Hikal, Ahmed Nasreldin, Ali Hamdi",
+  "https://arxiv.org/abs/2505.20880",
+  2025
+ ],
+ [
+  "UCSC at SemEval-2025 Task 3: Context, Models and Prompt Optimization for Automated Hallucination Detection in LLM Output",
+  "Sicong Huang, Jincheng He, Shiyuan Huang, Karthik Raja Anandan, Arkajyoti Chakraborty, Ian Lane",
+  "https://arxiv.org/abs/2505.03030",
+  2025
+ ],
+ [
+  "Localizing Before Answering: A Hallucination Evaluation Benchmark for Grounded Medical Multimodal LLMs",
+  "Dung Nguyen, Minh Khoi Ho, Huy Ta, Thanh Tam Nguyen, Qi Chen, Kumar Rav, Quy Duong Dang, Satwik Ramchandre, Son Lam Phung, Zhibin Liao, Minh-Son To, Johan Verjans, Phi Le Nguyen, Vu Minh Hieu Phan",
+  "https://arxiv.org/abs/2505.00744",
+  2025
+ ],
+ [
+  "HalluMix: A Task-Agnostic, Multi-Domain Benchmark for Real-World Hallucination Detection",
+  "Deanna Emery, Michael Goitia, Freddie Vargus, Iulia Neagu",
+  "https://arxiv.org/abs/2505.00506",
+  2025
+ ],
+ [
+  "Triggering Hallucinations in LLMs: A Quantitative Study of Prompt-Induced Hallucination in Large Language Models",
+  "Makoto Sato",
+  "https://arxiv.org/abs/2505.00557",
+  2025
+ ],
+ [
+  "Osiris: A Lightweight Open-Source Hallucination Detection System",
+  "Alex Shan, John Bauer, Christopher D. Manning",
+  "https://arxiv.org/abs/2505.04844",
+  2025
+ ],
+ [
+  "Critique Before Thinking: Mitigating Hallucination through Rationale-Augmented Instruction Tuning",
+  "Zexian Yang, Dian Li, Dayan Wu, Gang Liu, Weiping Wang",
+  "https://arxiv.org/abs/2505.07172",
+  2025
+ ],
+ [
+  "SEReDeEP: Hallucination Detection in Retrieval-Augmented Models via Semantic Entropy and Context-Parameter Fusion",
+  "Lei Wang",
+  "https://arxiv.org/abs/2505.07528",
+  2025
+ ],
+ [
+  "EmotionHallucer: Evaluating Emotion Hallucinations in Multimodal Large Language Models",
+  "Bohao Xing, Xin Liu, Guoying Zhao, Chengyu Liu, Xiaolan Fu, Heikki Kälviäinen",
+  "https://arxiv.org/abs/2505.11405",
+  2025
+ ],
+ [
+  "Finetune-RAG: Fine-Tuning Language Models to Resist Hallucination in Retrieval-Augmented Generation",
+  "Zhan Peng Lee, Andre Lin, Calvin Tan",
+  "https://arxiv.org/abs/2505.10792",
+  2025
+ ],
+ [
+  "MTRE: Multi-Token Reliability Estimation for Hallucination Detection in VLMs",
+  "Geigh Zollicoffer, Minh Vu, Manish Bhattarai",
+  "https://arxiv.org/abs/2505.11741",
+  2025
+ ],
+ [
+  "Reasoning Large Language Model Errors Arise from Hallucinating Critical Problem Features",
+  "Alex Heyman, Joel Zylberberg",
+  "https://arxiv.org/abs/2505.12151",
+  2025
+ ],
+ [
+  "Mitigating Hallucinations via Inter-Layer Consistency Aggregation in Large Vision-Language Models",
+  "Kai Tang, Jinhao You, Yichen Guo, Yiding Sun, Dongxu Zhang, Wenya Wang, Hanze Li, Tao Luo, Renyuan Li, Xiande Huang, Shanghang Zhang",
+  "https://arxiv.org/abs/2505.12343",
+  2025
+ ],
+ [
+  "Detection and Mitigation of Hallucination in Large Reasoning Models: A Mechanistic Perspective",
+  "Zhongxiang Sun, Qipeng Wang, Haoyu Wang, Xiao Zhang, Jun Xu",
+  "https://arxiv.org/abs/2505.12886",
+  2025
+ ],
+ [
+  "Mitigating Hallucination in VideoLLMs via Temporal-Aware Activation Engineering",
+  "Jianfeng Cai, Wengang Zhou, Zongmeng Zhang, Jiale Hong, Nianji Zhan, Houqiang Li",
+  "https://arxiv.org/abs/2505.12826",
+  2025
+ ],
+ [
+  "MultiHal: Multilingual Dataset for Knowledge-Graph Grounded Evaluation of LLM Hallucinations",
+  "Ernests Lavrinovics, Russa Biswas, Katja Hose, Johannes Bjerva",
+  "https://arxiv.org/abs/2505.14101",
+  2025
+ ],
+ [
+  "Hallucinate at the Last in Long Response Generation: A Case Study on Long Document Summarization",
+  "Joonho Yang, Seunghyun Yoon, Hwan Chang, Byeongjeong Kim, Hwanhee Lee",
+  "https://arxiv.org/abs/2505.15291",
+  2025
+ ],
+ [
+  "OViP: Online Vision-Language Preference Learning for VLM Hallucination",
+  "Shujun Liu, Siyuan Wang, Zejun Li, Jianxiang Wang, Cheng Zeng, Zhongyu Wei",
+  "https://arxiv.org/abs/2505.15963",
+  2025
+ ],
+ [
+  "RePPL: Recalibrating Perplexity by Uncertainty in Semantic Propagation and Language Generation for Explainable QA Hallucination Detection",
+  "Yiming Huang, Junyan Zhang, Zihao Wang, Biquan Bie, Yunzhong Qiu, Xuming Hu, Yi R. Fung, Xinlei He",
+  "https://arxiv.org/abs/2505.15386",
+  2025
+ ],
+ [
+  "Teaching with Lies: Curriculum DPO on Synthetic Negatives for Hallucination Detection",
+  "Shrey Pandit, Ashwin Vinod, Liu Leqi, Ying Ding",
+  "https://arxiv.org/abs/2505.17558",
+  2025
+ ],
+ [
+  "Image Tokens Matter: Mitigating Hallucination in Discrete Tokenizer-based Large Vision-Language Models via Latent Editing",
+  "Weixing Wang, Zifeng Ding, Jindong Gu, Rui Cao, Christoph Meinel, Gerard de Melo, Haojin Yang",
+  "https://arxiv.org/abs/2505.21547",
+  2025
+ ],
+ [
+  "VeriTrail: Closed-Domain Hallucination Detection with Traceability",
+  "Dasha Metropolitansky, Jonathan Larson",
+  "https://arxiv.org/abs/2505.21786",
+  2025
+ ],
+ [
+  "Evaluation Hallucination in Multi-Round Incomplete Information Lateral-Driven Reasoning Tasks",
+  "Wenhan Dong, Tianyi Hu, Jingyi Zheng, Zhen Sun, Yuemeng Zhao, Yule Liu, Xinlei He, Xinyi Huang",
+  "https://arxiv.org/abs/2505.23843",
+  2025
+ ],
+ [
+  "Are Reasoning Models More Prone to Hallucination?",
+  "Zijun Yao, Yantao Liu, Yanxu Chen, Jianhui Chen, Junfeng Fang, Lei Hou, Juanzi Li, Tat-Seng Chua",
+  "https://arxiv.org/abs/2505.23646",
+  2025
+ ],
+ [
+  "Preemptive Hallucination Reduction: An Input-Level Approach for Multimodal Language Model",
+  "Nokimul Hasan Arif, Shadman Rabby, Md Hefzul Hossain Papon, Sabbir Ahmed",
+  "https://arxiv.org/abs/2505.24007",
+  2025
+ ],
+ [
+  "From Hallucinations to Jailbreaks: Rethinking the Vulnerability of Large Foundation Models",
+  "Haibo Jin, Peiyan Zhang, Peiran Wang, Man Luo, Haohan Wang",
+  "https://arxiv.org/abs/2505.24232",
+  2025
+ ],
+ [
+  "C-FAITH: A Chinese Fine-Grained Benchmark for Automated Hallucination Evaluation",
+  "Xu Zhang, Zhifei Liu, Jiahao Wang, Huixuan Zhang, Fan Xu, Junzhe Zhang, Xiaojun Wan",
+  "https://arxiv.org/abs/2504.10167",
+  2025
+ ],
+ [
+  "Catch Me if You Search: When Contextual Web Search Results Affect the Detection of Hallucinations",
+  "Mahjabin Nahar, Eun-Ju Lee, Jin Won Park, Dongwon Lee",
+  "https://arxiv.org/abs/2504.01153",
+  2025
+ ],
+ [
+  "Hallucination-Aware Generative Pretrained Transformer for Cooperative Aerial Mobility Control",
+  "Hyojun Ahn, Seungcheol Oh, Gyu Seon Kim, Soyi Jung, Soohyun Park, Joongheon Kim",
+  "https://arxiv.org/abs/2504.10831",
+  2025
+ ],
+ [
+  "HalluSearch at SemEval-2025 Task 3: A Search-Enhanced RAG Pipeline for Hallucination Detection",
+  "Mohamed A. Abdallah, Samhaa R. El-Beltagy",
+  "https://arxiv.org/abs/2504.10168",
+  2025
+ ],
+ [
+  "Prescribing the Right Remedy: Mitigating Hallucinations in Large Vision-Language Models via Targeted Instruction Tuning",
+  "Rui Hu, Yahan Tu, Shuyu Wei, Dongyuan Lu, Jitao Sang",
+  "https://arxiv.org/abs/2404.10332",
+  2025
+ ],
+ [
+  "SemEval-2025 Task 3: Mu-SHROOM, the Multilingual Shared Task on Hallucinations and Related Observable Overgeneration Mistakes",
+  "Raúl Vázquez, Timothee Mickus, Elaine Zosa, Teemu Vahtola, Jörg Tiedemann, Aman Sinha, Vincent Segonne, Fernando Sánchez-Vega, Alessandro Raganato, Jindřich Libovický, Jussi Karlgren, Shaoxiong Ji, Jindřich Helcl, Liane Guillou, Ona de Gibert, Jaione Bengoetxea, Joseph Attieh, Marianna Apidianaki",
+  "https://arxiv.org/abs/2504.11975",
+  2025
+ ],
+ [
+  "Hybrid Retrieval for Hallucination Mitigation in Large Language Models: A Comparative Analysis",
+  "Chandana Sree Mala, Gizem Gezici, Fosca Giannotti",
+  "https://arxiv.org/abs/2504.05324",
+  2025
+ ],
+ [
+  "Hyper-RAG: Combating LLM Hallucinations using Hypergraph-Driven Retrieval-Augmented Generation",
+  "Yifan Feng, Hao Hu, Xingliang Hou, Shiquan Liu, Shihui Ying, Shaoyi Du, Han Hu, Yue Gao",
+  "https://arxiv.org/abs/2504.08758",
+  2025
+ ],
+ [
+  "Hallucination Detection and Mitigation in Large Language Models",
+  "Ahmad Pesaranghader, Erin Li",
+  "https://arxiv.org/abs/2601.09929",
+  2025
+ ],
+ [
+  "No Free Lunch: Fundamental Limits of Learning Non-Hallucinating Generative Models",
+  "Changlong Wu, Ananth Grama, Wojciech Szpankowski",
+  "https://arxiv.org/abs/2410.19217",
+  2025
+ ],
+ [
+  "A Unified Virtual Mixture-of-Experts Framework:Enhanced Inference and Hallucination Mitigation in Single-Model System",
+  "Mingyan Liu",
+  "https://arxiv.org/abs/2504.03739",
+  2025
+ ],
+ [
+  "Noise Augmented Fine Tuning for Mitigating Hallucinations in Large Language Models",
+  "Afshin Khadangi, Amir Sartipi, Igor Tchappi, Ramin Bahmani",
+  "https://arxiv.org/abs/2504.03302",
+  2025
+ ],
+ [
+  "Capturing AI's Attention: Physics of Repetition, Hallucination, Bias and Beyond",
+  "Frank Yingjie Huo, Neil F. Johnson",
+  "https://arxiv.org/abs/2504.04600",
+  2025
+ ],
+ [
+  "Hallucinated Span Detection with Multi-View Attention Features",
+  "Yuya Ogasa, Yuki Arase",
+  "https://arxiv.org/abs/2504.04335",
+  2025
+ ],
+ [
+  "PaMi-VDPO: Mitigating Video Hallucinations by Prompt-Aware Multi-Instance Video Preference Learning",
+  "Xinpeng Ding, Kui Zhang, Jianhua Han, Lanqing Hong, Hang Xu, Xiaomeng Li",
+  "https://arxiv.org/abs/2504.05810",
+  2025
+ ],
+ [
+  "HalluciNot: Hallucination Detection Through Context and Common Knowledge Verification",
+  "Bibek Paudel, Alexander Lyzhov, Preetam Joshi, Puneet Anand",
+  "https://arxiv.org/abs/2504.07069",
+  2025
+ ],
+ [
+  "How to Detect and Defeat Molecular Mirage: A Metric-Driven Benchmark for Hallucination in LLM-based Molecular Comprehension",
+  "Hao Li, Liuzhenghao Lv, He Cao, Zijing Liu, Zhiyuan Yan, Yu Wang, Yonghong Tian, Yu Li, Li Yuan",
+  "https://arxiv.org/abs/2504.12314",
+  2025
+ ],
+ [
+  "Synthetic Fluency: Hallucinations, Confabulations, and the Creation of Irish Words in LLM-Generated Translations",
+  "Sheila Castilho, Zoe Fitzsimmons, Claire Holton, Aoife Mc Donagh",
+  "https://arxiv.org/abs/2504.07680",
+  2025
+ ],
+ [
+  "Hallucination, reliability, and the role of generative AI in science",
+  "Charles Rathkopf",
+  "https://arxiv.org/abs/2504.08526",
+  2025
+ ],
+ [
+  "MedHal: An Evaluation Dataset for Medical Hallucination Detection",
+  "Gaya Mehenni, Fabrice Lamarche, Odette Rios-Ibacache, John Kildea, Amal Zouaq",
+  "https://arxiv.org/abs/2504.08596",
+  2025
+ ],
+ [
+  "Enhancing Mathematical Reasoning in Large Language Models with Self-Consistency-Based Hallucination Detection",
+  "MingShan Liu, Jialing Fang",
+  "https://arxiv.org/abs/2504.09440",
+  2025
+ ],
+ [
+  "DataPuzzle: Breaking Free from the Hallucinated Promise of LLMs in Data Analysis",
+  "Zhengxuan Zhang, Zhuowen Liang, Yin Wu, Teng Lin, Yuyu Luo, Nan Tang",
+  "https://arxiv.org/abs/2504.10036",
+  2025
+ ],
+ [
+  "Efficient Contrastive Decoding with Probabilistic Hallucination Detection - Mitigating Hallucinations in Large Vision Language Models -",
+  "Laura Fieback, Nishilkumar Balar, Jakob Spiegelberg, Hanno Gottschalk",
+  "https://arxiv.org/abs/2504.12137",
+  2025
+ ],
+ [
+  "Mitigating LLM Hallucinations with Knowledge Graphs: A Case Study",
+  "Harry Li, Gabriel Appleby, Kenneth Alperin, Steven R Gomez, Ashley Suh",
+  "https://arxiv.org/abs/2504.12422",
+  2025
+ ],
+ [
+  "Purposefully Induced Psychosis (PIP): Embracing Hallucination as Imagination in Large Language Models",
+  "Kris Pilcher, Esen K. Tütüncü",
+  "https://arxiv.org/abs/2504.12012",
+  2025
+ ],
+ [
+  "Generate, but Verify: Reducing Hallucination in Vision-Language Models with Retrospective Resampling",
+  "Tsung-Han Wu, Heekyung Lee, Jiaxin Ge, Joseph E. Gonzalez, Trevor Darrell, David M. Chan",
+  "https://arxiv.org/abs/2504.13169",
+  2025
+ ],
+ [
+  "Low-hallucination Synthetic Captions for Large-Scale Vision-Language Model Pre-training",
+  "Xinsong Zhang, Yarong Zeng, Xinting Huang, Hu Hu, Runquan Xie, Han Hu, Zhanhui Kang",
+  "https://arxiv.org/abs/2504.13123",
+  2025
+ ],
+ [
+  "Why and How LLMs Hallucinate: Connecting the Dots with Subsequence Associations",
+  "Yiyou Sun, Yu Gai, Lijie Chen, Abhilasha Ravichander, Yejin Choi, Dawn Song",
+  "https://arxiv.org/abs/2504.12691",
+  2025
+ ],
+ [
+  "Beyond Misinformation: A Conceptual Framework for Studying AI Hallucinations in (Science) Communication",
+  "Anqi Shao",
+  "https://arxiv.org/abs/2504.13777",
+  2025
+ ],
+ [
+  "Hydra: An Agentic Reasoning Approach for Enhancing Adversarial Robustness and Mitigating Hallucinations in Vision-Language Models",
+  " Chung-En,  Yu,  Hsuan-Chih,  Chen, Brian Jalaian, Nathaniel D. Bastian",
+  "https://arxiv.org/abs/2504.14395",
+  2025
+ ],
+ [
+  "ResNetVLLM-2: Addressing ResNetVLLM's Multi-Modal Hallucinations",
+  "Ahmad Khalil, Mahmoud Khalil, Alioune Ngom",
+  "https://arxiv.org/abs/2504.14429",
+  2025
+ ],
+ [
+  "(Im)possibility of Automated Hallucination Detection in Large Language Models",
+  "Amin Karbasi, Omar Montasser, John Sous, Grigoris Velegkas",
+  "https://arxiv.org/abs/2504.17004",
+  2025
+ ],
+ [
+  "Span-Level Hallucination Detection for LLM-Generated Answers",
+  "Passant Elchafei, Mervet Abu-Elkheir",
+  "https://arxiv.org/abs/2504.18639",
+  2025
+ ],
+ [
+  "Hallucinations and Key Information Extraction in Medical Texts: A Comprehensive Assessment of Open-Source Large Language Models",
+  "Anindya Bijoy Das, Shibbir Ahmed, Shahnewaz Karim Sakib",
+  "https://arxiv.org/abs/2504.19061",
+  2025
+ ],
+ [
+  "Can LLMs Detect Intrinsic Hallucinations in Paraphrasing and Machine Translation?",
+  "Evangelia Gogoulou, Shorouq Zahra, Liane Guillou, Luise Dürlich, Joakim Nivre",
+  "https://arxiv.org/abs/2504.20699",
+  2025
+ ],
+ [
+  "Hallucination by Code Generation LLMs: Taxonomy, Benchmarks, Mitigation, and Challenges",
+  "Yunseo Lee, John Youngeun Song, Dongsun Kim, Jindae Kim, Mijung Kim, Jaechang Nam",
+  "https://arxiv.org/abs/2504.20799",
+  2025
+ ],
+ [
+  "LLM Enhancer: Merged Approach using Vector Embedding for Reducing Large Language Model Hallucinations with External Knowledge",
+  "Naheed Rayhan, Md. Ashrafuzzaman",
+  "https://arxiv.org/abs/2504.21132",
+  2025
+ ],
+ [
+  "AILS-NTUA at SemEval-2025 Task 3: Leveraging Large Language Models and Translation Strategies for Multilingual Hallucination Detection",
+  "Dimitra Karkani, Maria Lymperaiou, Giorgos Filandrianos, Nikolaos Spanos, Athanasios Voulodimos, Giorgos Stamou",
+  "https://arxiv.org/abs/2503.02442",
+  2025
+ ],
+ [
+  "Hallucination Detection in Foundation Models for Decision-Making: A Flexible Definition and Review of the State of the Art",
+  "Neeloy Chakraborty, Melkior Ornik, Katherine Driggs-Campbell",
+  "https://arxiv.org/abs/2403.16527",
+  2025
+ ],
+ [
+  "HalluCounter: Reference-free LLM Hallucination Detection in the Wild!",
+  "Ashok Urlana, Gopichand Kanumolu, Charaka Vinayak Kumar, Bala Mallikarjunarao Garlapati, Rahul Mishra",
+  "https://arxiv.org/abs/2503.04615",
+  2025
+ ],
+ [
+  "HausaNLP at SemEval-2025 Task 3: Towards a Fine-Grained Model-Aware Hallucination Detection",
+  "Maryam Bala, Amina Imam Abubakar, Abdulhamid Abubakar, Abdulkadir Shehu Bichi, Hafsa Kabir Ahmad, Sani Abdullahi Sani, Idris Abdulmumin, Shamsuddeen Hassan Muhamad, Ibrahim Said Ahmad",
+  "https://arxiv.org/abs/2503.19650",
+  2025
+ ],
+ [
+  "NCL-UoR at SemEval-2025 Task 3: Detecting Multilingual Hallucination and Related Observable Overgeneration Text Spans with Modified RefChecker and Modified SeflCheckGPT",
+  "Jiaying Hong, Thanet Markchom, Jianfei Xu, Tong Wu, Huizhi Liang",
+  "https://arxiv.org/abs/2503.01921",
+  2025
+ ],
+ [
+  "Tackling Hallucination from Conditional Models for Medical Image Reconstruction with DynamicDPS",
+  "Seunghoi Kim, Henry F. J. Tregidgo, Matteo Figini, Chen Jin, Sarang Joshi, Daniel C. Alexander",
+  "https://arxiv.org/abs/2503.01075",
+  2025
+ ],
+ [
+  "Medical Hallucinations in Foundation Models and Their Impact on Healthcare",
+  "Yubin Kim, Hyewon Jeong, Shan Chen, Shuyue Stella Li, Chanwoo Park, Mingyu Lu, Kumail Alhamoud, Jimin Mun, Cristina Grau, Minseok Jung, Rodrigo Gameiro, Lizhou Fan, Eugene Park, Tristan Lin, Joonsik Yoon, Wonjin Yoon, Maarten Sap, Yulia Tsvetkov, Paul Liang, Xuhai Xu, Xin Liu, Chunjong Park, Hyeonhoon Lee, Hae Won Park, Daniel McDuff, Samir Tulebaev, Cynthia Breazeal",
+  "https://arxiv.org/abs/2503.05777",
+  2025
+ ],
+ [
+  "Enhancing Weakly-Supervised Object Detection on Static Images through (Hallucinated) Motion",
+  "Cagri Gungor, Adriana Kovashka",
+  "https://arxiv.org/abs/2409.09616",
+  2025
+ ],
+ [
+  "MedHEval: Benchmarking Hallucinations and Mitigation Strategies in Medical Large Vision-Language Models",
+  "Aofei Chang, Le Huang, Parminder Bhatia, Taha Kass-Hout, Fenglong Ma, Cao Xiao",
+  "https://arxiv.org/abs/2503.02157",
+  2025
+ ],
+ [
+  "Shakespearean Sparks: The Dance of Hallucination and Creativity in LLMs' Decoding Layers",
+  "Zicong He, Boxuan Zhang, Lu Cheng",
+  "https://arxiv.org/abs/2503.02851",
+  2025
+ ],
+ [
+  "HalluVerse25: Fine-grained Multilingual Benchmark Dataset for LLM Hallucinations",
+  "Samir Abdaljalil, Hasan Kurban, Erchin Serpedin",
+  "https://arxiv.org/abs/2503.07833",
+  2025
+ ],
+ [
+  "Graph-Grounded LLMs: Leveraging Graphical Function Calling to Minimize LLM Hallucinations",
+  "Piyush Gupta, Sangjae Bae, David Isele",
+  "https://arxiv.org/abs/2503.10941",
+  2025
+ ],
+ [
+  "RAG-KG-IL: A Multi-Agent Hybrid Framework for Reducing Hallucinations and Enhancing LLM Reasoning through RAG and Incremental Knowledge Graph Learning Integration",
+  "Hong Qing Yu, Frank McQuade",
+  "https://arxiv.org/abs/2503.13514",
+  2025
+ ],
+ [
+  "From \"Hallucination\" to \"Suture\": Insights from Language Philosophy to Enhance Large Language Models",
+  "Qiantong Wang",
+  "https://arxiv.org/abs/2503.14392",
+  2025
+ ],
+ [
+  "HDLCoRe: A Training-Free Framework for Mitigating Hallucinations in LLM-Generated HDL",
+  "Heng Ping, Shixuan Li, Peiyu Zhang, Anzhe Cheng, Shukai Duan, Nikos Kanakaris, Xiongye Xiao, Wei Yang, Shahin Nazarian, Andrei Irimia, Paul Bogdan",
+  "https://arxiv.org/abs/2503.16528",
+  2025
+ ],
+ [
+  "Do Chains-of-Thoughts of Large Language Models Suffer from Hallucinations, Cognitive Biases, or Phobias in Bayesian Reasoning?",
+  "Roberto Araya",
+  "https://arxiv.org/abs/2503.15268",
+  2025
+ ],
+ [
+  "Poly-FEVER: A Multilingual Fact Verification Benchmark for Hallucination Detection in Large Language Models",
+  "Hanzhi Zhang, Sumera Anjum, Heng Fan, Weijian Zheng, Yan Huang, Yunhe Feng",
+  "https://arxiv.org/abs/2503.16541",
+  2025
+ ],
+ [
+  "Don't Fight Hallucinations, Use Them: Estimating Image Realism using NLI over Atomic Facts",
+  "Elisei Rykov, Kseniia Petrushina, Kseniia Titova, Alexander Panchenko, Vasily Konovalov",
+  "https://arxiv.org/abs/2503.15948",
+  2025
+ ],
+ [
+  "ShED-HD: A Shannon Entropy Distribution Framework for Lightweight Hallucination Detection on Edge Devices",
+  "Aneesh Vathul, Daniel Lee, Sheryl Chen, Arthi Tasmia",
+  "https://arxiv.org/abs/2503.18242",
+  2025
+ ],
+ [
+  "Exploring Hallucination of Large Multimodal Models in Video Understanding: Benchmark, Analysis and Mitigation",
+  "Hongcheng Gao, Jiashu Qu, Jingyi Tang, Baolong Bi, Yue Liu, Hongyu Chen, Li Liang, Li Su, Qingming Huang",
+  "https://arxiv.org/abs/2503.19622",
+  2025
+ ],
+ [
+  "Guarding against artificial intelligence--hallucinated citations: the case for full-text reference deposit",
+  "Alex Glynn",
+  "https://arxiv.org/abs/2503.19848",
+  2025
+ ],
+ [
+  "KSHSeek: Data-Driven Approaches to Mitigating and Detecting Knowledge-Shortcut Hallucinations in Generative Models",
+  "Zhongxin Liu, Zhiwei Wang, Jun Niu, Ying Li, Hongyu Sun, Meng Xu, He Wang, Gaofei Wu, Yuqing Zhang",
+  "https://arxiv.org/abs/2503.19482",
+  2025
+ ],
+ [
+  "OAEI-LLM-T: A TBox Benchmark Dataset for Understanding Large Language Model Hallucinations in Ontology Matching",
+  "Zhangcheng Qiang, Kerry Taylor, Weiqing Wang, Jing Jiang",
+  "https://arxiv.org/abs/2503.21813",
+  2025
+ ],
+ [
+  "UniVRSE: Unified Vision-conditioned Response Semantic Entropy for Hallucination Detection in Medical Vision-Language Models",
+  "Zehui Liao, Shishuai Hu, Ke Zou, Mengyuan Jin, Yanning Zhang, Huazhu Fu, Liangli Zhen, Yong Xia",
+  "https://arxiv.org/abs/2503.20504",
+  2025
+ ],
+ [
+  "How do language models learn facts? Dynamics, curricula and hallucinations",
+  "Nicolas Zucchet, Jörg Bornschein, Stephanie Chan, Andrew Lampinen, Razvan Pascanu, Soham De",
+  "https://arxiv.org/abs/2503.21676",
+  2025
+ ],
+ [
+  "Hallucination Detection in Large Language Models with Metamorphic Relations",
+  "Borui Yang, Md Afif Al Mamun, Jie M. Zhang, Gias Uddin",
+  "https://arxiv.org/abs/2502.15844",
+  2025
+ ],
+ [
+  "HalluEntity: Benchmarking and Understanding Entity-Level Hallucination Detection",
+  "Min-Hsuan Yeh, Max Kamachee, Seongheon Park, Yixuan Li",
+  "https://arxiv.org/abs/2502.11948",
+  2025
+ ],
+ [
+  "REFIND at SemEval-2025 Task 3: Retrieval-Augmented Factuality Hallucination Detection in Large Language Models",
+  "DongGeon Lee, Hwanjo Yu",
+  "https://arxiv.org/abs/2502.13622",
+  2025
+ ],
+ [
+  "SOK: Exploring Hallucinations and Security Risks in AI-Assisted Software Development with Insights for LLM Deployment",
+  "Ariful Haque, Sunzida Siddique, Md. Mahfuzur Rahman, Ahmed Rafi Hasan, Laxmi Rani Das, Marufa Kamal, Tasnim Masura, Kishor Datta Gupta",
+  "https://arxiv.org/abs/2502.18468",
+  2025
+ ],
+ [
+  "WonderHuman: Hallucinating Unseen Parts in Dynamic 3D Human Reconstruction",
+  "Zilong Wang, Zhiyang Dou, Yuan Liu, Cheng Lin, Xiao Dong, Yunhui Guo, Chenxu Zhang, Xin Li, Wenping Wang, Xiaohu Guo",
+  "https://arxiv.org/abs/2502.01045",
+  2025
+ ],
+ [
+  "Enhancing Hallucination Detection through Noise Injection",
+  "Litian Liu, Reza Pourreza, Sunny Panchal, Apratim Bhattacharyya, Yubing Jian, Yao Qin, Roland Memisevic",
+  "https://arxiv.org/abs/2502.03799",
+  2025
+ ],
+ [
+  "Linear Correlation in LM's Compositional Generalization and Hallucination",
+  "Letian Peng, Chenyang An, Shibo Hao, Chengyu Dong, Jingbo Shang",
+  "https://arxiv.org/abs/2502.04520",
+  2025
+ ],
+ [
+  "Delta -- Contrastive Decoding Mitigates Text Hallucinations in Large Language Models",
+  "Cheng Peng Huang, Hao-Yuan Chen",
+  "https://arxiv.org/abs/2502.05825",
+  2025
+ ],
+ [
+  "Hallucination Detection: A Probabilistic Framework Using Embeddings Distance Analysis",
+  "Emanuele Ricco, Lorenzo Cima, Roberto Di Pietro",
+  "https://arxiv.org/abs/2502.08663",
+  2025
+ ],
+ [
+  "DeepSeek on a Trip: Inducing Targeted Visual Hallucinations via Representation Vulnerabilities",
+  "Chashi Mahiul Islam, Samuel Jacob Chacko, Preston Horne, Xiuwen Liu",
+  "https://arxiv.org/abs/2502.07905",
+  2025
+ ],
+ [
+  "Hallucination, Monofacts, and Miscalibration: An Empirical Investigation",
+  "Miranda Muqing Miao, Michael Kearns",
+  "https://arxiv.org/abs/2502.08666",
+  2025
+ ],
+ [
+  "HuDEx: Integrating Hallucination Detection and Explainability for Enhancing the Reliability of LLM responses",
+  "Sujeong Lee, Hayoung Lee, Seongsoo Heo, Wonik Choi",
+  "https://arxiv.org/abs/2502.08109",
+  2025
+ ],
+ [
+  "MIH-TCCT: Mitigating Inconsistent Hallucinations in LLMs via Event-Driven Text-Code Cyclic Training",
+  "Xinxin You, Xien Liu, Qixin Sun, Huan Zhang, Kaiyin Zhou, Shaohui Liu, GuoPing Hu, ShiJin Wang, Si Liu, Ji Wu",
+  "https://arxiv.org/abs/2502.08904",
+  2025
+ ],
+ [
+  "Hallucinations and Truth: A Comprehensive Accuracy Evaluation of RAG, LoRA and DoRA",
+  "Mohammad Baqar, Rajat Khanda",
+  "https://arxiv.org/abs/2502.10497",
+  2025
+ ],
+ [
+  "Hallucinations are inevitable but can be made statistically negligible",
+  "Atsushi Suzuki, Yulan He, Feng Tian, Zhongyuan Wang",
+  "https://arxiv.org/abs/2502.12187",
+  2025
+ ],
+ [
+  "Smoothing Out Hallucinations: Mitigating LLM Hallucination with Smoothed Knowledge Distillation",
+  "Hieu Nguyen, Zihao He, Shoumik Atul Gandre, Ujjwal Pasupulety, Sharanya Kumari Shivakumar, Kristina Lerman",
+  "https://arxiv.org/abs/2502.11306",
+  2025
+ ],
+ [
+  "Valuable Hallucinations: Realizable Non-realistic Propositions",
+  "Qiucheng Chen, Bo Wang",
+  "https://arxiv.org/abs/2502.11113",
+  2025
+ ],
+ [
+  "Understanding and Evaluating Hallucinations in 3D Visual Language Models",
+  "Ruiying Peng, Kaiyuan Li, Weichen Zhang, Chen Gao, Xinlei Chen, Yong Li",
+  "https://arxiv.org/abs/2502.15888",
+  2025
+ ],
+ [
+  "Detecting LLM Fact-conflicting Hallucinations Enhanced by Temporal-logic-based Reasoning",
+  "Ningke Li, Yahui Song, Kailong Wang, Yuekang Li, Ling Shi, Yi Liu, Haoyu Wang",
+  "https://arxiv.org/abs/2502.13416",
+  2025
+ ],
+ [
+  "SegSub: Evaluating Robustness to Knowledge Conflicts and Hallucinations in Vision-Language Models",
+  "Peter Carragher, Nikitha Rao, Abhinand Jha, R Raghav, Kathleen M. Carley",
+  "https://arxiv.org/abs/2502.14908",
+  2025
+ ],
+ [
+  "What are Models Thinking about? Understanding Large Language Model Hallucinations \"Psychology\" through Model Inner State Analysis",
+  "Peiran Wang, Yang Liu, Yunfei Lu, Jue Hong, Ye Wu",
+  "https://arxiv.org/abs/2502.13490",
+  2025
+ ],
+ [
+  "`Generalization is hallucination' through the lens of tensor completions",
+  "Liang Ze Wong",
+  "https://arxiv.org/abs/2502.17305",
+  2025
+ ],
+ [
+  "LettuceDetect: A Hallucination Detection Framework for RAG Applications",
+  "Ádám Kovács, Gábor Recski",
+  "https://arxiv.org/abs/2502.17125",
+  2025
+ ],
+ [
+  "Mitigating Hallucinations in Diffusion Models through Adaptive Attention Modulation",
+  "Trevine Oorloff, Yaser Yacoob, Abhinav Shrivastava",
+  "https://arxiv.org/abs/2502.16872",
+  2025
+ ],
+ [
+  "FilterRAG: Zero-Shot Informed Retrieval-Augmented Generation to Mitigate Hallucinations in VQA",
+  "Nobin Sarwar",
+  "https://arxiv.org/abs/2502.18536",
+  2025
+ ],
+ [
+  "Bi'an: A Bilingual Benchmark and Model for Hallucination Detection in Retrieval-Augmented Generation",
+  "Zhouyu Jiang, Mengshu Sun, Zhiqiang Zhang, Lei Liang",
+  "https://arxiv.org/abs/2502.19209",
+  2025
+ ],
+ [
+  "Winning Big with Small Models: Knowledge Distillation vs. Self-Training for Reducing Hallucination in Product QA Agents",
+  "Ashley Lewis, Michael White, Jing Liu, Toshiaki Koike-Akino, Kieran Parsons, Ye Wang",
+  "https://arxiv.org/abs/2502.19545",
+  2025
+ ],
+ [
+  "MedHallTune: An Instruction-Tuning Benchmark for Mitigating Medical Hallucination in Vision-Language Models",
+  "Qiao Yan, Yuchen Yuan, Xiaowei Hu, Yihan Wang, Jiaqi Xu, Jinpeng Li, Chi-Wing Fu, Pheng-Ann Heng",
+  "https://arxiv.org/abs/2502.20780",
+  2025
+ ],
+ [
+  "ChartInsighter: An Approach for Mitigating Hallucination in Time-series Chart Summary Generation with A Benchmark Dataset",
+  "Fen Wang, Bomiao Wang, Xueli Shu, Zhen Liu, Zekai Shao, Chao Liu, Siming Chen",
+  "https://arxiv.org/abs/2501.09349",
+  2025
+ ],
+ [
+  "Dynamics-inspired Structure Hallucination for Protein-protein Interaction Modeling",
+  "Fang Wu, Stan Z. Li",
+  "https://arxiv.org/abs/2601.06214",
+  2025
+ ],
+ [
+  "Hallucination-Free Automatic Question & Answer Generation for Intuitive Learning",
+  "Nicholas X. Wang, Aggelos K. Katsaggelos",
+  "https://arxiv.org/abs/2601.14280",
+  2025
+ ],
+ [
+  "Mirage in the Eyes: Hallucination Attack on Multi-modal Large Language Models with Only Attention Sink",
+  "Yining Wang, Mi Zhang, Junjie Sun, Chenyue Wang, Min Yang, Hui Xue, Jialing Tao, Ranjie Duan, Jiexi Liu",
+  "https://arxiv.org/abs/2501.15269",
+  2025
+ ],
+ [
+  "EAGLE: Enhanced Visual Grounding Minimizes Hallucinations in Instructional Multimodal Models",
+  "Andrés Villa, Juan León Alcázar, Motasem Alfarra, Vladimir Araujo, Alvaro Soto, Bernard Ghanem",
+  "https://arxiv.org/abs/2501.02699",
+  2025
+ ],
+ [
+  "Prompt-Based Monte Carlo Tree Search for Mitigating Hallucinations in Large Models",
+  "Zhihua Duan, Jialin Wang",
+  "https://arxiv.org/abs/2501.13942",
+  2025
+ ],
+ [
+  "Hallucination Mitigation using Agentic AI Natural Language-Based Frameworks",
+  "Diego Gosmar, Deborah A. Dahl",
+  "https://arxiv.org/abs/2501.13946",
+  2025
+ ],
+ [
+  "Question-to-Question Retrieval for Hallucination-Free Knowledge Access: An Approach for Wikipedia and Wikidata Question Answering",
+  "Santhosh Thottingal",
+  "https://arxiv.org/abs/2501.11301",
+  2025
+ ],
+ [
+  "OnionEval: An Unified Evaluation of Fact-conflicting Hallucination for Small-Large Language Models",
+  "Chongren Sun, Yuran Li, Di Wu, Benoit Boulet",
+  "https://arxiv.org/abs/2501.12975",
+  2025
+ ],
+ [
+  "Can Hallucinations Help? Boosting LLMs for Drug Discovery",
+  "Shuzhou Yuan, Zhan Qu, Ashish Yashwanth Kangen, Michael Färber",
+  "https://arxiv.org/abs/2501.13824",
+  2025
+ ],
+ [
+  "Measuring and Mitigating Hallucinations in Vision-Language Dataset Generation for Remote Sensing",
+  "Madeline Anderson, Miriam Cha, William T. Freeman, J. Taylor Perron, Nathaniel Maidel, Kerri Cahoy",
+  "https://arxiv.org/abs/2501.14905",
+  2025
+ ],
+ [
+  "Importing Phantoms: Measuring LLM Package Hallucination Vulnerabilities",
+  "Arjun Krishna, Erick Galinkin, Leon Derczynski, Jeffrey Martin",
+  "https://arxiv.org/abs/2501.19012",
+  2025
+ ],
+ [
+  "THaMES: An End-to-End Tool for Hallucination Mitigation and Evaluation in Large Language Models",
+  "Mengfei Liang, Archish Arun, Zekun Wu, Cristian Munoz, Jonathan Lutch, Emre Kazim, Adriano Koshiyama, Philip Treleaven",
+  "https://arxiv.org/abs/2409.11353",
+  2024
+ ],
+ [
+  "An Evolutionary Large Language Model for Hallucination Mitigation",
+  "Abdennour Boulesnane, Abdelhakim Souilah",
+  "https://arxiv.org/abs/2412.02790",
+  2024
+ ],
+ [
+  "100% Elimination of Hallucinations on RAGTruth for GPT-4 and GPT-3.5 Turbo",
+  "Michael C. Wood, Adam A. Forbes",
+  "https://arxiv.org/abs/2412.05223",
+  2024
+ ],
+ [
+  "Evaluating Hallucination in Text-to-Image Diffusion Models with Scene-Graph based Question-Answering Agent",
+  "Ziyuan Qin, Dongjie Cheng, Haoyu Wang, Huahui Yi, Yuting Shao, Zhiyuan Fan, Kang Li, Qicheng Lao",
+  "https://arxiv.org/abs/2412.05722",
+  2024
+ ],
+ [
+  "Delve into Visual Contrastive Decoding for Hallucination Mitigation of Large Vision-Language Models",
+  "Yi-Lun Lee, Yi-Hsuan Tsai, Wei-Chen Chiu",
+  "https://arxiv.org/abs/2412.06775",
+  2024
+ ],
+ [
+  "The HalluRAG Dataset: Detecting Closed-Domain Hallucinations in RAG Applications Using an LLM's Internal States",
+  "Fabian Ridder, Malte Schilling",
+  "https://arxiv.org/abs/2412.17056",
+  2024
+ ],
+ [
+  "From Hallucinations to Facts: Enhancing Language Models with Curated Knowledge Graphs",
+  "Ratnesh Kumar Joshi, Sagnik Sengupta, Asif Ekbal",
+  "https://arxiv.org/abs/2412.18672",
+  2024
+ ],
+ [
+  "On Characterizations for Language Generation: Interplay of Hallucinations, Breadth, and Stability",
+  "Alkis Kalavasis, Anay Mehrotra, Grigoris Velegkas",
+  "https://arxiv.org/abs/2412.18530",
+  2024
+ ],
+ [
+  "Towards a Systematic Evaluation of Hallucinations in Large-Vision Language Models",
+  "Ashish Seth, Dinesh Manocha, Chirag Agarwal",
+  "https://arxiv.org/abs/2412.20622",
+  2024
+ ],
+ [
+  "Exploring the Knowledge Mismatch Hypothesis: Hallucination Propensity in Small Models Fine-tuned on Data from Larger Models",
+  "Phil Wee, Riyadh Baghdadi",
+  "https://arxiv.org/abs/2411.00878",
+  2024
+ ],
+ [
+  "EF-LLM: Energy Forecasting LLM with AI-assisted Automation, Enhanced Sparse Prediction, Hallucination Detection",
+  "Zihang Qiu, Chaojie Li, Zhongyang Wang, Renyou Xie, Borui Zhang, Huadong Mo, Guo Chen, Zhaoyang Dong",
+  "https://arxiv.org/abs/2411.00852",
+  2024
+ ],
+ [
+  "Pre-trained Language Models Return Distinguishable Probability Distributions to Unfaithfully Hallucinated Texts",
+  "Taehun Cha, Donghun Lee",
+  "https://arxiv.org/abs/2409.16658",
+  2024
+ ],
+ [
+  "H-POPE: Hierarchical Polling-based Probing Evaluation of Hallucinations in Large Vision-Language Models",
+  "Nhi Pham, Michael Schott",
+  "https://arxiv.org/abs/2411.04077",
+  2024
+ ],
+ [
+  "Mitigating Hallucination with ZeroG: An Advanced Knowledge Management Engine",
+  "Anantha Sharma, Sheeba Elizabeth John, Fatemeh Rezapoor Nikroo, Krupali Bhatt, Mrunal Zambre, Aditi Wikhe",
+  "https://arxiv.org/abs/2411.05936",
+  2024
+ ],
+ [
+  "Seeing Through the Fog: A Cost-Effectiveness Analysis of Hallucination Detection Systems",
+  "Alexander Thomas, Seth Rosen, Vishnu Vettrivel",
+  "https://arxiv.org/abs/2411.05270",
+  2024
+ ],
+ [
+  "Prompt-Efficient Fine-Tuning for GPT-like Deep Models to Reduce Hallucination and to Improve Reproducibility in Scientific Text Generation Using Stochastic Optimisation Techniques",
+  "Daniil Sulimov",
+  "https://arxiv.org/abs/2411.06445",
+  2024
+ ],
+ [
+  "DecoPrompt : Decoding Prompts Reduces Hallucinations when Large Language Models Meet False Premises",
+  "Nan Xu, Xuezhe Ma",
+  "https://arxiv.org/abs/2411.07457",
+  2024
+ ],
+ [
+  "DAHL: Domain-specific Automated Hallucination Evaluation of Long-Form Text through a Benchmark Dataset in Biomedicine",
+  "Jean Seo, Jongwon Lim, Dongjun Jang, Hyopil Shin",
+  "https://arxiv.org/abs/2411.09255",
+  2024
+ ],
+ [
+  "Probing LLM Hallucination from Within: Perturbation-Driven Approach via Internal Knowledge",
+  "Seongmin Lee, Hsiang Hsu, Chun-Fu Chen, Duen Horng Chau",
+  "https://arxiv.org/abs/2411.09689",
+  2024
+ ],
+ [
+  "Thinking Before Looking: Improving Multimodal LLM Reasoning via Mitigating Visual Hallucination",
+  "Haojie Zheng, Tianyang Xu, Hanchi Sun, Shu Pu, Ruoxi Chen, Lichao Sun",
+  "https://arxiv.org/abs/2411.12591",
+  2024
+ ],
+ [
+  "A Novel Approach to Eliminating Hallucinations in Large Language Model-Assisted Causal Discovery",
+  "Grace Sng, Yanming Zhang, Klaus Mueller",
+  "https://arxiv.org/abs/2411.12759",
+  2024
+ ],
+ [
+  "ViBe: A Text-to-Video Benchmark for Evaluating Hallucination in Large Multimodal Models",
+  "Vipula Rawte, Sarthak Jain, Aarush Sinha, Garv Kaushik, Aman Bansal, Prathiksha Rumale Vishwanath, Samyak Rajesh Jain, Aishwarya Naresh Reganti, Vinija Jain, Aman Chadha, Amit P. Sheth, Amitava Das",
+  "https://arxiv.org/abs/2411.10867",
+  2024
+ ],
+ [
+  "Addressing Hallucinations in Language Models with Knowledge Graph Embeddings as an Additional Modality",
+  "Viktoriia Chekalina, Anton Razzhigaev, Elizaveta Goncharova, Andrey Kuznetsov",
+  "https://arxiv.org/abs/2411.11531",
+  2024
+ ],
+ [
+  "VL-Uncertainty: Detecting Hallucination in Large Vision-Language Model via Uncertainty Estimation",
+  "Ruiyang Zhang, Hu Zhang, Zhedong Zheng",
+  "https://arxiv.org/abs/2411.11919",
+  2024
+ ],
+ [
+  "CATCH: Complementary Adaptive Token-level Contrastive Decoding to Mitigate Hallucinations in LVLMs",
+  "Zhehan Kan, Ce Zhang, Zihan Liao, Yapeng Tian, Wenming Yang, Junyuan Xiao, Xu Li, Dongmei Jiang, Yaowei Wang, Qingmin Liao",
+  "https://arxiv.org/abs/2411.12713",
+  2024
+ ],
+ [
+  "Hallucination Detection in Virtually-Stained Histology: A Latent Space Baseline",
+  "Ji-Hun Oh, Kianoush Falahkheirkhah, John Cheville, Rohit Bhargava",
+  "https://arxiv.org/abs/2411.15060",
+  2024
+ ],
+ [
+  "Enhancing Multi-Agent Consensus through Third-Party LLM Integration: Analyzing Uncertainty and Mitigating Hallucinations in Large Language Models",
+  "Zhihua Duan, Jialin Wang",
+  "https://arxiv.org/abs/2411.16189",
+  2024
+ ],
+ [
+  "VidHal: Benchmarking Temporal Hallucinations in Vision LLMs",
+  "Wey Yeh Choong, Yangyang Guo, Mohan Kankanhalli",
+  "https://arxiv.org/abs/2411.16771",
+  2024
+ ],
+ [
+  "CPR: Mitigating Large Language Model Hallucinations with Curative Prompt Refinement",
+  "Jung-Woo Shim, Yeong-Joon Ju, Ji-Hoon Park, Seong-Whan Lee",
+  "https://arxiv.org/abs/2510.12029",
+  2024
+ ],
+ [
+  "The Effects of Hallucinations in Synthetic Training Data for Relation Extraction",
+  "Steven Rogulsky, Nicholas Popovic, Michael Färber",
+  "https://arxiv.org/abs/2410.08393",
+  2024
+ ],
+ [
+  "Ingest-And-Ground: Dispelling Hallucinations from Continually-Pretrained LLMs with RAG",
+  "Chenhao Fang, Derek Larson, Shitong Zhu, Sophie Zeng, Wendy Summer, Yanqing Peng, Yuriy Hulovatyy, Rajeev Rao, Gabriel Forgues, Arya Pudota, Alex Goncalves, Hervé Robert",
+  "https://arxiv.org/abs/2410.02825",
+  2024
+ ],
+ [
+  "Mitigating Hallucinations Using Ensemble of Knowledge Graph and Vector Store in Large Language Models to Enhance Mental Health Support",
+  "Abdul Muqtadir, Hafiz Syed Muhammad Bilal, Ayesha Yousaf, Hafiz Farooq Ahmed, Jamil Hussain",
+  "https://arxiv.org/abs/2410.10853",
+  2024
+ ],
+ [
+  "Hallucinating AI Hijacking Attack: Large Language Models and Malicious Code Recommenders",
+  "David Noever, Forrest McKee",
+  "https://arxiv.org/abs/2410.06462",
+  2024
+ ],
+ [
+  "Collu-Bench: A Benchmark for Predicting Language Model Hallucinations in Code",
+  "Nan Jiang, Qi Li, Lin Tan, Tianyi Zhang",
+  "https://arxiv.org/abs/2410.09997",
+  2024
+ ],
+ [
+  "LongHalQA: Long-Context Hallucination Evaluation for MultiModal Large Language Models",
+  "Han Qiu, Jiaxing Huang, Peng Gao, Qin Qi, Xiaoqin Zhang, Ling Shao, Shijian Lu",
+  "https://arxiv.org/abs/2410.09962",
+  2024
+ ],
+ [
+  "Automatically Generating Visual Hallucination Test Cases for Multimodal Large Language Models",
+  "Zhongye Liu, Hongbin Liu, Yuepeng Hu, Zedian Shao, Neil Zhenqiang Gong",
+  "https://arxiv.org/abs/2410.11242",
+  2024
+ ],
+ [
+  "Magnifier Prompt: Tackling Multimodal Hallucination via Extremely Simple Instructions",
+  "Yuhan Fu, Ruobing Xie, Jiazhen Liu, Bangxiang Lan, Xingwu Sun, Zhanhui Kang, Xirong Li",
+  "https://arxiv.org/abs/2410.11701",
+  2024
+ ],
+ [
+  "Iter-AHMCL: Alleviate Hallucination for Large Language Model via Iterative Model-level Contrastive Learning",
+  "Huiwen Wu, Xiaohan Li, Xiaogang Xu, Jiafei Wu, Deyi Zhang, Zhe Liu",
+  "https://arxiv.org/abs/2410.12130",
+  2024
+ ],
+ [
+  "Good Parenting is all you need -- Multi-agentic LLM Hallucination Mitigation",
+  "Ted Kwartler, Matthew Berman, Alan Aqrawi",
+  "https://arxiv.org/abs/2410.14262",
+  2024
+ ],
+ [
+  "A Survey of Hallucination in Large Visual Language Models",
+  "Wei Lan, Wenyi Chen, Qingfeng Chen, Shirui Pan, Huiyu Zhou, Yi Pan",
+  "https://arxiv.org/abs/2410.15359",
+  2024
+ ],
+ [
+  "Large Language Models Powered Multiagent Ensemble for Mitigating Hallucination and Efficient Atrial Fibrillation Annotation of ECG Reports",
+  "Jingwei Huang, Kuroush Nezafati, Ismael Villanueva-Miranda, Zifan Gu, Yueshuang Xu, Ann Marie Navar, Tingyi Wanyan, Qin Zhou, Bo Yao, Ruichen Rong, Xiaowei Zhan, Guanghua Xiao, Eric D. Peterson, Donghan M. Yang, Wenqi Shi, Yang Xie",
+  "https://arxiv.org/abs/2410.16543",
+  2024
+ ],
+ [
+  "Leveraging the Domain Adaptation of Retrieval Augmented Generation Models for Question Answering and Reducing Hallucination",
+  "Salman Rakin, Md. A. R. Shibly, Zahin M. Hossain, Zeeshan Khan, Md. Mostofa Akbar",
+  "https://arxiv.org/abs/2410.17783",
+  2024
+ ],
+ [
+  "Multilingual Hallucination Gaps in Large Language Models",
+  "Cléa Chataigner, Afaf Taïk, Golnoosh Farnadi",
+  "https://arxiv.org/abs/2410.18270",
+  2024
+ ],
+ [
+  "A Debate-Driven Experiment on LLM Hallucinations and Accuracy",
+  "Ray Li, Tanishka Bagade, Kevin Martinez, Flora Yasmin, Grant Ayala, Michael Lam, Kevin Zhu",
+  "https://arxiv.org/abs/2410.19485",
+  2024
+ ],
+ [
+  "Investigating the Role of Prompting and External Tools in Hallucination Rates of Large Language Models",
+  "Liam Barkley, Brink van der Merwe",
+  "https://arxiv.org/abs/2410.19385",
+  2024
+ ],
+ [
+  "Beyond Fine-Tuning: Effective Strategies for Mitigating Hallucinations in Large Language Models for Data Analytics",
+  "Mikhail Rumiantsau, Aliaksei Vertsel, Ilya Hrytsuk, Isaiah Ballah",
+  "https://arxiv.org/abs/2410.20024",
+  2024
+ ],
+ [
+  "Maintaining Informative Coherence: Migrating Hallucinations in Large Language Models via Absorbing Markov Chains",
+  "Jiemin Wu, Songning Lai, Ruiqiang Xiao, Tianlang Xue, Jiayu Yang, Yutao Yue",
+  "https://arxiv.org/abs/2410.20340",
+  2024
+ ],
+ [
+  "Distinguishing Ignorance from Error in LLM Hallucinations",
+  "Adi Simhi, Jonathan Herzig, Idan Szpektor, Yonatan Belinkov",
+  "https://arxiv.org/abs/2410.22071",
+  2024
+ ],
+ [
+  "A Unified Hallucination Mitigation Framework for Large Vision-Language Models",
+  "Yue Chang, Liqiang Jing, Xiaopeng Zhang, Yue Zhang",
+  "https://arxiv.org/abs/2409.16494",
+  2024
+ ],
+ [
+  "OAEI-LLM: A Benchmark Dataset for Understanding Large Language Model Hallucinations in Ontology Matching",
+  "Zhangcheng Qiang, Kerry Taylor, Weiqing Wang, Jing Jiang",
+  "https://arxiv.org/abs/2409.14038",
+  2024
+ ],
+ [
+  "Pre-Training Multimodal Hallucination Detectors with Corrupted Grounding Data",
+  "Spencer Whitehead, Jacob Phillips, Sean Hendryx",
+  "https://arxiv.org/abs/2409.00238",
+  2024
+ ],
+ [
+  "Hallucination Detection in LLMs: Fast and Memory-Efficient Fine-Tuned Models",
+  "Gabriel Y. Arteaga, Thomas B. Schön, Nicolas Pielawski",
+  "https://arxiv.org/abs/2409.02976",
+  2024
+ ],
+ [
+  "Combining LLMs and Knowledge Graphs to Reduce Hallucinations in Question Answering",
+  "Larissa Pusch, Tim O. F. Conrad",
+  "https://arxiv.org/abs/2409.04181",
+  2024
+ ],
+ [
+  "Gaps or Hallucinations? Gazing into Machine-Generated Legal Analysis for Fine-grained Text Evaluations",
+  "Abe Bohan Hou, William Jurayj, Nils Holzenberger, Andrew Blair-Stanek, Benjamin Van Durme",
+  "https://arxiv.org/abs/2409.09947",
+  2024
+ ],
+ [
+  "A Multiple-Fill-in-the-Blank Exam Approach for Enhancing Zero-Resource Hallucination Detection in Large Language Models",
+  "Satoshi Munakata, Taku Fukui, Takao Mohri",
+  "https://arxiv.org/abs/2409.17173",
+  2024
+ ],
+ [
+  "FIHA: Autonomous Hallucination Evaluation in Vision-Language Models with Davidson Scene Graphs",
+  "Bowen Yan, Zhengsong Zhang, Liqiang Jing, Eftekhar Hossain, Xinya Du",
+  "https://arxiv.org/abs/2409.13612",
+  2024
+ ],
+ [
+  "Long-horizon Embodied Planning with Implicit Logical Inference and Hallucination Mitigation",
+  "Siyuan Liu, Jiawei Du, Sicheng Xiang, Zibo Wang, Dingsheng Luo",
+  "https://arxiv.org/abs/2409.15658",
+  2024
+ ],
+ [
+  "EventHallusion: Diagnosing Event Hallucinations in Video LLMs",
+  "Jiacheng Zhang, Yang Jiao, Shaoxiang Chen, Na Zhao, Zhiyu Tan, Hao Li, Xingjun Ma, Jingjing Chen",
+  "https://arxiv.org/abs/2409.16597",
+  2024
+ ],
+ [
+  "MedHalu: Hallucinations in Responses to Healthcare Queries by Large Language Models",
+  "Vibhor Agarwal, Yiqiao Jin, Mohit Chandra, Munmun De Choudhury, Srijan Kumar, Nishanth Sastry",
+  "https://arxiv.org/abs/2409.19492",
+  2024
+ ],
+ [
+  "Controlled Automatic Task-Specific Synthetic Data Generation for Hallucination Detection",
+  "Yong Xie, Karan Aggarwal, Aitzaz Ahmad, Stephen Lau",
+  "https://arxiv.org/abs/2410.12278",
+  2024
+ ],
+ [
+  "Honest AI: Fine-Tuning \"Small\" Language Models to Say \"I Don't Know\", and Reducing Hallucination in RAG",
+  "Xinxi Chen, Li Wang, Wei Wu, Qi Tang, Yiyao Liu",
+  "https://arxiv.org/abs/2410.09699",
+  2024
+ ],
+ [
+  "Piculet: Specialized Models-Guided Hallucination Decrease for MultiModal Large Language Models",
+  "Kohou Wang, Xiang Liu, Zhaoxiang Liu, Kai Wang, Shiguo Lian",
+  "https://arxiv.org/abs/2408.01003",
+  2024
+ ],
+ [
+  "FiSTECH: Financial Style Transfer to Enhance Creativity without Hallucinations in LLMs",
+  "Sohini Roychowdhury, Marko Krema, Brian Moore, Xingjian Lai, Dike Effedua, Bharat Jethwani",
+  "https://arxiv.org/abs/2408.05365",
+  2024
+ ],
+ [
+  "Order Matters in Hallucination: Reasoning Order as Benchmark and Reflexive Prompting for Large-Language-Models",
+  "Zikai Xie",
+  "https://arxiv.org/abs/2408.05093",
+  2024
+ ],
+ [
+  "CodeMirage: Hallucinations in Code Generated by Large Language Models",
+  "Vibhor Agarwal, Yulong Pei, Salwa Alamir, Xiaomo Liu",
+  "https://arxiv.org/abs/2408.08333",
+  2024
+ ],
+ [
+  "Training Language Models on the Knowledge Graph: Insights on Hallucinations and Their Detectability",
+  "Jiri Hron, Laura Culp, Gamaleldin Elsayed, Rosanne Liu, Ben Adlam, Maxwell Bileschi, Bernd Bohnet, JD Co-Reyes, Noah Fiedel, C. Daniel Freeman, Izzeddin Gur, Kathleen Kenealy, Jaehoon Lee, Peter J. Liu, Gaurav Mishra, Igor Mordatch, Azade Nova, Roman Novak, Aaron Parisi, Jeffrey Pennington, Alex Rizkowsky, Isabelle Simpson, Hanie Sedghi, Jascha Sohl-dickstein, Kevin Swersky, Sharad Vikram, Tris Warkentin, Lechao Xiao, Kelvin Xu, Jasper Snoek, Simon Kornblith",
+  "https://arxiv.org/abs/2408.07852",
+  2024
+ ],
+ [
+  "Lower Layers Matter: Alleviating Hallucination via Multi-Layer Fusion Contrastive Decoding with Truthfulness Refocused",
+  "Dingwei Chen, Feiteng Fang, Shiwen Ni, Feng Liang, Xiping Hu, Ahmadreza Argha, Hamid Alinejad-Rokny, Min Yang, Chengming Li",
+  "https://arxiv.org/abs/2408.08769",
+  2024
+ ],
+ [
+  "Interactive DualChecker for Mitigating Hallucinations in Distilling Large Language Models",
+  "Meiyun Wang, Masahiro Suzuki, Hiroki Sakaji, Kiyoshi Izumi",
+  "https://arxiv.org/abs/2408.12326",
+  2024
+ ],
+ [
+  "SLM Meets LLM: Balancing Latency, Interpretability and Consistency in Hallucination Detection",
+  "Mengya Hu, Rui Xu, Deren Lei, Yaxi Li, Mingyu Wang, Emily Ching, Eslam Kamal, Alex Deng",
+  "https://arxiv.org/abs/2408.12748",
+  2024
+ ],
+ [
+  "Towards Reliable Medical Question Answering: Techniques and Challenges in Mitigating Hallucinations in Language Models",
+  "Duy Khoa Pham, Bao Quoc Vo",
+  "https://arxiv.org/abs/2408.13808",
+  2024
+ ],
+ [
+  "LRP4RAG: Detecting Hallucinations in Retrieval-Augmented Generation via Layer-wise Relevance Propagation",
+  "Haichuan Hu, Congqing He, Xiaochen Xie, Quanjun Zhang",
+  "https://arxiv.org/abs/2408.15533",
+  2024
+ ],
+ [
+  "DAHRS: Divergence-Aware Hallucination-Remediated SRL Projection",
+  "Sangpil Youm, Brodie Mather, Chathuri Jayaweera, Juliana Prada, Bonnie Dorr",
+  "https://arxiv.org/abs/2407.09283",
+  2024
+ ],
+ [
+  "The Two Sides of the Coin: Hallucination Generation and Detection with LLMs as Evaluators for LLMs",
+  "Anh Thu Maria Bui, Saskia Felizitas Brech, Natalie Hußfeldt, Tobias Jennert, Melanie Ullrich, Timo Breuer, Narjes Nikzad Khasmakhi, Philipp Schaer",
+  "https://arxiv.org/abs/2407.09152",
+  2024
+ ],
+ [
+  "PFME: A Modular Approach for Fine-grained Hallucination Detection and Editing of Large Language Models",
+  "Kunquan Deng, Zeyu Huang, Chen Li, Chenghua Lin, Min Gao, Wenge Rong",
+  "https://arxiv.org/abs/2407.00488",
+  2024
+ ],
+ [
+  "ANAH: Analytical Annotation of Hallucinations in Large Language Models",
+  "Ziwei Ji, Yuzhe Gu, Wenwei Zhang, Chengqi Lyu, Dahua Lin, Kai Chen",
+  "https://arxiv.org/abs/2405.20315",
+  2024
+ ],
+ [
+  "Analyzing LLM Behavior in Dialogue Summarization: Unveiling Circumstantial Hallucination Trends",
+  "Sanjana Ramprasad, Elisa Ferracane, Zachary C. Lipton",
+  "https://arxiv.org/abs/2406.03487",
+  2024
+ ],
+ [
+  "ANHALTEN: Cross-Lingual Transfer for German Token-Level Reference-Free Hallucination Detection",
+  "Janek Herrlein, Chia-Chien Hung, Goran Glavaš",
+  "https://arxiv.org/abs/2407.13702",
+  2024
+ ],
+ [
+  "Before Generation, Align it! A Novel and Effective Strategy for Mitigating Hallucinations in Text-to-SQL Generation",
+  "Ge Qu, Jinyang Li, Bowen Li, Bowen Qin, Nan Huo, Chenhao Ma, Reynold Cheng",
+  "https://arxiv.org/abs/2405.15307",
+  2024
+ ],
+ [
+  "Confabulation: The Surprising Value of Large Language Model Hallucinations",
+  "Peiqi Sui, Eamon Duede, Sophie Wu, Richard Jean So",
+  "https://arxiv.org/abs/2406.04175",
+  2024
+ ],
+ [
+  "Don't Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration",
+  "Shangbin Feng, Weijia Shi, Yike Wang, Wenxuan Ding, Vidhisha Balachandran, Yulia Tsvetkov",
+  "https://arxiv.org/abs/2402.00367",
+  2024
+ ],
+ [
+  "Genetic Approach to Mitigate Hallucination in Generative IR",
+  "Hrishikesh Kulkarni, Nazli Goharian, Ophir Frieder, Sean MacAvaney",
+  "https://arxiv.org/abs/2409.00085",
+  2024
+ ],
+ [
+  "InterrogateLLM: Zero-Resource Hallucination Detection in LLM-Generated Answers",
+  "Yakir Yehuda, Itzik Malkiel, Oren Barkan, Jonathan Weill, Royi Ronen, Noam Koenigstein",
+  "https://arxiv.org/abs/2403.02889",
+  2024
+ ],
+ [
+  "Investigating and Mitigating the Multimodal Hallucination Snowballing in Large Vision-Language Models",
+  "Weihong Zhong, Xiaocheng Feng, Liang Zhao, Qiming Li, Lei Huang, Yuxuan Gu, Weitao Ma, Yuan Xu, Bing Qin",
+  "https://arxiv.org/abs/2407.00569",
+  2024
+ ],
+ [
+  "Less is More: Mitigating Multimodal Hallucination from an EOS Decision Perspective",
+  "Zihao Yue, Liang Zhang, Qin Jin",
+  "https://arxiv.org/abs/2402.14545",
+  2024
+ ],
+ [
+  "Leveraging Graph Structures to Detect Hallucinations in Large Language Models",
+  "Noa Nonkes, Sergei Agaronian, Evangelos Kanoulas, Roxana Petcu",
+  "https://arxiv.org/abs/2407.04485",
+  2024
+ ],
+ [
+  "On the Hallucination in Simultaneous Machine Translation",
+  "Meizhi Zhong, Kehai Chen, Zhengshan Xue, Lemao Liu, Mingming Yang, Min Zhang",
+  "https://arxiv.org/abs/2406.07239",
+  2024
+ ],
+ [
+  "OTTAWA: Optimal TransporT Adaptive Word Aligner for Hallucination and Omission Translation Errors Detection",
+  "Chenyang Huang, Abbas Ghaddar, Ivan Kobyzev, Mehdi Rezagholizadeh, Osmar R. Zaiane, Boxing Chen",
+  "https://arxiv.org/abs/2406.01919",
+  2024
+ ],
+ [
+  "Self-Alignment for Factuality: Mitigating Hallucinations in LLMs via Self-Evaluation",
+  "Xiaoying Zhang, Baolin Peng, Ye Tian, Jingyan Zhou, Lifeng Jin, Linfeng Song, Haitao Mi, Helen Meng",
+  "https://arxiv.org/abs/2402.09267",
+  2024
+ ],
+ [
+  "Strong hallucinations from negation and how to fix them",
+  "Nicholas Asher, Swarnadeep Bhar",
+  "https://arxiv.org/abs/2402.10543",
+  2024
+ ],
+ [
+  "The Dawn After the Dark: An Empirical Study on Factuality Hallucination in Large Language Models",
+  "Junyi Li, Jie Chen, Ruiyang Ren, Xiaoxue Cheng, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen",
+  "https://arxiv.org/abs/2401.03205",
+  2024
+ ],
+ [
+  "TimeChara: Evaluating Point-in-Time Character Hallucination of Role-Playing Large Language Models",
+  "Jaewoo Ahn, Taehyun Lee, Junyoung Lim, Jin-Hwa Kim, Sangdoo Yun, Hwaran Lee, Gunhee Kim",
+  "https://arxiv.org/abs/2405.18027",
+  2024
+ ],
+ [
+  "Truth-Aware Context Selection: Mitigating Hallucinations of Large Language Models Being Misled by Untruthful Contexts",
+  "Tian Yu, Shaolei Zhang, Yang Feng",
+  "https://arxiv.org/abs/2403.07556",
+  2024
+ ],
+ [
+  "TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space",
+  "Shaolei Zhang, Tian Yu, Yang Feng",
+  "https://arxiv.org/abs/2402.17811",
+  2024
+ ],
+ [
+  "Unified Hallucination Detection for Multimodal Large Language Models",
+  "Xiang Chen, Chenxi Wang, Yida Xue, Ningyu Zhang, Xiaoyan Yang, Qiang Li, Yue Shen, Lei Liang, Jinjie Gu, Huajun Chen",
+  "https://arxiv.org/abs/2402.03190",
+  2024
+ ],
+ [
+  "Unsupervised Real-Time Hallucination Detection based on the Internal States of Large Language Models",
+  "Weihang Su, Changyue Wang, Qingyao Ai, Yiran HU, Zhijing Wu, Yujia Zhou, Yiqun Liu",
+  "https://arxiv.org/abs/2403.06448",
+  2024
+ ],
+ [
+  "Visual Hallucinations of Multi-modal Large Language Models",
+  "Wen Huang, Hongbin Liu, Minxin Guo, Neil Zhenqiang Gong",
+  "https://arxiv.org/abs/2402.14683",
+  2024
+ ],
+ [
+  "MedVH: Towards Systematic Evaluation of Hallucination for Large Vision Language Models in the Medical Context",
+  "Zishan Gu, Changchang Yin, Fenglin Liu, Ping Zhang",
+  "https://arxiv.org/abs/2407.02730",
+  2024
+ ],
+ [
+  "Code Hallucination",
+  "Mirza Masfiqur Rahman, Ashish Kundu",
+  "https://arxiv.org/abs/2407.04831",
+  2024
+ ],
+ [
+  "Knowledge Overshadowing Causes Amalgamated Hallucination in Large Language Models",
+  "Yuji Zhang, Sha Li, Jiateng Liu, Pengfei Yu, Yi R. Fung, Jing Li, Manling Li, Heng Ji",
+  "https://arxiv.org/abs/2407.08039",
+  2024
+ ],
+ [
+  "Lynx: An Open Source Hallucination Evaluation Model",
+  "Selvan Sunitha Ravi, Bartosz Mielczarek, Anand Kannappan, Douwe Kiela, Rebecca Qian",
+  "https://arxiv.org/abs/2407.08488",
+  2024
+ ],
+ [
+  "Look Within, Why LLMs Hallucinate: A Causal Perspective",
+  "He Li, Haoang Chi, Mingyu Liu, Wenjing Yang",
+  "https://arxiv.org/abs/2407.10153",
+  2024
+ ],
+ [
+  "Addressing Image Hallucination in Text-to-Image Generation through Factual Image Retrieval",
+  "Youngsun Lim, Hyunjung Shim",
+  "https://arxiv.org/abs/2407.10683",
+  2024
+ ],
+ [
+  "Halu-J: Critique-Based Hallucination Judge",
+  "Binjie Wang, Steffi Chern, Ethan Chern, Pengfei Liu",
+  "https://arxiv.org/abs/2407.12943",
+  2024
+ ],
+ [
+  "Generation Constraint Scaling Can Mitigate Hallucination",
+  "Georgios Kollias, Payel Das, Subhajit Chaudhury",
+  "https://arxiv.org/abs/2407.16908",
+  2024
+ ],
+ [
+  "Interpreting and Mitigating Hallucination in MLLMs through Multi-agent Debate",
+  "Zheng Lin, Zhenxing Niu, Zhibin Wang, Yinghui Xu",
+  "https://arxiv.org/abs/2407.20505",
+  2024
+ ],
+ [
+  "Cost-Effective Hallucination Detection for LLMs",
+  "Simon Valentin, Jinmiao Fu, Gianluca Detommaso, Shaoyuan Xu, Giovanni Zappella, Bryan Wang",
+  "https://arxiv.org/abs/2407.21424",
+  2024
+ ],
+ [
+  "Confidence-Aware Sub-Structure Beam Search (CABS): Mitigating Hallucination in Structured Data Generation with Large Language Models",
+  "Chengwei Wei, Kee Kiat Koo, Amir Tavanaei, Karim Bouyarmane",
+  "https://arxiv.org/abs/2406.00069",
+  2024
+ ],
+ [
+  "On Large Language Models' Hallucination with Regard to Known Facts",
+  "Che Jiang, Biqing Qi, Xiangyu Hong, Dayuan Fu, Yang Cheng, Fandong Meng, Mo Yu, Bowen Zhou, Jie Zhou",
+  "https://arxiv.org/abs/2403.20009",
+  2024
+ ],
+ [
+  "Ask-EDA: A Design Assistant Empowered by LLM, Hybrid RAG and Abbreviation De-hallucination",
+  "Luyao Shi, Michael Kazda, Bradley Sears, Nick Shropshire, Ruchir Puri",
+  "https://arxiv.org/abs/2406.06575",
+  2024
+ ],
+ [
+  "Luna: An Evaluation Foundation Model to Catch Language Model Hallucinations with High Accuracy and Low Cost",
+  "Masha Belyi, Robert Friel, Shuai Shao, Atindriyo Sanyal",
+  "https://arxiv.org/abs/2406.00975",
+  2024
+ ],
+ [
+  "Chaos with Keywords: Exposing Large Language Models Sycophantic Hallucination to Misleading Keywords and Evaluating Defense Strategies",
+  "Aswin RRV, Nemika Tyagi, Md Nayem Uddin, Neeraj Varshney, Chitta Baral",
+  "https://arxiv.org/abs/2406.03827",
+  2024
+ ],
+ [
+  "Investigating and Addressing Hallucinations of LLMs in Tasks Involving Negation",
+  "Neeraj Varshney, Satyam Raj, Venkatesh Mishra, Agneet Chatterjee, Ritika Sarkar, Amir Saeidi, Chitta Baral",
+  "https://arxiv.org/abs/2406.05494",
+  2024
+ ],
+ [
+  "HalluDial: A Large-Scale Benchmark for Automatic Dialogue-Level Hallucination Evaluation",
+  "Wen Luo, Tianshu Shen, Wei Li, Guangyue Peng, Richeng Xuan, Houfeng Wang, Xi Yang",
+  "https://arxiv.org/abs/2406.07070",
+  2024
+ ],
+ [
+  "DefAn: Definitive Answer Dataset for LLMs Hallucination Evaluation",
+  "A B M Ashikur Rahman, Saeed Anwar, Muhammad Usman, Ajmal Mian",
+  "https://arxiv.org/abs/2406.09155",
+  2024
+ ],
+ [
+  "Detecting and Evaluating Medical Hallucinations in Large Vision Language Models",
+  "Jiawei Chen, Dingkang Yang, Tong Wu, Yue Jiang, Xiaolu Hou, Mingcheng Li, Shunli Wang, Dongling Xiao, Ke Li, Lihua Zhang",
+  "https://arxiv.org/abs/2406.10185",
+  2024
+ ],
+ [
+  "\"Not Aligned\" is Not \"Malicious\": Being Careful about Hallucinations of Large Language Models' Jailbreak",
+  "Lingrui Mei, Shenghua Liu, Yiwei Wang, Baolong Bi, Jiayi Mao, Xueqi Cheng",
+  "https://arxiv.org/abs/2406.11668",
+  2024
+ ],
+ [
+  "Hallucination Mitigation Prompts Long-term Video Understanding",
+  "Yiwei Sun, Zhihang Liu, Chuanbin Liu, Bowei Pu, Zhihan Zhang, Hongtao Xie",
+  "https://arxiv.org/abs/2406.11333",
+  2024
+ ],
+ [
+  "Mitigating Large Language Model Hallucination with Faithful Finetuning",
+  "Minda Hu, Bowei He, Yufei Wang, Liangyou Li, Chen Ma, Irwin King",
+  "https://arxiv.org/abs/2406.11267",
+  2024
+ ],
+ [
+  "Large Language Models are Skeptics: False Negative Problem of Input-conflicting Hallucination",
+  "Jongyoon Song, Sangwon Yu, Sungroh Yoon",
+  "https://arxiv.org/abs/2406.13929",
+  2024
+ ],
+ [
+  "Semantic Entropy Probes: Robust and Cheap Hallucination Detection in LLMs",
+  "Jannik Kossen, Jiatong Han, Muhammed Razzak, Lisa Schut, Shreshth Malik, Yarin Gal",
+  "https://arxiv.org/abs/2406.15927",
+  2024
+ ],
+ [
+  "Measuring the Measurers: Quality Evaluation of Hallucination Benchmarks for Large Vision-Language Models",
+  "Bei Yan, Jie Zhang, Zheng Yuan, Shiguang Shan, Xilin Chen",
+  "https://arxiv.org/abs/2406.17115",
+  2024
+ ],
+ [
+  "VideoHallucer: Evaluating Intrinsic and Extrinsic Hallucinations in Large Video-Language Models",
+  "Yuxuan Wang, Yueqian Wang, Dongyan Zhao, Cihang Xie, Zilong Zheng",
+  "https://arxiv.org/abs/2406.16338",
+  2024
+ ],
+ [
+  "Banishing LLM Hallucinations Requires Rethinking Generalization",
+  "Johnny Li, Saksham Consul, Eda Zhou, James Wong, Naila Farooqui, Yuxin Ye, Nithyashree Manohar, Zhuxiaona Wei, Tian Wu, Ben Echols, Sharon Zhou, Gregory Diamos",
+  "https://arxiv.org/abs/2406.17642",
+  2024
+ ],
+ [
+  "Utilizing GPT to Enhance Text Summarization: A Strategy to Minimize Hallucinations",
+  "Hassan Shakil, Zeydy Ortiz, Grant C. Forbes",
+  "https://arxiv.org/abs/2405.04039",
+  2024
+ ],
+ [
+  "Mitigating LLM Hallucinations via Conformal Abstention",
+  "Yasin Abbasi Yadkori, Ilja Kuzborskij, David Stutz, András György, Adam Fisch, Arnaud Doucet, Iuliya Beloshapka, Wei-Hung Weng, Yao-Yuan Yang, Csaba Szepesvári, Ali Taylan Cemgil, Nenad Tomasev",
+  "https://arxiv.org/abs/2405.01563",
+  2024
+ ],
+ [
+  "Addressing Topic Granularity and Hallucination in Large Language Models for Topic Modelling",
+  "Yida Mu, Peizhen Bai, Kalina Bontcheva, Xingyi Song",
+  "https://arxiv.org/abs/2405.00611",
+  2024
+ ],
+ [
+  "Can a Hallucinating Model help in Reducing Human \"Hallucination\"?",
+  "Sowmya S Sundaram, Balaji Alwar",
+  "https://arxiv.org/abs/2405.00843",
+  2024
+ ],
+ [
+  "Sora Detector: A Unified Hallucination Detection for Large Text-to-Video Models",
+  "Zhixuan Chu, Lei Zhang, Yichen Sun, Siqiao Xue, Zhibo Wang, Zhan Qin, Kui Ren",
+  "https://arxiv.org/abs/2405.04180",
+  2024
+ ],
+ [
+  "Mitigating Hallucinations in Large Language Models via Self-Refinement-Enhanced Knowledge Retrieval",
+  "Mengjia Niu, Hao Li, Jie Shi, Hamed Haddadi, Fan Mo",
+  "https://arxiv.org/abs/2405.06545",
+  2024
+ ],
+ [
+  "RefChecker: Reference-based Fine-grained Hallucination Checker and Benchmark for Large Language Models",
+  "Xiangkun Hu, Dongyu Ru, Lin Qiu, Qipeng Guo, Tianhang Zhang, Yang Xu, Yun Luo, Pengfei Liu, Yue Zhang, Zheng Zhang",
+  "https://arxiv.org/abs/2405.14486",
+  2024
+ ],
+ [
+  "Detecting Hallucinations in Large Language Model Generation: A Token Probability Approach",
+  "Ernesto Quevedo, Jorge Yero, Rachel Koerner, Pablo Rivas, Tomas Cerny",
+  "https://arxiv.org/abs/2405.19648",
+  2024
+ ],
+ [
+  "Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools",
+  "Varun Magesh, Faiz Surani, Matthew Dahl, Mirac Suzgun, Christopher D. Manning, Daniel E. Ho",
+  "https://arxiv.org/abs/2405.20362",
+  2024
+ ],
+ [
+  "NoiseBoost: Alleviating Hallucination with Noise Perturbation for Multimodal Large Language Models",
+  "Kai Wu, Boyuan Jiang, Zhengkai Jiang, Qingdong He, Donghao Luo, Shengzhi Wang, Qingwen Liu, Chengjie Wang",
+  "https://arxiv.org/abs/2405.20081",
+  2024
+ ],
+ [
+  "INSIDE: LLMs' Internal States Retain the Power of Hallucination Detection",
+  "Chao Chen, Kai Liu, Ze Chen, Yi Gu, Yue Wu, Mingyuan Tao, Zhihang Fu, Jieping Ye",
+  "https://arxiv.org/abs/2402.03744",
+  2024
+ ],
+ [
+  "KnowHalu: Hallucination Detection via Multi-Form Knowledge Based Factual Checking",
+  "Jiawei Zhang, Chejian Xu, Yu Gai, Freddy Lecue, Dawn Song, Bo Li",
+  "https://arxiv.org/abs/2404.02935",
+  2024
+ ],
+ [
+  "Fakes of Varying Shades: How Warning Affects Human Perception and Engagement Regarding LLM Hallucinations",
+  "Mahjabin Nahar, Haeseung Seo, Eun-Ju Lee, Aiping Xiong, Dongwon Lee",
+  "https://arxiv.org/abs/2404.03745",
+  2024
+ ],
+ [
+  "The Hallucinations Leaderboard -- An Open Effort to Measure Hallucinations in Large Language Models",
+  "Giwon Hong, Aryo Pradipta Gema, Rohit Saxena, Xiaotang Du, Ping Nie, Yu Zhao, Laura Perez-Beltrachini, Max Ryabinin, Xuanli He, Clémentine Fourrier, Pasquale Minervini",
+  "https://arxiv.org/abs/2404.05904",
+  2024
+ ],
+ [
+  "MetaCheckGPT -- A Multi-task Hallucination Detector Using LLM Uncertainty and Meta-models",
+  "Rahul Mehta, Andrew Hoblitzell, Jack O'Keefe, Hyeju Jang, Vasudeva Varma",
+  "https://arxiv.org/abs/2404.06948",
+  2024
+ ],
+ [
+  "Benchmarking Llama2, Mistral, Gemma and GPT for Factuality, Toxicity, Bias and Propensity for Hallucinations",
+  "David Nadeau, Mike Kroutikov, Karen McNeil, Simon Baribeau",
+  "https://arxiv.org/abs/2404.09785",
+  2024
+ ],
+ [
+  "Constructing Benchmarks and Interventions for Combating Hallucinations in LLMs",
+  "Adi Simhi, Jonathan Herzig, Idan Szpektor, Yonatan Belinkov",
+  "https://arxiv.org/abs/2404.09971",
+  2024
+ ],
+ [
+  "Uncertainty-Based Abstention in LLMs Improves Safety and Reduces Hallucinations",
+  "Christian Tomani, Kamalika Chaudhuri, Ivan Evtimov, Daniel Cremers, Mark Ibrahim",
+  "https://arxiv.org/abs/2404.10960",
+  2024
+ ],
+ [
+  "A Survey of Automatic Hallucination Evaluation on Natural Language Generation",
+  "Siya Qi, Lin Gui, Yulan He, Zheng Yuan",
+  "https://arxiv.org/abs/2404.12041",
+  2024
+ ],
+ [
+  "A robust and scalable framework for hallucination detection in virtual tissue staining and digital pathology",
+  "Luzhe Huang, Yuzhu Li, Nir Pillar, Tal Keidar Haran, William Dean Wallace, Aydogan Ozcan",
+  "https://arxiv.org/abs/2404.18458",
+  2024
+ ],
+ [
+  "Hallucination of Multimodal Large Language Models: A Survey",
+  "Zechen Bai, Pichao Wang, Tianjun Xiao, Tong He, Zongbo Han, Zheng Zhang, Mike Zheng Shou",
+  "https://arxiv.org/abs/2404.18930",
+  2024
+ ],
+ [
+  "German also Hallucinates! Inconsistency Detection in News Summaries with the Absinth Dataset",
+  "Laura Mascarell, Ribin Chalumattu, Annette Rios",
+  "https://arxiv.org/abs/2403.03750",
+  2024
+ ],
+ [
+  "SemEval-2024 Shared Task 6: SHROOM, a Shared-task on Hallucinations and Related Observable Overgeneration Mistakes",
+  "Timothee Mickus, Elaine Zosa, Raúl Vázquez, Teemu Vahtola, Jörg Tiedemann, Vincent Segonne, Alessandro Raganato, Marianna Apidianaki",
+  "https://arxiv.org/abs/2403.07726",
+  2024
+ ],
+ [
+  "Using Laplace Transform To Optimize the Hallucination of Generation Models",
+  "Cheng Kang, Xinye Chen, Daniel Novak, Xujing Yao",
+  "https://arxiv.org/abs/2603.18022",
+  2024
+ ],
+ [
+  "Using Hallucinations to Bypass GPT4's Filter",
+  "Benjamin Lemkin",
+  "https://arxiv.org/abs/2403.04769",
+  2024
+ ],
+ [
+  "Quantity Matters: Towards Assessing and Mitigating Number Hallucination in Large Vision-Language Models",
+  "Huixuan Zhang, Junzhe Zhang, Xiaojun Wan",
+  "https://arxiv.org/abs/2403.01373",
+  2024
+ ],
+ [
+  "HaluEval-Wild: Evaluating Hallucinations of Language Models in the Wild",
+  "Zhiying Zhu, Yiming Yang, Zhiqing Sun",
+  "https://arxiv.org/abs/2403.04307",
+  2024
+ ],
+ [
+  "DiffMAC: Diffusion Manifold Hallucination Correction for High Generalization Blind Face Restoration",
+  "Nan Gao, Jia Li, Huaibo Huang, Zhi Zeng, Ke Shang, Shuwu Zhang, Ran He",
+  "https://arxiv.org/abs/2403.10098",
+  2024
+ ],
+ [
+  "Enhancing LLM Factual Accuracy with RAG to Counter Hallucinations: A Case Study on Domain-Specific Queries in Private Knowledge-Bases",
+  "Jiarui Li, Ye Yuan, Zehua Zhang",
+  "https://arxiv.org/abs/2403.10446",
+  2024
+ ],
+ [
+  "Mitigating Dialogue Hallucination for Large Vision Language Models via Adversarial Instruction Tuning",
+  "Dongmin Park, Zhaofang Qian, Guangxing Han, Ser-Nam Lim",
+  "https://arxiv.org/abs/2403.10492",
+  2024
+ ],
+ [
+  "Zero-Shot Multi-task Hallucination Detection",
+  "Patanjali Bhamidipati, Advaith Malladi, Manish Shrivastava, Radhika Mamidi",
+  "https://arxiv.org/abs/2403.12244",
+  2024
+ ],
+ [
+  "Pensieve: Retrospect-then-Compare Mitigates Visual Hallucination",
+  "Dingchen Yang, Bowen Cao, Guang Chen, Changjun Jiang",
+  "https://arxiv.org/abs/2403.14401",
+  2024
+ ],
+ [
+  "ESREAL: Exploiting Semantic Reconstruction to Mitigate Hallucinations in Vision-Language Models",
+  "Minchan Kim, Minyeong Kim, Junik Bae, Suhwan Choi, Sungkyung Kim, Buru Chang",
+  "https://arxiv.org/abs/2403.16167",
+  2024
+ ],
+ [
+  "\"Sorry, Come Again?\" Prompting -- Enhancing Comprehension and Diminishing Hallucination with [PAUSE]-injected Optimal Paraphrasing",
+  "Vipula Rawte, S. M Towhidul Islam Tonmoy, S M Mehedi Zaman, Prachi Priya, Aman Chadha, Amit P. Sheth, Amitava Das",
+  "https://arxiv.org/abs/2403.18976",
+  2024
+ ],
+ [
+  "FACTOID: FACtual enTailment fOr hallucInation Detection",
+  "Vipula Rawte, S. M Towhidul Islam Tonmoy, Krishnav Rajbangshi, Shravani Nag, Aman Chadha, Amit P. Sheth, Amitava Das",
+  "https://arxiv.org/abs/2403.19113",
+  2024
+ ],
+ [
+  "Careless Whisper: Speech-to-Text Hallucination Harms",
+  "Allison Koenecke, Anna Seo Gyeong Choi, Katelyn X. Mei, Hilke Schellmann, Mona Sloane",
+  "https://arxiv.org/abs/2402.08021",
+  2024
+ ],
+ [
+  "Enhancing Knowledge Graph Construction: Evaluating with Emphasis on Hallucination, Omission, and Graph Similarity Metrics",
+  "Hussam Ghanem, Christophe Cruz",
+  "https://arxiv.org/abs/2502.05239",
+  2024
+ ],
+ [
+  "Gemini Goes to Med School: Exploring the Capabilities of Multimodal Large Language Models on Medical Challenge Problems & Hallucinations",
+  "Ankit Pal, Malaikannan Sankarasubbu",
+  "https://arxiv.org/abs/2402.07023",
+  2024
+ ],
+ [
+  "LP-LM: No Hallucinations in Question Answering with Logic Programming",
+  "Katherine Wu, Yanhong A. Liu",
+  "https://arxiv.org/abs/2502.09212",
+  2024
+ ],
+ [
+  "A Survey on Hallucination in Large Vision-Language Models",
+  "Hanchao Liu, Wenyuan Xue, Yifei Chen, Dapeng Chen, Xiutian Zhao, Ke Wang, Liping Hou, Rongjun Li, Wei Peng",
+  "https://arxiv.org/abs/2402.00253",
+  2024
+ ],
+ [
+  "Redefining \"Hallucination\" in LLMs: Towards a psychology-informed framework for mitigating misinformation",
+  "Elijah Berberette, Jack Hutchins, Amir Sadovnik",
+  "https://arxiv.org/abs/2402.01769",
+  2024
+ ],
+ [
+  "A Survey on Large Language Model Hallucination via a Creativity Perspective",
+  "Xuhui Jiang, Yuxing Tian, Fengrui Hua, Chengjin Xu, Yuanzhuo Wang, Jian Guo",
+  "https://arxiv.org/abs/2402.06647",
+  2024
+ ],
+ [
+  "Skip \\n: A Simple Method to Reduce Hallucination in Large Vision-Language Models",
+  "Zongbo Han, Zechen Bai, Haiyang Mei, Qianli Xu, Changqing Zhang, Mike Zheng Shou",
+  "https://arxiv.org/abs/2402.01345",
+  2024
+ ],
+ [
+  "Do LLMs Know about Hallucination? An Empirical Investigation of LLM's Hidden States",
+  "Hanyu Duan, Yi Yang, Kar Yan Tam",
+  "https://arxiv.org/abs/2402.09733",
+  2024
+ ],
+ [
+  "Comparing Hallucination Detection Metrics for Multilingual Generation",
+  "Haoqiang Kang, Terra Blevins, Luke Zettlemoyer",
+  "https://arxiv.org/abs/2402.10496",
+  2024
+ ],
+ [
+  "Measuring and Reducing LLM Hallucination without Gold-Standard Answers",
+  "Jiaheng Wei, Yuanshun Yao, Jean-Francois Ton, Hongyi Guo, Andrew Estornell, Yang Liu",
+  "https://arxiv.org/abs/2402.10412",
+  2024
+ ],
+ [
+  "Hallucinations or Attention Misdirection? The Path to Strategic Value Extraction in Business Using Large Language Models",
+  "Aline Ioste",
+  "https://arxiv.org/abs/2402.14002",
+  2024
+ ],
+ [
+  "Towards Alleviating Text-to-Image Retrieval Hallucination for CLIP in Zero-shot Learning",
+  "Hanyao Wang, Yibing Zhan, Liu Liu, Liang Ding, Yan Yang, Jun Yu",
+  "https://arxiv.org/abs/2402.18400",
+  2024
+ ],
+ [
+  "Reducing Hallucinations in Entity Abstract Summarization with Facts-Template Decomposition",
+  "Fangwei Zhu, Peiyi Wang, Zhifang Sui",
+  "https://arxiv.org/abs/2402.18873",
+  2024
+ ],
+ [
+  "AI Hallucinations: A Misnomer Worth Clarifying",
+  "Negar Maleki, Balaji Padmanabhan, Kaushik Dutta",
+  "https://arxiv.org/abs/2401.06796",
+  2024
+ ],
+ [
+  "A Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models",
+  "S. M Towhidul Islam Tonmoy, S M Mehedi Zaman, Vinija Jain, Anku Rani, Vipula Rawte, Aman Chadha, Amitava Das",
+  "https://arxiv.org/abs/2401.01313",
+  2024
+ ],
+ [
+  "Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models",
+  "Matthew Dahl, Varun Magesh, Mirac Suzgun, Daniel E. Ho",
+  "https://arxiv.org/abs/2401.01301",
+  2024
+ ],
+ [
+  "Hallucinations in Neural Automatic Speech Recognition: Identifying Errors and Hallucinatory Models",
+  "Rita Frieske, Bertram E. Shi",
+  "https://arxiv.org/abs/2401.01572",
+  2024
+ ],
+ [
+  "Navigating Uncertainty: Optimizing API Dependency for Hallucination Reduction in Closed-Book Question Answering",
+  "Pierre Erbacher, Louis Falissar, Vincent Guigue, Laure Soulier",
+  "https://arxiv.org/abs/2401.01780",
+  2024
+ ],
+ [
+  "LightHouse: A Survey of AGI Hallucination",
+  "Feng Wang",
+  "https://arxiv.org/abs/2401.06792",
+  2024
+ ],
+ [
+  "Fine-grained Hallucination Detection and Editing for Language Models",
+  "Abhika Mishra, Akari Asai, Vidhisha Balachandran, Yizhong Wang, Graham Neubig, Yulia Tsvetkov, Hannaneh Hajishirzi",
+  "https://arxiv.org/abs/2401.06855",
+  2024
+ ],
+ [
+  "Hallucination Detection and Hallucination Mitigation: An Investigation",
+  "Junliang Luo, Tianyu Li, Di Wu, Michael Jenkin, Steve Liu, Gregory Dudek",
+  "https://arxiv.org/abs/2401.08358",
+  2024
+ ],
+ [
+  "On the Audio Hallucinations in Large Audio-Video Language Models",
+  "Taichi Nishimura, Shota Nakada, Masayoshi Kondo",
+  "https://arxiv.org/abs/2401.09774",
+  2024
+ ],
+ [
+  "Temporal Insight Enhancement: Mitigating Temporal Hallucination in Multimodal Large Language Models",
+  "Li Sun, Liuan Wang, Jun Sun, Takayuki Okatani",
+  "https://arxiv.org/abs/2401.09861",
+  2024
+ ],
+ [
+  "Hallucination is Inevitable: An Innate Limitation of Large Language Models",
+  "Ziwei Xu, Sanjay Jain, Mohan Kankanhalli",
+  "https://arxiv.org/abs/2401.11817",
+  2024
+ ],
+ [
+  "Learning to Trust Your Feelings: Leveraging Self-awareness in LLMs for Hallucination Mitigation",
+  "Yuxin Liang, Zhuoyang Song, Hao Wang, Jiaxing Zhang",
+  "https://arxiv.org/abs/2401.15449",
+  2024
+ ],
+ [
+  "Hallucination Detection: Robustly Discerning Reliable Answers in Large Language Models",
+  "Yuyan Chen, Qiang Fu, Yichen Yuan, Zhihao Wen, Ge Fan, Dayiheng Liu, Dongmei Zhang, Zhixu Li, Yanghua Xiao",
+  "https://arxiv.org/abs/2407.04121",
+  2023
+ ]
+]

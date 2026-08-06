@@ -59,6 +59,11 @@ def git_commit(ran):
 
     No-op (with a warning) if git is unavailable or there is nothing to stage;
     never fails the pipeline.
+
+    NOTE: this only ever *commits* — it never pushes, so a local run cannot
+    touch the remote by surprise. Automation must push explicitly (see
+    .github/workflows/scheduled-update.yml). The absence of that push is why
+    the weekly job appeared to do nothing: it committed to a throwaway runner.
     """
     try:
         subprocess.check_output(["git", "rev-parse", "--is-inside-work-tree"],

@@ -1,8 +1,8 @@
 name: Scheduled Update
 
 # Weekly refresh of the atlas: fetch new arXiv papers, re-classify, regenerate
-# README + docs, and (if the audit passes) auto-commit. The push then triggers
-# the "Deploy to GitHub Pages" workflow, keeping the live site in sync.
+# README + docs, and (if the audit passes) auto-commit AND push. The push then
+# triggers the "Deploy to GitHub Pages" workflow, keeping the live site in sync.
 on:
   schedule:
     - cron: "17 4 * * 1"   # every Monday 04:17 UTC
@@ -11,22 +11,90 @@ on:
 permissions:
   contents: write
 
+# A run can now legitimately take over an hour. Never let a new run race a
+# still-running one against the same branch.
+concurrency:
+  group: scheduled-update
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    # Was 45. The venue-enrichment step alone needs ~77 min on a cold cache
+    # (927 arXiv preprints x ~5s of API politeness sleeps), so the job was
+    # killed mid-pipeline every single week and never reached the commit.
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      # The enrichment caches are gitignored, so without this every run starts
+      # cold and re-queries every preprint from scratch. Restoring them keeps
+      # the weekly run incremental (minutes instead of hours).
+      - name: Restore enrichment caches
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/venue_links.json
+            data/crossref_cache.json
+            data/abstracts.json
+            data/code_links.json
+            data/found_links.json
+          key: atlas-enrich-${{ github.run_id }}
+          restore-keys: |
+            atlas-enrich-
+
       - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
       # Best-effort: a transient network failure must not spam notifications.
+      # The pipeline commits locally only after its own --strict audit passes.
       - name: Run update pipeline
         continue-on-error: true
         run: python scripts/update_pipeline.py
+
+      # Guard: the pipeline's audit runs before its commit, but re-verify the
+      # dataset here so a regression can never be pushed to main.
+      - name: Verify dataset integrity before pushing
+        run: python scripts/audit.py --strict
+
+      # Hard stop on silent data loss. A missing input once shrank the dataset
+      # from 1897 to 1070 papers with a green build, so compare against the
+      # checked-out baseline and refuse to push any net loss.
+      - name: Refuse to push a shrinking dataset
+        run: |
+          git show HEAD:data/papers.json > /tmp/baseline.json 2>/dev/null || exit 0
+          python - <<'PY'
+          import json, sys
+
+          def count(path):
+              with open(path, encoding="utf-8") as f:
+                  d = json.load(f)
+              return len(d["papers"] if isinstance(d, dict) and "papers" in d else d)
+
+          before, after = count("/tmp/baseline.json"), count("data/papers.json")
+          print(f"papers: {before} -> {after}")
+          if after < before:
+              sys.exit(f"ABORT: dataset shrank by {before - after} paper(s).")
+          PY
+
+      # The missing half of the automation: update_pipeline.py only ever ran
+      # `git commit`, so every successful run stayed on the throwaway CI
+      # runner and main was never updated.
+      - name: Push
+        run: |
+          git fetch origin "${GITHUB_REF_NAME}"
+          if [ -z "$(git log "origin/${GITHUB_REF_NAME}..HEAD" --oneline)" ]; then
+            echo "No new commits to push."
+            exit 0
+          fi
+          # Someone may have pushed while the (long) pipeline was running.
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
