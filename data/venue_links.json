@@ -1,0 +1,4742 @@
+{
+ "amultiagentframeworkforfactualityhallucinationdetectionusingcomplexknowledgegraph": {
+  "venue": "Lecture Notes in Computer Science",
+  "year": 2027,
+  "ee": "https://doi.org/10.1007/978-981-92-2480-7_10"
+ },
+ "beyondstatisticaldivergenceahybridcalibrationframeworkfordecouplinghallucinationinlargelanguagemodels": {
+  "venue": "Lecture Notes in Computer Science",
+  "year": 2027,
+  "ee": "https://doi.org/10.1007/978-981-92-2480-7_9"
+ },
+ "combiningnotebooklmandgeminigemstoreducehallucinationandcurriculummisalignmentinprogrammingeducationsystemdesignandearlyevidence": {
+  "venue": "Lecture Notes in Computer Science",
+  "year": 2027,
+  "ee": "https://doi.org/10.1007/978-3-032-32115-2_45"
+ },
+ "quantumentropydriventemperaturescalingforhallucinationmitigationingenerativemodels": {
+  "venue": "Lecture Notes in Networks and Systems",
+  "year": 2027,
+  "ee": "https://doi.org/10.1007/978-3-032-28379-5_48"
+ },
+ "uncoveringreasoningfailureshallucinationdetectionviasemanticprobingandattentiontracking": {
+  "venue": "Lecture Notes in Computer Science",
+  "year": 2027,
+  "ee": "https://doi.org/10.1007/978-981-92-2480-7_23"
+ },
+ "addressinghallucinationswithragandnmissinitalianhealthcarellmchatbots": {
+  "venue": "Data Knowl. Eng.",
+  "year": 2026,
+  "ee": "https://doi.org/10.1016/j.datak.2026.102627"
+ },
+ "medvcdmitigatinghallucinationformedicallargevisionlanguagemodelsthroughvisualcontrastivedecoding": {
+  "venue": "Comput. Biol. Medicine",
+  "year": 2026,
+  "ee": "https://doi.org/10.1016/j.compbiomed.2025.111347"
+ },
+ "mitigatinghallucinationsinhealthcarellmswithgranularfactcheckinganddomainspecificadaptation": {
+  "venue": "ESWA",
+  "year": 2026,
+  "ee": "https://doi.org/10.1016/j.eswa.2026.132966"
+ },
+ "predictingllmcorrectnessinprosthodonticsusingmetadataandhallucinationsignals": {
+  "venue": "BIOSTEC",
+  "year": 2026,
+  "ee": "https://doi.org/10.5220/0014357700004070"
+ },
+ "seeonlywhenneededcontextawareattentioninterventionformitigatinghallucinationsinlvlms": {
+  "venue": "ECCV",
+  "year": 2026,
+  "ee": ""
+ },
+ "exploringandmitigatingfawninghallucinationsinlargelanguagemodels": {
+  "venue": "NEUCOM",
+  "year": 2026,
+  "ee": "https://doi.org/10.1016/j.neucom.2025.132166"
+ },
+ "learnedhallucinationdetectioninblackboxllmsusingtokenlevelentropyproductionrate": {
+  "venue": "ECIR",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/978-3-032-21289-4_8"
+ },
+ "llmspromptedforgraphshallucinationsandgenerativecapabilities": {
+  "venue": "Appl. Netw. Sci.",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/s41109-025-00754-3"
+ },
+ "hallucinationdetectionandmitigationwithdiffusioninmultivariatetimeseriesfoundationmodels": {
+  "venue": "TMLR",
+  "year": 2026,
+  "ee": "https://openreview.net/forum?id=fHGQ7hZlb5"
+ },
+ "incidentresponseplanningusingalightweightlargelanguagemodelwithreducedhallucination": {
+  "venue": "NDSS",
+  "year": 2026,
+  "ee": "https://www.ndss-symposium.org/ndss-paper/incident-response-planning-using-a-lightweight-large-language-model-with-reduced-hallucination/"
+ },
+ "mitigatingmultilingualhallucinationinlargevisionlanguagemodels": {
+  "venue": "TOMM",
+  "year": 2026,
+  "ee": "https://doi.org/10.1145/3797025"
+ },
+ "heavensentorhellbentbenchmarkingtheintelligenceanddefectivenessofllmhallucinations": {
+  "venue": "KDD",
+  "year": 2026,
+  "ee": "https://doi.org/10.1145/3770854.3785704"
+ },
+ "asurveyofmultimodalhallucinationevaluationanddetection": {
+  "venue": "IJCV",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/s11263-026-02756-9"
+ },
+ "ehbenchmarkophthalmichallucinationbenchmarkandagentdriventopdowntraceablereasoningworkflow": {
+  "venue": "INFFUS",
+  "year": 2026,
+  "ee": "https://doi.org/10.1016/j.inffus.2025.103631"
+ },
+ "ahaaligninglargeaudiolanguagemodelsforreasoninghallucinationsviacounterfactualhardnegatives": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.1464/"
+ },
+ "aheadattentionheadenergyawaredynamicsforhallucinationmitigationinmllms": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.425/"
+ },
+ "aligningwithyourownvoiceselfcorrectedpreferencelearningforhallucinationmitigationinlvlms": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.1784/"
+ },
+ "anchoringthecachemitigatingcontextualhallucinationinkvcompressedlongcontextsummarization": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.1542/"
+ },
+ "awakeningdormantexpertscounterfactualroutingtomitigatemoehallucinations": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.2187/"
+ },
+ "benchmarkingdeflectionandhallucinationinlargevisionlanguagemodels": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.1307/"
+ },
+ "beyondnoisecharacterizingcreativepotentialinunverifiablellmhallucinations": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.554/"
+ },
+ "beyondoutputconfidenceepistemicawarehallucinationdetectionwithanswerlevelsignals": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.674/"
+ },
+ "calibratinguncertaintywithcrossmodelconsistencyforllmhallucinationmitigation": {
+  "venue": "SIGIR",
+  "year": 2026,
+  "ee": "https://doi.org/10.1145/3805712.3809846"
+ },
+ "causalgazeunveilinghallucinationsviacounterfactualgraphinterventioninlargelanguagemodels": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.1943/"
+ },
+ "ccdmitigatinghallucinationsinradiologymllmsviaclinicalcontrastivedecoding": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.1755/"
+ },
+ "codarestoringcontextualdominanceviacopyencouragedattentioninterventionformitigatingraghallucinations": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.576/"
+ },
+ "correctingvisualblurinducedbyattentiondistractiontoreducehallucinationsalgorithmandtheory": {
+  "venue": "ICML",
+  "year": 2026,
+  "ee": ""
+ },
+ "csmadhallucinationdetectionviamultiagentdebatewithnliverifiedcontradictorystatements": {
+  "venue": "SIGIR",
+  "year": 2026,
+  "ee": "https://doi.org/10.1145/3805712.3808508"
+ },
+ "detectinghallucinationsinretrievalaugmentedgenerationviasemanticlevelinternalreasoninggraph": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.1385/"
+ },
+ "detectinghallucinationsinspeechllmsatinferencetimeusingattentionmaps": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.2147/"
+ },
+ "dialecticmedmitigatingdiagnostichallucinationsviacounterfactualadversarialmultiagentdebate": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.1837/"
+ },
+ "distortedorfabricatedasurveyonhallucinationinvideollms": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.1325/"
+ },
+ "divedecouplingintralayervisualevidenceformitigatinghallucinationsinlargevisionlanguagemodels": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.1742/"
+ },
+ "dynamicpmiguidedcontrastivedecodingreduceshallucinationinlargelanguagemodelsaunifiedframeworkoffinegrainedinputtransformations": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.1212/"
+ },
+ "efficienthallucinationdetectionforllmsusinguncertaintyawareattentionheads": {
+  "venue": "ICML",
+  "year": 2026,
+  "ee": ""
+ },
+ "efficienthallucinationdetectioninautomaticcodegeneration": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.2143/"
+ },
+ "enhancinghallucinationdetectionviafuturecontext": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.35/"
+ },
+ "evidencealignedentityverificationforhallucinationdetectioninretrievalaugmentedgeneration": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.1477/"
+ },
+ "faithlensdetectingandexplainingfaithfulnesshallucination": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.689/"
+ },
+ "finegraineddetectionofcontextgroundedhallucinationsusingllms": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.1907/"
+ },
+ "fromprooftoprogramcharacterizingtoolinducedreasoninghallucinationsinlargelanguagemodels": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.1951/"
+ },
+ "generatingeffectivecottracesformitigatingcausalhallucination": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.264/"
+ },
+ "globalcontextorlocaldetailadaptivevisualgroundingforhallucinationmitigation": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.745/"
+ },
+ "graddetectgradientbasedhallucinationdetectioninllms": {
+  "venue": "ICML",
+  "year": 2026,
+  "ee": ""
+ },
+ "halluaudioacomprehensivebenchmarkforhallucinationdetectioninlargeaudiolanguagemodels": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.1797/"
+ },
+ "hallucinationdetectioninllmswithtopologicaldivergenceonattentiongraphs": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.704/"
+ },
+ "hallucinationdetectioninlongformtextgeneratedbyllmsabenchmarkandahyperrelationalknowledgegraphapproach": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.1673/"
+ },
+ "hallucinationsasorthogonalnoiseinferencetimemanifoldalignmentviadynamiccontextualorthogonalization": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.1822/"
+ },
+ "hallucitationmattersrevealingtheimpactofhallucinatedreferenceswith300hallucinatedpapersinaclconferences": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.2189/"
+ },
+ "halluguardevidencegroundedsmallreasoningmodelstomitigatehallucinationsinretrievalaugmentedgeneration": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.835/"
+ },
+ "hathallucinationannotationfortranslation": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.721/"
+ },
+ "infactadiagnosticbenchmarkforinducedfaithfulnessandfactualityhallucinationsinvideollms": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.2062/"
+ },
+ "injecttohealalleviatinghallucinationinlvlmsviacontextembeddinginjection": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.2048/"
+ },
+ "jointcqimprovingfactualhallucinationdetectionwithjointclaimandquerygeneration": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.58/"
+ },
+ "lafactattributionbasedlocalizationandfocusedsequentialanalysisoffactcriticaltokensforhallucinationdetection": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.312/"
+ },
+ "latentattentiondenoisingatrainingfreeenergybasedframeworkformitigatinghallucinationsinvisionlanguagemodels": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.1327/"
+ },
+ "logicmattersinlightweighthallucinationclassificationforragsystem": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.73/"
+ },
+ "logicalconsistencyasabridgeimprovingllmhallucinationdetectionvialabelconstraintmodelingbetweenresponsesandselfjudgments": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.286/"
+ },
+ "lostindiffusionuncoveringhallucinationpatternsandfailuremodesindiffusionlargelanguagemodels": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.882/"
+ },
+ "marchmultiagentreinforcedcheckforhallucination": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.1828/"
+ },
+ "meashalumitigationofscientificmeasurementhallucinationsforlargelanguagemodelswithenhancedreasoning": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.1386/"
+ },
+ "mechanismsofpromptinducedhallucinationinvisionlanguagemodels": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.1941/"
+ },
+ "mitigatingactionrelationhallucinationsinlvlmsviarelationawarevisualenhancement": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.1142/"
+ },
+ "mitigatinghallucinationsinlargevisionlanguagemodelswithoutperformancedegradation": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.89/"
+ },
+ "mitigatinghallucinationsinvlmsenhancingvisualattentionviaheadwiseperturbation": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.1016/"
+ },
+ "mitigatinglegalhallucinationsviasymbolicconstraintsandanalogicalprecedents": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.633/"
+ },
+ "numericalhallucinationsinretrievalaugmentedgenerationdetectionandanalysis": {
+  "venue": "SIGIR",
+  "year": 2026,
+  "ee": "https://doi.org/10.1145/3805712.3809882"
+ },
+ "oncecorrectstillwrongcounterfactualhallucinationinmultilingualvisionlanguagemodels": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.234/"
+ },
+ "perceptualhallucinationinvisionlanguagemodelsdefinitionanalysisandverification": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.1237/"
+ },
+ "pretrainrlalleviatingfactualityhallucinationoflargelanguagemodelsatthebeginning": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.910/"
+ },
+ "principleddetectionofhallucinationsinlargelanguagemodelsviamultipletesting": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.1705/"
+ },
+ "prismprobingreasoninginstructionandsourcememoryinllmhallucinations": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.1551/"
+ },
+ "probeprocessbasedbenchmarkforhallucinationdetection": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.2099/"
+ },
+ "reducinghallucinationsinllmsviafactualityawarepreferencelearning": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.1968/"
+ },
+ "reflreflectivefeedbacklearningforhallucinationdetectionoflargelanguagemodels": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.899/"
+ },
+ "rethinkingevaluationforllmhallucinationdetectionadesiderataanewragbasedbenchmarknewinsights": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.680/"
+ },
+ "revealingandenhancingcorevisualregionsharnessinginternalattentiondynamicsforhallucinationmitigationinlvlms": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.748/"
+ },
+ "rfsguarddetectingreasoninghallucinationsviacrossphaseroutingfocusinlargereasoningmodels": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.885/"
+ },
+ "rlseekevidencegroundedreasoningforraghallucinationdetection": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.1492/"
+ },
+ "spotlightandshadowattentionguideddualanchorintrospectivedecodingformllmhallucinationmitigation": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.646/"
+ },
+ "stableragmitigatingretrievalpermutationinducedhallucinationsinretrievalaugmentedgeneration": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.1188/"
+ },
+ "streaminghallucinationdetectioninlongchainofthoughtreasoning": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.1064/"
+ },
+ "thedigitaldunningkrugereffectdecouplinghallucinationsviageometrichiddenstateobservationforsemantictruthfulness": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.993/"
+ },
+ "thereasoningtraphowenhancingllmreasoningamplifiestoolhallucination": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.376/"
+ },
+ "throughthemagnifyingglassadaptiveperceptionmagnificationforhallucinationfreevlmdecoding": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.2059/"
+ },
+ "towardsmitigatinghallucinationsinlargevisionlanguagemodelsbyrefiningtextualembeddings": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.2086/"
+ },
+ "tpanexttokenprobabilityattributionfordetectinghallucinationsinrag": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.1159/"
+ },
+ "twopathwaystotruthfulnessontheintrinsicencodingofllmhallucinations": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.1173/"
+ },
+ "understandingnewknowledgeinducedfactualhallucinationsinllmsanalysisandinterpretation": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.358/"
+ },
+ "vibprobedetectingandmitigatinghallucinationsinvisionlanguagemodelsviavariationalinformationbottleneck": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.1078/"
+ },
+ "visionlanguageintrospectionmitigatingoverconfidenthallucinationsinmllmsviainterpretablebicausalsteering": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.1784/"
+ },
+ "vocabularyhijackinginlvlmsunveilingcriticalattentionheadsbyexcludinginerttokenstomitigatehallucination": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.1782/"
+ },
+ "whenpersonalizationmisleadsunderstandingandmitigatinghallucinationsinpersonalizedllms": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.findings-acl.395/"
+ },
+ "whyllmshallucinateonstructuredknowledgeamechanisticanalysisofreasoningoverlinearizedrepresentations": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.914/"
+ },
+ "chimeconditionalhallucinationandintegratedmultiscaleenhancementfortimeseriesdiffusionmodel": {
+  "venue": "KBS",
+  "year": 2026,
+  "ee": "https://doi.org/10.1016/j.knosys.2026.116089"
+ },
+ "3dvcdhallucinationmitigationin3dllmembodiedagentsthroughvisualcontrastivedecoding": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Ogunleye_3D-VCD_Hallucination_Mitigation_in_3D-LLM_Embodied_Agents_through_Visual_Contrastive_CVPR_2026_paper.html"
+ },
+ "adaiatadaptivelyincreasingattentiontogeneratedtexttoalleviatehallucinationsinlvlm": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhong_AdaIAT_Adaptively_Increasing_Attention_to_Generated_Text_to_Alleviate_Hallucinations_CVPR_2026_paper.html"
+ },
+ "beyondtheglobalscoresfinegrainedtokengroundingasarobustdetectoroflvlmhallucinations": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Nguyen_Beyond_the_Global_Scores_Fine-Grained_Token_Grounding_as_a_Robust_CVPR_2026_paper.html"
+ },
+ "causallenssensitivityguidedmultiheadcausalinterventionforhallucinationmitigationinlargevisionlanguagemodels": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Ji_CausalLens_Sensitivity-Guided_Multi-Head_Causal_Intervention_for_Hallucination_Mitigation_in_Large_CVPR_2026_paper.html"
+ },
+ "copocausalorientedpolicyoptimizationforhallucinationsofmllms": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Guo_COPO_Causal-Oriented_Policy_Optimization_for_Hallucinations_of_MLLMs_CVPR_2026_paper.html"
+ },
+ "crossmodalattentioncalibrationforlvlmhallucinationmitigation": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Cross-Modal_Attention_Calibration_for_LVLM_Hallucination_Mitigation_CVPR_2026_paper.html"
+ },
+ "dehallu3dhallucinationmitigated3dgenerationfromasingleimageviacyclicviewconsistencyrefinement": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Dehallu3D_Hallucination-Mitigated_3D_Generation_from_a_Single_Image_via_Cyclic_CVPR_2026_paper.html"
+ },
+ "elvhallucbenchmarkingsemanticaggregationhallucinationsinvideounderstanding": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Lu_ELV-Halluc_Benchmarking_Semantic_Aggregation_Hallucinations_in_Video_Understanding_CVPR_2026_paper.html"
+ },
+ "envisionattendthenrespondcounterfactualhallucinationmitigationinlargevisionlanguagemodels": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Liang_Envision_Attend_Then_Respond_Counterfactual_Hallucination_Mitigation_in_Large_Vision-Language_CVPR_2026_paper.html"
+ },
+ "exposingandevaluatinghallucinationsforguigrounding": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Exposing_and_Evaluating_Hallucinations_for_GUI_Grounding_CVPR_2026_paper.html"
+ },
+ "fightinghallucinationswithcounterfactualsdiffusionguidedperturbationsforlvlmhallucinationsuppression": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Dastmalchi_Fighting_Hallucinations_with_Counterfactuals_Diffusion-Guided_Perturbations_for_LVLM_Hallucination_Suppression_CVPR_2026_paper.html"
+ },
+ "finegrainedmultiimageobjecthallucinationbenchmark": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Min_Fine-Grained_Multi_Image_Object_Hallucination_Benchmark_CVPR_2026_paper.html"
+ },
+ "finermllmshallucinateunderfinegrainednegativequeries": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Xiao_FINER_MLLMs_Hallucinate_under_Fine-grained_Negative_Queries_CVPR_2026_paper.html"
+ },
+ "firstlogitboostingvisualgroundingmethodtomitigateobjecthallucinationinlargevisionlanguagemodels": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Ha_First_Logit_Boosting_Visual_Grounding_Method_to_Mitigate_Object_Hallucination_CVPR_2026_paper.html"
+ },
+ "hadhallucinationawarediffusionpriorsfor3dreconstruction": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_HAD_Hallucination-Aware_Diffusion_Priors_for_3D_Reconstruction_CVPR_2026_paper.html"
+ },
+ "hullueditsinglepassevidenceconsistentsubspaceeditingformitigatinghallucinationsinlargevisionlanguagemodels": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Lin_HulluEdit_Single-Pass_Evidence-Consistent_Subspace_Editing_for_Mitigating_Hallucinations_in_Large_CVPR_2026_paper.html"
+ },
+ "kvsmoothmitigatinghallucinationinmultimodallargelanguagemodelsthroughkeyvaluesmoothing": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_KVSmooth_Mitigating_Hallucination_in_Multi-modal_Large_Language_Models_through_Key-Value_CVPR_2026_paper.html"
+ },
+ "locatethensparsifyattributionguidedsparsestrategyforvisualhallucinationmitigation": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Dang_Locate-then-Sparsify_Attribution_Guided_Sparse_Strategy_for_Visual_Hallucination_Mitigation_CVPR_2026_paper.html"
+ },
+ "lyapunovprobesforhallucinationdetectioninlargefoundationmodels": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Luan_Lyapunov_Probes_for_Hallucination_Detection_in_Large_Foundation_Models_CVPR_2026_paper.html"
+ },
+ "madmodalityadaptivedecodingformitigatingcrossmodalhallucinationsinmultimodallargelanguagemodels": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Chung_MAD_Modality-Adaptive_Decoding_for_Mitigating_Cross-Modal_Hallucinations_in_Multimodal_Large_CVPR_2026_paper.html"
+ },
+ "mitigatingmultimodalhallucinationsviagradientbasedselfreflection": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Mitigating_Multimodal_Hallucinations_via_Gradient-based_Self-Reflection_CVPR_2026_paper.html"
+ },
+ "moddpotowardsmitigatingcrossmodalhallucinationsinomnillmsusingmodalitydecoupledpreferenceoptimization": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Chaubey_MoD-DPO_Towards_Mitigating_Cross-modal_Hallucinations_in_Omni_LLMs_using_Modality_CVPR_2026_paper.html"
+ },
+ "onetokentwofatesaunifiedframeworkviavisiontokenmanipulationagainstmllmshallucination": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Fa_One_Token_Two_Fates_A_Unified_Framework_via_Vision_Token_CVPR_2026_paper.html"
+ },
+ "pasprelimattentionscorefordetectingobjecthallucinationsinlargevisionlanguagemodels": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Hoang_PAS_Prelim_Attention_Score_for_Detecting_Object_Hallucinations_in_Large_CVPR_2026_paper.html"
+ },
+ "prefilltimeinterventionformitigatinghallucinationinlargevisionlanguagemodels": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Prefill-Time_Intervention_for_Mitigating_Hallucination_in_Large_Vision-Language_Models_CVPR_2026_paper.html"
+ },
+ "reallocatingattentionacrosslayerstoreducemultimodalhallucination": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Lu_Reallocating_Attention_Across_Layers_to_Reduce_Multimodal_Hallucination_CVPR_2026_paper.html"
+ },
+ "residualdecodingmitigatinghallucinationsinlargevisionlanguagemodelsviahistoryawareresidualguidance": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Residual_Decoding_Mitigating_Hallucinations_in_Large_Vision-Language_Models_via_History-Aware_CVPR_2026_paper.html"
+ },
+ "sameattentiondifferenttruthsputlogitlensovervisualattentiontodetectandmitigatelvlmobjecthallucination": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Same_Attention_Different_Truths_Put_Logit-Lens_over_Visual_Attention_to_CVPR_2026_paper.html"
+ },
+ "seasonmitigatingtemporalhallucinationinvideolargelanguagemodelsviaselfdiagnosticcontrastivedecoding": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_SEASON_Mitigating_Temporal_Hallucination_in_Video_Large_Language_Models_via_CVPR_2026_paper.html"
+ },
+ "svhallucbenchmarkingspeechvisionhallucinationinaudiovisuallargelanguagemodels": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_SVHalluc_Benchmarking_Speech-Vision_Hallucination_in_Audio-Visual_Large_Language_Models_CVPR_2026_paper.html"
+ },
+ "tellmodelwheretolookmitigatinghallucinationsinmllmsbyvisionguidedattention": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhao_Tell_Model_Where_to_Look_Mitigating_Hallucinations_in_MLLMs_by_CVPR_2026_paper.html"
+ },
+ "thinkinginuncertaintymitigatinghallucinationsinmlrmswithlatententropyawaredecoding": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_Thinking_in_Uncertainty_Mitigating_Hallucinations_in_MLRMs_with_Latent_Entropy-Aware_CVPR_2026_paper.html"
+ },
+ "tridfevaluatingperceptiondetectionandhallucinationforinterpretabledeepfakedetection": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Jiang-Lin_TriDF_Evaluating_Perception_Detection_and_Hallucination_for_Interpretable_DeepFake_Detection_CVPR_2026_paper.html"
+ },
+ "understandingandmitigatinghallucinationsinmultimodalchainofthoughtmodels": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Ma_Understanding_and_Mitigating_Hallucinations_in_Multimodal_Chain-of-Thought_Models_CVPR_2026_paper.html"
+ },
+ "understandingtheroleofhallucinationinreinforcementposttrainingofmultimodalreasoningmodels": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Understanding_the_Role_of_Hallucination_in_Reinforcement_Post-Training_of_Multimodal_CVPR_2026_paper.html"
+ },
+ "unstitchingthechimeraframelevelriskandtrainfreemitigationforvideohallucination": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Unstitching_the_Chimera_Frame-Level_Risk_and_Train-Free_Mitigation_for_Video_CVPR_2026_paper.html"
+ },
+ "vesrftrewardingvisualevidencesensitivitytomitigatehallucinationsinlargevisionlanguagemodels": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Hou_VES-RFT_Rewarding_Visual_Evidence_Sensitivity_to_Mitigate_Hallucinations_in_Large_CVPR_2026_paper.html"
+ },
+ "zinamultimodalfinegrainedhallucinationdetectionandediting": {
+  "venue": "CVPR",
+  "year": 2026,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2026/html/Wada_ZINA_Multimodal_Fine-grained_Hallucination_Detection_and_Editing_CVPR_2026_paper.html"
+ },
+ "thecaseforrepeatableopenandexpertgroundedhallucinationbenchmarksinlargelanguagemodels": {
+  "venue": "ICICT",
+  "year": 2026,
+  "ee": "https://doi.org/10.1145/3803291.3803328"
+ },
+ "beyondfunctionalcorrectnessexploringhallucinationsinllmgeneratedcode": {
+  "venue": "IEEE Trans. Software Eng.",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/TSE.2026.3657432"
+ },
+ "dontletithallucinatepremiseverificationviaretrievalaugmentedlogicalreasoning": {
+  "venue": "TMLR",
+  "year": 2026,
+  "ee": "https://openreview.net/forum?id=BDxStRGWba"
+ },
+ "summirahallucinationawareframeworkforrankingsportsinsightsfromllms": {
+  "venue": "ECIR",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/978-3-032-21289-4_23"
+ },
+ "aftermitigatingtheobjecthallucinationoflvlmviaadaptivefactualguidedactivationediting": {
+  "venue": "ICLR",
+  "year": 2026,
+  "ee": ""
+ },
+ "anindustrialscaleinsurancellmachievingverifiabledomainmasteryandhallucinationcontrolwithoutcompetencetradeoffs": {
+  "venue": "ICLR",
+  "year": 2026,
+  "ee": ""
+ },
+ "harphallucinationdetectionviareasoningsubspaceprojection": {
+  "venue": "ICLR",
+  "year": 2026,
+  "ee": ""
+ },
+ "mitigatingobjectandrelationshiphallucinationinlargevisionlanguagemodelwithmultiagentguidance": {
+  "venue": "ICASSP",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/icassp55912.2026.11463505"
+ },
+ "orscobjectawarereinforcementwithsemanticconsistencyforhallucinationmitigationinmllms": {
+  "venue": "ICASSP",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/icassp55912.2026.11464193"
+ },
+ "semanticuncertaintyquantificationofhallucinationsinllmsaquantumtensornetworkbasedmethod": {
+  "venue": "ICLR",
+  "year": 2026,
+  "ee": ""
+ },
+ "tokenguardtowardstokenlevelhallucinationcontrolviaselfcheckingdecoding": {
+  "venue": "ICLR",
+  "year": 2026,
+  "ee": ""
+ },
+ "cdhbenchacommonsensedrivenhallucinationbenchmarkforevaluatingvisualfidelityinvisionlanguagemodels": {
+  "venue": "ICIC",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/978-981-92-3504-9_17"
+ },
+ "mitigatinglowlevelvisualhallucinationsrequiresselfawarenessdatabasemodelandtrainingstrategy": {
+  "venue": "IEEE Trans. Circuits Syst. Video Technol.",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/TCSVT.2025.3619558"
+ },
+ "sindexsemanticinconsistencyindexforhallucinationdetectioninllms": {
+  "venue": "IEEE Open J. Comput. Soc.",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/OJCS.2026.3697236"
+ },
+ "attributionguidedmultiobjecthallucinationandbiasdetectioninvisionlanguagemodels": {
+  "venue": "EACL",
+  "year": 2026,
+  "ee": "https://doi.org/10.18653/v1/2026.eacl-long.210"
+ },
+ "beingkindisntalwaysbeingsafediagnosingaffectivehallucinationinllms": {
+  "venue": "EACL",
+  "year": 2026,
+  "ee": "https://doi.org/10.18653/v1/2026.findings-eacl.4"
+ },
+ "caacconfidenceawareattentioncalibrationtoreducehallucinationsinlargevisionlanguagemodels": {
+  "venue": "WACV",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/WACV61042.2026.00127"
+ },
+ "constructingadatasetforhallucinationdetectioninjapanesesummarizationwithfinegrainedfaithfulnesslabels": {
+  "venue": "EACL",
+  "year": 2026,
+  "ee": "https://doi.org/10.18653/v1/2026.eacl-srw.15"
+ },
+ "dollmhallucinationdetectorssufferfromlowresourceeffect": {
+  "venue": "EACL",
+  "year": 2026,
+  "ee": "https://doi.org/10.18653/v1/2026.eacl-long.136"
+ },
+ "factselfcheckfactlevelblackboxhallucinationdetectionforllms": {
+  "venue": "EACL",
+  "year": 2026,
+  "ee": "https://doi.org/10.18653/v1/2026.findings-eacl.296"
+ },
+ "ffehalluhallucinationsinfixedfigurativeexpressionsabenchmarkofidiomsandproverbsinthepersianlanguage": {
+  "venue": "EACL",
+  "year": 2026,
+  "ee": "https://doi.org/10.18653/v1/2026.eacl-long.241"
+ },
+ "ghostgettingtothebottomofhallucinationswithamultiroundconsistencybenchmark": {
+  "venue": "WACV",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/WACV61042.2026.00596"
+ },
+ "halluzighallucinationdetectionusingzigzagpersistence": {
+  "venue": "EACL",
+  "year": 2026,
+  "ee": "https://doi.org/10.18653/v1/2026.eacl-long.159"
+ },
+ "halpdetectinghallucinationsinvisionlanguagemodelswithoutgeneratingasingletoken": {
+  "venue": "EACL",
+  "year": 2026,
+  "ee": "https://doi.org/10.18653/v1/2026.eacl-long.287"
+ },
+ "kghalubenchaknowledgegraphbasedhallucinationbenchmarkforevaluatingthebreadthanddepthofllmknowledge": {
+  "venue": "EACL",
+  "year": 2026,
+  "ee": "https://doi.org/10.18653/v1/2026.findings-eacl.206"
+ },
+ "maskwhatmattersmitigatingobjecthallucinationsinmultimodallargelanguagemodelswithobjectalignedvisualcontrastivedecoding": {
+  "venue": "EACL",
+  "year": 2026,
+  "ee": "https://doi.org/10.18653/v1/2026.eacl-srw.2"
+ },
+ "mitigatingobjectandactionhallucinationsinmultimodalllmsviaselfaugmentedcontrastivealignment": {
+  "venue": "WACV",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/WACV61042.2026.00310"
+ },
+ "multihallsaacrosslingualbenchmarkformultitypehallucinationdetectioninlowresourcesouthafricanlanguages": {
+  "venue": "EACL",
+  "year": 2026,
+  "ee": "https://doi.org/10.18653/v1/2026.findings-eacl.330"
+ },
+ "optimizinglvlmswithonpolicydataforeffectivehallucinationmitigation": {
+  "venue": "WACV",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/WACV61042.2026.00460"
+ },
+ "reducinghallucinationsinlanguagemodelbasedsparqlquerygenerationusingpostgenerationmemoryretrieval": {
+  "venue": "EACL",
+  "year": 2026,
+  "ee": "https://doi.org/10.18653/v1/2026.findings-eacl.243"
+ },
+ "rethinkinghallucinationscorrectnessconsistencyandpromptmultiplicity": {
+  "venue": "EACL",
+  "year": 2026,
+  "ee": "https://doi.org/10.18653/v1/2026.eacl-long.327"
+ },
+ "savesparseautoencoderdrivenvisualinformationenhancementformitigatingobjecthallucination": {
+  "venue": "WACV",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/WACV61042.2026.00766"
+ },
+ "scalpelfinegrainedalignmentofattentionactivationmanifoldsviamixturegaussianbridgestomitigatemultimodalhallucination": {
+  "venue": "WACV",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/WACV61042.2026.00290"
+ },
+ "tamingobjecthallucinationswithverifiedatomicconfidenceestimation": {
+  "venue": "EACL",
+  "year": 2026,
+  "ee": "https://doi.org/10.18653/v1/2026.eacl-long.252"
+ },
+ "theunintendedtradeoffofaialignmentbalancinghallucinationmitigationandsafetyinllms": {
+  "venue": "EACL",
+  "year": 2026,
+  "ee": "https://doi.org/10.18653/v1/2026.findings-eacl.53"
+ },
+ "causaldecodingforhallucinationresistantmultimodallargelanguagemodels": {
+  "venue": "TMLR",
+  "year": 2026,
+  "ee": "https://openreview.net/forum?id=5Wb5c0FaCG"
+ },
+ "dovisionencoderstrulyexplainobjecthallucinationmitigatingobjecthallucinationviasimplefinegrainedclipscore": {
+  "venue": "TMLR",
+  "year": 2026,
+  "ee": "https://openreview.net/forum?id=JTua6tDPgZ"
+ },
+ "hallucinationorcreativityhowtoevaluateaigeneratedscientificstories": {
+  "venue": "Text2Story@ECIR",
+  "year": 2026,
+  "ee": "https://ceur-ws.org/Vol-4202/paper7.pdf"
+ },
+ "selfcheckevalamultimoduleframeworkforzeroresourcehallucinationdetectioninlargelanguagemodels": {
+  "venue": "Patterns",
+  "year": 2026,
+  "ee": "https://doi.org/10.1016/j.patter.2026.101569"
+ },
+ "verifywhenuncertainbeyondselfconsistencyinblackboxhallucinationdetection": {
+  "venue": "TMLR",
+  "year": 2026,
+  "ee": "https://openreview.net/forum?id=6tlLISSgiu"
+ },
+ "adaptivehallucinationalleviationinmultimodallargelanguagemodelsfromstrategicdataselectiontoseverityguidedtraining": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i32.39955"
+ },
+ "analyzingandmitigatingobjecthallucinationatrainingbiasperspective": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i8.37594"
+ },
+ "anatomicalregionguidedcontrastivedecodingaplugandplaystrategyformitigatinghallucinationsinmedicalvlms": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i9.37620"
+ },
+ "ascdattentionsteerablecontrastivedecodingforreducinghallucinationinmllm": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i12.38000"
+ },
+ "beyondnexttokenprobabilitieslearnablefastdetectionofhallucinationsanddatacontaminationonllmoutputdistributions": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i36.40254"
+ },
+ "bolsterhallucinationdetectionviapromptguideddataaugmentation": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i44.41096"
+ },
+ "bridgingdayandnighttargetclasshallucinationsuppressioninunpairedimagetranslation": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i8.37570"
+ },
+ "causaltracingofobjectrepresentationsinlargevisionlanguagemodelsmechanisticinterpretabilityandhallucinationmitigation": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i37.40431"
+ },
+ "causalhalbenchuncoveringlvlmsobjecthallucinationsthroughcausalintervention": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i40.40712"
+ },
+ "causallygroundeddualpathattentioninterventionforobjecthallucinationmitigationinlvlms": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i42.40918"
+ },
+ "detectingcitationhallucinationsinlargelanguagemodeloutputsstudentabstract": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i48.42257"
+ },
+ "diffusionforcombatingthehallucinationinlargelanguagemodelsstudentabstract": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i48.42183"
+ },
+ "echobatechovisionenhancementandecholayeredsamplingforvideollmshallucinationmitigation": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i42.40875"
+ },
+ "efficienthallucinationdetectionadaptivebayesianestimationofsemanticentropywithguidedsemanticexploration": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i39.40595"
+ },
+ "esgbenchbenchmarkinglongcontextesgreportsforhallucinationmitigation": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i46.41281"
+ },
+ "fromdetectiontodiagnosisadvancinghallucinationanalysiswithautomateddatasynthesis": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i38.40495"
+ },
+ "groundwhatyouseehallucinationresistantmllmsviacaptionfeedbackdiversityawaresamplingandconflictregularization": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i10.37772"
+ },
+ "hallucinatelessbythinkingmoreaspectbasedcausalabstentionforlargelanguagemodels": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i38.40532"
+ },
+ "hallucinationasacomputationalboundaryahierarchyofinevitabilityandtheoracleescape": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i40.40657"
+ },
+ "hallucinationsatthefirewall": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i48.42311"
+ },
+ "hallucleanaunifiedframeworktocombathallucinationsinllms": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i42.40926"
+ },
+ "inexhallucinationmitigationviaintrospectionandcrossmodalmultiagentcollaboration": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i35.40229"
+ },
+ "jointevaluationofanswerandreasoningconsistencyforhallucinationdetectioninlargereasoningmodels": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i39.40624"
+ },
+ "listenlikeateachermitigatingwhisperhallucinationsusingadaptivelayerattentionandknowledgedistillation": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i39.40614"
+ },
+ "lookcloseranadversarialparametriceditingframeworkforhallucinationmitigationinvlms": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i26.39336"
+ },
+ "mhbmedicalhallucinationbenchmarkforlargelanguagemodelsincomplexclinicaltasks": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i45.41243"
+ },
+ "mitigatingentityhallucinationsin3dradiologyreportgenerationviadualstreamalignment": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i16.38379"
+ },
+ "mitigatinghallucinationsinlargelanguagemodelsviacausalreasoning": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i38.40454"
+ },
+ "multiagentundercovergaminghallucinationremovalthroughcounterfactualtestformultimodalreasoning": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i8.37613"
+ },
+ "newslensainerguidedsummarizationformitigatinghallucinationandbiasinllmbasednewssummariesstudentabstract": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i48.42250"
+ },
+ "notalltokensandheadsareequallyimportantduallevelattentioninterventionforhallucinationmitigation": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i11.37904"
+ },
+ "omnidpoapreferenceoptimizationframeworktoaddressomnimodalhallucination": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i24.39104"
+ },
+ "paseleveragingthephonologicalpriorofwavlmforlowhallucinationgenerativespeechenhancement": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i39.40562"
+ },
+ "phpfnddetectingfakenewsviaposthocprocessingofllmshallucination": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i1.37050"
+ },
+ "prograghallucinationresistantprogressiveretrievalandreasoningoverknowledgegraphs": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i39.40545"
+ },
+ "rfirectifiedflowinterventionformitigatingobjecthallucinationinlargevisionlanguagemodels": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i5.37320"
+ },
+ "savermitigatinghallucinationsinlargevisionlanguagemodelsviastyleawarevisualearlyrevision": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i42.40873"
+ },
+ "seeingisbelievingrichcontexthallucinationdetectionformllmsviabackwardvisualgrounding": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i37.40345"
+ },
+ "sevadeselfevolvingmultiagentanalysiswithdecoupledevaluationforhallucinationresistantsarcasmdetection": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i35.40200"
+ },
+ "smartsightmitigatinghallucinationinvideollmswithoutcompromisingvideounderstandingviatemporalattentioncollapse": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i11.37883"
+ },
+ "tamingthephantomtokenasymmetricfilteringforhallucinationmitigationinlargevisionlanguagemodels": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i10.37768"
+ },
+ "vcgdvisualclueguideddecodingwithcaptionmodelformitigatinghallucinationinmultimodallargelanguagemodels": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i24.39089"
+ },
+ "verbmirageunveilingandassessingverbconcepthallucinationsinmultimodallargelanguagemodels": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i12.38005"
+ },
+ "attributiontechniquesformitigatinghallucinatedinformationinragsystemsasurvey": {
+  "venue": "ICAIIC",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/ICAIIC68212.2026.11454197"
+ },
+ "cropsatrainingfreehallucinationmitigationframeworkforvisionlanguagemodels": {
+  "venue": "TMLR",
+  "year": 2026,
+  "ee": "https://openreview.net/forum?id=KQSoZDPVGX"
+ },
+ "detectingandcorrectinghallucinationsinllmgeneratedcodeviadeterministicastanalysis": {
+  "venue": "FORGE@ICSE",
+  "year": 2026,
+  "ee": "https://doi.org/10.1145/3793655.3793725"
+ },
+ "factummechanisticdetectionofcitationhallucinationinlongformrag": {
+  "venue": "ECIR",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/978-3-032-21289-4_18"
+ },
+ "hallujudgeareferencefreehallucinationdetectionforcontextmisalignmentincodereviewautomation": {
+  "venue": "SIGSOFT FSE Companion",
+  "year": 2026,
+  "ee": "https://doi.org/10.1145/3803437.3805236"
+ },
+ "acnnbasedframeworkforaddressinghallucinationphenomenamitigatinglimitationsacrossmultimodalandclinicalcontexts": {
+  "venue": "Lecture Notes in Networks and Systems",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/978-3-032-14197-2_22"
+ },
+ "acontextawarehallucinationdetectionframeworkforlargelanguagemodelsinhighstakesdomains": {
+  "venue": "International Journal of Engineering and Computer Science",
+  "year": 2026,
+  "ee": "https://doi.org/10.18535/ijecs/v15i06.5531"
+ },
+ "ahybridframeworkforhallucinationdetectioninlargelanguagemodels": {
+  "venue": "TAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/tai.2026.3653354"
+ },
+ "aknowledgegraphapproachtowardsdetectinglargelanguagemodelhallucination": {
+  "venue": "Lecture Notes in Networks and Systems",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/978-3-032-08384-5_19"
+ },
+ "amultimetricevaluationperspectiveonhallucinationdetectioninlowresourcegovernancedocuments": {
+  "venue": "Iconic Research and Engineering Journals",
+  "year": 2026,
+  "ee": "https://doi.org/10.64388/irev9i11-1717980"
+ },
+ "arealtimeverificationframeworkforhallucinationandbiasdetectioninaigeneratedtext": {
+  "venue": "7th International Conference on Intelligent Communication Technologies and Virtual Mobile Networks (ICICV)",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/icicv68925.2026.11554618"
+ },
+ "asurveyofhallucinationinlargelanguagemodels": {
+  "venue": "Artificial Intelligence and Robotics Research",
+  "year": 2026,
+  "ee": "https://doi.org/10.12677/airr.2026.151016"
+ },
+ "ataxonomyofmachinehallucinationinradiology": {
+  "venue": "Radiology: Artificial Intelligence",
+  "year": 2026,
+  "ee": "https://doi.org/10.1148/ryai.250203"
+ },
+ "adversarialabductivedialogueframeworkwithreinforcementfortacklingllmhallucination": {
+  "venue": "Applications of Neuro-Symbolic Artificial Intelligence",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/978-3-032-16524-4_3"
+ },
+ "agenticdataarchitectureadaeliminatingtheapilayerforhallucinationfreesub100msenterpriseaiagents": {
+  "venue": "Advanced International Journal for Research",
+  "year": 2026,
+  "ee": "https://doi.org/10.63363/aijfr.2026.v07i02.4079"
+ },
+ "aihallucinationpredictionanovelapproachforpreventingfalseaioutputs": {
+  "venue": "Lecture Notes in Networks and Systems",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/978-3-032-06688-6_48"
+ },
+ "analisisimplementasiartificialintelligencedalamauditkeuanganataskasushallucinationaideloitteaustralia2025": {
+  "venue": "RIGGS: Journal of Artificial Intelligence and Digital Business",
+  "year": 2026,
+  "ee": "https://doi.org/10.31004/riggs.v5i2.9653"
+ },
+ "analoghawkingradiationintransformerneuralnetworksdiscretegeometrichorizonsinformationthermodynamicsandhallucinationsuppression": {
+  "venue": "Advances in Machine Learning & Artificial Intelligence",
+  "year": 2026,
+  "ee": "https://doi.org/10.33140/amlai.07.01.05"
+ },
+ "autohallautomatedfactualityhallucinationdatasetgenerationforlargelanguagemodels": {
+  "venue": "TASLP",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/taslpro.2025.3635038"
+ },
+ "beingkindisnapostalwaysbeingsafediagnosingaffectivehallucinationinllms": {
+  "venue": "EACL",
+  "year": 2026,
+  "ee": "https://doi.org/10.18653/v1/2026.findings-eacl.4"
+ },
+ "bewareofthewoozleeffectexploringandmitigatinghallucinationpropagationinmultiagentdebate": {
+  "venue": "TASLP",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/taslpro.2026.3675803"
+ },
+ "cebcconformalevidenceboundedcontrolforlowhallucinationvisionlanguagegeneration": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.2142/"
+ },
+ "comprehensivetothetextualhallucinationingenerativeai": {
+  "venue": "Advances in Computer Science Research",
+  "year": 2026,
+  "ee": "https://doi.org/10.2991/978-94-6239-648-7_37"
+ },
+ "constrainedparaphraseconsistencyforllmhallucinationdetection": {
+  "venue": "ICASSP",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/icassp55912.2026.11462617"
+ },
+ "crossparaphrasticinvariancelearningforhallucinationdetection": {
+  "venue": "ICASSP",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/icassp55912.2026.11463868"
+ },
+ "cvstimmitigatingobjecthallucinationinmllmsviacooccurrenceguidedvisualstimulation": {
+  "venue": "ICASSP",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/icassp55912.2026.11464584"
+ },
+ "dataleakageandmodelhallucination": {
+  "venue": "Adversarial Machine Learning",
+  "year": 2026,
+  "ee": "https://doi.org/10.1002/9781394402069.ch10"
+ },
+ "detectraairesponsehallucinationdetector": {
+  "venue": "International Journal of Advanced Research in Science and Technology",
+  "year": 2026,
+  "ee": "https://doi.org/10.62226/ijarst20262726"
+ },
+ "dhevaladynamichallucinationevaluationprotocolrobusttodatacontamination": {
+  "venue": "ICASSP",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/icassp55912.2026.11462032"
+ },
+ "dhileveragingdiversehallucinationinductionforenhancedcontrastivefactualitycontrolinlargelanguagemodels": {
+  "venue": "Communications in Computer and Information Science",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/978-981-95-4088-4_15"
+ },
+ "enhancingfactualconsistencyinlargelanguagemodelsanintegrativeparadigmofgroundingandselfpromptingmethodsforhallucinationminimization": {
+  "venue": "Lecture Notes in Networks and Systems",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/978-981-96-9771-7_13"
+ },
+ "exploringaudiohallucinationinegocentricvideounderstanding": {
+  "venue": "ICASSP",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/icassp55912.2026.11460380"
+ },
+ "fromhallucinationtoarticulationlanguagemodeldrivenlossesforultralowbitrateneuralspeechcoding": {
+  "venue": "ICASSP",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/icassp55912.2026.11462750"
+ },
+ "globallocalconfidencefusionforhallucinationdetectioninmathematicalreasoningtask": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i41.40762"
+ },
+ "graphhallagraphbasedframeworkforhallucinationdetectioninlargelanguagemodels": {
+  "venue": "TAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/tai.2026.3715425"
+ },
+ "hallucinationdetectionandmitigationinlargelanguagemodelsusinglightweightinferencetimemodels": {
+  "venue": "International Journal of Research Publication and Reviews",
+  "year": 2026,
+  "ee": "https://doi.org/10.55248/gengpi.07.0426.c1028"
+ },
+ "hallucinationdetectioninlargelanguagemodelsusingselfconsistencysignals": {
+  "venue": "International Conference on Computer Networks and Inventive Communication Technologies (ICCNCT)",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/iccnct68477.2026.11590608"
+ },
+ "hallucinationdetectioninlargelanguagemodelsviamultigranularuncertaintyquantification": {
+  "venue": "Computer and Decision Making: An International Journal",
+  "year": 2026,
+  "ee": "https://doi.org/10.59543/comdem.v3i.17665"
+ },
+ "hallucinationdetectionviainternalstatesandstructuredreasoningconsistencyinlargelanguagemodels": {
+  "venue": "ICASSP",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/icassp55912.2026.11462457"
+ },
+ "hallucinationdetectioncategorizationandmitigationinlargelanguagemodelsacrossdomainevaluationframework": {
+  "venue": "Iconic Research and Engineering Journals",
+  "year": 2026,
+  "ee": "https://doi.org/10.64388/irev9i10-1716821"
+ },
+ "hallucinationmitigationforeegtotextgenerationviamultisourcesemanticaugmentationandlatentspaceregularization": {
+  "venue": "International Conference on Signal Image Processing and Communication (ICSIPC)",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/icsipc69751.2026.11584213"
+ },
+ "hallucinationtoconsensusmultiagentllmsforendtoendjunittestgeneration": {
+  "venue": "ACM Transactions on Software Engineering and Methodology",
+  "year": 2026,
+  "ee": "https://doi.org/10.1145/3803418"
+ },
+ "houseofmirrorsasurveyonhallucinationdetectionandmitigationviadecodingtechniquesinlanguagemodels": {
+  "venue": "Lecture Notes in Networks and Systems",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/978-3-032-03072-6_9"
+ },
+ "hygenahybridautomationtestingapproachforreducinghallucinationinllmbasedapplications": {
+  "venue": "Lecture Notes in Networks and Systems",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/978-981-96-6537-2_2"
+ },
+ "knowledgeinjectionexistsinmoeexploringexpertawarecontrastdecodinginmoeformitigatingllmsaposhallucinations": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.1824/"
+ },
+ "lawsuitararagaretrievalaugmentedgenerationframeworkforarabiclegaldocumentunderstandingandhallucinationreduction": {
+  "venue": "23rd International Learning and Technology Conference (L&amp;T)",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/lt68265.2026.11592520"
+ },
+ "llmcasdynamicneuronperturbationforrealtimehallucinationcorrection": {
+  "venue": "AAAI",
+  "year": 2026,
+  "ee": "https://doi.org/10.1609/aaai.v40i41.40776"
+ },
+ "lokisdanceofillusionsacomprehensivesurveyofhallucinationinlargelanguagemodels": {
+  "venue": "IEEE Transactions on Computational Social Systems",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/tcss.2026.3661295"
+ },
+ "mitigatinghallucinationinfinancialretrievalaugmentedgenerationviafinegrainedknowledgeverification": {
+  "venue": "ICASSP",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/icassp55912.2026.11464516"
+ },
+ "mitigatinghallucinationinmultimodalinformationsystemsacomparativeanalysisofmodularllmarchitectures": {
+  "venue": "IEEE Transactions on Computational Social Systems",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/tcss.2026.3691181"
+ },
+ "mitigatinghallucinationonhallucinationinragviaensemblevoting": {
+  "venue": "29th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/cscwd68734.2026.11582530"
+ },
+ "mitigatingllmhallucinationsnowballinginmultiagentsystemsviacontextawaresemanticconsistencyreasoning": {
+  "venue": "TNNLS",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/tnnls.2026.3655508"
+ },
+ "mitigatingmultimodalhallucinationthrougheffectiveandperceptionawaregranularityalignment": {
+  "venue": "TASLP",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/taslpro.2026.3703183"
+ },
+ "mitigatingvisualhallucinationinmultimodaleventextractionviaconstrainedprompting": {
+  "venue": "Advances in Transdisciplinary Engineering",
+  "year": 2026,
+  "ee": "https://doi.org/10.3233/atde260397"
+ },
+ "modelstabilityandhallucinationunderthedataknowledgedualdriveparadigmasurvey": {
+  "venue": "ICML",
+  "year": 2026,
+  "ee": "https://doi.org/10.1117/12.3110427"
+ },
+ "multiagentbrainstormingforinterpretingandmitigatinghallucinationinmultimodalllm": {
+  "venue": "ICASSP",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/icassp55912.2026.11464937"
+ },
+ "mvrlamultistagetrainingframeworkforvaluealignmentandhallucinationsuppressioninlargelanguagemodels": {
+  "venue": "IEEE International Conference on Pattern Recognition, Machine Vision and Artificial Intelligence (PRMVAI)",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/prmvai70103.2026.11605527"
+ },
+ "promptfishingactivehallucinationinducementtodistinguishllmsfromhumans": {
+  "venue": "IEEE Transactions on Information Forensics and Security",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/tifs.2026.3709099"
+ },
+ "reasoningapossrazorreasoningimprovesaccuracybuthurtsrecallatcriticaloperatingpointsinsafetyandhallucinationdetection": {
+  "venue": "EACL",
+  "year": 2026,
+  "ee": "https://doi.org/10.18653/v1/2026.eacl-long.190"
+ },
+ "rerelevanceamprecencyretrievalformitigatingtemporalhallucination": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.acl-long.1180/"
+ },
+ "rushalluragbenchmarkinghallucinationdetectionforrussianrag": {
+  "venue": "Comput. Linguistics",
+  "year": 2026,
+  "ee": "https://doi.org/10.29003/2075-7182-2026-24-516-534"
+ },
+ "semanticreformulationentropyforrobusthallucinationdetectioninqatasks": {
+  "venue": "ICASSP",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/icassp55912.2026.11460452"
+ },
+ "shadowsintheattentioncontextualperturbationandrepresentationdriftinthedynamicsofhallucinationinllms": {
+  "venue": "Communications in Computer and Information Science",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/978-981-95-4088-4_32"
+ },
+ "slopsquattingandpackagehallucinationinllms": {
+  "venue": "International Journal of Innovative Research in Technology",
+  "year": 2026,
+  "ee": "https://doi.org/10.64643/ijirtv12i7-191660-459"
+ },
+ "synonymknowledgegraphenhancedlanguagemodelforinconsistenthallucinationdetection": {
+  "venue": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+  "year": 2026,
+  "ee": "https://doi.org/10.1145/3819585"
+ },
+ "temphallucbenchevaluatingtemporalhallucinationinvideollmbasedvideosearchandinformationextraction": {
+  "venue": "International Journal of Computer Applications",
+  "year": 2026,
+  "ee": "https://doi.org/10.5120/ijca-1aef39d4b120"
+ },
+ "thedoublelockframeworkamultilayeredsystemforgroundedretrievalaugmentedgenerationandhallucinationmitigation": {
+  "venue": "Comput. Linguistics",
+  "year": 2026,
+  "ee": "https://doi.org/10.6025/ijclr/2026/17/2/100-126"
+ },
+ "theimmutablehallucinationacriticalanalysisofaiblockchainintegrationinhealthcare": {
+  "venue": "International Conference on Artificial Intelligence and Blockchain in Healthcare",
+  "year": 2026,
+  "ee": "https://doi.org/10.5220/0015138500005051"
+ },
+ "trustworthinesshallucinationandevaluationinlargelanguagemodels": {
+  "venue": "INTERNATIONAL JOURNAL OF CREATIVE RESEARCH THOUGHTS",
+  "year": 2026,
+  "ee": "https://doi.org/10.56975/ijcrt.v14i4.307430"
+ },
+ "anonintrusiveplugandplaymethodforhallucinationmitigationvialidguidedinputpreprocessing": {
+  "venue": "Mach. Intell. Res.",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/s11633-025-1596-7"
+ },
+ "advancingllmgeneratedcodereliabilityahybridapproachforhallucinationdetection": {
+  "venue": "IEEE Trans. Software Eng.",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/TSE.2025.3640641"
+ },
+ "attentionreallocationtowardszerocostandcontrollablehallucinationmitigationofmllms": {
+  "venue": "IJCV",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/s11263-025-02607-z"
+ },
+ "cascadedverificationframeworkaprogressiveapproachformitigatinghallucinationsinlargelanguagemodels": {
+  "venue": "WWW",
+  "year": 2026,
+  "ee": "https://doi.org/10.1145/3774904.3792852"
+ },
+ "collaboratedwithhallucinationenhancingegocentricgroundedquestionansweringviaerrordemonstrations": {
+  "venue": "TIP",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/TIP.2026.3666732"
+ },
+ "crossmodeldiffusionmitigatinghallucinationinlargelanguagemodelsforrumordetection": {
+  "venue": "NN",
+  "year": 2026,
+  "ee": "https://doi.org/10.1016/j.neunet.2026.109226"
+ },
+ "drvahierarchicalperceptiontemporalcognitionframeworktodiagnosevideohallucinationbyfinegrainedspatialtemporalgrounding": {
+  "venue": "IJCV",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/s11263-026-02831-1"
+ },
+ "erodingthetruthdefaultacausalanalysisofhumansusceptibilitytofoundationmodelhallucinationsanddisinformationinthewild": {
+  "venue": "WWW",
+  "year": 2026,
+  "ee": "https://doi.org/10.1145/3774905.3795832"
+ },
+ "hallucinationearlydetectionindiffusionmodels": {
+  "venue": "IJCV",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/s11263-025-02622-0"
+ },
+ "hallucinationeliminationandtextannotationframeworkforlargevisionlanguagemodelsintrafficscenarios": {
+  "venue": "IEEE Trans. Intell. Transp. Syst.",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/TITS.2025.3625700"
+ },
+ "hallucinationmitigationwithagenticainlpbasedopenfloorstandard": {
+  "venue": "ICAART",
+  "year": 2026,
+  "ee": "https://doi.org/10.5220/0013761000004052"
+ },
+ "hallucinationtotruthareviewoffactcheckingandfactualityevaluationinlargelanguagemodels": {
+  "venue": "Artif. Intell. Rev.",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/s10462-025-11454-w"
+ },
+ "howhumanexpertseducatespecializedllmsfillingknowledgegapsinkgaugmentedgenerationthroughhallucinationdetection": {
+  "venue": "WWW",
+  "year": 2026,
+  "ee": "https://doi.org/10.1145/3774904.3792550"
+ },
+ "largelanguagemodelshallucinationacomprehensivesurvey": {
+  "venue": "Comput. Sci. Rev.",
+  "year": 2026,
+  "ee": "https://doi.org/10.1016/j.cosrev.2026.100970"
+ },
+ "lietomeknowledgegraphsforrobusthallucinationselfdetectioninllms": {
+  "venue": "ICPRAM",
+  "year": 2026,
+  "ee": "https://doi.org/10.5220/0014245100004067"
+ },
+ "mitigatinghallucinationinmultimodallargelanguagemodelsviacrosslayervisualanchors": {
+  "venue": "Pattern Recognit.",
+  "year": 2026,
+  "ee": "https://doi.org/10.1016/j.patcog.2026.114380"
+ },
+ "quantifyingfactualdivergenceingenerativemodelsshaplimebasedhallucinationscoreforllms": {
+  "venue": "Multim. Syst.",
+  "year": 2026,
+  "ee": "https://doi.org/10.1007/s00530-025-02150-4"
+ },
+ "rapidendtoendtestgenerationandhallucinationmitigationusinggenerativeartificialintelligence": {
+  "venue": "IEEE Access",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/ACCESS.2026.3657407"
+ },
+ "regazerooverheadgraphalignmentforstructuralhallucinationdetectionwithoutgeneration": {
+  "venue": "WWW",
+  "year": 2026,
+  "ee": "https://doi.org/10.1145/3774905.3794657"
+ },
+ "searagreducinghallucinationinretrievalaugmentedgenerationviastatemententityadaptiveranking": {
+  "venue": "WWW",
+  "year": 2026,
+  "ee": "https://doi.org/10.1145/3774904.3792598"
+ },
+ "surveyonhallucinationinreasoninglargelanguagemodelevaluationtaxonomyinterventionandopenissues": {
+  "venue": "Data Intell.",
+  "year": 2026,
+  "ee": "https://doi.org/10.3724/2096-7004.di.2025.0131"
+ },
+ "thevirtueofhallucinationwhenaimistakesmakesoftwaresafer": {
+  "venue": "Computer",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/MC.2026.3659286"
+ },
+ "vgldpovisionguidedlexicaldirectpreferenceoptimizationformitigatinghallucinationinmultimodallargelanguagemodels": {
+  "venue": "TOMM",
+  "year": 2026,
+  "ee": "https://doi.org/10.1145/3796715"
+ },
+ "whylanguagemodelreasoningsystematicallyfailsastructuraldefinitionofhallucinationbasedoncoordinateclosure": {
+  "venue": "IEEE Access",
+  "year": 2026,
+  "ee": "https://doi.org/10.1109/ACCESS.2026.3707249"
+ },
+ "calibratedtrustindealingwithllmhallucinationsaqualitativestudy": {
+  "venue": "FLLM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/FLLM67465.2025.11391250"
+ },
+ "finetunedlargelanguagemodelsforlogicaltranslationreducinghallucinationswithlang2logic": {
+  "venue": "ISNCC",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ISNCC66965.2025.11250432"
+ },
+ "alleviatinghallucinationsinlargelanguagemodelsthroughmultimodelcontrastivedecodinganddynamichallucinationdetection": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/f1a92c4df8cd7dc1cab2613fb999d5e7-Abstract-Conference.html"
+ },
+ "auditingmetacognitivehallucinationsinreasoninglargelanguagemodels": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/ee0e336e2423430ef86071300299e074-Abstract-Conference.html"
+ },
+ "benfordscursetracingdigitbiastonumericalhallucinationinllms": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/aa5f5e6eb6f613ec412f1d948dfa21a5-Abstract-Conference.html"
+ },
+ "beyondtokenprobeshallucinationdetectionviaactivationtensorswithactvit": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/7b8694d58c34b9bec9c2f29735c3a250-Abstract-Conference.html"
+ },
+ "decouplingcontrastivedecodingrobusthallucinationmitigationinmultimodallargelanguagemodels": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/f39cc9110544a067f024c1fb8b396128-Abstract-Conference.html"
+ },
+ "dolvlmstrulyunderstandvideoanomaliesrevealinghallucinationviacooccurrencepatterns": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/99b419554537c66bf27e5eb7a74c7de4-Abstract-Conference.html"
+ },
+ "factmitigatinginconsistenthallucinationsinllmsviafactdrivenalternatingcodetexttraining": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/bc75254bc4b8b42f401d0ab5d6e9aa4b-Abstract-Conference.html"
+ },
+ "generalizationorhallucinationunderstandingoutofcontextreasoningintransformers": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/cc7c9c8e4a84b0ca00d874e1a8938644-Abstract-Conference.html"
+ },
+ "groundinglanguagewithvisionaconditionalmutualinformationcalibrateddecodingstrategyforreducinghallucinationsinlvlms": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/9796170d31d42b943534df40bdee68d3-Abstract-Conference.html"
+ },
+ "hallucinationataglancecontrolledvisualeditsandfinegrainedmultimodallearning": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/c518f504ad5894ccb264a9890f0f5544-Abstract-Conference.html"
+ },
+ "imagetokenmattersmitigatinghallucinationindiscretetokenizerbasedlargevisionlanguagemodelsvialatentediting": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/a17c939f1bdee90ec74a9c3cb938d8c3-Abstract-Conference.html"
+ },
+ "interveneallpathsunifiedmitigationoflvlmhallucinationsacrossalignmentformats": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/d0cf89927acd9136d27ebf08f9e8a888-Abstract-Conference.html"
+ },
+ "investigatinghallucinationsoftimeseriesfoundationmodelsthroughsignalsubspaceanalysis": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/a5059a9a389ccc76da85760ea79490d8-Abstract-Conference.html"
+ },
+ "mirageassessinghallucinationinmultimodalreasoningchainsofmllm": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/b238324b309da12c7446d92c14db9f7e-Abstract-Conference.html"
+ },
+ "morethinkinglessseeingassessingamplifiedhallucinationinmultimodalreasoningmodels": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/777db387a5ccb131ba8c7cd155166b85-Abstract-Conference.html"
+ },
+ "onepistemicuncertaintyofvisualtokensforobjecthallucinationsinlargevisionlanguagemodels": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/bd6673d95a2a994a5647dca1df91a000-Abstract-Conference.html"
+ },
+ "onespacetorulethemalljointlymitigatingfactualityandfaithfulnesshallucinationsinllms": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/e77d684aae157abd84df1eeb76d8b9cd-Abstract-Conference.html"
+ },
+ "phantomabenchmarkforhallucinationdetectioninfinanciallongcontextqa": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/b8badadce3f482ba340ff870f4894441-Abstract-Datasets_and_Benchmarks_Track.html"
+ },
+ "reasoningmodelshallucinatemorefactualityawarereinforcementlearningforlargereasoningmodels": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/ddd50f29fa472095515fa0df31749e6c-Abstract-Conference.html"
+ },
+ "robusthallucinationdetectioninllmsviaadaptivetokenselection": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/b7c43d4a79dede363a2d061c6158e5a5-Abstract-Conference.html"
+ },
+ "secasemanticallyequivalentandcoherentattacksforelicitingllmhallucinations": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/d077bc9ea82a2998ca6b2d0158b5ac6e-Abstract-Conference.html"
+ },
+ "systematicrewardgapoptimizationformitigatingvlmhallucinations": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/a63ce8e6867a1bf4b4ca62e5077814d9-Abstract-Conference.html"
+ },
+ "thecurseofmultimodalitiesevaluatinghallucinationsoflargemultimodalmodelsacrosslanguagevisualandaudio": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/9b0b18a77421d45d26c3df5612caefe7-Abstract-Datasets_and_Benchmarks_Track.html"
+ },
+ "videohalluevaluatingandmitigatingmultimodalhallucinationsonsyntheticvideounderstanding": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/6e1734c47c0cc899021060d88f69dc65-Abstract-Conference.html"
+ },
+ "wisdomisknowingwhatnottosayhallucinationfreellmsunlearningviaattentionshifting": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/8eb3e953455f01ebbd83d7df351bdf95-Abstract-Conference.html"
+ },
+ "consistencyisthekeydetectinghallucinationsinllmgeneratedtextbycheckinginconsistenciesaboutkeyfacts": {
+  "venue": "IJCNLP-AACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-ijcnlp.129"
+ },
+ "knowledgegraphslargelanguagemodelsandhallucinationsannlpperspective": {
+  "venue": "J. Web Semant.",
+  "year": 2025,
+  "ee": "https://doi.org/10.1016/j.websem.2024.100844"
+ },
+ "onthelimitsoflanguagegenerationtradeoffsbetweenhallucinationandmodecollapse": {
+  "venue": "STOC",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3717823.3718108"
+ },
+ "symlocsymboliclocalizationofhallucinationacrosshaluevalandtruthfulqa": {
+  "venue": "CODS",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3799830.3799850"
+ },
+ "aheadtopredictandaheadtoquestionpretraineduncertaintyquantificationheadsforhallucinationdetectioninllmoutputs": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.1809"
+ },
+ "activelayercontrastivedecodingreduceshallucinationinlargelanguagemodelgeneration": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.150"
+ },
+ "attentionguidedselfreflectionforzeroshothallucinationdetectioninlargelanguagemodels": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.1063"
+ },
+ "boldclaimsorselfdoubtfactualityhallucinationtypedetectionviabeliefstate": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.527"
+ },
+ "bridgingexternalandparametricknowledgemitigatinghallucinationofllmswithsharedprivatesemanticsynergyindualstreamknowledge": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.549"
+ },
+ "calibratingverbaluncertaintyasalinearfeaturetoreducehallucinations": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.187"
+ },
+ "cclxcotanefficientcrosslingualknowledgetransfermethodformitigatinghallucinationgeneration": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.93"
+ },
+ "dapebrdistanceawarepositionalencodingformitigatingobjecthallucinationinlvlms": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.459"
+ },
+ "decoredecodingbycontrastingretrievalheadstomitigatehallucinations": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.531"
+ },
+ "detectingllmhallucinationthroughlayerwiseinformationdeficiencyanalysisofambiguouspromptsandunanswerablequestions": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.1644"
+ },
+ "divingintomitigatinghallucinationsfromavisionperspectiveforlargevisionlanguagemodels": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.936"
+ },
+ "egoillusionbenchmarkinghallucinationsinegocentricvideounderstanding": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.1446"
+ },
+ "evaluatingevaluationmetricsthemirageofhallucinationdetection": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.1035"
+ },
+ "exploringthegeneralizabilityoffactualhallucinationmitigationviaenhancingpreciseknowledgeutilization": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.211"
+ },
+ "factcheckmatepreemptivelydetectingandmitigatinghallucinationsinlms": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.663"
+ },
+ "fgprmfinegrainedhallucinationdetectionandmitigationinlanguagemodelmathematicalreasoning": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.228"
+ },
+ "hallucinationdetectioninllmsusingspectralfeaturesofattentionmaps": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.1239"
+ },
+ "hallucinationdetectioninstructuredquerygenerationviallmselfdebating": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.873"
+ },
+ "healanempiricalstudyonhallucinationsinembodiedagentsdrivenbylargelanguagemodels": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.1158"
+ },
+ "howmuchdollmshallucinateacrosslanguagesonrealisticmultilingualestimationofllmhallucination": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.1481"
+ },
+ "humanshallucinatetoolanguagemodelsidentifyandcorrectsubjectiveannotationerrorswithlabelinahaystackprompts": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.993"
+ },
+ "lowhallucinationandefficientcoreferenceresolutionwithllms": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.934"
+ },
+ "maskcdmitigatinglvlmhallucinationsbyimageheadmaskedcontrastivedecoding": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.1025"
+ },
+ "medhalluacomprehensivebenchmarkfordetectingmedicalhallucinationsinlargelanguagemodels": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.143"
+ },
+ "mitigatinggeospatialknowledgehallucinationinlargelanguagemodelsbenchmarkinganddynamicfactualityaligning": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.45"
+ },
+ "mitigatinghallucinationinlargevisionlanguagemodelsthroughaligningattentiondistributiontoinformationflow": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.1352"
+ },
+ "mitigatinghallucinationsinlargevisionlanguagemodelsbyselfinjectinghallucinations": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.746"
+ },
+ "mitigatinghallucinationsinlargevisionlanguagemodelsviaentitycentricmultimodalpreferenceoptimization": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.982"
+ },
+ "mitigatinghallucinationsinlmbasedttsmodelsviadistributionalignmentusinggflownets": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.976"
+ },
+ "mitigatinghallucinationsinvisionlanguagemodelsthroughimageguidedheadsuppression": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.631"
+ },
+ "mitigatingobjecthallucinationsinmllmsviamultifrequencyperturbations": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.64"
+ },
+ "multifrequencycontrastivedecodingalleviatinghallucinationsforlargevisionlanguagemodels": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.1452"
+ },
+ "realignaligningvisionlanguagemodelsviaretrievalaugmenteddirectpreferenceoptimization": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.121"
+ },
+ "regularizedcontrastivedecodingwithhardnegativesamplesforllmhallucinationmitigation": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.322"
+ },
+ "reloopseeingtwiceandthinkingbackwardsviaclosedlooptrainingtomitigatehallucinationsinmultimodalunderstanding": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.222"
+ },
+ "representationbasedbroadhallucinationdetectorsfailtogeneralizeoutofdistribution": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.952"
+ },
+ "safeasparseautoencoderbasedframeworkforrobustqueryenrichmentandhallucinationmitigationinllms": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.496"
+ },
+ "shallowfocusdeepfixesenhancingshallowlayersvisionattentionsinkstoalleviatehallucinationinlvlms": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.174"
+ },
+ "sharpsteeringhallucinationinlvlmsviarepresentationengineering": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.725"
+ },
+ "simplefactualityprobesdetecthallucinationsinlongformnaturallanguagegeneration": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.880"
+ },
+ "steeringlvlmsviasparseautoencoderforhallucinationmitigation": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.572"
+ },
+ "thehallucinationtaxofreinforcementfinetuning": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.112"
+ },
+ "theillusionofprogressreevaluatinghallucinationdetectioninllms": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.1761"
+ },
+ "theimpactofnegatedtextonhallucinationwithlargelanguagemodels": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.684"
+ },
+ "tokenpreferenceoptimizationwithselfcalibratedvisualanchoredrewardsforhallucinationmitigation": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.1076"
+ },
+ "treblecounterfactualvlmsacausalapproachtohallucination": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.1000"
+ },
+ "trustmeimwrongllmshallucinatewithcertaintydespiteknowingtheanswer": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.792"
+ },
+ "unsupervisedhallucinationdetectionbyinspectingreasoningprocesses": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.1124"
+ },
+ "unveilingtheresponseoflargevisionlanguagemodelstovisuallyabsenttokens": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.1092"
+ },
+ "whenmodelsliewelearnmultilingualspanlevelhallucinationdetectionwithpsiloqa": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.626"
+ },
+ "zeroknowledgellmhallucinationdetectionandmitigationthroughfinegrainedcrossmodelconsistency": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-industry.139"
+ },
+ "conditionalhallucinationsforimagecompression": {
+  "venue": "DCC",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/DCC62719.2025.00043"
+ },
+ "privacyhardenedandhallucinationresistantsyntheticdatagenerationwithlogicsolvers": {
+  "venue": "Bioinform.",
+  "year": 2025,
+  "ee": "https://doi.org/10.1093/bioinformatics/btaf600"
+ },
+ "unifiedtripletlevelhallucinationevaluationforlargevisionlanguagemodels": {
+  "venue": "TMLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=iNywrSPpvc"
+ },
+ "argushallucinationandomissionevaluationinvideollms": {
+  "venue": "ICCV",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICCV51701.2025.01886"
+ },
+ "benchmarkingandbridgingemotionconflictsformultimodalemotionreasoning": {
+  "venue": "ACM MM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3746027.3754856"
+ },
+ "chartcapmitigatinghallucinationofdensechartcaptioning": {
+  "venue": "ICCV",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICCV51701.2025.01224"
+ },
+ "cofidechallucinationresistantdecodingviacoarsetofinegenerativefeedbackinlargevisionlanguagemodels": {
+  "venue": "ACM MM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3746027.3754791"
+ },
+ "collaborationwinsmoredualmodalcollaborativeattentionreinforcementformitigatinglargevisionlanguagemodelshallucination": {
+  "venue": "ACM MM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3746027.3755320"
+ },
+ "dashdetectionandassessmentofsystematichallucinationsofvlms": {
+  "venue": "ICCV",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICCV51701.2025.02112"
+ },
+ "deepsixatacmmm2025grandchallengeenhancingcontexttextprocessingformultimodalhallucinationdetectionandfactverification": {
+  "venue": "ACM MM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3746027.3762061"
+ },
+ "dhcpdetectinghallucinationsbycrossmodalattentionpatterninlargevisionlanguagemodels": {
+  "venue": "ACM MM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3746027.3755118"
+ },
+ "enhancingvisualrelianceintextgenerationabayesianperspectiveonmitigatinghallucinationinlargevisionlanguagemodels": {
+  "venue": "ACM MM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3746027.3755606"
+ },
+ "frompixelstotokensrevisitingobjecthallucinationsinlargevisionlanguagemodels": {
+  "venue": "ACM MM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3746027.3755728"
+ },
+ "fuzzycontrastivedecodingtoalleviateobjecthallucinationinlargevisionlanguagemodels": {
+  "venue": "ICCV",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICCV51701.2025.01913"
+ },
+ "hallucinatoryimagetokensatrainingfreeeazyapproachtodetectingandmitigatingobjecthallucinationsinlvlms": {
+  "venue": "ICCV",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICCV51701.2025.02009"
+ },
+ "hkd4vlmaprogressivehybridknowledgedistillationframeworkforrobustmultimodalhallucinationandfactualitydetectioninvlms": {
+  "venue": "ACM MM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3746027.3762014"
+ },
+ "identifyisolateandpurgemitigatinghallucinationsinlvlmsviaselfevolvingdistillation": {
+  "venue": "ACM MM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3746027.3754784"
+ },
+ "intermitigatinghallucinationinlargevisionlanguagemodelsbyinteractionguidancesampling": {
+  "venue": "ICCV",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICCV51701.2025.00244"
+ },
+ "mcallavamanhattancausalattentionforreducinghallucinationinlargevisionlanguagemodels": {
+  "venue": "ACM MM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3746027.3755271"
+ },
+ "meshunderstandingvideoslikehumanmeasuringhallucinationsinlargevideomodels": {
+  "venue": "ACM MM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3746027.3755626"
+ },
+ "mihbenchbenchmarkingandmitigatingmultiimagehallucinationsinmultimodallargelanguagemodels": {
+  "venue": "ACM MM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3746027.3754993"
+ },
+ "mitigatingimagecaptioninghallucinationsinvisionlanguagemodels": {
+  "venue": "ACM MM",
+  "year": 2025,
+  "ee": ""
+ },
+ "mitigatingobjecthallucinationsviasentencelevelearlyintervention": {
+  "venue": "ICCV",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICCV51701.2025.00067"
+ },
+ "mpicdmultipathinformationcontrastivedecodingformitigatinghallucinationsinlargevisionlanguagemodels": {
+  "venue": "ACM MM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3746027.3755372"
+ },
+ "onlyonelayerinterventionsufficientlymitigateshallucinationsinlargevisionlanguagemodels": {
+  "venue": "ICCV",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICCV51701.2025.00309"
+ },
+ "seedifferentthinkbettervisualvariationsmitigatinghallucinationsinlvlms": {
+  "venue": "ACM MM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3746027.3755044"
+ },
+ "shaleascalablebenchmarkforfinegrainedhallucinationevaluationinlvlms": {
+  "venue": "ACM MM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3746027.3758308"
+ },
+ "shiftsmoothinghallucinationsbyinformationflowtuningformultimodallargelanguagemodels": {
+  "venue": "ICCV",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICCV51701.2025.00347"
+ },
+ "towardsmitigationofhallucinationforllmempoweredagentsprogressivegeneralizationboundexplorationandwatchdogmonitor": {
+  "venue": "ECAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.3233/FAIA250910"
+ },
+ "truthprintmitigatinglargevisionlanguagemodelsobjecthallucinationvialatenttruthfulguidedpreintervention": {
+  "venue": "ICCV",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICCV51701.2025.00692"
+ },
+ "vishall3dmonocularsemanticscenecompletionfromreconstructingthevisibleregionstohallucinatingtheinvisibleregions": {
+  "venue": "ICCV",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICCV51701.2025.02663"
+ },
+ "visualperceptionuncertaintylearningforhallucinationdetectioninlargevisionlanguagemodels": {
+  "venue": "ACM MM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3746027.3755126"
+ },
+ "whylvlmsaremorepronetohallucinationsinlongerresponsestheroleofcontext": {
+  "venue": "ICCV",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICCV51701.2025.00391"
+ },
+ "crosslayerattentionprobingforfinegrainedhallucinationdetection": {
+  "venue": "TRUST-AI@ECAI",
+  "year": 2025,
+  "ee": "https://ceur-ws.org/Vol-4132/short39.pdf"
+ },
+ "halohallucinationanalysisandlearningoptimizationtoempowerllmswithretrievalaugmentedcontextforguidedclinicaldecisionmaking": {
+  "venue": "CHASE",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3721201.3721385"
+ },
+ "hfuzzertestinglargelanguagemodelsforpackagehallucinationsviaphrasebasedfuzzing": {
+  "venue": "ASE",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ASE63991.2025.00225"
+ },
+ "investigatingsymbolictriggersofhallucinationingemmamodelsacrosshaluevalandtruthfulqa": {
+  "venue": "SEMANTiCS",
+  "year": 2025,
+  "ee": "https://ceur-ws.org/Vol-4064/SymGenAI4Sci-paper2.pdf"
+ },
+ "llmhallucinationsinpracticalcodegenerationphenomenamechanismandmitigation": {
+  "venue": "Proc. ACM Softw. Eng.",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3728894"
+ },
+ "metaragmetamorphictestingforhallucinationdetectioninragsystems": {
+  "venue": "IAAI/ALA@ECAI",
+  "year": 2025,
+  "ee": "https://ceur-ws.org/Vol-4136/iaai6.pdf"
+ },
+ "calmwhisperreducewhisperhallucinationonnonspeechbycalmingcrazyheadsdown": {
+  "venue": "INTERSPEECH",
+  "year": 2025,
+  "ee": "https://doi.org/10.21437/Interspeech.2025-201"
+ },
+ "factcontrolleddiagnosisofhallucinationsinmedicaltextsummarization": {
+  "venue": "INTERSPEECH",
+  "year": 2025,
+  "ee": "https://doi.org/10.21437/Interspeech.2025-537"
+ },
+ "teachingaudioawarelargelanguagemodelswhatdoesnothearmitigatinghallucinationsthroughsynthesizednegativesamples": {
+  "venue": "INTERSPEECH",
+  "year": 2025,
+  "ee": "https://doi.org/10.21437/Interspeech.2025-324"
+ },
+ "voicenongrobusthighqualityspeecheditingmodelwithouthallucinations": {
+  "venue": "INTERSPEECH",
+  "year": 2025,
+  "ee": "https://doi.org/10.21437/Interspeech.2025-431"
+ },
+ "alleviatinghallucinationinlargevisionlanguagemodelswithactiveretrievalaugmentation": {
+  "venue": "TOMM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3742434"
+ },
+ "atlantisatsemeval2025task3detectinghallucinatedtextspansinquestionanswering": {
+  "venue": "SemEval@ACL",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.semeval-1.145/"
+ },
+ "canllmbeagoodpathplannerbasedonpromptengineeringmitigatingthehallucinationforpathplanning": {
+  "venue": "ICIC",
+  "year": 2025,
+  "ee": "https://doi.org/10.1007/978-981-95-0014-7_1"
+ },
+ "evidenceenhancedtripletgenerationframeworkforhallucinationalleviationingenerativequestionanswering": {
+  "venue": "CogSci",
+  "year": 2025,
+  "ee": "https://escholarship.org/uc/item/21j040mk"
+ },
+ "exploringcausaleffectofsocialbiasonfaithfulnesshallucinationsinlargelanguagemodels": {
+  "venue": "CIKM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3746252.3761298"
+ },
+ "faithaframeworkforassessingintrinsictabularhallucinationsinfinance": {
+  "venue": "ICAIF",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3768292.3770433"
+ },
+ "hallucinationdetectionandmitigationinscientifictextsimplificationusingensembleapproachesdsgtatclef2025simpletext": {
+  "venue": "CLEF",
+  "year": 2025,
+  "ee": "https://ceur-ws.org/Vol-4038/paper_356.pdf"
+ },
+ "hallucinationinllmbasedcodegenerationanautomotivecasestudy": {
+  "venue": "FLLM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/FLLM67465.2025.11391125"
+ },
+ "hallucinationsincodechangetonaturallanguagegenerationprevalenceandevaluationofdetectionmetrics": {
+  "venue": "IJCNLP-AACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.ijcnlp-long.137"
+ },
+ "multiragaknowledgeguidedframeworkformitigatinghallucinationinmultisourceretrievalaugmentedgeneration": {
+  "venue": "ICDE",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICDE65448.2025.00230"
+ },
+ "detectinghallucinationinlargelanguagemodelsthroughdeepinternalrepresentationanalysis": {
+  "venue": "IJCAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.24963/ijcai.2025/929"
+ },
+ "hallucinationreductioninvideolanguagemodelsviahierarchicalmultimodalconsistency": {
+  "venue": "IJCAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.24963/ijcai.2025/1019"
+ },
+ "hallucinationawarepromptoptimizationfortexttovideosynthesis": {
+  "venue": "IJCAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.24963/ijcai.2025/1133"
+ },
+ "towardreliablescientifichypothesisgenerationevaluatingtruthfulnessandhallucinationinlargelanguagemodels": {
+  "venue": "IJCAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.24963/ijcai.2025/873"
+ },
+ "understandingvisualdetailhallucinationsoflargevisionlanguagemodels": {
+  "venue": "IJCAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.24963/ijcai.2025/212"
+ },
+ "hallucinationdetectioninlargelanguagemodelsusingdiversiondecoding": {
+  "venue": "DBSec",
+  "year": 2025,
+  "ee": "https://doi.org/10.1007/978-3-031-96590-6_7"
+ },
+ "keaexplainexplanationsofhallucinationsusinggraphkernelanalysis": {
+  "venue": "NeSy",
+  "year": 2025,
+  "ee": "https://proceedings.mlr.press/v284/haskins25a.html"
+ },
+ "onmitigatingcodellmhallucinationswithapidocumentation": {
+  "venue": "SEIP@ICSE",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICSE-SEIP66354.2025.00027"
+ },
+ "sharedimaginationllmshallucinatealike": {
+  "venue": "TMLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=NUXpBMtDYs"
+ },
+ "tummikaniatsemeval2025task3towardsmultilingualandknowledgeawarenonfactualhallucinationidentification": {
+  "venue": "SemEval@ACL",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.semeval-1.141/"
+ },
+ "activationsteeringdecodingmitigatinghallucinationinlargevisionlanguagemodelsthroughbidirectionalhiddenstateintervention": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-long.634"
+ },
+ "aligninglargelanguagemodelstofollowinstructionsandhallucinatelessviaeffectivedatafiltering": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-long.804"
+ },
+ "alleviatinghallucinationsfromknowledgemisalignmentinlargelanguagemodelsviaselectiveabstentionlearning": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-long.1199"
+ },
+ "alleviatingllmbasedgenerativeretrievalhallucinationinalipaysearch": {
+  "venue": "SIGIR",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3726302.3731951"
+ },
+ "beyondfactsevaluatingintenthallucinationinlargelanguagemodels": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-long.349"
+ },
+ "beyondmultimodalhallucinationsenhancinglvlmsthroughhallucinationawaredirectpreferenceoptimization": {
+  "venue": "ICME",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICME59968.2025.11209377"
+ },
+ "canhallucinationcorrectionimprovevideolanguagealignment": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-acl.1314"
+ },
+ "cchallanovelbenchmarkforjointcrosslingualandcrossmodalhallucinationsdetectioninlargelanguagemodels": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-long.1485"
+ },
+ "claimmitigatingmultilingualobjecthallucinationinlargevisionlanguagemodelswithcrosslingualattentionintervention": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-long.640"
+ },
+ "crackingthecodeofhallucinationinlvlmswithvisionawareheaddivergence": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-long.175"
+ },
+ "dorobotsnakesdreamlikeelectricsheepinvestigatingtheeffectsofarchitecturalinductivebiasesonhallucination": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-acl.60"
+ },
+ "dontmisstheforestforthetreesattentionalvisioncalibrationforlargevisionlanguagemodels": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-acl.99"
+ },
+ "dragdistillingragforslmsfromllmstotransferknowledgeandmitigatehallucinationviaevidenceandgraphbaseddistillation": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-long.358"
+ },
+ "dynamicattentionguidedcontextdecodingformitigatingcontextfaithfulnesshallucinationsinlargelanguagemodels": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-acl.269"
+ },
+ "etfanentitytracingframeworkforhallucinationdetectionincodesummaries": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-long.1480"
+ },
+ "evaluatingllmsassessmentofmixedcontexthallucinationthroughthelensofsummarization": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-acl.847"
+ },
+ "explainablehallucinationthroughnaturallanguageinferencemapping": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-acl.96"
+ },
+ "focusonwhatmattersenhancingmedicalvisionlanguagemodelswithautomaticattentionalignmenttuning": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-long.460"
+ },
+ "hallucinationdetoxsensitivitydropoutsendforlargelanguagemodeltraining": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-long.276"
+ },
+ "hallulensllmhallucinationbenchmark": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-long.1176"
+ },
+ "halogenfantasticllmhallucinationsandwheretofindthem": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-long.71"
+ },
+ "hdndesneuraldifferentialequationsforhallucinationdetectioninllms": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-long.309"
+ },
+ "hicdhallucinationinducingviaattentiondispersionforcontrastivedecodingtomitigatehallucinationsinlargelanguagemodels": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-acl.405"
+ },
+ "icrprobetrackinghiddenstatedynamicsforreliablehallucinationdetectioninllms": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-long.880"
+ },
+ "insightoversightexploringthevisionknowledgeconflictsinmultimodalllms": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-long.872"
+ },
+ "instructionalignedvisualattentionformitigatinghallucinationsinlargevisionlanguagemodels": {
+  "venue": "ICME",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICME59968.2025.11209139"
+ },
+ "learningauxiliarytasksimprovesreferencefreehallucinationdetectioninopendomainlongformgeneration": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-short.93"
+ },
+ "longformhallucinationdetectionwithselfelicitation": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-acl.211"
+ },
+ "looktwicebeforeyouanswermemoryspacevisualretracingforhallucinationmitigationinmultimodallargelanguagemodels": {
+  "venue": "ICML",
+  "year": 2025,
+  "ee": "https://proceedings.mlr.press/v267/zou25e.html"
+ },
+ "lostintranscriptionfoundindistributionshiftdemystifyinghallucinationinspeechfoundationmodels": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-acl.1190"
+ },
+ "mhaloevaluatingmllmsasfinegrainedhallucinationdetectors": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-acl.478"
+ },
+ "mitigatinghallucinationinlargevideolanguagemodelswithinjectedsemantics": {
+  "venue": "ICME",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICME59968.2025.11209977"
+ },
+ "mitigatinghallucinationinmultimodallargelanguagemodelviahallucinationtargeteddirectpreferenceoptimization": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-acl.850"
+ },
+ "mitigatingobjecthallucinationinlargevisionlanguagemodelsviaimagegroundedguidance": {
+  "venue": "ICML",
+  "year": 2025,
+  "ee": "https://proceedings.mlr.press/v267/zhao25j.html"
+ },
+ "mitigatingobjecthallucinationinlargevisionlanguagemodelsviavisualattentiondirectpreferenceoptimization": {
+  "venue": "ICME",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICME59968.2025.11209127"
+ },
+ "mixtureofdecodinganattentioninspiredadaptivedecodingstrategytomitigatehallucinationsinlargevisionlanguagemodels": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-acl.448"
+ },
+ "monitoringdecodingmitigatinghallucinationviaevaluatingthefactualityofpartialresponseduringgeneration": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-acl.752"
+ },
+ "onpolicyselfalignmentwithfinegrainedknowledgefeedbackforhallucinationmitigation": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-acl.271"
+ },
+ "promptguidedinternalstatesforhallucinationdetectionoflargelanguagemodels": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-long.1058"
+ },
+ "rarrunraveledcomponentlevelinsightsintohallucinationdetectionandmitigation": {
+  "venue": "SIGIR",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3726302.3730337"
+ },
+ "reducingtoolhallucinationviareliabilityalignment": {
+  "venue": "ICML",
+  "year": 2025,
+  "ee": "https://proceedings.mlr.press/v267/xu25ap.html"
+ },
+ "reefknotacomprehensivebenchmarkforrelationhallucinationevaluationanalysisandmitigationinmultimodallargelanguagemodels": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-acl.322"
+ },
+ "rejectinghallucinatedstatetargetsduringplanning": {
+  "venue": "ICML",
+  "year": 2025,
+  "ee": "https://proceedings.mlr.press/v267/zhao25t.html"
+ },
+ "removalofhallucinationonhallucinationdebateaugmentedrag": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-long.770"
+ },
+ "retrievalvisualcontrastivedecodingtomitigateobjecthallucinationsinlargevisionlanguagemodels": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-acl.430"
+ },
+ "rowenadaptiveretrievalaugmentedgenerationforhallucinationmitigationinllms": {
+  "venue": "SIGIR-AP",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3767695.3769500"
+ },
+ "secondmitigatingperceptualhallucinationinvisionlanguagemodelsviaselectiveandcontrastivedecoding": {
+  "venue": "ICML",
+  "year": 2025,
+  "ee": "https://proceedings.mlr.press/v267/park25c.html"
+ },
+ "seeingbeyondhallucinationsllmbasedcompositionalinformationextractionformultimodalreasoning": {
+  "venue": "SIGIR",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3726302.3730081"
+ },
+ "sharpunlockinginteractivehallucinationviastancetransferinroleplayingllms": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": ""
+ },
+ "steerllmlatentsforhallucinationdetection": {
+  "venue": "ICML",
+  "year": 2025,
+  "ee": "https://proceedings.mlr.press/v267/park25a.html"
+ },
+ "stochasticchameleonsirrelevantcontexthallucinationsrevealclassbasedmisgeneralizationinllms": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-long.1458"
+ },
+ "thehiddenlifeoftokensreducinghallucinationoflargevisionlanguagemodelsviavisualinformationsteering": {
+  "venue": "ICML",
+  "year": 2025,
+  "ee": "https://proceedings.mlr.press/v267/li25ca.html"
+ },
+ "thelawofknowledgeovershadowingtowardsunderstandingpredictingandpreventingllmhallucination": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-acl.1199"
+ },
+ "thinkmorehallucinatelessmitigatinghallucinationsviadualprocessoffastandslowthinking": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-acl.417"
+ },
+ "towardrobusthyperdetailedimagecaptioningamultiagentapproachanddualevaluationmetricsforfactualityandcoverage": {
+  "venue": "ICML",
+  "year": 2025,
+  "ee": "https://proceedings.mlr.press/v267/lee25aj.html"
+ },
+ "treecutasyntheticunanswerablemathwordproblemdatasetforllmhallucinationevaluation": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-short.84"
+ },
+ "trustworthyinformationretrievalinthellmerabiasunfairnessandhallucination": {
+  "venue": "SIGIR-AP",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3767695.3769670"
+ },
+ "vadevisualattentionguidedhallucinationdetectionandelimination": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-acl.773"
+ },
+ "visualattentionneverfadesselectiveprogressiveattentionrecalibrationfordetailedimagecaptioninginmultimodallargelanguagemodels": {
+  "venue": "ICML",
+  "year": 2025,
+  "ee": "https://proceedings.mlr.press/v267/jung25c.html"
+ },
+ "visualevidencepromptingmitigateshallucinationsinlargevisionlanguagemodels": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.acl-long.205"
+ },
+ "aggtruthcontextualhallucinationdetectionusingaggregatedattentionscoresinllms": {
+  "venue": "ICCS",
+  "year": 2025,
+  "ee": "https://doi.org/10.1007/978-3-031-97570-7_18"
+ },
+ "hallucinationdetectionwithsmalllanguagemodels": {
+  "venue": "ICDEW",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICDEW67478.2025.00033"
+ },
+ "reducingobjecthallucinationinlargeaudiolanguagemodelsviaaudioawaredecoding": {
+  "venue": "ASRU",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ASRU65441.2025.11434595"
+ },
+ "visualhallucinationdetectioninlargevisionlanguagemodelsviaevidentialconflict": {
+  "venue": "Int. J. Approx. Reason.",
+  "year": 2025,
+  "ee": "https://doi.org/10.1016/j.ijar.2025.109507"
+ },
+ "wehaveapackageforyouacomprehensiveanalysisofpackagehallucinationsbycodegeneratingllms": {
+  "venue": "USENIX Security Symposium",
+  "year": 2025,
+  "ee": "https://www.usenix.org/conference/usenixsecurity25/presentation/spracklen"
+ },
+ "3dgrandamillionscaledatasetfor3dllmswithbettergroundingandlesshallucination": {
+  "venue": "CVPR",
+  "year": 2025,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_3D-GRAND_A_Million-Scale_Dataset_for_3D-LLMs_with_Better_Grounding_and_CVPR_2025_paper.html"
+ },
+ "aprobabilisticframeworkforllmhallucinationdetectionviabelieftreepropagation": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.naacl-long.158"
+ },
+ "alleviatinghallucinationsoflargelanguagemodelsthroughinducedhallucinations": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-naacl.459"
+ },
+ "antidoteaunifiedframeworkformitigatinglvlmhallucinationsincounterfactualpresuppositionandobjectperception": {
+  "venue": "CVPR",
+  "year": 2025,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2025/html/Wu_Antidote_A_Unified_Framework_for_Mitigating_LVLM_Hallucinations_in_Counterfactual_CVPR_2025_paper.html"
+ },
+ "beyondlogitlenscontextualembeddingsforrobusthallucinationdetectiongroundinginvlms": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.naacl-long.488"
+ },
+ "bimabijectivemaximumlikelihoodlearningapproachtohallucinationpredictionandmitigationinlargevisionlanguagemodels": {
+  "venue": "CVPRW",
+  "year": 2025,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2025W/Precognition/html/Tran_BIMA_Bijective_Maximum_Likelihood_Learning_Approach_to_Hallucination_Prediction_and_CVPRW_2025_paper.html"
+ },
+ "blackboxvisualpromptengineeringformitigatingobjecthallucinationinlargevisionlanguagemodels": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.naacl-short.45"
+ },
+ "clearsightvisualsignalenhancementforobjecthallucinationmitigationinmultimodallargelanguagemodels": {
+  "venue": "CVPR",
+  "year": 2025,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2025/html/Yin_ClearSight_Visual_Signal_Enhancement_for_Object_Hallucination_Mitigation_in_Multimodal_CVPR_2025_paper.html"
+ },
+ "developingareliablefastgeneralpurposehallucinationdetectionandmitigationservice": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.naacl-industry.72"
+ },
+ "devilsinmiddlelayersoflargevisionlanguagemodelsinterpretingdetectingandmitigatingobjecthallucinationsviaattentionlens": {
+  "venue": "CVPR",
+  "year": 2025,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2025/html/Jiang_Devils_in_Middle_Layers_of_Large_Vision-Language_Models_Interpreting_Detecting_CVPR_2025_paper.html"
+ },
+ "evaluatingandmitigatingobjecthallucinationinlargevisionlanguagemodelscantheystillseeremovedobjects": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.naacl-long.349"
+ },
+ "factchexckermitigatingmeasurementhallucinationsinchestxrayreportgenerationmodels": {
+  "venue": "CVPR",
+  "year": 2025,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2025/html/Heiman_FactCheXcker_Mitigating_Measurement_Hallucinations_in_Chest_X-ray_Report_Generation_Models_CVPR_2025_paper.html"
+ },
+ "faithbenchadiversehallucinationbenchmarkforsummarizationbymodernllms": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.naacl-short.38"
+ },
+ "fromsingletomultihowllmshallucinateinmultidocumentsummarization": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-naacl.293"
+ },
+ "gradientguidedattentionmapeditingtowardsefficientcontextualhallucinationmitigation": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-naacl.458"
+ },
+ "graitgradientdrivenrefusalawareinstructiontuningforeffectivehallucinationmitigation": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-naacl.223"
+ },
+ "halloctokenlevellocalizationofhallucinationsforvisionlanguagemodels": {
+  "venue": "CVPR",
+  "year": 2025,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2025/html/Park_HalLoc_Token-level_Localization_of_Hallucinations_for_Vision_Language_Models_CVPR_2025_paper.html"
+ },
+ "hallucanafixingllmhallucinationwithacanarylookahead": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-naacl.12"
+ },
+ "howllmsreacttoindustrialspatiotemporaldataassessinghallucinationwithanoveltrafficincidentbenchmarkdataset": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.naacl-industry.4"
+ },
+ "ibdalleviatinghallucinationsinlargevisionlanguagemodelsviaimagebiaseddecoding": {
+  "venue": "CVPRW",
+  "year": 2025,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2025W/TMM-OpenWorld/html/Zhu_IBD_Alleviating_Hallucinations_in_Large_Vision-Language_Models_via_Image-Biased_Decoding_CVPRW_2025_paper.html"
+ },
+ "ictimageobjectcrossleveltrustedinterventionformitigatingobjecthallucinationinlargevisionlanguagemodels": {
+  "venue": "CVPR",
+  "year": 2025,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_ICT_Image-Object_Cross-Level_Trusted_Intervention_for_Mitigating_Object_Hallucination_in_CVPR_2025_paper.html"
+ },
+ "improvedecodingfactualitybytokenwisecrosslayerentropyoflargelanguagemodels": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-naacl.217"
+ },
+ "investigatinghallucinationsinsimultaneousmachinetranslationknowledgedistillationsolutionandcomponentsanalysis": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.naacl-long.364"
+ },
+ "mashvlmmitigatingactionscenehallucinationinvideollmsthroughdisentangledspatialtemporalrepresentations": {
+  "venue": "CVPR",
+  "year": 2025,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2025/html/Bae_MASH-VLM_Mitigating_Action-Scene_Hallucination_in_Video-LLMs_through_Disentangled_Spatial-Temporal_Representations_CVPR_2025_paper.html"
+ },
+ "mitigatinghallucinatedtranslationsinlargelanguagemodelswithhallucinationfocusedpreferenceoptimization": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.naacl-long.175"
+ },
+ "mitigatinghallucinationsinlargevisionlanguagemodelsviadpoonpolicydataholdthekey": {
+  "venue": "CVPR",
+  "year": 2025,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Mitigating_Hallucinations_in_Large_Vision-Language_Models_via_DPO_On-Policy_Data_CVPR_2025_paper.html"
+ },
+ "mitigatinghallucinationsinlargevisionlanguagemodelsviasummaryguideddecoding": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-naacl.235"
+ },
+ "mitigatinghallucinationsinmultimodallargelanguagemodelsviaimagetokenattentionguideddecoding": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.naacl-long.75"
+ },
+ "mitigatinghallucinationsinmultimodalspatialrelationsthroughconstraintawareprompting": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-naacl.192"
+ },
+ "mitigatingobjecthallucinationsinlargevisionlanguagemodelswithassemblyofglobalandlocalattention": {
+  "venue": "CVPR",
+  "year": 2025,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2025/html/An_Mitigating_Object_Hallucinations_in_Large_Vision-Language_Models_with_Assembly_of_CVPR_2025_paper.html"
+ },
+ "notallhallucinationsaregoodtothrowawaywhenitcomestolegalabstractivesummarization": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.naacl-long.275"
+ },
+ "nullumitigatingobjecthallucinationsinlargevisionlanguagemodelsviahalluspaceprojection": {
+  "venue": "CVPR",
+  "year": 2025,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Nullu_Mitigating_Object_Hallucinations_in_Large_Vision-Language_Models_via_HalluSpace_CVPR_2025_paper.html"
+ },
+ "octopusalleviatinghallucinationviadynamiccontrastivedecoding": {
+  "venue": "CVPR",
+  "year": 2025,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2025/html/Suo_Octopus_Alleviating_Hallucination_via_Dynamic_Contrastive_Decoding_CVPR_2025_paper.html"
+ },
+ "odeopensetevaluationofhallucinationsinmultimodallargelanguagemodels": {
+  "venue": "CVPR",
+  "year": 2025,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2025/html/Tu_ODE_Open-Set_Evaluation_of_Hallucinations_in_Multimodal_Large_Language_Models_CVPR_2025_paper.html"
+ },
+ "onascalefrom1to5quantifyinghallucinationinfaithfulnessevaluation": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-naacl.433"
+ },
+ "phdachatgptpromptedvisualhallucinationevaluationdataset": {
+  "venue": "CVPR",
+  "year": 2025,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_PhD_A_ChatGPT-Prompted_Visual_Hallucination_Evaluation_Dataset_CVPR_2025_paper.html"
+ },
+ "seeingfarandclearlymitigatinghallucinationsinmllmswithattentioncausaldecoding": {
+  "venue": "CVPR",
+  "year": 2025,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2025/html/Tang_Seeing_Far_and_Clearly_Mitigating_Hallucinations_in_MLLMs_with_Attention_CVPR_2025_paper.html"
+ },
+ "stoplearningitalltomitigatevisualhallucinationfocusonthehallucinationtarget": {
+  "venue": "CVPR",
+  "year": 2025,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2025/html/Yoon_Stop_Learning_it_all_to_Mitigate_Visual_Hallucination_Focus_on_CVPR_2025_paper.html"
+ },
+ "towardslongcontexthallucinationdetection": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-naacl.436"
+ },
+ "unfamiliarfinetuningexamplescontrolhowlanguagemodelshallucinate": {
+  "venue": "NAACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.naacl-long.183"
+ },
+ "vasparsetowardsefficientvisualhallucinationmitigationviavisualawaretokensparsification": {
+  "venue": "CVPR",
+  "year": 2025,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhuang_VASparse_Towards_Efficient_Visual_Hallucination_Mitigation_via_Visual-Aware_Token_Sparsification_CVPR_2025_paper.html"
+ },
+ "vidhallucevaluatingtemporalhallucinationsinmultimodallargelanguagemodelsforvideounderstanding": {
+  "venue": "CVPR",
+  "year": 2025,
+  "ee": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_VidHalluc_Evaluating_Temporal_Hallucinations_in_Multimodal_Large_Language_Models_for_CVPR_2025_paper.html"
+ },
+ "ascopingreviewofnaturallanguageprocessinginaddressingmedicallyinaccurateinformationerrorsmisinformationandhallucination": {
+  "venue": "J. Biomed. Informatics",
+  "year": 2025,
+  "ee": "https://doi.org/10.1016/j.jbi.2025.104866"
+ },
+ "ccnuatsemeval2025task3leveraginginternalandexternalknowledgeoflargelanguagemodelsformultilingualhallucinationannotation": {
+  "venue": "SemEval@ACL",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.semeval-1.62/"
+ },
+ "fewerhallucinationsmoreverificationathreestagellmbasedframeworkforasrerrorcorrection": {
+  "venue": "ASRU",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ASRU65441.2025.11434775"
+ },
+ "hallucinationawaremultimodalbenchmarkforgastrointestinalimageanalysiswithlargevisionlanguagemodels": {
+  "venue": "MICCAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.1007/978-3-032-05127-1_23"
+ },
+ "keepitsimpleatsemeval2025task3llmuncertaintybasedapproachformultilingualhallucinationspandetection": {
+  "venue": "SemEval@ACL",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.semeval-1.11/"
+ },
+ "metatokendetectinghallucinationinimagedescriptionsbymetaclassification": {
+  "venue": "VISIGRAPP (2) - VISAPP",
+  "year": 2025,
+  "ee": "https://doi.org/10.5220/0013165700003912"
+ },
+ "msaatsemeval2025task3highqualityweaklabelingandllmensembleverificationformultilingualhallucinationdetection": {
+  "venue": "SemEval@ACL",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.semeval-1.131/"
+ },
+ "ucscatsemeval2025task3contextmodelsandpromptoptimizationforautomatedhallucinationdetectioninllmoutput": {
+  "venue": "SemEval@ACL",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.semeval-1.257/"
+ },
+ "cfaithachinesefinegrainedbenchmarkforautomatedhallucinationevaluation": {
+  "venue": "CIKM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3746252.3761604"
+ },
+ "catchmeifyousearchwhencontextualwebsearchresultsaffectthedetectionofhallucinations": {
+  "venue": "Comput. Hum. Behav.",
+  "year": 2025,
+  "ee": "https://doi.org/10.1016/j.chb.2025.108763"
+ },
+ "hallucinationawaregenerativepretrainedtransformerforcooperativeaerialmobilitycontrol": {
+  "venue": "GLOBECOM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/GLOBECOM59602.2025.11432325"
+ },
+ "hallusearchatsemeval2025task3asearchenhancedragpipelineforhallucinationdetection": {
+  "venue": "SemEval@ACL",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.semeval-1.189/"
+ },
+ "prescribingtherightremedymitigatinghallucinationsinlargevisionlanguagemodelsviatargetedinstructiontuning": {
+  "venue": "Inf. Sci.",
+  "year": 2025,
+  "ee": "https://doi.org/10.1016/j.ins.2025.122361"
+ },
+ "semeval2025task3mushroomthemultilingualsharedtaskonhallucinationsandrelatedobservableovergenerationmistakes": {
+  "venue": "SemEval@ACL",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.semeval-1.322/"
+ },
+ "aweightedcrossentropylossformitigatingllmhallucinationsincrosslingualcontinualpretraining": {
+  "venue": "ICASSP",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICASSP49660.2025.10888877"
+ },
+ "avhbenchacrossmodalhallucinationbenchmarkforaudiovisuallargelanguagemodels": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=jTEKTdI3K9"
+ },
+ "canknowledgeeditingreallycorrecthallucinations": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=hmDt068MoZ"
+ },
+ "canlargeaudiolanguagemodelstrulyheartacklinghallucinationswithmultitaskassessmentandstepwiseaudioreasoning": {
+  "venue": "ICASSP",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICASSP49660.2025.10888384"
+ },
+ "comtchainofmedicalthoughtreduceshallucinationinmedicalreportgeneration": {
+  "venue": "ICASSP",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICASSP49660.2025.10887699"
+ },
+ "damodecodingbyaccumulatingactivationsmomentumformitigatinghallucinationsinvisionlanguagemodels": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=JUr0YOMvZA"
+ },
+ "doiknowthisentityknowledgeawarenessandhallucinationsinlanguagemodels": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=WCRQFlji2q"
+ },
+ "doyoukeepaneyeonwhatiaskmitigatingmultimodalhallucinationviaattentionguidedensembledecoding": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=ziw5bzg2NO"
+ },
+ "hademifhallucinationdetectionandmitigationinlargelanguagemodels": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=VwOYxPScxB"
+ },
+ "hallucinationdetectionandmitigationinlargelanguagemodels": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=VwOYxPScxB"
+ },
+ "interpretingandeditingvisionlanguagerepresentationstomitigatehallucinations": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=94kQgWXojH"
+ },
+ "interveninganchortokendecodingstrategyinalleviatinghallucinationsformllms": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=zGb4WgCW5i"
+ },
+ "investigationofwhisperasrhallucinationsinducedbynonspeechaudio": {
+  "venue": "ICASSP",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICASSP49660.2025.10890105"
+ },
+ "khalumultipleanswerkoreanhallucinationbenchmarkforlargelanguagemodels": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=VnLhUogHYE"
+ },
+ "llmsknowmorethantheyshowontheintrinsicrepresentationofllmhallucinations": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=KRnsX5Em3W"
+ },
+ "mitigatingmodalitypriorinducedhallucinationsinmultimodallargelanguagemodelsviadecipheringattentioncausality": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=AV7OXVlAyi"
+ },
+ "mitigatingobjecthallucinationinmllmsviadataaugmentedphraselevelalignment": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=yG1fW8igzP"
+ },
+ "mixhdamethodfordetectinghallucinationsbasedontheinternalstateandoutputprobabilityoflargelanguagemodels": {
+  "venue": "ICASSP",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICASSP49660.2025.10889328"
+ },
+ "mllmcanseedynamiccorrectiondecodingforhallucinationmitigation": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=4z3IguA4Zg"
+ },
+ "mllmsknowwheretolooktrainingfreeperceptionofsmallvisualdetailswithmultimodalllms": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=DgaY5mDdmT"
+ },
+ "nofreelunchfundamentallimitsoflearningnonhallucinatinggenerativemodels": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": ""
+ },
+ "novonormvotingoffhallucinationswithattentionheadsinlargelanguagemodels": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=yaOe2xBcLC"
+ },
+ "perturbollavareducingmultimodalhallucinationswithperturbativevisualtraining": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=j4LITBSUjs"
+ },
+ "redeepdetectinghallucinationinretrievalaugmentedgenerationviamechanisticinterpretability": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=ztzZDzgfrh"
+ },
+ "reducinghallucinationsinlargevisionlanguagemodelsvialatentspacesteering": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=LBl7Hez0fF"
+ },
+ "reducinghallucinationsinvisionlanguagemodelsvialatentspacesteering": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=LBl7Hez0fF"
+ },
+ "seewhatyouaretoldvisualattentionsinkinlargemultimodalmodels": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=7uDI7w5RQA"
+ },
+ "selfcorrectingdecodingwithgenerativefeedbackformitigatinghallucinationsinlargevisionlanguagemodels": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=tTBXePRKSx"
+ },
+ "selfintrospectivedecodingalleviatinghallucinationsforlargevisionlanguagemodels": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=rsZwwjYHuD"
+ },
+ "sscmselfsupervisedcriticalmodelforreducinghallucinationsinchinesefinancialtextgeneration": {
+  "venue": "ICASSP",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICASSP49660.2025.10887684"
+ },
+ "towardsdetectingllmshallucinationviamarkovchainbasedmultiagentdebateframework": {
+  "venue": "ICASSP",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICASSP49660.2025.10889448"
+ },
+ "towardsunderstandingtexthallucinationofdiffusionmodelsvialocalgenerationbias": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=SKW10XJlAI"
+ },
+ "understandingandmitigatinghallucinationinlargevisionlanguagemodelsviamodularattributionandintervention": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=Bjq4W7P2Us"
+ },
+ "visualdescriptiongroundingreduceshallucinationsandboostsreasoninginlvlms": {
+  "venue": "ICLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=3PRvlT8b1R"
+ },
+ "ailsntuaatsemeval2025task3leveraginglargelanguagemodelsandtranslationstrategiesformultilingualhallucinationdetection": {
+  "venue": "SemEval@ACL",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.semeval-1.172/"
+ },
+ "halceceaframeworkforexplainablehallucinationdetectionthroughconceptualcounterfactualsinimagecaptioning": {
+  "venue": "xAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.1007/978-3-032-08330-2_5"
+ },
+ "hallucinationdetectioninfoundationmodelsfordecisionmakingaflexibledefinitionandreviewofthestateoftheart": {
+  "venue": "ACM Comput. Surv.",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3716846"
+ },
+ "hallucounterreferencefreellmhallucinationdetectioninthewild": {
+  "venue": "IJCNLP-AACL",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-ijcnlp.20"
+ },
+ "hausanlpatsemeval2025task3towardsafinegrainedmodelawarehallucinationdetection": {
+  "venue": "SemEval@ACL",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.semeval-1.227/"
+ },
+ "ncluoratsemeval2025task3detectingmultilingualhallucinationandrelatedobservableovergenerationtextspanswithmodifiedrefcheckerandmodifiedseflcheckgpt": {
+  "venue": "SemEval@ACL",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.semeval-1.39/"
+ },
+ "tacklinghallucinationfromconditionalmodelsformedicalimagereconstructionwithdynamicdps": {
+  "venue": "MICCAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.1007/978-3-032-04965-0_56"
+ },
+ "aerialmirageunmaskinghallucinationsinlargevisionlanguagemodels": {
+  "venue": "WACV",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/WACV61041.2025.00537"
+ },
+ "enhancingweaklysupervisedobjectdetectiononstaticimagesthroughhallucinatedmotion": {
+  "venue": "WACV",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/WACVW65960.2025.00117"
+ },
+ "makevlmrecognizevisualhallucinationoncartooncharacterimagewithposeinformation": {
+  "venue": "WACV",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/WACV61041.2025.00527"
+ },
+ "whobringsthefrisbeeprobinghiddenhallucinationfactorsinlargevisionlanguagemodelviacausalityanalysis": {
+  "venue": "WACV",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/WACV61041.2025.00597"
+ },
+ "hallucinationdetectioninlargelanguagemodelswithmetamorphicrelations": {
+  "venue": "Proc. ACM Softw. Eng.",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3715735"
+ },
+ "halluentitybenchmarkingandunderstandingentitylevelhallucinationdetection": {
+  "venue": "TMLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=494k7e9R5D"
+ },
+ "refindatsemeval2025task3retrievalaugmentedfactualityhallucinationdetectioninlargelanguagemodels": {
+  "venue": "SemEval@ACL",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.semeval-1.2/"
+ },
+ "sokexploringhallucinationsandsecurityrisksinaiassistedsoftwaredevelopmentwithinsightsforllmdeployment": {
+  "venue": "IDSTA",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/IDSTA66210.2025.11202778"
+ },
+ "wonderhumanhallucinatingunseenpartsindynamic3dhumanreconstruction": {
+  "venue": "IEEE Trans. Vis. Comput. Graph.",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/TVCG.2025.3618268"
+ },
+ "attributivereasoningforhallucinationdiagnosisoflargelanguagemodels": {
+  "venue": "AAAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.1609/aaai.v39i22.34536"
+ },
+ "codehaluinvestigatingcodehallucinationsinllmsviaexecutionbasedverification": {
+  "venue": "AAAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.1609/aaai.v39i24.34717"
+ },
+ "combatingmultimodalllmhallucinationviabottomupholisticreasoning": {
+  "venue": "AAAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.1609/aaai.v39i8.32913"
+ },
+ "conviscontrastivedecodingwithhallucinationvisualizationformitigatinghallucinationsinmultimodallargelanguagemodels": {
+  "venue": "AAAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.1609/aaai.v39i6.32689"
+ },
+ "detectingandmitigatinghallucinationinlargevisionlanguagemodelsviafinegrainedaifeedback": {
+  "venue": "AAAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.1609/aaai.v39i24.34744"
+ },
+ "enhancinguncertaintymodelingwithsemanticgraphforhallucinationdetection": {
+  "venue": "AAAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.1609/aaai.v39i22.34528"
+ },
+ "evaluatingimagehallucinationintexttoimagegenerationwithquestionanswering": {
+  "venue": "AAAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.1609/aaai.v39i25.34827"
+ },
+ "g2ldetectaglobaltolocalapproachforhallucinationdetection": {
+  "venue": "AAAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.1609/aaai.v39i1.31985"
+ },
+ "medhallbenchanewbenchmarkforassessinghallucinationinmedicallargelanguagemodels": {
+  "venue": "AAAI Bridge Program",
+  "year": 2025,
+  "ee": "https://proceedings.mlr.press/v281/zuo25b.html"
+ },
+ "mhbenchdemystifyingmotionhallucinationinvideollms": {
+  "venue": "AAAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.1609/aaai.v39i4.32463"
+ },
+ "mitigatinghallucinationsinlargevisionlanguagemodelsbyadaptivelyconstraininginformationflow": {
+  "venue": "AAAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.1609/aaai.v39i22.34512"
+ },
+ "moledecodingbymixtureoflayerexpertsalleviateshallucinationinlargevisionlanguagemodels": {
+  "venue": "AAAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.1609/aaai.v39i18.34056"
+ },
+ "rextrustamodelforfinegrainedhallucinationdetectioninaigeneratedradiologyreports": {
+  "venue": "AAAI Bridge Program",
+  "year": 2025,
+  "ee": "https://proceedings.mlr.press/v281/hardy25a.html"
+ },
+ "zeroresourcehallucinationdetectionfortextgenerationviagraphbasedcontextualknowledgetriplesmodeling": {
+  "venue": "AAAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.1609/aaai.v39i22.34559"
+ },
+ "chartinsighteranapproachformitigatinghallucinationintimeserieschartsummarygenerationwithabenchmarkdataset": {
+  "venue": "IEEE Trans. Vis. Comput. Graph.",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/TVCG.2025.3567122"
+ },
+ "dadpocostefficientdifficultyawarepreferenceoptimizationforreducingmllmhallucinations": {
+  "venue": "TMLR",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=M52CgPcgGx"
+ },
+ "dynamicsinspiredstructurehallucinationforproteinproteininteractionmodeling": {
+  "venue": "TMLR",
+  "year": 2025,
+  "ee": ""
+ },
+ "hallucinationfreeautomaticquestionanswergenerationforintuitivelearning": {
+  "venue": "ICIPW",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICIPW68931.2025.11386040"
+ },
+ "mirageintheeyeshallucinationattackonmultimodallargelanguagemodelswithonlyattentionsink": {
+  "venue": "USENIX Security Symposium",
+  "year": 2025,
+  "ee": "https://www.usenix.org/conference/usenixsecurity25/presentation/wang-yining"
+ },
+ "counterfactualdebatingwithpresetstancesforhallucinationeliminationofllms": {
+  "venue": "COLING",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.coling-main.703/"
+ },
+ "graphragleveraginggraphbasedefficiencytominimizehallucinationsinllmdrivenragforfinancedata": {
+  "venue": "COLING Workshops",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.genaik-1.6/"
+ },
+ "hermitkingdomthroughthelensofmultipleperspectivesacasestudyofllmhallucinationonnorthkorea": {
+  "venue": "COLING",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.coling-main.226/"
+ },
+ "kgfpqevaluatingfactualityhallucinationinllmswithknowledgegraphbasedfalsepremisequestions": {
+  "venue": "COLING",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.coling-main.698/"
+ },
+ "lookcomparedecidealleviatinghallucinationinlargevisionlanguagemodelsviamultiviewmultipathreasoning": {
+  "venue": "COLING",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.coling-main.299/"
+ },
+ "lunaalightweightevaluationmodeltocatchlanguagemodelhallucinationswithhighaccuracyandlowcost": {
+  "venue": "COLING",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.coling-industry.34/"
+ },
+ "onreducingfactualhallucinationsingraphtotextgenerationusinglargelanguagemodels": {
+  "venue": "COLING Workshops",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.genaik-1.5/"
+ },
+ "rolebreakcharacterhallucinationasajailbreakattackinroleplayingsystems": {
+  "venue": "COLING",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.coling-main.494/"
+ },
+ "rrhfvrankingresponsestomitigatehallucinationsinmultimodallargelanguagemodelswithhumanfeedback": {
+  "venue": "COLING",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.coling-main.454/"
+ },
+ "syntheticpathstointegraltruthmitigatinghallucinationscausedbyconfirmationbiaswithsyntheticdata": {
+  "venue": "COLING",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.coling-main.347/"
+ },
+ "trucidatordocumentleveleventfactualityidentificationviahallucinationenhancementandcrossdocumentinference": {
+  "venue": "COLING",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.coling-main.139/"
+ },
+ "quotnotalignedquotisnotquotmaliciousquotbeingcarefulabouthallucinationsoflargelanguagemodelsaposjailbreak": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.coling-main.146/"
+ },
+ "addressinghallucinationincausalqampatheefficacyoffinetuningoverpromptinginllms": {
+  "venue": "ACL",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.finnlp-1.27/"
+ },
+ "agenticlegalintakeamultiagentframeworkforhallucinationfreeauditreadyaiscreeninginmasstortlitigation": {
+  "venue": "Frontiers in Emerging Artificial Intelligence and Machine Learning",
+  "year": 2025,
+  "ee": "https://doi.org/10.37547/feaiml/volume02issue09-02"
+ },
+ "aihallucinationandstrategiestoovercomeenhancinghumanaiinteraction": {
+  "venue": "International Conference on Artificial Intelligence and Machine Vision (AIMV)",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/aimv66517.2025.11203756"
+ },
+ "aihallucinationinthecontextofeducationexploringcollegestudentsuseofgenerativeaiforacademictasks": {
+  "venue": "16th International Conference on E-Education, E-Business, E-Management and E-Learning (IC4e)",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ic4e65071.2025.11075444"
+ },
+ "ananalysisonaihallucinationfromtheperspectiveofmediaarchaeology": {
+  "venue": "Communications in Humanities Research",
+  "year": 2025,
+  "ee": "https://doi.org/10.54254/2753-7064/2025.bj29177"
+ },
+ "arahalluevalafinegrainedhallucinationevaluationframeworkforarabicllms": {
+  "venue": "Third Arabic Natural Language Processing Conference",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.arabicnlp-main.12"
+ },
+ "beyondhallucinationgenerativeaiasacatalystforhumancreativityandcognitiveevolution": {
+  "venue": "ICCK Transactions on Emerging Topics in Artificial Intelligence",
+  "year": 2025,
+  "ee": "https://doi.org/10.62762/tetai.2025.657559"
+ },
+ "beyondlogitlenscontextualembeddingsforrobusthallucinationdetectionampgroundinginvlms": {
+  "venue": "Comput. Linguistics",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.naacl-long.488"
+ },
+ "canwetrustlargelanguagemodelsforvideoanalysisanexplorationofhallucinationinmultimodalllms": {
+  "venue": "International Conference of the Learning Sciences",
+  "year": 2025,
+  "ee": "https://doi.org/10.22318/icls2025.704957"
+ },
+ "chainofthoughtpromptingobscureshallucinationcuesinlargelanguagemodelsanempiricalevaluation": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.67"
+ },
+ "comparisonofexplainabilitymethodsforhallucinationanalysisinllms": {
+  "venue": "Open Research Europe",
+  "year": 2025,
+  "ee": "https://doi.org/10.12688/openreseurope.20839.1"
+ },
+ "confidentbutincorrectmitigatinghallucinationandoverconfidenceinagenticaicoders": {
+  "venue": "Eighth International Conference on Image Information Processing (ICIIP)",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/iciip68302.2025.11346318"
+ },
+ "counteringaihallucinationbyutilizingaconceptawaremodel": {
+  "venue": "Multimedia University Engineering Conference (MECON)",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/mecon67253.2025.11277080"
+ },
+ "ethicalpromptdesignforhealthequitypreventinghallucinationandaddressingbiasinaidiagnoses": {
+  "venue": "International Journal of Artificial Intelligence, Data Science, and Machine Learning",
+  "year": 2025,
+  "ee": "https://doi.org/10.63282/3050-9262.ijaidsml-v6i3p102"
+ },
+ "explorethehallucinationonlowlevelperceptionformllms": {
+  "venue": "ICASSP",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICASSP49660.2025.10888437"
+ },
+ "fewshotoptimizedframeworkforhallucinationdetectioninresourcelimitednlpsystems": {
+  "venue": "Lecture Notes in Networks and Systems",
+  "year": 2025,
+  "ee": "https://doi.org/10.1007/978-981-96-6441-2_16"
+ },
+ "generativeaiinmedicalpharmacologybalancingeducationalbenefitsandhallucinationrisks": {
+  "venue": "International Journal of Science and Research (IJSR)",
+  "year": 2025,
+  "ee": "https://doi.org/10.21275/sr25415140148"
+ },
+ "golfersmallerlmsgenerateddocumentshallucinationfilterampcombinerforqueryexpansionininformationretrieval": {
+  "venue": "Comput. Linguistics",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-acl.8"
+ },
+ "gravitigroundedretrievalgenerationframeworkforvideollmhallucinationmitigation": {
+  "venue": "International Journal of Computer Applications",
+  "year": 2025,
+  "ee": "https://doi.org/10.5120/ijca2025926005"
+ },
+ "hallucinationandpanicinautonomoussystems": {
+  "venue": "Studies in Computational Intelligence",
+  "year": 2025,
+  "ee": "https://doi.org/10.1007/978-3-031-95207-4"
+ },
+ "hallucinationdetectionandconfidencecalibrationforlargelanguagemodeloutputsreproducibleexperimentsonhalueval": {
+  "venue": "Artificial Intelligence and Machine Learning Review",
+  "year": 2025,
+  "ee": "https://doi.org/10.69987/aimlr.2025.60401"
+ },
+ "hallucinationfreeautomaticquestionampanswergenerationforintuitivelearning": {
+  "venue": "IEEE International Conference on Image Processing Workshops (ICIPW)",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/icipw68931.2025.11386040"
+ },
+ "halludetectdetectingmitigatingandbenchmarkinghallucinationsinconversationalsystemsinthelegaldomain": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-industry.128"
+ },
+ "isllmshallucinationusablellmbasednegativereasoningforfakenewsdetection": {
+  "venue": "AAAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.1609/aaai.v39i1.32089"
+ },
+ "logitspaceconstrainedfinetuningformitigatinghallucinationsinllmbasedrecommendersystems": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.emnlp-main.1491"
+ },
+ "mitigatinghallucinationsonobjectattributesusingmultiviewimagesandnegativeinstructions": {
+  "venue": "ICASSP",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICASSP49660.2025.10888481"
+ },
+ "mrfdmultiregionfusiondecodingwithselfconsistencyformitigatinghallucinationsinlvlms": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.858"
+ },
+ "personavectorsincontrollinghallucinationofsmalllargelanguagemodelsasafetyorientedanalysis": {
+  "venue": "Cyber Awareness and Research Symposium (CARS)",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/cars67163.2025.11337402"
+ },
+ "radiorealtimehallucinationdetectionwithcontextualindexoptimizedqueryformulationfordynamicretrievalaugmentedgeneration": {
+  "venue": "AAAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.1609/aaai.v39i24.34809"
+ },
+ "ragtechnologyforreliablemedicalretrievalandhallucinationmitigation": {
+  "venue": "2nd International Conference on Computer Communication, Networks and Information Science (CCNIS)",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ccnis69465.2025.00009"
+ },
+ "reloopquotseeingtwiceandthinkingbackwardsquotviaclosedlooptrainingtomitigatehallucinationsinmultimodalunderstanding": {
+  "venue": "EMNLP",
+  "year": 2025,
+  "ee": "https://doi.org/10.18653/v1/2025.findings-emnlp.222"
+ },
+ "reselfvermmmitigatinghallucinationinmultimodalllmsthroughdatasetreconstructionandselfverification": {
+  "venue": "Second International Conference on Image Processing and Artificial Intelligence (ICIPAI 2025)",
+  "year": 2025,
+  "ee": "https://doi.org/10.1117/12.3072360"
+ },
+ "saiantihallucinationabioinspiredandconfidenceawaresparseaiframeworkforreliablegenerativesystems": {
+  "venue": "International Journal of Artificial Intelligence & Applications",
+  "year": 2025,
+  "ee": "https://doi.org/10.5121/ijaia.2025.16601"
+ },
+ "syntheticdatainaiperformancegainsversushallucinationrisk": {
+  "venue": "Artificial Intelligence and Applications",
+  "year": 2025,
+  "ee": "https://doi.org/10.47852/bonviewaia52026620"
+ },
+ "thehallucinationproblemingenerativeartificialintelligenceaccuracyandtrustindigitallearning": {
+  "venue": "International Conference on Virtual Learning - VIRTUAL LEARNING - VIRTUAL REALITY (20th edition)",
+  "year": 2025,
+  "ee": "https://doi.org/10.58503/icvl-v20y202503"
+ },
+ "uncertaintyawarefusionanensembleframeworkformitigatinghallucinationsinlargelanguagemodels": {
+  "venue": "Companion Proceedings of the ACM on Web Conference",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3701716.3715523"
+ },
+ "vlm3kgahallucinationmitigationmethodforvisionlanguagemodelsbasedonmultimodalknowledgegraph": {
+  "venue": "ICML",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/mlprae67267.2025.11290735"
+ },
+ "withdrawnambiguityprocessinginlargelanguagemodelsdetectionresolutionandthepathtohallucination": {
+  "venue": "Natural Language Processing Journal",
+  "year": 2025,
+  "ee": "https://doi.org/10.1016/j.nlp.2025.100173"
+ },
+ "sirenssongintheaioceanasurveyonhallucinationinlargelanguagemodels": {
+  "venue": "Comput. Linguistics",
+  "year": 2025,
+  "ee": "https://doi.org/10.1162/coli.a.16"
+ },
+ "areviewoffaithfulnessmetricsforhallucinationassessmentinlargelanguagemodels": {
+  "venue": "IEEE J. Sel. Top. Signal Process.",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/JSTSP.2025.3579203"
+ },
+ "adaptiveactivationsteeringatuningfreellmtruthfulnessimprovementmethodfordiversehallucinationscategories": {
+  "venue": "WWW",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3696410.3714640"
+ },
+ "aftinaenhancingstabilityandpreventinghallucinationinaibasedislamicfatwagenerationusingllmsandrag": {
+  "venue": "Neural Comput. Appl.",
+  "year": 2025,
+  "ee": "https://doi.org/10.1007/s00521-025-11229-y"
+ },
+ "aihallucinationswhatabouthumanhallucinationaddressinghumanimperfectionisneededforanethicalai": {
+  "venue": "Int. J. Interact. Multim. Artif. Intell.",
+  "year": 2025,
+  "ee": "https://doi.org/10.9781/ijimai.2025.02.010"
+ },
+ "aiinconjunctivitisresearchassessingchatgptanddeepseekforetiologyinterventionandcitationintegrityviahallucinationrateanalysis": {
+  "venue": "Frontiers Artif. Intell.",
+  "year": 2025,
+  "ee": "https://doi.org/10.3389/frai.2025.1579375"
+ },
+ "chairclassifierofhallucinationasimprover": {
+  "venue": "IJCNN",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/IJCNN64981.2025.11227344"
+ },
+ "contextawareimagecaptioneditingviahallucinationresistantvisualinstructiontuning": {
+  "venue": "ICCVW",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICCVW69036.2025.00615"
+ },
+ "detectionofllmhallucinationsusinglateinternalrepresentations": {
+  "venue": "ICMLA",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICMLA66185.2025.00214"
+ },
+ "dynamiccognitivebiashallucinationandforgettinginthecognitivedynamicsofllms": {
+  "venue": "IJCNN",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/IJCNN64981.2025.11229003"
+ },
+ "ecdefficientcontrastivedecodingwithprobabilistichallucinationdetection": {
+  "venue": "ECML/PKDD",
+  "year": 2025,
+  "ee": "https://doi.org/10.1007/978-3-032-06109-6_2"
+ },
+ "expertiseorhallucinationacomprehensiveevaluationofchatgptsaptitudeinclinicalgenetics": {
+  "venue": "IEEE Trans. Big Data",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/TBDATA.2025.3536939"
+ },
+ "gptsandhallucination": {
+  "venue": "Commun. ACM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3703757"
+ },
+ "hallucinationdetectioninllmsviabeamsearchsamplingandsemanticconsistencyanalysis": {
+  "venue": "DSN-W",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/DSN-W65791.2025.00076"
+ },
+ "hallucinationdetectivesatsemeval2025task3spanlevelhallucinationdetectionforllmgeneratedanswers": {
+  "venue": "SemEval@ACL",
+  "year": 2025,
+  "ee": "https://aclanthology.org/2025.semeval-1.84/"
+ },
+ "hallushiftmeasuringdistributionshiftstowardshallucinationdetectioninllms": {
+  "venue": "IJCNN",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/IJCNN64981.2025.11228484"
+ },
+ "largelanguagemodelswithcontrastivedecodingalgorithmforhallucinationmitigationinlowresourcelanguages": {
+  "venue": "CAAI Trans. Intell. Technol.",
+  "year": 2025,
+  "ee": "https://doi.org/10.1049/cit2.70004"
+ },
+ "largepigforhallucinationfreequerygenerationyourlargelanguagemodelissecretlyapointergenerator": {
+  "venue": "WWW",
+  "year": 2025,
+  "ee": "https://doi.org/10.1145/3696410.3714800"
+ },
+ "mitigatinghallucinationsinlargevisionlanguagemodelsviareasoninguncertaintyguidedrefinement": {
+  "venue": "TMM",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/TMM.2025.3599076"
+ },
+ "reducingextrinsichallucinationinmultimodalabstractivesummarieswithpostprocessingtechnique": {
+  "venue": "Neural Comput. Appl.",
+  "year": 2025,
+  "ee": "https://doi.org/10.1007/s00521-024-10895-8"
+ },
+ "trustworthymedicalimagingwithlargelanguagemodelsastudyofhallucinationsacrossmodalities": {
+  "venue": "ICCVW",
+  "year": 2025,
+  "ee": "https://doi.org/10.1109/ICCVW69036.2025.00136"
+ },
+ "vdiscombatingobjecthallucinationinmultimodallargelanguagemodels": {
+  "venue": "PRCV",
+  "year": 2025,
+  "ee": "https://doi.org/10.1007/978-981-95-5696-0_28"
+ },
+ "mitigatingfinegrainedhallucinationbyfinetuninglargevisionlanguagemodelswithcaptionrewrites": {
+  "venue": "MMM",
+  "year": 2024,
+  "ee": "https://doi.org/10.1007/978-3-031-53302-0_3"
+ },
+ "alleviatinghallucinationsinlargevisionlanguagemodelsthroughhallucinationinducedoptimization": {
+  "venue": "NeurIPS",
+  "year": 2024,
+  "ee": "http://papers.nips.cc/paper_files/paper/2024/hash/dde040998d82553cf7f689e8ae173d5a-Abstract-Conference.html"
+ },
+ "anahv2scalinganalyticalhallucinationannotationoflargelanguagemodels": {
+  "venue": "NeurIPS",
+  "year": 2024,
+  "ee": "http://papers.nips.cc/paper_files/paper/2024/hash/6e4cdfdd909ea4e34bfc85a12774cba0-Abstract-Conference.html"
+ },
+ "codecontrastingselfgenerateddescriptiontocombathallucinationinlargemultimodalmodels": {
+  "venue": "NeurIPS",
+  "year": 2024,
+  "ee": "http://papers.nips.cc/paper_files/paper/2024/hash/f1592b0d4ab737e18bb1899484d28d96-Abstract-Conference.html"
+ },
+ "llmcheckinvestigatingdetectionofhallucinationsinlargelanguagemodels": {
+  "venue": "NeurIPS",
+  "year": 2024,
+  "ee": "http://papers.nips.cc/paper_files/paper/2024/hash/3c1e1fdf305195cd620c118aaa9717ad-Abstract-Conference.html"
+ },
+ "mitigatingobjecthallucinationviaconcentriccausalattention": {
+  "venue": "NeurIPS",
+  "year": 2024,
+  "ee": "http://papers.nips.cc/paper_files/paper/2024/hash/a76ed4a8ef522c823d73925e7fff16d4-Abstract-Conference.html"
+ },
+ "multiobjecthallucinationinvisionlanguagemodels": {
+  "venue": "NeurIPS",
+  "year": 2024,
+  "ee": "http://papers.nips.cc/paper_files/paper/2024/hash/4ea4a1ea4d9ff273688c8e92bd087112-Abstract-Conference.html"
+ },
+ "seeingtheimageprioritizingvisualcorrelationbycontrastivealignment": {
+  "venue": "NeurIPS",
+  "year": 2024,
+  "ee": "http://papers.nips.cc/paper_files/paper/2024/hash/37294f033582ac0064bf90fa557c2573-Abstract-Conference.html"
+ },
+ "thamesanendtoendtoolforhallucinationmitigationandevaluationinlargelanguagemodels": {
+  "venue": "NeurIPS",
+  "year": 2024,
+  "ee": ""
+ },
+ "understandinghallucinationsindiffusionmodelsthroughmodeinterpolation": {
+  "venue": "NeurIPS",
+  "year": 2024,
+  "ee": "http://papers.nips.cc/paper_files/paper/2024/hash/f29369d192b13184b65c6d2515474d78-Abstract-Conference.html"
+ },
+ "exploringtheknowledgemismatchhypothesishallucinationpropensityinsmallmodelsfinetunedondatafromlargermodels": {
+  "venue": "BDCAT",
+  "year": 2024,
+  "ee": "https://doi.org/10.1109/BDCAT63179.2024.00048"
+ },
+ "anauditontheperspectivesandchallengesofhallucinationsinnlp": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-main.375"
+ },
+ "autohallusionautomaticgenerationofhallucinationbenchmarksforvisionlanguagemodels": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-emnlp.493"
+ },
+ "damrodiveintotheattentionmechanismoflvlmtoreduceobjecthallucination": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-main.439"
+ },
+ "efufefficientfinegrainedunlearningframeworkformitigatinghallucinationsinmultimodallargelanguagemodels": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-main.67"
+ },
+ "helpdmitigatinghallucinationoflvlmsbyhierarchicalfeedbacklearningwithvisionenhancedpenaltydecoding": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-main.105"
+ },
+ "knowledgeverificationtoniphallucinationinthebud": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-main.152"
+ },
+ "mechanisticunderstandingandmitigationoflanguagemodelnonfactualhallucinations": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-emnlp.466"
+ },
+ "mitigatinghallucinationsoflargelanguagemodelsinmedicalinformationextractionviacontrastivedecoding": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-emnlp.456"
+ },
+ "multilingualfinegrainednewsheadlinehallucinationdetection": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-emnlp.461"
+ },
+ "nullshotpromptingrethinkingpromptinglargelanguagemodelswithhallucination": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-main.740"
+ },
+ "pelicancorrectinghallucinationinvisionllmsviaclaimdecompositionandprogramofthoughtverification": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-main.470"
+ },
+ "pretrainedlanguagemodelsreturndistinguishableprobabilitydistributionstounfaithfullyhallucinatedtexts": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-emnlp.738"
+ },
+ "raghatahallucinationawaretuningpipelineforllminretrievalaugmentedgeneration": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-industry.113"
+ },
+ "twotieredencoderbasedhallucinationdetectionforretrievalaugmentedgenerationinthewild": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-industry.2"
+ },
+ "vdpomitigatinghallucinationinlargevisionlanguagemodelsviavisionguideddirectpreferenceoptimization": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-emnlp.775"
+ },
+ "whispersthatshakefoundationsanalyzingandmitigatingfalsepremisehallucinationsinlargelanguagemodels": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-main.155"
+ },
+ "cprmitigatinglargelanguagemodelhallucinationswithcurativepromptrefinement": {
+  "venue": "SMC",
+  "year": 2024,
+  "ee": "https://doi.org/10.1109/SMC54092.2024.10830938"
+ },
+ "theeffectsofhallucinationsinsynthetictrainingdataforrelationextraction": {
+  "venue": "KBC-LM/LM-KBC@ISWC",
+  "year": 2024,
+  "ee": "https://ceur-ws.org/Vol-3853/paper4.pdf"
+ },
+ "aigcsconfuseaitooinvestigatingandexplainingsyntheticimageinducedhallucinationsinlargevisionlanguagemodels": {
+  "venue": "ACM MM",
+  "year": 2024,
+  "ee": "https://doi.org/10.1145/3664647.3681467"
+ },
+ "beafobservingbeforeafterchangestoevaluatehallucinationinvisionlanguagemodels": {
+  "venue": "ECCV",
+  "year": 2024,
+  "ee": "https://doi.org/10.1007/978-3-031-73247-8_14"
+ },
+ "clipdpovisionlanguagemodelsasasourceofpreferenceforfixinghallucinationsinlvlms": {
+  "venue": "ECCV",
+  "year": 2024,
+  "ee": "https://doi.org/10.1007/978-3-031-73116-7_23"
+ },
+ "combatingvisualquestionansweringhallucinationsviarobustmultispacecodebiaslearning": {
+  "venue": "ACM MM",
+  "year": 2024,
+  "ee": "https://doi.org/10.1145/3664647.3681663"
+ },
+ "contrastiveregionguidanceimprovinggroundinginvisionlanguagemodelswithouttraining": {
+  "venue": "ECCV",
+  "year": 2024,
+  "ee": "https://doi.org/10.1007/978-3-031-72986-7_12"
+ },
+ "exploitingsemanticreconstructiontomitigatehallucinationsinvisionlanguagemodels": {
+  "venue": "ECCV",
+  "year": 2024,
+  "ee": "https://doi.org/10.1007/978-3-031-73016-0_14"
+ },
+ "halevalauniversalandfinegrainedhallucinationevaluationframeworkforlargevisionlanguagemodels": {
+  "venue": "ACM MM",
+  "year": 2024,
+  "ee": "https://doi.org/10.1145/3664647.3680576"
+ },
+ "hallupievaluatinghallucinationinmultimodallargelanguagemodelswithinperturbedinputs": {
+  "venue": "ACM MM",
+  "year": 2024,
+  "ee": "https://doi.org/10.1145/3664647.3681251"
+ },
+ "haloquestavisualhallucinationdatasetforadvancingmultimodalreasoning": {
+  "venue": "ECCV",
+  "year": 2024,
+  "ee": "https://doi.org/10.1007/978-3-031-72980-5_17"
+ },
+ "optimizingresourceconsumptionindiffusionmodelsthroughhallucinationearlydetection": {
+  "venue": "ECCV Workshops",
+  "year": 2024,
+  "ee": "https://doi.org/10.1007/978-3-031-91979-4_23"
+ },
+ "payingmoreattentiontoimageatrainingfreemethodforalleviatinghallucinationinlvlms": {
+  "venue": "ECCV",
+  "year": 2024,
+  "ee": "https://doi.org/10.1007/978-3-031-73010-8_8"
+ },
+ "ragguidedlargelanguagemodelsforvisualspatialdescriptionwithadaptivehallucinationcorrector": {
+  "venue": "ACM MM",
+  "year": 2024,
+  "ee": "https://doi.org/10.1145/3664647.3688990"
+ },
+ "reflectiveinstructiontuningmitigatinghallucinationsinlargevisionlanguagemodels": {
+  "venue": "ECCV",
+  "year": 2024,
+  "ee": "https://doi.org/10.1007/978-3-031-73113-6_12"
+ },
+ "tacklingstructuralhallucinationinimagetranslationwithlocaldiffusion": {
+  "venue": "ECCV",
+  "year": 2024,
+  "ee": "https://doi.org/10.1007/978-3-031-73004-7_6"
+ },
+ "aunifiedhallucinationmitigationframeworkforlargevisionlanguagemodels": {
+  "venue": "TMLR",
+  "year": 2024,
+  "ee": "https://openreview.net/forum?id=ZVDWzgk6L6"
+ },
+ "denebahallucinationrobustautomaticevaluationmetricforimagecaptioning": {
+  "venue": "ACCV",
+  "year": 2024,
+  "ee": "https://doi.org/10.1007/978-981-96-0908-6_10"
+ },
+ "llmscanchecktheirownresultstomitigatehallucinationsintrafficunderstandingtasks": {
+  "venue": "ICTSS",
+  "year": 2024,
+  "ee": "https://doi.org/10.1007/978-3-031-80889-0_8"
+ },
+ "mitigatinghallucinationinvisuallanguagemodelsviarebalancingcontrastivedecoding": {
+  "venue": "PRCV",
+  "year": 2024,
+  "ee": "https://doi.org/10.1007/978-981-97-8620-6_33"
+ },
+ "oaeillmabenchmarkdatasetforunderstandinglargelanguagemodelhallucinationsinontologymatching": {
+  "venue": "HGAIS@ISWC",
+  "year": 2024,
+  "ee": "https://ceur-ws.org/Vol-3953/361.pdf"
+ },
+ "understandingsoundsmissingthequestionsthechallengeofobjecthallucinationinlargeaudiolanguagemodels": {
+  "venue": "INTERSPEECH",
+  "year": 2024,
+  "ee": "https://doi.org/10.21437/Interspeech.2024-1076"
+ },
+ "controlledautomatictaskspecificsyntheticdatagenerationforhallucinationdetection": {
+  "venue": "KDD",
+  "year": 2024,
+  "ee": ""
+ },
+ "factchdbenchmarkingfactconflictinghallucinationdetection": {
+  "venue": "IJCAI",
+  "year": 2024,
+  "ee": "https://www.ijcai.org/proceedings/2024/687"
+ },
+ "honestaifinetuningsmalllanguagemodelstosayidontknowandreducinghallucinationinrag": {
+  "venue": "KDD",
+  "year": 2024,
+  "ee": ""
+ },
+ "dahrsdivergenceawarehallucinationremediatedsrlprojection": {
+  "venue": "NLDB",
+  "year": 2024,
+  "ee": "https://doi.org/10.1007/978-3-031-70239-6_29"
+ },
+ "thetwosidesofthecoinhallucinationgenerationanddetectionwithllmsasevaluatorsforllms": {
+  "venue": "CLEF",
+  "year": 2024,
+  "ee": "https://ceur-ws.org/Vol-3740/paper-71.pdf"
+ },
+ "acuevalfinegrainedhallucinationevaluationandcorrectionforabstractivesummarization": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-acl.597"
+ },
+ "anahanalyticalannotationofhallucinationsinlargelanguagemodels": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.acl-long.442"
+ },
+ "analyzingllmbehaviorindialoguesummarizationunveilingcircumstantialhallucinationtrends": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.acl-long.677"
+ },
+ "anhaltencrosslingualtransferforgermantokenlevelreferencefreehallucinationdetection": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.acl-srw.18"
+ },
+ "beforegenerationalignitanovelandeffectivestrategyformitigatinghallucinationsintexttosqlgeneration": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-acl.324"
+ },
+ "confabulationthesurprisingvalueoflargelanguagemodelhallucinations": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.acl-long.770"
+ },
+ "donthallucinateabstainidentifyingllmknowledgegapsviamultillmcollaboration": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.acl-long.786"
+ },
+ "enhancinghallucinationdetectionthroughperturbationbasedsyntheticdatagenerationinsystemresponses": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-acl.789"
+ },
+ "geneticapproachtomitigatehallucinationingenerativeir": {
+  "venue": "SIGIR",
+  "year": 2024,
+  "ee": ""
+ },
+ "halcobjecthallucinationreductionviaadaptivefocalcontrastdecoding": {
+  "venue": "ICML",
+  "year": 2024,
+  "ee": "https://proceedings.mlr.press/v235/chen24bi.html"
+ },
+ "incontextsharpnessasalertsaninnerrepresentationperspectiveforhallucinationmitigation": {
+  "venue": "ICML",
+  "year": 2024,
+  "ee": "https://proceedings.mlr.press/v235/chen24av.html"
+ },
+ "interrogatellmzeroresourcehallucinationdetectioninllmgeneratedanswers": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": ""
+ },
+ "investigatingandmitigatingthemultimodalhallucinationsnowballinginlargevisionlanguagemodels": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.acl-long.648"
+ },
+ "lessismoremitigatingmultimodalhallucinationfromaneosdecisionperspective": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.acl-long.633"
+ },
+ "leveraginggraphstructurestodetecthallucinationsinlargelanguagemodels": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": ""
+ },
+ "logicalclosedloopuncoveringobjecthallucinationsinlargevisionlanguagemodels": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-acl.414"
+ },
+ "mitigatingentitylevelhallucinationinlargelanguagemodels": {
+  "venue": "SIGIR-AP",
+  "year": 2024,
+  "ee": "https://doi.org/10.1145/3673791.3698403"
+ },
+ "mitigatinghallucinationsinlargevisionlanguagemodelslvlmsvialanguagecontrastivedecodinglcd": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-acl.359"
+ },
+ "mitigatinghallucinationsinlargevisionlanguagemodelswithinstructioncontrastivedecoding": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-acl.937"
+ },
+ "onthehallucinationinsimultaneousmachinetranslation": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.acl-short.66"
+ },
+ "ottawaoptimaltransportadaptivewordalignerforhallucinationandomissiontranslationerrorsdetection": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-acl.377"
+ },
+ "selfalignmentforfactualitymitigatinghallucinationsinllmsviaselfevaluation": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.acl-long.107"
+ },
+ "stronghallucinationsfromnegationandhowtofixthem": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-acl.752"
+ },
+ "thedawnafterthedarkanempiricalstudyonfactualityhallucinationinlargelanguagemodels": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.acl-long.586"
+ },
+ "timecharaevaluatingpointintimecharacterhallucinationofroleplayinglargelanguagemodels": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-acl.197"
+ },
+ "truthawarecontextselectionmitigatinghallucinationsoflargelanguagemodelsbeingmisledbyuntruthfulcontexts": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-acl.645"
+ },
+ "truthometerhandlingmultipleinconsistentsourcesrepairingllmhallucinations": {
+  "venue": "SIGIR",
+  "year": 2024,
+  "ee": "https://doi.org/10.1145/3626772.3657679"
+ },
+ "truthxalleviatinghallucinationsbyeditinglargelanguagemodelsintruthfulspace": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.acl-long.483"
+ },
+ "unifiedhallucinationdetectionformultimodallargelanguagemodels": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.acl-long.178"
+ },
+ "unsupervisedrealtimehallucinationdetectionbasedontheinternalstatesoflargelanguagemodels": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-acl.854"
+ },
+ "visualhallucinationsofmultimodallargelanguagemodels": {
+  "venue": "ACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-acl.573"
+ },
+ "alohaanewmeasureforhallucinationincaptioningmodels": {
+  "venue": "NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.naacl-short.30"
+ },
+ "canknowledgegraphsreducehallucinationsinllmsasurvey": {
+  "venue": "NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.naacl-long.219"
+ },
+ "deceptivesemanticshortcutsonreasoningchainshowfarcanmodelsgowithouthallucination": {
+  "venue": "NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.naacl-long.424"
+ },
+ "hallucinationaugmentedcontrastivelearningformultimodallargelanguagemodel": {
+  "venue": "CVPR",
+  "year": 2024,
+  "ee": "https://doi.org/10.1109/CVPR52733.2024.02553"
+ },
+ "hallucinationdiversityawareactivelearningfortextsummarization": {
+  "venue": "NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.naacl-long.479"
+ },
+ "mitigatinghallucinationinabstractivesummarizationwithdomainconditionalmutualinformation": {
+  "venue": "NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-naacl.117"
+ },
+ "mitigatingobjecthallucinationsinlargevisionlanguagemodelsthroughvisualcontrastivedecoding": {
+  "venue": "CVPR",
+  "year": 2024,
+  "ee": "https://doi.org/10.1109/CVPR52733.2024.01316"
+ },
+ "multimodalhallucinationcontrolbyvisualinformationgrounding": {
+  "venue": "CVPR",
+  "year": 2024,
+  "ee": "https://doi.org/10.1109/CVPR52733.2024.01356"
+ },
+ "onlargelanguagemodelshallucinationwithregardtoknownfacts": {
+  "venue": "NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.naacl-long.60"
+ },
+ "operaalleviatinghallucinationinmultimodallargelanguagemodelsviaovertrustpenaltyandretrospectionallocation": {
+  "venue": "CVPR",
+  "year": 2024,
+  "ee": "https://doi.org/10.1109/CVPR52733.2024.01274"
+ },
+ "pollmgraphunravelinghallucinationsinlargelanguagemodelsviastatetransitiondynamics": {
+  "venue": "NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-naacl.294"
+ },
+ "reducinghallucinationinstructuredoutputsviaretrievalaugmentedgeneration": {
+  "venue": "NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.naacl-industry.19"
+ },
+ "reevalautomatichallucinationevaluationforretrievalaugmentedlargelanguagemodelsviatransferableadversarialattacks": {
+  "venue": "NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-naacl.85"
+ },
+ "throneanobjectbasedhallucinationbenchmarkforthefreeformgenerationsoflargevisionlanguagemodels": {
+  "venue": "CVPR",
+  "year": 2024,
+  "ee": "https://doi.org/10.1109/CVPR52733.2024.02571"
+ },
+ "tofuevalevaluatinghallucinationsofllmsontopicfocuseddialoguesummarization": {
+  "venue": "NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.naacl-long.251"
+ },
+ "vistallamareducinghallucinationinvideolanguagemodelsviaequaldistancetovisualtokens": {
+  "venue": "CVPR",
+  "year": 2024,
+  "ee": "https://doi.org/10.1109/CVPR52733.2024.01249"
+ },
+ "volcanomitigatingmultimodalhallucinationthroughselffeedbackguidedrevision": {
+  "venue": "NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.naacl-long.23"
+ },
+ "utilizinggpttoenhancetextsummarizationastrategytominimizehallucinations": {
+  "venue": "ACLING",
+  "year": 2024,
+  "ee": "https://doi.org/10.1016/j.procs.2024.10.197"
+ },
+ "doladecodingbycontrastinglayersimprovesfactualityinlargelanguagemodels": {
+  "venue": "ICLR",
+  "year": 2024,
+  "ee": "https://openreview.net/forum?id=Th6NyL07na"
+ },
+ "insidellmsinternalstatesretainthepowerofhallucinationdetection": {
+  "venue": "ICLR",
+  "year": 2024,
+  "ee": "https://openreview.net/forum?id=Zj12nzlQbz"
+ },
+ "instructivedecodinginstructiontunedlargelanguagemodelsareselfrefinerfromnoisyinstructions": {
+  "venue": "ICLR",
+  "year": 2024,
+  "ee": "https://openreview.net/forum?id=LebzzClHYw"
+ },
+ "tellyourmodelwheretoattendposthocattentionsteeringforllms": {
+  "venue": "ICLR",
+  "year": 2024,
+  "ee": "https://openreview.net/forum?id=xZDWO0oejD"
+ },
+ "germanalsohallucinatesinconsistencydetectioninnewssummarieswiththeabsinthdataset": {
+  "venue": "LREC/COLING",
+  "year": 2024,
+  "ee": "https://aclanthology.org/2024.lrec-main.680"
+ },
+ "semeval2024sharedtask6shroomasharedtaskonhallucinationsandrelatedobservableovergenerationmistakes": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.273"
+ },
+ "usinglaplacetransformtooptimizethehallucinationofgenerationmodels": {
+  "venue": "ICARCV",
+  "year": 2024,
+  "ee": "https://doi.org/10.1109/ICARCV63323.2024.10821684"
+ },
+ "askassessandrefinerectifyingfactualconsistencyandhallucinationinllmswithmetricguidedfeedbacklearning": {
+  "venue": "EACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.eacl-long.149"
+ },
+ "contrastivedecodingreduceshallucinationsinlargemultilingualmachinetranslationmodels": {
+  "venue": "EACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.eacl-long.155"
+ },
+ "hypotermqahypotheticaltermsdatasetforbenchmarkinghallucinationtendencyofllms": {
+  "venue": "EACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.eacl-srw.9"
+ },
+ "mitigatinghallucinationsandofftargetmachinetranslationwithsourcecontrastiveandlanguagecontrastivedecoding": {
+  "venue": "EACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.eacl-short.4"
+ },
+ "carelesswhisperspeechtotexthallucinationharms": {
+  "venue": "FAccT",
+  "year": 2024,
+  "ee": "https://doi.org/10.1145/3630106.3658996"
+ },
+ "enhancingknowledgegraphconstructionevaluatingwithemphasisonhallucinationomissionandgraphsimilaritymetrics": {
+  "venue": "KGSWC",
+  "year": 2024,
+  "ee": "https://doi.org/10.1007/978-3-031-81221-7_3"
+ },
+ "geminigoestomedschoolexploringthecapabilitiesofmultimodallargelanguagemodelsonmedicalchallengeproblemshallucinations": {
+  "venue": "ClinicalNLP@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.clinicalnlp-1.3"
+ },
+ "lplmnohallucinationsinquestionansweringwithlogicprogramming": {
+  "venue": "ICLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.4204/EPTCS.416.5"
+ },
+ "aihallucinationsamisnomerworthclarifying": {
+  "venue": "CAI",
+  "year": 2024,
+  "ee": "https://doi.org/10.1109/CAI59869.2024.00033"
+ },
+ "acomprehensivesurveyofhallucinationinlargelanguageimagevideoandaudiofoundationmodels": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-emnlp.685"
+ },
+ "ailsntuaatsemeval2024task6efficientmodeltuningforhallucinationdetectionandanalysis": {
+  "venue": "18th International Workshop on Semantic Evaluation (SemEval-2024)",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.222"
+ },
+ "alleviatingactionhallucinationforllmbasedembodiedagentsviainnerandouteralignment": {
+  "venue": "7th International Conference on Pattern Recognition and Artificial Intelligence (PRAI)",
+  "year": 2024,
+  "ee": "https://doi.org/10.1109/prai62207.2024.10826957"
+ },
+ "alleviatinghallucinationsviasupportivewindowindexinginabstractivesummarization": {
+  "venue": "ICASSP",
+  "year": 2024,
+  "ee": "https://doi.org/10.1109/ICASSP48485.2024.10446022"
+ },
+ "canhallucinationreductioninllmsimproveonlinesexismdetection": {
+  "venue": "Lecture Notes in Networks and Systems",
+  "year": 2024,
+  "ee": "https://doi.org/10.1007/978-3-031-66329-1_40"
+ },
+ "detectingandpreventinghallucinationsinlargevisionlanguagemodels": {
+  "venue": "AAAI",
+  "year": 2024,
+  "ee": "https://doi.org/10.1609/aaai.v38i16.29771"
+ },
+ "diahaluadialoguelevelhallucinationevaluationbenchmarkforlargelanguagemodels": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-emnlp.529"
+ },
+ "doesfinetuningllmsonnewknowledgeencouragehallucinations": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-main.444"
+ },
+ "doesobjectgroundingreallyreducehallucinationoflargevisionlanguagemodels": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-main.159"
+ },
+ "duthatsemeval2024task6comparingpretrainedmodelsonsentencesimilarityevaluationfordetectingofhallucinationsandrelatedobservableovergenerationmistakes": {
+  "venue": "18th International Workshop on Semantic Evaluation (SemEval-2024)",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.154"
+ },
+ "embeddingandgradientsaywrongawhiteboxmethodforhallucinationdetection": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-main.116"
+ },
+ "enhancedhallucinationdetectioninneuralmachinetranslationthroughsimpledetectoraggregation": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-main.1033"
+ },
+ "evaluatinghallucinationinmedicalpromptresponsesacomparativestudyofchatgpt4andchatgpt4o": {
+  "venue": "IEEE International Conference on Communication, Networks and Satellite (COMNETSAT)",
+  "year": 2024,
+  "ee": "https://doi.org/10.1109/comnetsat63286.2024.10862480"
+ },
+ "faithscorefinegrainedevaluationsofhallucinationsinlargevisionlanguagemodels": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-emnlp.290"
+ },
+ "gameontreevisualhallucinationmitigationviacoarsetofineviewtreeandgametheory": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-main.998"
+ },
+ "geminigoestomedschoolexploringthecapabilitiesofmultimodallargelanguagemodelsonmedicalchallengeproblemsamphallucinations": {
+  "venue": "6th Clinical Natural Language Processing Workshop",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.clinicalnlp-1.3"
+ },
+ "hallumeasurefinegrainedhallucinationmeasurementusingchainofthoughtreasoning": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-main.837"
+ },
+ "hitmiamptlabatsemeval2024task6debertabasedentailmentmodelisareliablehallucinationdetector": {
+  "venue": "18th International Workshop on Semantic Evaluation (SemEval-2024)",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.253"
+ },
+ "investigatingandmitigatingobjecthallucinationsinpretrainedvisionlanguageclipmodels": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-main.1016"
+ },
+ "knowledgecentrichallucinationdetection": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-main.395"
+ },
+ "llminternalstatesrevealhallucinationriskfacedwithaquery": {
+  "venue": "7th BlackboxNLP Workshop: Analyzing and Interpreting Neural Networks for NLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.blackboxnlp-1.6"
+ },
+ "lookbacklensdetectingandmitigatingcontextualhallucinationsinlargelanguagemodelsusingonlyattentionmaps": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-main.84"
+ },
+ "machinetranslationhallucinationdetectionforlowandhighresourcelanguagesusinglargelanguagemodels": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-emnlp.564"
+ },
+ "massivemultilingualabstractmeaningrepresentationadatasetandbaselinesforhallucinationdetection": {
+  "venue": "13th Joint Conference on Lexical and Computational Semantics (*SEM 2024)",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.starsem-1.1"
+ },
+ "medicotowardshallucinationdetectionandcorrectionwithmultisourceevidencefusion": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-demo.4"
+ },
+ "mitigatinghallucinationinfictionalcharacterroleplay": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-emnlp.846"
+ },
+ "mitigatinglargelanguagemodelhallucinationsviaautonomousknowledgegraphbasedretrofitting": {
+  "venue": "AAAI",
+  "year": 2024,
+  "ee": "https://doi.org/10.1609/aaai.v38i16.29770"
+ },
+ "mitigatingopenvocabularycaptionhallucinations": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-main.1263"
+ },
+ "navigatinghallucinationsforreasoningofunintentionalactivities": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-emnlp.565"
+ },
+ "onearlydetectionofhallucinationsinfactualquestionanswering": {
+  "venue": "KDD",
+  "year": 2024,
+  "ee": "https://doi.org/10.1145/3637528.3671796"
+ },
+ "onlargelanguagemodelsaposhallucinationwithregardtoknownfacts": {
+  "venue": "NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.naacl-long.60"
+ },
+ "referencefreehallucinationdetectionforlargevisionlanguagemodels": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-emnlp.262"
+ },
+ "robertawithlowrankadaptationandhierarchicalattentionforhallucinationdetectioninllms": {
+  "venue": "ICML",
+  "year": 2024,
+  "ee": "https://doi.org/10.1109/icicml63543.2024.10957858"
+ },
+ "smallagentcanalsorockempoweringsmalllanguagemodelsashallucinationdetector": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-main.809"
+ },
+ "theproblemofaihallucinationandhowtosolveit": {
+  "venue": "European Conference on e-Learning",
+  "year": 2024,
+  "ee": "https://doi.org/10.34190/ecel.23.1.2584"
+ },
+ "toolbehonestamultilevelhallucinationdiagnosticbenchmarkfortoolaugmentedlargelanguagemodels": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.emnlp-main.637"
+ },
+ "vgavisionguiassistantminimizinghallucinationsthroughimagecentricfinetuning": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-emnlp.68"
+ },
+ "whatifthinkingcounterfactualkeywordshelpstomitigatehallucinationinlargemultimodalmodels": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-emnlp.626"
+ },
+ "zeroresourcehallucinationpreventionforlargelanguagemodels": {
+  "venue": "EMNLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.findings-emnlp.204"
+ },
+ "acauseeffectlookatalleviatinghallucinationofknowledgegroundeddialoguegeneration": {
+  "venue": "LREC/COLING",
+  "year": 2024,
+  "ee": "https://aclanthology.org/2024.lrec-main.9"
+ },
+ "aculturallysensitivetesttoevaluatenuancedgpthallucination": {
+  "venue": "TAI",
+  "year": 2024,
+  "ee": "https://doi.org/10.1109/TAI.2023.3332837"
+ },
+ "alphaintellectatsemeval2024task6detectionofhallucinationsingeneratedtext": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.137"
+ },
+ "benchmarkinghallucinationinlargelanguagemodelsbasedonunanswerablemathwordproblem": {
+  "venue": "LREC/COLING",
+  "year": 2024,
+  "ee": "https://aclanthology.org/2024.lrec-main.196"
+ },
+ "brainllamaatsemeval2024task6promptingllamatodetecthallucinationsandrelatedobservableovergenerationmistakes": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.14"
+ },
+ "cognitivemirageareviewofhallucinationsinlargelanguagemodels": {
+  "venue": "LKM@IJCAI",
+  "year": 2024,
+  "ee": "https://ceur-ws.org/Vol-3818/paper2.pdf"
+ },
+ "composmentisatsemeval2024task6amultifacetedrolebasedlargelanguagemodelensembletodetecthallucination": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.208"
+ },
+ "correctingfactualityhallucinationincomplaintlargelanguagemodelviaentityaugmented": {
+  "venue": "IJCNN",
+  "year": 2024,
+  "ee": "https://doi.org/10.1109/IJCNN60899.2024.10650208"
+ },
+ "deeppavlovatsemeval2024task6detectionofhallucinationsandovergenerationmistakeswithanensembleoftransformerbasedmodels": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.42"
+ },
+ "detectinghallucinationandcoverageerrorsinretrievalaugmentedgenerationforcontroversialtopics": {
+  "venue": "LREC/COLING",
+  "year": 2024,
+  "ee": "https://aclanthology.org/2024.lrec-main.423"
+ },
+ "detectiondiagnosisandexplanationabenchmarkforchinesemedialhallucinationevaluation": {
+  "venue": "LREC/COLING",
+  "year": 2024,
+  "ee": "https://aclanthology.org/2024.lrec-main.428"
+ },
+ "evaluatingtheeffectsofpromptperturbationonbiasandhallucinationinlargelanguagemodels": {
+  "venue": "ICONIP",
+  "year": 2024,
+  "ee": "https://doi.org/10.1007/978-981-96-6588-4_25"
+ },
+ "graphevalaknowledgegraphbasedllmhallucinationevaluationframework": {
+  "venue": "KiL@KDD",
+  "year": 2024,
+  "ee": "https://ceur-ws.org/Vol-3894/paper5.pdf"
+ },
+ "hallusafeatsemeval2024task6annlibasedapproachtomakellmssaferbybetterdetectinghallucinationsandovergenerationmistakes": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.22"
+ },
+ "halunlpatsemeval2024task6metacheckgptamultitaskhallucinationdetectionusingllmuncertaintyandmetamodels": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.52"
+ },
+ "halwasaquantifyandanalyzehallucinationsinlargelanguagemodelsarabicasacasestudy": {
+  "venue": "LREC/COLING",
+  "year": 2024,
+  "ee": "https://aclanthology.org/2024.lrec-main.705"
+ },
+ "harmoneeatsemeval2024task6tuningbasedapproachestohallucinationrecognition": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.191"
+ },
+ "iritbergerlevraultatsemeval2024howsensitivesentenceembeddingsaretohallucinations": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.86"
+ },
+ "mahabhaashyaatsemeval2024task6zeroshotmultitaskhallucinationdetection": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.241"
+ },
+ "maltoatsemeval2024task6leveragingsyntheticdataforllmhallucinationdetection": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.240"
+ },
+ "mariaatsemeval2024task6hallucinationdetectionthroughllmsmnliandcosinesimilarity": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.225"
+ },
+ "mitigatinghallucinationinvisuallanguagemodelsegmentationwithnegativesampling": {
+  "venue": "ISCSLP",
+  "year": 2024,
+  "ee": "https://doi.org/10.1109/ISCSLP63861.2024.10800691"
+ },
+ "mitigatinghallucinationinlargelanguagemodelbyleveragingdecoderlayercontrasting": {
+  "venue": "ICPR",
+  "year": 2024,
+  "ee": "https://doi.org/10.1007/978-3-031-78498-9_4"
+ },
+ "mitigatinghallucinationissuesinsmallparameterllmsthroughinterlayercontrastivedecoding": {
+  "venue": "IJCNN",
+  "year": 2024,
+  "ee": "https://doi.org/10.1109/IJCNN60899.2024.10650644"
+ },
+ "nootnootatsemeval2024task6hallucinationsandrelatedobservableovergenerationmistakesdetection": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.139"
+ },
+ "nuruatsemeval2024task6hallucinationandrelatedobservableovergenerationmistakedetectionusinghypothesistargetsimilarityandselfcheckgpt": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.39"
+ },
+ "opdaiatsemeval2024task6smallllmscanacceleratehallucinationdetectionwithweaklysuperviseddata": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.104"
+ },
+ "semeval2024task6shroomasharedtaskonhallucinationsandrelatedobservableovergenerationmistakes": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.273"
+ },
+ "shroomindelabatsemeval2024task6zeroandfewshotllmbasedclassificationforhallucinationdetection": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.120"
+ },
+ "slplshroomatsemeval2024task06acomprehensivestudyonmodelsabilitytodetecthallucination": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.167"
+ },
+ "smurfcatatsemeval2024task6leveragingsyntheticdataforhallucinationdetection": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.125"
+ },
+ "temporalinsightenhancementmitigatingtemporalhallucinationinvideounderstandingbymultimodallargelanguagemodels": {
+  "venue": "ICPR",
+  "year": 2024,
+  "ee": "https://doi.org/10.1007/978-3-031-78183-4_29"
+ },
+ "thepitfallsofdefininghallucination": {
+  "venue": "Comput. Linguistics",
+  "year": 2024,
+  "ee": "https://doi.org/10.1162/coli_a_00509"
+ },
+ "tuwienatsemeval2024task6unifyingmodelagnosticandmodelawaretechniquesforhallucinationdetection": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.173"
+ },
+ "umuteamatsemeval2024task6leveragingzeroshotlearningfordetectinghallucinationsandrelatedobservableovergenerationmistakes": {
+  "venue": "SemEval@NAACL",
+  "year": 2024,
+  "ee": "https://doi.org/10.18653/v1/2024.semeval-1.98"
+ },
+ "anewbenchmarkandreversevalidationmethodforpassagelevelhallucinationdetection": {
+  "venue": "EMNLP",
+  "year": 2023,
+  "ee": "https://doi.org/10.18653/v1/2023.findings-emnlp.256"
+ },
+ "criticdrivendecodingformitigatinghallucinationsindatatotextgeneration": {
+  "venue": "EMNLP",
+  "year": 2023,
+  "ee": "https://doi.org/10.18653/v1/2023.emnlp-main.172"
+ },
+ "crush4sqlcollectiveretrievalusingschemahallucinationfortext2sql": {
+  "venue": "EMNLP",
+  "year": 2023,
+  "ee": "https://doi.org/10.18653/v1/2023.emnlp-main.868"
+ },
+ "evaluatingobjecthallucinationinlargevisionlanguagemodels": {
+  "venue": "EMNLP",
+  "year": 2023,
+  "ee": "https://doi.org/10.18653/v1/2023.emnlp-main.20"
+ },
+ "eyesshowthewaymodellinggazebehaviourforhallucinationdetection": {
+  "venue": "EMNLP",
+  "year": 2023,
+  "ee": "https://doi.org/10.18653/v1/2023.findings-emnlp.764"
+ },
+ "hallucinationdetectionforgroundedinstructiongeneration": {
+  "venue": "EMNLP",
+  "year": 2023,
+  "ee": "https://doi.org/10.18653/v1/2023.findings-emnlp.266"
+ },
+ "halomiamanuallyannotatedbenchmarkformultilingualhallucinationandomissiondetectioninmachinetranslation": {
+  "venue": "EMNLP",
+  "year": 2023,
+  "ee": "https://doi.org/10.18653/v1/2023.emnlp-main.42"
+ },
+ "kctsknowledgeconstrainedtreesearchdecodingwithtokenlevelhallucinationdetection": {
+  "venue": "EMNLP",
+  "year": 2023,
+  "ee": "https://doi.org/10.18653/v1/2023.emnlp-main.867"
+ },
+ "sourcesofhallucinationbylargelanguagemodelsoninferencetasks": {
+  "venue": "EMNLP",
+  "year": 2023,
+  "ee": "https://doi.org/10.18653/v1/2023.findings-emnlp.182"
+ },
+ "towardsmitigatingllmhallucinationviaselfreflection": {
+  "venue": "EMNLP",
+  "year": 2023,
+  "ee": "https://doi.org/10.18653/v1/2023.findings-emnlp.123"
+ },
+ "hallucinationdetectionrobustlydiscerningreliableanswersinlargelanguagemodels": {
+  "venue": "CIKM",
+  "year": 2023,
+  "ee": "https://doi.org/10.1145/3583780.3614905"
+ },
+ "capecontrastiveparameterensemblingforreducinghallucinationinabstractivesummarization": {
+  "venue": "ACL",
+  "year": 2023,
+  "ee": "https://doi.org/10.18653/v1/2023.findings-acl.685"
+ },
+ "contrastivedecodingopenendedtextgenerationasoptimization": {
+  "venue": "ACL",
+  "year": 2023,
+  "ee": "https://doi.org/10.18653/v1/2023.acl-long.687"
+ },
+ "plausiblemaynotbefaithfulprobingobjecthallucinationinvisionlanguagepretraining": {
+  "venue": "EACL",
+  "year": 2023,
+  "ee": "https://doi.org/10.18653/v1/2023.eacl-main.156"
+ },
+ "contrastivelearningreduceshallucinationinconversations": {
+  "venue": "AAAI",
+  "year": 2023,
+  "ee": "https://doi.org/10.1609/aaai.v37i11.26596"
+ },
+ "quotwhyisthismisleadingquotdetectingnewsheadlinehallucinationswithexplanations": {
+  "venue": "WWW",
+  "year": 2023,
+  "ee": "https://doi.org/10.1145/3543507.3583375"
+ },
+ "lookingforaneedleinahaystackacomprehensivestudyofhallucinationsinneuralmachinetranslation": {
+  "venue": "EACL",
+  "year": 2023,
+  "ee": "https://doi.org/10.18653/v1/2023.eacl-main.75"
+ },
+ "sac3reliablehallucinationdetectioninblackboxlanguagemodelsviasemanticawarecrosscheckconsistencyreliablehallucinationdetectioninblackboxlanguagemodelsviasemanticawarecrosscheckconsistency": {
+  "venue": "EMNLP",
+  "year": 2023,
+  "ee": "https://doi.org/10.18653/v1/2023.findings-emnlp.1032"
+ },
+ "detectingdialoguehallucinationusinggraphneuralnetworks": {
+  "venue": "ICMLA",
+  "year": 2023,
+  "ee": "https://doi.org/10.1109/ICMLA58977.2023.00128"
+ },
+ "medhaltmedicaldomainhallucinationtestforlargelanguagemodels": {
+  "venue": "CoNLL",
+  "year": 2023,
+  "ee": "https://doi.org/10.18653/v1/2023.conll-1.21"
+ },
+ "towardsreducinghallucinationinextractinginformationfromfinancialreportsusinglargelanguagemodels": {
+  "venue": "AIMLSystems",
+  "year": 2023,
+  "ee": "https://doi.org/10.1145/3639856.3639895"
+ },
+ "untanglingemotionalthreadshallucinationnetworksoflargelanguagemodels": {
+  "venue": "COMPLEX NETWORKS",
+  "year": 2023,
+  "ee": "https://doi.org/10.1007/978-3-031-53468-3_17"
+ },
+ "hallucinatedbutfactualinspectingthefactualityofhallucinationsinabstractivesummarization": {
+  "venue": "ACL",
+  "year": 2022,
+  "ee": "https://doi.org/10.18653/v1/2022.acl-long.236"
+ },
+ "ontheoriginofhallucinationsinconversationalmodelsisitthedatasetsorthemodels": {
+  "venue": "NAACL",
+  "year": 2022,
+  "ee": "https://doi.org/10.18653/v1/2022.naacl-main.387"
+ },
+ "lettherebeaclockonthebeachreducingobjecthallucinationinimagecaptioning": {
+  "venue": "WACV",
+  "year": 2022,
+  "ee": "https://doi.org/10.1109/WACV51458.2022.00253"
+ },
+ "hallucinationofspeechrecognitionerrorswithsequencetosequencelearning": {
+  "venue": "TASLP",
+  "year": 2022,
+  "ee": "https://doi.org/10.1109/TASLP.2022.3145313"
+ },
+ "retrievalaugmentationreduceshallucinationinconversation": {
+  "venue": "EMNLP",
+  "year": 2021,
+  "ee": "https://doi.org/10.18653/v1/2021.findings-emnlp.320"
+ },
+ "onhallucinationandpredictiveuncertaintyinconditionallanguagegeneration": {
+  "venue": "EACL",
+  "year": 2021,
+  "ee": "https://doi.org/10.18653/v1/2021.eacl-main.236"
+ },
+ "thecuriouscaseofhallucinationsinneuralmachinetranslation": {
+  "venue": "NAACL",
+  "year": 2021,
+  "ee": "https://doi.org/10.18653/v1/2021.naacl-main.92"
+ },
+ "structuralhallucinationinllmsaformalcharacterizationandmitigationmethod": {
+  "venue": "International Journal For Multidisciplinary Research",
+  "year": 2020,
+  "ee": "https://doi.org/10.36948/ijfmr.2020.v02i05.61072"
+ },
+ "assessingthefactualaccuracyofgeneratedtext": {
+  "venue": "KDD",
+  "year": 2019,
+  "ee": "https://doi.org/10.1145/3292500.3330955"
+ },
+ "asimplerecipetowardsreducinghallucinationinneuralsurfacerealisation": {
+  "venue": "ACL",
+  "year": 2019,
+  "ee": "https://doi.org/10.18653/v1/p19-1256"
+ },
+ "rankinggeneratedsummariesbycorrectnessaninterestingbutchallengingapplicationfornaturallanguageinference": {
+  "venue": "ACL",
+  "year": 2019,
+  "ee": "https://doi.org/10.18653/v1/P19-1213"
+ },
+ "objecthallucinationinimagecaptioning": {
+  "venue": "EMNLP",
+  "year": 2018,
+  "ee": "https://doi.org/10.18653/v1/D18-1437"
+ }
+}

@@ -7,7 +7,6 @@ __pycache__/
 data/abstracts.json
 data/abstracts_extra.json
 data/crossref_cache.json
-data/venue_links.json
 data/code_links.json
 data/found_links.json
 data/stats.json
@@ -22,6 +21,14 @@ data/_code_anthology.json
 data/cvpr2026_hall.json
 data/candidates_new.json
 no_keyword_review.md
+
+# NOTE: data/venue_links.json is TRACKED on purpose (same rationale as
+# incremental.json). It is the enrichment cache mapping each paper to its
+# resolved conference/journal venue, year and external link. When it was
+# gitignored and lost, every clean checkout fell back to arXiv years and
+# "arXiv"/"其他" venue names. Rebuilt from the committed papers.json
+# (scripts/rebuild_venue_links.py) and kept current by update_pipeline.py so a
+# fresh clone / CI checkout is never cold for venue resolution.
 
 # NOTE: data/incremental.json is TRACKED on purpose. It is not a cache — it
 # holds 827 harvested papers that exist in no other source file. While it was

@@ -20,10 +20,12 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    # Was 45. The venue-enrichment step alone needs ~77 min on a cold cache
-    # (927 arXiv preprints x ~5s of API politeness sleeps), so the job was
-    # killed mid-pipeline every single week and never reached the commit.
-    timeout-minutes: 180
+    # Was 45; raised to 180 after the first fix, then to 360 as a safety margin.
+    # With data/venue_links.json now committed as a seed cache, the weekly run
+    # is incremental (only newly-added preprints are queried), so it normally
+    # finishes in minutes. 360 min only matters for a true cold start, e.g. the
+    # enrichment cache expired after >7 days with no updates.
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
         with:
@@ -33,14 +35,13 @@ jobs:
         with:
           python-version: "3.12"
 
-      # The enrichment caches are gitignored, so without this every run starts
-      # cold and re-queries every preprint from scratch. Restoring them keeps
-      # the weekly run incremental (minutes instead of hours).
+      # The enrichment caches are gitignored (except data/venue_links.json, which
+      # is committed as a seed cache so venue resolution is never cold). Without
+      # this restore, every run re-fetches abstracts/crossref from scratch.
       - name: Restore enrichment caches
         uses: actions/cache@v4
         with:
           path: |
-            data/venue_links.json
             data/crossref_cache.json
             data/abstracts.json
             data/code_links.json
