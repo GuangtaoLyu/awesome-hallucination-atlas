@@ -37,6 +37,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 DOCS = os.path.join(ROOT, "docs")
 PY = sys.executable
+if HERE not in sys.path:
+    sys.path.insert(0, HERE)
+from lib_common import norm_title  # noqa: E402
 
 
 def run(script, *args):
@@ -47,6 +50,36 @@ def run(script, *args):
         print(f"[pipeline] ERROR: {script} exited with code {rc}", file=sys.stderr)
         sys.exit(rc)
     return rc
+
+
+def sync_venue_years():
+    """Rebuild data/venue_years.json from the freshly generated data/papers.json.
+
+    venue_years.json is the committed cold-checkout fallback for the paper year
+    (see generate.py). Keeping it in lock-step with papers.json means a fresh
+    clone / CI checkout always reproduces the correct conference years even when
+    the gitignored enrichment cache (venue_links.json) is absent. No-op with a
+    warning if papers.json is missing; never fails the pipeline.
+    """
+    ppath = os.path.join(ROOT, "data", "papers.json")
+    if not os.path.exists(ppath):
+        print("[sync_venue_years] skip: data/papers.json not found", file=sys.stderr)
+        return
+    try:
+        data = json.load(open(ppath, encoding="utf-8"))
+        papers = data["papers"] if isinstance(data, dict) and "papers" in data else data
+        out = {}
+        for p in papers:
+            t = (p.get("title") or "").strip()
+            y = p.get("year")
+            if t and y:
+                out[norm_title(t)] = int(y)
+        opath = os.path.join(ROOT, "data", "venue_years.json")
+        with open(opath, "w", encoding="utf-8") as f:
+            json.dump(out, f, ensure_ascii=False, indent=0, sort_keys=True)
+        print(f"[sync_venue_years] wrote {len(out)} entries -> data/venue_years.json")
+    except Exception as ex:
+        print(f"[sync_venue_years] skip: {ex!r}", file=sys.stderr)
 
 
 def git_commit(ran):
@@ -225,6 +258,12 @@ def main():
     #    abstracts, and code links.
     run("generate.py")
     ran.append("generate#2")
+
+    # 5b. keep data/venue_years.json (the committed cold-checkout year fallback)
+    #     in lock-step with papers.json so a fresh clone always reproduces the
+    #     correct conference years.
+    sync_venue_years()
+    ran.append("venue_years")
 
     # 6. keep README.md in lock-step with the regenerated papers.json so the
     #    hand-written stats / 2000-line paper list can never drift from data.

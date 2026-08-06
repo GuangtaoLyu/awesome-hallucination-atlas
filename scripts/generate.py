@@ -30,6 +30,7 @@ ABS_CACHE = os.path.join(ROOT, "data", "abstracts.json")
 FOUND_LINKS = os.path.join(ROOT, "data", "found_links.json")   # title-key -> arxiv url (searched)
 CODE_LINKS = os.path.join(ROOT, "data", "code_links.json")     # title-key -> github url
 VENUE_LINKS = os.path.join(ROOT, "data", "venue_links.json")   # title-key -> {venue, year, ee}
+VENUE_YEARS = os.path.join(ROOT, "data", "venue_years.json")    # norm_title -> conference year (committed cold-checkout fallback)
 CCF_FILE = os.path.join(ROOT, "data", "ccf.json")             # venue base -> CCF rating A/B/C/""
 CROSSREF_CACHE = os.path.join(ROOT, "data", "crossref_cache.json")  # DOI -> Crossref container-title
 
@@ -514,6 +515,7 @@ def main():
     found_links = load_json(FOUND_LINKS)
     code_links = load_json(CODE_LINKS)
     venue_links = load_json(VENUE_LINKS)
+    venue_years = load_json(VENUE_YEARS)
     global CCF, CROSSREF
     CCF = load_json(CCF_FILE)
     CROSSREF = load_json(CROSSREF_CACHE)
@@ -582,6 +584,13 @@ def main():
                 date = str(vyear)
             if not url:                              # official link fills gap
                 url = venue_url
+        elif key in venue_years:
+            # No resolved venue cache yet (cold checkout before the enrichment
+            # cache is built, or generate.py run standalone on a fresh clone):
+            # fall back to the committed conference year so a conference paper is
+            # never mislabeled with its arXiv preprint year. update_arxiv_venues.py
+            # later overrides this with the exact, venue-resolved year.
+            year = venue_years[key]
 
         # ---- Crossref fallback: DOI -> real venue (if CCF-catalogued) ----
         if not venue:
