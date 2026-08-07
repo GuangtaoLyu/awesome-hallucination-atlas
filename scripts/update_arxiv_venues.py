@@ -37,7 +37,10 @@ PAPERS = os.path.join(ROOT, "docs", "papers.json")
 VENUE_LINKS = os.path.join(ROOT, "data", "venue_links.json")
 CROSSREF_CACHE = os.path.join(ROOT, "data", "crossref_cache.json")
 
-UA = {"User-Agent": "Mozilla/5.0 (research-hallucination-lib/1.0)"}
+# Descriptive UA (DBLP's API guidance asks for an identifiable project +
+# contact). A generic/fake browser UA is more likely to be throttled.
+UA = {"User-Agent": "awesome-hallucination-atlas/1.0 "
+      "(+https://github.com/GuangtaoLyu/awesome-hallucination-atlas)"}
 NS = {"a": "http://www.w3.org/2005/Atom", "ar": "http://arxiv.org/schemas/atom"}
 
 
@@ -179,6 +182,13 @@ def main():
 
     todo = ax[:limit]
     found = 0
+    # Circuit breaker: if DBLP keeps responding with transient errors (usually
+    # HTTP 429 rate-limiting from the shared CI runner IP), stop hammering it and
+    # let the run finish + push with whatever we have. Without this, a broad
+    # 429 storm made the pipeline retry forever and the weekly job never pushed.
+    consecutive_transient = 0
+    DBLP_BREAK = 8
+    dblp_shutoff = False
     for i, p in enumerate(todo, 1):
         title = p["title"]
         key = norm(title)
@@ -225,37 +235,58 @@ def main():
         # Pass B — DBLP title search
         transient = False
         if not rec:
-            for attempt in range(4):
-                try:
-                    best = dblp_lookup(title)
-                    if best:
-                        rec = best
-                        src = "dblp"
-                    break
-                except TransientError:
-                    if attempt < 3:
-                        time.sleep(5 * (attempt + 1))
-                        continue
-                    transient = True   # exhausted retries on a transient failure
-                except Exception:
-                    break
-            time.sleep(2)
+            if dblp_shutoff:
+                # DBLP is broadly rate-limiting this run; skip remaining DBLP
+                # queries so the pipeline still completes and pushes. Papers we
+                # skip here stay UNCACHED and are retried on the next run.
+                pass
+            else:
+                for attempt in range(4):
+                    try:
+                        best = dblp_lookup(title)
+                        if best:
+                            rec = best
+                            src = "dblp"
+                        consecutive_transient = 0
+                        break
+                    except TransientError:
+                        consecutive_transient += 1
+                        if consecutive_transient >= DBLP_BREAK:
+                            dblp_shutoff = True
+                            print(f"  [dblp] rate-limited {consecutive_transient}x "
+                                  f"consecutively; skipping remaining DBLP queries "
+                                  f"this run (will retry next time).")
+                            break
+                        if attempt < 3:
+                            time.sleep(5 * (attempt + 1))
+                            continue
+                        transient = True   # exhausted retries on a transient failure
+                    except Exception:
+                        break
+                time.sleep(2)
 
         if rec:
             cache[key] = rec
             found += 1
             print(f"[{i}/{len(todo)}] {src:11s} {title[:40]:42s} -> "
                   f"{rec['venue']} {rec['year']}")
-        elif not transient and not has_ref and (key not in cache or not cache.get(key)):
+        elif not transient and not dblp_shutoff and not has_ref and (key not in cache or not cache.get(key)):
             # genuine negative (clean query, no formal venue, no journal_ref/doi)
             # -> cache "" so we don't re-query forever. Transient failures and
             # papers that HAVE a journal_ref/doi (but an unmapped venue) are left
             # UNCACHED, so a later run (or a VENUE_MATCH extension) can recover.
+            # When DBLP was shut off by rate-limiting we also leave the paper
+            # uncached, so it is retried next run instead of being permanently
+            # marked negative.
             cache[key] = ""
     if i % 25 == 0:
         atomic_dump(VENUE_LINKS, cache, indent=1)
     atomic_dump(VENUE_LINKS, cache, indent=1)
     atomic_dump(CROSSREF_CACHE, crossref, indent=1)
+    if dblp_shutoff:
+        print("WARNING: DBLP was rate-limiting this run; remaining preprints "
+              "were skipped and will be retried next run. The dataset is "
+              "unchanged for venues, but the pipeline still completed.")
     print(f"Done. Newly resolved this run: {found}/{len(todo)}; "
           f"total formal among arXiv: "
           f"{sum(1 for p in ax if cache.get(norm(p['title']))) }")
