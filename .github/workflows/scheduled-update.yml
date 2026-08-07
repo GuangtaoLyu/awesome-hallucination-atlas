@@ -1,8 +1,12 @@
 name: Scheduled Update
 
 # Weekly refresh of the atlas: fetch new arXiv papers, re-classify, regenerate
-# README + docs, and (if the audit passes) auto-commit AND push. The push then
-# triggers the "Deploy to GitHub Pages" workflow, keeping the live site in sync.
+# README + docs, (if the audit passes) auto-commit + push, and publish the site
+# to the gh-pages branch so the live site stays in sync.
+#
+# NOTE: the deploy used to rely on a separate push-triggered "Deploy to GitHub
+# Pages" workflow, but a GITHUB_TOKEN push does NOT trigger other workflows, so
+# the scheduled push never redeployed the site. We deploy inline here instead.
 on:
   schedule:
     - cron: "17 4 * * 1"   # every Monday 04:17 UTC
@@ -99,3 +103,24 @@ jobs:
           # Someone may have pushed while the (long) pipeline was running.
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
+
+  # Publish the freshly generated docs/ to the gh-pages branch so the live
+  # site reflects this run's data. Done inline (not via a separate push-triggered
+  # workflow) because a GITHUB_TOKEN push does NOT trigger other workflows, so
+  # the scheduled push above would otherwise never redeploy the site.
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Deploy docs/ to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          publish_branch: gh-pages
+          force_orphan: true
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com
