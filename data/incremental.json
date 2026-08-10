@@ -5074,5 +5074,17 @@
     "Julia Belikova, Rauf Parchiev, Mikhail Filimonov, Konstantin Polev, Andrey Savchenko, Maksim Makarenko",
     "https://arxiv.org/abs/2608.00033",
     2026
+  ],
+  [
+    "Decomposed Entailment for Factuality Checking and Hallucination Detection",
+    "Achir Oukelmoun, Nasredine Semmar, Gaël De Chalendar",
+    "https://arxiv.org/abs/2608.05823",
+    2026
+  ],
+  [
+    "TruthLens: Object Hallucination Detection via Self-Evaluating Truthfulness Scores in LVLMs",
+    "Yanqi Wu, Runhe Lai, Xinhua Lu, Qichao Chen, Zhiping Zhou, Jia-Xin Zhuang, Weijiang Yu, Ruixuan Wang",
+    "https://arxiv.org/abs/2608.05616",
+    2026
   ]
 ]

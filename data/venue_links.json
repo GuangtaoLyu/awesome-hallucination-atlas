@@ -5683,5 +5683,8 @@
  "rolebreakinattentionheadsunderstandinganddetectinghallucinationsinvlms": "",
  "detectinghallucinationsandrecoveringverifiedanswersinarabicislamicquestionanswering": "",
  "knowhalaknowledgedrivenbenchmarkforcomprehensivemultimodalhallucinationevaluation": "",
- "whenlowcerisnotenoughananalysisofhallucinationsinvisionlanguageocrsystemsonhistoricaluruguayandocuments": ""
+ "whenlowcerisnotenoughananalysisofhallucinationsinvisionlanguageocrsystemsonhistoricaluruguayandocuments": "",
+ "decomposedentailmentforfactualitycheckingandhallucinationdetection": "",
+ "truthlensobjecthallucinationdetectionviaselfevaluatingtruthfulnessscoresinlvlms": "",
+ "whenmodelpriorsconflictwithvisualevidencemitigatingcommonsensedrivenhallucinationsbyselectivepriorcalibration": ""
 }

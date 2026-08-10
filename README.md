@@ -6,11 +6,11 @@
 >
 > Covers **detection, evaluation, and mitigation** of hallucinations, with multi-dimensional faceted filtering by model type, method type, and year, plus tags for modality and scenario.
 >
-> Taxonomy is auto-labeled from the **full arXiv abstract text** (19/1916 papers), not just title keywords.
+> Taxonomy is auto-labeled from the **full arXiv abstract text** (21/1918 papers), not just title keywords.
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Papers-1916-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-19-9cf' />
+  <img src='https://img.shields.io/badge/Papers-1918-blue' />
+  <img src='https://img.shields.io/badge/Abstract--based-21-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-08&color=orange' />
 </p>
@@ -41,8 +41,8 @@
 
 <a id="sec-overview"></a>
 ## 📊 Data Overview
-- **Total papers**：`1916` (deduplicated)
-- **With paper link**：`1907` · **With abstract**：`19` · **With code**：`0` · **Published at venue**：`935`
+- **Total papers**：`1918` (deduplicated)
+- **With paper link**：`1909` · **With abstract**：`21` · **With code**：`0` · **Published at venue**：`935`
 - For papers published at a venue: time and link prioritize the official conference/journal info (DBLP), otherwise arXiv info is used.
 - **Year range**：2018 – 2027
 
@@ -51,7 +51,7 @@
 | Year | Count | Share |
 |------|------|------|
 | 2027 | 5 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| 2026 | 747 | `████████░░░░░░░░░░░░` 39.0%
+| 2026 | 749 | `████████░░░░░░░░░░░░` 39.1%
 | 2025 | 763 | `████████░░░░░░░░░░░░` 39.8%
 | 2024 | 364 | `████░░░░░░░░░░░░░░░░` 19.0%
 | 2023 | 24 | `░░░░░░░░░░░░░░░░░░░░` 1.3%
@@ -66,17 +66,17 @@
 
 | Model Type | Description | Count |
 |----------|------|------|
-| **VLM** | Vision-Language Model (LVLM; also covers works that call themselves MLLM but handle only image/video + text) | 654 |
+| **VLM** | Vision-Language Model (LVLM; also covers works that call themselves MLLM but handle only image/video + text) | 655 |
 | **MLLM(Omni)** | Omni / full-modal model (audio / speech / any-to-any) | 28 |
-| **LLM** | Pure text-based LLM | 1234 |
+| **LLM** | Pure text-based LLM | 1235 |
 
 
 ### Method Type
 
 | Method Type | Description | Count |
 |----------|------|------|
-| **Training-free** | Training-free (decoding intervention / attention calibration / representation guidance, etc.) | 1831 |
-| **Training-based** | Training-based (preference optimization / fine-tuning / RL, etc.) | 85 |
+| **Training-free** | Training-free (decoding intervention / attention calibration / representation guidance, etc.) | 1832 |
+| **Training-based** | Training-based (preference optimization / fine-tuning / RL, etc.) | 86 |
 
 
 <details>
@@ -143,7 +143,7 @@
 | USENIX Security Symposium | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | TNNLS | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | Other | 195 | `██░░░░░░░░░░░░░░░░░░` 10.2%
-| arXiv (preprint) | 942 | `██████████░░░░░░░░░░` 49.2%
+| arXiv (preprint) | 944 | `██████████░░░░░░░░░░` 49.2%
 | Unlabeled | 26 | `░░░░░░░░░░░░░░░░░░░░` 1.4%
 
 <details>
@@ -315,9 +315,9 @@
 | CCF Rating | Count | Share |
 |----------|------|------|
 | CCF-A | 435 | `█████░░░░░░░░░░░░░░░` 22.7%
-| CCF-B | 233 | `██░░░░░░░░░░░░░░░░░░` 12.2%
+| CCF-B | 233 | `██░░░░░░░░░░░░░░░░░░` 12.1%
 | CCF-C | 34 | `░░░░░░░░░░░░░░░░░░░░` 1.8%
-| Not in CCF | 1214 | `█████████████░░░░░░░` 63.4%
+| Not in CCF | 1216 | `█████████████░░░░░░░` 63.4%
 > 📋 `115` **Benchmark** papers and 📚 `32` **Survey** papers are listed separately (see sections below) and do not affect the method taxonomy.
 
 ---
@@ -520,7 +520,7 @@ Hallucination research is moving fast. These directions are especially hot in 20
 > Grouped by **model type** (LLM / VLM / MLLM), then expanded by year inside each group; click a header to expand / collapse. Format per entry: **Title** · venue/year · model · method · 💻code. Title links prefer the official venue version. 📋 = Benchmark paper, 📚 = Survey paper. Full abstracts and multi-dimensional filtering are available in the interactive website [`docs/index.html`](docs/index.html). PRs welcome.
 
 <details>
-<summary>🤖 LLM · 1234 篇</summary>
+<summary>🤖 LLM · 1235 篇</summary>
 
 <details>
 <summary>📅 2027 · 5 papers</summary>
@@ -534,8 +534,9 @@ Hallucination research is moving fast. These directions are especially hot in 20
 </details>
 
 <details>
-<summary>📅 2026 · 474 papers</summary>
+<summary>📅 2026 · 475 papers</summary>
 
+- **[Decomposed Entailment for Factuality Checking and Hallucination Detection](https://arxiv.org/abs/2608.05823)** · arXiv · LLM · Training-free
 - **[Hallucinations on the Board: Tool-Augmented Evaluation of LLM Chess Commentary](https://arxiv.org/abs/2608.04240)** · arXiv · LLM · Training-free
 - **[HalluTruthQA-4K: A Fine-Grained Corpus and Annotation Process for Arabic Hallucination Detection and Truth Verification](https://arxiv.org/abs/2608.03966)** · arXiv · LLM · Training-free
 - **[Eliciting Intrinsic Hallucinations in LLMs via Semantically Equivalent Adversarial Attacks](https://arxiv.org/abs/2608.04286)** · arXiv · LLM · Training-based
@@ -1813,12 +1814,13 @@ Hallucination research is moving fast. These directions are especially hot in 20
 </details>
 
 <details>
-<summary>👁️ VLM · 654 篇</summary>
+<summary>👁️ VLM · 655 篇</summary>
 
 <details>
-<summary>📅 2026 · 264 papers</summary>
+<summary>📅 2026 · 265 papers</summary>
 
 - **[See Only When Needed: Context-Aware Attention Intervention for Mitigating Hallucinations in LVLMs](https://arxiv.org/abs/2606.29847)** · ECCV 2026 · VLM · Training-free
+- **[TruthLens: Object Hallucination Detection via Self-Evaluating Truthfulness Scores in LVLMs](https://arxiv.org/abs/2608.05616)** · arXiv · VLM · Training-based
 - **[UHP Detection: LVLMs have their Unique Hallucination Pattern in the Consistency Space](https://arxiv.org/abs/2608.03817)** · arXiv · VLM · Training-free
 - **📋 [KnowHal: A Knowledge-Driven Benchmark for Comprehensive Multimodal Hallucination Evaluation](https://arxiv.org/abs/2608.03782)** · arXiv · VLM · Training-free
 - **[When Model Priors Conflict with Visual Evidence: Mitigating Commonsense-Driven Hallucinations by Selective Prior Calibration](https://arxiv.org/abs/2607.29240)** · arXiv · VLM · Training-free
