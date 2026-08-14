@@ -1,8 +1,11 @@
 name: Scheduled Update
 
-# Weekly refresh of the atlas: fetch new arXiv papers, re-classify, regenerate
+# Daily refresh of the atlas: fetch new arXiv papers, re-classify, regenerate
 # README + docs, (if the audit passes) auto-commit + push, and publish the site
-# to the gh-pages branch so the live site stays in sync.
+# to the gh-pages branch so the live site stays in sync. The first Saturday of
+# each month additionally runs --enrich to backfill abstracts + code links.
+# (The --collect discovery step is intentionally not scheduled — run "full"
+#  manually when a new conference proceedings is released.)
 #
 # NOTE: the deploy used to rely on a separate push-triggered "Deploy to GitHub
 # Pages" workflow, but a GITHUB_TOKEN push does NOT trigger other workflows, so
@@ -11,6 +14,16 @@ on:
   schedule:
     - cron: "0 8 * * *"    # every day at 16:00 Beijing time (08:00 UTC)
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "Pipeline mode (auto = schedule-based; or pick a heavier one)"
+        required: false
+        default: "auto"
+        type: choice
+        options:
+          - auto
+          - enrich
+          - full
 
 permissions:
   contents: write
@@ -61,14 +74,29 @@ jobs:
 
       # Best-effort: a transient network failure must not spam notifications.
       # The pipeline commits locally only after its own --strict audit passes.
-      # Saturdays run the heavy --full update (DBLP/Crossref harvest + abstract/
-      # code-link enrichment); every other day runs the light default refresh.
+      # Daily: light default refresh (fetch recent arXiv + regenerate).
+      # First Saturday of each month: --enrich (fill abstracts + GitHub code
+      #   links for newly-added papers) — the only heavy step worth running
+      #   periodically. The --collect discovery channels are intentionally NOT
+      #   scheduled: they harvest fixed-year proceedings and have a resume guard
+      #   that makes them a no-op after the first run; run "full" manually from
+      #   workflow_dispatch when a new conference proceedings drops.
       - name: Run update pipeline
         continue-on-error: true
+        env:
+          PIPE_MODE: ${{ github.event.inputs.mode }}
         run: |
+          MODE="${PIPE_MODE:-auto}"
+          if [ "$MODE" != "auto" ]; then
+            echo "manual dispatch: --$MODE"
+            python scripts/update_pipeline.py --$MODE
+            exit 0
+          fi
           DOW=$(date -u +%u)   # 1=Mon ... 6=Sat ... 7=Sun
-          if [ "$DOW" = "6" ]; then
-            python scripts/update_pipeline.py --full
+          DOM=$(date -u +%-d)  # day of month, no leading zero
+          if [ "$DOW" = "6" ] && [ "$DOM" -le 7 ]; then
+            echo "first Saturday of month: --enrich"
+            python scripts/update_pipeline.py --enrich
           else
             python scripts/update_pipeline.py
           fi
