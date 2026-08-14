@@ -58,5 +58,6 @@
  "contrastivedecodingreduceshallucinationsinlargemultilingualmachinetranslationmodels": "",
  "causallenssensitivityguidedmultiheadcausalinterventionforhallucinationmitigationinlargevisionlanguagemodels": "",
  "copocausalorientedpolicyoptimizationforhallucinationsofmllms": "https://arxiv.org/abs/2508.04182",
- "aheadattentionheadenergyawaredynamicsforhallucinationmitigationinmllms": ""
+ "aheadattentionheadenergyawaredynamicsforhallucinationmitigationinmllms": "",
+ "mitigatinghallucinationforlargevisionlanguagemodelbyintermodalitycorrelationcalibrationdecoding": ""
 }

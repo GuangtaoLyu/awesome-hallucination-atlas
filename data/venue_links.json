@@ -5698,5 +5698,63 @@
  "testtimehallucinationcontrolinlargevisionlanguagemodels": "",
  "uniprobealearnabletokenlevelhallucinationdetectorforlargevlmsusingmultistructuralinternalrepresentations": "",
  "whenvisualsignalsmisleadamechanisticstudyofattributehallucinationinvisionlanguagemodels": "",
- "contextblindnessindpomitigatingobjecthallucinationinmllmsviacontextcalibratedpreferenceoptimization": ""
+ "contextblindnessindpomitigatingobjecthallucinationinmllmsviacontextcalibratedpreferenceoptimization": "",
+ "rarreversingvisualattentionresinkingforunlockingpotentialinmultimodallargelanguagemodels": "",
+ "mitigatinghallucinationforlargevisionlanguagemodelbyintermodalitycorrelationcalibrationdecoding": "",
+ "mitigatinghallucinationthroughtheoryconsistentsymmetricmultimodalpreferenceoptimization": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/a1718f361df32ff3a1fc224f8673c556-Abstract-Conference.html"
+ },
+ "radflagablackboxhallucinationdetectionmethodformedicalvisionlanguagemodels": {
+  "venue": "ML4H@NeurIPS",
+  "year": 2024,
+  "ee": "https://proceedings.mlr.press/v259/zhang25c.html"
+ },
+ "leveraginghallucinationstoreducemanualpromptdependencyinpromptablesegmentation": {
+  "venue": "NeurIPS",
+  "year": 2024,
+  "ee": "http://papers.nips.cc/paper_files/paper/2024/hash/c1e1ad233411e25b54bb5df3a0576c2c-Abstract-Conference.html"
+ },
+ "lookstoogoodtobetrueaninformationtheoreticanalysisofhallucinationsingenerativerestorationmodels": {
+  "venue": "NeurIPS",
+  "year": 2024,
+  "ee": "http://papers.nips.cc/paper_files/paper/2024/hash/2847d43f17410c5beb25b2736c3ae778-Abstract-Conference.html"
+ },
+ "erbenchanentityrelationshipbasedautomaticallyverifiablehallucinationbenchmarkforlargelanguagemodels": {
+  "venue": "NeurIPS",
+  "year": 2024,
+  "ee": "http://papers.nips.cc/paper_files/paper/2024/hash/5ef9853a6cdea40ae3e301a6d8dc32b5-Abstract-Datasets_and_Benchmarks_Track.html"
+ },
+ "hallo3dmultimodalhallucinationdetectionandmitigationforconsistent3dcontentgeneration": {
+  "venue": "NeurIPS",
+  "year": 2024,
+  "ee": "http://papers.nips.cc/paper_files/paper/2024/hash/d75660d6eb0ce31360c768fef85301dd-Abstract-Conference.html"
+ },
+ "towardastablefairandcomprehensiveevaluationofobjecthallucinationinlargevisionlanguagemodels": {
+  "venue": "NeurIPS",
+  "year": 2024,
+  "ee": "http://papers.nips.cc/paper_files/paper/2024/hash/c9b551a2e195a209fc0b280de2f7f781-Abstract-Conference.html"
+ },
+ "howlanguagemodelhallucinationscansnowball": {
+  "venue": "ICML",
+  "year": 2024,
+  "ee": "https://proceedings.mlr.press/v235/zhang24ay.html"
+ },
+ "insidellmsaposinternalstatesretainthepowerofhallucinationdetection": "",
+ "mitigatinghallucinationinlargemultimodalmodelsviarobustinstructiontuning": {
+  "venue": "ICLR",
+  "year": 2024,
+  "ee": "https://openreview.net/forum?id=J44HfH4JCg"
+ },
+ "hallucinationbenchmarkinmedicalvisualquestionanswering": {
+  "venue": "Tiny Papers @ ICLR",
+  "year": 2024,
+  "ee": "https://openreview.net/forum?id=vxlXqOj4zv"
+ },
+ "analyzingandmitigatingobjecthallucinationinlargevisionlanguagemodels": {
+  "venue": "ICLR",
+  "year": 2024,
+  "ee": "https://openreview.net/forum?id=oZDJKTlOUe"
+ }
 }
