@@ -9,7 +9,7 @@ name: Scheduled Update
 # the scheduled push never redeployed the site. We deploy inline here instead.
 on:
   schedule:
-    - cron: "17 4 * * 1"   # every Monday 04:17 UTC
+    - cron: "0 8 * * *"    # every day at 16:00 Beijing time (08:00 UTC)
   workflow_dispatch:
 
 permissions:
@@ -61,9 +61,17 @@ jobs:
 
       # Best-effort: a transient network failure must not spam notifications.
       # The pipeline commits locally only after its own --strict audit passes.
+      # Saturdays run the heavy --full update (DBLP/Crossref harvest + abstract/
+      # code-link enrichment); every other day runs the light default refresh.
       - name: Run update pipeline
         continue-on-error: true
-        run: python scripts/update_pipeline.py
+        run: |
+          DOW=$(date -u +%u)   # 1=Mon ... 6=Sat ... 7=Sun
+          if [ "$DOW" = "6" ]; then
+            python scripts/update_pipeline.py --full
+          else
+            python scripts/update_pipeline.py
+          fi
 
       # Guard: the pipeline's audit runs before its commit, but re-verify the
       # dataset here so a regression can never be pushed to main.
