@@ -5086,5 +5086,77 @@
     "Yanqi Wu, Runhe Lai, Xinhua Lu, Qichao Chen, Zhiping Zhou, Jia-Xin Zhuang, Weijiang Yu, Ruixuan Wang",
     "https://arxiv.org/abs/2608.05616",
     2026
+  ],
+  [
+    "Context Blindness in DPO: Mitigating Object Hallucination in MLLMs via Context-Calibrated Preference Optimization",
+    "Byungoh Ko, Jinyoung Park, Jongha Kim, Jeehye Na, Jaewon Cho, Hyunwoo J. Kim",
+    "https://arxiv.org/abs/2608.12158",
+    2026
+  ],
+  [
+    "Test-Time Hallucination Control in Large Vision-Language Models",
+    "Mehran Tamjidi, Hamidreza Dastmalchi, Ali Cheraghian, Mohammadreza Alimoradijazi, Aijun An, Hossein Rahmani",
+    "https://arxiv.org/abs/2608.11474",
+    2026
+  ],
+  [
+    "When Visual Signals Mislead: A Mechanistic Study of Attribute Hallucination in Vision-Language Models",
+    "Yufei Zhang, Chenlu Zhan, Hongwei Wang",
+    "https://arxiv.org/abs/2608.11024",
+    2026
+  ],
+  [
+    "UniProbe: A Learnable Token-Level Hallucination Detector for Large VLMs using Multi-Structural Internal Representations",
+    "Dvir Samuel, Guy Bar-Shalom, Fabrizio Frasca, Ethan Fetaya, Yftah Ziser, Gal Chechik, Haggai Maron",
+    "https://arxiv.org/abs/2608.10835",
+    2026
+  ],
+  [
+    "Actionable Hallucination Detection: Translating Latent Uncertainty into Agentic Critique",
+    "Sanidhya Vijayvargiya, Rahul Lokesh",
+    "https://arxiv.org/abs/2608.10430",
+    2026
+  ],
+  [
+    "Hallucination-Free GUI Grounding via Regression-Free Layout-Aware Matching",
+    "Yuke Li, Xuehan Hou",
+    "https://arxiv.org/abs/2608.09654",
+    2026
+  ],
+  [
+    "Beyond Global Editing: Per-Instance Disentangled Subspaces for Training-Free Hallucination Mitigation in LVLMs",
+    "Ali Cheraghian, Hamidreza Dastmalchi, Hamed Barzamini, Morteza Saberi, Mojtaba Golzan, Shafin Rahman, Hossein Rahmani",
+    "https://arxiv.org/abs/2608.09344",
+    2026
+  ],
+  [
+    "VADER: Adaptive Debiasing for Hallucination Mitigation in Video Large Language Models",
+    "Dong Xing, Jiaxin Chen, Hang Yang, Peixun Liu, Qiushi Yang, Yuqing Wang",
+    "https://arxiv.org/abs/2608.08622",
+    2026
+  ],
+  [
+    "A Grounded and Decomposed Framework for Relation-Level Hallucination Evaluation in Abstractive Summarization",
+    "Praveen Kumar Katwe, Rakesh Chandra Balabantaray, Kali Prasad Vittala, Naman Kabadi",
+    "https://arxiv.org/abs/2608.08180",
+    2026
+  ],
+  [
+    "Wiener Representation Filtering for VLM Hallucination Suppression",
+    "Ameen Ali, Tamim Zoabi, Lidor Brami, Lior Wolf",
+    "https://arxiv.org/abs/2608.08167",
+    2026
+  ],
+  [
+    "Prompt Embedding Probes (PEP): Hallucination Detection in LLMs from Hidden States",
+    "Zakhar Mrykhin, Valentin Malykh",
+    "https://arxiv.org/abs/2608.08024",
+    2026
+  ],
+  [
+    "Do LLM Recommenders Know When They're Hallucinating? Auditing Confidence Calibration in Catalog Faithfulness",
+    "Srijith Ravikumar",
+    "https://arxiv.org/abs/2608.10008",
+    2026
   ]
 ]
