@@ -110,6 +110,16 @@ for y in sorted(by_year.keys(), reverse=True):
 with open(OUT, "w", encoding="utf-8") as f:
     json.dump(merged, f, ensure_ascii=False, indent=1)
 
+# Clear the staging file so a later --collect / --full re-runs a fresh harvest
+# instead of being silently skipped by collect_candidates.py's resume guard
+# (which skips a channel while candidates_new.json still holds pending entries).
+# After this merge the candidates already live in seed.json.
+try:
+    os.remove(CAND)
+    print(f"cleared staging: {CAND}")
+except FileNotFoundError:
+    pass
+
 print(f"existing (after off-topic drop): {len(clean_raw)}  (dropped {dropped_existing} off-topic from existing)")
 print(f"candidates: {len(cands)}, skipped(dup/off-topic/empty): {skipped}, added: {len(new_rows)}")
 print(f"merged total: {len(clean_raw) + len(new_rows)}")

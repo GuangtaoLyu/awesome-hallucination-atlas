@@ -3,14 +3,17 @@ __pycache__/
 *.pyc
 *.pyo
 
-# ── Regenerable data caches (rebuilt by the pipeline) ──
-data/abstracts.json
-data/abstracts_extra.json
-data/crossref_cache.json
-data/code_links.json
-data/found_links.json
+# ── Regenerable stats (rebuilt by the pipeline) ──
 data/stats.json
 data/stats_history.jsonl
+
+# NOTE: the ENRICHMENT caches (data/abstracts.json, data/abstracts_extra.json,
+# data/crossref_cache.json, data/code_links.json, data/found_links.json) are
+# TRACKED on purpose — same rationale as data/venue_links.json /
+# data/incremental.json (notes below). When gitignored they were lost on every
+# clean checkout / daily CI regenerate, so the published dataset silently dropped
+# to ~12/1930 abstracts. Committing them keeps enrichment warm, cumulative and
+# reproducible.
 
 # ── Backups / temp / one-off artifacts (never meant to be tracked) ──
 *.bak
