@@ -5756,5 +5756,27 @@
   "venue": "ICLR",
   "year": 2024,
   "ee": "https://openreview.net/forum?id=oZDJKTlOUe"
+ },
+ "benfordaposscursetracingdigitbiastonumericalhallucinationinllms": "",
+ "haithybridadversarialiterativetrainingformitigatingobjecthallucinationinlargevisionlanguagemodels": "",
+ "haloscopeharnessingunlabeledllmgenerationsforhallucinationdetection": {
+  "venue": "NeurIPS",
+  "year": 2024,
+  "ee": "http://papers.nips.cc/paper_files/paper/2024/hash/ba92705991cfbbcedc26e27e833ebbae-Abstract-Conference.html"
+ },
+ "evaluatingandanalyzingrelationshiphallucinationsinlargevisionlanguagemodels": {
+  "venue": "ICML",
+  "year": 2024,
+  "ee": "https://proceedings.mlr.press/v235/wu24l.html"
+ },
+ "explicitlystatingassumptionsreduceshallucinationsinnaturallanguageinference": {
+  "venue": "Tiny Papers @ ICLR",
+  "year": 2024,
+  "ee": "https://openreview.net/forum?id=eJI9pfNwBS"
+ },
+ "selfcontradictoryhallucinationsoflargelanguagemodelsevaluationdetectionandmitigation": {
+  "venue": "ICLR",
+  "year": 2024,
+  "ee": "https://openreview.net/forum?id=EmQSOi1X2f"
  }
 }
