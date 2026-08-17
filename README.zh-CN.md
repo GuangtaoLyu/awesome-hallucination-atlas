@@ -6,11 +6,11 @@
 >
 > 涵盖幻觉的**检测、评测与缓解**方法，支持按模型类型、方法类型、年份多维交叉筛选，并以标签补充模态与场景。
 >
-> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1428/1930 篇），非仅标题关键词。
+> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1429/1931 篇），非仅标题关键词。
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Papers-1930-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1428-9cf' />
+  <img src='https://img.shields.io/badge/Papers-1931-blue' />
+  <img src='https://img.shields.io/badge/Abstract--based-1429-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-08&color=orange' />
 </p>
@@ -41,8 +41,8 @@
 
 <a id="sec-overview"></a>
 ## 📊 数据概览
-- **论文总数**：`1930` （已去重）
-- **含论文链接**：`1927` · **含全文摘要**：`1428` · **含代码链接**：`1043` · **顶会正式发表**：`945`
+- **论文总数**：`1931` （已去重）
+- **含论文链接**：`1928` · **含全文摘要**：`1429` · **含代码链接**：`1043` · **顶会正式发表**：`945`
 - 顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息
 - **覆盖年份**：2018 – 2027
 
@@ -51,7 +51,7 @@
 | 年份 | 数量 | 占比 |
 |------|------|------|
 | 2027 | 5 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| 2026 | 761 | `████████░░░░░░░░░░░░` 39.4%
+| 2026 | 762 | `████████░░░░░░░░░░░░` 39.5%
 | 2025 | 763 | `████████░░░░░░░░░░░░` 39.5%
 | 2024 | 364 | `████░░░░░░░░░░░░░░░░` 18.9%
 | 2023 | 24 | `░░░░░░░░░░░░░░░░░░░░` 1.2%
@@ -68,14 +68,14 @@
 |----------|------|------|
 | **VLM** | 视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作） | 740 |
 | **MLLM(Omni)** | 全模态模型（Omni：音频 / 语音 / any-to-any） | 47 |
-| **LLM** | 纯语言大模型 | 1143 |
+| **LLM** | 纯语言大模型 | 1144 |
 
 
 ### 按方法类型分布
 
 | 方法类型 | 说明 | 数量 |
 |----------|------|------|
-| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1676 |
+| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1677 |
 | **Training-based** | 基于训练（偏好优化 / 微调 / 强化学习等） | 254 |
 
 
@@ -144,7 +144,7 @@
 | USENIX Security Symposium | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | TNNLS | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | 其他 | 196 | `██░░░░░░░░░░░░░░░░░░` 10.2%
-| arXiv（预印本） | 960 | `██████████░░░░░░░░░░` 49.7%
+| arXiv（预印本） | 961 | `██████████░░░░░░░░░░` 49.8%
 | 未标注 | 7 | `░░░░░░░░░░░░░░░░░░░░` 0.4%
 
 <details>
@@ -316,10 +316,10 @@
 
 | CCF 评级 | 数量 | 占比 |
 |----------|------|------|
-| CCF-A | 447 | `█████░░░░░░░░░░░░░░░` 23.2%
+| CCF-A | 447 | `█████░░░░░░░░░░░░░░░` 23.1%
 | CCF-B | 233 | `██░░░░░░░░░░░░░░░░░░` 12.1%
 | CCF-C | 34 | `░░░░░░░░░░░░░░░░░░░░` 1.8%
-| 未收录 | 1216 | `█████████████░░░░░░░` 63.0%
+| 未收录 | 1217 | `█████████████░░░░░░░` 63.0%
 > 📋 另有 `115` 篇 **评测 / Benchmark** 论文、📚 `32` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。
 
 ---
@@ -346,7 +346,7 @@
 幻觉研究正在快速演进。以下方向在 2025–2026 尤为火热，本图谱均有真实论文覆盖（数量为按真实标签自动统计）：
 
 - **智能体（Agentic AI / Multi-Agent）** — 共 120 篇带 `Agent` 标签。
-- **检索增强生成（RAG / 忠实性）** — 共 160 篇带 `RAG` 标签。
+- **检索增强生成（RAG / 忠实性）** — 共 161 篇带 `RAG` 标签。
 - **推理模型** — 共 377 篇带 `Reasoning` 标签。
 - **具身 / 世界模型** — 共 20 篇带 `Embodied` 标签。
 
@@ -522,7 +522,7 @@
 > 按**模型类型**分组（LLM / VLM / MLLM），每组内再按年份展开；点击标题可展开 / 收起。每条格式：**标题** · 会议/年份 · 模型 · 方法 · 💻代码。标题链接优先顶会官方版本。📋 = 评测/Benchmark 论文，📚 = 综述 Survey 论文。完整摘要与多维交叉筛选见交互式网站 [`docs/index.html`](docs/index.html)。欢迎 PR 补充。
 
 <details>
-<summary>🤖 LLM · 1143 篇</summary>
+<summary>🤖 LLM · 1144 篇</summary>
 
 <details>
 <summary>📅 2027 · 5 篇</summary>
@@ -536,8 +536,9 @@
 </details>
 
 <details>
-<summary>📅 2026 · 427 篇</summary>
+<summary>📅 2026 · 428 篇</summary>
 
+- **[How Much Do Legal RAG Systems Still Hallucinate?](https://arxiv.org/abs/2608.14210)** · arXiv · LLM · Training-free
 - **[Actionable Hallucination Detection: Translating Latent Uncertainty into Agentic Critique](https://arxiv.org/abs/2608.10430)** · arXiv · LLM · Training-based
 - **[Prompt Embedding Probes (PEP): Hallucination Detection in LLMs from Hidden States](https://arxiv.org/abs/2608.08024)** · arXiv · LLM · Training-free
 - **[A Grounded and Decomposed Framework for Relation-Level Hallucination Evaluation in Abstractive Summarization](https://arxiv.org/abs/2608.08180)** · arXiv · LLM · Training-free
