@@ -5164,5 +5164,29 @@
     "Souvick Das, Sallam Abualhaija, Domenico Bianculli",
     "https://arxiv.org/abs/2608.14210",
     2026
+  ],
+  [
+    "HalluTracer: Hallucination Detection via Depth-Averaging Truth Signals",
+    "Zhihao Guo, Zonghan Wu, Huan Huo, DaYong Ye, Junwei Zhang, Weiran Yao, Zhiwei Liu, Qingsong Wen, Yilei Shao",
+    "https://arxiv.org/abs/2608.16353",
+    2026
+  ],
+  [
+    "The Null Token Knows: Reducing Message-Free Hallucination in ASR and NMT",
+    "Kirill Borodin, Vasiliy Kudryavtsev, Ivan Viakhirev",
+    "https://arxiv.org/abs/2608.15940",
+    2026
+  ],
+  [
+    "Hallucination Span Detection with Input-Side Evidence Alignment",
+    "Miyu Yamada, Yuki Arase",
+    "https://arxiv.org/abs/2608.15804",
+    2026
+  ],
+  [
+    "Catching Hallucinated Citations in Video-LLM Question Answering: A Self-Verification Pipeline and Verifier Ablation Study",
+    "Yogesh Kumar",
+    "https://arxiv.org/abs/2608.15574",
+    2026
   ]
 ]
