@@ -5188,5 +5188,29 @@
     "Yogesh Kumar",
     "https://arxiv.org/abs/2608.15574",
     2026
+  ],
+  [
+    "AutoResearch: Insight In, Hallucination Out",
+    "Yiming Ren, Xiang Liu, Qumeng Sun, Xiao Zhang, Jiahao Li, Haoyang Zhang, Junjie Wang",
+    "https://arxiv.org/abs/2608.17906",
+    2026
+  ],
+  [
+    "Mixture-of-Expert Blocks Contain Strong Hallucination Detection Signals",
+    "Joao Fonseca, Rodrigo Rodrigues, Paolo Romano",
+    "https://arxiv.org/abs/2608.17687",
+    2026
+  ],
+  [
+    "Counterfactual Anatomy-guided Spatial-Temporal Decoding for Annotation-Free Hallucination Mitigation in Medical VLMs",
+    "Yifan Lu, Adinath Dukre, Abhijit Das, Ziyun Zou, Haolin Yang, Yutong Xie, Imran Razzak",
+    "https://arxiv.org/abs/2608.17427",
+    2026
+  ],
+  [
+    "Leveraging generative hallucination and biophysics-informed modeling for unified biomolecular sequence-structure co-design",
+    "Xuefeng Liu, Mingxuan Cao, Xiao Luo, Songhao Jiang, Tobin Sosnick, Jinbo Xu, Louis Maher, Rick Stevens",
+    "https://arxiv.org/abs/2608.17381",
+    2026
   ]
 ]

@@ -6,11 +6,11 @@
 >
 > 涵盖幻觉的**检测、评测与缓解**方法，支持按模型类型、方法类型、年份多维交叉筛选，并以标签补充模态与场景。
 >
-> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1433/1935 篇），非仅标题关键词。
+> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1437/1939 篇），非仅标题关键词。
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Papers-1935-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1433-9cf' />
+  <img src='https://img.shields.io/badge/Papers-1939-blue' />
+  <img src='https://img.shields.io/badge/Abstract--based-1437-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-08&color=orange' />
 </p>
@@ -41,8 +41,8 @@
 
 <a id="sec-overview"></a>
 ## 📊 数据概览
-- **论文总数**：`1935` （已去重）
-- **含论文链接**：`1932` · **含全文摘要**：`1433` · **含代码链接**：`1043` · **顶会正式发表**：`945`
+- **论文总数**：`1939` （已去重）
+- **含论文链接**：`1936` · **含全文摘要**：`1437` · **含代码链接**：`1043` · **顶会正式发表**：`945`
 - 顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息
 - **覆盖年份**：2018 – 2027
 
@@ -51,7 +51,7 @@
 | 年份 | 数量 | 占比 |
 |------|------|------|
 | 2027 | 5 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| 2026 | 766 | `████████░░░░░░░░░░░░` 39.6%
+| 2026 | 770 | `████████░░░░░░░░░░░░` 39.7%
 | 2025 | 763 | `████████░░░░░░░░░░░░` 39.4%
 | 2024 | 364 | `████░░░░░░░░░░░░░░░░` 18.8%
 | 2023 | 24 | `░░░░░░░░░░░░░░░░░░░░` 1.2%
@@ -66,17 +66,17 @@
 
 | 模型类型 | 说明 | 数量 |
 |----------|------|------|
-| **VLM** | 视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作） | 741 |
+| **VLM** | 视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作） | 742 |
 | **MLLM(Omni)** | 全模态模型（Omni：音频 / 语音 / any-to-any） | 48 |
-| **LLM** | 纯语言大模型 | 1146 |
+| **LLM** | 纯语言大模型 | 1149 |
 
 
 ### 按方法类型分布
 
 | 方法类型 | 说明 | 数量 |
 |----------|------|------|
-| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1681 |
-| **Training-based** | 基于训练（偏好优化 / 微调 / 强化学习等） | 254 |
+| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1684 |
+| **Training-based** | 基于训练（偏好优化 / 微调 / 强化学习等） | 255 |
 
 
 <details>
@@ -88,7 +88,7 @@
 
 | 会议 / 期刊 | 数量 | 占比 |
 |-------------|------|------|
-| ACL | 152 | `██░░░░░░░░░░░░░░░░░░` 7.9%
+| ACL | 152 | `██░░░░░░░░░░░░░░░░░░` 7.8%
 | EMNLP | 108 | `█░░░░░░░░░░░░░░░░░░░` 5.6%
 | AAAI | 62 | `█░░░░░░░░░░░░░░░░░░░` 3.2%
 | CVPR | 62 | `█░░░░░░░░░░░░░░░░░░░` 3.2%
@@ -144,7 +144,7 @@
 | USENIX Security Symposium | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | TNNLS | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | 其他 | 196 | `██░░░░░░░░░░░░░░░░░░` 10.1%
-| arXiv（预印本） | 965 | `██████████░░░░░░░░░░` 49.9%
+| arXiv（预印本） | 969 | `██████████░░░░░░░░░░` 50.0%
 | 未标注 | 7 | `░░░░░░░░░░░░░░░░░░░░` 0.4%
 
 <details>
@@ -319,7 +319,7 @@
 | CCF-A | 447 | `█████░░░░░░░░░░░░░░░` 23.1%
 | CCF-B | 233 | `██░░░░░░░░░░░░░░░░░░` 12.0%
 | CCF-C | 34 | `░░░░░░░░░░░░░░░░░░░░` 1.8%
-| 未收录 | 1221 | `█████████████░░░░░░░` 63.1%
+| 未收录 | 1225 | `█████████████░░░░░░░` 63.2%
 > 📋 另有 `115` 篇 **评测 / Benchmark** 论文、📚 `32` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。
 
 ---
@@ -345,7 +345,7 @@
 
 幻觉研究正在快速演进。以下方向在 2025–2026 尤为火热，本图谱均有真实论文覆盖（数量为按真实标签自动统计）：
 
-- **智能体（Agentic AI / Multi-Agent）** — 共 120 篇带 `Agent` 标签。
+- **智能体（Agentic AI / Multi-Agent）** — 共 121 篇带 `Agent` 标签。
 - **检索增强生成（RAG / 忠实性）** — 共 162 篇带 `RAG` 标签。
 - **推理模型** — 共 377 篇带 `Reasoning` 标签。
 - **具身 / 世界模型** — 共 20 篇带 `Embodied` 标签。
@@ -522,7 +522,7 @@
 > 按**模型类型**分组（LLM / VLM / MLLM），每组内再按年份展开；点击标题可展开 / 收起。每条格式：**标题** · 会议/年份 · 模型 · 方法 · 💻代码。标题链接优先顶会官方版本。📋 = 评测/Benchmark 论文，📚 = 综述 Survey 论文。完整摘要与多维交叉筛选见交互式网站 [`docs/index.html`](docs/index.html)。欢迎 PR 补充。
 
 <details>
-<summary>🤖 LLM · 1146 篇</summary>
+<summary>🤖 LLM · 1149 篇</summary>
 
 <details>
 <summary>📅 2027 · 5 篇</summary>
@@ -536,8 +536,11 @@
 </details>
 
 <details>
-<summary>📅 2026 · 430 篇</summary>
+<summary>📅 2026 · 433 篇</summary>
 
+- **[Mixture-of-Expert Blocks Contain Strong Hallucination Detection Signals](https://arxiv.org/abs/2608.17687)** · arXiv · LLM · Training-based
+- **[Leveraging generative hallucination and biophysics-informed modeling for unified biomolecular sequence-structure co-design](https://arxiv.org/abs/2608.17381)** · arXiv · LLM · Training-free
+- **[AutoResearch: Insight In, Hallucination Out](https://arxiv.org/abs/2608.17906)** · arXiv · LLM · Training-free
 - **[HalluTracer: Hallucination Detection via Depth-Averaging Truth Signals](https://arxiv.org/abs/2608.16353)** · arXiv · LLM · Training-free
 - **[Hallucination Span Detection with Input-Side Evidence Alignment](https://arxiv.org/abs/2608.15804)** · arXiv · LLM · Training-free
 - **[How Much Do Legal RAG Systems Still Hallucinate?](https://arxiv.org/abs/2608.14210)** · arXiv · LLM · Training-free
@@ -1727,12 +1730,13 @@
 </details>
 
 <details>
-<summary>👁️ VLM · 741 篇</summary>
+<summary>👁️ VLM · 742 篇</summary>
 
 <details>
-<summary>📅 2026 · 312 篇</summary>
+<summary>📅 2026 · 313 篇</summary>
 
 - **[See Only When Needed: Context-Aware Attention Intervention for Mitigating Hallucinations in LVLMs](https://arxiv.org/abs/2606.29847)** · ECCV 2026 · VLM · Training-free · 💻[code](https://github.com/Iris1946/CAI)
+- **[Counterfactual Anatomy-guided Spatial-Temporal Decoding for Annotation-Free Hallucination Mitigation in Medical VLMs](https://arxiv.org/abs/2608.17427)** · arXiv · VLM · Training-free
 - **[Catching Hallucinated Citations in Video-LLM Question Answering: A Self-Verification Pipeline and Verifier Ablation Study](https://arxiv.org/abs/2608.15574)** · arXiv · VLM · Training-free
 - **[Context Blindness in DPO: Mitigating Object Hallucination in MLLMs via Context-Calibrated Preference Optimization](https://arxiv.org/abs/2608.12158)** · arXiv · VLM · Training-based · 💻[code](https://github.com/mlvlab/C2-DPO)
 - **[When Visual Signals Mislead: A Mechanistic Study of Attribute Hallucination in Vision-Language Models](https://arxiv.org/abs/2608.11024)** · arXiv · VLM · Training-free · 💻[code](https://github.com/wangqiannudt/nerf-arxiv-daily)
