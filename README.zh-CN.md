@@ -6,11 +6,11 @@
 >
 > 涵盖幻觉的**检测、评测与缓解**方法，支持按模型类型、方法类型、年份多维交叉筛选，并以标签补充模态与场景。
 >
-> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1437/1939 篇），非仅标题关键词。
+> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1439/1941 篇），非仅标题关键词。
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Papers-1939-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1437-9cf' />
+  <img src='https://img.shields.io/badge/Papers-1941-blue' />
+  <img src='https://img.shields.io/badge/Abstract--based-1439-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-08&color=orange' />
 </p>
@@ -41,8 +41,8 @@
 
 <a id="sec-overview"></a>
 ## 📊 数据概览
-- **论文总数**：`1939` （已去重）
-- **含论文链接**：`1936` · **含全文摘要**：`1437` · **含代码链接**：`1043` · **顶会正式发表**：`945`
+- **论文总数**：`1941` （已去重）
+- **含论文链接**：`1938` · **含全文摘要**：`1439` · **含代码链接**：`1043` · **顶会正式发表**：`945`
 - 顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息
 - **覆盖年份**：2018 – 2027
 
@@ -51,8 +51,8 @@
 | 年份 | 数量 | 占比 |
 |------|------|------|
 | 2027 | 5 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| 2026 | 770 | `████████░░░░░░░░░░░░` 39.7%
-| 2025 | 763 | `████████░░░░░░░░░░░░` 39.4%
+| 2026 | 772 | `████████░░░░░░░░░░░░` 39.8%
+| 2025 | 763 | `████████░░░░░░░░░░░░` 39.3%
 | 2024 | 364 | `████░░░░░░░░░░░░░░░░` 18.8%
 | 2023 | 24 | `░░░░░░░░░░░░░░░░░░░░` 1.2%
 | 2022 | 4 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
@@ -66,17 +66,17 @@
 
 | 模型类型 | 说明 | 数量 |
 |----------|------|------|
-| **VLM** | 视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作） | 742 |
+| **VLM** | 视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作） | 743 |
 | **MLLM(Omni)** | 全模态模型（Omni：音频 / 语音 / any-to-any） | 48 |
-| **LLM** | 纯语言大模型 | 1149 |
+| **LLM** | 纯语言大模型 | 1150 |
 
 
 ### 按方法类型分布
 
 | 方法类型 | 说明 | 数量 |
 |----------|------|------|
-| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1684 |
-| **Training-based** | 基于训练（偏好优化 / 微调 / 强化学习等） | 255 |
+| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1685 |
+| **Training-based** | 基于训练（偏好优化 / 微调 / 强化学习等） | 256 |
 
 
 <details>
@@ -144,7 +144,7 @@
 | USENIX Security Symposium | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | TNNLS | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | 其他 | 196 | `██░░░░░░░░░░░░░░░░░░` 10.1%
-| arXiv（预印本） | 969 | `██████████░░░░░░░░░░` 50.0%
+| arXiv（预印本） | 971 | `██████████░░░░░░░░░░` 50.0%
 | 未标注 | 7 | `░░░░░░░░░░░░░░░░░░░░` 0.4%
 
 <details>
@@ -316,10 +316,10 @@
 
 | CCF 评级 | 数量 | 占比 |
 |----------|------|------|
-| CCF-A | 447 | `█████░░░░░░░░░░░░░░░` 23.1%
+| CCF-A | 447 | `█████░░░░░░░░░░░░░░░` 23.0%
 | CCF-B | 233 | `██░░░░░░░░░░░░░░░░░░` 12.0%
 | CCF-C | 34 | `░░░░░░░░░░░░░░░░░░░░` 1.8%
-| 未收录 | 1225 | `█████████████░░░░░░░` 63.2%
+| 未收录 | 1227 | `█████████████░░░░░░░` 63.2%
 > 📋 另有 `115` 篇 **评测 / Benchmark** 论文、📚 `32` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。
 
 ---
@@ -522,7 +522,7 @@
 > 按**模型类型**分组（LLM / VLM / MLLM），每组内再按年份展开；点击标题可展开 / 收起。每条格式：**标题** · 会议/年份 · 模型 · 方法 · 💻代码。标题链接优先顶会官方版本。📋 = 评测/Benchmark 论文，📚 = 综述 Survey 论文。完整摘要与多维交叉筛选见交互式网站 [`docs/index.html`](docs/index.html)。欢迎 PR 补充。
 
 <details>
-<summary>🤖 LLM · 1149 篇</summary>
+<summary>🤖 LLM · 1150 篇</summary>
 
 <details>
 <summary>📅 2027 · 5 篇</summary>
@@ -536,8 +536,9 @@
 </details>
 
 <details>
-<summary>📅 2026 · 433 篇</summary>
+<summary>📅 2026 · 434 篇</summary>
 
+- **[Do Large Language Models Hallucinate Electric Fata Morganas?](https://arxiv.org/abs/2608.18816)** · arXiv · LLM · Training-based
 - **[Mixture-of-Expert Blocks Contain Strong Hallucination Detection Signals](https://arxiv.org/abs/2608.17687)** · arXiv · LLM · Training-based
 - **[Leveraging generative hallucination and biophysics-informed modeling for unified biomolecular sequence-structure co-design](https://arxiv.org/abs/2608.17381)** · arXiv · LLM · Training-free
 - **[AutoResearch: Insight In, Hallucination Out](https://arxiv.org/abs/2608.17906)** · arXiv · LLM · Training-free
@@ -1730,12 +1731,13 @@
 </details>
 
 <details>
-<summary>👁️ VLM · 742 篇</summary>
+<summary>👁️ VLM · 743 篇</summary>
 
 <details>
-<summary>📅 2026 · 313 篇</summary>
+<summary>📅 2026 · 314 篇</summary>
 
 - **[See Only When Needed: Context-Aware Attention Intervention for Mitigating Hallucinations in LVLMs](https://arxiv.org/abs/2606.29847)** · ECCV 2026 · VLM · Training-free · 💻[code](https://github.com/Iris1946/CAI)
+- **[ReWEIGH the Evidence: Calibrating Token-Level Ordinal Visual Evidence to Mitigate Hallucinations in Large Vision-Language Models](https://arxiv.org/abs/2608.19075)** · arXiv · VLM · Training-free
 - **[Counterfactual Anatomy-guided Spatial-Temporal Decoding for Annotation-Free Hallucination Mitigation in Medical VLMs](https://arxiv.org/abs/2608.17427)** · arXiv · VLM · Training-free
 - **[Catching Hallucinated Citations in Video-LLM Question Answering: A Self-Verification Pipeline and Verifier Ablation Study](https://arxiv.org/abs/2608.15574)** · arXiv · VLM · Training-free
 - **[Context Blindness in DPO: Mitigating Object Hallucination in MLLMs via Context-Calibrated Preference Optimization](https://arxiv.org/abs/2608.12158)** · arXiv · VLM · Training-based · 💻[code](https://github.com/mlvlab/C2-DPO)
