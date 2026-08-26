@@ -5224,5 +5224,35 @@
     "Kristina Šekrst",
     "https://arxiv.org/abs/2608.18816",
     2026
+  ],
+  [
+    "Lost in Speech: Trilingual Spoken Hallucination Detection Across Audio and Transcripts",
+    "Meruyert Aristombayeva, Jason S. Lucas, Chaewan Chun, Dongwon Lee",
+    "https://arxiv.org/abs/2608.24707",
+    2026
+  ],
+  [
+    "When Do Supervised UQ Ensembles Improve LLM Hallucination Detection? A Robustness Study",
+    "Mohit Singh Chauhan, Vipin Gyanchandani, Dylan Bouchard",
+    "https://arxiv.org/abs/2608.24492",
+    2026
+  ],
+  [
+    "Names Can Hurt: Spotting Slopsquatting Risks Caused by Package Name Hallucinations in Local Coding LLMs",
+    "Akash Raj, Sargam Sahu",
+    "https://arxiv.org/abs/2608.23897",
+    2026
+  ],
+  [
+    "Gated Activation Steering for Reducing Sycophancy & Hallucination in Medical Question Answering",
+    "Himanshu Tripathi, Subash Neupane, Shaswata Mitra, Sudip Mittal, Noorbakhsh Amiri Golilarz, Shahram Rahimi",
+    "https://arxiv.org/abs/2608.23666",
+    2026
+  ],
+  [
+    "Evaluating Inference-Time Defenses Against Package Hallucination in LLM-Generated Code",
+    "Alberick Euraste Djire, Iyiola E. Olatunji, Melissa Tessa, Earl T. Barr, Jacques Klein, Tegawendé F. Bissyandé",
+    "https://arxiv.org/abs/2608.22652",
+    2026
   ]
 ]
