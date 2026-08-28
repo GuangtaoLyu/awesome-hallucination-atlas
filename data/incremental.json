@@ -5272,5 +5272,17 @@
     "Armaan Sandhu, Abhilasha Senapati, Hima Kammachi",
     "https://arxiv.org/abs/2608.24966",
     2026
+  ],
+  [
+    "Prediction of Prediction (PoP): Inter-Layer Activation Fusion for Single-Pass Hallucination Detection in Large Language Models",
+    "Himal Badu",
+    "https://arxiv.org/abs/2608.27165",
+    2026
+  ],
+  [
+    "Why RAGs Hallucinate: Penalty-Aware Evaluation of Retrieval-Augmented Generation Systems with Knowledge-Gap Canaries",
+    "Alden Do Rosario, Hussein Younes, Felipe Pires",
+    "https://arxiv.org/abs/2608.26385",
+    2026
   ]
 ]

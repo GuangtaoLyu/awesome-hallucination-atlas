@@ -6,11 +6,11 @@
 >
 > 涵盖幻觉的**检测、评测与缓解**方法，支持按模型类型、方法类型、年份多维交叉筛选，并以标签补充模态与场景。
 >
-> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1447/1949 篇），非仅标题关键词。
+> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1449/1951 篇），非仅标题关键词。
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Papers-1949-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1447-9cf' />
+  <img src='https://img.shields.io/badge/Papers-1951-blue' />
+  <img src='https://img.shields.io/badge/Abstract--based-1449-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-08&color=orange' />
 </p>
@@ -41,8 +41,8 @@
 
 <a id="sec-overview"></a>
 ## 📊 数据概览
-- **论文总数**：`1949` （已去重）
-- **含论文链接**：`1946` · **含全文摘要**：`1447` · **含代码链接**：`1051` · **顶会正式发表**：`947`
+- **论文总数**：`1951` （已去重）
+- **含论文链接**：`1948` · **含全文摘要**：`1449` · **含代码链接**：`1051` · **顶会正式发表**：`947`
 - 顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息
 - **覆盖年份**：2018 – 2027
 
@@ -51,7 +51,7 @@
 | 年份 | 数量 | 占比 |
 |------|------|------|
 | 2027 | 5 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| 2026 | 780 | `████████░░░░░░░░░░░░` 40.0%
+| 2026 | 782 | `████████░░░░░░░░░░░░` 40.1%
 | 2025 | 763 | `████████░░░░░░░░░░░░` 39.1%
 | 2024 | 364 | `████░░░░░░░░░░░░░░░░` 18.7%
 | 2023 | 24 | `░░░░░░░░░░░░░░░░░░░░` 1.2%
@@ -68,14 +68,14 @@
 |----------|------|------|
 | **VLM** | 视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作） | 745 |
 | **MLLM(Omni)** | 全模态模型（Omni：音频 / 语音 / any-to-any） | 49 |
-| **LLM** | 纯语言大模型 | 1155 |
+| **LLM** | 纯语言大模型 | 1157 |
 
 
 ### 按方法类型分布
 
 | 方法类型 | 说明 | 数量 |
 |----------|------|------|
-| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1691 |
+| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1693 |
 | **Training-based** | 基于训练（偏好优化 / 微调 / 强化学习等） | 258 |
 
 
@@ -143,8 +143,8 @@
 | Tiny Papers @ ICLR | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | USENIX Security Symposium | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | TNNLS | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
-| 其他 | 196 | `██░░░░░░░░░░░░░░░░░░` 10.1%
-| arXiv（预印本） | 979 | `██████████░░░░░░░░░░` 50.2%
+| 其他 | 196 | `██░░░░░░░░░░░░░░░░░░` 10.0%
+| arXiv（预印本） | 981 | `██████████░░░░░░░░░░` 50.3%
 | 未标注 | 5 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
 
 <details>
@@ -317,9 +317,9 @@
 | CCF 评级 | 数量 | 占比 |
 |----------|------|------|
 | CCF-A | 449 | `█████░░░░░░░░░░░░░░░` 23.0%
-| CCF-B | 233 | `██░░░░░░░░░░░░░░░░░░` 12.0%
+| CCF-B | 233 | `██░░░░░░░░░░░░░░░░░░` 11.9%
 | CCF-C | 34 | `░░░░░░░░░░░░░░░░░░░░` 1.7%
-| 未收录 | 1233 | `█████████████░░░░░░░` 63.3%
+| 未收录 | 1235 | `█████████████░░░░░░░` 63.3%
 > 📋 另有 `115` 篇 **评测 / Benchmark** 论文、📚 `33` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。
 
 ---
@@ -346,7 +346,7 @@
 幻觉研究正在快速演进。以下方向在 2025–2026 尤为火热，本图谱均有真实论文覆盖（数量为按真实标签自动统计）：
 
 - **智能体（Agentic AI / Multi-Agent）** — 共 122 篇带 `Agent` 标签。
-- **检索增强生成（RAG / 忠实性）** — 共 163 篇带 `RAG` 标签。
+- **检索增强生成（RAG / 忠实性）** — 共 164 篇带 `RAG` 标签。
 - **推理模型** — 共 378 篇带 `Reasoning` 标签。
 - **具身 / 世界模型** — 共 20 篇带 `Embodied` 标签。
 
@@ -523,7 +523,7 @@
 > 按**模型类型**分组（LLM / VLM / MLLM），每组内再按年份展开；点击标题可展开 / 收起。每条格式：**标题** · 会议/年份 · 模型 · 方法 · 💻代码。标题链接优先顶会官方版本。📋 = 评测/Benchmark 论文，📚 = 综述 Survey 论文。完整摘要与多维交叉筛选见交互式网站 [`docs/index.html`](docs/index.html)。欢迎 PR 补充。
 
 <details>
-<summary>🤖 LLM · 1155 篇</summary>
+<summary>🤖 LLM · 1157 篇</summary>
 
 <details>
 <summary>📅 2027 · 5 篇</summary>
@@ -537,8 +537,10 @@
 </details>
 
 <details>
-<summary>📅 2026 · 439 篇</summary>
+<summary>📅 2026 · 441 篇</summary>
 
+- **[Prediction of Prediction (PoP): Inter-Layer Activation Fusion for Single-Pass Hallucination Detection in Large Language Models](https://arxiv.org/abs/2608.27165)** · arXiv · LLM · Training-free
+- **[Why RAGs Hallucinate: Penalty-Aware Evaluation of Retrieval-Augmented Generation Systems with Knowledge-Gap Canaries](https://arxiv.org/abs/2608.26385)** · arXiv · LLM · Training-free
 - **📚 [AI Slop and Hallucinations in Vulnerability Assessment: A Survey on Reasoning Failures and Trustworthy Mitigation](https://arxiv.org/abs/2608.25667)** · arXiv · LLM · Training-free
 - **[When Do Supervised UQ Ensembles Improve LLM Hallucination Detection? A Robustness Study](https://arxiv.org/abs/2608.24492)** · arXiv · LLM · Training-free
 - **[Names Can Hurt: Spotting Slopsquatting Risks Caused by Package Name Hallucinations in Local Coding LLMs](https://arxiv.org/abs/2608.23897)** · arXiv · LLM · Training-based
