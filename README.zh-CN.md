@@ -6,11 +6,11 @@
 >
 > 涵盖幻觉的**检测、评测与缓解**方法，支持按模型类型、方法类型、年份多维交叉筛选，并以标签补充模态与场景。
 >
-> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1449/1951 篇），非仅标题关键词。
+> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1442/2009 篇），非仅标题关键词。
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Papers-1951-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1449-9cf' />
+  <img src='https://img.shields.io/badge/Papers-2009-blue' />
+  <img src='https://img.shields.io/badge/Abstract--based-1442-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-08&color=orange' />
 </p>
@@ -41,8 +41,8 @@
 
 <a id="sec-overview"></a>
 ## 📊 数据概览
-- **论文总数**：`1951` （已去重）
-- **含论文链接**：`1948` · **含全文摘要**：`1449` · **含代码链接**：`1051` · **顶会正式发表**：`947`
+- **论文总数**：`2009` （已去重）
+- **含论文链接**：`2006` · **含全文摘要**：`1442` · **含代码链接**：`1078` · **顶会正式发表**：`1006`
 - 顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息
 - **覆盖年份**：2018 – 2027
 
@@ -50,33 +50,33 @@
 
 | 年份 | 数量 | 占比 |
 |------|------|------|
-| 2027 | 5 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| 2026 | 782 | `████████░░░░░░░░░░░░` 40.1%
-| 2025 | 763 | `████████░░░░░░░░░░░░` 39.1%
-| 2024 | 364 | `████░░░░░░░░░░░░░░░░` 18.7%
-| 2023 | 24 | `░░░░░░░░░░░░░░░░░░░░` 1.2%
-| 2022 | 4 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
-| 2021 | 3 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
-| 2020 | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
+| 2027 | 6 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
+| 2026 | 810 | `████████░░░░░░░░░░░░` 40.3%
+| 2025 | 768 | `████████░░░░░░░░░░░░` 38.2%
+| 2024 | 375 | `████░░░░░░░░░░░░░░░░` 18.7%
+| 2023 | 31 | `░░░░░░░░░░░░░░░░░░░░` 1.5%
+| 2022 | 7 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
+| 2021 | 5 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
+| 2020 | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | 2019 | 4 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
-| 2018 | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
+| 2018 | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.0%
 
 
 ### 按模型类型分布
 
 | 模型类型 | 说明 | 数量 |
 |----------|------|------|
-| **VLM** | 视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作） | 745 |
-| **MLLM(Omni)** | 全模态模型（Omni：音频 / 语音 / any-to-any） | 49 |
-| **LLM** | 纯语言大模型 | 1157 |
+| **VLM** | 视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作） | 763 |
+| **MLLM(Omni)** | 全模态模型（Omni：音频 / 语音 / any-to-any） | 52 |
+| **LLM** | 纯语言大模型 | 1194 |
 
 
 ### 按方法类型分布
 
 | 方法类型 | 说明 | 数量 |
 |----------|------|------|
-| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1693 |
-| **Training-based** | 基于训练（偏好优化 / 微调 / 强化学习等） | 258 |
+| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1750 |
+| **Training-based** | 基于训练（偏好优化 / 微调 / 强化学习等） | 259 |
 
 
 <details>
@@ -88,47 +88,47 @@
 
 | 会议 / 期刊 | 数量 | 占比 |
 |-------------|------|------|
-| ACL | 152 | `██░░░░░░░░░░░░░░░░░░` 7.8%
-| EMNLP | 108 | `█░░░░░░░░░░░░░░░░░░░` 5.5%
-| AAAI | 62 | `█░░░░░░░░░░░░░░░░░░░` 3.2%
-| CVPR | 62 | `█░░░░░░░░░░░░░░░░░░░` 3.2%
-| NeurIPS | 42 | `░░░░░░░░░░░░░░░░░░░░` 2.2%
-| ICLR | 39 | `░░░░░░░░░░░░░░░░░░░░` 2.0%
-| NAACL | 36 | `░░░░░░░░░░░░░░░░░░░░` 1.8%
+| ACL | 152 | `██░░░░░░░░░░░░░░░░░░` 7.6%
+| EMNLP | 111 | `█░░░░░░░░░░░░░░░░░░░` 5.5%
+| AAAI | 63 | `█░░░░░░░░░░░░░░░░░░░` 3.1%
+| CVPR | 63 | `█░░░░░░░░░░░░░░░░░░░` 3.1%
+| NeurIPS | 43 | `░░░░░░░░░░░░░░░░░░░░` 2.1%
+| ICLR | 40 | `░░░░░░░░░░░░░░░░░░░░` 2.0%
+| NAACL | 38 | `░░░░░░░░░░░░░░░░░░░░` 1.9%
 | EACL | 24 | `░░░░░░░░░░░░░░░░░░░░` 1.2%
 | ACM MM | 22 | `░░░░░░░░░░░░░░░░░░░░` 1.1%
 | ICASSP | 22 | `░░░░░░░░░░░░░░░░░░░░` 1.1%
-| ICML | 20 | `░░░░░░░░░░░░░░░░░░░░` 1.0%
-| ICCV | 12 | `░░░░░░░░░░░░░░░░░░░░` 0.6%
+| ICML | 21 | `░░░░░░░░░░░░░░░░░░░░` 1.0%
+| ICCV | 13 | `░░░░░░░░░░░░░░░░░░░░` 0.6%
 | TMLR | 12 | `░░░░░░░░░░░░░░░░░░░░` 0.6%
-| WACV | 11 | `░░░░░░░░░░░░░░░░░░░░` 0.6%
-| COLING | 9 | `░░░░░░░░░░░░░░░░░░░░` 0.5%
-| ECCV | 9 | `░░░░░░░░░░░░░░░░░░░░` 0.5%
-| Lecture Notes in Networks and Systems | 9 | `░░░░░░░░░░░░░░░░░░░░` 0.5%
+| WACV | 11 | `░░░░░░░░░░░░░░░░░░░░` 0.5%
+| COLING | 9 | `░░░░░░░░░░░░░░░░░░░░` 0.4%
+| ECCV | 9 | `░░░░░░░░░░░░░░░░░░░░` 0.4%
+| Lecture Notes in Networks and Systems | 9 | `░░░░░░░░░░░░░░░░░░░░` 0.4%
 | SIGIR | 8 | `░░░░░░░░░░░░░░░░░░░░` 0.4%
 | WWW | 8 | `░░░░░░░░░░░░░░░░░░░░` 0.4%
 | Comput. Linguistics | 6 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
 | IJCAI | 6 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| IJCNN | 5 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| INTERSPEECH | 5 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| KDD | 5 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
+| IJCNN | 5 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
+| INTERSPEECH | 5 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
+| KDD | 5 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
 | ICME | 4 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
 | IJCV | 4 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
 | Lecture Notes in Computer Science | 4 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
 | TASLP | 4 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
-| 18th International Workshop on Semantic Evaluation (SemEval-2024) | 3 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
-| CIKM | 3 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
-| ECIR | 3 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
-| IJCNLP-AACL | 3 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
-| TAI | 3 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
-| TOMM | 3 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
+| 18th International Workshop on Semantic Evaluation (SemEval-2024) | 3 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
+| CIKM | 3 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
+| ECIR | 3 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
+| ICPR | 3 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
+| IJCNLP-AACL | 3 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
+| TAI | 3 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
+| TOMM | 3 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | ASRU | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | CLEF | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | Communications in Computer and Information Science | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | FLLM | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | ICIC | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | ICMLA | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
-| ICPR | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | IEEE Access | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | IEEE Trans. Software Eng. | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | IEEE Trans. Vis. Comput. Graph. | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
@@ -136,26 +136,28 @@
 | Iconic Research and Engineering Journals | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | International Journal of Computer Applications | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | MICCAI | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
+| ML4H@NeurIPS | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | NN | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | Neural Comput. Appl. | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | PRCV | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | Proc. ACM Softw. Eng. | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | Tiny Papers @ ICLR | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | USENIX Security Symposium | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
-| TNNLS | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
-| 其他 | 196 | `██░░░░░░░░░░░░░░░░░░` 10.0%
-| arXiv（预印本） | 981 | `██████████░░░░░░░░░░` 50.3%
-| 未标注 | 5 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
+| TNNLS | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.0%
+| 其他 | 237 | `██░░░░░░░░░░░░░░░░░░` 11.8%
+| arXiv（预印本） | 973 | `██████████░░░░░░░░░░` 48.4%
+| 未标注 | 16 | `░░░░░░░░░░░░░░░░░░░░` 0.8%
 
 <details>
-<summary>「其他」明细 (153 venues, 196 papers — click to expand)</summary>
+<summary>「其他」明细 (157 venues, 237 papers — click to expand)</summary>
 
 | venue | 数量 |
 |-------|------|
-| SemEval@NAACL | 21 |
+| 其他 | 35 |
+| SemEval@NAACL | 23 |
 | SemEval@ACL | 13 |
 | LREC/COLING | 6 |
-| SIGIR-AP | 3 |
+| SIGIR-AP | 4 |
 | AAAI Bridge Program | 2 |
 | COLING Workshops | 2 |
 | CVPRW | 2 |
@@ -168,6 +170,7 @@
 | 6th Clinical Natural Language Processing Workshop | 1 |
 | 7th International Conference on Intelligent Communication Technologies and Virtual Mobile Networks (ICICV) | 1 |
 | 7th International Conference on Pattern Recognition and Artificial Intelligence (PRAI) | 1 |
+| AAAI Spring Symposia | 1 |
 | ACCV | 1 |
 | ACLING | 1 |
 | ACM Comput. Surv. | 1 |
@@ -188,6 +191,7 @@
 | Artificial Intelligence and Robotics Research | 1 |
 | BDCAT | 1 |
 | BIOSTEC | 1 |
+| BMVC | 1 |
 | Bioinform. | 1 |
 | CAAI Trans. Intell. Technol. | 1 |
 | CAI | 1 |
@@ -254,6 +258,7 @@
 | ISNCC | 1 |
 | Inf. Sci. | 1 |
 | Int. J. Approx. Reason. | 1 |
+| Int. J. Data Sci. Anal. | 1 |
 | Int. J. Interact. Multim. Artif. Intell. | 1 |
 | International Conference of the Learning Sciences | 1 |
 | International Conference on Artificial Intelligence and Blockchain in Healthcare | 1 |
@@ -276,7 +281,6 @@
 | KGSWC | 1 |
 | KiL@KDD | 1 |
 | LKM@IJCAI | 1 |
-| ML4H@NeurIPS | 1 |
 | MMM | 1 |
 | Mach. Intell. Res. | 1 |
 | Multim. Syst. | 1 |
@@ -293,6 +297,7 @@
 | Radiology: Artificial Intelligence | 1 |
 | SEIP@ICSE | 1 |
 | SEMANTiCS | 1 |
+| SIGGRAPH Posters | 1 |
 | SIGSOFT FSE Companion | 1 |
 | SMC | 1 |
 | STOC | 1 |
@@ -316,11 +321,11 @@
 
 | CCF 评级 | 数量 | 占比 |
 |----------|------|------|
-| CCF-A | 449 | `█████░░░░░░░░░░░░░░░` 23.0%
-| CCF-B | 233 | `██░░░░░░░░░░░░░░░░░░` 11.9%
-| CCF-C | 34 | `░░░░░░░░░░░░░░░░░░░░` 1.7%
-| 未收录 | 1235 | `█████████████░░░░░░░` 63.3%
-> 📋 另有 `115` 篇 **评测 / Benchmark** 论文、📚 `33` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。
+| CCF-A | 455 | `█████░░░░░░░░░░░░░░░` 22.6%
+| CCF-B | 238 | `██░░░░░░░░░░░░░░░░░░` 11.8%
+| CCF-C | 36 | `░░░░░░░░░░░░░░░░░░░░` 1.8%
+| 未收录 | 1280 | `█████████████░░░░░░░` 63.7%
+> 📋 另有 `117` 篇 **评测 / Benchmark** 论文、📚 `35` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。
 
 ---
 
@@ -345,19 +350,19 @@
 
 幻觉研究正在快速演进。以下方向在 2025–2026 尤为火热，本图谱均有真实论文覆盖（数量为按真实标签自动统计）：
 
-- **智能体（Agentic AI / Multi-Agent）** — 共 122 篇带 `Agent` 标签。
-- **检索增强生成（RAG / 忠实性）** — 共 164 篇带 `RAG` 标签。
-- **推理模型** — 共 378 篇带 `Reasoning` 标签。
+- **智能体（Agentic AI / Multi-Agent）** — 共 123 篇带 `Agent` 标签。
+- **检索增强生成（RAG / 忠实性）** — 共 166 篇带 `RAG` 标签。
+- **推理模型** — 共 382 篇带 `Reasoning` 标签。
 - **具身 / 世界模型** — 共 20 篇带 `Embodied` 标签。
 
 ---
 
 <a id="sec-benchmark"></a>
 ## 📋 评测与 Benchmark
-> 独立收录 `115` 篇评测 / Benchmark / 数据集论文（同时保留在下方主列表中，标有 📋）。
+> 独立收录 `117` 篇评测 / Benchmark / 数据集论文（同时保留在下方主列表中，标有 📋）。
 
 <details open>
-<summary>📋 评测与 Benchmark 列表 (115 papers — click to collapse / expand)</summary>
+<summary>📋 评测与 Benchmark 列表 (117 papers — click to collapse / expand)</summary>
 
 - **📋 [KnowHal: A Knowledge-Driven Benchmark for Comprehensive Multimodal Hallucination Evaluation](https://arxiv.org/abs/2608.03782)** · arXiv · VLM · Training-free
 - **📋 [HalluTruthQA: A Fine-Grained Benchmark for Hallucination Detection, Localization, and Explanation in Arabic Question Answering](https://arxiv.org/abs/2607.20219)** · arXiv · LLM · Training-free · 💻[code](https://gitlab.com/nlpresearcher/HalluTruthQA)
@@ -405,12 +410,14 @@
 - **📋 [MHB: Medical Hallucination Benchmark for Large Language Models in Complex Clinical Tasks](https://doi.org/10.1609/aaai.v40i45.41243)** · AAAI 2026 · LLM · Training-free · 💻[code](https://github.com/justiceamoh/mhb)
 - **📋 [ESG-Bench: Benchmarking Long-Context ESG Reports for Hallucination Mitigation](https://doi.org/10.1609/aaai.v40i46.41281)** · AAAI 2026 · LLM · Training-based · 💻[code](https://github.com/GateNLP/ESG_Bench)
 - **📋 [Causal-HalBench: Uncovering LVLMs Object Hallucinations Through Causal Intervention](https://doi.org/10.1609/aaai.v40i40.40712)** · AAAI 2026 · VLM · Training-free · 💻[code](https://github.com/zhexu-ustc/Causal-HalBench)
+- **📋 [Born Pragmatic, Trained to Hallucinate? Quantifying the Origins of Contextual Bias in LLMs via the PaCE Benchmark](https://doi.org/10.18653/v1/2026.findings-acl.959)** · 其他 · LLM · Training-based · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **📋 [TempHalluc-Bench: Evaluating Temporal Hallucination in VideoLLM-Based Video Search and Information Extraction](https://doi.org/10.5120/ijca-1aef39d4b120)** · International Journal of Computer Applications 2026 · VLM · Training-free
 - **📋 [EH-Benchmark Ophthalmic Hallucination Benchmark and Agent-Driven Top-Down Traceable Reasoning Workflow](https://doi.org/10.1016/j.inffus.2025.103631)** · INFFUS 2026 · VLM · Training-free · 💻[code](https://github.com/ppxy1/EH-Benchmark)
 - **📋 [CDH-Bench: A Commonsense-Driven Hallucination Benchmark for Evaluating Visual Fidelity in Vision-Language Models](https://doi.org/10.1007/978-981-92-3504-9_17)** · ICIC 2026 · VLM · Training-free · 💻[code](https://github.com/hardware-and-co/cdh-linux-bench)
 - **📋 [AutoHall: Automated Factuality Hallucination Dataset Generation for Large Language Models](https://doi.org/10.1109/taslpro.2025.3635038)** · TASLP 2026 · LLM · Training-free · 💻[code](https://github.com/zouyingcao/AutoHall)
 - **📋 [BHRAM-IL: A Benchmark for Hallucination Recognition and Assessment in Multiple Indian Languages](https://arxiv.org/abs/2512.01852)** · arXiv · LLM · Training-free · 💻[code](https://github.com/sambhashana/BHRAM-IL)
 - **📋 [PHANTOM: A Benchmark for Hallucination Detection in Financial Long-Context QA](http://papers.nips.cc/paper_files/paper/2025/hash/b8badadce3f482ba340ff870f4894441-Abstract-Datasets_and_Benchmarks_Track.html)** · NeurIPS 2025 · LLM · Training-free · 💻[code](https://github.com/ramokz/phantom-camera)
+- **📋 [AHa-Bench: Benchmarking Audio Hallucinations in Large Audio-Language Models](http://papers.nips.cc/paper_files/paper/2025/hash/1169afa8ad13c98239f0b666b099e159-Abstract-Datasets_and_Benchmarks_Track.html)** · NeurIPS 2025 · MLLM(Omni) · Training-free · 💻[code](https://github.com/AHa-Bench/AHa-Bench)
 - **📋 [MUCH: A Multilingual Claim Hallucination Benchmark](https://arxiv.org/abs/2511.17081)** · arXiv · LLM · Training-free · 💻[code](https://github.com/orailix/much)
 - **📋 [What Color Is It? A Text-Interference Multimodal Hallucination Benchmark](https://arxiv.org/abs/2511.13400)** · arXiv · VLM · Training-free
 - **📋 [MedHallu: A Comprehensive Benchmark for Detecting Medical Hallucinations in Large Language Models](https://doi.org/10.18653/v1/2025.emnlp-main.143)** · EMNLP 2025 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
@@ -440,13 +447,13 @@
 - **📋 [Exploring Hallucination of Large Multimodal Models in Video Understanding: Benchmark, Analysis and Mitigation](https://arxiv.org/abs/2503.19622)** · arXiv · VLM · Training-based · 💻[code](https://github.com/Hongcheng-Gao/HAVEN)
 - **📋 [Poly-FEVER: A Multilingual Fact Verification Benchmark for Hallucination Detection in Large Language Models](https://arxiv.org/abs/2503.16541)** · arXiv · LLM · Training-free · 💻[code](https://github.com/HanzhiZhang-Ulrica/Poly-Fever_LLaMA3.1)
 - **📋 [HalluVerse25: Fine-grained Multilingual Benchmark Dataset for LLM Hallucinations](https://arxiv.org/abs/2503.07833)** · arXiv · LLM · Training-free
-- **📋 [MedHallTune: An Instruction-Tuning Benchmark for Mitigating Medical Hallucination in Vision-Language Models](https://arxiv.org/abs/2502.20780)** · arXiv · VLM · Training-free · 💻[code](https://github.com/russellyq/MedHallTune)
 - **📋 [Bi'an: A Bilingual Benchmark and Model for Hallucination Detection in Retrieval-Augmented Generation](https://arxiv.org/abs/2502.19209)** · arXiv · LLM · Training-free · 💻[code](https://github.com/OpenSPG/KAG)
 - **📋 [MedHallBench: A New Benchmark for Assessing Hallucination in Medical Large Language Models](https://proceedings.mlr.press/v281/zuo25b.html)** · AAAI Bridge Program 2025 · LLM · Training-free
 - **📋 [MHBench: Demystifying Motion Hallucination in VideoLLMs](https://doi.org/10.1609/aaai.v39i4.32463)** · AAAI 2025 · VLM · Training-free · 💻[code](https://github.com/xzhouzeng/MHBench)
 - **📋 [CodeHalu: Investigating Code Hallucinations in LLMs via Execution-based Verification](https://doi.org/10.1609/aaai.v39i24.34717)** · AAAI 2025 · LLM · Training-free · 💻[code](https://github.com/yuchen814/CodeHalu)
 - **📋 [Measuring and Mitigating Hallucinations in Vision-Language Dataset Generation for Remote Sensing](https://arxiv.org/abs/2501.14905)** · arXiv · VLM · Training-free
 - **📋 [KG-FPQ: Evaluating Factuality Hallucination in LLMs with Knowledge Graph-based False Premise Questions](https://aclanthology.org/2025.coling-main.698/)** · COLING 2025 · LLM · Training-free · 💻[code](https://github.com/yanxuzhu/KG-FPQ)
+- **📋 [MedHallTune: An Instruction-Tuning Benchmark for Mitigating Medical Hallucination in Vision-Language Models](https://doi.org/10.1109/tmi.2026.3719326)** · 其他 · VLM · Training-free · 💻[code](https://github.com/russellyq/MedHallTune)
 - **📋 [ReSelfVerMM: mitigating hallucination in multimodal LLMs through dataset reconstruction and self-verification](https://doi.org/10.1117/12.3072360)** · Second International Conference on Image Processing and Artificial Intelligence (ICIPAI 2025) 2025 · VLM · Training-free
 - **📋 [Hallucination-Aware Multimodal Benchmark for Gastrointestinal Image Analysis with Large Vision-Language Models](https://doi.org/10.1007/978-3-032-05127-1_23)** · MICCAI 2025 · VLM · Training-free · 💻[code](https://github.com/bhattarailab/Hallucination-Aware-VLM)
 - **📋 [ChartInsighter: An Approach for Mitigating Hallucination in Time-series Chart Summary Generation with A Benchmark Dataset](https://doi.org/10.1109/TVCG.2025.3567122)** · IEEE Trans. Vis. Comput. Graph. 2025 · LLM · Training-free · 💻[code](https://github.com/wangfen01/ChartInsighter)
@@ -469,7 +476,7 @@
 - **📋 [OAEI-LLM: A Benchmark Dataset for Understanding Large Language Model Hallucinations in Ontology Matching](https://ceur-ws.org/Vol-3953/361.pdf)** · HGAIS@ISWC 2024 · LLM · Training-free · 💻[code](https://github.com/ellenzhuwang/AMD-v2)
 - **📋 [MASSIVE Multilingual Abstract Meaning Representation: A Dataset and Baselines for Hallucination Detection](https://doi.org/10.18653/v1/2024.starsem-1.1)** · 13th Joint Conference on Lexical and Computational Semantics (*SEM 2024) 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **📋 [Hallucination Benchmark in Medical Visual Question Answering](https://openreview.net/forum?id=vxlXqOj4zv)** · Tiny Papers @ ICLR 2024 · VLM · Training-free
-- **📋 [German also Hallucinates! Inconsistency Detection in News Summaries with the Absinth Dataset](https://aclanthology.org/2024.lrec-main.680)** · LREC/COLING 2024 · LLM · Training-free
+- **📋 [German Also Hallucinates! Inconsistency Detection in News Summaries with the Absinth Dataset](https://aclanthology.org/2024.lrec-main.680)** · LREC/COLING 2024 · LLM · Training-free
 - **📋 [Detection, Diagnosis, and Explanation: A Benchmark for Chinese Medial Hallucination Evaluation](https://aclanthology.org/2024.lrec-main.428)** · LREC/COLING 2024 · LLM · Training-free
 - **📋 [HalOmi: A Manually Annotated Benchmark for Multilingual Hallucination and Omission Detection in Machine Translation](https://doi.org/10.18653/v1/2023.emnlp-main.42)** · EMNLP 2023 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **📋 [A New Benchmark and Reverse Validation Method for Passage-level Hallucination Detection](https://doi.org/10.18653/v1/2023.findings-emnlp.256)** · EMNLP 2023 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
@@ -478,20 +485,22 @@
 </details>
 
 ## 📚 综述 Survey
-> 独立收录 `33` 篇综述 / 调查 / 分类法论文（同时保留在下方主列表中，标有 📚）。
+> 独立收录 `35` 篇综述 / 调查 / 分类法论文（同时保留在下方主列表中，标有 📚）。
 
 <details open>
-<summary>📚 综述 Survey 列表 (33 papers — click to collapse / expand)</summary>
+<summary>📚 综述 Survey 列表 (35 papers — click to collapse / expand)</summary>
 
 - **📚 [AI Slop and Hallucinations in Vulnerability Assessment: A Survey on Reasoning Failures and Trustworthy Mitigation](https://arxiv.org/abs/2608.25667)** · arXiv · LLM · Training-free
 - **📚 [Model stability and hallucination under the data-knowledge dual-drive paradigm: a survey](https://doi.org/10.1117/12.3110427)** · ICML 2026 · LLM · Training-free
 - **📚 [Distorted or Fabricated? A Survey on Hallucination in Video LLMs](https://aclanthology.org/2026.findings-acl.1325/)** · ACL 2026 · VLM · Training-free · 💻[code](https://github.com/hukcc/Awesome-Video-Hallucination)
 - **📚 [DECK: A Consistency x Confidence Taxonomy of LLM Hallucinations](https://arxiv.org/abs/2606.02289)** · arXiv · LLM · Training-free · 💻[code](https://github.com/visgl/deck.gl)
 - **📚 [A Geometric Taxonomy of Hallucinations in LLMs](https://arxiv.org/abs/2602.13224)** · arXiv · LLM · Training-free
+- **📚 [Hallucination Detection, Verification, and Correction in Generative AI: A Comprehensive Survey](https://doi.org/10.1016/j.nlp.2026.100231)** · 其他 · LLM · Training-free
 - **📚 [Survey on Hallucination in Reasoning Large Language Model: Evaluation, Taxonomy, Intervention, and Open Issues](https://doi.org/10.3724/2096-7004.di.2025.0131)** · Data Intell. 2026 · LLM · Training-free
 - **📚 [Loki’s Dance of Illusions: A Comprehensive Survey of Hallucination in Large Language Models](https://doi.org/10.1109/tcss.2026.3661295)** · IEEE Transactions on Computational Social Systems 2026 · LLM · Training-free
 - **📚 [Large language models hallucination: A comprehensive survey](https://doi.org/10.1016/j.cosrev.2026.100970)** · Comput. Sci. Rev. 2026 · LLM · Training-free
 - **📚 [House of Mirrors: A Survey on Hallucination Detection and Mitigation via Decoding Techniques in Language Models](https://doi.org/10.1007/978-3-032-03072-6_9)** · Lecture Notes in Networks and Systems 2026 · LLM · Training-free
+- **📚 [Hallucinations in LLMs: A Lifecycle-Based Survey of Causes, Detection, Mitigation, and Prevention](https://doi.org/10.1007/s41060-026-01214-6)** · Int. J. Data Sci. Anal. 2026 · LLM · Training-free
 - **📚 [Hallucination to truth: a review of fact-checking and factuality evaluation in large language models](https://doi.org/10.1007/s10462-025-11454-w)** · Artif. Intell. Rev. 2026 · LLM · Training-based
 - **📚 [Attribution Techniques for Mitigating Hallucinated Information in RAG Systems: A Survey](https://doi.org/10.1109/ICAIIC68212.2026.11454197)** · ICAIIC 2026 · LLM · Training-free · 💻[code](https://github.com/IgnacioValenzuelaM/Smina_Redocking)
 - **📚 [A Taxonomy of Machine Hallucination in Radiology](https://doi.org/10.1148/ryai.250203)** · Radiology: Artificial Intelligence 2026 · LLM · Training-free
@@ -523,7 +532,7 @@
 > 按**模型类型**分组（LLM / VLM / MLLM），每组内再按年份展开；点击标题可展开 / 收起。每条格式：**标题** · 会议/年份 · 模型 · 方法 · 💻代码。标题链接优先顶会官方版本。📋 = 评测/Benchmark 论文，📚 = 综述 Survey 论文。完整摘要与多维交叉筛选见交互式网站 [`docs/index.html`](docs/index.html)。欢迎 PR 补充。
 
 <details>
-<summary>🤖 LLM · 1157 篇</summary>
+<summary>🤖 LLM · 1194 篇</summary>
 
 <details>
 <summary>📅 2027 · 5 篇</summary>
@@ -537,14 +546,15 @@
 </details>
 
 <details>
-<summary>📅 2026 · 441 篇</summary>
+<summary>📅 2026 · 457 篇</summary>
 
 - **[Prediction of Prediction (PoP): Inter-Layer Activation Fusion for Single-Pass Hallucination Detection in Large Language Models](https://arxiv.org/abs/2608.27165)** · arXiv · LLM · Training-free
 - **[Why RAGs Hallucinate: Penalty-Aware Evaluation of Retrieval-Augmented Generation Systems with Knowledge-Gap Canaries](https://arxiv.org/abs/2608.26385)** · arXiv · LLM · Training-free
 - **📚 [AI Slop and Hallucinations in Vulnerability Assessment: A Survey on Reasoning Failures and Trustworthy Mitigation](https://arxiv.org/abs/2608.25667)** · arXiv · LLM · Training-free
 - **[When Do Supervised UQ Ensembles Improve LLM Hallucination Detection? A Robustness Study](https://arxiv.org/abs/2608.24492)** · arXiv · LLM · Training-free
-- **[Names Can Hurt: Spotting Slopsquatting Risks Caused by Package Name Hallucinations in Local Coding LLMs](https://arxiv.org/abs/2608.23897)** · arXiv · LLM · Training-based
+- **[Names Can Hurt: Spotting Slopsquatting Risks Caused by Package Name Hallucinations in Local Coding LLMs](https://arxiv.org/abs/2608.23897)** · arXiv · LLM · Training-based · 💻[code](https://github.com/sargamsahu1011/package-hallucination-detector)
 - **[Gated Activation Steering for Reducing Sycophancy & Hallucination in Medical Question Answering](https://arxiv.org/abs/2608.23666)** · arXiv · LLM · Training-free
+- **[Execution-Anchored Hallucination Calibration Reranking for Verilog Code Generation](https://arxiv.org/abs/2608.22938)** · arXiv · LLM · Training-free
 - **[Evaluating Inference-Time Defenses Against Package Hallucination in LLM-Generated Code](https://arxiv.org/abs/2608.22652)** · arXiv · LLM · Training-free
 - **[Do Large Language Models Hallucinate Electric Fata Morganas?](https://arxiv.org/abs/2608.18816)** · arXiv · LLM · Training-based
 - **[Mixture-of-Expert Blocks Contain Strong Hallucination Detection Signals](https://arxiv.org/abs/2608.17687)** · arXiv · LLM · Training-based
@@ -564,17 +574,19 @@
 - **[Detecting Hallucinations and Recovering Verified Answers in Arabic Islamic Question Answering](https://arxiv.org/abs/2608.03720)** · arXiv · LLM · Training-based
 - **[Can Humans Dream of Electric Sheep? Human-Written Samples for Fine-Grained Vision-and-Language Hallucination Benchmarking](https://arxiv.org/abs/2608.01021)** · arXiv · LLM · Training-free
 - **[Tracing the Cascade: A Topology-Aware Evaluation Framework for Scientific Agent Hallucinations](https://arxiv.org/abs/2608.00711)** · arXiv · LLM · Training-free · 💻[code](https://github.com/circles-post/SCHEMA)
-- **[SIRIN: A Unified Toolkit for Detecting Contextual Hallucinations in Retrieval-Augmented and Memory-Grounded LLM Systems](https://arxiv.org/abs/2608.00033)** · arXiv · LLM · Training-free · 💻[code](https://github.com/sb-ai-lab/SIRIN)
 - **[Heaven-Sent or Hell-Bent? Benchmarking the Intelligence and Defectiveness of LLM Hallucinations](https://doi.org/10.1145/3770854.3785704)** · KDD 2026 · LLM · Training-free · 💻[code](https://github.com/chujiguangniao/HIC-bench)
 - **[AI and Authenticity in Islamic Research: A Critical Evaluation of Generative AI Reliability, Hallucination, and Source Fidelity in Quranic, Hadith, and Fiqh Knowledge](https://arxiv.org/abs/2607.28237)** · arXiv · LLM · Training-free
 - **[The Cost of Knowing: A Resource-Aware Protocol for Benchmarking Hallucination Beyond Static Leaderboards](https://arxiv.org/abs/2607.24063)** · arXiv · LLM · Training-free
 - **[D-Score: A Spectral Hidden-State Signal for Hallucination Detection in Large Language Models](https://arxiv.org/abs/2607.24586)** · arXiv · LLM · Training-free
 - **[Hallucination Rates in Language Generation](https://arxiv.org/abs/2607.23361)** · arXiv · LLM · Training-free
 - **[Reasoning Denoiser: Denoising Reasoning Traces for Hallucination Detection in Large Reasoning Models](https://arxiv.org/abs/2607.22098)** · arXiv · LLM · Training-free
+- **[DeMTS: Denoising Trajectories as Multivariate Time Series for Hallucination Detection in Diffusion Language Models](https://arxiv.org/abs/2608.14632)** · arXiv · LLM · Training-free
 - **[Chemical Chain-of-Thought Functions as a Hallucination-Prone Molecular Scratchpad](https://arxiv.org/abs/2607.20935)** · arXiv · LLM · Training-free · 💻[code](https://github.com/shigurenimo/million)
+- **[Hallucination by proxy in LLM-assisted differential diagnosis](https://arxiv.org/abs/2608.24908)** · arXiv · LLM · Training-free
 - **📋 [HalluTruthQA: A Fine-Grained Benchmark for Hallucination Detection, Localization, and Explanation in Arabic Question Answering](https://arxiv.org/abs/2607.20219)** · arXiv · LLM · Training-free · 💻[code](https://gitlab.com/nlpresearcher/HalluTruthQA)
 - **[Prompt Design at Scale: How Format, Instruction Count, and Context Length Shape Instruction Adherence and Hallucination in Large Language Models](https://arxiv.org/abs/2607.19257)** · arXiv · LLM · Training-free · 💻[code](https://github.com/iNetanel/veyrabench)
 - **[Zero Hallucination, by Construction: Hallucination-Aware Layered Oversight for Trustworthy Enterprise AI](https://arxiv.org/abs/2607.17883)** · arXiv · LLM · Training-free
+- **[SIRIN: A Unified Toolkit for Detecting Contextual Hallucinations in Retrieval-Augmented and Memory-Grounded LLM Systems](https://arxiv.org/abs/2608.00033)** · arXiv · LLM · Training-free · 💻[code](https://github.com/sb-ai-lab/SIRIN)
 - **[Operational Hallucination and Safety Drift in AI Agents](https://arxiv.org/abs/2607.18366)** · arXiv · LLM · Training-free
 - **[HALLMARK: Diagnosing Three Failure Modes in LLM Citation Verifiers](https://arxiv.org/abs/2607.18360)** · arXiv · LLM · Training-free · 💻[code](https://github.com/rpatrik96/hallmark)
 - **[Diversity-Oriented Fine-Tuning for Uncertainty-Based Hallucination Detection](https://arxiv.org/abs/2607.16643)** · arXiv · LLM · Training-based
@@ -596,7 +608,7 @@
 - **[Phantom References: Hallucinated Citations That Survive Peer Review at Top-Tier Conferences](https://arxiv.org/abs/2607.00738)** · arXiv · LLM · Training-free · 💻[code](https://github.com/markrussinovich/refchecker)
 - **[Grounded Optimization: A Layered Engineering Framework for Reducing LLM Hallucination in Automated Personal Document Rewriting](https://arxiv.org/abs/2607.01457)** · arXiv · LLM · Training-free
 - **[Beyond Document Grounding: Span-Level Hallucination Detection over Code, Tool Output, and Documents](https://arxiv.org/abs/2607.00895)** · arXiv · LLM · Training-based
-- **[Why LLMs Hallucinate on Structured Knowledge: A Mechanistic Analysis of Reasoning over Linearized Representations](https://aclanthology.org/2026.acl-long.914/)** · ACL 2026 · LLM · Training-free
+- **[Why LLMs Hallucinate on Structured Knowledge: A Mechanistic Analysis of Reasoning over Linearized Representations](https://aclanthology.org/2026.acl-long.914/)** · ACL 2026 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[When Personalization Misleads: Understanding and Mitigating Hallucinations in Personalized LLMs](https://aclanthology.org/2026.findings-acl.395/)** · ACL 2026 · LLM · Training-free
 - **[Understanding New-Knowledge-Induced Factual Hallucinations in LLMs: Analysis and Interpretation](https://aclanthology.org/2026.findings-acl.358/)** · ACL 2026 · LLM · Training-free
 - **[Two Pathways to Truthfulness: On the Intrinsic Encoding of LLM Hallucinations](https://aclanthology.org/2026.acl-long.1173/)** · ACL 2026 · LLM · Training-free
@@ -629,7 +641,7 @@
 - **📋 [Hallucination Detection in Long-Form Text Generated by LLMs: A Benchmark and a Hyper-Relational Knowledge Graph Approach](https://aclanthology.org/2026.findings-acl.1673/)** · ACL 2026 · LLM · Training-free
 - **[Hallucination Detection in LLMs with Topological Divergence on Attention Graphs](https://aclanthology.org/2026.acl-long.704/)** · ACL 2026 · LLM · Training-free · 💻[code](https://github.com/sb-ai-lab/TOHA)
 - **[HalluGuard: Evidence-Grounded Small Reasoning Models to Mitigate Hallucinations in Retrieval-Augmented Generation](https://aclanthology.org/2026.findings-acl.835/)** · ACL 2026 · LLM · Training-based · 💻[code](https://github.com/Susan571/HalluGuard-ICLR2026)
-- **[HalluCitation Matters: Revealing the Impact of Hallucinated References with 300 Hallucinated Papers in ACL Conferences](https://aclanthology.org/2026.acl-long.2189/)** · ACL 2026 · LLM · Training-free
+- **[HalluCitation Matters: Revealing the Impact of Hallucinated References with 300 Hallucinated Papers in ACL Conferences](https://aclanthology.org/2026.acl-long.2189/)** · ACL 2026 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[HAT: Hallucination Annotation for Translation](https://aclanthology.org/2026.acl-long.721/)** · ACL 2026 · LLM · Training-free · 💻[code](https://github.com/skerkour/black-hat-rust)
 - **[Grad Detect: Gradient-Based Hallucination Detection in LLMs](https://arxiv.org/abs/2606.24790)** · ICML 2026 · LLM · Training-free
 - **[Generating Effective CoT Traces for Mitigating Causal Hallucination](https://aclanthology.org/2026.findings-acl.264/)** · ACL 2026 · LLM · Training-free
@@ -674,7 +686,7 @@
 - **[Generating in the Limit with Infinitely Many Hallucinations](https://arxiv.org/abs/2606.28354)** · arXiv · LLM · Training-free
 - **[Analyzing the Correlation Between Hallucinations and Knowledge Conflicts in Large Language Models](https://arxiv.org/abs/2606.08705)** · arXiv · LLM · Training-free · 💻[code](https://github.com/llaraspata/HallucinationDetection)
 - **📋 [OpenHalDet: A Unified Benchmark for Hallucination Detection across Diverse Generation Scenarios](https://arxiv.org/abs/2606.06959)** · arXiv · LLM · Training-free · 💻[code](https://github.com/Nellie179/Hallucination-Detection)
-- **[Reducing Hallucinations in Complex Question Answering using Simple Graph-based Retrieval-Augmented Generation (long version)](https://arxiv.org/abs/2606.05901)** · arXiv · LLM · Training-free
+- **[Reducing Hallucinations in Complex Question Answering using Simple Graph-based Retrieval-Augmented Generation (long version)](https://arxiv.org/abs/2606.05901)** · arXiv · LLM · Training-free · 💻[code](https://github.com/NICD-UK/graph-based-rag-qa)
 - **[Evidence Graph Consistency in Retrieval-Augmented Generation: A Model-Dependent Analysis of Hallucination Detection](https://arxiv.org/abs/2606.06748)** · arXiv · LLM · Training-free
 - **[Cascading Hallucination in Agentic RAG: The CHARM Framework for Detection and Mitigation](https://arxiv.org/abs/2606.04435)** · arXiv · LLM · Training-free · 💻[code](https://github.com/sarmishra/CHARM-agentic-rag)
 - **[Directional Hallucinations: Ideological Drift in News-Grounded LLM Question Answering](https://arxiv.org/abs/2607.20487)** · arXiv · LLM · Training-free · 💻[code](https://github.com/wang748/test_dir)
@@ -730,7 +742,6 @@
 - **[The First Token Knows: Single-Decode Confidence for Hallucination Detection](https://arxiv.org/abs/2605.05166)** · arXiv · LLM · Training-free
 - **[Text Corpora as Concept Fields: Black-Box Hallucination and Novelty Measurement](https://arxiv.org/abs/2605.05103)** · arXiv · LLM · Training-free
 - **[Local Intrinsic Dimension Unveils Hallucinations in Diffusion Models](https://arxiv.org/abs/2605.05026)** · arXiv · LLM · Training-free
-- **[Detecting Hallucinations in Large Language Models via Internal Attention Divergence Signals](https://arxiv.org/abs/2605.05025)** · arXiv · LLM · Training-free
 - **[Not All That Is Fluent Is Factual: Investigating Hallucinations of Large Language Models in Academic Writing](https://arxiv.org/abs/2605.04171)** · arXiv · LLM · Training-free
 - **[CuraView: A Multi-Agent Framework for Medical Hallucination Detection with GraphRAG-Enhanced Knowledge Verification](https://arxiv.org/abs/2605.03476)** · arXiv · LLM · Training-based · 💻[code](https://github.com/severin-ye/CuraView)
 - **📋 [HalluScan: A Systematic Benchmark for Detecting and Mitigating Hallucinations in Instruction-Following LLMs](https://arxiv.org/abs/2605.02443)** · arXiv · LLM · Training-free · 💻[code](https://github.com/Owen0812/halluscan)
@@ -870,6 +881,7 @@
 - **📋 [ESG-Bench: Benchmarking Long-Context ESG Reports for Hallucination Mitigation](https://doi.org/10.1609/aaai.v40i46.41281)** · AAAI 2026 · LLM · Training-based · 💻[code](https://github.com/GateNLP/ESG_Bench)
 - **[Diffusion for Combating the Hallucination in Large Language Models (Student Abstract)](https://doi.org/10.1609/aaai.v40i48.42183)** · AAAI 2026 · LLM · Training-free
 - **[Detecting Citation Hallucinations in Large Language Model Outputs (Student Abstract)](https://doi.org/10.1609/aaai.v40i48.42257)** · AAAI 2026 · LLM · Training-free
+- **[Crossing the Chasm from LLM Hallucinations to Invention via Abduction](https://ojs.aaai.org/index.php/AAAI-SS/article/view/42601)** · AAAI Spring Symposia 2026 · LLM · Training-free
 - **[Bolster Hallucination Detection via Prompt-Guided Data Augmentation](https://doi.org/10.1609/aaai.v40i44.41096)** · AAAI 2026 · LLM · Training-free
 - **[Beyond Next Token Probabilities: Learnable, Fast Detection of Hallucinations and Data Contamination on LLM Output Distributions](https://doi.org/10.1609/aaai.v40i36.40254)** · AAAI 2026 · LLM · Training-based · 💻[code](https://github.com/BarSGuy/Beyond-next-token-probabilities)
 - **[Hallucination is a Consequence of Space-Optimality: A Rate-Distortion Theorem for Membership Testing](https://arxiv.org/abs/2602.00906)** · arXiv · LLM · Training-free
@@ -899,6 +911,18 @@
 - **[Distortion Instead of Hallucination: The Effect of Reasoning Under Strict Constraints](https://arxiv.org/abs/2601.01490)** · arXiv · LLM · Training-free
 - **[Probabilistic Guarantees for Reducing Contextual Hallucinations in LLMs](https://arxiv.org/abs/2601.00641)** · arXiv · LLM · Training-free · 💻[code](https://github.com/schipp/hallucination_guarantees)
 - **[Physio-DPO: Aligning Large Language Models with the Protein Energy Landscape to Eliminate Structural Hallucinations](https://arxiv.org/abs/2601.00647)** · arXiv · LLM · Training-based · 💻[code](https://github.com/TwilightMM/Physio-DPO)
+- **[uir-cis at SemEval-2026 Task 12: Mitigating Prior-Induced Hallucinations in Retrieval-Augmented Reasoning via Precision-Oriented Decoding](https://doi.org/10.18653/v1/2026.semeval-1.415)** · 其他 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
+- **[Towards Grounded Hallucination Definitions for Biomedical Question Answering with Reproducible Examples from ClinIQLink](https://doi.org/10.18653/v1/2026.bionlp-1.67)** · 其他 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
+- **[The Verified Query Repository: A Human-in-the-Loop Architectural Pattern for Eliminating Hallucination in Enterprise NLP Systems](https://doi.org/10.51483/ijaiml.6.6s.2026.320-330)** · 其他 · LLM · Training-free
+- **[SIC-Autonomous Ensemble: Large Language Model Hallucination Mitigation Framework using Self Iterative Contradiction and Optimal Ensembling](https://doi.org/10.1109/tai.2026.3721061)** · 其他 · LLM · Training-free
+- **[Layer-wise symbolic attention instability as a diagnostic signal for hallucination in large language models](https://doi.org/10.1007/s44163-026-01839-3)** · 其他 · LLM · Training-free
+- **[Insights on Mitigating Privacy Concerns in Gamification through LLM-Assisted Qualitative Analysis with Minimal Hallucination](https://doi.org/10.1145/3839358)** · 其他 · LLM · Training-free
+- **[Hallucination-Aware Hierarchical LLM for Autonomous UAV Mobility Control: A Safe Reinforcement Learning Approach](https://doi.org/10.1109/ton.2026.3725648)** · 其他 · LLM · Training-based
+- **[Hallucination to Harmony](https://doi.org/10.4018/979-8-3373-7534-2.ch002)** · 其他 · LLM · Training-free
+- **📚 [Hallucination Detection, Verification, and Correction in Generative AI: A Comprehensive Survey](https://doi.org/10.1016/j.nlp.2026.100231)** · 其他 · LLM · Training-free
+- **[Detecting Hallucinations in Large Language Models via Internal Attention Divergence Signals](https://doi.org/10.18653/v1/2026.acl-srw.6)** · 其他 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
+- **📋 [Born Pragmatic, Trained to Hallucinate? Quantifying the Origins of Contextual Bias in LLMs via the PaCE Benchmark](https://doi.org/10.18653/v1/2026.findings-acl.959)** · 其他 · LLM · Training-based · 💻[code](https://github.com/elpaco-escience/scikit-talk)
+- **[Beyond Hallucination: Reframing LLM Quality Assessment as Task-Output Alignment](https://doi.org/10.18653/v1/2026.bigpicture-main.3)** · 其他 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Why Language Model Reasoning Systematically Fails: A Structural Definition of Hallucination Based on Coordinate Closure](https://doi.org/10.1109/ACCESS.2026.3707249)** · IEEE Access 2026 · LLM · Training-free
 - **[Verify when Uncertain: Beyond Self-Consistency in Black Box Hallucination Detection](https://openreview.net/forum?id=6tlLISSgiu)** · TMLR 2026 · LLM · Training-free
 - **[Trustworthiness, Hallucination, and Evaluation in Large Language Models](https://doi.org/10.56975/ijcrt.v14i4.307430)** · INTERNATIONAL JOURNAL OF CREATIVE RESEARCH THOUGHTS 2026 · LLM · Training-free
@@ -934,6 +958,7 @@
 - **[HyGen—A Hybrid Automation Testing Approach for Reducing Hallucination in LLM-Based Applications](https://doi.org/10.1007/978-981-96-6537-2_2)** · Lecture Notes in Networks and Systems 2026 · LLM · Training-free
 - **[How Human Experts Educate Specialized LLMs: Filling Knowledge Gaps in KG-Augmented Generation through Hallucination Detection](https://doi.org/10.1145/3774904.3792550)** · WWW 2026 · LLM · Training-free
 - **📚 [House of Mirrors: A Survey on Hallucination Detection and Mitigation via Decoding Techniques in Language Models](https://doi.org/10.1007/978-3-032-03072-6_9)** · Lecture Notes in Networks and Systems 2026 · LLM · Training-free
+- **📚 [Hallucinations in LLMs: A Lifecycle-Based Survey of Causes, Detection, Mitigation, and Prevention](https://doi.org/10.1007/s41060-026-01214-6)** · Int. J. Data Sci. Anal. 2026 · LLM · Training-free
 - **📚 [Hallucination to truth: a review of fact-checking and factuality evaluation in large language models](https://doi.org/10.1007/s10462-025-11454-w)** · Artif. Intell. Rev. 2026 · LLM · Training-based
 - **[Hallucination to Consensus: Multi-Agent LLMs for End-to-End JUnit Test Generation](https://doi.org/10.1145/3803418)** · ACM Transactions on Software Engineering and Methodology 2026 · LLM · Training-free
 - **[Hallucination or Creativity: How to Evaluate AI-Generated Scientific Stories?](https://ceur-ws.org/Vol-4202/paper7.pdf)** · Text2Story@ECIR 2026 · LLM · Training-free
@@ -984,7 +1009,7 @@
 </details>
 
 <details>
-<summary>📅 2025 · 438 篇</summary>
+<summary>📅 2025 · 443 篇</summary>
 
 - **[HaluNet: Learning Hallucination Risk from Internal Signals in LLM Question Answering](https://arxiv.org/abs/2512.24562)** · arXiv · LLM · Training-based
 - **[Beyond Hallucinations: A Composite Score for Measuring Reliability in Open-Source Large Language Models](https://arxiv.org/abs/2512.24058)** · arXiv · LLM · Training-free
@@ -1020,7 +1045,7 @@
 - **[Generalization or Hallucination? Understanding Out-of-Context Reasoning in Transformers](http://papers.nips.cc/paper_files/paper/2025/hash/cc7c9c8e4a84b0ca00d874e1a8938644-Abstract-Conference.html)** · NeurIPS 2025 · LLM · Training-free · 💻[code](https://github.com/yixiao-huang/OCR-Theory)
 - **[FACT: Mitigating Inconsistent Hallucinations in LLMs via Fact-Driven Alternating Code-Text Training](http://papers.nips.cc/paper_files/paper/2025/hash/bc75254bc4b8b42f401d0ab5d6e9aa4b-Abstract-Conference.html)** · NeurIPS 2025 · LLM · Training-free · 💻[code](https://github.com/rimmi21-zz/Alexa-APL-Fact-Skill)
 - **[Beyond Token Probes: Hallucination Detection via Activation Tensors with ACT-ViT](http://papers.nips.cc/paper_files/paper/2025/hash/7b8694d58c34b9bec9c2f29735c3a250-Abstract-Conference.html)** · NeurIPS 2025 · LLM · Training-free · 💻[code](https://github.com/BarSGuy/ACT-ViT)
-- **[Benford's Curse: Tracing Digit Bias to Numerical Hallucination in LLMs](http://papers.nips.cc/paper_files/paper/2025/hash/aa5f5e6eb6f613ec412f1d948dfa21a5-Abstract-Conference.html)** · NeurIPS 2025 · LLM · Training-based · 💻[code](https://github.com/shamy28/Benford-Curse)
+- **[Benford’s Curse: Tracing Digit Bias to Numerical Hallucination in LLMs](http://papers.nips.cc/paper_files/paper/2025/hash/aa5f5e6eb6f613ec412f1d948dfa21a5-Abstract-Conference.html)** · NeurIPS 2025 · LLM · Training-free
 - **[Auditing Meta-Cognitive Hallucinations in Reasoning Large Language Models](http://papers.nips.cc/paper_files/paper/2025/hash/ee0e336e2423430ef86071300299e074-Abstract-Conference.html)** · NeurIPS 2025 · LLM · Training-free
 - **[Alleviating Hallucinations in Large Language Models through Multi-Model Contrastive Decoding and Dynamic Hallucination Detection](http://papers.nips.cc/paper_files/paper/2025/hash/f1a92c4df8cd7dc1cab2613fb999d5e7-Abstract-Conference.html)** · NeurIPS 2025 · LLM · Training-free
 - **[Mitigating Hallucinations in Zero-Shot Scientific Summarisation: A Pilot Study](https://arxiv.org/abs/2512.00931)** · arXiv · LLM · Training-based
@@ -1032,7 +1057,6 @@
 - **[Thinking, Faithful and Stable: Mitigating Hallucinations in LLMs](https://arxiv.org/abs/2511.15921)** · arXiv · LLM · Training-based
 - **[Mathematical Analysis of Hallucination Dynamics in Large Language Models: Uncertainty Quantification, Advanced Decoding, and Principled Mitigation](https://arxiv.org/abs/2511.15005)** · arXiv · LLM · Training-free
 - **[Can LLMs Detect Their Own Hallucinations?](https://arxiv.org/abs/2511.11087)** · arXiv · LLM · Training-free
-- **[The Map of Misbelief: Tracing Intrinsic and Extrinsic Hallucinations Through Attention Patterns](https://arxiv.org/abs/2511.10837)** · arXiv · LLM · Training-free
 - **[Critical Confabulation: Can LLMs Hallucinate for Social Good?](https://arxiv.org/abs/2511.07722)** · arXiv · LLM · Training-free
 - **[When Bias Pretends to Be Truth: How Spurious Correlations Undermine Hallucination Detection in LLMs](https://arxiv.org/abs/2511.07318)** · arXiv · LLM · Training-free · 💻[code](https://github.com/Outsider565/hallucination-by-spurious-correlation-code)
 - **[Place Matters: Comparing LLM Hallucination Rates for Place-Based Legal Queries](https://arxiv.org/abs/2511.06700)** · arXiv · LLM · Training-free
@@ -1086,7 +1110,6 @@
 - **[InterpDetect: Interpretable Signals for Detecting Hallucinations in Retrieval-Augmented Generation](https://arxiv.org/abs/2510.21538)** · arXiv · LLM · Training-based · 💻[code](https://github.com/pegasi-ai/InterpDetect)
 - **[Reasoning's Razor: Reasoning Improves Accuracy but Can Hurt Recall at Critical Operating Points in Safety and Hallucination Detection](https://arxiv.org/abs/2510.21049)** · arXiv · LLM · Training-free
 - **[Neural Diversity Regularizes Hallucinations in Language Models](https://arxiv.org/abs/2510.20690)** · arXiv · LLM · Training-based
-- **[HAD: HAllucination Detection Language Models Based on a Comprehensive Hallucination Taxonomy](https://arxiv.org/abs/2510.19318)** · arXiv · LLM · Training-based · 💻[code](https://github.com/pku0xff/HAD)
 - **[A Graph Signal Processing Framework for Hallucination Detection in Large Language Models](https://arxiv.org/abs/2510.19117)** · arXiv · LLM · Training-free
 - **[Train for Truth, Keep the Skills: Binary Retrieval-Augmented Reward Mitigates Hallucinations](https://arxiv.org/abs/2510.17733)** · arXiv · LLM · Training-based · 💻[code](https://github.com/chentong0/rl-binary-rar)
 - **[Beyond "Hallucinations": A Framework for Stable Human-AI Reasoning](https://arxiv.org/abs/2510.14665)** · arXiv · LLM · Training-free
@@ -1102,6 +1125,7 @@
 - **[Measuring Language Model Hallucinations Through Distributional Correctness](https://arxiv.org/abs/2510.04302)** · arXiv · LLM · Training-free
 - **[Learning to Reason for Hallucination Span Detection](https://arxiv.org/abs/2510.02173)** · arXiv · LLM · Training-based
 - **[Copy-Paste to Mitigate Large Language Model Hallucinations](https://arxiv.org/abs/2510.00508)** · arXiv · LLM · Training-free · 💻[code](https://github.com/longyongchao/CopyPasteLLM)
+- **[VisHall3D: Monocular Semantic Scene Completion from Reconstructing the Visible Regions to Hallucinating the Invisible Regions](https://doi.org/10.1109/ICCV51701.2025.02663)** · ICCV 2025 · LLM · Training-free · 💻[code](https://github.com/luang321/vishall3d)
 - **[Towards Mitigation of Hallucination for LLM-empowered Agents: Progressive Generalization Bound Exploration and Watchdog Monitor](https://doi.org/10.3233/FAIA250910)** · ECAI 2025 · LLM · Training-free · 💻[code](https://github.com/Xi-yuanWang/DSD)
 - **[ChartCap: Mitigating Hallucination of Dense Chart Captioning](https://doi.org/10.1109/ICCV51701.2025.01224)** · ICCV 2025 · LLM · Training-free · 💻[code](https://github.com/junyoung-00/ChartCap)
 - **[When Hallucination Costs Millions: Benchmarking AI Agents in High-Stakes Adversarial Financial Markets](https://arxiv.org/abs/2510.00332)** · arXiv · LLM · Training-free
@@ -1133,7 +1157,6 @@
 - **[Hallucination Detection with the Internal Layers of LLMs](https://arxiv.org/abs/2509.14254)** · arXiv · LLM · Training-free
 - **[HALT-RAG: A Task-Adaptable Framework for Hallucination Detection with Calibrated NLI Ensembles and Abstention](https://arxiv.org/abs/2509.07475)** · arXiv · LLM · Training-free · 💻[code](https://github.com/sgoswami06/halt-rag)
 - **[HAVE: Head-Adaptive Gating and ValuE Calibration for Hallucination Mitigation in Large Language Models](https://arxiv.org/abs/2509.06596)** · arXiv · LLM · Training-free · 💻[code](https://github.com/ayghri/i-have-adhd)
-- **[From Noise to Narrative: Tracing the Origins of Hallucinations in Transformers](https://arxiv.org/abs/2509.06938)** · arXiv · LLM · Training-free · 💻[code](https://github.com/dblabs-mcgill-mila/noise-to-narrative)
 - **[Why Language Models Hallucinate](https://arxiv.org/abs/2509.04664)** · arXiv · LLM · Training-free · 💻[code](https://github.com/dragonwang725-design/llm-hallucination-constraint-shell)
 - **[Beyond ROUGE: N-Gram Subspace Features for LLM Hallucination Detection](https://arxiv.org/abs/2509.05360)** · arXiv · LLM · Training-free · 💻[code](https://github.com/anthonyrodrigues443/AI-Agent-Conversation-Quality-Scorer)
 - **[Fact-Controlled Diagnosis of Hallucinations in Medical Text Summarization](https://doi.org/10.21437/Interspeech.2025-537)** · INTERSPEECH 2025 · LLM · Training-free
@@ -1168,7 +1191,7 @@
 - **[SHARP: Unlocking Interactive Hallucination via Stance Transfer in Role-Playing LLMs](https://arxiv.org/abs/2411.07965)** · ACL 2025 · LLM · Training-based · 💻[code](https://github.com/lovell/sharp)
 - **[Rowen: Adaptive Retrieval-Augmented Generation for Hallucination Mitigation in LLMs](https://doi.org/10.1145/3767695.3769500)** · SIGIR-AP 2025 · LLM · Training-free · 💻[code](https://github.com/dhx20150812/Rowen)
 - **[Removal of Hallucination on Hallucination: Debate-Augmented RAG](https://doi.org/10.18653/v1/2025.acl-long.770)** · ACL 2025 · LLM · Training-free · 💻[code](https://github.com/Huenao/Debate-Augmented-RAG)
-- **[Rejecting Hallucinated State Targets during Planning](https://proceedings.mlr.press/v267/zhao25t.html)** · ICML 2025 · LLM · Training-free · 💻[code](https://github.com/XuzhaoLi/ro-arxiv-daily)
+- **[Rejecting Hallucinated State Targets during Planning](https://proceedings.mlr.press/v267/zhao25t.html)** · ICML 2025 · LLM · Training-free
 - **[Reducing Tool Hallucination via Reliability Alignment](https://proceedings.mlr.press/v267/xu25ap.html)** · ICML 2025 · LLM · Training-free · 💻[code](https://github.com/X-LANCE/ToolHallucination)
 - **[RARR Unraveled: Component-Level Insights into Hallucination Detection and Mitigation](https://doi.org/10.1145/3726302.3730337)** · SIGIR 2025 · LLM · Training-free
 - **[Prompt-Guided Internal States for Hallucination Detection of Large Language Models](https://doi.org/10.18653/v1/2025.acl-long.1058)** · ACL 2025 · LLM · Training-based
@@ -1207,7 +1230,7 @@
 - **[Shaking to Reveal: Perturbation-Based Detection of LLM Hallucinations](https://arxiv.org/abs/2506.02696)** · arXiv · LLM · Training-free
 - **[Ask a Local: Detecting Hallucinations With Specialized Model Divergence](https://arxiv.org/abs/2506.03357)** · arXiv · LLM · Training-free
 - **[MMD-Flagger: Leveraging Maximum Mean Discrepancy to Detect Hallucinations](https://arxiv.org/abs/2506.01367)** · arXiv · LLM · Training-free · 💻[code](https://github.com/Kensuke-Mitsuzawa/MMD-Flagger)
-- **[Unfamiliar Finetuning Examples Control How Language Models Hallucinate](https://doi.org/10.18653/v1/2025.naacl-long.183)** · NAACL 2025 · LLM · Training-based
+- **[Unfamiliar Finetuning Examples Control How Language Models Hallucinate](https://doi.org/10.18653/v1/2025.naacl-long.183)** · NAACL 2025 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Towards Long Context Hallucination Detection](https://doi.org/10.18653/v1/2025.findings-naacl.436)** · NAACL 2025 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[On A Scale From 1 to 5: Quantifying Hallucination in Faithfulness Evaluation](https://doi.org/10.18653/v1/2025.findings-naacl.433)** · NAACL 2025 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Not all Hallucinations are Good to Throw Away When it Comes to Legal Abstractive Summarization](https://doi.org/10.18653/v1/2025.naacl-long.275)** · NAACL 2025 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
@@ -1218,7 +1241,7 @@
 - **[HALLUCANA: Fixing LLM Hallucination with A Canary Lookahead](https://doi.org/10.18653/v1/2025.findings-naacl.12)** · NAACL 2025 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Gradient-guided Attention Map Editing: Towards Efficient Contextual Hallucination Mitigation](https://doi.org/10.18653/v1/2025.findings-naacl.458)** · NAACL 2025 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[GRAIT: Gradient-Driven Refusal-Aware Instruction Tuning for Effective Hallucination Mitigation](https://doi.org/10.18653/v1/2025.findings-naacl.223)** · NAACL 2025 · LLM · Training-based · 💻[code](https://github.com/opendatalab/GRAIT)
-- **[From Single to Multi: How LLMs Hallucinate in Multi-Document Summarization](https://doi.org/10.18653/v1/2025.findings-naacl.293)** · NAACL 2025 · LLM · Training-free
+- **[From Single to Multi: How LLMs Hallucinate in Multi-Document Summarization](https://doi.org/10.18653/v1/2025.findings-naacl.293)** · NAACL 2025 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **📋 [FaithBench: A Diverse Hallucination Benchmark for Summarization by Modern LLMs](https://doi.org/10.18653/v1/2025.naacl-short.38)** · NAACL 2025 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[FactCheXcker: Mitigating Measurement Hallucinations in Chest X-ray Report Generation Models](https://openaccess.thecvf.com/content/CVPR2025/html/Heiman_FactCheXcker_Mitigating_Measurement_Hallucinations_in_Chest_X-ray_Report_Generation_Models_CVPR_2025_paper.html)** · CVPR 2025 · LLM · Training-free · 💻[code](https://github.com/rajpurkarlab/FactCheXcker)
 - **[Developing a Reliable, Fast, General-Purpose Hallucination Detection and Mitigation Service](https://doi.org/10.18653/v1/2025.naacl-industry.72)** · NAACL 2025 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
@@ -1247,7 +1270,6 @@
 - **[Span-Level Hallucination Detection for LLM-Generated Answers](https://arxiv.org/abs/2504.18639)** · arXiv · LLM · Training-free
 - **[(Im)possibility of Automated Hallucination Detection in Large Language Models](https://arxiv.org/abs/2504.17004)** · arXiv · LLM · Training-based
 - **[Beyond Misinformation: A Conceptual Framework for Studying AI Hallucinations in (Science) Communication](https://arxiv.org/abs/2504.13777)** · arXiv · LLM · Training-free
-- **[Why and How LLMs Hallucinate: Connecting the Dots with Subsequence Associations](https://arxiv.org/abs/2504.12691)** · arXiv · LLM · Training-free · 💻[code](https://github.com/sunyiyou/SAT)
 - **[Purposefully Induced Psychosis (PIP): Embracing Hallucination as Imagination in Large Language Models](https://arxiv.org/abs/2504.12012)** · arXiv · LLM · Training-based · 💻[code](https://github.com/krispatl/Aletheia)
 - **[Mitigating LLM Hallucinations with Knowledge Graphs: A Case Study](https://arxiv.org/abs/2504.12422)** · arXiv · LLM · Training-free
 - **[Enhancing Mathematical Reasoning in Large Language Models with Self-Consistency-Based Hallucination Detection](https://arxiv.org/abs/2504.09440)** · arXiv · LLM · Training-free
@@ -1265,7 +1287,7 @@
 - **[SSCM: Self-Supervised Critical Model for Reducing Hallucinations in Chinese Financial Text Generation](https://doi.org/10.1109/ICASSP49660.2025.10887684)** · ICASSP 2025 · LLM · Training-free · 💻[code](https://github.com/counsyl/sscm)
 - **[ReDeEP: Detecting Hallucination in Retrieval-Augmented Generation via Mechanistic Interpretability](https://openreview.net/forum?id=ztzZDzgfrh)** · ICLR 2025 · LLM · Training-free · 💻[code](https://github.com/Jeryi-Sun/ReDEeP-ICLR)
 - **[NoVo: Norm Voting off Hallucinations with Attention Heads in Large Language Models](https://openreview.net/forum?id=yaOe2xBcLC)** · ICLR 2025 · LLM · Training-free · 💻[code](https://github.com/MorganCThomas/MolScore)
-- **[No Free Lunch: Fundamental Limits of Learning Non-Hallucinating Generative Models](https://arxiv.org/abs/2410.19217)** · ICLR 2025 · LLM · Training-free
+- **[No Free Lunch: Fundamental Limits of Learning Non-Hallucinating Generative Models](https://openreview.net/forum?id=OwNoTs2r8e)** · ICLR 2025 · LLM · Training-free
 - **[MixHD: A Method for Detecting Hallucinations Based on the Internal State and Output Probability of Large Language Models](https://doi.org/10.1109/ICASSP49660.2025.10889328)** · ICASSP 2025 · LLM · Training-free · 💻[code](https://github.com/daviconcentrix-debug/MIXHD)
 - **[LLMs Know More Than They Show: On the Intrinsic Representation of LLM Hallucinations](https://openreview.net/forum?id=KRnsX5Em3W)** · ICLR 2025 · LLM · Training-free
 - **📋 [K-HALU: Multiple Answer Korean Hallucination Benchmark for Large Language Models](https://openreview.net/forum?id=VnLhUogHYE)** · ICLR 2025 · LLM · Training-free · 💻[code](https://github.com/J-Seo/K-HALU)
@@ -1331,6 +1353,14 @@
 - **[Hermit Kingdom Through the Lens of Multiple Perspectives: A Case Study of LLM Hallucination on North Korea](https://aclanthology.org/2025.coling-main.226/)** · COLING 2025 · LLM · Training-free
 - **[GraphRAG: Leveraging Graph-Based Efficiency to Minimize Hallucinations in LLM-Driven RAG for Finance Data](https://aclanthology.org/2025.genaik-1.6/)** · COLING Workshops 2025 · LLM · Training-free · 💻[code](https://github.com/microsoft/graphrag)
 - **[Counterfactual Debating with Preset Stances for Hallucination Elimination of LLMs](https://aclanthology.org/2025.coling-main.703/)** · COLING 2025 · LLM · Training-free · 💻[code](https://github.com/Peter-Fy/CFMAD)
+- **[Why and How LLMs Hallucinate: Connecting the Dots with Subsequence Associations](http://papers.nips.cc/paper_files/paper/2025/hash/3255a7554605a88800f4e120b3a929e1-Abstract-Conference.html)** · 未标注 · LLM · Training-free · 💻[code](https://github.com/sunyiyou/SAT)
+- **[Trust Me, I&apos;m Wrong: LLMs Hallucinate with Certainty Despite Knowing the Answer](https://doi.org/10.18653/v1/2025.findings-emnlp.792)** · 其他 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
+- **[The Map of Misbelief: Tracing Intrinsic and Extrinsic Hallucinations Through Attention Patterns](https://doi.org/10.1609/aaaiss.v7i1.36884)** · 其他 · LLM · Training-free
+- **[RODS: Robust Optimization Inspired Diffusion Sampling for Detecting and Reducing Hallucination in Generative Models](http://papers.nips.cc/paper_files/paper/2025/hash/24c79c21eb699e9efdebaafa40ed0e4d-Abstract-Conference.html)** · 未标注 · LLM · Training-free · 💻[code](https://github.com/RigsOfRods/rigs-of-rods)
+- **[Mitigating Hallucination in VideoLLMs via Temporal-Aware Activation Engineering](http://papers.nips.cc/paper_files/paper/2025/hash/5683583b88da51c79d2eb263f295286e-Abstract-Conference.html)** · 未标注 · LLM · Training-free
+- **[Improving Factuality in Large Language Models via Decoding-Time Hallucinatory and Truthful Comparators](https://doi.org/10.1609/aaai.v39i24.34751)** · 其他 · LLM · Training-free · 💻[code](https://github.com/ydk122024/CDT)
+- **[HAD: HAllucination Detection Language Models Based on a Comprehensive Hallucination Taxonomy](https://doi.org/10.18653/v1/2026.acl-industry.11)** · 其他 · LLM · Training-free · 💻[code](https://github.com/batmanpriv/had)
+- **[From Noise to Narrative: Tracing the Origins of Hallucinations in Transformers](http://papers.nips.cc/paper_files/paper/2025/hash/208d6cfa1728ee9e9e56a45fc6ff542c-Abstract-Conference.html)** · 未标注 · LLM · Training-free
 - **[Benford&apos;s Curse: Tracing Digit Bias to Numerical Hallucination in LLMs](http://papers.nips.cc/paper_files/paper/2025/hash/aa5f5e6eb6f613ec412f1d948dfa21a5-Abstract-Conference.html)** · 未标注 · LLM · Training-free
 - **📚 [🧜Siren’s Song in the AI Ocean: A Survey on Hallucination in Large Language Models](https://doi.org/10.1162/coli.a.16)** · Comput. Linguistics 2025 · LLM · Training-free
 - **[keepitsimple at SemEval-2025 Task 3: LLM-Uncertainty based Approach for Multilingual Hallucination Span Detection](https://aclanthology.org/2025.semeval-1.11/)** · SemEval@ACL 2025 · LLM · Training-free
@@ -1428,7 +1458,7 @@
 </details>
 
 <details>
-<summary>📅 2024 · 243 篇</summary>
+<summary>📅 2024 · 250 篇</summary>
 
 - **[On Characterizations for Language Generation: Interplay of Hallucinations, Breadth, and Stability](https://arxiv.org/abs/2412.18530)** · arXiv · LLM · Training-free
 - **[From Hallucinations to Facts: Enhancing Language Models with Curated Knowledge Graphs](https://arxiv.org/abs/2412.18672)** · arXiv · LLM · Training-free
@@ -1444,7 +1474,6 @@
 - **📋 [ERBench: An Entity-Relationship based Automatically Verifiable Hallucination Benchmark for Large Language Models](http://papers.nips.cc/paper_files/paper/2024/hash/5ef9853a6cdea40ae3e301a6d8dc32b5-Abstract-Datasets_and_Benchmarks_Track.html)** · NeurIPS 2024 · LLM · Training-free · 💻[code](https://github.com/erbench/erbench)
 - **[ANAH-v2: Scaling Analytical Hallucination Annotation of Large Language Models](http://papers.nips.cc/paper_files/paper/2024/hash/6e4cdfdd909ea4e34bfc85a12774cba0-Abstract-Conference.html)** · NeurIPS 2024 · LLM · Training-free
 - **[Enhancing Multi-Agent Consensus through Third-Party LLM Integration: Analyzing Uncertainty and Mitigating Hallucinations in Large Language Models](https://arxiv.org/abs/2411.16189)** · arXiv · LLM · Training-free
-- **[Hallucination Detection in Virtually-Stained Histology: A Latent Space Baseline](https://arxiv.org/abs/2411.15060)** · arXiv · LLM · Training-free
 - **[Addressing Hallucinations in Language Models with Knowledge Graph Embeddings as an Additional Modality](https://arxiv.org/abs/2411.11531)** · arXiv · LLM · Training-based
 - **[A Novel Approach to Eliminating Hallucinations in Large Language Model-Assisted Causal Discovery](https://arxiv.org/abs/2411.12759)** · arXiv · LLM · Training-free
 - **[Layer Importance and Hallucination Analysis in Large Language Models via Enhanced Activation Variance-Sparsity](https://arxiv.org/abs/2411.10069)** · arXiv · LLM · Training-free
@@ -1460,7 +1489,7 @@
 - **📋 [ToolBeHonest: A Multi-level Hallucination Diagnostic Benchmark for Tool-Augmented Large Language Models](https://doi.org/10.18653/v1/2024.emnlp-main.637)** · EMNLP 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Small Agent Can Also Rock! Empowering Small Language Models as Hallucination Detector](https://doi.org/10.18653/v1/2024.emnlp-main.809)** · EMNLP 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[RAG-HAT: A Hallucination-Aware Tuning Pipeline for LLM in Retrieval-Augmented Generation](https://doi.org/10.18653/v1/2024.emnlp-industry.113)** · EMNLP 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
-- **[Pre-trained Language Models Return Distinguishable Probability Distributions to Unfaithfully Hallucinated Texts](https://doi.org/10.18653/v1/2024.findings-emnlp.738)** · EMNLP 2024 · LLM · Training-free · 💻[code](https://github.com/AIML-K/HalluDist)
+- **[Pre-trained Language Models Return Distinguishable Probability Distributions to Unfaithfully Hallucinated Texts](https://doi.org/10.18653/v1/2024.findings-emnlp.738)** · EMNLP 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Pelican: Correcting Hallucination in Vision-LLMs via Claim Decomposition and Program of Thought Verification](https://doi.org/10.18653/v1/2024.emnlp-main.470)** · EMNLP 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Null-Shot Prompting: Rethinking Prompting Large Language Models With Hallucination](https://doi.org/10.18653/v1/2024.emnlp-main.740)** · EMNLP 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Navigating Hallucinations for Reasoning of Unintentional Activities](https://doi.org/10.18653/v1/2024.findings-emnlp.565)** · EMNLP 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
@@ -1479,6 +1508,7 @@
 - **[Embedding and Gradient Say Wrong: A White-Box Method for Hallucination Detection](https://doi.org/10.18653/v1/2024.emnlp-main.116)** · EMNLP 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations?](https://doi.org/10.18653/v1/2024.emnlp-main.444)** · EMNLP 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **📋 [DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark for Large Language Models](https://doi.org/10.18653/v1/2024.findings-emnlp.529)** · EMNLP 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
+- **[CED: Comparing Embedding Differences for Detecting Out-of-Distribution and Hallucinated Text](https://doi.org/10.18653/v1/2024.findings-emnlp.874)** · EMNLP 2024 · LLM · Training-free · 💻[code](https://github.com/bosefirmware/ced)
 - **[An Audit on the Perspectives and Challenges of Hallucinations in NLP](https://doi.org/10.18653/v1/2024.emnlp-main.375)** · EMNLP 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Distinguishing Ignorance from Error in LLM Hallucinations](https://arxiv.org/abs/2410.22071)** · arXiv · LLM · Training-free · 💻[code](https://github.com/technion-cs-nlp/hallucination-mitigation)
 - **[Maintaining Informative Coherence: Migrating Hallucinations in Large Language Models via Absorbing Markov Chains](https://arxiv.org/abs/2410.20340)** · arXiv · LLM · Training-free
@@ -1557,6 +1587,7 @@
 - **[Chaos with Keywords: Exposing Large Language Models Sycophantic Hallucination to Misleading Keywords and Evaluating Defense Strategies](https://arxiv.org/abs/2406.03827)** · arXiv · LLM · Training-free
 - **[Luna: An Evaluation Foundation Model to Catch Language Model Hallucinations with High Accuracy and Low Cost](https://arxiv.org/abs/2406.00975)** · arXiv · LLM · Training-free · 💻[code](https://github.com/tj/luna)
 - **[Ask-EDA: A Design Assistant Empowered by LLM, Hybrid RAG and Abbreviation De-hallucination](https://arxiv.org/abs/2406.06575)** · arXiv · LLM · Training-free · 💻[code](https://github.com/PlombiersIA/ask_eda)
+- **[Trusting Your Evidence: Hallucinate Less with Context-aware Decoding](https://doi.org/10.18653/v1/2024.naacl-short.69)** · NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/xhan77/context-aware-decoding)
 - **[TofuEval: Evaluating Hallucinations of LLMs on Topic-Focused Dialogue Summarization](https://doi.org/10.18653/v1/2024.naacl-long.251)** · NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Reducing hallucination in structured outputs via Retrieval-Augmented Generation](https://doi.org/10.18653/v1/2024.naacl-industry.19)** · NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[ReEval: Automatic Hallucination Evaluation for Retrieval-Augmented Large Language Models via Transferable Adversarial Attacks](https://doi.org/10.18653/v1/2024.findings-naacl.85)** · NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
@@ -1564,6 +1595,7 @@
 - **[On Large Language Models' Hallucination with Regard to Known Facts](https://doi.org/10.18653/v1/2024.naacl-long.60)** · NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/dcdsf321/known_fact_hallucination)
 - **[On Large Language Models&apos; Hallucination with Regard to Known Facts](https://doi.org/10.18653/v1/2024.naacl-long.60)** · NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Mitigating Hallucination in Abstractive Summarization with Domain-Conditional Mutual Information](https://doi.org/10.18653/v1/2024.findings-naacl.117)** · NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
+- **[Language Models Hallucinate, but May Excel at Fact Verification](https://doi.org/10.18653/v1/2024.naacl-long.62)** · NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Hallucination Diversity-Aware Active Learning for Text Summarization](https://doi.org/10.18653/v1/2024.naacl-long.479)** · NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Deceptive Semantic Shortcuts on Reasoning Chains: How Far Can Models Go without Hallucination?](https://doi.org/10.18653/v1/2024.naacl-long.424)** · NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **📚 [Can Knowledge Graphs Reduce Hallucinations in LLMs? : A Survey](https://doi.org/10.18653/v1/2024.naacl-long.219)** · NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
@@ -1585,6 +1617,7 @@
 - **[Fakes of Varying Shades: How Warning Affects Human Perception and Engagement Regarding LLM Hallucinations](https://arxiv.org/abs/2404.03745)** · arXiv · LLM · Training-free · 💻[code](https://github.com/MahjabinNahar/fakes-of-varying-shades-survey-materials)
 - **[KnowHalu: Hallucination Detection via Multi-Form Knowledge Based Factual Checking](https://arxiv.org/abs/2404.02935)** · arXiv · LLM · Training-free · 💻[code](https://github.com/javyduck/KnowHalu)
 - **[Tell Your Model Where to Attend: Post-hoc Attention Steering for LLMs](https://openreview.net/forum?id=xZDWO0oejD)** · ICLR 2024 · LLM · Training-free · 💻[code](https://github.com/QingruZhang/PASTA)
+- **[Teaching Language Models to Hallucinate Less with Synthetic Tasks](https://openreview.net/forum?id=xpw7V0P136)** · ICLR 2024 · LLM · Training-free
 - **[Self-contradictory Hallucinations of Large Language Models: Evaluation, Detection and Mitigation](https://openreview.net/forum?id=EmQSOi1X2f)** · ICLR 2024 · LLM · Training-free · 💻[code](https://github.com/eth-sri/ChatProtect)
 - **[Instructive Decoding: Instruction-Tuned Large Language Models are Self-Refiner from Noisy Instructions](https://openreview.net/forum?id=LebzzClHYw)** · ICLR 2024 · LLM · Training-free · 💻[code](https://github.com/joonkeekim/Instructive-Decoding)
 - **[INSIDE: LLMs' Internal States Retain the Power of Hallucination Detection](https://openreview.net/forum?id=Zj12nzlQbz)** · ICLR 2024 · LLM · Training-free · 💻[code](https://github.com/auchenberg/vscode-browser-preview)
@@ -1617,6 +1650,8 @@
 - **[Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models](https://arxiv.org/abs/2401.01301)** · arXiv · LLM · Training-free
 - **📚 [A Comprehensive Survey of Hallucination Mitigation Techniques in Large Language Models](https://arxiv.org/abs/2401.01313)** · arXiv · LLM · Training-free
 - **[INSIDE: LLMs&apos; Internal States Retain the Power of Hallucination Detection](https://openreview.net/forum?id=Zj12nzlQbz)** · 未标注 · LLM · Training-free · 💻[code](https://github.com/nteract/hydrogen)
+- **[Hallucination Detection in Virtually-Stained Histology: A Latent Space Baseline](https://doi.org/10.1109/tmi.2026.3720925)** · 其他 · LLM · Training-free
+- **[Do Language Models Know When They&apos;re Hallucinating References?](https://doi.org/10.18653/v1/2024.findings-eacl.62)** · 其他 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Utilizing GPT to Enhance Text Summarization: A Strategy to Minimize Hallucinations](https://doi.org/10.1016/j.procs.2024.10.197)** · ACLING 2024 · LLM · Training-free
 - **[Using Laplace Transform To Optimize the Hallucination of Generation Models](https://doi.org/10.1109/ICARCV63323.2024.10821684)** · ICARCV 2024 · LLM · Training-free
 - **[UMUTeam at SemEval-2024 Task 6: Leveraging Zero-Shot Learning for Detecting Hallucinations and Related Observable Overgeneration Mistakes](https://doi.org/10.18653/v1/2024.semeval-1.98)** · SemEval@NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/OpenChemistry/molecules)
@@ -1630,6 +1665,7 @@
 - **[SemEval-2024 Shared Task 6: SHROOM, a Shared-task on Hallucinations and Related Observable Overgeneration Mistakes](https://doi.org/10.18653/v1/2024.semeval-1.273)** · SemEval@NAACL 2024 · LLM · Training-free
 - **[SLPL SHROOM at SemEval2024 Task 06 : A comprehensive study on models ability to detect hallucination](https://doi.org/10.18653/v1/2024.semeval-1.167)** · SemEval@NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[SHROOM-INDElab at SemEval-2024 Task 6: Zero- and Few-Shot LLM-Based Classification for Hallucination Detection](https://doi.org/10.18653/v1/2024.semeval-1.120)** · SemEval@NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
+- **[OctavianB at SemEval-2024 Task 6: An exploration of humanlike qualities of hallucinated LLM texts](https://doi.org/10.18653/v1/2024.semeval-1.169)** · SemEval@NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[OPDAI at SemEval-2024 Task 6: Small LLMs can Accelerate Hallucination Detection with Weakly Supervised Data](https://doi.org/10.18653/v1/2024.semeval-1.104)** · SemEval@NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **📋 [OAEI-LLM: A Benchmark Dataset for Understanding Large Language Model Hallucinations in Ontology Matching](https://ceur-ws.org/Vol-3953/361.pdf)** · HGAIS@ISWC 2024 · LLM · Training-free · 💻[code](https://github.com/ellenzhuwang/AMD-v2)
 - **[NootNoot At SemEval-2024 Task 6: Hallucinations and Related Observable Overgeneration Mistakes Detection](https://doi.org/10.18653/v1/2024.semeval-1.139)** · SemEval@NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
@@ -1649,7 +1685,7 @@
 - **[HaRMoNEE at SemEval-2024 Task 6: Tuning-based Approaches to Hallucination Recognition](https://doi.org/10.18653/v1/2024.semeval-1.191)** · SemEval@NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[HIT-MI&amp;T Lab at SemEval-2024 Task 6: DeBERTa-based Entailment Model is a Reliable Hallucination Detector](https://doi.org/10.18653/v1/2024.semeval-1.253)** · 18th International Workshop on Semantic Evaluation (SemEval-2024) 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[GraphEval: A Knowledge-Graph Based LLM Hallucination Evaluation Framework](https://ceur-ws.org/Vol-3894/paper5.pdf)** · KiL@KDD 2024 · LLM · Training-free · 💻[code](https://github.com/ulab-uiuc/GraphEval)
-- **📋 [German also Hallucinates! Inconsistency Detection in News Summaries with the Absinth Dataset](https://aclanthology.org/2024.lrec-main.680)** · LREC/COLING 2024 · LLM · Training-free
+- **📋 [German Also Hallucinates! Inconsistency Detection in News Summaries with the Absinth Dataset](https://aclanthology.org/2024.lrec-main.680)** · LREC/COLING 2024 · LLM · Training-free
 - **[Exploring the Knowledge Mismatch Hypothesis: Hallucination Propensity in Small Models Fine-tuned on Data from Larger Models](https://doi.org/10.1109/BDCAT63179.2024.00048)** · BDCAT 2024 · LLM · Training-based
 - **[Explicitly Stating Assumptions Reduces Hallucinations in Natural Language Inference](https://openreview.net/forum?id=eJI9pfNwBS)** · Tiny Papers @ ICLR 2024 · LLM · Training-free
 - **[Evaluating the Effects of Prompt Perturbation on Bias and Hallucination in Large Language Models](https://doi.org/10.1007/978-981-96-6588-4_25)** · ICONIP 2024 · LLM · Training-free
@@ -1665,6 +1701,7 @@
 - **📚 [Cognitive Mirage: A Review of Hallucinations in Large Language Models](https://ceur-ws.org/Vol-3818/paper2.pdf)** · LKM@IJCAI 2024 · LLM · Training-free
 - **[Can Hallucination Reduction in LLMs Improve Online Sexism Detection?](https://doi.org/10.1007/978-3-031-66329-1_40)** · Lecture Notes in Networks and Systems 2024 · LLM · Training-free
 - **[CPR: Mitigating Large Language Model Hallucinations with Curative Prompt Refinement](https://doi.org/10.1109/SMC54092.2024.10830938)** · SMC 2024 · LLM · Training-free · 💻[code](https://github.com/XRIM-Lab/GS-CPR)
+- **[Byun at SemEval-2024 Task 6: Text Classification on Hallucinating Text with Simple Data Augmentation](https://doi.org/10.18653/v1/2024.semeval-1.41)** · SemEval@NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[BrainLlama at SemEval-2024 Task 6: Prompting Llama to detect hallucinations and related observable overgeneration mistakes](https://doi.org/10.18653/v1/2024.semeval-1.14)** · SemEval@NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Benchmarking Hallucination in Large Language Models Based on Unanswerable Math Word Problem](https://aclanthology.org/2024.lrec-main.196)** · LREC/COLING 2024 · LLM · Training-based · 💻[code](https://github.com/Yuki-Asuuna/UMWP)
 - **[AlphaIntellect at SemEval-2024 Task 6: Detection of Hallucinations in Generated Text](https://doi.org/10.18653/v1/2024.semeval-1.137)** · SemEval@NAACL 2024 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
@@ -1677,8 +1714,9 @@
 </details>
 
 <details>
-<summary>📅 2023 · 20 篇</summary>
+<summary>📅 2023 · 26 篇</summary>
 
+- **[Why LLMs Hallucinate, and How to Get (Evidential) Closure: Perceptual, Intensional, and Extensional Learning for Faithful Natural Language Generation](https://doi.org/10.18653/v1/2023.emnlp-main.192)** · EMNLP 2023 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Towards Mitigating LLM Hallucination via Self Reflection](https://doi.org/10.18653/v1/2023.findings-emnlp.123)** · EMNLP 2023 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Sources of Hallucination by Large Language Models on Inference Tasks](https://doi.org/10.18653/v1/2023.findings-emnlp.182)** · EMNLP 2023 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[SAC3: Reliable Hallucination Detection in Black-Box Language Models via Semantic-aware Cross-check Consistency: Reliable Hallucination Detection in Black-Box Language Models via Semantic-aware Cross-check Consistency](https://doi.org/10.18653/v1/2023.findings-emnlp.1032)** · EMNLP 2023 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
@@ -1687,33 +1725,41 @@
 - **📋 [HalOmi: A Manually Annotated Benchmark for Multilingual Hallucination and Omission Detection in Machine Translation](https://doi.org/10.18653/v1/2023.emnlp-main.42)** · EMNLP 2023 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Eyes Show the Way: Modelling Gaze Behaviour for Hallucination Detection](https://doi.org/10.18653/v1/2023.findings-emnlp.764)** · EMNLP 2023 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Critic-Driven Decoding for Mitigating Hallucinations in Data-to-text Generation](https://doi.org/10.18653/v1/2023.emnlp-main.172)** · EMNLP 2023 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
+- **[CReTIHC: Designing Causal Reasoning Tasks about Temporal Interventions and Hallucinated Confoundings](https://doi.org/10.18653/v1/2023.findings-emnlp.693)** · EMNLP 2023 · LLM · Training-free · 💻[code](https://github.com/ChangwooChun/CReTIHC)
 - **[CRUSH4SQL: Collective Retrieval Using Schema Hallucination For Text2SQL](https://doi.org/10.18653/v1/2023.emnlp-main.868)** · EMNLP 2023 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **📋 [A New Benchmark and Reverse Validation Method for Passage-level Hallucination Detection](https://doi.org/10.18653/v1/2023.findings-emnlp.256)** · EMNLP 2023 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Contrastive Decoding: Open-ended Text Generation as Optimization](https://doi.org/10.18653/v1/2023.acl-long.687)** · ACL 2023 · LLM · Training-free · 💻[code](https://github.com/XiangLi1999/ContrastiveDecoding)
+- **[ChatGPT Hallucinates when Attributing Answers](https://doi.org/10.1145/3624918.3625329)** · SIGIR-AP 2023 · LLM · Training-free
 - **[CaPE: Contrastive Parameter Ensembling for Reducing Hallucination in Abstractive Summarization](https://doi.org/10.18653/v1/2023.findings-acl.685)** · ACL 2023 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
+- **[HaLP: Hallucinating Latent Positives for Skeleton-Based Self-Supervised Learning of Actions](https://doi.org/10.1109/CVPR52729.2023.01807)** · CVPR 2023 · LLM · Training-free · 💻[code](https://github.com/anshulbshah/HaLP)
 - **[Looking for a Needle in a Haystack: A Comprehensive Study of Hallucinations in Neural Machine Translation](https://doi.org/10.18653/v1/2023.eacl-main.75)** · EACL 2023 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Contrastive Learning Reduces Hallucination in Conversations](https://doi.org/10.1609/aaai.v37i11.26596)** · AAAI 2023 · LLM · Training-free · 💻[code](https://github.com/sunnweiwei/MixCL)
+- **[HADES: Hallucination-Aware Detection and Evaluation System for Large Language Model Outputs in Enterprise CRM Workflows](https://doi.org/10.71097/ijaidr.v14.i1.1964)** · 其他 · LLM · Training-free · 💻[code](https://github.com/chriskaliX/Hades)
 - **[Untangling Emotional Threads: Hallucination Networks of Large Language Models](https://doi.org/10.1007/978-3-031-53468-3_17)** · COMPLEX NETWORKS 2023 · LLM · Training-free
 - **[Towards reducing hallucination in extracting information from financial reports using Large Language Models](https://doi.org/10.1145/3639856.3639895)** · AIMLSystems 2023 · LLM · Training-free
 - **[Med-HALT: Medical Domain Hallucination Test for Large Language Models](https://doi.org/10.18653/v1/2023.conll-1.21)** · CoNLL 2023 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Hallucination Detection: Robustly Discerning Reliable Answers in Large Language Models](https://doi.org/10.1145/3583780.3614905)** · CIKM 2023 · LLM · Training-based
+- **[Floorplan Restoration by Structure Hallucinating Transformer Cascades](http://proceedings.bmvc2023.org/90/)** · BMVC 2023 · LLM · Training-free
 - **[Detecting Dialogue Hallucination Using Graph Neural Networks](https://doi.org/10.1109/ICMLA58977.2023.00128)** · ICMLA 2023 · LLM · Training-free
 - **[&quot;Why is this misleading?&quot;: Detecting News Headline Hallucinations with Explanations](https://doi.org/10.1145/3543507.3583375)** · WWW 2023 · LLM · Training-free
 
 </details>
 
 <details>
-<summary>📅 2022 · 2 篇</summary>
+<summary>📅 2022 · 4 篇</summary>
 
 - **[Hallucinated but Factual! Inspecting the Factuality of Hallucinations in Abstractive Summarization](https://doi.org/10.18653/v1/2022.acl-long.236)** · ACL 2022 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[On the Origin of Hallucinations in Conversational Models: Is it the Datasets or the Models?](https://doi.org/10.18653/v1/2022.naacl-main.387)** · NAACL 2022 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
+- **[Hallucinated Neural Radiance Fields in the Wild](https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Hallucinated_Neural_Radiance_Fields_in_the_Wild_CVPR_2022_paper.html)** · 未标注 · LLM · Training-free · 💻[code](https://github.com/rover-xingyu/Ha-NeRF)
+- **[Improving Radiology Report Generation Systems by Removing Hallucinated References to Non-existent Priors](https://proceedings.mlr.press/v193/ramesh22a.html)** · ML4H@NeurIPS 2022 · LLM · Training-free
 
 </details>
 
 <details>
-<summary>📅 2021 · 3 篇</summary>
+<summary>📅 2021 · 4 篇</summary>
 
 - **[Retrieval Augmentation Reduces Hallucination in Conversation](https://doi.org/10.18653/v1/2021.findings-emnlp.320)** · EMNLP 2021 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
+- **[Learning To Hallucinate Examples From Extrinsic and Intrinsic Supervision](https://doi.org/10.1109/ICCV48922.2021.00858)** · ICCV 2021 · LLM · Training-free
 - **[The Curious Case of Hallucinations in Neural Machine Translation](https://doi.org/10.18653/v1/2021.naacl-main.92)** · NAACL 2021 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[On Hallucination and Predictive Uncertainty in Conditional Language Generation](https://doi.org/10.18653/v1/2021.eacl-main.236)** · EACL 2021 · LLM · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 
@@ -1739,10 +1785,17 @@
 </details>
 
 <details>
-<summary>👁️ VLM · 745 篇</summary>
+<summary>👁️ VLM · 763 篇</summary>
 
 <details>
-<summary>📅 2026 · 316 篇</summary>
+<summary>📅 2027 · 1 篇</summary>
+
+- **[Stroke-Level Connectivity Verification: Grounding Vision-Language Models Against Topology Hallucination in Diagram Understanding](https://doi.org/10.1007/978-3-032-36023-6_19)** · 其他 · VLM · Training-free
+
+</details>
+
+<details>
+<summary>📅 2026 · 328 篇</summary>
 
 - **[See Only When Needed: Context-Aware Attention Intervention for Mitigating Hallucinations in LVLMs](https://arxiv.org/abs/2606.29847)** · ECCV 2026 · VLM · Training-free · 💻[code](https://github.com/Iris1946/CAI)
 - **[Overview of SHROOM-Visions 2026: A Shared Task on Hallucination Detection in Large Vision-Language Models](https://arxiv.org/abs/2608.25662)** · arXiv · VLM · Training-free
@@ -1764,6 +1817,7 @@
 - **[When Model Priors Conflict with Visual Evidence: Mitigating Commonsense-Driven Hallucinations by Selective Prior Calibration](https://arxiv.org/abs/2607.29240)** · arXiv · VLM · Training-free
 - **[Role-Break in Attention Heads: Understanding and Detecting Hallucinations in VLMs](https://arxiv.org/abs/2607.29412)** · arXiv · VLM · Training-based
 - **[Hallucinations Leave a Grounding Signature:Verifier-Guided Decoding for Selective Object Correction](https://arxiv.org/abs/2607.27823)** · arXiv · VLM · Training-free · 💻[code](https://github.com/mltooling/ci-test)
+- **[Rethinking CD: A Reproducibility Study and Extension on the Ineffectiveness of Contrastive Decoding at Mitigating Object Hallucinations in MLLMs](https://arxiv.org/abs/2607.25196)** · arXiv · VLM · Training-free
 - **[When Low CER is Not Enough: An Analysis of Hallucinations in Vision-Language OCR Systems on Historical Uruguayan Documents](https://arxiv.org/abs/2607.24077)** · arXiv · VLM · Training-free · 💻[code](https://github.com/IgnacioValenzuelaM/Smina_Redocking)
 - **[HALLELUAI: A Hallucination-Aware AI System for Ultra-Realistic Image-to-Video Generation at Scale](https://arxiv.org/abs/2607.22959)** · arXiv · VLM · Training-free
 - **[ProCap: Prominence-guided Object Rectification for Faithful and Comprehensive Video Captioning](https://arxiv.org/abs/2607.21022)** · arXiv · VLM · Training-free · 💻[code](https://github.com/Debjyoti-Adhikary/ProCap)
@@ -1775,6 +1829,7 @@
 - **[SciForma: Structure-Faithful Generation of Scientific Diagrams](https://arxiv.org/abs/2607.18091)** · arXiv · VLM · Training-free · 💻[code](https://github.com/microsoft/SciForma)
 - **[Look Clearly Before Answering: Mitigating Hallucinations in LVLMs via Saliency-Driven Perceptual Realignment](https://arxiv.org/abs/2607.16841)** · arXiv · VLM · Training-free · 💻[code](https://github.com/PengSyuChen/SDPR)
 - **📋 [ArtChart: A Benchmark for Faithful Artistic Chart Generation with Integrated Text Rendering](https://arxiv.org/abs/2607.16060)** · arXiv · VLM · Training-free · 💻[code](https://github.com/Janarthanana/artchart)
+- **[Unified Hallucination Fuzzing for Multimodal Large Language Models](https://arxiv.org/abs/2608.07525)** · arXiv · VLM · Training-based · 💻[code](https://github.com/LanceZPF/EvalHall)
 - **[Groc-PO: Grounded Context Preference Optimization for Truthful Multimodal LLMs](https://arxiv.org/abs/2607.13712)** · arXiv · VLM · Training-based
 - **[Anatomically Faithful but Temporally Diffuse: Auditing Attribution for Left-Ventricular Ejection-Fraction Estimation from Echocardiography](https://arxiv.org/abs/2607.13738)** · arXiv · VLM · Training-free
 - **[Hallo4D: Multi-Modal Hallucination Mitigation for Consistent Spatio-Temporal Generation](https://arxiv.org/abs/2607.12752)** · arXiv · VLM · Training-free · 💻[code](https://github.com/wafer-bob/Hallo4D)
@@ -2036,11 +2091,19 @@
 - **[VideoHEDGE: Entropy-Based Hallucination Detection for Video-VLMs via Semantic Clustering and Spatiotemporal Perturbations](https://arxiv.org/abs/2601.08557)** · arXiv · VLM · Training-free · 💻[code](https://github.com/Simula/HEDGE)
 - **[Seeing Right but Saying Wrong: Inter- and Intra-Layer Refinement in MLLMs without Training](https://arxiv.org/abs/2601.07359)** · arXiv · VLM · Training-free
 - **[Engineering of Hallucination in Generative AI: It's not a Bug, it's a Feature](https://arxiv.org/abs/2601.07046)** · arXiv · VLM · Training-based
-- **[Tone Matters: The Impact of Linguistic Tone on Hallucination in VLMs](https://arxiv.org/abs/2601.06460)** · arXiv · VLM · Training-free · 💻[code](https://github.com/bli1/tone-matters)
-- **[CounterVid: Counterfactual Video Generation for Mitigating Action and Temporal Hallucinations in Video-Language Models](https://arxiv.org/abs/2601.04778)** · arXiv · VLM · Training-based
+- **[CounterVid: Counterfactual Video Generation for Mitigating Action and Temporal Hallucinations in Video-Language Models](https://arxiv.org/abs/2601.04778)** · arXiv · VLM · Training-based · 💻[code](https://github.com/aimagelab/CounterVid)
 - **[SDCD: Structure-Disrupted Contrastive Decoding for Mitigating Hallucinations in Large Vision-Language Models](https://arxiv.org/abs/2601.03500)** · arXiv · VLM · Training-free · 💻[code](https://github.com/azizilab/sdcd)
 - **[Text-Guided Layer Fusion Mitigates Hallucination in Multimodal LLMs](https://arxiv.org/abs/2601.03100)** · arXiv · VLM · Training-free · 💻[code](https://github.com/getquoteonline/Find-Verified-Aviation-Distributors-at-Partsquote.org)
 - **[FaithSCAN: Model-Driven Single-Pass Hallucination Detection for Faithful Visual Question Answering](https://arxiv.org/abs/2601.00269)** · arXiv · VLM · Training-free
+- **[Training-free counterfactual hallucination mitigation method for large vision-language models](https://doi.org/10.1007/s00530-026-02577-3)** · 其他 · VLM · Training-free
+- **[Tone Matters: The Impact of Linguistic Tone on Hallucination in VLMs](https://doi.org/10.1109/WACVW68408.2026.00147)** · 其他 · VLM · Training-free
+- **[Real-time hallucination correction in vision-language models using dynamic knowledge graph verification](https://doi.org/10.1007/s44163-026-01778-z)** · 其他 · VLM · Training-free
+- **[REVERIE+: Generalized Reflective Instruction Tuning for Hallucination Mitigation in Advanced VLMs](https://doi.org/10.1007/s11263-026-02945-6)** · 其他 · VLM · Training-based
+- **[MBHNet: Multimodal Brain Hallucination Network for Fluid Intelligence Prediction Under Missing Structural Connectivity](https://doi.org/10.1109/icip61757.2026.11630138)** · 其他 · VLM · Training-free · 💻[code](https://github.com/yudawen/MBHNet)
+- **[Hallucination Mitigation in Large Vision-Language Models via Contrastive Decoding with Attention Enhancement and Masking](https://doi.org/10.1109/icip61757.2026.11630515)** · 其他 · VLM · Training-free
+- **[Cohesion: Consensus-Based Hallucination Subspace Estimation for Multimodal Large Language Models](https://doi.org/10.1109/icip61757.2026.11630364)** · 其他 · VLM · Training-free · 💻[code](https://github.com/Jinfeng-Xu/COHESION)
+- **[Beyond Visual Perception: Mitigating Multimodal Hallucination via Hybrid Preference Optimization](https://doi.org/10.1109/icip61757.2026.11630292)** · 其他 · VLM · Training-based
+- **[Alleviating Hallucination in Large Vision-Language Models via Structure-Aware Adaptive Contrastive Decoding](https://doi.org/10.1109/icip61757.2026.11630323)** · 其他 · VLM · Training-free
 - **[VGL-DPO: Vision-Guided Lexical Direct Preference Optimization for Mitigating Hallucination in Multimodal Large Language Models](https://doi.org/10.1145/3796715)** · TOMM 2026 · VLM · Training-based
 - **📋 [TempHalluc-Bench: Evaluating Temporal Hallucination in VideoLLM-Based Video Search and Information Extraction](https://doi.org/10.5120/ijca-1aef39d4b120)** · International Journal of Computer Applications 2026 · VLM · Training-free
 - **[Mitigating hallucination in Multimodal Large Language Models via cross-layer visual anchors](https://doi.org/10.1016/j.patcog.2026.114380)** · Pattern Recognit. 2026 · VLM · Training-free
@@ -2051,6 +2114,7 @@
 - **[Mitigating Hallucination in Multimodal Information Systems: A Comparative Analysis of Modular LLM Architectures](https://doi.org/10.1109/tcss.2026.3691181)** · IEEE Transactions on Computational Social Systems 2026 · VLM · Training-free
 - **[Med-VCD: Mitigating Hallucination for Medical Large Vision Language Models through Visual Contrastive Decoding](https://doi.org/10.1016/j.compbiomed.2025.111347)** · Comput. Biol. Medicine 2026 · VLM · Training-free
 - **[Hallucination Elimination and Text Annotation Framework for Large Vision-Language Models in Traffic Scenarios](https://doi.org/10.1109/TITS.2025.3625700)** · IEEE Trans. Intell. Transp. Syst. 2026 · VLM · Training-free
+- **[Eliminating Object Hallucination in MLLMs via Convex Potential Flow Intervention](https://doi.org/10.1007/978-3-032-31441-3_33)** · ICPR 2026 · VLM · Training-free
 - **📋 [EH-Benchmark Ophthalmic Hallucination Benchmark and Agent-Driven Top-Down Traceable Reasoning Workflow](https://doi.org/10.1016/j.inffus.2025.103631)** · INFFUS 2026 · VLM · Training-free · 💻[code](https://github.com/ppxy1/EH-Benchmark)
 - **[Dr.V : A Hierarchical Perception-Temporal-Cognition Framework to Diagnose Video Hallucination by Fine-Grained Spatial-Temporal Grounding](https://doi.org/10.1007/s11263-026-02831-1)** · IJCV 2026 · VLM · Training-free · 💻[code](https://github.com/Eurekaleo/Dr.V)
 - **[Do Vision Encoders Truly Explain Object Hallucination?: Mitigating Object Hallucination via Simple Fine-Grained CLIPScore](https://openreview.net/forum?id=JTua6tDPgZ)** · TMLR 2026 · VLM · Training-free · 💻[code](https://github.com/abzb1/f-clip)
@@ -2058,13 +2122,14 @@
 - **[CRoPS: A Training-Free Hallucination Mitigation Framework for Vision-Language Models](https://openreview.net/forum?id=KQSoZDPVGX)** · TMLR 2026 · VLM · Training-free · 💻[code](https://github.com/rugk/crops-parser)
 - **📋 [CDH-Bench: A Commonsense-Driven Hallucination Benchmark for Evaluating Visual Fidelity in Vision-Language Models](https://doi.org/10.1007/978-981-92-3504-9_17)** · ICIC 2026 · VLM · Training-free · 💻[code](https://github.com/hardware-and-co/cdh-linux-bench)
 - **[Attention Reallocation: Towards Zero-cost and Controllable Hallucination Mitigation of MLLMs](https://doi.org/10.1007/s11263-025-02607-z)** · IJCV 2026 · VLM · Training-free
+- **[AI Score Hallucination in Vision-Language Models: Measuring Self-Assessment Calibration for Iterative 3D Scene Positioning](https://doi.org/10.1145/3799825.3818692)** · SIGGRAPH Posters 2026 · VLM · Training-free
 - **📚 [A Survey of Multimodal Hallucination Evaluation and Detection](https://doi.org/10.1007/s11263-026-02756-9)** · IJCV 2026 · VLM · Training-free
 - **[A CNN-Based Framework for Addressing Hallucination Phenomena: Mitigating Limitations Across Multimodal and Clinical Contexts](https://doi.org/10.1007/978-3-032-14197-2_22)** · Lecture Notes in Networks and Systems 2026 · VLM · Training-free
 
 </details>
 
 <details>
-<summary>📅 2025 · 308 篇</summary>
+<summary>📅 2025 · 307 篇</summary>
 
 - **[Taming Hallucinations: Boosting MLLMs' Video Understanding via Counterfactual Video Generation](https://arxiv.org/abs/2512.24271)** · arXiv · VLM · Training-based · 💻[code](https://github.com/AMAP-ML/Taming-Hallucinations)
 - **[Watch Closely: Mitigating Object Hallucinations in Large Vision-Language Models with Disentangled Decoding](https://arxiv.org/abs/2512.19070)** · arXiv · VLM · Training-free · 💻[code](https://github.com/rickeyhhh/Hallucination-Disentangled-Decoding)
@@ -2141,7 +2206,6 @@
 - **[Mitigating Diffusion Model Hallucinations with Dynamic Guidance](https://arxiv.org/abs/2510.05356)** · arXiv · VLM · Training-free
 - **[Why LVLMs Are More Prone to Hallucinations in Longer Responses: The Role of Context](https://doi.org/10.1109/ICCV51701.2025.00391)** · ICCV 2025 · VLM · Training-free · 💻[code](https://github.com/SooLab/HalTrapper)
 - **[Visual Perception Uncertainty Learning for Hallucination Detection in Large Vision-Language Models](https://doi.org/10.1145/3746027.3755126)** · ACM MM 2025 · VLM · Training-free
-- **[VisHall3D: Monocular Semantic Scene Completion from Reconstructing the Visible Regions to Hallucinating the Invisible Regions](https://doi.org/10.1109/ICCV51701.2025.02663)** · ICCV 2025 · VLM · Training-free · 💻[code](https://github.com/luang321/vishall3d)
 - **[TruthPrInt: Mitigating Large Vision-Language Models Object Hallucination via Latent Truthful-Guided Pre-Intervention](https://doi.org/10.1109/ICCV51701.2025.00692)** · ICCV 2025 · VLM · Training-free · 💻[code](https://github.com/jinhaoduan/TruthPrInt)
 - **[See Different, Think Better: Visual Variations Mitigating Hallucinations in LVLMs](https://doi.org/10.1145/3746027.3755044)** · ACM MM 2025 · VLM · Training-free · 💻[code](https://github.com/oliviadzy/ViHallu)
 - **[SHIFT: Smoothing Hallucinations by Information Flow Tuning for Multimodal Large Language Models](https://doi.org/10.1109/ICCV51701.2025.00347)** · ICCV 2025 · VLM · Training-free · 💻[code](https://github.com/model-zoo/shift-ctrl-f)
@@ -2199,7 +2263,6 @@
 - **[Multi-Stage Verification-Centric Framework for Mitigating Hallucination in Multi-Modal RAG](https://arxiv.org/abs/2507.20136)** · arXiv · VLM · Training-free · 💻[code](https://github.com/Breezelled/KDD-Cup-2025-Meta-CRAG-MM)
 - **[LISA: A Layer-wise Integration and Suppression Approach for Hallucination Mitigation in Multimodal Large Language Models](https://arxiv.org/abs/2507.19110)** · arXiv · VLM · Training-free · 💻[code](https://github.com/zhlisa1010-eng/LISA)
 - **[Extracting Visual Facts from Intermediate Layers for Mitigating Hallucinations in Multimodal Large Language Models](https://arxiv.org/abs/2507.15652)** · arXiv · VLM · Training-free
-- **[RODS: Robust Optimization Inspired Diffusion Sampling for Detecting and Reducing Hallucination in Generative Models](https://arxiv.org/abs/2507.12201)** · arXiv · VLM · Training-free · 💻[code](https://github.com/Yiqi-Verna-Tian/RODS)
 - **[From dots to faces: Individual differences in visual imagery capacity predict the content of Ganzflicker-induced hallucinations](https://arxiv.org/abs/2507.09011)** · arXiv · VLM · Training-free
 - **[Energy-Guided Decoding for Object Hallucination Mitigation](https://arxiv.org/abs/2507.07731)** · arXiv · VLM · Training-free
 - **[Hallucinating 360°: Panoramic Street-View Generation via Local Scenes Diffusion and Probabilistic Prompting](https://arxiv.org/abs/2507.06971)** · arXiv · VLM · Training-free · 💻[code](https://github.com/FeiT-FeiTeng/Percep360)
@@ -2235,7 +2298,6 @@
 - **[CAI: Caption-Sensitive Attention Intervention for Mitigating Object Hallucination in Large Vision-Language Models](https://arxiv.org/abs/2506.23590)** · arXiv · VLM · Training-free · 💻[code](https://github.com/aliasrobotics/cai)
 - **[ReCo: Reminder Composition Mitigates Hallucinations in Vision-Language Models](https://arxiv.org/abs/2506.22636)** · arXiv · VLM · Training-free · 💻[code](https://github.com/Arvinth-Krishna/Reco-PC-Server)
 - **[Counterfactual Segmentation Reasoning: Diagnosing and Mitigating Pixel-Grounding Hallucination](https://arxiv.org/abs/2506.21546)** · arXiv · VLM · Training-based
-- **[Seeing is Believing? Mitigating OCR Hallucinations in Multimodal Large Language Models](https://arxiv.org/abs/2506.20168)** · arXiv · VLM · Training-based · 💻[code](https://github.com/wangqiannudt/nerf-arxiv-daily)
 - **[MDSAM:Memory-Driven Sparse Attention Matrix for LVLMs Hallucination Mitigation](https://arxiv.org/abs/2506.17664)** · arXiv · VLM · Training-free · 💻[code](https://github.com/BellyBeauty/MDSAM)
 - **[HalluRNN: Mitigating Hallucinations via Recurrent Cross-Layer Reasoning in Large Vision-Language Models](https://arxiv.org/abs/2506.17587)** · arXiv · VLM · Training-free
 - **[Revisit What You See: Disclose Language Prior in Vision Tokens for Efficient Guided Decoding of LVLMs](https://arxiv.org/abs/2506.09522)** · arXiv · VLM · Training-free · 💻[code](https://github.com/bscho333/ReVisiT)
@@ -2275,7 +2337,6 @@
 - **[Image Tokens Matter: Mitigating Hallucination in Discrete Tokenizer-based Large Vision-Language Models via Latent Editing](https://arxiv.org/abs/2505.21547)** · arXiv · VLM · Training-free · 💻[code](https://github.com/weixingW/CGC-VTD)
 - **[Seeing It or Not? Interpretable Vision-aware Latent Steering to Mitigate Object Hallucinations](https://arxiv.org/abs/2505.17812)** · arXiv · VLM · Training-free · 💻[code](https://github.com/Ziwei-Zheng/VaLSe)
 - **[OViP: Online Vision-Language Preference Learning for VLM Hallucination](https://arxiv.org/abs/2505.15963)** · arXiv · VLM · Training-based · 💻[code](https://github.com/lsjlsj35/Online-Vision-Language-Preference-Learning-for-VLM-Hallucination)
-- **[Mitigating Hallucination in VideoLLMs via Temporal-Aware Activation Engineering](https://arxiv.org/abs/2505.12826)** · arXiv · VLM · Training-free
 - **[Mitigating Hallucinations via Inter-Layer Consistency Aggregation in Large Vision-Language Models](https://arxiv.org/abs/2505.12343)** · arXiv · VLM · Training-free
 - **[MTRE: Multi-Token Reliability Estimation for Hallucination Detection in VLMs](https://arxiv.org/abs/2505.11741)** · arXiv · VLM · Training-free · 💻[code](https://github.com/voidiak/MTRE)
 - **[EmotionHallucer: Evaluating Emotion Hallucinations in Multimodal Large Language Models](https://arxiv.org/abs/2505.11405)** · arXiv · VLM · Training-free · 💻[code](https://github.com/xxtars/EmotionHallucer)
@@ -2286,7 +2347,6 @@
 - **[ResNetVLLM-2: Addressing ResNetVLLM's Multi-Modal Hallucinations](https://arxiv.org/abs/2504.14429)** · arXiv · VLM · Training-free
 - **[Hydra: An Agentic Reasoning Approach for Enhancing Adversarial Robustness and Mitigating Hallucinations in Vision-Language Models](https://arxiv.org/abs/2504.14395)** · arXiv · VLM · Training-free · 💻[code](https://github.com/ory/hydra)
 - **[Low-hallucination Synthetic Captions for Large-Scale Vision-Language Model Pre-training](https://arxiv.org/abs/2504.13123)** · arXiv · VLM · Training-based
-- **[Generate, but Verify: Reducing Hallucination in Vision-Language Models with Retrospective Resampling](https://arxiv.org/abs/2504.13169)** · arXiv · VLM · Training-free · 💻[code](https://github.com/tsunghan-wu/reverse_vlm)
 - **[Efficient Contrastive Decoding with Probabilistic Hallucination Detection - Mitigating Hallucinations in Large Vision Language Models -](https://arxiv.org/abs/2504.12137)** · arXiv · VLM · Training-free
 - **[The Mirage of Performance Gains: Why Contrastive Decoding Fails to Mitigate Object Hallucinations in MLLMs?](https://arxiv.org/abs/2504.10020)** · arXiv · VLM · Training-free · 💻[code](https://github.com/ustc-hyin/cd_rethink)
 - **[DataPuzzle: Breaking Free from the Hallucinated Promise of LLMs in Data Analysis](https://arxiv.org/abs/2504.10036)** · arXiv · VLM · Training-free · 💻[code](https://github.com/linkzhui/DataPuzzle)
@@ -2323,7 +2383,6 @@
 - **[Make VLM Recognize Visual Hallucination on Cartoon Character Image with Pose Information](https://doi.org/10.1109/WACV61041.2025.00527)** · WACV 2025 · VLM · Training-free · 💻[code](https://github.com/gh-BumsooKim/Cartoon-Hallucinations-Detection)
 - **[Enhancing Weakly-Supervised Object Detection on Static Images through (Hallucinated) Motion](https://doi.org/10.1109/WACVW65960.2025.00117)** · WACV 2025 · VLM · Training-free
 - **[Aerial Mirage: Unmasking Hallucinations in Large Vision Language Models](https://doi.org/10.1109/WACV61041.2025.00537)** · WACV 2025 · VLM · Training-free
-- **📋 [MedHallTune: An Instruction-Tuning Benchmark for Mitigating Medical Hallucination in Vision-Language Models](https://arxiv.org/abs/2502.20780)** · arXiv · VLM · Training-free · 💻[code](https://github.com/russellyq/MedHallTune)
 - **[FilterRAG: Zero-Shot Informed Retrieval-Augmented Generation to Mitigate Hallucinations in VQA](https://arxiv.org/abs/2502.18536)** · arXiv · VLM · Training-free
 - **[Mitigating Hallucinations in Diffusion Models through Adaptive Attention Modulation](https://arxiv.org/abs/2502.16872)** · arXiv · VLM · Training-free
 - **[Exploring Causes and Mitigation of Hallucinations in Large Vision Language Models](https://arxiv.org/abs/2502.16842)** · arXiv · VLM · Training-free
@@ -2351,8 +2410,13 @@
 - **[EAGLE: Enhanced Visual Grounding Minimizes Hallucinations in Instructional Multimodal Models](https://arxiv.org/abs/2501.02699)** · arXiv · VLM · Training-free · 💻[code](https://github.com/NVlabs/Eagle)
 - **[RRHF-V: Ranking Responses to Mitigate Hallucinations in Multimodal Large Language Models with Human Feedback](https://aclanthology.org/2025.coling-main.454/)** · COLING 2025 · VLM · Training-based · 💻[code](https://github.com/chengq1001/RRHF-V)
 - **[Look, Compare, Decide: Alleviating Hallucination in Large Vision-Language Models via Multi-View Multi-Path Reasoning](https://aclanthology.org/2025.coling-main.299/)** · COLING 2025 · VLM · Training-free · 💻[code](https://github.com/GasolSun36/MVP)
+- **[What&apos;s in Common? Multimodal Models Hallucinate When Reasoning Across Scenes](http://papers.nips.cc/paper_files/paper/2025/hash/3e5b0db387078ac4968fd536d3c3a019-Abstract-Datasets_and_Benchmarks_Track.html)** · 未标注 · VLM · Training-free
+- **[Seeing is Believing? Mitigating OCR Hallucinations in Multimodal Large Language Models](http://papers.nips.cc/paper_files/paper/2025/hash/6b628a3d7cb8055eb6fd2dd48c586347-Abstract-Conference.html)** · 未标注 · VLM · Training-free
 - **[RAR: Reversing Visual Attention Re-sinking for Unlocking Potential in Multimodal Large Language Models]()** · 未标注 · VLM · Training-free · 💻[code](https://github.com/43081j/rar.js)
 - **[Mitigating Hallucination for Large Vision Language Model by Inter-Modality Correlation Calibration Decoding]()** · 未标注 · VLM · Training-free · 💻[code](https://github.com/lijm48/IMCCD)
+- **📋 [MedHallTune: An Instruction-Tuning Benchmark for Mitigating Medical Hallucination in Vision-Language Models](https://doi.org/10.1109/tmi.2026.3719326)** · 其他 · VLM · Training-free · 💻[code](https://github.com/russellyq/MedHallTune)
+- **[Generate, but Verify: Reducing Hallucination in Vision-Language Models with Retrospective Resampling](http://papers.nips.cc/paper_files/paper/2025/hash/5eff08bd064f0cdd92182cdf6fd06b99-Abstract-Conference.html)** · 未标注 · VLM · Training-free · 💻[code](https://github.com/tsunghan-wu/reverse_vlm)
+- **[Discovering Compositional Hallucinations in LVLMs](http://papers.nips.cc/paper_files/paper/2025/hash/299a08ee712d4752c890938da99a77c6-Abstract-Conference.html)** · 未标注 · VLM · Training-free
 - **[WonderHuman: Hallucinating Unseen Parts in Dynamic 3D Human Reconstruction](https://doi.org/10.1109/TVCG.2025.3618268)** · IEEE Trans. Vis. Comput. Graph. 2025 · VLM · Training-based · 💻[code](https://github.com/wyiguanw/WonderHuman)
 - **[Visual hallucination detection in large vision-language models via evidential conflict](https://doi.org/10.1016/j.ijar.2025.109507)** · Int. J. Approx. Reason. 2025 · VLM · Training-free · 💻[code](https://github.com/HT86159/Evidential-Conflict)
 - **[VDIS: Combating Object Hallucination in Multimodal Large Language Models](https://doi.org/10.1007/978-981-95-5696-0_28)** · PRCV 2025 · VLM · Training-free · 💻[code](https://github.com/GPUOpen-LibrariesAndSDKs/RapidFire_SDK)
@@ -2378,12 +2442,11 @@
 </details>
 
 <details>
-<summary>📅 2024 · 115 篇</summary>
+<summary>📅 2024 · 118 篇</summary>
 
 - **[Towards a Systematic Evaluation of Hallucinations in Large-Vision Language Models](https://arxiv.org/abs/2412.20622)** · arXiv · VLM · Training-free
 - **[VORD: Visual Ordinal Calibration for Mitigating Object Hallucinations in Large Vision-Language Models](https://arxiv.org/abs/2412.15739)** · arXiv · VLM · Training-free · 💻[code](https://github.com/9xN/vord)
 - **[Hallucination Elimination and Semantic Enhancement Framework for Vision-Language Models in Traffic Scenarios](https://arxiv.org/abs/2412.07518)** · arXiv · VLM · Training-free · 💻[code](https://github.com/fjq-tongji/HCOENet)
-- **[Delve into Visual Contrastive Decoding for Hallucination Mitigation of Large Vision-Language Models](https://arxiv.org/abs/2412.06775)** · arXiv · VLM · Training-free · 💻[code](https://github.com/YiLunLee/VCD_Analysis)
 - **[Evaluating Hallucination in Text-to-Image Diffusion Models with Scene-Graph based Question-Answering Agent](https://arxiv.org/abs/2412.05722)** · arXiv · VLM · Training-free
 - **[An Evolutionary Large Language Model for Hallucination Mitigation](https://arxiv.org/abs/2412.02790)** · arXiv · VLM · Training-free
 - **[Toward a Stable, Fair, and Comprehensive Evaluation of Object Hallucination in Large Vision-Language Models](http://papers.nips.cc/paper_files/paper/2024/hash/c9b551a2e195a209fc0b280de2f7f781-Abstract-Conference.html)** · NeurIPS 2024 · VLM · Training-free
@@ -2480,10 +2543,14 @@
 - **[Seeing is Believing: Mitigating Hallucination in Large Vision-Language Models via CLIP-Guided Decoding](https://arxiv.org/abs/2402.15300)** · arXiv · VLM · Training-free · 💻[code](https://github.com/d-ailin/CLIP-Guided-Decoding)
 - **[Skip \n: A Simple Method to Reduce Hallucination in Large Vision-Language Models](https://arxiv.org/abs/2402.01345)** · arXiv · VLM · Training-free · 💻[code](https://github.com/Han-Zongbo/Skip-n)
 - **📚 [A Survey on Hallucination in Large Vision-Language Models](https://arxiv.org/abs/2402.00253)** · arXiv · VLM · Training-free
+- **[Domain-Hallucinated Updating for Multi-Domain Face Anti-spoofing](https://doi.org/10.1609/aaai.v38i3.27992)** · AAAI 2024 · VLM · Training-free
 - **[Detecting and Preventing Hallucinations in Large Vision Language Models](https://doi.org/10.1609/aaai.v38i16.29771)** · AAAI 2024 · VLM · Training-based · 💻[code](https://github.com/hendryx-scale/mhal-detect)
 - **[Temporal Insight Enhancement: Mitigating Temporal Hallucination in Multimodal Large Language Models](https://arxiv.org/abs/2401.09861)** · arXiv · VLM · Training-free
 - **📚 [LightHouse: A Survey of AGI Hallucination](https://arxiv.org/abs/2401.06792)** · arXiv · VLM · Training-free · 💻[code](https://github.com/GoogleChrome/lighthouse)
+- **[Mitigating Large Vision-Language Model Hallucination at Post-hoc via Multi-agent System](https://doi.org/10.1609/aaaiss.v4i1.31780)** · 其他 · VLM · Training-free
+- **[HalluciDoctor: Mitigating Hallucinatory Toxicity in Visual Instruction Data](https://openaccess.thecvf.com/content/CVPR2024/html/Yu_HalluciDoctor_Mitigating_Hallucinatory_Toxicity_in_Visual_Instruction_Data_CVPR_2024_paper.html)** · 未标注 · VLM · Training-free · 💻[code](https://github.com/Yuqifan1117/HalluciDoctor)
 - **[HAIT: Hybrid Adversarial Iterative Training for Mitigating Object Hallucination in Large Vision-Language Models]()** · 未标注 · VLM · Training-based
+- **[Delve into Visual Contrastive Decoding for Hallucination Mitigation of Large Vision-Language Models](https://doi.org/10.1007/978-3-032-31441-3_12)** · 其他 · VLM · Training-free · 💻[code](https://github.com/YiLunLee/VCD_Analysis)
 - **[Temporal Insight Enhancement: Mitigating Temporal Hallucination in Video Understanding by Multimodal Large Language Models](https://doi.org/10.1007/978-3-031-78183-4_29)** · ICPR 2024 · VLM · Training-free
 - **[RadFlag: A Black-Box Hallucination Detection Method for Medical Vision Language Models](https://proceedings.mlr.press/v259/zhang25c.html)** · ML4H@NeurIPS 2024 · VLM · Training-free · 💻[code](https://github.com/some1else/radflag)
 - **[Mitigating Hallucination in Visual-Language Models via Re-Balancing Contrastive Decoding](https://doi.org/10.1007/978-981-97-8620-6_33)** · PRCV 2024 · VLM · Training-free
@@ -2509,9 +2576,24 @@
 </details>
 
 <details>
-<summary>📅 2022 · 1 篇</summary>
+<summary>📅 2022 · 2 篇</summary>
 
 - **[Let there be a clock on the beach: Reducing Object Hallucination in Image Captioning](https://doi.org/10.1109/WACV51458.2022.00253)** · WACV 2022 · VLM · Training-free
+- **[Slower visual perception and alpha oscillation as a potential neural markers of visual hallucination in Parkinson’s Disease](https://doi.org/10.1167/jov.22.14.3867)** · 其他 · VLM · Training-free
+
+</details>
+
+<details>
+<summary>📅 2021 · 1 篇</summary>
+
+- **[HalentNet: Multimodal Trajectory Forecasting with Hallucinative Intents](https://openreview.net/forum?id=9GBZBPn0Jx)** · 未标注 · VLM · Training-free · 💻[code](https://github.com/Vision-CAIR/HalentNet)
+
+</details>
+
+<details>
+<summary>📅 2020 · 1 篇</summary>
+
+- **[Hallucinative Topological Memory for Zero-Shot Visual Planning](http://proceedings.mlr.press/v119/liu20h.html)** · ICML 2020 · VLM · Training-free
 
 </details>
 
@@ -2525,7 +2607,7 @@
 </details>
 
 <details>
-<summary>🌐 MLLM(Omni) · 49 篇</summary>
+<summary>🌐 MLLM(Omni) · 52 篇</summary>
 
 <details>
 <summary>📅 2026 · 25 篇</summary>
@@ -2559,9 +2641,10 @@
 </details>
 
 <details>
-<summary>📅 2025 · 17 篇</summary>
+<summary>📅 2025 · 18 篇</summary>
 
 - **[The Curse of Multi-Modalities: Evaluating Hallucinations of Large Multimodal Models across Language, Visual, and Audio](http://papers.nips.cc/paper_files/paper/2025/hash/9b0b18a77421d45d26c3df5612caefe7-Abstract-Datasets_and_Benchmarks_Track.html)** · NeurIPS 2025 · MLLM(Omni) · Training-free
+- **📋 [AHa-Bench: Benchmarking Audio Hallucinations in Large Audio-Language Models](http://papers.nips.cc/paper_files/paper/2025/hash/1169afa8ad13c98239f0b666b099e159-Abstract-Datasets_and_Benchmarks_Track.html)** · NeurIPS 2025 · MLLM(Omni) · Training-free · 💻[code](https://github.com/AHa-Bench/AHa-Bench)
 - **[Mitigating Attention Sinks and Massive Activations in Audio-Visual Speech Recognition with LLMs](https://arxiv.org/abs/2510.22603)** · arXiv · MLLM(Omni) · Training-free · 💻[code](https://github.com/umbertocappellazzo/Llama-AVSR)
 - **📋 [Hallucination Benchmark for Speech Foundation Models](https://arxiv.org/abs/2510.16567)** · arXiv · MLLM(Omni) · Training-free · 💻[code](https://github.com/SALT-Research/SHALLOW)
 - **[Benchmarking and Bridging Emotion Conflicts for Multimodal Emotion Reasoning](https://doi.org/10.1145/3746027.3754856)** · ACM MM 2025 · MLLM(Omni) · Training-based · 💻[code](https://github.com/ZhiyuanHan-Aaron/MoSEAR)
@@ -2582,14 +2665,22 @@
 </details>
 
 <details>
-<summary>📅 2024 · 6 篇</summary>
+<summary>📅 2024 · 7 篇</summary>
 
 - **📚 [A Comprehensive Survey of Hallucination in Large Language, Image, Video and Audio Foundation Models](https://doi.org/10.18653/v1/2024.findings-emnlp.685)** · EMNLP 2024 · MLLM(Omni) · Training-free · 💻[code](https://github.com/elpaco-escience/scikit-talk)
 - **[Understanding Sounds, Missing the Questions: The Challenge of Object Hallucination in Large Audio-Language Models](https://doi.org/10.21437/Interspeech.2024-1076)** · INTERSPEECH 2024 · MLLM(Omni) · Training-free
 - **[CrossCheckGPT: Universal Hallucination Ranking for Multimodal Foundation Models](https://arxiv.org/abs/2405.13684)** · arXiv · MLLM(Omni) · Training-based · 💻[code](https://github.com/potsawee/crosscheckgpt-dev)
 - **[On the Audio Hallucinations in Large Audio-Video Language Models](https://arxiv.org/abs/2401.09774)** · arXiv · MLLM(Omni) · Training-free · 💻[code](https://github.com/iszhanjiawei/video-to-audio-arxiv-daily)
 - **[Hallucinations in Neural Automatic Speech Recognition: Identifying Errors and Hallucinatory Models](https://arxiv.org/abs/2401.01572)** · arXiv · MLLM(Omni) · Training-free
+- **[Phoneme Hallucinator: One-Shot Voice Conversion via Set Expansion](https://doi.org/10.1609/aaai.v38i13.29411)** · 其他 · MLLM(Omni) · Training-free
 - **[Careless Whisper: Speech-to-Text Hallucination Harms](https://doi.org/10.1145/3630106.3658996)** · FAccT 2024 · MLLM(Omni) · Training-free
+
+</details>
+
+<details>
+<summary>📅 2023 · 1 篇</summary>
+
+- **[Halluaudio: Hallucinate Frequency as Concepts For Few-Shot Audio Classification](https://doi.org/10.1109/ICASSP49357.2023.10095663)** · 其他 · MLLM(Omni) · Training-free · 💻[code](https://github.com/Feiyuzhao25/halluaudio)
 
 </details>
 
