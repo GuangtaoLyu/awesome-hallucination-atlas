@@ -6,11 +6,11 @@
 >
 > 涵盖幻觉的**检测、评测与缓解**方法，支持按模型类型、方法类型、年份多维交叉筛选，并以标签补充模态与场景。
 >
-> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1442/2009 篇），非仅标题关键词。
+> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1443/2010 篇），非仅标题关键词。
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Papers-2009-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1442-9cf' />
+  <img src='https://img.shields.io/badge/Papers-2010-blue' />
+  <img src='https://img.shields.io/badge/Abstract--based-1443-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-08&color=orange' />
 </p>
@@ -41,8 +41,8 @@
 
 <a id="sec-overview"></a>
 ## 📊 数据概览
-- **论文总数**：`2009` （已去重）
-- **含论文链接**：`2006` · **含全文摘要**：`1442` · **含代码链接**：`1078` · **顶会正式发表**：`1006`
+- **论文总数**：`2010` （已去重）
+- **含论文链接**：`2007` · **含全文摘要**：`1443` · **含代码链接**：`1078` · **顶会正式发表**：`1006`
 - 顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息
 - **覆盖年份**：2018 – 2027
 
@@ -51,7 +51,7 @@
 | 年份 | 数量 | 占比 |
 |------|------|------|
 | 2027 | 6 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| 2026 | 810 | `████████░░░░░░░░░░░░` 40.3%
+| 2026 | 811 | `████████░░░░░░░░░░░░` 40.3%
 | 2025 | 768 | `████████░░░░░░░░░░░░` 38.2%
 | 2024 | 375 | `████░░░░░░░░░░░░░░░░` 18.7%
 | 2023 | 31 | `░░░░░░░░░░░░░░░░░░░░` 1.5%
@@ -66,7 +66,7 @@
 
 | 模型类型 | 说明 | 数量 |
 |----------|------|------|
-| **VLM** | 视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作） | 763 |
+| **VLM** | 视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作） | 764 |
 | **MLLM(Omni)** | 全模态模型（Omni：音频 / 语音 / any-to-any） | 52 |
 | **LLM** | 纯语言大模型 | 1194 |
 
@@ -75,7 +75,7 @@
 
 | 方法类型 | 说明 | 数量 |
 |----------|------|------|
-| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1750 |
+| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1751 |
 | **Training-based** | 基于训练（偏好优化 / 微调 / 强化学习等） | 259 |
 
 
@@ -145,7 +145,7 @@
 | USENIX Security Symposium | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | TNNLS | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.0%
 | 其他 | 237 | `██░░░░░░░░░░░░░░░░░░` 11.8%
-| arXiv（预印本） | 973 | `██████████░░░░░░░░░░` 48.4%
+| arXiv（预印本） | 974 | `██████████░░░░░░░░░░` 48.5%
 | 未标注 | 16 | `░░░░░░░░░░░░░░░░░░░░` 0.8%
 
 <details>
@@ -324,7 +324,7 @@
 | CCF-A | 455 | `█████░░░░░░░░░░░░░░░` 22.6%
 | CCF-B | 238 | `██░░░░░░░░░░░░░░░░░░` 11.8%
 | CCF-C | 36 | `░░░░░░░░░░░░░░░░░░░░` 1.8%
-| 未收录 | 1280 | `█████████████░░░░░░░` 63.7%
+| 未收录 | 1281 | `█████████████░░░░░░░` 63.7%
 > 📋 另有 `117` 篇 **评测 / Benchmark** 论文、📚 `35` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。
 
 ---
@@ -1785,7 +1785,7 @@
 </details>
 
 <details>
-<summary>👁️ VLM · 763 篇</summary>
+<summary>👁️ VLM · 764 篇</summary>
 
 <details>
 <summary>📅 2027 · 1 篇</summary>
@@ -1795,9 +1795,10 @@
 </details>
 
 <details>
-<summary>📅 2026 · 328 篇</summary>
+<summary>📅 2026 · 329 篇</summary>
 
 - **[See Only When Needed: Context-Aware Attention Intervention for Mitigating Hallucinations in LVLMs](https://arxiv.org/abs/2606.29847)** · ECCV 2026 · VLM · Training-free · 💻[code](https://github.com/Iris1946/CAI)
+- **[Dynamic Alignment Compensation for Hallucination Mitigation in Large Vision-Language Models](https://arxiv.org/abs/2608.28058)** · arXiv · VLM · Training-free
 - **[Overview of SHROOM-Visions 2026: A Shared Task on Hallucination Detection in Large Vision-Language Models](https://arxiv.org/abs/2608.25662)** · arXiv · VLM · Training-free
 - **[Targeting the Attention Heads Behind Object Hallucination in LLaVA](https://arxiv.org/abs/2608.24966)** · arXiv · VLM · Training-free
 - **[ReWEIGH the Evidence: Calibrating Token-Level Ordinal Visual Evidence to Mitigate Hallucinations in Large Vision-Language Models](https://arxiv.org/abs/2608.19075)** · arXiv · VLM · Training-free
