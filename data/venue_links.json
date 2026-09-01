@@ -5932,5 +5932,10 @@
   "year": 2020,
   "ee": "http://proceedings.mlr.press/v119/liu20h.html"
  },
- "dynamicalignmentcompensationforhallucinationmitigationinlargevisionlanguagemodels": ""
+ "dynamicalignmentcompensationforhallucinationmitigationinlargevisionlanguagemodels": "",
+ "thehallucinationsignalisameanshiftwhysimpleprobessuffice": "",
+ "detectingandrepairinghallucinationsinretrievalaugmentedgeneration": "",
+ "hallucinationmitigationforlargevisionlanguagemodelsviaimplicitfeaturestabilization": "",
+ "spancalibvlmcalibratedhallucinationspandetectioninvisionlanguagemodels": "",
+ "viservisualevidenceandrelianceforobjecthallucinationdetectioninlvlms": ""
 }

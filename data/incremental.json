@@ -5290,5 +5290,41 @@
     "Kairong Yu, Zixin Zhu, Le Yu, Hongwei Wang",
     "https://arxiv.org/abs/2608.28058",
     2026
+  ],
+  [
+    "VisER: Visual Evidence and Reliance for Object Hallucination Detection in LVLMs",
+    "Afsaneh Hasanebrahimi, Hanxun Huang, Christopher Leckie, Sarah Erfani",
+    "https://arxiv.org/abs/2608.30480",
+    2026
+  ],
+  [
+    "SpanCalib-VLM: Calibrated Hallucination Span Detection in Vision-Language Models",
+    "Amanuel Gizachew Abebe, Yasmin Moslem",
+    "https://arxiv.org/abs/2608.29974",
+    2026
+  ],
+  [
+    "Hallucination Mitigation for Large Vision-Language Models via Implicit Feature Stabilization",
+    "Aditi Sarker, Rafi Ibn Sultan, Hui Zhu, Dongxiao Zhu, Prashant Khanduri",
+    "https://arxiv.org/abs/2608.29924",
+    2026
+  ],
+  [
+    "Detecting and Repairing Hallucinations in Retrieval-Augmented Generation",
+    "Sai Krishna Reddy Mulakkayala, Niki van Stein, Aske Plaat",
+    "https://arxiv.org/abs/2608.29307",
+    2026
+  ],
+  [
+    "EviAnchor: Mitigating Hallucinations in Large Vision-Language Models via Regional Visual Evidence Compensation",
+    "Sihang Jia, Shuliang Liu, Songbo Yang, Xuming Hu",
+    "https://arxiv.org/abs/2608.29092",
+    2026
+  ],
+  [
+    "The Hallucination Signal Is a Mean Shift: Why Simple Probes Suffice",
+    "Jungseob Lee, Jaehyung Seo, Heuiseok Lim",
+    "https://arxiv.org/abs/2608.28930",
+    2026
   ]
 ]
