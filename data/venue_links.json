@@ -5937,5 +5937,10 @@
  "detectingandrepairinghallucinationsinretrievalaugmentedgeneration": "",
  "hallucinationmitigationforlargevisionlanguagemodelsviaimplicitfeaturestabilization": "",
  "spancalibvlmcalibratedhallucinationspandetectioninvisionlanguagemodels": "",
- "viservisualevidenceandrelianceforobjecthallucinationdetectioninlvlms": ""
+ "viservisualevidenceandrelianceforobjecthallucinationdetectioninlvlms": "",
+ "beyondlanguagepriorsdiagnosingandfixingvisualoriginhallucinationsinmultimodalllm": "",
+ "theprivacyhallucinationtradeoffindifferentiallyprivatelanguagemodels": "",
+ "charmcharacterhallucinationformulticulturalroleplaybenchmark": "",
+ "enokiefficientmultilevelhallucinationdetection": "",
+ "evianchormitigatinghallucinationsinlargevisionlanguagemodelsviaregionalvisualevidencecompensation": ""
 }

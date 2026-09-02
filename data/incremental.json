@@ -5326,5 +5326,29 @@
     "Jungseob Lee, Jaehyung Seo, Heuiseok Lim",
     "https://arxiv.org/abs/2608.28930",
     2026
+  ],
+  [
+    "CHARM: Character Hallucination for Multicultural Role Play Benchmark",
+    "Sunkyung Han, Nahyeon Park, Gaeun Seo, Seunghyun Yoon, JinYeong Bak",
+    "https://arxiv.org/abs/2609.01352",
+    2026
+  ],
+  [
+    "Enoki: Efficient Multi-Level Hallucination Detection",
+    "Elisei Rykov, Timur Ionov, Nikolay Ivanov, Maksim Savkin, Maksim Makarenko, Alexander Panchenko, Vasily Konovalov, Julia Belikova",
+    "https://arxiv.org/abs/2609.00581",
+    2026
+  ],
+  [
+    "The Privacy-Hallucination Tradeoff in Differentially Private Language Models",
+    "Krithika Ramesh, Krishna Pillutla, Danish Pruthi, Anjalie Field",
+    "https://arxiv.org/abs/2609.00492",
+    2026
+  ],
+  [
+    "Beyond Language Priors: Diagnosing and Fixing Visual-Origin Hallucinations in Multimodal LLM",
+    "Peiyang Xu, Xiaopei Zhu, Jun Zhu, Xiaolin Hu",
+    "https://arxiv.org/abs/2609.00231",
+    2026
   ]
 ]
