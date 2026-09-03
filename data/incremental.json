@@ -5350,5 +5350,29 @@
     "Peiyang Xu, Xiaopei Zhu, Jun Zhu, Xiaolin Hu",
     "https://arxiv.org/abs/2609.00231",
     2026
+  ],
+  [
+    "RVSD: Retrieval Vision Sparse Decoding for Mitigating Visual Hallucinations in Large Vision-Language Models",
+    "Canjie Liu, Jiawen Kang, Jinbo Wen, Zishao Zhong",
+    "https://arxiv.org/abs/2609.02731",
+    2026
+  ],
+  [
+    "From Tokens to Semantics: Leveraging Complementary Signals for Hallucination Detection in Black-Box LLMs",
+    "Urja Pawar, Rajitha Ramanayake, Owen O'Neill, Nabeel Kemal, Abhishek Mandal, Houssem Chatbri, Christopher Martin",
+    "https://arxiv.org/abs/2609.02679",
+    2026
+  ],
+  [
+    "Detecting Object Hallucinations in Large Vision-Language Models via Cross-Modal Attention Drifts and Mask-Based Verification",
+    "Xuanbing Wen, Boxu Chen, Le Yang, Jiakai Wang, Zhengyu Zhao, Chenhao Lin, Chao Shen",
+    "https://arxiv.org/abs/2609.02028",
+    2026
+  ],
+  [
+    "Does Playing it Safe Count as Faithfulness? Reassessing LVLM Hallucination Mitigation Methods",
+    "Mehrdad Fazli, Sina Mansouri, Mohit Marvania, Ziwei Zhu",
+    "https://arxiv.org/abs/2609.01888",
+    2026
   ]
 ]
