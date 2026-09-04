@@ -6,11 +6,11 @@
 >
 > 涵盖幻觉的**检测、评测与缓解**方法，支持按模型类型、方法类型、年份多维交叉筛选，并以标签补充模态与场景。
 >
-> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1457/2024 篇），非仅标题关键词。
+> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1459/2026 篇），非仅标题关键词。
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Papers-2024-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1457-9cf' />
+  <img src='https://img.shields.io/badge/Papers-2026-blue' />
+  <img src='https://img.shields.io/badge/Abstract--based-1459-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-09&color=orange' />
 </p>
@@ -41,8 +41,8 @@
 
 <a id="sec-overview"></a>
 ## 📊 数据概览
-- **论文总数**：`2024` （已去重）
-- **含论文链接**：`2021` · **含全文摘要**：`1457` · **含代码链接**：`1078` · **顶会正式发表**：`1006`
+- **论文总数**：`2026` （已去重）
+- **含论文链接**：`2023` · **含全文摘要**：`1459` · **含代码链接**：`1078` · **顶会正式发表**：`1006`
 - 顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息
 - **覆盖年份**：2018 – 2027
 
@@ -51,7 +51,7 @@
 | 年份 | 数量 | 占比 |
 |------|------|------|
 | 2027 | 6 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| 2026 | 825 | `████████░░░░░░░░░░░░` 40.8%
+| 2026 | 827 | `████████░░░░░░░░░░░░` 40.8%
 | 2025 | 768 | `████████░░░░░░░░░░░░` 37.9%
 | 2024 | 375 | `████░░░░░░░░░░░░░░░░` 18.5%
 | 2023 | 31 | `░░░░░░░░░░░░░░░░░░░░` 1.5%
@@ -68,14 +68,14 @@
 |----------|------|------|
 | **VLM** | 视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作） | 773 |
 | **MLLM(Omni)** | 全模态模型（Omni：音频 / 语音 / any-to-any） | 52 |
-| **LLM** | 纯语言大模型 | 1199 |
+| **LLM** | 纯语言大模型 | 1201 |
 
 
 ### 按方法类型分布
 
 | 方法类型 | 说明 | 数量 |
 |----------|------|------|
-| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1764 |
+| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1766 |
 | **Training-based** | 基于训练（偏好优化 / 微调 / 强化学习等） | 260 |
 
 
@@ -145,7 +145,7 @@
 | USENIX Security Symposium | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | TNNLS | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.0%
 | 其他 | 237 | `██░░░░░░░░░░░░░░░░░░` 11.7%
-| arXiv（预印本） | 988 | `██████████░░░░░░░░░░` 48.8%
+| arXiv（预印本） | 990 | `██████████░░░░░░░░░░` 48.9%
 | 未标注 | 16 | `░░░░░░░░░░░░░░░░░░░░` 0.8%
 
 <details>
@@ -322,10 +322,10 @@
 | CCF 评级 | 数量 | 占比 |
 |----------|------|------|
 | CCF-A | 455 | `████░░░░░░░░░░░░░░░░` 22.5%
-| CCF-B | 238 | `██░░░░░░░░░░░░░░░░░░` 11.8%
+| CCF-B | 238 | `██░░░░░░░░░░░░░░░░░░` 11.7%
 | CCF-C | 36 | `░░░░░░░░░░░░░░░░░░░░` 1.8%
-| 未收录 | 1295 | `█████████████░░░░░░░` 64.0%
-> 📋 另有 `118` 篇 **评测 / Benchmark** 论文、📚 `35` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。
+| 未收录 | 1297 | `█████████████░░░░░░░` 64.0%
+> 📋 另有 `119` 篇 **评测 / Benchmark** 论文、📚 `35` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。
 
 ---
 
@@ -359,11 +359,12 @@
 
 <a id="sec-benchmark"></a>
 ## 📋 评测与 Benchmark
-> 独立收录 `118` 篇评测 / Benchmark / 数据集论文（同时保留在下方主列表中，标有 📋）。
+> 独立收录 `119` 篇评测 / Benchmark / 数据集论文（同时保留在下方主列表中，标有 📋）。
 
 <details open>
-<summary>📋 评测与 Benchmark 列表 (118 papers — click to collapse / expand)</summary>
+<summary>📋 评测与 Benchmark 列表 (119 papers — click to collapse / expand)</summary>
 
+- **📋 [HalluPeer: A Taxonomy-driven Benchmark for Detecting Hallucinations in Scientific Peer Reviews](https://arxiv.org/abs/2609.03580)** · arXiv · LLM · Training-free
 - **📋 [CHARM: Character Hallucination for Multicultural Role Play Benchmark](https://arxiv.org/abs/2609.01352)** · arXiv · LLM · Training-free
 - **📋 [KnowHal: A Knowledge-Driven Benchmark for Comprehensive Multimodal Hallucination Evaluation](https://arxiv.org/abs/2608.03782)** · arXiv · VLM · Training-free
 - **📋 [HalluTruthQA: A Fine-Grained Benchmark for Hallucination Detection, Localization, and Explanation in Arabic Question Answering](https://arxiv.org/abs/2607.20219)** · arXiv · LLM · Training-free · 💻[code](https://gitlab.com/nlpresearcher/HalluTruthQA)
@@ -533,7 +534,7 @@
 > 按**模型类型**分组（LLM / VLM / MLLM），每组内再按年份展开；点击标题可展开 / 收起。每条格式：**标题** · 会议/年份 · 模型 · 方法 · 💻代码。标题链接优先顶会官方版本。📋 = 评测/Benchmark 论文，📚 = 综述 Survey 论文。完整摘要与多维交叉筛选见交互式网站 [`docs/index.html`](docs/index.html)。欢迎 PR 补充。
 
 <details>
-<summary>🤖 LLM · 1199 篇</summary>
+<summary>🤖 LLM · 1201 篇</summary>
 
 <details>
 <summary>📅 2027 · 5 篇</summary>
@@ -547,8 +548,10 @@
 </details>
 
 <details>
-<summary>📅 2026 · 462 篇</summary>
+<summary>📅 2026 · 464 篇</summary>
 
+- **📋 [HalluPeer: A Taxonomy-driven Benchmark for Detecting Hallucinations in Scientific Peer Reviews](https://arxiv.org/abs/2609.03580)** · arXiv · LLM · Training-free
+- **[Beyond Majority Vote: Multi-Perspective Adjudication for Medical Hallucination Detection](https://arxiv.org/abs/2609.03953)** · arXiv · LLM · Training-free
 - **[Enoki: Efficient Multi-Level Hallucination Detection](https://arxiv.org/abs/2609.00581)** · arXiv · LLM · Training-free
 - **📋 [CHARM: Character Hallucination for Multicultural Role Play Benchmark](https://arxiv.org/abs/2609.01352)** · arXiv · LLM · Training-free
 - **[The Privacy-Hallucination Tradeoff in Differentially Private Language Models](https://arxiv.org/abs/2609.00492)** · arXiv · LLM · Training-free

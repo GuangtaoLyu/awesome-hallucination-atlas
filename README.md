@@ -6,11 +6,11 @@
 >
 > Covers **detection, evaluation, and mitigation** of hallucinations, with multi-dimensional faceted filtering by model type, method type, and year, plus tags for modality and scenario.
 >
-> Taxonomy is auto-labeled from the **full arXiv abstract text** (1457/2024 papers), not just title keywords.
+> Taxonomy is auto-labeled from the **full arXiv abstract text** (1459/2026 papers), not just title keywords.
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Papers-2024-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1457-9cf' />
+  <img src='https://img.shields.io/badge/Papers-2026-blue' />
+  <img src='https://img.shields.io/badge/Abstract--based-1459-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-09&color=orange' />
 </p>
@@ -41,8 +41,8 @@
 
 <a id="sec-overview"></a>
 ## 📊 Data Overview
-- **Total papers**：`2024` (deduplicated)
-- **With paper link**：`2021` · **With abstract**：`1457` · **With code**：`1078` · **Published at venue**：`1006`
+- **Total papers**：`2026` (deduplicated)
+- **With paper link**：`2023` · **With abstract**：`1459` · **With code**：`1078` · **Published at venue**：`1006`
 - For papers published at a venue: time and link prioritize the official conference/journal info (DBLP), otherwise arXiv info is used.
 - **Year range**：2018 – 2027
 
@@ -51,7 +51,7 @@
 | Year | Count | Share |
 |------|------|------|
 | 2027 | 6 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| 2026 | 825 | `████████░░░░░░░░░░░░` 40.8%
+| 2026 | 827 | `████████░░░░░░░░░░░░` 40.8%
 | 2025 | 768 | `████████░░░░░░░░░░░░` 37.9%
 | 2024 | 375 | `████░░░░░░░░░░░░░░░░` 18.5%
 | 2023 | 31 | `░░░░░░░░░░░░░░░░░░░░` 1.5%
@@ -68,14 +68,14 @@
 |----------|------|------|
 | **VLM** | Vision-Language Model (LVLM; also covers works that call themselves MLLM but handle only image/video + text) | 773 |
 | **MLLM(Omni)** | Omni / full-modal model (audio / speech / any-to-any) | 52 |
-| **LLM** | Pure text-based LLM | 1199 |
+| **LLM** | Pure text-based LLM | 1201 |
 
 
 ### Method Type
 
 | Method Type | Description | Count |
 |----------|------|------|
-| **Training-free** | Training-free (decoding intervention / attention calibration / representation guidance, etc.) | 1764 |
+| **Training-free** | Training-free (decoding intervention / attention calibration / representation guidance, etc.) | 1766 |
 | **Training-based** | Training-based (preference optimization / fine-tuning / RL, etc.) | 260 |
 
 
@@ -145,7 +145,7 @@
 | USENIX Security Symposium | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | TNNLS | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.0%
 | Other | 237 | `██░░░░░░░░░░░░░░░░░░` 11.7%
-| arXiv (preprint) | 988 | `██████████░░░░░░░░░░` 48.8%
+| arXiv (preprint) | 990 | `██████████░░░░░░░░░░` 48.9%
 | Unlabeled | 16 | `░░░░░░░░░░░░░░░░░░░░` 0.8%
 
 <details>
@@ -322,10 +322,10 @@
 | CCF Rating | Count | Share |
 |----------|------|------|
 | CCF-A | 455 | `████░░░░░░░░░░░░░░░░` 22.5%
-| CCF-B | 238 | `██░░░░░░░░░░░░░░░░░░` 11.8%
+| CCF-B | 238 | `██░░░░░░░░░░░░░░░░░░` 11.7%
 | CCF-C | 36 | `░░░░░░░░░░░░░░░░░░░░` 1.8%
-| Not in CCF | 1295 | `█████████████░░░░░░░` 64.0%
-> 📋 `118` **Benchmark** papers and 📚 `35` **Survey** papers are listed separately (see sections below) and do not affect the method taxonomy.
+| Not in CCF | 1297 | `█████████████░░░░░░░` 64.0%
+> 📋 `119` **Benchmark** papers and 📚 `35` **Survey** papers are listed separately (see sections below) and do not affect the method taxonomy.
 
 ---
 
@@ -359,11 +359,12 @@ Hallucination research is moving fast. These directions are especially hot in 20
 
 <a id="sec-benchmark"></a>
 ## 📋 Benchmarks & Evaluation
-> 118 evaluation / benchmark / dataset papers are listed separately (also kept in the main list below, marked 📋).
+> 119 evaluation / benchmark / dataset papers are listed separately (also kept in the main list below, marked 📋).
 
 <details open>
-<summary>📋 Benchmark List (118 papers — click to collapse / expand)</summary>
+<summary>📋 Benchmark List (119 papers — click to collapse / expand)</summary>
 
+- **📋 [HalluPeer: A Taxonomy-driven Benchmark for Detecting Hallucinations in Scientific Peer Reviews](https://arxiv.org/abs/2609.03580)** · arXiv · LLM · Training-free
 - **📋 [CHARM: Character Hallucination for Multicultural Role Play Benchmark](https://arxiv.org/abs/2609.01352)** · arXiv · LLM · Training-free
 - **📋 [KnowHal: A Knowledge-Driven Benchmark for Comprehensive Multimodal Hallucination Evaluation](https://arxiv.org/abs/2608.03782)** · arXiv · VLM · Training-free
 - **📋 [HalluTruthQA: A Fine-Grained Benchmark for Hallucination Detection, Localization, and Explanation in Arabic Question Answering](https://arxiv.org/abs/2607.20219)** · arXiv · LLM · Training-free · 💻[code](https://gitlab.com/nlpresearcher/HalluTruthQA)
@@ -533,7 +534,7 @@ Hallucination research is moving fast. These directions are especially hot in 20
 > Grouped by **model type** (LLM / VLM / MLLM), then expanded by year inside each group; click a header to expand / collapse. Format per entry: **Title** · venue/year · model · method · 💻code. Title links prefer the official venue version. 📋 = Benchmark paper, 📚 = Survey paper. Full abstracts and multi-dimensional filtering are available in the interactive website [`docs/index.html`](docs/index.html). PRs welcome.
 
 <details>
-<summary>🤖 LLM · 1199 篇</summary>
+<summary>🤖 LLM · 1201 篇</summary>
 
 <details>
 <summary>📅 2027 · 5 papers</summary>
@@ -547,8 +548,10 @@ Hallucination research is moving fast. These directions are especially hot in 20
 </details>
 
 <details>
-<summary>📅 2026 · 462 papers</summary>
+<summary>📅 2026 · 464 papers</summary>
 
+- **📋 [HalluPeer: A Taxonomy-driven Benchmark for Detecting Hallucinations in Scientific Peer Reviews](https://arxiv.org/abs/2609.03580)** · arXiv · LLM · Training-free
+- **[Beyond Majority Vote: Multi-Perspective Adjudication for Medical Hallucination Detection](https://arxiv.org/abs/2609.03953)** · arXiv · LLM · Training-free
 - **[Enoki: Efficient Multi-Level Hallucination Detection](https://arxiv.org/abs/2609.00581)** · arXiv · LLM · Training-free
 - **📋 [CHARM: Character Hallucination for Multicultural Role Play Benchmark](https://arxiv.org/abs/2609.01352)** · arXiv · LLM · Training-free
 - **[The Privacy-Hallucination Tradeoff in Differentially Private Language Models](https://arxiv.org/abs/2609.00492)** · arXiv · LLM · Training-free

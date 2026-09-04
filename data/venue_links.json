@@ -5946,5 +5946,7 @@
  "doesplayingitsafecountasfaithfulnessreassessinglvlmhallucinationmitigationmethods": "",
  "detectingobjecthallucinationsinlargevisionlanguagemodelsviacrossmodalattentiondriftsandmaskbasedverification": "",
  "fromtokenstosemanticsleveragingcomplementarysignalsforhallucinationdetectioninblackboxllms": "",
- "rvsdretrievalvisionsparsedecodingformitigatingvisualhallucinationsinlargevisionlanguagemodels": ""
+ "rvsdretrievalvisionsparsedecodingformitigatingvisualhallucinationsinlargevisionlanguagemodels": "",
+ "beyondmajorityvotemultiperspectiveadjudicationformedicalhallucinationdetection": "",
+ "hallupeerataxonomydrivenbenchmarkfordetectinghallucinationsinscientificpeerreviews": ""
 }
