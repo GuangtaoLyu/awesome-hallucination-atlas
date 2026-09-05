@@ -5948,5 +5948,65 @@
  "fromtokenstosemanticsleveragingcomplementarysignalsforhallucinationdetectioninblackboxllms": "",
  "rvsdretrievalvisionsparsedecodingformitigatingvisualhallucinationsinlargevisionlanguagemodels": "",
  "beyondmajorityvotemultiperspectiveadjudicationformedicalhallucinationdetection": "",
- "hallupeerataxonomydrivenbenchmarkfordetectinghallucinationsinscientificpeerreviews": ""
+ "hallupeerataxonomydrivenbenchmarkfordetectinghallucinationsinscientificpeerreviews": "",
+ "bornpragmatictrainedtohallucinatequantifyingtheoriginsofcontextualbiasinllmsviathepacebenchmark": {
+  "venue": "ACL",
+  "year": 2026,
+  "ee": "https://doi.org/10.18653/v1/2026.findings-acl.959"
+ },
+ "towardsgroundedhallucinationdefinitionsforbiomedicalquestionansweringwithreproducibleexamplesfromcliniqlink": {
+  "venue": "BioNLP@ACL",
+  "year": 2026,
+  "ee": "https://doi.org/10.18653/v1/2026.bionlp-1.67"
+ },
+ "uircisatsemeval2026task12mitigatingpriorinducedhallucinationsinretrievalaugmentedreasoningviaprecisionorienteddecoding": {
+  "venue": "SemEval@ACL",
+  "year": 2026,
+  "ee": "https://doi.org/10.18653/v1/2026.semeval-1.415"
+ },
+ "namescanhurtspottingslopsquattingriskscausedbypackagenamehallucinationsinlocalcodingllms": "",
+ "beyondvisualperceptionmitigatingmultimodalhallucinationviahybridpreferenceoptimization": "",
+ "hallucinationmitigationinlargevisionlanguagemodelsviacontrastivedecodingwithattentionenhancementandmasking": "",
+ "discoveringcompositionalhallucinationsinlvlms": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "http://papers.nips.cc/paper_files/paper/2025/hash/299a08ee712d4752c890938da99a77c6-Abstract-Conference.html"
+ },
+ "improvingfactualityinlargelanguagemodelsviadecodingtimehallucinatoryandtruthfulcomparators": {
+  "venue": "AAAI",
+  "year": 2025,
+  "ee": "https://doi.org/10.1609/aaai.v39i24.34751"
+ },
+ "phonemehallucinatoroneshotvoiceconversionviasetexpansion": {
+  "venue": "AAAI",
+  "year": 2024,
+  "ee": "https://doi.org/10.1609/aaai.v38i13.29411"
+ },
+ "mitigatinglargevisionlanguagemodelhallucinationatposthocviamultiagentsystem": {
+  "venue": "AAAI Fall Symposia",
+  "year": 2024,
+  "ee": "https://doi.org/10.1609/aaaiss.v4i1.31780"
+ },
+ "dolanguagemodelsknowwhentheyaposrehallucinatingreferences": "",
+ "hallucidoctormitigatinghallucinatorytoxicityinvisualinstructiondata": {
+  "venue": "CVPR",
+  "year": 2024,
+  "ee": "https://doi.org/10.1109/CVPR52733.2024.01230"
+ },
+ "halluaudiohallucinatefrequencyasconceptsforfewshotaudioclassification": {
+  "venue": "ICASSP",
+  "year": 2023,
+  "ee": "https://doi.org/10.1109/ICASSP49357.2023.10095663"
+ },
+ "hadeshallucinationawaredetectionandevaluationsystemforlargelanguagemodeloutputsinenterprisecrmworkflows": "",
+ "hallucinatedneuralradiancefieldsinthewild": {
+  "venue": "CVPR",
+  "year": 2022,
+  "ee": "https://doi.org/10.1109/CVPR52688.2022.01260"
+ },
+ "halentnetmultimodaltrajectoryforecastingwithhallucinativeintents": {
+  "venue": "ICLR",
+  "year": 2021,
+  "ee": "https://openreview.net/forum?id=9GBZBPn0Jx"
+ }
 }
