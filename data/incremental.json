@@ -5386,5 +5386,35 @@
     "Tzu-Ling Lin, Dong-Ting Yao, Teng-Fang Hsiao, Wei-Chih Chen, Hong-Han Shuai",
     "https://arxiv.org/abs/2609.03580",
     2026
+  ],
+  [
+    "Leveraging Low-Level Symbolic Competences for Unsupervised Grounding in Hallucination Detection",
+    "Renato Vukovic, Hsien-chin Lin, Carel van Niekerk, Benjamin Ruppik, Michael Heck, Shutong Feng, Nurul Lubis, Milica Gasic",
+    "https://arxiv.org/abs/2609.05025",
+    2026
+  ],
+  [
+    "Better Understanding, Better Fixes? A Study of Hallucination in LLM-based Automated Program Repair",
+    "Xuemeng Cai, Jiakun Liu, Linhan Yang, Wei Ma, Lingxiao Jiang",
+    "https://arxiv.org/abs/2609.04909",
+    2026
+  ],
+  [
+    "When Financial Fine-tuning Fails: A Three-Level Detectability Analysis of Numerical Hallucination in Domain-Adapted Language Models",
+    "Xiaodong Li, Peiwei Liu",
+    "https://arxiv.org/abs/2609.04806",
+    2026
+  ],
+  [
+    "Reducing Hallucinated Transcripts in Whisper via Hallucination Space Projection",
+    "Maryam Abbasihafshejani, Murtuza Jadliwala",
+    "https://arxiv.org/abs/2609.04561",
+    2026
+  ],
+  [
+    "The Anatomy of an ASR Hallucination",
+    "Hamees Sayed, Apoorv Singh, Kumar Aman, Akshat Mandloi",
+    "https://arxiv.org/abs/2609.04404",
+    2026
   ]
 ]
