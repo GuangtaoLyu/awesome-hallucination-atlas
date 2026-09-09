@@ -5416,5 +5416,17 @@
     "Hamees Sayed, Apoorv Singh, Kumar Aman, Akshat Mandloi",
     "https://arxiv.org/abs/2609.04404",
     2026
+  ],
+  [
+    "CodeTD: Topology of Attention Detects Hallucinations in Code LLMs",
+    "Daria Voronkova, Ilya Trofimov, Anton Dmitriev, Eduard Tulchinskii, Evgeny Burnaev, Serguei Barannikov",
+    "https://arxiv.org/abs/2609.07779",
+    2026
+  ],
+  [
+    "TAD: Token-Adaptive Contrastive Decoding with Confidence-Guided Gating for Hallucination Mitigation in Large Audio-Language Models",
+    "Heyu Chang, Nianwen Si, Hao Zhang, Wenlin Zhang, Dan Qu",
+    "https://arxiv.org/abs/2609.07286",
+    2026
   ]
 ]

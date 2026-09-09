@@ -6,11 +6,11 @@
 >
 > 涵盖幻觉的**检测、评测与缓解**方法，支持按模型类型、方法类型、年份多维交叉筛选，并以标签补充模态与场景。
 >
-> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1464/2031 篇），非仅标题关键词。
+> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1466/2033 篇），非仅标题关键词。
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Papers-2031-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1464-9cf' />
+  <img src='https://img.shields.io/badge/Papers-2033-blue' />
+  <img src='https://img.shields.io/badge/Abstract--based-1466-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-09&color=orange' />
 </p>
@@ -41,8 +41,8 @@
 
 <a id="sec-overview"></a>
 ## 📊 数据概览
-- **论文总数**：`2031` （已去重）
-- **含论文链接**：`2028` · **含全文摘要**：`1464` · **含代码链接**：`1091` · **顶会正式发表**：`1007`
+- **论文总数**：`2033` （已去重）
+- **含论文链接**：`2030` · **含全文摘要**：`1466` · **含代码链接**：`1091` · **顶会正式发表**：`1007`
 - 顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息
 - **覆盖年份**：2018 – 2027
 
@@ -51,9 +51,9 @@
 | 年份 | 数量 | 占比 |
 |------|------|------|
 | 2027 | 6 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| 2026 | 832 | `████████░░░░░░░░░░░░` 41.0%
+| 2026 | 834 | `████████░░░░░░░░░░░░` 41.0%
 | 2025 | 768 | `████████░░░░░░░░░░░░` 37.8%
-| 2024 | 375 | `████░░░░░░░░░░░░░░░░` 18.5%
+| 2024 | 375 | `████░░░░░░░░░░░░░░░░` 18.4%
 | 2023 | 31 | `░░░░░░░░░░░░░░░░░░░░` 1.5%
 | 2022 | 7 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
 | 2021 | 5 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
@@ -67,15 +67,15 @@
 | 模型类型 | 说明 | 数量 |
 |----------|------|------|
 | **VLM** | 视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作） | 773 |
-| **MLLM(Omni)** | 全模态模型（Omni：音频 / 语音 / any-to-any） | 54 |
-| **LLM** | 纯语言大模型 | 1204 |
+| **MLLM(Omni)** | 全模态模型（Omni：音频 / 语音 / any-to-any） | 55 |
+| **LLM** | 纯语言大模型 | 1205 |
 
 
 ### 按方法类型分布
 
 | 方法类型 | 说明 | 数量 |
 |----------|------|------|
-| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1771 |
+| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1773 |
 | **Training-based** | 基于训练（偏好优化 / 微调 / 强化学习等） | 260 |
 
 
@@ -145,7 +145,7 @@
 | USENIX Security Symposium | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | TNNLS | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.0%
 | 其他 | 233 | `██░░░░░░░░░░░░░░░░░░` 11.5%
-| arXiv（预印本） | 995 | `██████████░░░░░░░░░░` 49.0%
+| arXiv（预印本） | 997 | `██████████░░░░░░░░░░` 49.0%
 | 未标注 | 12 | `░░░░░░░░░░░░░░░░░░░░` 0.6%
 
 <details>
@@ -326,7 +326,7 @@
 | CCF-A | 462 | `█████░░░░░░░░░░░░░░░` 22.7%
 | CCF-B | 239 | `██░░░░░░░░░░░░░░░░░░` 11.8%
 | CCF-C | 36 | `░░░░░░░░░░░░░░░░░░░░` 1.8%
-| 未收录 | 1294 | `█████████████░░░░░░░` 63.7%
+| 未收录 | 1296 | `█████████████░░░░░░░` 63.7%
 > 📋 另有 `119` 篇 **评测 / Benchmark** 论文、📚 `35` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。
 
 ---
@@ -536,7 +536,7 @@
 > 按**模型类型**分组（LLM / VLM / MLLM），每组内再按年份展开；点击标题可展开 / 收起。每条格式：**标题** · 会议/年份 · 模型 · 方法 · 💻代码。标题链接优先顶会官方版本。📋 = 评测/Benchmark 论文，📚 = 综述 Survey 论文。完整摘要与多维交叉筛选见交互式网站 [`docs/index.html`](docs/index.html)。欢迎 PR 补充。
 
 <details>
-<summary>🤖 LLM · 1204 篇</summary>
+<summary>🤖 LLM · 1205 篇</summary>
 
 <details>
 <summary>📅 2027 · 5 篇</summary>
@@ -550,8 +550,9 @@
 </details>
 
 <details>
-<summary>📅 2026 · 467 篇</summary>
+<summary>📅 2026 · 468 篇</summary>
 
+- **[CodeTD: Topology of Attention Detects Hallucinations in Code LLMs](https://arxiv.org/abs/2609.07779)** · arXiv · LLM · Training-free
 - **[When Financial Fine-tuning Fails: A Three-Level Detectability Analysis of Numerical Hallucination in Domain-Adapted Language Models](https://arxiv.org/abs/2609.04806)** · arXiv · LLM · Training-free
 - **[Leveraging Low-Level Symbolic Competences for Unsupervised Grounding in Hallucination Detection](https://arxiv.org/abs/2609.05025)** · arXiv · LLM · Training-free
 - **[Better Understanding, Better Fixes? A Study of Hallucination in LLM-based Automated Program Repair](https://arxiv.org/abs/2609.04909)** · arXiv · LLM · Training-free
@@ -2631,11 +2632,12 @@
 </details>
 
 <details>
-<summary>🌐 MLLM(Omni) · 54 篇</summary>
+<summary>🌐 MLLM(Omni) · 55 篇</summary>
 
 <details>
-<summary>📅 2026 · 27 篇</summary>
+<summary>📅 2026 · 28 篇</summary>
 
+- **[TAD: Token-Adaptive Contrastive Decoding with Confidence-Guided Gating for Hallucination Mitigation in Large Audio-Language Models](https://arxiv.org/abs/2609.07286)** · arXiv · MLLM(Omni) · Training-free
 - **[The Anatomy of an ASR Hallucination](https://arxiv.org/abs/2609.04404)** · arXiv · MLLM(Omni) · Training-free
 - **[Reducing Hallucinated Transcripts in Whisper via Hallucination Space Projection](https://arxiv.org/abs/2609.04561)** · arXiv · MLLM(Omni) · Training-free
 - **[Lost in Speech: Trilingual Spoken Hallucination Detection Across Audio and Transcripts](https://arxiv.org/abs/2608.24707)** · arXiv · MLLM(Omni) · Training-based
