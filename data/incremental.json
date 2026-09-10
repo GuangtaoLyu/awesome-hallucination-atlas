@@ -5428,5 +5428,35 @@
     "Heyu Chang, Nianwen Si, Hao Zhang, Wenlin Zhang, Dan Qu",
     "https://arxiv.org/abs/2609.07286",
     2026
+  ],
+  [
+    "Two-Token Features and Small-Large Ensembles for VLM Hallucination Detection",
+    "Eli Schwartz",
+    "https://arxiv.org/abs/2609.10244",
+    2026
+  ],
+  [
+    "Can We Trust Video Hallucination Detectors? VidHalLoc for Evaluating the Evaluators",
+    "Xinyu Chen, Adnan Mahmood, Mark Dras",
+    "https://arxiv.org/abs/2609.09895",
+    2026
+  ],
+  [
+    "LexAgentHallu: A Hierarchical Benchmark for Profiling Hallucinations in Legal Agents",
+    "Yujin Zhou, Mingxuan Zheng, Chuxue Cao, Huang Yidan, Jiale Chen, Yike Guo, Sirui Han",
+    "https://arxiv.org/abs/2609.09754",
+    2026
+  ],
+  [
+    "When Auditors Fabricate: Batch-Size Degradation and Confident Hallucination in LLM Detection of Planted Document Contamination",
+    "Karan Parekh, Sanjana Pendyala Ravinder, Sana Mhapsekar, Medina Maloku",
+    "https://arxiv.org/abs/2609.09696",
+    2026
+  ],
+  [
+    "MLLMs Hallucinate when Information Distribution Drifts in Synergy Heads",
+    "Meng'en Qin, Junye Chen, Jucheng Liu, Youlu Xing, Song Wang, Ruize Han",
+    "https://arxiv.org/abs/2609.09206",
+    2026
   ]
 ]
