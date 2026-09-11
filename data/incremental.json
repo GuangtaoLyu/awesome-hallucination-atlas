@@ -5458,5 +5458,23 @@
     "Meng'en Qin, Junye Chen, Jucheng Liu, Youlu Xing, Song Wang, Ruize Han",
     "https://arxiv.org/abs/2609.09206",
     2026
+  ],
+  [
+    "Domain-Specific Hallucination Detection in Large Language Models",
+    "Varun Teja Chundru, Debasmita Biswas",
+    "https://arxiv.org/abs/2609.11878",
+    2026
+  ],
+  [
+    "OmniHallu: Unified Hallucination Detection for Cross-Modal Comprehension and Generation in Multimodal Large Language Models",
+    "Jianjiang Yang, Peihang Li, Shanqing Xu, Mengchen Qian, Lu Zhang, Meng Luo",
+    "https://arxiv.org/abs/2609.11244",
+    2026
+  ],
+  [
+    "Multi-Faceted Evaluation and Mitigation of Emotion Hallucinations in MLLMs",
+    "Bowen Zeng, Peipei Song, Weidong Chen, Shengeng Tang, Song Ye, Yuanhong Zhong, Beier Zhu, Xun Yang",
+    "https://arxiv.org/abs/2609.11154",
+    2026
   ]
 ]
