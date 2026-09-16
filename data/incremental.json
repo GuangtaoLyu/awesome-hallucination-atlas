@@ -5476,5 +5476,65 @@
     "Bowen Zeng, Peipei Song, Weidong Chen, Shengeng Tang, Song Ye, Yuanhong Zhong, Beier Zhu, Xun Yang",
     "https://arxiv.org/abs/2609.11154",
     2026
+  ],
+  [
+    "Vroom-Vroom at SHROOM-Visions: A Multi-Judge Committee for Detecting Hallucinated Spans in Vision-Language Outputs",
+    "Toqeer Ehsan, Nico Penttilä, Richard Schmidt, Arash Hajikhani, Victoria Palacin",
+    "https://arxiv.org/abs/2609.17327",
+    2026
+  ],
+  [
+    "Semantic-Spatial Agreement Verification for Mitigating Object Hallucination in Multimodal Large Language Models",
+    "Ziheng Ren, Qian Gao, Jun Fan, Guohui Ding, Zhenyu Yang, Yuteng Xiao",
+    "https://arxiv.org/abs/2609.17269",
+    2026
+  ],
+  [
+    "What Do Hallucinations Reveal About Multimodal Reasoning? Diagnosing Visual Grounding Failures via Contrastive Decoding Probes",
+    "Zhipeng Zhao, Wenxu Wang, Peishun Liu, Ruichun Tang",
+    "https://arxiv.org/abs/2609.16646",
+    2026
+  ],
+  [
+    "SAVOR: Self-Aware Visual Grounding via Confidence-Calibrated Reinforcement Learning for Multimodal Hallucination Mitigation",
+    "Zixiu Ding, Zilin Zhao, Yingjie He, Xinlang Kang, Guansu Wang, Wei Zhang",
+    "https://arxiv.org/abs/2609.16601",
+    2026
+  ],
+  [
+    "When the Wrong Key Wins: Understanding and Detecting Hallucinations in LLMs",
+    "Xuhan Tong, Jiawei Zhang",
+    "https://arxiv.org/abs/2609.15106",
+    2026
+  ],
+  [
+    "Efficiency Hallucination: Formalizing and Measuring Behavioral Calibration in LLM-Based Code Optimization",
+    "Sarah Wilson, Gail Kaiser, Patrick Musau",
+    "https://arxiv.org/abs/2609.14839",
+    2026
+  ],
+  [
+    "Grounded in Sound: Reinforcement Learning with a Frozen Acoustic Judge to Curb ASR Insertion Hallucinations",
+    "Tingzhen Xiong, Rilin Chen, Weiwei Li, Wentao Zhang, Qicong Xie",
+    "https://arxiv.org/abs/2609.14455",
+    2026
+  ],
+  [
+    "NeuroActiSep: Detecting Factual Hallucinations from Feed-Forward Neurons in a Single Pass",
+    "Ali Derogar Odolou, Reza Nazari, Mostafa Salehi",
+    "https://arxiv.org/abs/2609.14448",
+    2026
+  ],
+  [
+    "When Rubrics Fail: Hallucinations Reveal Blind Spots in Medical AI Evaluation",
+    "Griffin Farrow, Lily Sijia Li, Jack Johnson, Tingyan Wang, Philip Torr, William Bolton, Fabio J. Fehr",
+    "https://arxiv.org/abs/2609.12718",
+    2026
+  ],
+  [
+    "The Cost of Compression: A Rate-Distortion Limit on Factual Hallucination",
+    "Xi Wang, Shijia Xu, Rongfeng Guo",
+    "https://arxiv.org/abs/2609.12111",
+    2026
   ]
 ]
