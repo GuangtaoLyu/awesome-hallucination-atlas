@@ -5536,5 +5536,17 @@
     "Xi Wang, Shijia Xu, Rongfeng Guo",
     "https://arxiv.org/abs/2609.12111",
     2026
+  ],
+  [
+    "Attention Dispersion as a Diagnostic Signal for Hallucination in Large Language Models",
+    "Shardul P. More, Tanuja S. Pawar",
+    "https://arxiv.org/abs/2609.18320",
+    2026
+  ],
+  [
+    "AgenTeeth: A Model-Agnostic Framework for Suppressing Hallucination in Frozen Vision-Language Models on Dental X-Rays via Tool Evidence Injection",
+    "Ahmed Rafid, Fariya Ahmed, Rumman Adib, Mehedi Ahamed, Ajwad Abrar, Tareque Mohmud Chowdhury",
+    "https://arxiv.org/abs/2609.17800",
+    2026
   ]
 ]
