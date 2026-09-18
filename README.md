@@ -6,11 +6,11 @@
 >
 > Covers **detection, evaluation, and mitigation** of hallucinations, with multi-dimensional faceted filtering by model type, method type, and year, plus tags for modality and scenario.
 >
-> Taxonomy is auto-labeled from the **full arXiv abstract text** (1486/2053 papers), not just title keywords.
+> Taxonomy is auto-labeled from the **full arXiv abstract text** (1487/2054 papers), not just title keywords.
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Papers-2053-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1486-9cf' />
+  <img src='https://img.shields.io/badge/Papers-2054-blue' />
+  <img src='https://img.shields.io/badge/Abstract--based-1487-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-09&color=orange' />
 </p>
@@ -41,8 +41,8 @@
 
 <a id="sec-overview"></a>
 ## 📊 Data Overview
-- **Total papers**：`2053` (deduplicated)
-- **With paper link**：`2050` · **With abstract**：`1486` · **With code**：`1099` · **Published at venue**：`1007`
+- **Total papers**：`2054` (deduplicated)
+- **With paper link**：`2051` · **With abstract**：`1487` · **With code**：`1099` · **Published at venue**：`1007`
 - For papers published at a venue: time and link prioritize the official conference/journal info (DBLP), otherwise arXiv info is used.
 - **Year range**：2018 – 2027
 
@@ -51,7 +51,7 @@
 | Year | Count | Share |
 |------|------|------|
 | 2027 | 6 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| 2026 | 854 | `████████░░░░░░░░░░░░` 41.6%
+| 2026 | 855 | `████████░░░░░░░░░░░░` 41.6%
 | 2025 | 768 | `███████░░░░░░░░░░░░░` 37.4%
 | 2024 | 375 | `████░░░░░░░░░░░░░░░░` 18.3%
 | 2023 | 31 | `░░░░░░░░░░░░░░░░░░░░` 1.5%
@@ -68,14 +68,14 @@
 |----------|------|------|
 | **VLM** | Vision-Language Model (LVLM; also covers works that call themselves MLLM but handle only image/video + text) | 781 |
 | **MLLM(Omni)** | Omni / full-modal model (audio / speech / any-to-any) | 58 |
-| **LLM** | Pure text-based LLM | 1214 |
+| **LLM** | Pure text-based LLM | 1215 |
 
 
 ### Method Type
 
 | Method Type | Description | Count |
 |----------|------|------|
-| **Training-free** | Training-free (decoding intervention / attention calibration / representation guidance, etc.) | 1790 |
+| **Training-free** | Training-free (decoding intervention / attention calibration / representation guidance, etc.) | 1791 |
 | **Training-based** | Training-based (preference optimization / fine-tuning / RL, etc.) | 263 |
 
 
@@ -88,7 +88,7 @@
 
 | Venue / Journal | Count | Share |
 |-------------|------|------|
-| ACL | 153 | `█░░░░░░░░░░░░░░░░░░░` 7.5%
+| ACL | 153 | `█░░░░░░░░░░░░░░░░░░░` 7.4%
 | EMNLP | 112 | `█░░░░░░░░░░░░░░░░░░░` 5.5%
 | AAAI | 65 | `█░░░░░░░░░░░░░░░░░░░` 3.2%
 | CVPR | 65 | `█░░░░░░░░░░░░░░░░░░░` 3.2%
@@ -145,7 +145,7 @@
 | USENIX Security Symposium | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | TNNLS | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.0%
 | Other | 233 | `██░░░░░░░░░░░░░░░░░░` 11.3%
-| arXiv (preprint) | 1016 | `██████████░░░░░░░░░░` 49.5%
+| arXiv (preprint) | 1017 | `██████████░░░░░░░░░░` 49.5%
 | Unlabeled | 12 | `░░░░░░░░░░░░░░░░░░░░` 0.6%
 
 <details>
@@ -323,10 +323,10 @@
 
 | CCF Rating | Count | Share |
 |----------|------|------|
-| CCF-A | 462 | `█████░░░░░░░░░░░░░░░` 22.5%
+| CCF-A | 462 | `████░░░░░░░░░░░░░░░░` 22.5%
 | CCF-B | 240 | `██░░░░░░░░░░░░░░░░░░` 11.7%
 | CCF-C | 36 | `░░░░░░░░░░░░░░░░░░░░` 1.8%
-| Not in CCF | 1315 | `█████████████░░░░░░░` 64.1%
+| Not in CCF | 1316 | `█████████████░░░░░░░` 64.1%
 > 📋 `120` **Benchmark** papers and 📚 `35` **Survey** papers are listed separately (see sections below) and do not affect the method taxonomy.
 
 ---
@@ -352,7 +352,7 @@ Each paper is labeled along **3 dimensions** (model type / method type / year, a
 
 Hallucination research is moving fast. These directions are especially hot in 2025–2026 and well-covered by this atlas (paper counts are auto-computed from real tags):
 
-- **Agentic AI / Multi-Agent** — 126 papers tagged `Agent`.
+- **Agentic AI / Multi-Agent** — 127 papers tagged `Agent`.
 - **RAG / Faithfulness** — 168 papers tagged `RAG`.
 - **Reasoning Models** — 392 papers tagged `Reasoning`.
 - **Embodied / World Model** — 20 papers tagged `Embodied`.
@@ -537,7 +537,7 @@ Hallucination research is moving fast. These directions are especially hot in 20
 > Grouped by **model type** (LLM / VLM / MLLM), then expanded by year inside each group; click a header to expand / collapse. Format per entry: **Title** · venue/year · model · method · 💻code. Title links prefer the official venue version. 📋 = Benchmark paper, 📚 = Survey paper. Full abstracts and multi-dimensional filtering are available in the interactive website [`docs/index.html`](docs/index.html). PRs welcome.
 
 <details>
-<summary>🤖 LLM · 1214 篇</summary>
+<summary>🤖 LLM · 1215 篇</summary>
 
 <details>
 <summary>📅 2027 · 5 papers</summary>
@@ -551,9 +551,10 @@ Hallucination research is moving fast. These directions are especially hot in 20
 </details>
 
 <details>
-<summary>📅 2026 · 477 papers</summary>
+<summary>📅 2026 · 478 papers</summary>
 
 - **📋 [LexAgentHallu: A Hierarchical Benchmark for Profiling Hallucinations in Legal Agents](https://arxiv.org/abs/2609.09754)** · EMNLP 2026 · LLM · Training-free · 💻[code](https://github.com/TOM-ZHOUch/LexAgentHallu)
+- **[Closed-World Resolution Against Tool Hallucination in LLM Agents](https://arxiv.org/abs/2609.19425)** · arXiv · LLM · Training-free
 - **[Attention Dispersion as a Diagnostic Signal for Hallucination in Large Language Models](https://arxiv.org/abs/2609.18320)** · arXiv · LLM · Training-free
 - **[When the Wrong Key Wins: Understanding and Detecting Hallucinations in LLMs](https://arxiv.org/abs/2609.15106)** · arXiv · LLM · Training-free
 - **[NeuroActiSep: Detecting Factual Hallucinations from Feed-Forward Neurons in a Single Pass](https://arxiv.org/abs/2609.14448)** · arXiv · LLM · Training-based
