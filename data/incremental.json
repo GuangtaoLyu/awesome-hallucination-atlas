@@ -5554,5 +5554,23 @@
     "Laxmipriya Ganesh Iyer",
     "https://arxiv.org/abs/2609.19425",
     2026
+  ],
+  [
+    "PrismAlign: Prior-Steered Multi-View VLM Alignment for Hallucination-Robust Table OCR",
+    "Guangyi Liu, Qianjun Huang, Boyu Hou",
+    "https://arxiv.org/abs/2609.21351",
+    2026
+  ],
+  [
+    "Hallucination-R1: Robustness-Oriented Paraphrase Generation for Factual Consistency",
+    "Wenhan Yu, Wenxin Wu, Hao Wang, Lei Sha",
+    "https://arxiv.org/abs/2609.21227",
+    2026
+  ],
+  [
+    "Detecting Hallucination in LLMs: Tracing the Topological Signatures of Impaired Context Sharing",
+    "Amir Jalilifard, Anderson Rocha, Eric Wong, Marcos Medeiros Raimundo",
+    "https://arxiv.org/abs/2609.21096",
+    2026
   ]
 ]

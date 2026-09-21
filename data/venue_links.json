@@ -6040,5 +6040,8 @@
  "whatdohallucinationsrevealaboutmultimodalreasoningdiagnosingvisualgroundingfailuresviacontrastivedecodingprobes": "",
  "attentiondispersionasadiagnosticsignalforhallucinationinlargelanguagemodels": "",
  "vroomvroomatshroomvisionsamultijudgecommitteefordetectinghallucinatedspansinvisionlanguageoutputs": "",
- "closedworldresolutionagainsttoolhallucinationinllmagents": ""
+ "closedworldresolutionagainsttoolhallucinationinllmagents": "",
+ "detectinghallucinationinllmstracingthetopologicalsignaturesofimpairedcontextsharing": "",
+ "hallucinationr1robustnessorientedparaphrasegenerationforfactualconsistency": "",
+ "prismalignpriorsteeredmultiviewvlmalignmentforhallucinationrobusttableocr": ""
 }
