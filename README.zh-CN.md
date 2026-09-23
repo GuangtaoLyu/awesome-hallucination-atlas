@@ -6,11 +6,11 @@
 >
 > 涵盖幻觉的**检测、评测与缓解**方法，支持按模型类型、方法类型、年份多维交叉筛选，并以标签补充模态与场景。
 >
-> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1490/2057 篇），非仅标题关键词。
+> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1491/2058 篇），非仅标题关键词。
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Papers-2057-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1490-9cf' />
+  <img src='https://img.shields.io/badge/Papers-2058-blue' />
+  <img src='https://img.shields.io/badge/Abstract--based-1491-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-09&color=orange' />
 </p>
@@ -41,8 +41,8 @@
 
 <a id="sec-overview"></a>
 ## 📊 数据概览
-- **论文总数**：`2057` （已去重）
-- **含论文链接**：`2054` · **含全文摘要**：`1490` · **含代码链接**：`1109` · **顶会正式发表**：`1007`
+- **论文总数**：`2058` （已去重）
+- **含论文链接**：`2055` · **含全文摘要**：`1491` · **含代码链接**：`1109` · **顶会正式发表**：`1007`
 - 顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息
 - **覆盖年份**：2018 – 2027
 
@@ -51,7 +51,7 @@
 | 年份 | 数量 | 占比 |
 |------|------|------|
 | 2027 | 6 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| 2026 | 858 | `████████░░░░░░░░░░░░` 41.7%
+| 2026 | 859 | `████████░░░░░░░░░░░░` 41.7%
 | 2025 | 768 | `███████░░░░░░░░░░░░░` 37.3%
 | 2024 | 375 | `████░░░░░░░░░░░░░░░░` 18.2%
 | 2023 | 31 | `░░░░░░░░░░░░░░░░░░░░` 1.5%
@@ -67,7 +67,7 @@
 | 模型类型 | 说明 | 数量 |
 |----------|------|------|
 | **VLM** | 视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作） | 782 |
-| **MLLM(Omni)** | 全模态模型（Omni：音频 / 语音 / any-to-any） | 58 |
+| **MLLM(Omni)** | 全模态模型（Omni：音频 / 语音 / any-to-any） | 59 |
 | **LLM** | 纯语言大模型 | 1217 |
 
 
@@ -75,7 +75,7 @@
 
 | 方法类型 | 说明 | 数量 |
 |----------|------|------|
-| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1794 |
+| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1795 |
 | **Training-based** | 基于训练（偏好优化 / 微调 / 强化学习等） | 263 |
 
 
@@ -145,7 +145,7 @@
 | USENIX Security Symposium | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | TNNLS | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.0%
 | 其他 | 233 | `██░░░░░░░░░░░░░░░░░░` 11.3%
-| arXiv（预印本） | 1020 | `██████████░░░░░░░░░░` 49.6%
+| arXiv（预印本） | 1021 | `██████████░░░░░░░░░░` 49.6%
 | 未标注 | 12 | `░░░░░░░░░░░░░░░░░░░░` 0.6%
 
 <details>
@@ -323,10 +323,10 @@
 
 | CCF 评级 | 数量 | 占比 |
 |----------|------|------|
-| CCF-A | 462 | `████░░░░░░░░░░░░░░░░` 22.5%
+| CCF-A | 462 | `████░░░░░░░░░░░░░░░░` 22.4%
 | CCF-B | 240 | `██░░░░░░░░░░░░░░░░░░` 11.7%
-| CCF-C | 36 | `░░░░░░░░░░░░░░░░░░░░` 1.8%
-| 未收录 | 1319 | `█████████████░░░░░░░` 64.1%
+| CCF-C | 36 | `░░░░░░░░░░░░░░░░░░░░` 1.7%
+| 未收录 | 1320 | `█████████████░░░░░░░` 64.1%
 > 📋 另有 `120` 篇 **评测 / Benchmark** 论文、📚 `35` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。
 
 ---
@@ -2654,11 +2654,12 @@
 </details>
 
 <details>
-<summary>🌐 MLLM(Omni) · 58 篇</summary>
+<summary>🌐 MLLM(Omni) · 59 篇</summary>
 
 <details>
-<summary>📅 2026 · 31 篇</summary>
+<summary>📅 2026 · 32 篇</summary>
 
+- **[REVE: Efficient Hallucination Correction for Large Audio-Language Models via Reused Encoder States](https://arxiv.org/abs/2609.26028)** · arXiv · MLLM(Omni) · Training-free
 - **[Grounded in Sound: Reinforcement Learning with a Frozen Acoustic Judge to Curb ASR Insertion Hallucinations](https://arxiv.org/abs/2609.14455)** · arXiv · MLLM(Omni) · Training-free
 - **[OmniHallu: Unified Hallucination Detection for Cross-Modal Comprehension and Generation in Multimodal Large Language Models](https://arxiv.org/abs/2609.11244)** · arXiv · MLLM(Omni) · Training-free
 - **[Multi-Faceted Evaluation and Mitigation of Emotion Hallucinations in MLLMs](https://arxiv.org/abs/2609.11154)** · arXiv · MLLM(Omni) · Training-free

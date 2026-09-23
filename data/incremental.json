@@ -5572,5 +5572,11 @@
     "Amir Jalilifard, Anderson Rocha, Eric Wong, Marcos Medeiros Raimundo",
     "https://arxiv.org/abs/2609.21096",
     2026
+  ],
+  [
+    "REVE: Efficient Hallucination Correction for Large Audio-Language Models via Reused Encoder States",
+    "Hongjin Song, Jiasheng Kuang, Xinyu Yang, Qiuyu Fang, Ziyu Wu, Guowu Tan, Xiang Xie",
+    "https://arxiv.org/abs/2609.26028",
+    2026
   ]
 ]

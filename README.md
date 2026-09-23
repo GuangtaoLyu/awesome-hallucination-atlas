@@ -6,11 +6,11 @@
 >
 > Covers **detection, evaluation, and mitigation** of hallucinations, with multi-dimensional faceted filtering by model type, method type, and year, plus tags for modality and scenario.
 >
-> Taxonomy is auto-labeled from the **full arXiv abstract text** (1490/2057 papers), not just title keywords.
+> Taxonomy is auto-labeled from the **full arXiv abstract text** (1491/2058 papers), not just title keywords.
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Papers-2057-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1490-9cf' />
+  <img src='https://img.shields.io/badge/Papers-2058-blue' />
+  <img src='https://img.shields.io/badge/Abstract--based-1491-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-09&color=orange' />
 </p>
@@ -41,8 +41,8 @@
 
 <a id="sec-overview"></a>
 ## 📊 Data Overview
-- **Total papers**：`2057` (deduplicated)
-- **With paper link**：`2054` · **With abstract**：`1490` · **With code**：`1109` · **Published at venue**：`1007`
+- **Total papers**：`2058` (deduplicated)
+- **With paper link**：`2055` · **With abstract**：`1491` · **With code**：`1109` · **Published at venue**：`1007`
 - For papers published at a venue: time and link prioritize the official conference/journal info (DBLP), otherwise arXiv info is used.
 - **Year range**：2018 – 2027
 
@@ -51,7 +51,7 @@
 | Year | Count | Share |
 |------|------|------|
 | 2027 | 6 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| 2026 | 858 | `████████░░░░░░░░░░░░` 41.7%
+| 2026 | 859 | `████████░░░░░░░░░░░░` 41.7%
 | 2025 | 768 | `███████░░░░░░░░░░░░░` 37.3%
 | 2024 | 375 | `████░░░░░░░░░░░░░░░░` 18.2%
 | 2023 | 31 | `░░░░░░░░░░░░░░░░░░░░` 1.5%
@@ -67,7 +67,7 @@
 | Model Type | Description | Count |
 |----------|------|------|
 | **VLM** | Vision-Language Model (LVLM; also covers works that call themselves MLLM but handle only image/video + text) | 782 |
-| **MLLM(Omni)** | Omni / full-modal model (audio / speech / any-to-any) | 58 |
+| **MLLM(Omni)** | Omni / full-modal model (audio / speech / any-to-any) | 59 |
 | **LLM** | Pure text-based LLM | 1217 |
 
 
@@ -75,7 +75,7 @@
 
 | Method Type | Description | Count |
 |----------|------|------|
-| **Training-free** | Training-free (decoding intervention / attention calibration / representation guidance, etc.) | 1794 |
+| **Training-free** | Training-free (decoding intervention / attention calibration / representation guidance, etc.) | 1795 |
 | **Training-based** | Training-based (preference optimization / fine-tuning / RL, etc.) | 263 |
 
 
@@ -145,7 +145,7 @@
 | USENIX Security Symposium | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | TNNLS | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.0%
 | Other | 233 | `██░░░░░░░░░░░░░░░░░░` 11.3%
-| arXiv (preprint) | 1020 | `██████████░░░░░░░░░░` 49.6%
+| arXiv (preprint) | 1021 | `██████████░░░░░░░░░░` 49.6%
 | Unlabeled | 12 | `░░░░░░░░░░░░░░░░░░░░` 0.6%
 
 <details>
@@ -323,10 +323,10 @@
 
 | CCF Rating | Count | Share |
 |----------|------|------|
-| CCF-A | 462 | `████░░░░░░░░░░░░░░░░` 22.5%
+| CCF-A | 462 | `████░░░░░░░░░░░░░░░░` 22.4%
 | CCF-B | 240 | `██░░░░░░░░░░░░░░░░░░` 11.7%
-| CCF-C | 36 | `░░░░░░░░░░░░░░░░░░░░` 1.8%
-| Not in CCF | 1319 | `█████████████░░░░░░░` 64.1%
+| CCF-C | 36 | `░░░░░░░░░░░░░░░░░░░░` 1.7%
+| Not in CCF | 1320 | `█████████████░░░░░░░` 64.1%
 > 📋 `120` **Benchmark** papers and 📚 `35` **Survey** papers are listed separately (see sections below) and do not affect the method taxonomy.
 
 ---
@@ -2654,11 +2654,12 @@ Hallucination research is moving fast. These directions are especially hot in 20
 </details>
 
 <details>
-<summary>🌐 MLLM(Omni) · 58 篇</summary>
+<summary>🌐 MLLM(Omni) · 59 篇</summary>
 
 <details>
-<summary>📅 2026 · 31 papers</summary>
+<summary>📅 2026 · 32 papers</summary>
 
+- **[REVE: Efficient Hallucination Correction for Large Audio-Language Models via Reused Encoder States](https://arxiv.org/abs/2609.26028)** · arXiv · MLLM(Omni) · Training-free
 - **[Grounded in Sound: Reinforcement Learning with a Frozen Acoustic Judge to Curb ASR Insertion Hallucinations](https://arxiv.org/abs/2609.14455)** · arXiv · MLLM(Omni) · Training-free
 - **[OmniHallu: Unified Hallucination Detection for Cross-Modal Comprehension and Generation in Multimodal Large Language Models](https://arxiv.org/abs/2609.11244)** · arXiv · MLLM(Omni) · Training-free
 - **[Multi-Faceted Evaluation and Mitigation of Emotion Hallucinations in MLLMs](https://arxiv.org/abs/2609.11154)** · arXiv · MLLM(Omni) · Training-free
