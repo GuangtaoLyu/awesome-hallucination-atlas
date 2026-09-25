@@ -5578,5 +5578,35 @@
     "Hongjin Song, Jiasheng Kuang, Xinyu Yang, Qiuyu Fang, Ziyu Wu, Guowu Tan, Xiang Xie",
     "https://arxiv.org/abs/2609.26028",
     2026
+  ],
+  [
+    "GHOST-Q: Towards Studying Grounding Hallucinations Overlooked Under Same-score TradeOffs in Quantized VLMS",
+    "Saim Rehman, Muhammad Shafique",
+    "https://arxiv.org/abs/2609.29999",
+    2026
+  ],
+  [
+    "Hallucination Neurons and Where to Find Them: An Investigation into the existence of Hallucination Neurons",
+    "Huseyin Cavus, Sebin Sabu, Joshua Spear, Jaskaran Singh Kawatra, Pavithra Rajendran",
+    "https://arxiv.org/abs/2609.29781",
+    2026
+  ],
+  [
+    "Where Hallucinations Live: A Cross-Architecture Circuit in VQ-Tokenized Vision-Language Models",
+    "Shamanthak Hegde, Xiangrui Liu, Maitreya Patel, Yezhou Yang",
+    "https://arxiv.org/abs/2609.29048",
+    2026
+  ],
+  [
+    "Beneath the Scores: Rethinking Hallucination Evaluation for Video Understanding Models",
+    "Shuzhi Gong, Fengze Sun, Yuansan Liu",
+    "https://arxiv.org/abs/2609.28991",
+    2026
+  ],
+  [
+    "DEEPO: Dual-Entropy Enhanced Policy Optimization for Hallucination in MLLMs",
+    "Yingxuan Zhuang, Miao Pan, Wangjie Gan, Jingxiao Yang, Fan Wang, Weiming Liu, Cheng Tan, Xuhong Zhang, Jintao Chen",
+    "https://arxiv.org/abs/2609.28570",
+    2026
   ]
 ]
