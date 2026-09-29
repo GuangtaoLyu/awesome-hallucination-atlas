@@ -5608,5 +5608,53 @@
     "Yingxuan Zhuang, Miao Pan, Wangjie Gan, Jingxiao Yang, Fan Wang, Weiming Liu, Cheng Tan, Xuhong Zhang, Jintao Chen",
     "https://arxiv.org/abs/2609.28570",
     2026
+  ],
+  [
+    "Before the Token Commits: Trajectory-Level Benchmarking of Visual Hallucinations in Diffusion VLMs",
+    "Yadong Wang, Siping Yue, Yu Tian, Chuanxing Geng, Xiang Chen",
+    "https://arxiv.org/abs/2609.34772",
+    2026
+  ],
+  [
+    "Faithful Activation Verbalization: Reducing Hallucinations in LLM Representation Interpretation",
+    "Haiyan Zhao, Zirui Hei, Wei Shi, Huiqi Deng, Na Zou, Mengnan Du",
+    "https://arxiv.org/abs/2609.34033",
+    2026
+  ],
+  [
+    "CHI: A Composite Hallucination Index Unifying Entity, Relation, and Quantity Dimensions for Summarization Evaluation",
+    "Praveenkumar Katwe, Rakesh Chandra Balabantaray, Kali Prasad Vittala",
+    "https://arxiv.org/abs/2609.33343",
+    2026
+  ],
+  [
+    "The Commit-Abstain Circuit: Why Language Models Hallucinate Instead of Abstaining",
+    "Vy Nguyen, Ziqi Xu, Jeffrey Chan, Estrid He, Feng Xia, Renqiang Luo, Erik Cambria, Xiuzhen Zhang",
+    "https://arxiv.org/abs/2609.32964",
+    2026
+  ],
+  [
+    "The Alignment Paradox: How Post-Training Amplifies Confident Hallucinations in Language Models",
+    "Qingjia Huang, Yakai Li, Jianguo Wu, Qihang Zhou, Aimin Yu, Xiaoqi Jia, Luping Ma, Weijuan Zhang",
+    "https://arxiv.org/abs/2609.32617",
+    2026
+  ],
+  [
+    "How to Reduce Whisper Hallucination",
+    "Husein Zolkepli",
+    "https://arxiv.org/abs/2609.32560",
+    2026
+  ],
+  [
+    "MergeHEIR: Mitigating Multimodal Hallucinations as the Tax of Model Merging",
+    "Jinyu Li, Hao Fang, Zhiming Zhang, Jiawei Kong, Bin Chen, Shu-Tao Xia",
+    "https://arxiv.org/abs/2609.32422",
+    2026
+  ],
+  [
+    "When Retrieval Hurts: Measuring and Explaining Retrieval-Induced Hallucination in Chest X-ray Report Generation",
+    "Emmanuel Idoko, Abdusshakur Olabisi, Shiloh Oni, Adesola Josiah",
+    "https://arxiv.org/abs/2609.31733",
+    2026
   ]
 ]
