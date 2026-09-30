@@ -5656,5 +5656,29 @@
     "Emmanuel Idoko, Abdusshakur Olabisi, Shiloh Oni, Adesola Josiah",
     "https://arxiv.org/abs/2609.31733",
     2026
+  ],
+  [
+    "Devils in Question Relay: Source-Conditioned Relay Steering to Mitigate Hallucinations in Audio-visual Large Language Models",
+    "Yu Zhang, Pingrui Zhang, Xuefeng Bai, Pengfei Zhang, Yang Xiang, Kehai Chen",
+    "https://arxiv.org/abs/2609.37568",
+    2026
+  ],
+  [
+    "Beyond Attention Imbalance: Mitigating Hallucinations via Spectral Surgery",
+    "Siqi Lu, Suo Wei, Yongbin Zheng, Jianhang Yao, Wanying Xu, Peng Wang",
+    "https://arxiv.org/abs/2609.37263",
+    2026
+  ],
+  [
+    "DARE to Mitigate Hallucination: Dual-path Auto-Regressive-aware Editing",
+    "Jae-Ho Lee, Jeong-Eun Lee, Gyeong-Moon Park",
+    "https://arxiv.org/abs/2609.36440",
+    2026
+  ],
+  [
+    "The Detectability Gap: Hidden Heterogeneity in Hallucination Detection Across Language Models",
+    "Pranav Darshan, Pranav A, Sravan Karthick T, Minal Moharir, Ivan P. Yamshchikov",
+    "https://arxiv.org/abs/2609.35860",
+    2026
   ]
 ]
