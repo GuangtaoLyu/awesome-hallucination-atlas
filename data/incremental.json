@@ -5680,5 +5680,41 @@
     "Pranav Darshan, Pranav A, Sravan Karthick T, Minal Moharir, Ivan P. Yamshchikov",
     "https://arxiv.org/abs/2609.35860",
     2026
+  ],
+  [
+    "RAIM: Robust Aggregation of Inexpensive Models for Hallucination Detection",
+    "Elia Onofri, Roberto Di Pietro",
+    "https://arxiv.org/abs/2609.39229",
+    2026
+  ],
+  [
+    "MEND: Label-Free Detection, Localisation, and Correction of Latent Hallucination in World Models",
+    "Ali J Alrasheed, Aryan Yazdan Parast, Basim Azam, James Bailey, Naveed Akhtar",
+    "https://arxiv.org/abs/2609.39182",
+    2026
+  ],
+  [
+    "RAGScope: A Leakage-Controlled, Cost-Aware Evidence-Gating Protocol for RAG Hallucination Triage",
+    "Zeming Liu, Qibai Chen, Jingtao Zhang, Hang Lyu",
+    "https://arxiv.org/abs/2609.39075",
+    2026
+  ],
+  [
+    "Mitigating Object Hallucination in Large Vision-Language Models via False Discovery Controlled Visual Data Splitting",
+    "Chang Liu, Yu Tian, Rui Xie",
+    "https://arxiv.org/abs/2609.38979",
+    2026
+  ],
+  [
+    "Alleviating Hallucination in Reasoning Tasks with Training-Free Uncertainty-Guided Steering",
+    "Litian Liu, Qiqi Hou, Yubing Jian, Reza Pourreza, Mohammad Ghavamzadeh, Roland Memisevic, Yao Qin, Hong Cai",
+    "https://arxiv.org/abs/2609.38962",
+    2026
+  ],
+  [
+    "Halluscoring 2026: The first shared task on llms hallucination detection and answer verification",
+    "Aisha Alansari, Abdessalam Bouchekif, Ahmed Hasanaath, Salah Eddine Bekhouche, Malak Alkhorasani, Mohammed-En-Nadhir Zighem, Saad Ezzini, Hichem Telli, Hend Al-Khalifa, Muhammad Abdul-Mageed, Hadid Abdenour, Hamzah Luqman",
+    "https://arxiv.org/abs/2609.38355",
+    2026
   ]
 ]
