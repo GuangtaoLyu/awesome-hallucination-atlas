@@ -5716,5 +5716,17 @@
     "Aisha Alansari, Abdessalam Bouchekif, Ahmed Hasanaath, Salah Eddine Bekhouche, Malak Alkhorasani, Mohammed-En-Nadhir Zighem, Saad Ezzini, Hichem Telli, Hend Al-Khalifa, Muhammad Abdul-Mageed, Hadid Abdenour, Hamzah Luqman",
     "https://arxiv.org/abs/2609.38355",
     2026
+  ],
+  [
+    "External Observers May See More Clearly: Cross-Model Span-Level Hallucination Detection in Large Language Models via Hidden State Probing",
+    "Kingshuk Gupta, Davide Buscaldi",
+    "https://arxiv.org/abs/2610.02066",
+    2026
+  ],
+  [
+    "DuplexSpeechBench-Document Grounding: Benchmarking Document Grounding and Hallucinations in Voice Agents",
+    "Puneet Mathur, Nedim Lipka, Zeyu Jin, Dinesh Manocha",
+    "https://arxiv.org/abs/2610.00316",
+    2026
   ]
 ]
