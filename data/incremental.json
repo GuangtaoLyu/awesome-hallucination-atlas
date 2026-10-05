@@ -5728,5 +5728,29 @@
     "Puneet Mathur, Nedim Lipka, Zeyu Jin, Dinesh Manocha",
     "https://arxiv.org/abs/2610.00316",
     2026
+  ],
+  [
+    "Single-Pass Uncertainty Heads for Claim-Level Hallucination Detection in Persian Medical Language Models",
+    "Mehrdad Ghassabi, Pedram Rostami, Hamidreza Baradaran Kashani, Sadra Hakim, Audrina Ebrahimi",
+    "https://arxiv.org/abs/2610.03482",
+    2026
+  ],
+  [
+    "HARPO: Hallucination-Aware Reinforcement Learning for Faithful and Creative Language Generation",
+    "Tiezheng Yu, Yuxin Jiang, Jinpeng Li, Shuning Sun, Fei Mi, Haoli Bai, Lifeng Shang",
+    "https://arxiv.org/abs/2610.03063",
+    2026
+  ],
+  [
+    "OmniConfess: Eliciting Token Confessions to Mitigate Omni-Modal Hallucination",
+    "Huiqiang Rong, Haoran Luo, Hui Feng, Zhonghong Ou, Kaiwen Xue, Guoxin Zhang, Yifan Zhu",
+    "https://arxiv.org/abs/2610.02999",
+    2026
+  ],
+  [
+    "Relevant Evidence Decoding for Audio-Visual Hallucination Mitigation",
+    "Hyunjae Ra, Aecheon Jung, Jungin Park, Sungeun Hong",
+    "https://arxiv.org/abs/2610.02976",
+    2026
   ]
 ]
