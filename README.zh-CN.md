@@ -6,11 +6,11 @@
 >
 > 涵盖幻觉的**检测、评测与缓解**方法，支持按模型类型、方法类型、年份多维交叉筛选，并以标签补充模态与场景。
 >
-> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1520/2087 篇），非仅标题关键词。
+> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1525/2092 篇），非仅标题关键词。
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Papers-2087-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1520-9cf' />
+  <img src='https://img.shields.io/badge/Papers-2092-blue' />
+  <img src='https://img.shields.io/badge/Abstract--based-1525-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-10&color=orange' />
 </p>
@@ -41,8 +41,8 @@
 
 <a id="sec-overview"></a>
 ## 📊 数据概览
-- **论文总数**：`2087` （已去重）
-- **含论文链接**：`2084` · **含全文摘要**：`1520` · **含代码链接**：`1128` · **顶会正式发表**：`1007`
+- **论文总数**：`2092` （已去重）
+- **含论文链接**：`2089` · **含全文摘要**：`1525` · **含代码链接**：`1128` · **顶会正式发表**：`1007`
 - 顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息
 - **覆盖年份**：2018 – 2027
 
@@ -51,9 +51,9 @@
 | 年份 | 数量 | 占比 |
 |------|------|------|
 | 2027 | 6 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| 2026 | 888 | `█████████░░░░░░░░░░░` 42.5%
-| 2025 | 768 | `███████░░░░░░░░░░░░░` 36.8%
-| 2024 | 375 | `████░░░░░░░░░░░░░░░░` 18.0%
+| 2026 | 893 | `█████████░░░░░░░░░░░` 42.7%
+| 2025 | 768 | `███████░░░░░░░░░░░░░` 36.7%
+| 2024 | 375 | `████░░░░░░░░░░░░░░░░` 17.9%
 | 2023 | 31 | `░░░░░░░░░░░░░░░░░░░░` 1.5%
 | 2022 | 7 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
 | 2021 | 5 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
@@ -66,16 +66,16 @@
 
 | 模型类型 | 说明 | 数量 |
 |----------|------|------|
-| **VLM** | 视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作） | 793 |
+| **VLM** | 视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作） | 794 |
 | **MLLM(Omni)** | 全模态模型（Omni：音频 / 语音 / any-to-any） | 63 |
-| **LLM** | 纯语言大模型 | 1231 |
+| **LLM** | 纯语言大模型 | 1235 |
 
 
 ### 按方法类型分布
 
 | 方法类型 | 说明 | 数量 |
 |----------|------|------|
-| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1819 |
+| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1824 |
 | **Training-based** | 基于训练（偏好优化 / 微调 / 强化学习等） | 268 |
 
 
@@ -144,8 +144,8 @@
 | Tiny Papers @ ICLR | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | USENIX Security Symposium | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | TNNLS | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.0%
-| 其他 | 233 | `██░░░░░░░░░░░░░░░░░░` 11.2%
-| arXiv（预印本） | 1050 | `██████████░░░░░░░░░░` 50.3%
+| 其他 | 233 | `██░░░░░░░░░░░░░░░░░░` 11.1%
+| arXiv（预印本） | 1055 | `██████████░░░░░░░░░░` 50.4%
 | 未标注 | 12 | `░░░░░░░░░░░░░░░░░░░░` 0.6%
 
 <details>
@@ -326,7 +326,7 @@
 | CCF-A | 462 | `████░░░░░░░░░░░░░░░░` 22.1%
 | CCF-B | 240 | `██░░░░░░░░░░░░░░░░░░` 11.5%
 | CCF-C | 36 | `░░░░░░░░░░░░░░░░░░░░` 1.7%
-| 未收录 | 1349 | `█████████████░░░░░░░` 64.6%
+| 未收录 | 1354 | `█████████████░░░░░░░` 64.7%
 > 📋 另有 `121` 篇 **评测 / Benchmark** 论文、📚 `35` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。
 
 ---
@@ -352,9 +352,9 @@
 
 幻觉研究正在快速演进。以下方向在 2025–2026 尤为火热，本图谱均有真实论文覆盖（数量为按真实标签自动统计）：
 
-- **智能体（Agentic AI / Multi-Agent）** — 共 129 篇带 `Agent` 标签。
-- **检索增强生成（RAG / 忠实性）** — 共 170 篇带 `RAG` 标签。
-- **推理模型** — 共 398 篇带 `Reasoning` 标签。
+- **智能体（Agentic AI / Multi-Agent）** — 共 130 篇带 `Agent` 标签。
+- **检索增强生成（RAG / 忠实性）** — 共 172 篇带 `RAG` 标签。
+- **推理模型** — 共 399 篇带 `Reasoning` 标签。
 - **具身 / 世界模型** — 共 20 篇带 `Embodied` 标签。
 
 ---
@@ -538,7 +538,7 @@
 > 按**模型类型**分组（LLM / VLM / MLLM），每组内再按年份展开；点击标题可展开 / 收起。每条格式：**标题** · 会议/年份 · 模型 · 方法 · 💻代码。标题链接优先顶会官方版本。📋 = 评测/Benchmark 论文，📚 = 综述 Survey 论文。完整摘要与多维交叉筛选见交互式网站 [`docs/index.html`](docs/index.html)。欢迎 PR 补充。
 
 <details>
-<summary>🤖 LLM · 1231 篇</summary>
+<summary>🤖 LLM · 1235 篇</summary>
 
 <details>
 <summary>📅 2027 · 5 篇</summary>
@@ -552,9 +552,13 @@
 </details>
 
 <details>
-<summary>📅 2026 · 494 篇</summary>
+<summary>📅 2026 · 498 篇</summary>
 
 - **📋 [LexAgentHallu: A Hierarchical Benchmark for Profiling Hallucinations in Legal Agents](https://arxiv.org/abs/2609.09754)** · EMNLP 2026 · LLM · Training-free · 💻[code](https://github.com/TOM-ZHOUch/LexAgentHallu)
+- **[Invisible Ink, Visible Lies: How Production Watermarking Causes LLMs to Hallucinate](https://arxiv.org/abs/2610.04860)** · arXiv · LLM · Training-free
+- **[Hallucination Across the Reasoning Lifecycle: Interface Visibility, Causal Evidence, and Release Control in Large Reasoning Models](https://arxiv.org/abs/2610.05472)** · arXiv · LLM · Training-free
+- **[Understanding and Mitigating Hallucination Escape in Tool-Using LLM Agents](https://arxiv.org/abs/2610.04409)** · arXiv · LLM · Training-free
+- **[Grounding Probes: Generator-Independent Hallucination Detection from Observer Model Hidden States](https://arxiv.org/abs/2610.04642)** · arXiv · LLM · Training-free
 - **[Single-Pass Uncertainty Heads for Claim-Level Hallucination Detection in Persian Medical Language Models](https://arxiv.org/abs/2610.03482)** · arXiv · LLM · Training-free
 - **[HARPO: Hallucination-Aware Reinforcement Learning for Faithful and Creative Language Generation](https://arxiv.org/abs/2610.03063)** · arXiv · LLM · Training-based
 - **[External Observers May See More Clearly: Cross-Model Span-Level Hallucination Detection in Large Language Models via Hidden State Probing](https://arxiv.org/abs/2610.02066)** · arXiv · LLM · Training-free
@@ -1828,7 +1832,7 @@
 </details>
 
 <details>
-<summary>👁️ VLM · 793 篇</summary>
+<summary>👁️ VLM · 794 篇</summary>
 
 <details>
 <summary>📅 2027 · 1 篇</summary>
@@ -1838,8 +1842,9 @@
 </details>
 
 <details>
-<summary>📅 2026 · 358 篇</summary>
+<summary>📅 2026 · 359 篇</summary>
 
+- **[ROT: Rotating Hidden States towards Contextual Vectors for Hallucination Mitigation in LVLMs](https://arxiv.org/abs/2610.06056)** · arXiv · VLM · Training-free
 - **[See Only When Needed: Context-Aware Attention Intervention for Mitigating Hallucinations in LVLMs](https://arxiv.org/abs/2606.29847)** · ECCV 2026 · VLM · Training-free · 💻[code](https://github.com/Iris1946/CAI)
 - **[Mitigating Object Hallucination in Large Vision-Language Models via False Discovery Controlled Visual Data Splitting](https://arxiv.org/abs/2609.38979)** · arXiv · VLM · Training-free
 - **[MEND: Label-Free Detection, Localisation, and Correction of Latent Hallucination in World Models](https://arxiv.org/abs/2609.39182)** · arXiv · VLM · Training-free · 💻[code](https://github.com/eric-mitchell/mend)

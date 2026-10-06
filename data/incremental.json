@@ -5752,5 +5752,35 @@
     "Hyunjae Ra, Aecheon Jung, Jungin Park, Sungeun Hong",
     "https://arxiv.org/abs/2610.02976",
     2026
+  ],
+  [
+    "ROT: Rotating Hidden States towards Contextual Vectors for Hallucination Mitigation in LVLMs",
+    "Yijing Du, Xiangcheng Zhan, Shuo Yang",
+    "https://arxiv.org/abs/2610.06056",
+    2026
+  ],
+  [
+    "Hallucination Across the Reasoning Lifecycle: Interface Visibility, Causal Evidence, and Release Control in Large Reasoning Models",
+    "Zhe Yu, Mohan Li, Lei Yu, Ka-Ho Chow, Chengwei Qin, Xingyu Wu, Wenpeng Xing, Shuguang Xiong, Meng Han",
+    "https://arxiv.org/abs/2610.05472",
+    2026
+  ],
+  [
+    "Invisible Ink, Visible Lies: How Production Watermarking Causes LLMs to Hallucinate",
+    "Haocheng Ye, Aoting Hu, Xinwei Zhang, Xunzhu Tang, Shuchao Pang, Jason Xue",
+    "https://arxiv.org/abs/2610.04860",
+    2026
+  ],
+  [
+    "Grounding Probes: Generator-Independent Hallucination Detection from Observer Model Hidden States",
+    "Michael Rathmayr, Ádám Kovács, Gábor Recski",
+    "https://arxiv.org/abs/2610.04642",
+    2026
+  ],
+  [
+    "Understanding and Mitigating Hallucination Escape in Tool-Using LLM Agents",
+    "Peigui Qi, Kunsheng Tang, Yide Song, Weiming Zhang, Nenghai Yu",
+    "https://arxiv.org/abs/2610.04409",
+    2026
   ]
 ]
