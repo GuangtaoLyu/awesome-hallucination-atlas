@@ -5788,5 +5788,23 @@
     "Jorma Valjakka, Juhani Kivimäki, Juha Mylläri, Jukka K. Nurminen",
     "https://arxiv.org/abs/2610.08026",
     2026
+  ],
+  [
+    "PHRBench: A Behavioral Evaluation of Post-Hallucination Reasoning in LLMs",
+    "Linghao Meng, Feng He, Xuan Yang, Junyuan Mao, Pinze Ren, Deqing Mu, Hesen Yang, Qiankun Li",
+    "https://arxiv.org/abs/2610.10455",
+    2026
+  ],
+  [
+    "Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models",
+    "Jiho Lee, Jeongeun Park, Heayoun Choi, Taekyung Kim, Eunwoo Kim",
+    "https://arxiv.org/abs/2610.09496",
+    2026
+  ],
+  [
+    "Package Hallucination Attacks on Coding Agents through Prompt Injection in Rule Files",
+    "Yupu Wang, Zhengyuan Jiang, Reachal Wang, Neil Zhenqiang Gong",
+    "https://arxiv.org/abs/2610.09264",
+    2026
   ]
 ]
