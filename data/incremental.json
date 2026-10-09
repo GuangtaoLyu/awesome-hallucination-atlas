@@ -5806,5 +5806,35 @@
     "Yupu Wang, Zhengyuan Jiang, Reachal Wang, Neil Zhenqiang Gong",
     "https://arxiv.org/abs/2610.09264",
     2026
+  ],
+  [
+    "Hybrid Cinematography: Previsualizing and Managing Hallucination Risk in Generative Video Reshooting",
+    " Nhan,  Tran, Neal Wadhwa, Abe Davis, Stefan Stojanov",
+    "https://arxiv.org/abs/2610.12455",
+    2026
+  ],
+  [
+    "Beyond Visual Enhancement: Adaptive Multi-Context Steering to Mitigate LVLM Hallucinations",
+    "Shuran Ma, JiaLe Li, Yuxin Dong, Shan Zheng, Qingyun Jiang, Xiang Chen, Qi Zhu, Deyi Ji, Yifan Yang, Jianfeng Pan, Yu Tian, Xue Yang",
+    "https://arxiv.org/abs/2610.11907",
+    2026
+  ],
+  [
+    "From Suppression to Repair: Mitigating Object Hallucination in Large Vision-Language Models via Localized Distribution Alignment",
+    "Chen Zhao, Xingping Dong, Jiachun Shi, Liang Peng, Chong Wang, Zhen Lei, Ran He, Bo Du",
+    "https://arxiv.org/abs/2610.11826",
+    2026
+  ],
+  [
+    "Fact over Fiction: Detection of Pathological Hallucinations in Sinhala-to-English Neural Machine Translation",
+    "Navam Obeysekara, Nevidu Jayatilleke",
+    "https://arxiv.org/abs/2610.11389",
+    2026
+  ],
+  [
+    "When Citations Mislead? A Claim-Level Benchmark for Legal Hallucination Detection",
+    "M. Mikail Demir, M. Abdullah Canbaz",
+    "https://arxiv.org/abs/2610.10971",
+    2026
   ]
 ]
