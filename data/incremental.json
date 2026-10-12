@@ -5836,5 +5836,17 @@
     "M. Mikail Demir, M. Abdullah Canbaz",
     "https://arxiv.org/abs/2610.10971",
     2026
+  ],
+  [
+    "Tracing and Taming Hallucinated Terms via Subsequence-Association Filtering and Breadth-Aware Selection for LLM Query Expansion",
+    "Amit Kumar Jaiswal, Sagar Uprety, Prayag Tiwari",
+    "https://arxiv.org/abs/2610.13810",
+    2026
+  ],
+  [
+    "Does Location Matter? A Black-Box Causal Audit Reveals Model-Dependent Audio Grounding in LALM Hallucination",
+    "Mohammad Khalooei, Mohammad Sabokrou",
+    "https://arxiv.org/abs/2610.13112",
+    2026
   ]
 ]
