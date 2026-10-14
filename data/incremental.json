@@ -5848,5 +5848,53 @@
     "Mohammad Khalooei, Mohammad Sabokrou",
     "https://arxiv.org/abs/2610.13112",
     2026
+  ],
+  [
+    "Hallucination-aware Faithful Reasoning in Remote Sensing",
+    "Yi Liu, Jing Zhang, Xiang Feng, Xiaoyu Tian, Haonan Guo, Di Wang, Zengmao Wang, Bo Du",
+    "https://arxiv.org/abs/2610.18369",
+    2026
+  ],
+  [
+    "TRACESTEER: Trace Driven Activation Steering for Hallucination Mitigation in Diffusion Language Models",
+    "Xin Zhang, Yili Wang, Yue Tan, Xin He, Rui Miao, Yixin Liu, Yi Chang, Xin Wang",
+    "https://arxiv.org/abs/2610.18173",
+    2026
+  ],
+  [
+    "Mitigating Cross-Modal Hallucinations by Correcting Modality Misrouting in Omnimodal LLMs",
+    "Yu Mi, Licheng Pan, Jiayi Zhu, Qirui Liu, Yitong Qiao, Changtong Xu, Tao Wei, Fei Sun, Zhixuan Chu, Kui Ren",
+    "https://arxiv.org/abs/2610.18141",
+    2026
+  ],
+  [
+    "From Token Correction to Claim Admission: Training-Free Hallucination Mitigation for Large Vision-Language Models",
+    "Hyeonggeun Han, Taehyun Cho, Sangwoo Hong",
+    "https://arxiv.org/abs/2610.17706",
+    2026
+  ],
+  [
+    "ToolHACE: A Dataset for Detecting Hallucinations in Tool-Based LLM Responses",
+    "Nikolay Ivanov, Sergey Pletenev, Elisei Rykov, Anatolii Frolov, Bogdan Monogov, Alexander Potekhin, Maria Marina, Daniil Moskovskiy, Viktor Moskvoretskii, Alexander Panchenko, Ilseyar Alimova",
+    "https://arxiv.org/abs/2610.17125",
+    2026
+  ],
+  [
+    "RSAJEV: Training-Free Abstaining Prototype Memory for Eliminating Silent Hallucination in JEV-Based Remote Sensing Classification",
+    "Man Chen, Antai Chen, Shuai Xu, Chengjie Gu, Huaping Zhou, Kelei Sun, Tao Wu, Yongjie Huang",
+    "https://arxiv.org/abs/2610.15742",
+    2026
+  ],
+  [
+    "Metric-Driven Reinforcement Learning for Object Hallucination Reduction in LVLM-Based Image Captioning",
+    "Thanh Nguyen, Hee Suk Yoon, Tung Minh Luu, Eunseop Yoon, Chang D. Yoo",
+    "https://arxiv.org/abs/2610.14976",
+    2026
+  ],
+  [
+    "PVFH-Bench: Benchmarking Premise-Induced Visual Fixation Hallucinations in Vision-Language Models",
+    "Xinhao Wang, Junbo Cui, Zhenghao Liu, Yuan Yao, Xiaohua Li, Yu Gu, Ge Yu",
+    "https://arxiv.org/abs/2610.14635",
+    2026
   ]
 ]
