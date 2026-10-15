@@ -6096,5 +6096,7 @@
  "fromtokencorrectiontoclaimadmissiontrainingfreehallucinationmitigationforlargevisionlanguagemodels": "",
  "hallucinationawarefaithfulreasoninginremotesensing": "",
  "mitigatingcrossmodalhallucinationsbycorrectingmodalitymisroutinginomnimodalllms": "",
- "tracesteertracedrivenactivationsteeringforhallucinationmitigationindiffusionlanguagemodels": ""
+ "tracesteertracedrivenactivationsteeringforhallucinationmitigationindiffusionlanguagemodels": "",
+ "grayboxhallucinationdetectioninllmswithtokenidentities": "",
+ "mitigatingvideohallucinationsviaattentionguidedrepresentationperturbation": ""
 }

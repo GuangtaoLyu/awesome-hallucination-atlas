@@ -5896,5 +5896,17 @@
     "Xinhao Wang, Junbo Cui, Zhenghao Liu, Yuan Yao, Xiaohua Li, Yu Gu, Ge Yu",
     "https://arxiv.org/abs/2610.14635",
     2026
+  ],
+  [
+    "Gray-Box Hallucination Detection in LLMs with Token Identities",
+    "Shaked Goldshtein, Yitzchak Grunbaum, Fabrizio Frasca, Guy Bar-Shalom, Haggai Maron",
+    "https://arxiv.org/abs/2610.19996",
+    2026
+  ],
+  [
+    "Mitigating Video Hallucinations via Attention-Guided Representation Perturbation",
+    "Zhixin Cai, Ruoqi Yuan, Xinchen Yang, Zhuofan Chen, Jun Bai, Chuantao Yin, Wenge Rong",
+    "https://arxiv.org/abs/2610.19728",
+    2026
   ]
 ]
