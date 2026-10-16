@@ -5908,5 +5908,17 @@
     "Zhixin Cai, Ruoqi Yuan, Xinchen Yang, Zhuofan Chen, Jun Bai, Chuantao Yin, Wenge Rong",
     "https://arxiv.org/abs/2610.19728",
     2026
+  ],
+  [
+    "DialFork: Going Beyond Factuality to Evaluate Procedural Hallucination in Conversational Agents",
+    "Sergio Burdisso, Esaú Villatoro-Tello, Dairazalia Sánchez-Cortés, Yanis Labrak, Jordi Luque, Milos Cernak, Petr Motlicek",
+    "https://arxiv.org/abs/2610.21561",
+    2026
+  ],
+  [
+    "FlashAttention with Statistics: Low-Overhead Attention Features for Compact Hallucination Detectors",
+    "Andrei Volodichev, Maksim Savichev, Nikita Sviridov, Artem Yuliy, Dmitry Simakov, Alexey Zaytsev",
+    "https://arxiv.org/abs/2610.21483",
+    2026
   ]
 ]

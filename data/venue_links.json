@@ -6098,5 +6098,7 @@
  "mitigatingcrossmodalhallucinationsbycorrectingmodalitymisroutinginomnimodalllms": "",
  "tracesteertracedrivenactivationsteeringforhallucinationmitigationindiffusionlanguagemodels": "",
  "grayboxhallucinationdetectioninllmswithtokenidentities": "",
- "mitigatingvideohallucinationsviaattentionguidedrepresentationperturbation": ""
+ "mitigatingvideohallucinationsviaattentionguidedrepresentationperturbation": "",
+ "dialforkgoingbeyondfactualitytoevaluateproceduralhallucinationinconversationalagents": "",
+ "flashattentionwithstatisticslowoverheadattentionfeaturesforcompacthallucinationdetectors": ""
 }
