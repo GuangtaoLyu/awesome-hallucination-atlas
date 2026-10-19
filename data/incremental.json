@@ -5920,5 +5920,29 @@
     "Andrei Volodichev, Maksim Savichev, Nikita Sviridov, Artem Yuliy, Dmitry Simakov, Alexey Zaytsev",
     "https://arxiv.org/abs/2610.21483",
     2026
+  ],
+  [
+    "Not Every Mention Is a Claim: Rethinking Object Hallucination Detection in Vision-Language Models",
+    "Hsin-Ling Hsu, Neeraja Kirtane, Kuan-Hao Huang",
+    "https://arxiv.org/abs/2610.23610",
+    2026
+  ],
+  [
+    "Bengali Hallucination Detection with Retrieval and Programs: A System Study",
+    "Shamim Hasan, Samiya Ahmed Chowdhury",
+    "https://arxiv.org/abs/2610.22892",
+    2026
+  ],
+  [
+    "When Does Uncertainty Measure RAG Hallucination Risk?",
+    "Rajeel Ahmad Ansari, Tautik Agrahari",
+    "https://arxiv.org/abs/2610.22615",
+    2026
+  ],
+  [
+    "alkhder at ImageEval 2026 Shared Tasks: Constrained Selection and Rotation-Averaged Logit Scoring for Multimodal Hallucination Detection",
+    "Maher Pasa, Maria Hanini, Amro Najjar, Hasan Alkhder",
+    "https://arxiv.org/abs/2610.22515",
+    2026
   ]
 ]
