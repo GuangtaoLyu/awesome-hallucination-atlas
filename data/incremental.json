@@ -5944,5 +5944,29 @@
     "Maher Pasa, Maria Hanini, Amro Najjar, Hasan Alkhder",
     "https://arxiv.org/abs/2610.22515",
     2026
+  ],
+  [
+    "Risk Decomposition for Hallucination-Aware Video Sampling",
+    "Chenyan Zheng, Fan Wu, Ruibo Li, Jiaxing Li, Minghao Yang, Bang Zhang, Guosheng Lin",
+    "https://arxiv.org/abs/2610.26069",
+    2026
+  ],
+  [
+    "Token-Set Choice Confounds POPE: A Systematic Audit of Yes/No Extraction in VLM Hallucination Evaluation",
+    "Kesav Kumar Jayakumar, Karthigeyan Thilak",
+    "https://arxiv.org/abs/2610.25964",
+    2026
+  ],
+  [
+    "When Retrieval Partially Conflicts with Skills: Understanding Procedural Hallucination in Language Models",
+    "Guanqun Jiang, Pengfei Cao, Kang Liu, Jun Zhao",
+    "https://arxiv.org/abs/2610.25827",
+    2026
+  ],
+  [
+    "PLANE: Plug-and-Play Fine-Grained Visual Experts for Hallucination Mitigation in Large Vision-Language Models",
+    "Jianghao Yin, Lang Yu, Qianxi Yu, Qin Chen, Jie Zhou, Zhikai Lei, Liang He",
+    "https://arxiv.org/abs/2610.25146",
+    2026
   ]
 ]
