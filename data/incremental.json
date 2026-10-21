@@ -5968,5 +5968,65 @@
     "Jianghao Yin, Lang Yu, Qianxi Yu, Qin Chen, Jie Zhou, Zhikai Lei, Liang He",
     "https://arxiv.org/abs/2610.25146",
     2026
+  ],
+  [
+    "Hallucinations of Large Language Models in Cross-Language Code Translation: Phenomena and Mitigation",
+    "Yali Du, Yunji Zhang, Ming Li",
+    "https://arxiv.org/abs/2610.27868",
+    2026
+  ],
+  [
+    "Tracing Recurrent and Emergent Hallucination Patterns in Decomposed Text-to-SQL Generation",
+    "Hayden Moore, Abhinav Verma, Anshuman Dutt",
+    "https://arxiv.org/abs/2610.27720",
+    2026
+  ],
+  [
+    "How Fine-Tuning Objectives Shape Layer-Wise Information in LLM Hallucination Detection",
+    "Kaiyang Wan, Forrest Sheng Bao, Amin Ahmad, Yuxia Wang",
+    "https://arxiv.org/abs/2610.27711",
+    2026
+  ],
+  [
+    "SHAM-Bench: A Span-level Hallucination Benchmark Across Multiple Tasks",
+    "Sicong Huang, Ian Lane",
+    "https://arxiv.org/abs/2610.27370",
+    2026
+  ],
+  [
+    "Target-Aware Curation of Hallucination Stress Tests for Large Language Models",
+    "Jiho Lee, Bingquan Zhang, Lin Ting Liang, Soroush Vosoughi, Weicheng Ma",
+    "https://arxiv.org/abs/2610.27247",
+    2026
+  ],
+  [
+    "CARLAR Influence: A Structured Hallucination Risk in Multimodal Cheque Extraction and an Exploratory Compressed-Image Countermeasure",
+    "Joong Ho,  Choi, Aditya Paul, Nidhi Singh",
+    "https://arxiv.org/abs/2610.27192",
+    2026
+  ],
+  [
+    "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+    "Zijian Liu, Chaoyou Fu, Yan Yang, Caifeng Shan, Ran He",
+    "https://arxiv.org/abs/2610.27103",
+    2026
+  ],
+  [
+    "Robustness of Internal Signals for Hallucination Detection in Vision-Language Models",
+    "Allison Chen, William Yang, Salma Abdel Magid, Jonathan Williams, Olga Russakovsky, Esin Tureci",
+    "https://arxiv.org/abs/2610.27041",
+    2026
+  ],
+  [
+    "Fluent but Fallible: Benchmarking Hallucination and Factual Reliability in Large Language Models",
+    "Osama Shabih, Dayam Nadeem, Shahab Saquib Sohail, Mohammad Nadeem",
+    "https://arxiv.org/abs/2610.27034",
+    2026
+  ],
+  [
+    "Does Multi-Agent Collaboration Reduce Hallucination in Clinical Tasks?",
+    "Won Seok Jang, Harry Bhaskar Joshi, Hong Yu",
+    "https://arxiv.org/abs/2610.27027",
+    2026
   ]
 ]
