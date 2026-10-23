@@ -6117,5 +6117,7 @@
  "targetawarecurationofhallucinationstresstestsforlargelanguagemodels": "",
  "hallucinationsoflargelanguagemodelsincrosslanguagecodetranslationphenomenaandmitigation": "",
  "howfinetuningobjectivesshapelayerwiseinformationinllmhallucinationdetection": "",
- "tracingrecurrentandemergenthallucinationpatternsindecomposedtexttosqlgeneration": ""
+ "tracingrecurrentandemergenthallucinationpatternsindecomposedtexttosqlgeneration": "",
+ "citeanchorsourceawaregroundingforhallucinatedcitationdetectionandresolution": "",
+ "tracinghallucinationsinllmreasoningforumlclassdiagramgenerationanempiricaltaxonomyandmitigationstudy": ""
 }

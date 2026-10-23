@@ -6,11 +6,11 @@
 >
 > 涵盖幻觉的**检测、评测与缓解**方法，支持按模型类型、方法类型、年份多维交叉筛选，并以标签补充模态与场景。
 >
-> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1566/2133 篇），非仅标题关键词。
+> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1568/2135 篇），非仅标题关键词。
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Papers-2133-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1566-9cf' />
+  <img src='https://img.shields.io/badge/Papers-2135-blue' />
+  <img src='https://img.shields.io/badge/Abstract--based-1568-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-10&color=orange' />
 </p>
@@ -41,8 +41,8 @@
 
 <a id="sec-overview"></a>
 ## 📊 数据概览
-- **论文总数**：`2133` （已去重）
-- **含论文链接**：`2130` · **含全文摘要**：`1566` · **含代码链接**：`1151` · **顶会正式发表**：`1007`
+- **论文总数**：`2135` （已去重）
+- **含论文链接**：`2132` · **含全文摘要**：`1568` · **含代码链接**：`1151` · **顶会正式发表**：`1007`
 - 顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息
 - **覆盖年份**：2018 – 2027
 
@@ -51,7 +51,7 @@
 | 年份 | 数量 | 占比 |
 |------|------|------|
 | 2027 | 6 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| 2026 | 934 | `█████████░░░░░░░░░░░` 43.8%
+| 2026 | 936 | `█████████░░░░░░░░░░░` 43.8%
 | 2025 | 768 | `███████░░░░░░░░░░░░░` 36.0%
 | 2024 | 375 | `████░░░░░░░░░░░░░░░░` 17.6%
 | 2023 | 31 | `░░░░░░░░░░░░░░░░░░░░` 1.5%
@@ -68,14 +68,14 @@
 |----------|------|------|
 | **VLM** | 视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作） | 811 |
 | **MLLM(Omni)** | 全模态模型（Omni：音频 / 语音 / any-to-any） | 66 |
-| **LLM** | 纯语言大模型 | 1256 |
+| **LLM** | 纯语言大模型 | 1258 |
 
 
 ### 按方法类型分布
 
 | 方法类型 | 说明 | 数量 |
 |----------|------|------|
-| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1858 |
+| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1860 |
 | **Training-based** | 基于训练（偏好优化 / 微调 / 强化学习等） | 275 |
 
 
@@ -89,7 +89,7 @@
 | 会议 / 期刊 | 数量 | 占比 |
 |-------------|------|------|
 | ACL | 153 | `█░░░░░░░░░░░░░░░░░░░` 7.2%
-| EMNLP | 112 | `█░░░░░░░░░░░░░░░░░░░` 5.3%
+| EMNLP | 112 | `█░░░░░░░░░░░░░░░░░░░` 5.2%
 | AAAI | 65 | `█░░░░░░░░░░░░░░░░░░░` 3.0%
 | CVPR | 65 | `█░░░░░░░░░░░░░░░░░░░` 3.0%
 | NeurIPS | 44 | `░░░░░░░░░░░░░░░░░░░░` 2.1%
@@ -145,7 +145,7 @@
 | USENIX Security Symposium | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | TNNLS | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.0%
 | 其他 | 233 | `██░░░░░░░░░░░░░░░░░░` 10.9%
-| arXiv（预印本） | 1096 | `██████████░░░░░░░░░░` 51.4%
+| arXiv（预印本） | 1098 | `██████████░░░░░░░░░░` 51.4%
 | 未标注 | 12 | `░░░░░░░░░░░░░░░░░░░░` 0.6%
 
 <details>
@@ -323,10 +323,10 @@
 
 | CCF 评级 | 数量 | 占比 |
 |----------|------|------|
-| CCF-A | 462 | `████░░░░░░░░░░░░░░░░` 21.7%
-| CCF-B | 240 | `██░░░░░░░░░░░░░░░░░░` 11.3%
+| CCF-A | 462 | `████░░░░░░░░░░░░░░░░` 21.6%
+| CCF-B | 240 | `██░░░░░░░░░░░░░░░░░░` 11.2%
 | CCF-C | 36 | `░░░░░░░░░░░░░░░░░░░░` 1.7%
-| 未收录 | 1395 | `█████████████░░░░░░░` 65.4%
+| 未收录 | 1397 | `█████████████░░░░░░░` 65.4%
 > 📋 另有 `126` 篇 **评测 / Benchmark** 论文、📚 `35` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。
 
 ---
@@ -354,7 +354,7 @@
 
 - **智能体（Agentic AI / Multi-Agent）** — 共 135 篇带 `Agent` 标签。
 - **检索增强生成（RAG / 忠实性）** — 共 175 篇带 `RAG` 标签。
-- **推理模型** — 共 407 篇带 `Reasoning` 标签。
+- **推理模型** — 共 408 篇带 `Reasoning` 标签。
 - **具身 / 世界模型** — 共 22 篇带 `Embodied` 标签。
 
 ---
@@ -543,7 +543,7 @@
 > 按**模型类型**分组（LLM / VLM / MLLM），每组内再按年份展开；点击标题可展开 / 收起。每条格式：**标题** · 会议/年份 · 模型 · 方法 · 💻代码。标题链接优先顶会官方版本。📋 = 评测/Benchmark 论文，📚 = 综述 Survey 论文。完整摘要与多维交叉筛选见交互式网站 [`docs/index.html`](docs/index.html)。欢迎 PR 补充。
 
 <details>
-<summary>🤖 LLM · 1256 篇</summary>
+<summary>🤖 LLM · 1258 篇</summary>
 
 <details>
 <summary>📅 2027 · 5 篇</summary>
@@ -557,9 +557,11 @@
 </details>
 
 <details>
-<summary>📅 2026 · 519 篇</summary>
+<summary>📅 2026 · 521 篇</summary>
 
 - **📋 [LexAgentHallu: A Hierarchical Benchmark for Profiling Hallucinations in Legal Agents](https://arxiv.org/abs/2609.09754)** · EMNLP 2026 · LLM · Training-free · 💻[code](https://github.com/TOM-ZHOUch/LexAgentHallu)
+- **[Tracing Hallucinations in LLM Reasoning for UML Class Diagram Generation: An Empirical Taxonomy and Mitigation Study](https://arxiv.org/abs/2610.30946)** · arXiv · LLM · Training-free
+- **[CiteAnchor: Source-Aware Grounding for Hallucinated Citation Detection and Resolution](https://arxiv.org/abs/2610.30355)** · arXiv · LLM · Training-free
 - **[Tracing Recurrent and Emergent Hallucination Patterns in Decomposed Text-to-SQL Generation](https://arxiv.org/abs/2610.27720)** · arXiv · LLM · Training-free
 - **[How Fine-Tuning Objectives Shape Layer-Wise Information in LLM Hallucination Detection](https://arxiv.org/abs/2610.27711)** · arXiv · LLM · Training-free
 - **[Hallucinations of Large Language Models in Cross-Language Code Translation: Phenomena and Mitigation](https://arxiv.org/abs/2610.27868)** · arXiv · LLM · Training-free

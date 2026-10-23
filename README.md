@@ -6,11 +6,11 @@
 >
 > Covers **detection, evaluation, and mitigation** of hallucinations, with multi-dimensional faceted filtering by model type, method type, and year, plus tags for modality and scenario.
 >
-> Taxonomy is auto-labeled from the **full arXiv abstract text** (1566/2133 papers), not just title keywords.
+> Taxonomy is auto-labeled from the **full arXiv abstract text** (1568/2135 papers), not just title keywords.
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Papers-2133-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1566-9cf' />
+  <img src='https://img.shields.io/badge/Papers-2135-blue' />
+  <img src='https://img.shields.io/badge/Abstract--based-1568-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-10&color=orange' />
 </p>
@@ -41,8 +41,8 @@
 
 <a id="sec-overview"></a>
 ## 📊 Data Overview
-- **Total papers**：`2133` (deduplicated)
-- **With paper link**：`2130` · **With abstract**：`1566` · **With code**：`1151` · **Published at venue**：`1007`
+- **Total papers**：`2135` (deduplicated)
+- **With paper link**：`2132` · **With abstract**：`1568` · **With code**：`1151` · **Published at venue**：`1007`
 - For papers published at a venue: time and link prioritize the official conference/journal info (DBLP), otherwise arXiv info is used.
 - **Year range**：2018 – 2027
 
@@ -51,7 +51,7 @@
 | Year | Count | Share |
 |------|------|------|
 | 2027 | 6 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| 2026 | 934 | `█████████░░░░░░░░░░░` 43.8%
+| 2026 | 936 | `█████████░░░░░░░░░░░` 43.8%
 | 2025 | 768 | `███████░░░░░░░░░░░░░` 36.0%
 | 2024 | 375 | `████░░░░░░░░░░░░░░░░` 17.6%
 | 2023 | 31 | `░░░░░░░░░░░░░░░░░░░░` 1.5%
@@ -68,14 +68,14 @@
 |----------|------|------|
 | **VLM** | Vision-Language Model (LVLM; also covers works that call themselves MLLM but handle only image/video + text) | 811 |
 | **MLLM(Omni)** | Omni / full-modal model (audio / speech / any-to-any) | 66 |
-| **LLM** | Pure text-based LLM | 1256 |
+| **LLM** | Pure text-based LLM | 1258 |
 
 
 ### Method Type
 
 | Method Type | Description | Count |
 |----------|------|------|
-| **Training-free** | Training-free (decoding intervention / attention calibration / representation guidance, etc.) | 1858 |
+| **Training-free** | Training-free (decoding intervention / attention calibration / representation guidance, etc.) | 1860 |
 | **Training-based** | Training-based (preference optimization / fine-tuning / RL, etc.) | 275 |
 
 
@@ -89,7 +89,7 @@
 | Venue / Journal | Count | Share |
 |-------------|------|------|
 | ACL | 153 | `█░░░░░░░░░░░░░░░░░░░` 7.2%
-| EMNLP | 112 | `█░░░░░░░░░░░░░░░░░░░` 5.3%
+| EMNLP | 112 | `█░░░░░░░░░░░░░░░░░░░` 5.2%
 | AAAI | 65 | `█░░░░░░░░░░░░░░░░░░░` 3.0%
 | CVPR | 65 | `█░░░░░░░░░░░░░░░░░░░` 3.0%
 | NeurIPS | 44 | `░░░░░░░░░░░░░░░░░░░░` 2.1%
@@ -145,7 +145,7 @@
 | USENIX Security Symposium | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | TNNLS | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.0%
 | Other | 233 | `██░░░░░░░░░░░░░░░░░░` 10.9%
-| arXiv (preprint) | 1096 | `██████████░░░░░░░░░░` 51.4%
+| arXiv (preprint) | 1098 | `██████████░░░░░░░░░░` 51.4%
 | Unlabeled | 12 | `░░░░░░░░░░░░░░░░░░░░` 0.6%
 
 <details>
@@ -323,10 +323,10 @@
 
 | CCF Rating | Count | Share |
 |----------|------|------|
-| CCF-A | 462 | `████░░░░░░░░░░░░░░░░` 21.7%
-| CCF-B | 240 | `██░░░░░░░░░░░░░░░░░░` 11.3%
+| CCF-A | 462 | `████░░░░░░░░░░░░░░░░` 21.6%
+| CCF-B | 240 | `██░░░░░░░░░░░░░░░░░░` 11.2%
 | CCF-C | 36 | `░░░░░░░░░░░░░░░░░░░░` 1.7%
-| Not in CCF | 1395 | `█████████████░░░░░░░` 65.4%
+| Not in CCF | 1397 | `█████████████░░░░░░░` 65.4%
 > 📋 `126` **Benchmark** papers and 📚 `35` **Survey** papers are listed separately (see sections below) and do not affect the method taxonomy.
 
 ---
@@ -354,7 +354,7 @@ Hallucination research is moving fast. These directions are especially hot in 20
 
 - **Agentic AI / Multi-Agent** — 135 papers tagged `Agent`.
 - **RAG / Faithfulness** — 175 papers tagged `RAG`.
-- **Reasoning Models** — 407 papers tagged `Reasoning`.
+- **Reasoning Models** — 408 papers tagged `Reasoning`.
 - **Embodied / World Model** — 22 papers tagged `Embodied`.
 
 ---
@@ -543,7 +543,7 @@ Hallucination research is moving fast. These directions are especially hot in 20
 > Grouped by **model type** (LLM / VLM / MLLM), then expanded by year inside each group; click a header to expand / collapse. Format per entry: **Title** · venue/year · model · method · 💻code. Title links prefer the official venue version. 📋 = Benchmark paper, 📚 = Survey paper. Full abstracts and multi-dimensional filtering are available in the interactive website [`docs/index.html`](docs/index.html). PRs welcome.
 
 <details>
-<summary>🤖 LLM · 1256 篇</summary>
+<summary>🤖 LLM · 1258 篇</summary>
 
 <details>
 <summary>📅 2027 · 5 papers</summary>
@@ -557,9 +557,11 @@ Hallucination research is moving fast. These directions are especially hot in 20
 </details>
 
 <details>
-<summary>📅 2026 · 519 papers</summary>
+<summary>📅 2026 · 521 papers</summary>
 
 - **📋 [LexAgentHallu: A Hierarchical Benchmark for Profiling Hallucinations in Legal Agents](https://arxiv.org/abs/2609.09754)** · EMNLP 2026 · LLM · Training-free · 💻[code](https://github.com/TOM-ZHOUch/LexAgentHallu)
+- **[Tracing Hallucinations in LLM Reasoning for UML Class Diagram Generation: An Empirical Taxonomy and Mitigation Study](https://arxiv.org/abs/2610.30946)** · arXiv · LLM · Training-free
+- **[CiteAnchor: Source-Aware Grounding for Hallucinated Citation Detection and Resolution](https://arxiv.org/abs/2610.30355)** · arXiv · LLM · Training-free
 - **[Tracing Recurrent and Emergent Hallucination Patterns in Decomposed Text-to-SQL Generation](https://arxiv.org/abs/2610.27720)** · arXiv · LLM · Training-free
 - **[How Fine-Tuning Objectives Shape Layer-Wise Information in LLM Hallucination Detection](https://arxiv.org/abs/2610.27711)** · arXiv · LLM · Training-free
 - **[Hallucinations of Large Language Models in Cross-Language Code Translation: Phenomena and Mitigation](https://arxiv.org/abs/2610.27868)** · arXiv · LLM · Training-free
