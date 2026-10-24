@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Awesome Hallucination Atlas · Interactive Paper Atlas</title>
+<meta name="description" content="Awesome Hallucination Atlas — a structured, interactive atlas of hallucination research across LLM / VLM / MLLM: multi-dimensional filtering, full-text search, and year sorting." />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preload" href="papers.lite.json" as="fetch" type="application/json" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo">🧠</span>
+    <div>
+      <h1>Awesome Hallucination <span class="accent">Atlas</span></h1>
+      <p class="tagline" data-i18n="tagline">多模态大模型幻觉研究图谱 · 结构化可交互资源库</p>
+    </div>
+  </div>
+  <div class="topbar-actions">
+    <a class="ghost-btn" href="https://github.com/GuangtaoLyu/awesome-hallucination-atlas" target="_blank" rel="noopener" data-i18n="github">⭐ GitHub</a>
+    <button id="langToggle" class="ghost-btn" title="切换语言 / Switch language">EN</button>
+    <button id="themeToggle" class="ghost-btn" title="切换主题">🌙</button>
+  </div>
+</header>
+
+<!-- ===== Stats overview ===== -->
+<section class="stats" id="stats"></section>
+
+<!-- ===== Controls ===== -->
+<section class="controls">
+  <div class="search-wrap">
+    <span class="search-icon">🔍</span>
+    <input id="search" type="search" placeholder="搜索标题、作者、摘要全文…（支持中英文）" autocomplete="off" />
+    <kbd>/</kbd>
+  </div>
+  <div class="control-row">
+    <div class="sort-wrap">
+      <label data-i18n="sortLabel">排序</label>
+      <select id="sort">
+        <option value="new" data-i18n="sortNew">最新优先</option>
+        <option value="old" data-i18n="sortOld">最早优先</option>
+        <option value="title" data-i18n="sortTitle">标题 A→Z</option>
+      </select>
+    </div>
+    <div class="view-wrap">
+      <button class="seg active" data-view="card" data-i18n="viewCard">▦ 卡片</button>
+      <button class="seg" data-view="table" data-i18n="viewTable">▤ 表格</button>
+    </div>
+    <div class="sort-wrap">
+      <label data-i18n="pageSizeLabel">每页</label>
+      <select id="pageSize">
+        <option value="50">50</option>
+        <option value="100" selected>100</option>
+        <option value="200">200</option>
+        <option value="500">500</option>
+      </select>
+    </div>
+    <button id="exportBtn" class="ghost-btn small" data-i18n="exportCsv">⬇ 导出 CSV</button>
+    <button id="resetBtn" class="ghost-btn small" data-i18n="reset">✕ 清除筛选</button>
+  </div>
+
+  <div class="facets" id="facets"></div>
+</section>
+
+<!-- ===== Results ===== -->
+<section class="results-head">
+  <span id="resultCount"></span>
+  <span id="activeChips" class="active-chips"></span>
+</section>
+
+<main id="results" class="results card-view"></main>
+<nav id="pager" class="pager" aria-label="分页导航"></nav>
+
+<footer class="footer">
+  <p data-i18n="footerDesc" data-i18n-html>数据基于 <a href="https://github.com/GuangtaoLyu/awesome-hallucination-atlas" target="_blank" rel="noopener">awesome-hallucination-atlas</a> 改造增强 · 分类由启发式引擎自动标注，欢迎通过 <a href="../CONTRIBUTING.md" target="_blank">CONTRIBUTING</a> 修正。</p>
+  <p class="muted" id="footLine"></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
