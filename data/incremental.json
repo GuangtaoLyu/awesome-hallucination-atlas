@@ -6046,5 +6046,23 @@
     "Jiawei Dong, Zilong Bai, Pengtian zhu, Peng Zhou",
     "https://arxiv.org/abs/2610.32212",
     2026
+  ],
+  [
+    "CalibraRL: Confidence-Calibrated Reinforcement Learning for Mitigating Hallucinations in RAG",
+    "Qianchi Zhang, Hainan Zhang, Liang Pang, Hongwei Zheng, Zhiming Zheng",
+    "https://arxiv.org/abs/2610.35142",
+    2026
+  ],
+  [
+    "Useful Diversity or Hallucinated Variety? Persona-Conditioned Synthetic Query Generation for E-Commerce Search",
+    "Filippos Ventirozos, Tom Armitage, Mahmoud Oshagh, Peter A. Appleby, Matthew Shardlow",
+    "https://arxiv.org/abs/2610.35102",
+    2026
+  ],
+  [
+    "Mycelium: A Meta-Study of Hallucination Detection Across Provenance, Typology, and Granularities",
+    "Julia Belikova, Elisei Rykov",
+    "https://arxiv.org/abs/2610.33608",
+    2026
   ]
 ]
