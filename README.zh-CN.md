@@ -6,11 +6,11 @@
 >
 > 涵盖幻觉的**检测、评测与缓解**方法，支持按模型类型、方法类型、年份多维交叉筛选，并以标签补充模态与场景。
 >
-> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1572/2139 篇），非仅标题关键词。
+> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1574/2141 篇），非仅标题关键词。
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Papers-2139-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1572-9cf' />
+  <img src='https://img.shields.io/badge/Papers-2141-blue' />
+  <img src='https://img.shields.io/badge/Abstract--based-1574-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-10&color=orange' />
 </p>
@@ -41,8 +41,8 @@
 
 <a id="sec-overview"></a>
 ## 📊 数据概览
-- **论文总数**：`2139` （已去重）
-- **含论文链接**：`2136` · **含全文摘要**：`1572` · **含代码链接**：`1167` · **顶会正式发表**：`1007`
+- **论文总数**：`2141` （已去重）
+- **含论文链接**：`2138` · **含全文摘要**：`1574` · **含代码链接**：`1167` · **顶会正式发表**：`1007`
 - 顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息
 - **覆盖年份**：2018 – 2027
 
@@ -51,7 +51,7 @@
 | 年份 | 数量 | 占比 |
 |------|------|------|
 | 2027 | 6 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| 2026 | 940 | `█████████░░░░░░░░░░░` 43.9%
+| 2026 | 942 | `█████████░░░░░░░░░░░` 44.0%
 | 2025 | 768 | `███████░░░░░░░░░░░░░` 35.9%
 | 2024 | 375 | `████░░░░░░░░░░░░░░░░` 17.5%
 | 2023 | 31 | `░░░░░░░░░░░░░░░░░░░░` 1.4%
@@ -68,14 +68,14 @@
 |----------|------|------|
 | **VLM** | 视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作） | 811 |
 | **MLLM(Omni)** | 全模态模型（Omni：音频 / 语音 / any-to-any） | 66 |
-| **LLM** | 纯语言大模型 | 1262 |
+| **LLM** | 纯语言大模型 | 1264 |
 
 
 ### 按方法类型分布
 
 | 方法类型 | 说明 | 数量 |
 |----------|------|------|
-| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1862 |
+| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1864 |
 | **Training-based** | 基于训练（偏好优化 / 微调 / 强化学习等） | 277 |
 
 
@@ -88,7 +88,7 @@
 
 | 会议 / 期刊 | 数量 | 占比 |
 |-------------|------|------|
-| ACL | 153 | `█░░░░░░░░░░░░░░░░░░░` 7.2%
+| ACL | 153 | `█░░░░░░░░░░░░░░░░░░░` 7.1%
 | EMNLP | 112 | `█░░░░░░░░░░░░░░░░░░░` 5.2%
 | AAAI | 65 | `█░░░░░░░░░░░░░░░░░░░` 3.0%
 | CVPR | 65 | `█░░░░░░░░░░░░░░░░░░░` 3.0%
@@ -145,7 +145,7 @@
 | USENIX Security Symposium | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | TNNLS | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.0%
 | 其他 | 233 | `██░░░░░░░░░░░░░░░░░░` 10.9%
-| arXiv（预印本） | 1102 | `██████████░░░░░░░░░░` 51.5%
+| arXiv（预印本） | 1104 | `██████████░░░░░░░░░░` 51.6%
 | 未标注 | 12 | `░░░░░░░░░░░░░░░░░░░░` 0.6%
 
 <details>
@@ -326,7 +326,7 @@
 | CCF-A | 462 | `████░░░░░░░░░░░░░░░░` 21.6%
 | CCF-B | 240 | `██░░░░░░░░░░░░░░░░░░` 11.2%
 | CCF-C | 36 | `░░░░░░░░░░░░░░░░░░░░` 1.7%
-| 未收录 | 1401 | `█████████████░░░░░░░` 65.5%
+| 未收录 | 1403 | `█████████████░░░░░░░` 65.5%
 > 📋 另有 `126` 篇 **评测 / Benchmark** 论文、📚 `35` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。
 
 ---
@@ -543,7 +543,7 @@
 > 按**模型类型**分组（LLM / VLM / MLLM），每组内再按年份展开；点击标题可展开 / 收起。每条格式：**标题** · 会议/年份 · 模型 · 方法 · 💻代码。标题链接优先顶会官方版本。📋 = 评测/Benchmark 论文，📚 = 综述 Survey 论文。完整摘要与多维交叉筛选见交互式网站 [`docs/index.html`](docs/index.html)。欢迎 PR 补充。
 
 <details>
-<summary>🤖 LLM · 1262 篇</summary>
+<summary>🤖 LLM · 1264 篇</summary>
 
 <details>
 <summary>📅 2027 · 5 篇</summary>
@@ -557,10 +557,12 @@
 </details>
 
 <details>
-<summary>📅 2026 · 525 篇</summary>
+<summary>📅 2026 · 527 篇</summary>
 
 - **📋 [LexAgentHallu: A Hierarchical Benchmark for Profiling Hallucinations in Legal Agents](https://arxiv.org/abs/2609.09754)** · EMNLP 2026 · LLM · Training-free · 💻[code](https://github.com/TOM-ZHOUch/LexAgentHallu)
+- **[Decision Models as Judges for Hallucination Detection](https://arxiv.org/abs/2610.37229)** · arXiv · LLM · Training-free
 - **[Useful Diversity or Hallucinated Variety? Persona-Conditioned Synthetic Query Generation for E-Commerce Search](https://arxiv.org/abs/2610.35102)** · arXiv · LLM · Training-free
+- **[LLM Hallucination Detection via Low-rank Multilinear Decomposition](https://arxiv.org/abs/2610.36191)** · arXiv · LLM · Training-free
 - **[CalibraRL: Confidence-Calibrated Reinforcement Learning for Mitigating Hallucinations in RAG](https://arxiv.org/abs/2610.35142)** · arXiv · LLM · Training-based
 - **[Mycelium: A Meta-Study of Hallucination Detection Across Provenance, Typology, and Granularities](https://arxiv.org/abs/2610.33608)** · arXiv · LLM · Training-free
 - **[SOPO: Socratic Guided Policy Optimization for Span-Level Hallucination Detection](https://arxiv.org/abs/2610.32212)** · arXiv · LLM · Training-based
