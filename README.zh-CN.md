@@ -12,7 +12,7 @@
   <img src='https://img.shields.io/badge/Papers-2144-blue' />
   <img src='https://img.shields.io/badge/Abstract--based-1577-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
-  <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-10&color=orange' />
+  <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-11&color=orange' />
 </p>
 
 <p align='center'>
