@@ -1021,8 +1021,8 @@ def write_readme(papers, stats, lang):
     L.append('<a id="sec-cite"></a>')
     L.append("## 📖 " + _("Citation", "推荐引用"))
     L.append("")
-    L.append(_("If this atlas helps your research, please consider citing our related papers (feedback and suggestions are also welcome):",
-              "如果本资源库对你的研究有帮助，欢迎引用我们的相关论文（也欢迎交流与建议）："))
+    L.append(_("If you find this repository helpful for your research, we would appreciate citations to our related papers. We also warmly welcome discussions and suggestions: [1004392768@qq.com](mailto:1004392768@qq.com)",
+              "如果你觉得本仓库对你的研究有帮助，我们将非常感谢你引用我们的相关论文。同时也热烈欢迎交流与建议：[1004392768@qq.com](mailto:1004392768@qq.com)"))
     L.append("")
     L.append("```bibtex")
     L.append("""@article{lyu2026hallu_sae,

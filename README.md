@@ -2841,7 +2841,7 @@ Hallucination research is moving fast. These directions are especially hot in 20
 
 ## 📖 Citation
 
-If this atlas helps your research, please consider citing our related papers (feedback and suggestions are also welcome):
+If you find this repository helpful for your research, we would appreciate citations to our related papers. We also warmly welcome discussions and suggestions: [1004392768@qq.com](mailto:1004392768@qq.com)
 
 ```bibtex
 @article{lyu2026hallu_sae,
