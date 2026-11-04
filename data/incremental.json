@@ -6106,5 +6106,23 @@
     "Xiongyu Chen, Sizhen Zhu, Zhuoer Wang",
     "https://arxiv.org/abs/2611.02258",
     2026
+  ],
+  [
+    "VIGOR: Visual Gain Ordering for Hallucination Mitigation in Multimodal Discrete Diffusion Language Models",
+    "Junzhe Chen, Tian Qin, Eugenie Shi, Tianshu Zhang, Qiang Ju, Lijie Wen",
+    "https://arxiv.org/abs/2611.05066",
+    2026
+  ],
+  [
+    "When Ground Truth Is Not Ground Truth: Automatic Labeling for Hallucination Detection",
+    "Rounak Sen, Divya Kumari, Deeksha Varshney",
+    "https://arxiv.org/abs/2611.04697",
+    2026
+  ],
+  [
+    "Entropy-Gated Dynamic Rectification for Object Hallucination in Large Vision-Language Models",
+    "Riasad Alvi, Md. Asaduzzaman Shuvo, Md. Ahashan Habib, Md. Faiyaz Abdullah Sayeedi",
+    "https://arxiv.org/abs/2611.04438",
+    2026
   ]
 ]
