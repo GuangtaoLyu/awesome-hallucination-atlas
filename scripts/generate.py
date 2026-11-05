@@ -788,16 +788,50 @@ def write_readme(papers, stats, lang):
     L.append("")
     L.append("## 📑 " + _("Table of Contents", "目录"))
     L.append("")
+    L.append("- [" + _("Citation", "推荐引用") + "](#sec-cite)")
     L.append("- [" + _("Data Overview", "数据概览") + "](#sec-overview)")
     L.append("- [" + _("Taxonomy", "分类体系") + "](#sec-taxonomy)")
     L.append("- [" + _("Trending Directions", "热点方向") + "](#sec-trending)")
     L.append("- [" + _("Benchmarks & Evaluation", "评测与 Benchmark") + "](#sec-benchmark)")
     L.append("- [" + _("Surveys", "综述 Survey") + "](#sec-survey)")
     L.append("- [" + _("Paper List", "论文列表") + "](#sec-paperlist)")
-    L.append("- [" + _("Citation", "推荐引用") + "](#sec-cite)")
     L.append("- [" + _("Contributing", "贡献") + "](#sec-contrib)")
     L.append("- [" + _("License", "许可") + "](#sec-license)")
     L.append("- [" + _("Star History", "Star 增长趋势") + "](#sec-stars)")
+    L.append("")
+    L.append("---")
+    L.append("")
+    # Keep the citation block near the top: GitHub truncates README rendering
+    # past 500 KiB, so anything at the bottom of this ~520 KiB file is invisible
+    # on the repository page.
+    L.append('<a id="sec-cite"></a>')
+    L.append("## 📖 " + _("Citation", "推荐引用"))
+    L.append("")
+    L.append(_("If you find this repository helpful for your research, we would appreciate citations to our related papers. We also warmly welcome discussions and suggestions: [1004392768@qq.com](mailto:1004392768@qq.com)",
+              "如果你觉得本仓库对你的研究有帮助，我们将非常感谢你引用我们的相关论文。同时也热烈欢迎交流与建议：[1004392768@qq.com](mailto:1004392768@qq.com)"))
+    L.append("")
+    L.append("```bibtex")
+    L.append("""@article{lyu2026hallu_sae,
+  title={Towards Interpretable Hallucination Analysis and Mitigation in LVLMs via Contrastive Neuron Steering},
+  author={Lyu, Guangtao and Cheng, Xinyi and Liu, Qi and Xu, Chenghao and Yan, Jiexi and Yang, Muli and Fang, Fen and Deng, Cheng},
+  journal={arXiv preprint arXiv:2602.00621},
+  year={2026}
+}
+
+@article{lyu2025hallu_vdc,
+  title={Revealing Perception and Generation Dynamics in LVLMs: Mitigating Hallucinations via Validated Dominance Correction},
+  author={Lyu, Guangtao and Cheng, Xinyi and Xu, Chenghao and Liu, Qi and Yang, Muli and Fang, Fen and Chen, Huilin and Yan, Jiexi and Yang, Xu and Deng, Cheng},
+  journal={arXiv preprint arXiv:2512.18813},
+  year={2025}
+}
+
+@article{lyu2026hallu_pade,
+  title={Revealing and Enhancing Core Visual Regions: Harnessing Internal Attention Dynamics for Hallucination Mitigation in LVLMs},
+  author={Lyu, Guangtao and Liu, Qi and Xu, Chenghao and Yan, Jiexi and Yang, Muli and Li, Xueting and Fang, Fen and Deng, Cheng},
+  journal={ACL Findings},
+  year={2026}
+}""")
+    L.append("```")
     L.append("")
     L.append("---")
     L.append("")
@@ -1017,35 +1051,6 @@ def write_readme(papers, stats, lang):
         L.append("</details>")
         L.append("")
     L.append("---")
-    L.append("")
-    L.append('<a id="sec-cite"></a>')
-    L.append("## 📖 " + _("Citation", "推荐引用"))
-    L.append("")
-    L.append(_("If you find this repository helpful for your research, we would appreciate citations to our related papers. We also warmly welcome discussions and suggestions: [1004392768@qq.com](mailto:1004392768@qq.com)",
-              "如果你觉得本仓库对你的研究有帮助，我们将非常感谢你引用我们的相关论文。同时也热烈欢迎交流与建议：[1004392768@qq.com](mailto:1004392768@qq.com)"))
-    L.append("")
-    L.append("```bibtex")
-    L.append("""@article{lyu2026hallu_sae,
-  title={Towards Interpretable Hallucination Analysis and Mitigation in LVLMs via Contrastive Neuron Steering},
-  author={Lyu, Guangtao and Cheng, Xinyi and Liu, Qi and Xu, Chenghao and Yan, Jiexi and Yang, Muli and Fang, Fen and Deng, Cheng},
-  journal={arXiv preprint arXiv:2602.00621},
-  year={2026}
-}
-
-@article{lyu2025hallu_vdc,
-  title={Revealing Perception and Generation Dynamics in LVLMs: Mitigating Hallucinations via Validated Dominance Correction},
-  author={Lyu, Guangtao and Cheng, Xinyi and Xu, Chenghao and Liu, Qi and Yang, Muli and Fang, Fen and Chen, Huilin and Yan, Jiexi and Yang, Xu and Deng, Cheng},
-  journal={arXiv preprint arXiv:2512.18813},
-  year={2025}
-}
-
-@article{lyu2026hallu_pade,
-  title={Revealing and Enhancing Core Visual Regions: Harnessing Internal Attention Dynamics for Hallucination Mitigation in LVLMs},
-  author={Lyu, Guangtao and Liu, Qi and Xu, Chenghao and Yan, Jiexi and Yang, Muli and Li, Xueting and Fang, Fen and Deng, Cheng},
-  journal={ACL Findings},
-  year={2026}
-}""")
-    L.append("```")
     L.append("")
     L.append('<a id="sec-contrib"></a>')
     L.append("## 🤝 " + _("Contributing", "贡献"))

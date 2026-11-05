@@ -26,16 +26,46 @@
 
 ## 📑 Table of Contents
 
+- [Citation](#sec-cite)
 - [Data Overview](#sec-overview)
 - [Taxonomy](#sec-taxonomy)
 - [Trending Directions](#sec-trending)
 - [Benchmarks & Evaluation](#sec-benchmark)
 - [Surveys](#sec-survey)
 - [Paper List](#sec-paperlist)
-- [Citation](#sec-cite)
 - [Contributing](#sec-contrib)
 - [License](#sec-license)
 - [Star History](#sec-stars)
+
+---
+
+<a id="sec-cite"></a>
+## 📖 Citation
+
+If you find this repository helpful for your research, we would appreciate citations to our related papers. We also warmly welcome discussions and suggestions: [1004392768@qq.com](mailto:1004392768@qq.com)
+
+```bibtex
+@article{lyu2026hallu_sae,
+  title={Towards Interpretable Hallucination Analysis and Mitigation in LVLMs via Contrastive Neuron Steering},
+  author={Lyu, Guangtao and Cheng, Xinyi and Liu, Qi and Xu, Chenghao and Yan, Jiexi and Yang, Muli and Fang, Fen and Deng, Cheng},
+  journal={arXiv preprint arXiv:2602.00621},
+  year={2026}
+}
+
+@article{lyu2025hallu_vdc,
+  title={Revealing Perception and Generation Dynamics in LVLMs: Mitigating Hallucinations via Validated Dominance Correction},
+  author={Lyu, Guangtao and Cheng, Xinyi and Xu, Chenghao and Liu, Qi and Yang, Muli and Fang, Fen and Chen, Huilin and Yan, Jiexi and Yang, Xu and Deng, Cheng},
+  journal={arXiv preprint arXiv:2512.18813},
+  year={2025}
+}
+
+@article{lyu2026hallu_pade,
+  title={Revealing and Enhancing Core Visual Regions: Harnessing Internal Attention Dynamics for Hallucination Mitigation in LVLMs},
+  author={Lyu, Guangtao and Liu, Qi and Xu, Chenghao and Yan, Jiexi and Yang, Muli and Li, Xueting and Fang, Fen and Deng, Cheng},
+  journal={ACL Findings},
+  year={2026}
+}
+```
 
 ---
 
@@ -331,6 +361,7 @@
 
 ---
 
+<a id="sec-taxonomy"></a>
 ## 🧭 Taxonomy
 
 Each paper is labeled along **3 dimensions** (model type / method type / year, auto-analyzed from the full abstract), with tags for modality and scenario.
@@ -496,6 +527,7 @@ Hallucination research is moving fast. These directions are especially hot in 20
 
 </details>
 
+<a id="sec-survey"></a>
 ## 📚 Surveys
 > 35 survey / review / taxonomy papers are listed separately (also kept in the main list below, marked 📚).
 
@@ -540,6 +572,7 @@ Hallucination research is moving fast. These directions are especially hot in 20
 
 </details>
 
+<a id="sec-paperlist"></a>
 ## 📚 Paper List
 > Grouped by **model type** (LLM / VLM / MLLM), then expanded by year inside each group; click a header to expand / collapse. Format per entry: **Title** · venue/year · model · method · 💻code. Title links prefer the official venue version. 📋 = Benchmark paper, 📚 = Survey paper. Full abstracts and multi-dimensional filtering are available in the interactive website [`docs/index.html`](docs/index.html). PRs welcome.
 
@@ -2844,33 +2877,6 @@ Hallucination research is moving fast. These directions are especially hot in 20
 </details>
 
 </details>
-
-## 📖 Citation
-
-If you find this repository helpful for your research, we would appreciate citations to our related papers. We also warmly welcome discussions and suggestions: [1004392768@qq.com](mailto:1004392768@qq.com)
-
-```bibtex
-@article{lyu2026hallu_sae,
-  title={Towards Interpretable Hallucination Analysis and Mitigation in LVLMs via Contrastive Neuron Steering},
-  author={Lyu, Guangtao and Cheng, Xinyi and Liu, Qi and Xu, Chenghao and Yan, Jiexi and Yang, Muli and Fang, Fen and Deng, Cheng},
-  journal={arXiv preprint arXiv:2602.00621},
-  year={2026}
-}
-
-@article{lyu2025hallu_vdc,
-  title={Revealing Perception and Generation Dynamics in LVLMs: Mitigating Hallucinations via Validated Dominance Correction},
-  author={Lyu, Guangtao and Cheng, Xinyi and Xu, Chenghao and Liu, Qi and Yang, Muli and Fang, Fen and Chen, Huilin and Yan, Jiexi and Yang, Xu and Deng, Cheng},
-  journal={arXiv preprint arXiv:2512.18813},
-  year={2025}
-}
-
-@article{lyu2026hallu_pade,
-  title={Revealing and Enhancing Core Visual Regions: Harnessing Internal Attention Dynamics for Hallucination Mitigation in LVLMs},
-  author={Lyu, Guangtao and Liu, Qi and Xu, Chenghao and Yan, Jiexi and Yang, Muli and Li, Xueting and Fang, Fen and Deng, Cheng},
-  journal={ACL Findings},
-  year={2026}
-}
-```
 
 <a id="sec-contrib"></a>
 ## 🤝 Contributing

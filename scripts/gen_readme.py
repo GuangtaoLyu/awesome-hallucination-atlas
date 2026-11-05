@@ -365,7 +365,13 @@ def replace_block(text, anchor, generated):
         print(f"[gen_readme] WARN: anchor not found: {anchor!r}", file=sys.stderr)
         return text
     end = next((i for i in range(start + 1, len(lines)) if lines[i].startswith("## ")), len(lines))
-    new = lines[: start + 1] + generated.split("\n") + lines[end:]
+    # An explicit `<a id="sec-...">` anchor sits immediately before the next
+    # heading. Keep it, or a data-driven rewrite silently deletes the target of
+    # the matching Table-of-Contents link.
+    tail = end
+    while tail > start + 1 and lines[tail - 1].startswith('<a id="'):
+        tail -= 1
+    new = lines[: start + 1] + generated.split("\n") + lines[tail:]
     return "\n".join(new)
 
 

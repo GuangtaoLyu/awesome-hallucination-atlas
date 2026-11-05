@@ -26,16 +26,46 @@
 
 ## 📑 目录
 
+- [推荐引用](#sec-cite)
 - [数据概览](#sec-overview)
 - [分类体系](#sec-taxonomy)
 - [热点方向](#sec-trending)
 - [评测与 Benchmark](#sec-benchmark)
 - [综述 Survey](#sec-survey)
 - [论文列表](#sec-paperlist)
-- [推荐引用](#sec-cite)
 - [贡献](#sec-contrib)
 - [许可](#sec-license)
 - [Star 增长趋势](#sec-stars)
+
+---
+
+<a id="sec-cite"></a>
+## 📖 推荐引用
+
+如果你觉得本仓库对你的研究有帮助，我们将非常感谢你引用我们的相关论文。同时也热烈欢迎交流与建议：[1004392768@qq.com](mailto:1004392768@qq.com)
+
+```bibtex
+@article{lyu2026hallu_sae,
+  title={Towards Interpretable Hallucination Analysis and Mitigation in LVLMs via Contrastive Neuron Steering},
+  author={Lyu, Guangtao and Cheng, Xinyi and Liu, Qi and Xu, Chenghao and Yan, Jiexi and Yang, Muli and Fang, Fen and Deng, Cheng},
+  journal={arXiv preprint arXiv:2602.00621},
+  year={2026}
+}
+
+@article{lyu2025hallu_vdc,
+  title={Revealing Perception and Generation Dynamics in LVLMs: Mitigating Hallucinations via Validated Dominance Correction},
+  author={Lyu, Guangtao and Cheng, Xinyi and Xu, Chenghao and Liu, Qi and Yang, Muli and Fang, Fen and Chen, Huilin and Yan, Jiexi and Yang, Xu and Deng, Cheng},
+  journal={arXiv preprint arXiv:2512.18813},
+  year={2025}
+}
+
+@article{lyu2026hallu_pade,
+  title={Revealing and Enhancing Core Visual Regions: Harnessing Internal Attention Dynamics for Hallucination Mitigation in LVLMs},
+  author={Lyu, Guangtao and Liu, Qi and Xu, Chenghao and Yan, Jiexi and Yang, Muli and Li, Xueting and Fang, Fen and Deng, Cheng},
+  journal={ACL Findings},
+  year={2026}
+}
+```
 
 ---
 
@@ -331,6 +361,7 @@
 
 ---
 
+<a id="sec-taxonomy"></a>
 ## 🧭 分类体系
 
 每篇论文标注 **3 个维度**（模型类型 / 方法类型 / 年份，基于摘要全文自动分析），并以标签补充模态与场景：
@@ -496,6 +527,7 @@
 
 </details>
 
+<a id="sec-survey"></a>
 ## 📚 综述 Survey
 > 独立收录 `35` 篇综述 / 调查 / 分类法论文（同时保留在下方主列表中，标有 📚）。
 
@@ -540,6 +572,7 @@
 
 </details>
 
+<a id="sec-paperlist"></a>
 ## 📚 论文列表
 > 按**模型类型**分组（LLM / VLM / MLLM），每组内再按年份展开；点击标题可展开 / 收起。每条格式：**标题** · 会议/年份 · 模型 · 方法 · 💻代码。标题链接优先顶会官方版本。📋 = 评测/Benchmark 论文，📚 = 综述 Survey 论文。完整摘要与多维交叉筛选见交互式网站 [`docs/index.html`](docs/index.html)。欢迎 PR 补充。
 
@@ -2844,33 +2877,6 @@
 </details>
 
 </details>
-
-## 📖 推荐引用
-
-如果你觉得本仓库对你的研究有帮助，我们将非常感谢你引用我们的相关论文。同时也热烈欢迎交流与建议：[1004392768@qq.com](mailto:1004392768@qq.com)
-
-```bibtex
-@article{lyu2026hallu_sae,
-  title={Towards Interpretable Hallucination Analysis and Mitigation in LVLMs via Contrastive Neuron Steering},
-  author={Lyu, Guangtao and Cheng, Xinyi and Liu, Qi and Xu, Chenghao and Yan, Jiexi and Yang, Muli and Fang, Fen and Deng, Cheng},
-  journal={arXiv preprint arXiv:2602.00621},
-  year={2026}
-}
-
-@article{lyu2025hallu_vdc,
-  title={Revealing Perception and Generation Dynamics in LVLMs: Mitigating Hallucinations via Validated Dominance Correction},
-  author={Lyu, Guangtao and Cheng, Xinyi and Xu, Chenghao and Liu, Qi and Yang, Muli and Fang, Fen and Chen, Huilin and Yan, Jiexi and Yang, Xu and Deng, Cheng},
-  journal={arXiv preprint arXiv:2512.18813},
-  year={2025}
-}
-
-@article{lyu2026hallu_pade,
-  title={Revealing and Enhancing Core Visual Regions: Harnessing Internal Attention Dynamics for Hallucination Mitigation in LVLMs},
-  author={Lyu, Guangtao and Liu, Qi and Xu, Chenghao and Yan, Jiexi and Yang, Muli and Li, Xueting and Fang, Fen and Deng, Cheng},
-  journal={ACL Findings},
-  year={2026}
-}
-```
 
 <a id="sec-contrib"></a>
 ## 🤝 贡献
