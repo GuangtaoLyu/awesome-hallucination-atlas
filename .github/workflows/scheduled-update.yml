@@ -128,9 +128,23 @@ jobs:
             echo "No new commits to push."
             exit 0
           fi
-          # Someone may have pushed while the (long) pipeline was running.
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+          # GitHub occasionally rejects a perfectly valid fast-forward with a
+          # server-side "fatal error in commit_refs_rules" (observed 2026-11-05
+          # with no branch protection / rulesets configured). Retry briefly so a
+          # transient backend glitch does not skip the daily update AND the
+          # gh-pages deployment that depends on this job.
+          for attempt in 1 2 3; do
+            # Someone may have pushed while the (long) pipeline was running.
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "Pushed on attempt ${attempt}."
+              exit 0
+            fi
+            echo "::warning::push attempt ${attempt} failed; retrying in 30s"
+            sleep 30
+          done
+          echo "::error::push failed after 3 attempts (GitHub server-side error)"
+          exit 1
 
   # Publish the freshly generated docs/ to the gh-pages branch so the live
   # site reflects this run's data. Done inline (not via a separate push-triggered
