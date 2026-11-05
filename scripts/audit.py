@@ -77,6 +77,34 @@ def main(check_links_flag=False, link_cap=300):
         os.path.exists(docs_papers) and md5(papers_path) == md5(docs_papers)
     )
 
+    # GitHub silently truncates Markdown rendering past 500 KiB. Guard every
+    # rendered doc, and make sure the split list still holds every paper.
+    limit = 480 * 1024
+    md_sizes = {}
+    for name in ("README.md", "README.zh-CN.md", "PAPERS.md", "PAPERS.zh-CN.md"):
+        p = os.path.join(ROOT, name)
+        md_sizes[name] = os.path.getsize(p) if os.path.exists(p) else None
+    paper_entries = 0
+    year_files = 0
+    pdir = os.path.join(ROOT, "papers")
+    if os.path.isdir(pdir):
+        for name in os.listdir(pdir):
+            if not name.endswith(".md"):
+                continue
+            path = os.path.join(pdir, name)
+            year_files += 1
+            md_sizes["papers/" + name] = os.path.getsize(path)
+            with open(path, encoding="utf-8") as f:
+                paper_entries += sum(1 for line in f if line.startswith("- **"))
+    inv["markdown_under_limit"] = all(
+        v is not None and v < limit for v in md_sizes.values()
+    )
+    inv["paper_files_consistent"] = (
+        paper_entries == n
+        and year_files == len({p.get("year") for p in papers})
+        and all(os.path.exists(os.path.join(ROOT, x)) for x in ("PAPERS.md", "PAPERS.zh-CN.md"))
+    )
+
     required = ["title", "venue", "year", "model_type", "method_type"]
     missing_fields = Counter()
     for p in papers:
@@ -153,6 +181,9 @@ def main(check_links_flag=False, link_cap=300):
         "year_max": year_max,
         "year_counts": {str(k): v for k, v in sorted(year_counts.items())},
         "benchmark_tagged": tagged,
+        "markdown_sizes": md_sizes,
+        "paper_file_entries": paper_entries,
+        "paper_year_files": year_files,
         "invariants": inv,
         "missing_fields": dict(missing_fields),
         "duplicates": dups,
@@ -181,6 +212,10 @@ if __name__ == "__main__":
     else:
         print("=== 硬不变量 ===")
         print("  data/ == docs/ papers.json (md5):", res["invariants"]["data_docs_md5_match"])
+        print("  Markdown 均 < 480 KiB:", res["invariants"]["markdown_under_limit"],
+              f"(最大 {max(v or 0 for v in res['markdown_sizes'].values()) // 1024} KiB)")
+        print("  分册条目 == papers.json:", res["invariants"]["paper_files_consistent"],
+              f"({res['paper_file_entries']}/{res['total']}, {res['paper_year_files']} 个年份文件)")
         print("  CCF 评级与 ccf.json 一致:", res["ccf_consistent_with_ccfjson"],
               f"({len(res['ccf_mismatches_sample'])} 处不符)")
         print("  venue_links 孤儿(指向已删论文):", res["orphan_venue_links"])
@@ -204,6 +239,8 @@ if __name__ == "__main__":
     if strict:
         critical = not (
             res["invariants"]["data_docs_md5_match"]
+            and res["invariants"]["markdown_under_limit"]
+            and res["invariants"]["paper_files_consistent"]
             and res["ccf_consistent_with_ccfjson"]
             and not res["missing_fields"]
             and not res["duplicates"]

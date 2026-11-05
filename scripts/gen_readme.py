@@ -37,6 +37,12 @@ ROOT = os.path.dirname(HERE)
 PAPERS = os.path.join(ROOT, "data", "papers.json")
 README_EN = os.path.join(ROOT, "README.md")
 README_ZH = os.path.join(ROOT, "README.zh-CN.md")
+PAPERS_DIR = os.path.join(ROOT, "papers")
+PAPERS_INDEX_EN = os.path.join(ROOT, "PAPERS.md")
+PAPERS_INDEX_ZH = os.path.join(ROOT, "PAPERS.zh-CN.md")
+# GitHub silently truncates README rendering past 500 KiB. Keep every rendered
+# Markdown file comfortably below that, with room for a year of new papers.
+MAX_RENDER_BYTES = 480 * 1024
 
 MODEL_LABEL = {"VLM": "VLM", "MLLM": "MLLM(Omni)", "LLM": "LLM"}
 ALWAYS_LIST_DEFAULT = ["TNNLS", "TASLP", "TAI", "PRCV"]
@@ -311,47 +317,117 @@ def gen_survey(papers, lang):
 MODEL_ORDER = [("LLM", "🤖 LLM"), ("VLM", "👁️ VLM"), ("MLLM", "🌐 MLLM(Omni)")]
 
 
-def gen_list(papers, lang):
-    by_model = {}
+SITE_URL = "https://guangtaolyu.github.io/awesome-hallucination-atlas/"
+ENTRY_LEGEND = ("Format per entry: **Title** · venue/year · model · method · 💻code. "
+                "Title links prefer the official venue version. 📋 = Benchmark paper, "
+                "📚 = Survey paper. PRs welcome.")
+
+
+def year_counts(papers):
+    counts = {}
     for p in papers:
+        y = p.get("year")
+        counts[y] = counts.get(y, 0) + 1
+    return dict(sorted(counts.items(), reverse=True))
+
+
+def gen_nav(papers, lang):
+    """Small, always-visible Paper List section kept inside the README."""
+    counts = year_counts(papers)
+    idx = "PAPERS.md" if lang == "en" else "PAPERS.zh-CN.md"
+    L = ["> " + pick(
+        "The complete list is split into **per-year files** so GitHub renders all of it "
+        "(READMEs are silently truncated past 500 KiB). Browse by year below, or use the "
+        "interactive site for full abstracts and faceted search.",
+        "完整论文列表已按**年份分册**存放，避免 GitHub 对超过 500 KiB 的 README 静默截断。"
+        "可按年份浏览，也可到交互式网站查看完整摘要与多维筛选。", lang), ""]
+    L.append("| " + pick("Year", "年份", lang) + " | " + pick("Papers", "篇数", lang)
+             + " | " + pick("File", "分册", lang) + " |")
+    L.append("|---|---|---|")
+    for y, c in counts.items():
+        L.append(f"| {y} | {c} | [{y}.md](papers/{y}.md) |")
+    L.append("")
+    L.append("- [" + pick("Full index by year", "完整索引（按年份）", lang) + f"]({idx})")
+    L.append("- [Live Site · " + pick("abstract search & filters", "摘要检索与筛选", lang) + f"]({SITE_URL})")
+    return "\n".join(L) + "\n"
+
+
+def gen_index(papers, lang):
+    """PAPERS.md / PAPERS.zh-CN.md: the by-year table of contents."""
+    counts = year_counts(papers)
+    other = "PAPERS.zh-CN.md" if lang == "en" else "PAPERS.md"
+    L = ["# " + pick("Paper List · by year", "论文列表 · 按年份", lang), ""]
+    L.append(pick(f"{len(papers)} papers in total. Each file stays under GitHub's "
+                  "500 KiB rendering limit; older years are frozen once published.",
+                  f"共 {len(papers)} 篇。每个分册都控制在 GitHub 的 500 KiB 渲染上限之内；"
+                  "历史年份一经生成即不再变动。", lang))
+    L.append("")
+    L.append("| " + pick("Year", "年份", lang) + " | " + pick("Papers", "篇数", lang)
+             + " | " + pick("File", "分册", lang) + " |")
+    L.append("|---|---|---|")
+    for y, c in counts.items():
+        L.append(f"| {y} | {c} | [{y}.md](papers/{y}.md) |")
+    L.append("")
+    L.append("- [Live Site](" + SITE_URL + ") — " + pick("full-text abstract search, faceted filtering and year sorting", "摘要全文搜索、多维筛选与年份排序", lang))
+    L.append(f"- [{other}]({other}) — " + pick("中文索引", "English index", lang))
+    L.append("- [" + pick("Back to README", "返回 README", lang) + "](" + ("README.md" if lang == "en" else "README.zh-CN.md") + ")")
+    L.append("")
+    L.append("> " + ENTRY_LEGEND)
+    return "\n".join(L) + "\n"
+
+
+def gen_year_page(yp, year):
+    """One papers/<year>.md file, grouped by model type and sorted by date."""
+    by_model = {}
+    for p in yp:
         by_model.setdefault(p.get("model_type") or "LLM", []).append(p)
     known = {k for k, _ in MODEL_ORDER}
-    intro = (
-        "> " + pick("Grouped by **model type** (LLM / VLM / MLLM), then expanded by year inside each group; click a header to expand / collapse. "
-                    "Format per entry: **Title** · venue/year · model · method · 💻code. "
-                    "Title links prefer the official venue version. 📋 = Benchmark paper, 📚 = Survey paper. "
-                    "Full abstracts and multi-dimensional filtering are available in the interactive website [`docs/index.html`](docs/index.html). PRs welcome.",
-                    "按**模型类型**分组（LLM / VLM / MLLM），每组内再按年份展开；点击标题可展开 / 收起。"
-                    "每条格式：**标题** · 会议/年份 · 模型 · 方法 · 💻代码。"
-                    "标题链接优先顶会官方版本。📋 = 评测/Benchmark 论文，📚 = 综述 Survey 论文。"
-                    "完整摘要与多维交叉筛选见交互式网站 [`docs/index.html`](docs/index.html)。欢迎 PR 补充。", lang) + "\n"
-    )
     order = list(MODEL_ORDER)
     for k in by_model:
         if k not in known:
             order.append((k, k))
-
-    blocks = [intro.rstrip("\n")]
+    L = [f"# {year} · {len(yp)} papers / 篇", ""]
+    L.append(f"[← PAPERS.md](../PAPERS.md) · [中文索引](../PAPERS.zh-CN.md) · [Live Site]({SITE_URL})")
+    L.append("")
+    L.append("> " + ENTRY_LEGEND)
+    L.append("")
     for key, label in order:
-        ps = by_model.get(key, [])
+        ps = sorted(by_model.get(key, []), key=lambda p: (date_key(p), p.get("title") or ""), reverse=True)
         if not ps:
             continue
-        mb = ["<details>", f"<summary>{label} · {len(ps)} 篇</summary>", ""]
-        groups = {}
-        for p in ps:
-            groups.setdefault(p["year"], []).append(p)
-        for y in sorted(groups, reverse=True):
-            yps = sorted(groups[y], key=lambda p: (date_key(p), p.get("title") or ""), reverse=True)
-            mb.append("<details>")
-            mb.append(f"<summary>📅 {y} · {len(yps)} {pick('papers', '篇', lang)}</summary>")
-            mb.append("")
-            mb.extend(entry_line(p, lang) for p in yps)
-            mb.append("")          # blank line before the group's own </details>
-            mb.append("</details>")
-            mb.append("")          # blank line between consecutive year groups
-        mb.append("</details>")
-        blocks.append("\n".join(mb))
-    return "\n\n".join(blocks) + "\n"
+        L.append("<details open>")
+        L.append(f"<summary>{label} · {len(ps)} 篇</summary>")
+        L.append("")
+        L.extend(entry_line(p, "en") for p in ps)
+        L.append("")
+        L.append("</details>")
+        L.append("")
+    return "\n".join(L).rstrip() + "\n"
+
+
+def write_papers_files(papers):
+    """Materialise the split list. Every Markdown file here is generated."""
+    os.makedirs(PAPERS_DIR, exist_ok=True)
+    by_year = {}
+    for p in papers:
+        by_year.setdefault(p.get("year"), []).append(p)
+    wanted = {f"{y}.md" for y in by_year}
+    for old in os.listdir(PAPERS_DIR):
+        if old.endswith(".md") and old not in wanted:
+            os.remove(os.path.join(PAPERS_DIR, old))
+    for y, yp in by_year.items():
+        with open(os.path.join(PAPERS_DIR, f"{y}.md"), "w", encoding="utf-8") as f:
+            f.write(gen_year_page(yp, y))
+    for path, lang in ((PAPERS_INDEX_EN, "en"), (PAPERS_INDEX_ZH, "zh")):
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(gen_index(papers, lang))
+    paths = [PAPERS_INDEX_EN, PAPERS_INDEX_ZH] + [os.path.join(PAPERS_DIR, f"{y}.md") for y in by_year]
+    oversized = [os.path.relpath(p, ROOT) for p in paths
+                 if os.path.getsize(p) > MAX_RENDER_BYTES]
+    if oversized:
+        print(f"[gen_readme] WARN: approaching GitHub's 500 KiB render limit: "
+              f"{', '.join(oversized)}", file=sys.stderr)
+    return len(by_year)
 
 
 # ----------------------------------------------------------------------------
@@ -400,16 +476,18 @@ def main():
         text = replace_block(text, ANCHOR[lang]["overview"], gen_stats(papers, stats, lang))
         text = replace_block(text, ANCHOR[lang]["benchmark"], gen_benchmark(papers, lang))
         text = replace_block(text, ANCHOR[lang]["survey"], gen_survey(papers, lang))
-        text = replace_block(text, ANCHOR[lang]["paperlist"], gen_list(papers, lang))
+        text = replace_block(text, ANCHOR[lang]["paperlist"], gen_nav(papers, lang))
 
         tmp = path + ".tmp"
         with open(tmp, "w", encoding="utf-8") as f:
             f.write(text)
         os.replace(tmp, path)
 
+    n_years = write_papers_files(papers)
     n_bench = sum(1 for p in papers if p.get("benchmark") or "Benchmark" in (p.get("tags") or []))
     n_surv = sum(1 for p in papers if p.get("survey"))
-    print(f"[gen_readme] OK -> README.md + README.zh-CN.md regenerated from {total} papers "
+    print(f"[gen_readme] OK -> README.md + README.zh-CN.md + PAPERS(.zh-CN).md "
+          f"+ {n_years} year files from {total} papers "
           f"(bench={n_bench}, survey={n_surv}, code={sum(1 for p in papers if p.get('code'))})")
 
 
