@@ -59,3 +59,8 @@
   authors: "Deng et al."
   url: "https://arxiv.org/abs/2607.06420"
   year: 2026
+
+- title: "DRIFT: Detecting Representational Inconsistencies for Factual Truthfulness"
+  authors: "Bhatnagar et al."
+  url: "https://arxiv.org/abs/2601.14210"
+  year: 2026

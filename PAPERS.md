@@ -1,11 +1,11 @@
 # Paper List · by year
 
-2149 papers in total. Each file stays under GitHub's 500 KiB rendering limit; older years are frozen once published.
+2150 papers in total. Each file stays under GitHub's 500 KiB rendering limit; older years are frozen once published.
 
 | Year | Papers | File |
 |---|---|---|
 | 2027 | 6 | [2027.md](papers/2027.md) |
-| 2026 | 950 | [2026.md](papers/2026.md) |
+| 2026 | 951 | [2026.md](papers/2026.md) |
 | 2025 | 768 | [2025.md](papers/2025.md) |
 | 2024 | 375 | [2024.md](papers/2024.md) |
 | 2023 | 31 | [2023.md](papers/2023.md) |
