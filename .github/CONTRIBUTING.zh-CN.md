@@ -7,7 +7,7 @@
 ## 🧩 数据流架构
 
 ```
-scripts/raw_data.py   ← 你唯一需要编辑的文件（原始条目）
+data/seed.json + data/manual_entries.yaml   ← 你唯一需要编辑的文件
         │
         ▼  python scripts/fetch_abstracts.py   （抓取 arXiv 摘要+发表日期，增量缓存）
         ├── data/abstracts.json    摘要缓存（只抓新增条目）
@@ -18,23 +18,24 @@ scripts/raw_data.py   ← 你唯一需要编辑的文件（原始条目）
         ▼  python scripts/generate.py          （基于摘要全文自动分类）
         ├── data/papers.json     结构化数据（含分类字段与完整摘要）
         ├── docs/papers.json     供网站读取（支持摘要全文搜索）
-        └── README.md            自动生成的统计面板 + 分类表格
+        └── scripts/gen_readme.py  →  README.md（统计 + 导航）、PAPERS.md（索引）、
+                                      papers/<年份>.md（完整列表，按年份拆分）
 ```
 
 > 📌 **顶会优先原则**：若论文在 DBLP 有正式会议/期刊记录（非 CoRR），则条目的**来源、时间、主链接优先采用会议官方信息**（如 `CVPR 2024` + DOI 链接），arXiv 链接作为补充保留。
 
-> ⚠️ **不要手动编辑 `README.md`、`data/papers.json`、`docs/papers.json`** —— 它们都是生成产物，会被覆盖。
+> ⚠️ **不要提交生成产物。** `README.md`、`README.zh-CN.md`、`PAPERS.md`、`PAPERS.zh-CN.md`、`papers/<年份>.md`、`data/papers.json`、`docs/papers*.json` 以及各类摘要/链接缓存，都会由每日流水线自动重建。PR 里**只应包含数据源改动**（`data/seed.json` 或 `data/manual_entries.yaml`）。论文列表已按年份拆分，因为 GitHub 会静默截断超过 500 KiB 的 README；用旧版脚本重新生成会把这个拆分覆盖回去。
 
 ---
 
 ## ➕ 如何添加一篇论文
 
-### 1. 编辑 `scripts/raw_data.py`
+### 1. 编辑 `data/seed.json`
 
-在 `RAW` 列表中，按年份区块加入一条元组：
+在 JSON 数组中加入一条记录（若只补录一篇找回的 / 仅有会议版本的论文，也可在 `data/manual_entries.yaml` 里加一个 `- title:` 块）：
 
-```python
-("论文完整标题", "第一作者 et al.", "论文链接URL", 年份),
+```json
+["论文完整标题", "第一作者 et al.", "论文链接URL", 2026]
 ```
 
 **字段说明：**
@@ -48,15 +49,16 @@ scripts/raw_data.py   ← 你唯一需要编辑的文件（原始条目）
 
 **示例：**
 
-```python
-("HALC: Object Hallucination Reduction via Adaptive Focal-Contrast Decoding", "Chen et al.", "https://arxiv.org/abs/2403.00425", 2024),
+```json
+["HALC: Object Hallucination Reduction via Adaptive Focal-Contrast Decoding", "Chen et al.", "https://arxiv.org/abs/2403.00425", 2024]
 ```
 
 ### 2. 重新生成
 
 ```bash
-python scripts/fetch_abstracts.py   # 增量抓取新条目的 arXiv 摘要（约几秒）
-python scripts/generate.py          # 分类 + 重写 README/JSON
+python scripts/generate.py          # 重建 papers.json + docs + README
+python scripts/gen_readme.py        # 重建 README + PAPERS 索引 + papers/<年份>.md
+python scripts/audit.py --strict    # 校验硬不变量（CI 也会跑）
 ```
 
 流程：去重 → 基于**摘要全文**自动分类（模型/方法/场景）→ 更新统计 → 重写 README 与网站数据。非 arXiv 论文（IEEE/ACL/Springer）暂无法自动抓摘要，会回退到标题分类，欢迎在 PR 中人工修正。
@@ -64,9 +66,11 @@ python scripts/generate.py          # 分类 + 重写 README/JSON
 ### 3. 提交 PR
 
 ```bash
-git add scripts/raw_data.py data/papers.json docs/papers.json README.md
+git add data/seed.json             # 或 data/manual_entries.yaml
 git commit -m "docs: add <paper short name> (<year>)"
 git push
+
+其余文件由每日 GitHub Action 自动重建。如果本地跑过上面的脚本，提交前请把生成产物还原（`git checkout -- README.md README.zh-CN.md PAPERS.md PAPERS.zh-CN.md papers/ data/papers.json docs/`）。
 ```
 
 ---

@@ -7,7 +7,7 @@ Thank you for contributing to **Awesome Hallucination Atlas**! This repository a
 ## 🧩 Data Flow
 
 ```
-scripts/raw_data.py   ← the only file you need to edit (raw entries)
+data/seed.json + data/manual_entries.yaml   ← the only files you need to edit
         │
         ▼  python scripts/fetch_abstracts.py   (fetch arXiv abstracts + publication dates, incremental cache)
         ├── data/abstracts.json    abstract cache (only new entries are fetched)
@@ -18,23 +18,24 @@ scripts/raw_data.py   ← the only file you need to edit (raw entries)
         ▼  python scripts/generate.py          (auto-classify from the full abstract text)
         ├── data/papers.json     structured data (with taxonomy fields and full abstracts)
         ├── docs/papers.json     read by the website (supports full-text abstract search)
-        └── README.md            auto-generated stats panel + taxonomy tables
+        └── scripts/gen_readme.py  →  README.md (stats + navigation), PAPERS.md (index),
+                                     papers/<year>.md (full list, split by year)
 ```
 
 > 📌 **Venue-priority principle**: if a paper has an official conference/journal record in DBLP (not CoRR), the entry's **source, date, and primary link use the official venue info** (e.g. `CVPR 2024` + a DOI link), and the arXiv link is kept as a supplement.
 
-> ⚠️ **Do not manually edit `README.md`, `data/papers.json`, or `docs/papers.json`** — they are generated artifacts and will be overwritten.
+> ⚠️ **Do not commit generated artifacts.** `README.md`, `README.zh-CN.md`, `PAPERS.md`, `PAPERS.zh-CN.md`, `papers/<year>.md`, `data/papers.json`, `docs/papers*.json` and the abstract/link caches are all rebuilt by the daily pipeline. A PR should contain **only** the data-source change (`data/seed.json` or `data/manual_entries.yaml`). The paper list is split per year because GitHub silently truncates READMEs past 500 KiB; regenerating it with an older script reverts that split.
 
 ---
 
 ## ➕ How to Add a Paper
 
-### 1. Edit `scripts/raw_data.py`
+### 1. Edit `data/seed.json`
 
-Add one tuple to the `RAW` list, grouped by year:
+Add one record to the JSON array (or, for a single recovered / venue-only paper, one `- title:` block to `data/manual_entries.yaml`):
 
-```python
-("Full paper title", "First Author et al.", "paper URL", year),
+```json
+["Full paper title", "First Author et al.", "paper URL", 2026]
 ```
 
 **Field reference:**
@@ -48,15 +49,16 @@ Add one tuple to the `RAW` list, grouped by year:
 
 **Example:**
 
-```python
-("HALC: Object Hallucination Reduction via Adaptive Focal-Contrast Decoding", "Chen et al.", "https://arxiv.org/abs/2403.00425", 2024),
+```json
+["HALC: Object Hallucination Reduction via Adaptive Focal-Contrast Decoding", "Chen et al.", "https://arxiv.org/abs/2403.00425", 2024]
 ```
 
 ### 2. Regenerate
 
 ```bash
-python scripts/fetch_abstracts.py   # incrementally fetch arXiv abstracts for new entries (a few seconds)
-python scripts/generate.py          # classify + rewrite README/JSON
+python scripts/generate.py          # rebuild papers.json + docs + README
+python scripts/gen_readme.py        # rebuild README + PAPERS index + papers/<year>.md
+python scripts/audit.py --strict    # verify invariants (CI runs this too)
 ```
 
 Pipeline: deduplicate → auto-classify from the **full abstract text** (model / method / scene) → update statistics → rewrite README and website data. Non-arXiv papers (IEEE / ACL / Springer) cannot fetch abstracts automatically yet and fall back to title-based classification; feel free to correct them manually in your PR.
@@ -64,9 +66,11 @@ Pipeline: deduplicate → auto-classify from the **full abstract text** (model /
 ### 3. Open a PR
 
 ```bash
-git add scripts/raw_data.py data/papers.json docs/papers.json README.md
+git add data/seed.json             # or data/manual_entries.yaml
 git commit -m "docs: add <paper short name> (<year>)"
 git push
+
+The daily GitHub Action regenerates everything else. If you ran the scripts locally, revert the generated files before committing (`git checkout -- README.md README.zh-CN.md PAPERS.md PAPERS.zh-CN.md papers/ data/papers.json docs/`).
 ```
 
 ---
