@@ -6130,5 +6130,23 @@
     "Benlei Cui, Chunyang Chai, Yiliang Zhang, Xiaoqian Xia, Chengwen Yao, Song Li, Longtao Huang, Yuwen Zhai, Haiwen Hong",
     "https://arxiv.org/abs/2611.06433",
     2026
+  ],
+  [
+    "Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs: The Role of Graph Grounding in Multi-Hop Reasoning and Hallucination Mitigation",
+    "Ali Sarabadani, Kheirolah Rahsepar Fard, Tahereh Jeirani",
+    "https://arxiv.org/abs/2611.08315",
+    2026
+  ],
+  [
+    "From Twisted Facts to Rogue Agents: Can LLMs Reliably Detect Multi-Dimensional Hallucinations?",
+    "Hanyu Qiu, Ze Liu, Zhe Zhao, Kuang Xiong, Blaze Chen, Zhenxiang Yan, Renfen Hu",
+    "https://arxiv.org/abs/2611.08231",
+    2026
+  ],
+  [
+    "MCPHallu: Benchmarking Reasoning, Execution, and Memory Hallucinations in MCP Agents",
+    "Yizhen Jiang, Haowei Guo, Tianyi Bai, Zengjie Hu, Lu Ma, Zhengyang Zhao, Haoze Sun, Peng Pei, Wentao Zhang",
+    "https://arxiv.org/abs/2611.07689",
+    2026
   ]
 ]
