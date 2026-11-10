@@ -6137,5 +6137,7 @@
  "driftdetectingrepresentationalinconsistenciesforfactualtruthfulness": "",
  "benchmarkinglargelanguagemodelsonheterogeneouscognitiveandbiomedicalknowledgegraphstheroleofgraphgroundinginmultihopreasoningandhallucinationmitigation": "",
  "fromtwistedfactstorogueagentscanllmsreliablydetectmultidimensionalhallucinations": "",
- "mcphallubenchmarkingreasoningexecutionandmemoryhallucinationsinmcpagents": ""
+ "mcphallubenchmarkingreasoningexecutionandmemoryhallucinationsinmcpagents": "",
+ "halmesknowingwhentointerveneinlvlmhallucinationmitigation": "",
+ "hallucinationguidedunlearningusinghallucinationtracestorevealoverfittedmemories": ""
 }

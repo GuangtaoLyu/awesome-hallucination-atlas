@@ -6148,5 +6148,17 @@
     "Yizhen Jiang, Haowei Guo, Tianyi Bai, Zengjie Hu, Lu Ma, Zhengyang Zhao, Haoze Sun, Peng Pei, Wentao Zhang",
     "https://arxiv.org/abs/2611.07689",
     2026
+  ],
+  [
+    "Hallucination-Guided Unlearning: Using Hallucination Traces to Reveal Overfitted Memories",
+    "Jiayu Zhang, Ziqi Zhong, Yuliang Gai, Canran Xiao",
+    "https://arxiv.org/abs/2611.10697",
+    2026
+  ],
+  [
+    "HALMES: Knowing When to Intervene in LVLM Hallucination Mitigation",
+    "Ruining Hu, Jiaqi Lu, Xiao Liu, Ying Shen, Yu Wang, Lin Zhang",
+    "https://arxiv.org/abs/2611.09957",
+    2026
   ]
 ]
