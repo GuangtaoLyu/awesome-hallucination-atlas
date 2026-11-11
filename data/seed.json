@@ -7126,5 +7126,17 @@
   "Anna Rohrbach, Lisa Anne Hendricks, Kaylee Burns, Trevor Darrell, Kate Saenko",
   "https://doi.org/10.18653/v1/D18-1437",
   2018
+ ],
+ [
+  "SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation",
+  "Li et al.",
+  "https://arxiv.org/abs/2606.27786",
+  2026
+ ],
+ [
+  "ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation",
+  "Huang et al.",
+  "https://arxiv.org/abs/2502.15543",
+  2025
  ]
 ]
