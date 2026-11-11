@@ -6160,5 +6160,11 @@
     "Ruining Hu, Jiaqi Lu, Xiao Liu, Ying Shen, Yu Wang, Lin Zhang",
     "https://arxiv.org/abs/2611.09957",
     2026
+  ],
+  [
+    "Sckwoky at SHROOM-Visions: Character-Level Hallucination-Span Detection in Image-Conditioned VLMs via Dual-Prompted LoRA Decoders",
+    "Mikhail Kulakov, Ruslan Solikhov, Ivan Bondarenko",
+    "https://arxiv.org/abs/2611.14100",
+    2026
   ]
 ]
