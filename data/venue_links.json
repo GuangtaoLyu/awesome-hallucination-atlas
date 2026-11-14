@@ -6145,5 +6145,10 @@
   "year": 2026,
   "ee": "https://doi.org/10.18653/2026.uncertainlp-main.61"
  },
- "finegrainedgenerativehallucinationdetectionandcorrectionforaerialimagecaptioning": ""
+ "finegrainedgenerativehallucinationdetectionandcorrectionforaerialimagecaptioning": "",
+ "parammutesuppressingknowledgecriticalffnsforfaithfulretrievalaugmentedgeneration": {
+  "venue": "NeurIPS",
+  "year": 2025,
+  "ee": "https://openreview.net/forum?id=CyUq9D99vE"
+ }
 }

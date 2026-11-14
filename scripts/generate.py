@@ -203,7 +203,8 @@ TRAINING_BASED_SIGNALS = re.compile(
 # Keyed by norm_title (see :func:`norm_title`). Forces Training-based even if a
 # "training-free" phrase happens to appear. This is the precise fix for papers
 # that were mislabeled Training-free (e.g. PretrainRL, DA-DPO, LoRA/model-editing
-# methods) — 28 entries audited on 2026-07-24.
+# methods) — 28 entries audited on 2026-07-24, plus 2 papers verified with their
+# authors in PR #2 (ParamMute / SPARK, 2026-11-14) = 30 entries.
 METHOD_TRAINING_ALLOW = {
     "fromprooftoprogramcharacterizingtoolinducedreasoninghallucinationsinlargelanguagemodels",
     "pretrainrlalleviatingfactualityhallucinationoflargelanguagemodelsatthebeginning",
@@ -233,6 +234,10 @@ METHOD_TRAINING_ALLOW = {
     "lunaalightweightevaluationmodeltocatchlanguagemodelhallucinationswithhighaccuracyandlowcost",
     "addressinghallucinationincausalqampatheefficacyoffinetuningoverpromptinginllms",
     "mitigatingfinegrainedhallucinationbyfinetuninglargevisionlanguagemodelswithcaptionrewrites",
+    # PR #2 (authors confirmed): both methods adapt/train model components even
+    # though the SPARK backbone stays frozen, so they are not "training-free".
+    "parammutesuppressingknowledgecriticalffnsforfaithfulretrievalaugmentedgeneration",
+    "sparkadaptiveparametricknowledgeparticipationforfaithfulretrievalaugmentedgeneration",
 }
 
 # Benchmark / evaluation-suite / dataset detection.

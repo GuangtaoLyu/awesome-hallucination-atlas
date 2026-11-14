@@ -2316,5 +2316,7 @@
  "2611.08315": "",
  "2611.08231": "",
  "2611.07689": "https://github.com/J1zz/mcp_hallu",
- "2601.14210": "https://github.com/simolus3/drift"
+ "2601.14210": "https://github.com/simolus3/drift",
+ "parammutesuppressingknowledgecriticalffnsforfaithfulretrievalaugmentedgeneration": "https://github.com/OpenBMB/ParamMute",
+ "sparkadaptiveparametricknowledgeparticipationforfaithfulretrievalaugmentedgeneration": "https://github.com/OpenBMB/SPARK"
 }
