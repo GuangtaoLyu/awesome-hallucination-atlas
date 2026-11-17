@@ -6172,5 +6172,53 @@
     "Debolena Basak, Somsubhra De, Maunendra Sankar Desarkar",
     "https://arxiv.org/abs/2611.15809",
     2026
+  ],
+  [
+    "Beyond Seeing: Fine-Grained Preference Validation and Severity-Aware Alignment for Mitigating Visual Hallucinations in Vision-Language Models",
+    "Abdulaziz Alqahtani, Alwaleed Alharthi, Muzammil Behzad",
+    "https://arxiv.org/abs/2611.20478",
+    2026
+  ],
+  [
+    "GEM-MM: Reducing VLM Hallucination with Entropy-Guided Preference Alignment",
+    "Yuanshan Chua, Xuejiao Zhao",
+    "https://arxiv.org/abs/2611.20016",
+    2026
+  ],
+  [
+    "HalluProbe: Exploiting VLM Hallucinations for Backdoor Detection",
+    "Ji Guo, Xiaolong Qin, Jin Jiang, Yijing Liu, Pei Ke, Aiguo Chen, Wenbo Jiang",
+    "https://arxiv.org/abs/2611.19868",
+    2026
+  ],
+  [
+    "SARGO: Agreement-Gated Reinforcement and Suppression via On-Policy Self-Guidance for Visual Hallucination Mitigation",
+    "Jinyu Li, Zhiming Zhang, Hao Fang, Hongyao Yu, Bin Chen, Albert Ma, Shu-Tao Xia",
+    "https://arxiv.org/abs/2611.19388",
+    2026
+  ],
+  [
+    "Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
+    "Mohamed Aghzal, Mor Geva, Gregory J. Stein, Ziyu Yao",
+    "https://arxiv.org/abs/2611.18514",
+    2026
+  ],
+  [
+    "VEPO: Mitigating Multilingual Hallucinations in LVLMs via Visual Evidence-guided Preference Optimization",
+    "Chengpeng Fu, Xiaocheng Feng, Wenshuai Huo, Yichong Huang, Baohang Li, Duyu Tang, Ting Liu",
+    "https://arxiv.org/abs/2611.18096",
+    2026
+  ],
+  [
+    "InfiHall-Bench: A Benchmark for Hallucination Evaluation in Autoregressive Text-to-Image Generation",
+    "Yuxia Qiao, Xinhao Zhong, Junhao Li, Yi Sun, Jiaxin Hong, Shuoyang Sun, Bin Chen",
+    "https://arxiv.org/abs/2611.18053",
+    2026
+  ],
+  [
+    "Wrong with Confidence: Measuring Hallucination, Overconfidence and Identity-Conditioned Behaviour in Large Language Models",
+    "Md. Rejaul Korim Sadi, Toufiqur Rahman Tasin, Golam Mostofa Naeem, Dewan Fahad Chowdhury, Hatim Al Amin Chowdhury",
+    "https://arxiv.org/abs/2611.18728",
+    2026
   ]
 ]

@@ -6151,5 +6151,13 @@
   "year": 2025,
   "ee": "https://openreview.net/forum?id=CyUq9D99vE"
  },
- "sparkadaptiveparametricknowledgeparticipationforfaithfulretrievalaugmentedgeneration": ""
+ "sparkadaptiveparametricknowledgeparticipationforfaithfulretrievalaugmentedgeneration": "",
+ "wrongwithconfidencemeasuringhallucinationoverconfidenceandidentityconditionedbehaviourinlargelanguagemodels": "",
+ "canmechanisticinterpretabilityhelpexplainllmagentfailuresacasestudyonwebelementhallucination": "",
+ "infihallbenchabenchmarkforhallucinationevaluationinautoregressivetexttoimagegeneration": "",
+ "vepomitigatingmultilingualhallucinationsinlvlmsviavisualevidenceguidedpreferenceoptimization": "",
+ "sargoagreementgatedreinforcementandsuppressionviaonpolicyselfguidanceforvisualhallucinationmitigation": "",
+ "gemmmreducingvlmhallucinationwithentropyguidedpreferencealignment": "",
+ "halluprobeexploitingvlmhallucinationsforbackdoordetection": "",
+ "beyondseeingfinegrainedpreferencevalidationandseverityawarealignmentformitigatingvisualhallucinationsinvisionlanguagemodels": ""
 }
