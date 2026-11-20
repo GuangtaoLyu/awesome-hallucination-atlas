@@ -6244,5 +6244,41 @@
     "Sijia Zhong, Tamir Yirga, Yijia Ma, Thai Le, Yifan Hu",
     "https://arxiv.org/abs/2611.23530",
     2026
+  ],
+  [
+    "One Framework to Diagnose Them All: A Stratified Benchmark for Bengali LLM Hallucination",
+    "Asif Shahriyar Sushmit, Shefayat E Shams Adib, Abdullah Al Jubaer Gem, Ahmed Shafin Ruhan, MD. Nazmuddoha Ansary, Biplab Kumar Sarkar, Syed Rifat Raiyan, Ajwad Abrar, Abdullah Bin Hasan, Adib Sakhawat, M. Sakeef Hossain, Ahmed Alfey Sani, Arefin Mizan, Sourab Chakma, Quazi Adibur Rahman Adib, Wassie Haque, Sanjay Kumar Sen, Saad Tahmid, Mohammad Mamun Or Rashid",
+    "https://arxiv.org/abs/2611.26336",
+    2026
+  ],
+  [
+    "What Does Anti-Hallucination Training Buy? Saying Less, Cheap Pruning, and the Rest",
+    "Lingkai Bu, Qian Gao",
+    "https://arxiv.org/abs/2611.25814",
+    2026
+  ],
+  [
+    "When Safety Rationales Hallucinate: Diagnosing and Grounding Multimodal Safety Guards",
+    "Yingshuo Wang, Weixiang Zhao, Guancheng Li, Jiahe Guo, Yu Zhang, Yanyan Zhao",
+    "https://arxiv.org/abs/2611.25793",
+    2026
+  ],
+  [
+    "Measuring Hallucination in Large Language Models for Cyber Threat Intelligence: An Exploratory Study",
+    "Seungho Song, Donggyu Lee, Jaehan Kim, Jiyoung Choi, Jinwoo Kim",
+    "https://arxiv.org/abs/2611.25590",
+    2026
+  ],
+  [
+    "Support-Guided Triadic Decoding for Hallucination Mitigation in Multimodal Dialogue with LVLMs",
+    "Yiheng Li, Wenhao Wang, Xingyi Li, Zhilin Tang, Zichang Tan, Zhen Lei, Yang Yang",
+    "https://arxiv.org/abs/2611.25535",
+    2026
+  ],
+  [
+    "Contrast Where It Matters: Visual Evidence-Guided Decoding for Mitigating Hallucinations in LVLMs",
+    "Yiheng Li, Wenhao Wang, Xingyi Li, Mingda Jia, Zichang Tan, Yinhang Tang, Zhen Lei, Yang Yang",
+    "https://arxiv.org/abs/2611.25524",
+    2026
   ]
 ]

@@ -6,11 +6,11 @@
 >
 > 涵盖幻觉的**检测、评测与缓解**方法，支持按模型类型、方法类型、年份多维交叉筛选，并以标签补充模态与场景。
 >
-> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1603/2172 篇），非仅标题关键词。
+> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1609/2178 篇），非仅标题关键词。
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Papers-2172-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1603-9cf' />
+  <img src='https://img.shields.io/badge/Papers-2178-blue' />
+  <img src='https://img.shields.io/badge/Abstract--based-1609-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-11&color=orange' />
 </p>
@@ -71,8 +71,8 @@
 
 <a id="sec-overview"></a>
 ## 📊 数据概览
-- **论文总数**：`2172` （已去重）
-- **含论文链接**：`2169` · **含全文摘要**：`1603` · **含代码链接**：`1192` · **顶会正式发表**：`1010`
+- **论文总数**：`2178` （已去重）
+- **含论文链接**：`2175` · **含全文摘要**：`1609` · **含代码链接**：`1192` · **顶会正式发表**：`1010`
 - 顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息
 - **覆盖年份**：2018 – 2027
 
@@ -81,9 +81,9 @@
 | 年份 | 数量 | 占比 |
 |------|------|------|
 | 2027 | 6 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| 2026 | 972 | `█████████░░░░░░░░░░░` 44.8%
-| 2025 | 769 | `███████░░░░░░░░░░░░░` 35.4%
-| 2024 | 375 | `███░░░░░░░░░░░░░░░░░` 17.3%
+| 2026 | 978 | `█████████░░░░░░░░░░░` 44.9%
+| 2025 | 769 | `███████░░░░░░░░░░░░░` 35.3%
+| 2024 | 375 | `███░░░░░░░░░░░░░░░░░` 17.2%
 | 2023 | 31 | `░░░░░░░░░░░░░░░░░░░░` 1.4%
 | 2022 | 7 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
 | 2021 | 5 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
@@ -96,17 +96,17 @@
 
 | 模型类型 | 说明 | 数量 |
 |----------|------|------|
-| **VLM** | 视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作） | 825 |
+| **VLM** | 视觉语言模型（LVLM，含自称 MLLM 但仅处理图像/视频+文本的工作） | 829 |
 | **MLLM(Omni)** | 全模态模型（Omni：音频 / 语音 / any-to-any） | 67 |
-| **LLM** | 纯语言大模型 | 1280 |
+| **LLM** | 纯语言大模型 | 1282 |
 
 
 ### 按方法类型分布
 
 | 方法类型 | 说明 | 数量 |
 |----------|------|------|
-| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1886 |
-| **Training-based** | 基于训练（偏好优化 / 微调 / 强化学习等） | 286 |
+| **Training-free** | 免训练（解码干预 / 注意力校准 / 表征引导等） | 1891 |
+| **Training-based** | 基于训练（偏好优化 / 微调 / 强化学习等） | 287 |
 
 
 <details>
@@ -175,7 +175,7 @@
 | USENIX Security Symposium | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | TNNLS | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.0%
 | 其他 | 233 | `██░░░░░░░░░░░░░░░░░░` 10.7%
-| arXiv（预印本） | 1132 | `██████████░░░░░░░░░░` 52.1%
+| arXiv（预印本） | 1138 | `██████████░░░░░░░░░░` 52.2%
 | 未标注 | 12 | `░░░░░░░░░░░░░░░░░░░░` 0.6%
 
 <details>
@@ -356,8 +356,8 @@
 | CCF-A | 463 | `████░░░░░░░░░░░░░░░░` 21.3%
 | CCF-B | 242 | `██░░░░░░░░░░░░░░░░░░` 11.1%
 | CCF-C | 36 | `░░░░░░░░░░░░░░░░░░░░` 1.7%
-| 未收录 | 1431 | `█████████████░░░░░░░` 65.9%
-> 📋 另有 `128` 篇 **评测 / Benchmark** 论文、📚 `35` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。
+| 未收录 | 1437 | `█████████████░░░░░░░` 66.0%
+> 📋 另有 `129` 篇 **评测 / Benchmark** 论文、📚 `35` 篇 **综述 Survey** 论文，作为独立标记单独列出（见下方对应小节），不占用方法分类。
 
 ---
 
@@ -385,18 +385,19 @@
 
 - **智能体（Agentic AI / Multi-Agent）** — 共 138 篇带 `Agent` 标签。
 - **检索增强生成（RAG / 忠实性）** — 共 179 篇带 `RAG` 标签。
-- **推理模型** — 共 414 篇带 `Reasoning` 标签。
+- **推理模型** — 共 415 篇带 `Reasoning` 标签。
 - **具身 / 世界模型** — 共 22 篇带 `Embodied` 标签。
 
 ---
 
 <a id="sec-benchmark"></a>
 ## 📋 评测与 Benchmark
-> 独立收录 `128` 篇评测 / Benchmark / 数据集论文（同时保留在下方主列表中，标有 📋）。
+> 独立收录 `129` 篇评测 / Benchmark / 数据集论文（同时保留在下方主列表中，标有 📋）。
 
 <details open>
-<summary>📋 评测与 Benchmark 列表 (128 papers — click to collapse / expand)</summary>
+<summary>📋 评测与 Benchmark 列表 (129 papers — click to collapse / expand)</summary>
 
+- **📋 [One Framework to Diagnose Them All: A Stratified Benchmark for Bengali LLM Hallucination](https://arxiv.org/abs/2611.26336)** · arXiv · LLM · Training-free
 - **📋 [InfiHall-Bench: A Benchmark for Hallucination Evaluation in Autoregressive Text-to-Image Generation](https://arxiv.org/abs/2611.18053)** · arXiv · VLM · Training-based
 - **📋 [They Know Where It Is, But Not What It Says: A Bilingual Hallucination Benchmark of Hadith Recall in Open LLMs](https://arxiv.org/abs/2611.02587)** · arXiv · LLM · Training-free · 💻[code](https://github.com/dayam8696/Hadith-Hallucination-Benchmark)
 - **📋 [LexAgentHallu: A Hierarchical Benchmark for Profiling Hallucinations in Legal Agents](https://arxiv.org/abs/2609.09754)** · EMNLP 2026 · LLM · Training-free · 💻[code](https://github.com/TOM-ZHOUch/LexAgentHallu)
@@ -580,7 +581,7 @@
 | 年份 | 篇数 | 分册 |
 |---|---|---|
 | 2027 | 6 | [2027.md](papers/2027.md) |
-| 2026 | 972 | [2026.md](papers/2026.md) |
+| 2026 | 978 | [2026.md](papers/2026.md) |
 | 2025 | 769 | [2025.md](papers/2025.md) |
 | 2024 | 375 | [2024.md](papers/2024.md) |
 | 2023 | 31 | [2023.md](papers/2023.md) |

@@ -6167,5 +6167,11 @@
   "year": 2026,
   "ee": "https://doi.org/10.18653/2026.emnlp-main.2372"
  },
- "amechanisticanalysisofincontextlearningandoutofcontexthallucination": ""
+ "amechanisticanalysisofincontextlearningandoutofcontexthallucination": "",
+ "contrastwhereitmattersvisualevidenceguideddecodingformitigatinghallucinationsinlvlms": "",
+ "measuringhallucinationinlargelanguagemodelsforcyberthreatintelligenceanexploratorystudy": "",
+ "oneframeworktodiagnosethemallastratifiedbenchmarkforbengalillmhallucination": "",
+ "supportguidedtriadicdecodingforhallucinationmitigationinmultimodaldialoguewithlvlms": "",
+ "whatdoesantihallucinationtrainingbuysayinglesscheappruningandtherest": "",
+ "whensafetyrationaleshallucinatediagnosingandgroundingmultimodalsafetyguards": ""
 }

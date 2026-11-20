@@ -6,11 +6,11 @@
 >
 > Covers **detection, evaluation, and mitigation** of hallucinations, with multi-dimensional faceted filtering by model type, method type, and year, plus tags for modality and scenario.
 >
-> Taxonomy is auto-labeled from the **full arXiv abstract text** (1603/2172 papers), not just title keywords.
+> Taxonomy is auto-labeled from the **full arXiv abstract text** (1609/2178 papers), not just title keywords.
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Papers-2172-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1603-9cf' />
+  <img src='https://img.shields.io/badge/Papers-2178-blue' />
+  <img src='https://img.shields.io/badge/Abstract--based-1609-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-11&color=orange' />
 </p>
@@ -71,8 +71,8 @@ If you find this repository helpful for your research, we would appreciate citat
 
 <a id="sec-overview"></a>
 ## 📊 Data Overview
-- **Total papers**：`2172` (deduplicated)
-- **With paper link**：`2169` · **With abstract**：`1603` · **With code**：`1192` · **Published at venue**：`1010`
+- **Total papers**：`2178` (deduplicated)
+- **With paper link**：`2175` · **With abstract**：`1609` · **With code**：`1192` · **Published at venue**：`1010`
 - For papers published at a venue: time and link prioritize the official conference/journal info (DBLP), otherwise arXiv info is used.
 - **Year range**：2018 – 2027
 
@@ -81,9 +81,9 @@ If you find this repository helpful for your research, we would appreciate citat
 | Year | Count | Share |
 |------|------|------|
 | 2027 | 6 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| 2026 | 972 | `█████████░░░░░░░░░░░` 44.8%
-| 2025 | 769 | `███████░░░░░░░░░░░░░` 35.4%
-| 2024 | 375 | `███░░░░░░░░░░░░░░░░░` 17.3%
+| 2026 | 978 | `█████████░░░░░░░░░░░` 44.9%
+| 2025 | 769 | `███████░░░░░░░░░░░░░` 35.3%
+| 2024 | 375 | `███░░░░░░░░░░░░░░░░░` 17.2%
 | 2023 | 31 | `░░░░░░░░░░░░░░░░░░░░` 1.4%
 | 2022 | 7 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
 | 2021 | 5 | `░░░░░░░░░░░░░░░░░░░░` 0.2%
@@ -96,17 +96,17 @@ If you find this repository helpful for your research, we would appreciate citat
 
 | Model Type | Description | Count |
 |----------|------|------|
-| **VLM** | Vision-Language Model (LVLM; also covers works that call themselves MLLM but handle only image/video + text) | 825 |
+| **VLM** | Vision-Language Model (LVLM; also covers works that call themselves MLLM but handle only image/video + text) | 829 |
 | **MLLM(Omni)** | Omni / full-modal model (audio / speech / any-to-any) | 67 |
-| **LLM** | Pure text-based LLM | 1280 |
+| **LLM** | Pure text-based LLM | 1282 |
 
 
 ### Method Type
 
 | Method Type | Description | Count |
 |----------|------|------|
-| **Training-free** | Training-free (decoding intervention / attention calibration / representation guidance, etc.) | 1886 |
-| **Training-based** | Training-based (preference optimization / fine-tuning / RL, etc.) | 286 |
+| **Training-free** | Training-free (decoding intervention / attention calibration / representation guidance, etc.) | 1891 |
+| **Training-based** | Training-based (preference optimization / fine-tuning / RL, etc.) | 287 |
 
 
 <details>
@@ -175,7 +175,7 @@ If you find this repository helpful for your research, we would appreciate citat
 | USENIX Security Symposium | 2 | `░░░░░░░░░░░░░░░░░░░░` 0.1%
 | TNNLS | 1 | `░░░░░░░░░░░░░░░░░░░░` 0.0%
 | Other | 233 | `██░░░░░░░░░░░░░░░░░░` 10.7%
-| arXiv (preprint) | 1132 | `██████████░░░░░░░░░░` 52.1%
+| arXiv (preprint) | 1138 | `██████████░░░░░░░░░░` 52.2%
 | Unlabeled | 12 | `░░░░░░░░░░░░░░░░░░░░` 0.6%
 
 <details>
@@ -356,8 +356,8 @@ If you find this repository helpful for your research, we would appreciate citat
 | CCF-A | 463 | `████░░░░░░░░░░░░░░░░` 21.3%
 | CCF-B | 242 | `██░░░░░░░░░░░░░░░░░░` 11.1%
 | CCF-C | 36 | `░░░░░░░░░░░░░░░░░░░░` 1.7%
-| Not in CCF | 1431 | `█████████████░░░░░░░` 65.9%
-> 📋 `128` **Benchmark** papers and 📚 `35` **Survey** papers are listed separately (see sections below) and do not affect the method taxonomy.
+| Not in CCF | 1437 | `█████████████░░░░░░░` 66.0%
+> 📋 `129` **Benchmark** papers and 📚 `35` **Survey** papers are listed separately (see sections below) and do not affect the method taxonomy.
 
 ---
 
@@ -385,18 +385,19 @@ Hallucination research is moving fast. These directions are especially hot in 20
 
 - **Agentic AI / Multi-Agent** — 138 papers tagged `Agent`.
 - **RAG / Faithfulness** — 179 papers tagged `RAG`.
-- **Reasoning Models** — 414 papers tagged `Reasoning`.
+- **Reasoning Models** — 415 papers tagged `Reasoning`.
 - **Embodied / World Model** — 22 papers tagged `Embodied`.
 
 ---
 
 <a id="sec-benchmark"></a>
 ## 📋 Benchmarks & Evaluation
-> 128 evaluation / benchmark / dataset papers are listed separately (also kept in the main list below, marked 📋).
+> 129 evaluation / benchmark / dataset papers are listed separately (also kept in the main list below, marked 📋).
 
 <details open>
-<summary>📋 Benchmark List (128 papers — click to collapse / expand)</summary>
+<summary>📋 Benchmark List (129 papers — click to collapse / expand)</summary>
 
+- **📋 [One Framework to Diagnose Them All: A Stratified Benchmark for Bengali LLM Hallucination](https://arxiv.org/abs/2611.26336)** · arXiv · LLM · Training-free
 - **📋 [InfiHall-Bench: A Benchmark for Hallucination Evaluation in Autoregressive Text-to-Image Generation](https://arxiv.org/abs/2611.18053)** · arXiv · VLM · Training-based
 - **📋 [They Know Where It Is, But Not What It Says: A Bilingual Hallucination Benchmark of Hadith Recall in Open LLMs](https://arxiv.org/abs/2611.02587)** · arXiv · LLM · Training-free · 💻[code](https://github.com/dayam8696/Hadith-Hallucination-Benchmark)
 - **📋 [LexAgentHallu: A Hierarchical Benchmark for Profiling Hallucinations in Legal Agents](https://arxiv.org/abs/2609.09754)** · EMNLP 2026 · LLM · Training-free · 💻[code](https://github.com/TOM-ZHOUch/LexAgentHallu)
@@ -580,7 +581,7 @@ Hallucination research is moving fast. These directions are especially hot in 20
 | Year | Papers | File |
 |---|---|---|
 | 2027 | 6 | [2027.md](papers/2027.md) |
-| 2026 | 972 | [2026.md](papers/2026.md) |
+| 2026 | 978 | [2026.md](papers/2026.md) |
 | 2025 | 769 | [2025.md](papers/2025.md) |
 | 2024 | 375 | [2024.md](papers/2024.md) |
 | 2023 | 31 | [2023.md](papers/2023.md) |
