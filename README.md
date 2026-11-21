@@ -6,11 +6,11 @@
 >
 > Covers **detection, evaluation, and mitigation** of hallucinations, with multi-dimensional faceted filtering by model type, method type, and year, plus tags for modality and scenario.
 >
-> Taxonomy is auto-labeled from the **full arXiv abstract text** (1609/2178 papers), not just title keywords.
+> Taxonomy is auto-labeled from the **full arXiv abstract text** (1611/2178 papers), not just title keywords.
 
 <p align='center'>
   <img src='https://img.shields.io/badge/Papers-2178-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1609-9cf' />
+  <img src='https://img.shields.io/badge/Abstract--based-1611-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-11&color=orange' />
 </p>
@@ -72,7 +72,7 @@ If you find this repository helpful for your research, we would appreciate citat
 <a id="sec-overview"></a>
 ## 📊 Data Overview
 - **Total papers**：`2178` (deduplicated)
-- **With paper link**：`2175` · **With abstract**：`1609` · **With code**：`1192` · **Published at venue**：`1010`
+- **With paper link**：`2175` · **With abstract**：`1611` · **With code**：`1207` · **Published at venue**：`1010`
 - For papers published at a venue: time and link prioritize the official conference/journal info (DBLP), otherwise arXiv info is used.
 - **Year range**：2018 – 2027
 
@@ -398,7 +398,7 @@ Hallucination research is moving fast. These directions are especially hot in 20
 <summary>📋 Benchmark List (129 papers — click to collapse / expand)</summary>
 
 - **📋 [One Framework to Diagnose Them All: A Stratified Benchmark for Bengali LLM Hallucination](https://arxiv.org/abs/2611.26336)** · arXiv · LLM · Training-free
-- **📋 [InfiHall-Bench: A Benchmark for Hallucination Evaluation in Autoregressive Text-to-Image Generation](https://arxiv.org/abs/2611.18053)** · arXiv · VLM · Training-based
+- **📋 [InfiHall-Bench: A Benchmark for Hallucination Evaluation in Autoregressive Text-to-Image Generation](https://arxiv.org/abs/2611.18053)** · arXiv · VLM · Training-based · 💻[code](https://github.com/suncosmoss/app-ads.txt)
 - **📋 [They Know Where It Is, But Not What It Says: A Bilingual Hallucination Benchmark of Hadith Recall in Open LLMs](https://arxiv.org/abs/2611.02587)** · arXiv · LLM · Training-free · 💻[code](https://github.com/dayam8696/Hadith-Hallucination-Benchmark)
 - **📋 [LexAgentHallu: A Hierarchical Benchmark for Profiling Hallucinations in Legal Agents](https://arxiv.org/abs/2609.09754)** · EMNLP 2026 · LLM · Training-free · 💻[code](https://github.com/TOM-ZHOUch/LexAgentHallu)
 - **📋 [SHAM-Bench: A Span-level Hallucination Benchmark Across Multiple Tasks](https://arxiv.org/abs/2610.27370)** · arXiv · LLM · Training-based

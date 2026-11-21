@@ -6,11 +6,11 @@
 >
 > 涵盖幻觉的**检测、评测与缓解**方法，支持按模型类型、方法类型、年份多维交叉筛选，并以标签补充模态与场景。
 >
-> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1609/2178 篇），非仅标题关键词。
+> 分类标注基于 **arXiv 论文摘要全文**自动分析（覆盖 1611/2178 篇），非仅标题关键词。
 
 <p align='center'>
   <img src='https://img.shields.io/badge/Papers-2178-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1609-9cf' />
+  <img src='https://img.shields.io/badge/Abstract--based-1611-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-11&color=orange' />
 </p>
@@ -72,7 +72,7 @@
 <a id="sec-overview"></a>
 ## 📊 数据概览
 - **论文总数**：`2178` （已去重）
-- **含论文链接**：`2175` · **含全文摘要**：`1609` · **含代码链接**：`1192` · **顶会正式发表**：`1010`
+- **含论文链接**：`2175` · **含全文摘要**：`1611` · **含代码链接**：`1207` · **顶会正式发表**：`1010`
 - 顶会正式发表的论文：**时间与链接优先采用会议官方信息**（DBLP 记录），其余采用 arXiv 信息
 - **覆盖年份**：2018 – 2027
 
@@ -398,7 +398,7 @@
 <summary>📋 评测与 Benchmark 列表 (129 papers — click to collapse / expand)</summary>
 
 - **📋 [One Framework to Diagnose Them All: A Stratified Benchmark for Bengali LLM Hallucination](https://arxiv.org/abs/2611.26336)** · arXiv · LLM · Training-free
-- **📋 [InfiHall-Bench: A Benchmark for Hallucination Evaluation in Autoregressive Text-to-Image Generation](https://arxiv.org/abs/2611.18053)** · arXiv · VLM · Training-based
+- **📋 [InfiHall-Bench: A Benchmark for Hallucination Evaluation in Autoregressive Text-to-Image Generation](https://arxiv.org/abs/2611.18053)** · arXiv · VLM · Training-based · 💻[code](https://github.com/suncosmoss/app-ads.txt)
 - **📋 [They Know Where It Is, But Not What It Says: A Bilingual Hallucination Benchmark of Hadith Recall in Open LLMs](https://arxiv.org/abs/2611.02587)** · arXiv · LLM · Training-free · 💻[code](https://github.com/dayam8696/Hadith-Hallucination-Benchmark)
 - **📋 [LexAgentHallu: A Hierarchical Benchmark for Profiling Hallucinations in Legal Agents](https://arxiv.org/abs/2609.09754)** · EMNLP 2026 · LLM · Training-free · 💻[code](https://github.com/TOM-ZHOUch/LexAgentHallu)
 - **📋 [SHAM-Bench: A Span-level Hallucination Benchmark Across Multiple Tasks](https://arxiv.org/abs/2610.27370)** · arXiv · LLM · Training-based
