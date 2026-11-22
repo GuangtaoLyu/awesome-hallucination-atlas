@@ -6,11 +6,11 @@
 >
 > Covers **detection, evaluation, and mitigation** of hallucinations, with multi-dimensional faceted filtering by model type, method type, and year, plus tags for modality and scenario.
 >
-> Taxonomy is auto-labeled from the **full arXiv abstract text** (1611/2178 papers), not just title keywords.
+> Taxonomy is auto-labeled from the **full arXiv abstract text** (1612/2179 papers), not just title keywords.
 
 <p align='center'>
-  <img src='https://img.shields.io/badge/Papers-2178-blue' />
-  <img src='https://img.shields.io/badge/Abstract--based-1611-9cf' />
+  <img src='https://img.shields.io/badge/Papers-2179-blue' />
+  <img src='https://img.shields.io/badge/Abstract--based-1612-9cf' />
   <img src='https://img.shields.io/badge/PRs-Welcome-brightgreen' />
   <img src='https://img.shields.io/static/v1?label=Last%20Update&message=2026-11&color=orange' />
 </p>
@@ -71,8 +71,8 @@ If you find this repository helpful for your research, we would appreciate citat
 
 <a id="sec-overview"></a>
 ## 📊 Data Overview
-- **Total papers**：`2178` (deduplicated)
-- **With paper link**：`2175` · **With abstract**：`1611` · **With code**：`1207` · **Published at venue**：`1010`
+- **Total papers**：`2179` (deduplicated)
+- **With paper link**：`2176` · **With abstract**：`1612` · **With code**：`1208` · **Published at venue**：`1011`
 - For papers published at a venue: time and link prioritize the official conference/journal info (DBLP), otherwise arXiv info is used.
 - **Year range**：2018 – 2027
 
@@ -81,7 +81,7 @@ If you find this repository helpful for your research, we would appreciate citat
 | Year | Count | Share |
 |------|------|------|
 | 2027 | 6 | `░░░░░░░░░░░░░░░░░░░░` 0.3%
-| 2026 | 978 | `█████████░░░░░░░░░░░` 44.9%
+| 2026 | 979 | `█████████░░░░░░░░░░░` 44.9%
 | 2025 | 769 | `███████░░░░░░░░░░░░░` 35.3%
 | 2024 | 375 | `███░░░░░░░░░░░░░░░░░` 17.2%
 | 2023 | 31 | `░░░░░░░░░░░░░░░░░░░░` 1.4%
@@ -96,7 +96,7 @@ If you find this repository helpful for your research, we would appreciate citat
 
 | Model Type | Description | Count |
 |----------|------|------|
-| **VLM** | Vision-Language Model (LVLM; also covers works that call themselves MLLM but handle only image/video + text) | 829 |
+| **VLM** | Vision-Language Model (LVLM; also covers works that call themselves MLLM but handle only image/video + text) | 830 |
 | **MLLM(Omni)** | Omni / full-modal model (audio / speech / any-to-any) | 67 |
 | **LLM** | Pure text-based LLM | 1282 |
 
@@ -105,7 +105,7 @@ If you find this repository helpful for your research, we would appreciate citat
 
 | Method Type | Description | Count |
 |----------|------|------|
-| **Training-free** | Training-free (decoding intervention / attention calibration / representation guidance, etc.) | 1891 |
+| **Training-free** | Training-free (decoding intervention / attention calibration / representation guidance, etc.) | 1892 |
 | **Training-based** | Training-based (preference optimization / fine-tuning / RL, etc.) | 287 |
 
 
@@ -119,7 +119,7 @@ If you find this repository helpful for your research, we would appreciate citat
 | Venue / Journal | Count | Share |
 |-------------|------|------|
 | ACL | 153 | `█░░░░░░░░░░░░░░░░░░░` 7.0%
-| EMNLP | 113 | `█░░░░░░░░░░░░░░░░░░░` 5.2%
+| EMNLP | 114 | `█░░░░░░░░░░░░░░░░░░░` 5.2%
 | AAAI | 65 | `█░░░░░░░░░░░░░░░░░░░` 3.0%
 | CVPR | 65 | `█░░░░░░░░░░░░░░░░░░░` 3.0%
 | NeurIPS | 45 | `░░░░░░░░░░░░░░░░░░░░` 2.1%
@@ -353,10 +353,10 @@ If you find this repository helpful for your research, we would appreciate citat
 
 | CCF Rating | Count | Share |
 |----------|------|------|
-| CCF-A | 463 | `████░░░░░░░░░░░░░░░░` 21.3%
-| CCF-B | 242 | `██░░░░░░░░░░░░░░░░░░` 11.1%
+| CCF-A | 463 | `████░░░░░░░░░░░░░░░░` 21.2%
+| CCF-B | 243 | `██░░░░░░░░░░░░░░░░░░` 11.2%
 | CCF-C | 36 | `░░░░░░░░░░░░░░░░░░░░` 1.7%
-| Not in CCF | 1437 | `█████████████░░░░░░░` 66.0%
+| Not in CCF | 1437 | `█████████████░░░░░░░` 65.9%
 > 📋 `129` **Benchmark** papers and 📚 `35` **Survey** papers are listed separately (see sections below) and do not affect the method taxonomy.
 
 ---
@@ -581,7 +581,7 @@ Hallucination research is moving fast. These directions are especially hot in 20
 | Year | Papers | File |
 |---|---|---|
 | 2027 | 6 | [2027.md](papers/2027.md) |
-| 2026 | 978 | [2026.md](papers/2026.md) |
+| 2026 | 979 | [2026.md](papers/2026.md) |
 | 2025 | 769 | [2025.md](papers/2025.md) |
 | 2024 | 375 | [2024.md](papers/2024.md) |
 | 2023 | 31 | [2023.md](papers/2023.md) |
