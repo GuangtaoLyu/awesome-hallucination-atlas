@@ -64,3 +64,8 @@
   authors: "Bhatnagar et al."
   url: "https://arxiv.org/abs/2601.14210"
   year: 2026
+
+- title: "When Seeing Is Not Enough: Benchmarking Interactive Visual Grounding in LVLMs"
+  authors: "Zhengxiang Wang, Owen Rambow"
+  url: "https://arxiv.org/abs/2608.23978"
+  year: 2026

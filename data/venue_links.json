@@ -5588,6 +5588,11 @@
  },
  "whenpromptsoverridevisionpromptinducedhallucinationsinlvlms": "",
  "whenrelationsbreakanalyzingrelationhallucinationinvisionlanguagemodelunderrotationandnoise": "",
+ "whenseeingisnotenoughbenchmarkinginteractivevisualgroundinginlvlms": {
+  "venue": "EMNLP",
+  "year": 2026,
+  "ee": "https://aclanthology.org/2026.emnlp-main.488/"
+ },
  "whensemanticsmisleadvisionmitigatinglargemultimodalmodelshallucinationsinscenetextspottingandunderstanding": "",
  "whentexthijacksvisionbenchmarkingandmitigatingtextoverlayinducedhallucinationinvisionlanguagemodels": "",
  "wheredoesreasoningbreaksteplevelhallucinationdetectionviahiddenstatetransportgeometry": "",
