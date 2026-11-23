@@ -1189,6 +1189,7 @@
 "llminternalstatesrevealhallucinationriskfacedwithaquery": 2024,
 "llmscanchecktheirownresultstomitigatehallucinationsintrafficunderstandingtasks": 2024,
 "llmsknowmorethantheyshowontheintrinsicrepresentationofllmhallucinations": 2025,
+"llmsmemorizetheirownhallucinationsduringposttraining": 2026,
 "llmspromptedforgraphshallucinationsandgenerativecapabilities": 2026,
 "localintrinsicdimensionunveilshallucinationsindiffusionmodels": 2026,
 "localizingbeforeansweringahallucinationevaluationbenchmarkforgroundedmedicalmultimodalllms": 2025,
