@@ -6179,5 +6179,10 @@
  "supportguidedtriadicdecodingforhallucinationmitigationinmultimodaldialoguewithlvlms": "",
  "whatdoesantihallucinationtrainingbuysayinglesscheappruningandtherest": "",
  "whensafetyrationaleshallucinatediagnosingandgroundingmultimodalsafetyguards": "",
- "llmsmemorizetheirownhallucinationsduringposttraining": ""
+ "llmsmemorizetheirownhallucinationsduringposttraining": "",
+ "closeacalibratedlabelfreeonlineselfevaluatingverifierforobjecthallucinationinvisionlanguagemodels": "",
+ "benchmarkingvlmmedicalhallucinationacross5modalities": "",
+ "rethinkingtheevaluationofcontrastivedecodingforhallucinationmitigationinmultimodallargelanguagemodels": "",
+ "sfflowspectralflowmatchingwithhighstructuralfidelityforhallucinationsuppressedscientificimagegeneration": "",
+ "trainingfreeinterventionsforhallucinationinlargelanguagemodels": ""
 }
