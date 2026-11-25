@@ -6184,5 +6184,7 @@
  "benchmarkingvlmmedicalhallucinationacross5modalities": "",
  "rethinkingtheevaluationofcontrastivedecodingforhallucinationmitigationinmultimodallargelanguagemodels": "",
  "sfflowspectralflowmatchingwithhighstructuralfidelityforhallucinationsuppressedscientificimagegeneration": "",
- "trainingfreeinterventionsforhallucinationinlargelanguagemodels": ""
+ "trainingfreeinterventionsforhallucinationinlargelanguagemodels": "",
+ "morepowerfullessverifiablemitigatinghardtoverifyhallucinationsinmllmsreinforcementlearning": "",
+ "verifythensteerprogresshallucinationawarerecoveryforcontinuousvisionandlanguagenavigation": ""
 }
