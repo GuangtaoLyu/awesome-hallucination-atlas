@@ -6328,5 +6328,35 @@
     "Jianhong Pang, Ziyi Ye, Qiuxia Hou, Yanhao Zhang, Zuxuan Wu",
     "https://arxiv.org/abs/2611.32055",
     2026
+  ],
+  [
+    "TASK Memory: Beyond Text-Only Memory with Activation Steering and Knowledge Editing against Memory Hallucination",
+    "Jinkun Zhao, Wenjun Wu",
+    "https://arxiv.org/abs/2611.34762",
+    2026
+  ],
+  [
+    "SEAM: A Self-Evolving and Adaptive Probing Framework for Automatic MLLM Hallucination Evaluation",
+    "Shiyu Zhang, Zengyi Wo, Yuming Liao, Ran He, Caifeng Shan, Yanbo Fan",
+    "https://arxiv.org/abs/2611.34598",
+    2026
+  ],
+  [
+    "Mitigating Hallucinations in Medical Question Answering on ESC Cardiology Guidelines: Evaluation and Retrieval Optimization",
+    "Ilkin Masimov, Rufana Baghirli, Muhammad Rashid",
+    "https://arxiv.org/abs/2611.34427",
+    2026
+  ],
+  [
+    "Beyond Logits: Coherent Hallucination Mitigation via Attention Contrastive Decoding",
+    "Yujia Chen, Rui Sun, Huayu Mai, Wangkai Li, Zhangyu He, Bingzhou Wang, Aibing Li, Wenzhang Sun, Tianzhu Zhang",
+    "https://arxiv.org/abs/2611.34207",
+    2026
+  ],
+  [
+    "EVA: Evidence-seeking Visual Agent for Hallucination-Resistant Multimodal Reasoning",
+    "Ting Lei, Yu Chen, Yang Liu",
+    "https://arxiv.org/abs/2611.33706",
+    2026
   ]
 ]
